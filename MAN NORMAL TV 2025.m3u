@@ -449,7 +449,7 @@ https://7mumdur.online/705/index.m3u8
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://7mumdur.online/730/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR DUMAN" tvg-logo="http://logo.multicms.info/tvlogo/smartspor.png" group-title="BEIN SPORTS",SMART SPORTS 1
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR DUMAN" tvg-logo="http://logo.multicms.info/tvlogo/smartspor.png" group-title="BEIN SPORTS",SMART SPORTS  1
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://7mumdur.online/707/index.m3u8
 
@@ -1136,10 +1136,10 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 
 # * » İçerik yeşilçam 7-24 « * #
-#EXTINF:-1 tvg-name="ARZU FİLM" tvg-language="Turkish" tvg-country="TR" tvg-id="ARZU FİLM" group-title="YEŞİLCAM7/24"
+#EXTINF:-1 tvg-name="ARZU FİLM" tvg-language="Turkish" tvg-country="TR" tvg-id="ARZU FİLM" group-title="YEŞİLCAM7/24",ARZU FİLM
 https://www.youtube.com/watch?v=hfx8H7YrmTw
 
-#EXTINF:-1 tvg-name="gülşah film" tvg-language="Turkish" tvg-country="TR" tvg-id="gülşah film group-title="YEŞİLCAM7/24"
+#EXTINF:-1 tvg-name="gülşah film" tvg-language="Turkish" tvg-country="TR" tvg-id="gülşah film group-title="YEŞİLCAM7/24",GÜLŞAH FİLM
 https://www.youtube.com/watch?v=wi75yRkoK4A
 
 
