@@ -162,8 +162,9 @@ https://canli.ihlasdigitalassets.com/tgrtbelgesel.m3u8
 #EXTINF:-1 tvg-name="Çiftçi TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_CiftciTV" tvg-logo="https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png" group-title="Belgesel",Çiftçi TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 
+
 SPOR PANEL 4 TR GOALS
-#EXTINF:-1 tvg-name="TRGOL" tvg-language="Turkish" tvg-country="TR" tvg-id="MNK BEİN1_beINSPORTS" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",TRGOL
+#EXTINF:-1 tvg-name="TRGOL" tvg-language="Turkish" tvg-country="TR" tvg-id="MNK BEİN1_TRGOL" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",TRGOL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1097.xyz/
 https://k0.b4c8d3e9f1a2b7c5d5.cfd/yayinzirve.m3u8
@@ -370,60 +371,13 @@ https://06.zirvedeyim47.cfd/yayinnbatv.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/beinsports1.png" group-title="MNK BEİN1",BEIN SPORTS 1
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://12mumdur.online/704/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/beinsports2.png" group-title="BEIN SPORTS",BEIN SPORTS 2
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/702/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/beinsports3.png" group-title="BEIN SPORTS",BEIN SPORTS 3
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/703/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/beinsports4.png" group-title="BEIN SPORTS",BEIN SPORTS 4
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://12mumdur.online/704/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="BEİN SPORTS MAX 1 DUMAN " tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="BEIN SPORTS",BEIN SPORTS mx1
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/716/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="BEİN SPORTS MAX 2 DUMAN" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="BEIN SPORTS",BEIN SPORTS mx2
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/717/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS DUMAN " tvg-logo="http://logo.multicms.info/logoslar/ssporthd.png" group-title="BEIN SPORTS",SPORTS 1
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/705/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2 DUMAN" tvg-logo="https://logo.multicms.info/logoslar/ssporthd.png" group-title="BEIN SPORTS",ssp 2
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/730/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR DUMAN" tvg-logo="http://logo.multicms.info/tvlogo/smartspor.png" group-title="BEIN SPORTS",SMART SPORTS  1
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/707/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1 DUMAN" tvg-logo="https://logo.multicms.info/logoslar/tivibuspor.png" group-title="BEIN SPORTS",TİVİ SPORTS 1
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/708/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİ2
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/711/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİ3
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/712/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 4 DUMAN" tvg-logo="http://logo.multicms.info/tvlogo/tivibuspor4hd.png" group-title="BEIN SPORTS",TİVİ4
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://7mumdur.online/722/index.m3u8
 ******************** BEİNSPORTS 1******************************
 
-
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 DUMAN" tvg-logo="http://logo.multicms.info/logoslar/beinsports1.png" group-title="MNK BEİN1",BEIN SPORTS 1 DUMAN
+#EXTVLCOPT:http-referrer=https://122dumantv.com/
+https://12mumdur.online/704/index.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="MNK BEİN1",BEIN SPORTS 1
@@ -437,11 +391,6 @@ https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/601/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="MNK BEİN1", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/601/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="MNK BEİN1",BEIN SPORTS 1
-#EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
-https://t6co.ragiccc355xc.workers.dev//yayinstar.m3u8
-
-
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 (Maç Zamanı)" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="MNK BEİN1" BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://total-sportek.io/
 https://a1.1xnews.pro/watch/893wMcI17tjQPR4c0nAymw/1736015761/1736016015/1/b1tr_1.m3u8
@@ -451,29 +400,29 @@ https://a1.1xnews.pro/watch/893wMcI17tjQPR4c0nAymw/1736015761/1736016015/1/b1tr_
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS",BEIN SPORTS 2
 https://www.youtube.com/@cine10tv
 
 
 ******************** BEİNSPORTS 2******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="BEIN SPORTS",BEIN SPORTS 2
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/702/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="BEIN SPORTS",BEIN SPORTS 2
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinb2.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🇹🇷 BEIN SPORTS", BEIN SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="BEIN SPORTS", BEIN SPORTS 2
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/602/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="BEIN SPORTS", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/602/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="BEIN SPORTS",BEIN SPORTS 2
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinb2.m3u8
 
@@ -485,7 +434,7 @@ https://t6co.ragiccc355xc.workers.dev//yayinb2.m3u8
 ******************** BEİNSPORTS 3******************************
 
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 3
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 3
 https://www.youtube.com/@cine10tv
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🇹🇷 BEIN SPORTS"
@@ -493,20 +442,20 @@ https://www.youtube.com/@cine10tv
 https://12mumdur.online/703/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 3
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="BEIN SPORTS",BEIN SPORTS 3
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinb3.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🇹🇷 BEIN SPORTS",  
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="BEIN SPORTS",  
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/603/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="BEIN SPORTS", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/603/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 3
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="BEIN SPORTS",BEIN SPORTS 3
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinb3.m3u8
 
@@ -518,7 +467,7 @@ https://t6co.ragiccc355xc.workers.dev//yayinb3.m3u8
 ******************** BEİNSPORTS 4******************************
 
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 4
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 4
 https://www.youtube.com/@cine10tv
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🇹🇷 BEIN SPORTS"
@@ -526,21 +475,21 @@ https://www.youtube.com/@cine10tv
 https://12mumdur.online/704/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 4
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="BEIN SPORTS",BEIN SPORTS 4
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinb4.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="BEIN SPORTS", 
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/604/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="BEIN SPORTS", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/604/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="https://i.imgur.com/4ZVIHfb.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 4
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="https://i.imgur.com/4ZVIHfb.png" group-title="BEIN SPORTS",BEIN SPORTS 4
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinb4.m3u8
 
@@ -550,22 +499,22 @@ https://t6co.ragiccc355xc.workers.dev//yayinb4.m3u8
 
 ******************** BEİNSPORTS 5******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 5
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="BEIN SPORTS",BEIN SPORTS 5
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinb5.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="BEIN SPORTS", 
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/605/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🇹🇷 BEIN SPORTS",
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="BEIN SPORTS",
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/605/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 5
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="BEIN SPORTS",BEIN SPORTS 5
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinb5.m3u8
 
@@ -574,7 +523,7 @@ https://t6co.ragiccc355xc.workers.dev//yayinb5.m3u8
 
 ******************** BEİNSPORTS M1******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
 
@@ -583,22 +532,22 @@ https://www.youtube.com/@cine10tv
 https://12mumdur.online/716/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS M1
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="BEIN SPORTS",BEIN SPORTS M1
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinbm1.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="BEIN SPORTS", 
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/805/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="BEIN SPORTS", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/805/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS M1
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="http://72register34.com/logos/beinmax1fhd.png" group-title="BEIN SPORTS",BEIN SPORTS M1
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinbm1.m3u8
 
@@ -608,7 +557,7 @@ https://t6co.ragiccc355xc.workers.dev//yayinbm1.m3u8
 
 ******************** BEİNSPORTS M2******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
 
@@ -618,19 +567,19 @@ https://12mumdur.online/717/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS M2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="BEIN SPORTS",BEIN SPORTS M2
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinbm2.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="BEIN SPORTS", 
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/806/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="🇹🇷 BEIN SPORTS", 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="BEIN SPORTS", 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/806/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS M2
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="http://72register34.com/logos/beinmax2fhd.png" group-title="BEIN SPORTS",BEIN SPORTS M2
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinbm2.m3u8
 
@@ -643,30 +592,30 @@ https://t6co.ragiccc355xc.workers.dev//yayinbm2.m3u8
 
 ******************** S SPORTS ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="BEIN SPORTS",S SPORTS
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/705/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="BEIN SPORTS",S SPORTS
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinss.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇹🇷 BEIN SPORTS", S SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="BEIN SPORTS", S SPORTS
 https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/3450/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="BEIN SPORTS",S SPORTS
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/3450/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="BEIN SPORTS",S SPORTS
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinss.m3u8
 
@@ -676,28 +625,28 @@ https://t6co.ragiccc355xc.workers.dev//yayinss.m3u8
 
 ******************** S SPORTS 2 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="BEIN SPORTS",S SPORTS 2
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/730/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="BEIN SPORTS",S SPORTS 2
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinss2.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="🇹🇷 BEIN SPORTS",,S SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="BEIN SPORTS",,S SPORTS 2
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/3451/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="BEIN SPORTS",S SPORTS 2
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/3451/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="🇹🇷 BEIN SPORTS",S SPORTS 2
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png" group-title="BEIN SPORTS",S SPORTS 2
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinss2.m3u8
 
@@ -713,28 +662,28 @@ https://t6co.ragiccc355xc.workers.dev//yayinss2.m3u8
 
 ******************** SMART SPOR  ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🇹🇷 BEIN SPORTS",SMARTS SPOR
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="BEIN SPORTS",SMARTS SPOR
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/707/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🇹🇷 BEIN SPORTS",SMARTS SPOR
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="BEIN SPORTS",SMARTS SPOR
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinsmarts.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR " tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🇹🇷 BEIN SPORTS",SMARTS SPOR
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR " tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="BEIN SPORTS",SMARTS SPOR
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/102/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR " tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🇹🇷 BEIN SPORTS",SMARTS SPOR
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR " tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="BEIN SPORTS",SMARTS SPOR
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/102/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🇹🇷 BEIN SPORTS",SMARTS SPOR
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="BEIN SPORTS",SMARTS SPOR
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinsmarts.m3u8
 
@@ -749,26 +698,26 @@ https://t6co.ragiccc355xc.workers.dev//yayinsmarts.m3u8
 
 ******************** SMART SPOR  2 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="🇹🇷 BEIN SPORTS",SMART SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="BEIN SPORTS",SMART SPOR 2
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/708/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="SMAT SPOR 2" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="🇹🇷 BEIN SPORTS",SMART SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="SMAT SPOR 2" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="BEIN SPORTS",SMART SPOR 2
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayinsms2.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR 2 " tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="🇹🇷 BEIN SPORTS",SMART SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR 2 " tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="BEIN SPORTS",SMART SPOR 2
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/104/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR 2 " tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="🇹🇷 BEIN SPORTS", SMART SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR 2 " tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="BEIN SPORTS", SMART SPOR 2
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/104/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="SMAT SPOR 2" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="🇹🇷 BEIN SPORTS",SMART SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="SMAT SPOR 2" tvg-logo="http://72register34.com/logos/sporsmart2hd.png" group-title="BEIN SPORTS",SMART SPOR 2
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinsms2.m3u8
 
@@ -781,22 +730,22 @@ https://t6co.ragiccc355xc.workers.dev//yayinsms2.m3u8
 
 ******************** TİVİBUSPOR  1 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 1
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/708/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 1
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayint1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 1
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/606/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 1
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/606/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
@@ -807,25 +756,25 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 
 ******************** TİVİBUSPOR  2 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 2
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/711/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 2
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayint2.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 2
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/607/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 2 
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 2 
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/607/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 2
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 2
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/711/index.m3u8
 
@@ -842,26 +791,26 @@ https://12mumdur.online/711/index.m3u8
 
 ******************** TİVİBUSPOR  3 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİBU SPOR
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/712/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 3
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 3
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayint3.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 3
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 3
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/608/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 3
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 3
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/608/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 3
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 3
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayint3.m3u8
 
@@ -873,23 +822,25 @@ https://t6co.ragiccc355xc.workers.dev//yayint3.m3u8
 
 ******************** TİVİBUSPOR  4 ******************************
 
-#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+#EXTINF:-1 tvg-id="" tvg-name="🔴🔴🔴 🇹🇷 🔴🔴🔴" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="BEIN SPORTS","BEIN SPORTS 
 https://www.youtube.com/@cine10tv
 
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 4
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 4
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/713/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 4
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 4
 #EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
 https://j.mevzuhls10.cfd/yayint4.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 4
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 4
 https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/609/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 4
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 4" tvg-logo="http://72register34.com/logos/tivibuspor4hd.png" group-title="BEIN SPORTS",TİVİBU SPOR 4
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/609/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
+
+
 
 
 
