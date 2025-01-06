@@ -2,7 +2,7 @@
 #EXTINF:-1 group-title="bad" tvg-name="Star TV",b1
 https://s400.rapidrame.com/hls2/01/00021/c3kipts0gtcq_,l,n,.urlset/index-f2-v1-a1.m3u8?t=-jbKqLHLf7dqgSx1y2YKOAKeULxnnzdARnMC4f2oOY8&s=1736175269&e=1199998800&f=108893&i=0.0&sp=0
 
-#EXTINF:-1 tvg-name="Star TV",b2
+#EXTINF:-1 group-title="bad" tvg-name="Star TV",b2
 https://s401.rapidrame.com/hls2/01/00021/up1ygt1nh4p3_,l,n,.urlset/index-f1-v1-a1.m3u8?t=x4GdpA1YEPDeCp_sF1RwziPW1sx0sBLiLo8tKO4Croc&s=1736175768&e=1199998800&f=108894&i=0.0&sp=0
 
 #EXTINF:-1group-title="bad" tvg-name="Star TV",b3
@@ -16,6 +16,8 @@ https://s298.rapidrame.com/hls2/01/00021/44cvnmj6blxd_,l,n,.urlset/index-f2-v1-a
 
 #EXTINF:-1 group-title="bad" tvg-name="Star TV",b6
 https://s350.rapidrame.com/hls2/01/00021/np1oiurhbg16_,l,n,.urlset/index-f1-v1-a1.m3u8?t=E_DBczNhbVPVt_fj57mf96bFKX2ma2TbAEdIKAtiMl4&s=1736175902&e=1199998800&f=109870&i=0.0&sp=0
+
+
 
 
 
