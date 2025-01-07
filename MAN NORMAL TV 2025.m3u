@@ -1,3 +1,193 @@
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX FHD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2740&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX HD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2741&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartpremium.tr" tvg-name="DIZI SMART PREMIUM FHD" tvg-logo="https://i.imgur.com/nKQQmHI.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2751&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartpremium.tr" tvg-name="DIZI SMART PREMIUM HD" tvg-logo="https://i.imgur.com/IK6qrkp.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART PREMIUM HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495936&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartmax.tr" tvg-name="DIZI SMART MAX FHD" tvg-logo="https://i.imgur.com/LAfbd03.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART MAX FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2750&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartmax.tr" tvg-name="DIZI SMART MAX HD" tvg-logo="https://i.imgur.com/saAhjfp.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART MAX HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=496000&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinmoviesturk.tr" tvg-name="MOVIE SMART TURK FHD" tvg-logo="https://i.imgur.com/shWJ4Tr.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART TURK FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2744&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinmoviesturk.tr" tvg-name="MOVIE SMART TURK HD" tvg-logo="https://i.imgur.com/AJProBA.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART TURK HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495999&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="moviesmartclassic.tr" tvg-name="MOVIE SMART CLASSIC FHD" tvg-logo="https://i.imgur.com/Sy9hYQj.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART CLASSIC FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2745&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="moviesmartclassic.tr" tvg-name="MOVIE SMART CLASSIC HD" tvg-logo="https://i.imgur.com/zIyf4Ca.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART CLASSIC HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2746&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EPIC DRAMA FHD" tvg-logo="https://i.imgur.com/GHyb6ak.png" group-title="TV | TİVİBU D-SMART ",EPIC DRAMA FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195989&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EPIC DRAMA HD" tvg-logo="https://i.imgur.com/BPaPDUN.png" group-title="TV | TİVİBU D-SMART ",EPIC DRAMA HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195990&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinematvhd.tr" tvg-name="SINEMA TV FHD" tvg-logo="https://i.imgur.com/TN0OXs0.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2773&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinematvhd.tr" tvg-name="SINEMA TV HD" tvg-logo="https://i.imgur.com/PdhGvsd.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2772&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema2hd.tr" tvg-name="SINEMA TV 2 FHD" tvg-logo="https://i.imgur.com/czPTa5A.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2774&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema2hd.tr" tvg-name="SINEMA TV 2 HD" tvg-logo="https://i.imgur.com/KqPJmDf.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2775&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaailehd.tr" tvg-name="SINEMA TV AILE FHD" tvg-logo="https://i.imgur.com/jiiPNyK.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AILE FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2777&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaailehd.tr" tvg-name="SINEMA TV AILE HD" tvg-logo="https://i.imgur.com/q1jjkIO.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AILE HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2778&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaile2hd.tr" tvg-name="SINEMA TV AILE 2 FHD" tvg-logo="https://i.imgur.com/Bprn91p.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AILE 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2779&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaile2hd.tr" tvg-name="SINEMA TV AILE 2 HD" tvg-logo="https://i.imgur.com/RtwFPgE.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AILE 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195741&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemayerli.tr" tvg-name="SINEMA TV YERLI FHD" tvg-logo="https://i.imgur.com/nqQVat4.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV YERLI FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=33391&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemayerli.tr" tvg-name="SINEMA TV YERLI HD" tvg-logo="https://i.imgur.com/latr4hr.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV YERLI HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2776&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemayerli2.tr" tvg-name="SINEMA TV YERLI 2 FHD" tvg-logo="https://i.imgur.com/3vZookz.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV YERLI 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495996&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemayerli2.tr" tvg-name="SINEMA TV YERLI 2 HD" tvg-logo="https://i.imgur.com/NKZxfwH.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV YERLI 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495995&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemakomedihd.tr" tvg-name="SINEMA TV KOMEDI FHD" tvg-logo="https://i.imgur.com/Z0sC7jH.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV KOMEDI FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2782&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemakomedihd.tr" tvg-name="SINEMA TV KOMEDI HD" tvg-logo="https://i.imgur.com/TzENWYq.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV KOMEDI HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2783&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemakomedi2hd.tr" tvg-name="SINEMA TV KOMEDI 2 FHD" tvg-logo="https://i.imgur.com/YowvMOi.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV KOMEDI 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2784&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemakomedi2hd.tr" tvg-name="SINEMA TV KOMEDI 2 HD" tvg-logo="https://i.imgur.com/C0ayMPk.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV KOMEDI 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2785&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaksiyonhd.tr" tvg-name="SINEMA TV AKSIYON FHD" tvg-logo="https://i.imgur.com/uaZ8gx9.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AKSIYON FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2780&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaksiyonhd.tr" tvg-name="SINEMA TV AKSIYON HD" tvg-logo="https://i.imgur.com/hp5VBdN.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AKSIYON HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195739&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaksiyon2hd.tr" tvg-name="SINEMA TV AKSIYON 2 FHD" tvg-logo="https://i.imgur.com/J4Dfav1.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AKSIYON 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2781&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinemaaksiyon2hd.tr" tvg-name="SINEMA TV AKSIYON 2 HD" tvg-logo="https://i.imgur.com/THmPK7e.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV AKSIYON 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195740&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1001hd.tr" tvg-name="SINEMA TV 1001 FHD" tvg-logo="https://i.imgur.com/wYxPKkm.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 1001 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2786&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1001hd.tr" tvg-name="SINEMA TV 1001 HD" tvg-logo="https://i.imgur.com/dY3Ytzr.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 1001 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195742&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 FHD" tvg-logo="https://i.imgur.com/grIFQJ0.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 1002 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2788&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="TV | TİVİBU D-SMART ",SINEMA TV 1002 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=195743&extension=.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX BOXSET" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX BOXSET
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2672&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX TURK BOXSET" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX TURK BOXSET
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2673&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2677&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2678&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2679&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX ANIMASYON 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX ANIMASYON 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2680&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX ANIMASYON 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX ANIMASYON 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2681&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX BILIMKURGU 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX BILIMKURGU 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2683&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX BILIMKURGU 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX BILIMKURGU 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2684&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX 007 & JAMES BOND" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX 007 & JAMES BOND
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2685&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MARVEL" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MARVEL
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2686&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX PREMIERE" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX PREMIERE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2687&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX STAR WARS" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX STAR WARS
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2689&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX GOLD" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX GOLD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2690&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TOLGSHOW" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",TOLGSHOW
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2692&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KOMEDI 90'LAR" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KOMEDI 90'LAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2694&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="CEM YILMAZ" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",CEM YILMAZ
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2695&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX DRAMA 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX DRAMA 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2696&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX DRAMA 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX DRAMA 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2697&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX DRAMA 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX DRAMA 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2698&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KOMEDI 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KOMEDI 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2699&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KOMEDI 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KOMEDI 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2700&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KOMEDI 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KOMEDI 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2701&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KORKU 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KORKU 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2702&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KORKU 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KORKU 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2703&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KORKU 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KORKU 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2704&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2705&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2706&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2707&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 4" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2708&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 5" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2709&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 6" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 6
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2710&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 7" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 7
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2711&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 8" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 8
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2712&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 9" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 9
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2713&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MIX 10" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MIX 10
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2714&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX 4K UHD" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX 4K UHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426678&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 1" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426669&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 2" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426670&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX AKSIYON 3" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX AKSIYON 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426671&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX TURKCE SHOW" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX TURKCE SHOW
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426672&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX KOMEDI 90'LAR" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX KOMEDI 90'LAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426673&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX 007" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX 007
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426674&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX PREMIERE" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX PREMIERE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426675&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX WESTERN" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX WESTERN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426676&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="REDBOX MARVEL" tvg-logo="https://logodix.com/logo/19547.png" group-title="TV | REDBOX ",REDBOX MARVEL
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426677&extension=.m3u8
+
+
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="✦●✦ YESILCAM ✦●✦" tvg-logo="https://i.ibb.co/gSDpNM4/Yesilcam.png" group-title="TV | YESILCAM ",✦●✦ YESILCAM ✦●✦
 http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=247593&extension=.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="FILM 7/24 | YESİLCAM ZEKI VE METIN " tvg-logo="https://i.ibb.co/gSDpNM4/Yesilcam.png" group-title="TV | YESILCAM ",FILM 7/24 | YESİLCAM ZEKI VE METIN 
