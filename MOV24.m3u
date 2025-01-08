@@ -4,17 +4,50 @@
 #EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX FHD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX FHD
-http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2740&extension=.m3u8
-
-
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein dum" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",bein dum
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein dum" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein dum
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/701/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein zula" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",bein zula
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein zula" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein zula
 #EXTVLCOPT:http-referrer=https://betzulatv10.pages.dev/
 https://06.zirvedeyim47.cfd/yayinzirve.m3u8
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="BEİN1A" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein 1b
+#EXTVLCOPT:http-referrer=https://ifra.strmrdrfrosf.click/index.php?id=603
+https://tre.e7c25601c864e297.click/p/neden/601/a.cf-worker-f9e4e74588736c1c.workers.dev/chunklist_hd.m3u8
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="BEİN1B" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein 1c
+#EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
+https://j.mevzuhls10.cfd/yayinzirve.m3u8
+
+ 
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="BEİN1D" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein 1d
+https://nove.29d0b51b213115a0.click/i/izlemac6250.sbs/601/playlist.m3u8
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="BEİN1E" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein 1e
+https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/601/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="BEİN1F" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein 1f
+#EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
+https://t6co.ragiccc355xc.workers.dev//yayinstar.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",TRGOL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1097.xyz/
+https://k0.b4c8d3e9f1a2b7c5d5.cfd/yayinzirve.m3u8
+
+
+#EXTINF:-1 tvg-id="BEİN" tvg-name="NETSPOR BEİN1" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN1",ZULA ALT 1
+#EXTVLCOPT:http-referrer=https://www.netsportv136.top/
+https://rapid-band-f978.seneyeferrarialcam.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-1.m3u8
+
+
 
 
 
