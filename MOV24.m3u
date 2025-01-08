@@ -9,6 +9,36 @@ https://trt.daioncdn.net/trt-1/master_720p.m3u8?app=web
 
 #EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png" group-title="TRT",TRT 2
 https://tv-trt2.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",bein1
-#EXTVLCOPT:http-referrer=https://betzulatv10.pages.dev/
-https://06.zirvedeyim47.cfd/yayinzirve.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://i.imgur.com/afwgpm5.png" group-title="TV | NETFLiX | EXXEN ",NETFLiX | EXXEN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=426667&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://i.imgur.com/afwgpm5.png" group-title="TV | VİZYON",VIZYON  
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=530273&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://i.imgur.com/afwgpm5.png" group-title="TV | BEIN MOVIES ",BEIN MOVIES 
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=494632&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://i.imgur.com/afwgpm5.png" group-title="TV | TİVİBU D-SMART ",TİVİBU D-SMART 
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2740&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://i.imgur.com/afwgpm5.png" group-title="TV | REDBOX ",REDBOX
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2666&extension=.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="💛💛💛 🇹🇷 💛💛💛" tvg-logo="https://i.imgur.com/nOSRhkZ.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 
+https://www.youtube.com/@cine10tv
+
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTVLCOPT:http-referrer=https://122dumantv.com/
+https://12mumdur.online/708/index.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTVLCOPT:http-referrer=https://mevzuspor30.xyz/
+https://j.mevzuhls10.cfd/yayint1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+https://nove.29d0b51b213115a0.click/i/izlemac6251.sbs/606/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9bd.click/p/ic.strmrdrfrosb.click/606/a.cf-worker-63d0909bd5dedabc.workers.dev/chunklist_hd.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="TİVİBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🇹🇷 BEIN SPORTS",TİVİBU SPOR 1
+#EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
+https://t6co.ragiccc355xc.workers.dev//yayint1.m3u8
