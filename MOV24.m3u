@@ -7,6 +7,6 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX FHD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX FHD
 http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2740&extension=.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX FHD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FXx FHD
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mfx" tvg-name="mfx" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",mfx
 #EXTVLCOPT:http-referrer=https://trgoals1097.xyz/
 https://k0.b4c8d3e9f1a2b7c5d5.cfd/yayinb4.m3u8
