@@ -4,6 +4,20 @@
 #EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
+#EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/10660277.png" group-title="TRT",TRT 1
+https://trt.daioncdn.net/trt-1/master_720p.m3u8?app=web
+
+#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/7027954.png" group-title="TRT",TRT 2
+https://tv-trt2.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Turk" tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11787778.png" group-title="TRT",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🇹🇷 BEIN SPORTS"
+#EXTVLCOPT:http-referrer=https://122dumantv.com/
+https://12mumdur.online/701/index.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🇹🇷 BEIN SPORTS","BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://betzulatv10.pages.dev/
@@ -33,8 +47,3 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🇹🇷 BEIN SPORTS",BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.ragiccc355xc.workers.dev//yayinstar.m3u8
-
-
-
-
-
