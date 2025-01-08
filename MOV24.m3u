@@ -3,3 +3,21 @@
 # * » TRT « * #
 #EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX FHD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2740&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="FX HD" tvg-logo="https://i.imgur.com/Vn6mlBX.png" group-title="TV | TİVİBU D-SMART ",FX HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2741&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartpremium.tr" tvg-name="DIZI SMART PREMIUM FHD" tvg-logo="https://i.imgur.com/nKQQmHI.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2751&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartpremium.tr" tvg-name="DIZI SMART PREMIUM HD" tvg-logo="https://i.imgur.com/IK6qrkp.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART PREMIUM HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495936&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartmax.tr" tvg-name="DIZI SMART MAX FHD" tvg-logo="https://i.imgur.com/LAfbd03.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART MAX FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2750&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dizismartmax.tr" tvg-name="DIZI SMART MAX HD" tvg-logo="https://i.imgur.com/saAhjfp.png" group-title="TV | TİVİBU D-SMART ",DIZI SMART MAX HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=496000&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinmoviesturk.tr" tvg-name="MOVIE SMART TURK FHD" tvg-logo="https://i.imgur.com/shWJ4Tr.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART TURK FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2744&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinmoviesturk.tr" tvg-name="MOVIE SMART TURK HD" tvg-logo="https://i.imgur.com/AJProBA.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART TURK HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=495999&extension=.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="moviesmartclassic.tr" tvg-name="MOVIE SMART CLASSIC FHD" tvg-logo="https://i.imgur.com/Sy9hYQj.png" group-title="TV | TİVİBU D-SMART ",MOVIE SMART CLASSIC FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2745&extension=.m3u8
