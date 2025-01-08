@@ -4,11 +4,11 @@
 #EXTINF:-1 tvg-name="Meclis TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TBMM" tvg-logo="https://seeklogo.com/images/T/tbmm-logo-9FB0F2818C-seeklogo.com.png" group-title="TRT",Meclis TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein dum" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein dum
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein dum" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR" | TİVİBU D-SMART ",bein dum
 #EXTVLCOPT:http-referrer=https://122dumantv.com/
 https://12mumdur.online/701/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein zula" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR | TİVİBU D-SMART ",bein zula
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein zula" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR" | TİVİBU D-SMART ",bein zula
 #EXTVLCOPT:http-referrer=https://betzulatv10.pages.dev/
 https://06.zirvedeyim47.cfd/yayinzirve.m3u8
 
