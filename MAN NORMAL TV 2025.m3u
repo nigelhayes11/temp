@@ -1,5 +1,25 @@
 #EXTM3U
-
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b1
+https://y3k9.uk-traffic-076.com/hls2/01/00025/s7rxzh9dwemf_n/index-v1-a1.m3u8?t=eUHzeC20DPrJ0UQ089gDSgAnfL8Gika_RFokOnkq_hE&s=1736438067&e=43200&f=125960&srv=x2&i=0.0&sp=5000&p1=y3k9&p2=y3k9
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b2
+https://zm1w.uk-traffic-076.com/hls2/01/00025/g1obl99et16d_n/index-v1-a1.m3u8?t=PKRgAOEIdN7OvQCcZk9wsNh_lomJ1sFTR7KxwCijWu4&s=1736440020&e=43200&f=125964&srv=x2&i=0.0&sp=5000&p1=zm1w&p2=zm1w
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b3
+https://zm1w.uk-traffic-076.com/hls2/01/00025/t7ck4lb2ecg1_n/index-v1-a1.m3u8?t=n-K_U91GE9FpWFzNlvm5w24IlbLHIB7TKoajelOQAUs&s=1736439374&e=43200&f=125965&srv=x1&i=0.0&sp=5000&p1=zm1w&p2=zm1w
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b4
+https://lyon.eu-traffic-05.com/hls2/01/00025/4wikx3v4y7oq_n/index-v1-a1.m3u8?t=UsF3Dopa-q_EdoUChrWZ3Yo01aLGOMNlzVBfWag2k00&s=1736439153&e=43200&f=125966&srv=x1&i=0.0&sp=5000&p1=lyon&p2=lyon
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b5
+https://o3zr.uk-traffic-076.com/hls2/01/00025/3d5sxai4p77a_n/index-v1-a1.m3u8?t=WHyFApZfWPt5pLTZPhb70-q7c267jZk3_li_e79UxdU&s=1736438451&e=43200&f=125967&srv=x1&i=0.0&sp=5000&p1=o3zr&p2=o3zr
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b6
+https://sn12.uk-traffic-076.com/hls2/01/00025/qsyt0ezrtng1_n/index-v1-a1.m3u8?t=WBuGIZdSWwGISJu7z38VkFrXuTgEMPO4YCdDG9SzOR4&s=1736439282&e=43200&f=125968&srv=x1&i=0.0&sp=5000&p1=sn12&p2=sn12
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b7
+https://z01k.uk-traffic-076.com/hls2/01/00025/wrnr4svsacsi_n/index-v1-a1.m3u8?t=0e2xHJ65qnUhQHy3w-sbVdYRIM4CggBf7I4hgg980gA&s=1736438535&e=43200&f=125969&srv=x1&i=0.0&sp=5000&p1=z01k&p2=z01k
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b8
+https://pa2s.uk-traffic-076.com/hls2/01/00025/r1bs5ld078bd_n/index-v1-a1.m3u8?t=wjziicZcT8YsZh7f9-PM0Eh8YDhBDf9NjN-nubiIjRc&s=1736440056&e=43200&f=125961&srv=x2&i=0.0&sp=5000&p1=pa2s&p2=pa2s
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b9
+https://m6ks.uk-traffic-076.com/hls2/01/00025/0iq1ieyc6a2c_n/master.m3u8?t=QLqWT0pYjxrF7J-DgcxC1fie9Vc2ZDdHFNMMlD4VwH4&s=1736438780&e=43200&f=125962&srv=x2&i=0.0&sp=5000&p1=m6ks&p2=m6ks
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b10
+https://poznan.eu-traffic-05.com/hls2/01/00025/ryzzxmy24y8s_n/index-v1-a1.m3u8?t=D0IXK8JIszE6g0suUUFzPiKnqDj7uAXpXrCpksX_mHo&s=1736440038&e=43200&f=125963&srv=x2&i=0.0&sp=5000&p1=poznan&p2=poznan
+#EXTINF:-1 group-title="GASSAL" tvg-name="Star TV",b7
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIZYON 1   " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT9evl0e1LqHXH-k-8typgyAhXg33WajpHUCmRrOiym-UigmRbQzuIsJ4eMopSKJCtLvA&usqp=CAU" group-title="TV | VİZYON",VIZYON 1   
 http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=530273&extension=.m3u8
