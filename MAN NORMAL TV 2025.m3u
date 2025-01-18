@@ -24,6 +24,17 @@ https://vavox.duckdns.org/xbyte.m3u8/?id=662179620.m3u8
 https://vavox.duckdns.org/xbyte.m3u8/?id=593493860.m3u8
 #EXTINF:-1 tvg-id="3428984703" tvg-name="TR | BEIN SPORTS 1 [LIVE DURING EVENTS ONLY] (7) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 1 [LIVE DURING EVENTS ONLY] (7)
 https://vavox.duckdns.org/xbyte.m3u8/?id=3428984703.m3u8
+#EXTINF:-1 tvg-id="267105889" tvg-name="TR | BEIN SPORTS 4K FEED(KUTU) (1)" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 4K FEED(KUTU) (1)
+https://vavox.duckdns.org/xbyte.m3u8/?id=267105889.m3u8
+#EXTINF:-1 tvg-id="1536730627" tvg-name="TR | BEIN SPORTS 4K FEED(UYDU) (1)" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 4K FEED(UYDU) (1)
+https://vavox.duckdns.org/xbyte.m3u8/?id=1536730627.m3u8
+#EXTINF:-1 tvg-id="499485497" tvg-name="TR | BEIN SPORTS 720P FEED (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 720P FEED (1)
+https://vavox.duckdns.org/xbyte.m3u8/?id=499485497.m3u8
+#EXTINF:-1 tvg-id="2113462398" tvg-name="TR | BEIN SPORTS 8K FEED (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 8K FEED (1)
+https://vavox.duckdns.org/xbyte.m3u8/?id=2113462398.m3u8
+#EXTINF:-1 tvg-id="1453692314" tvg-name="TR | BEIN SPORTS FEED (OZEL FEED YAYIN) (1) " tvg-logo="https://i.imgur.com/drPalQa.png"group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S FEED (OZEL FEED YAYIN) (1)
+https://vavox.duckdns.org/xbyte.m3u8/?id=1453692314.m3u8
+
 #EXTINF:-1 tvg-id="1447241506" tvg-name="TR | BEIN SPORTS 2 (6)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 2 (6)
 https://vavox.duckdns.org/xbyte.m3u8/?id=1447241506.m3u8
 #EXTINF:-1 tvg-id="2509466191" tvg-name="TR | BEIN SPORTS 2 (7)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 2 (7)
@@ -52,10 +63,7 @@ https://vavox.duckdns.org/xbyte.m3u8/?id=450076655.m3u8
 https://vavox.duckdns.org/xbyte.m3u8/?id=1872232768.m3u8
 #EXTINF:-1 tvg-id="2938268353" tvg-name="TR | BEIN SPORTS 4 UHD (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 4 UHD (1)
 https://vavox.duckdns.org/xbyte.m3u8/?id=2938268353.m3u8
-#EXTINF:-1 tvg-id="267105889" tvg-name="TR | BEIN SPORTS 4K FEED(KUTU) (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 4K FEED(KUTU) (1)
-https://vavox.duckdns.org/xbyte.m3u8/?id=267105889.m3u8
-#EXTINF:-1 tvg-id="1536730627" tvg-name="TR | BEIN SPORTS 4K FEED(UYDU) (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 4K FEED(UYDU) (1)
-https://vavox.duckdns.org/xbyte.m3u8/?id=1536730627.m3u8
+
 #EXTINF:-1 tvg-id="3831757618" tvg-name="TR | BEIN SPORTS 5 (6)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 5 (6)
 https://vavox.duckdns.org/xbyte.m3u8/?id=3831757618.m3u8
 #EXTINF:-1 tvg-id="1230448192" tvg-name="TR | BEIN SPORTS 5 (MATCH TIME) (7)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 5 (MATCH TIME) (7)
@@ -64,12 +72,7 @@ https://vavox.duckdns.org/xbyte.m3u8/?id=1230448192.m3u8
 https://vavox.duckdns.org/xbyte.m3u8/?id=4000315601.m3u8
 #EXTINF:-1 tvg-id="2737963486" tvg-name="TR | BEIN SPORTS 5 HD (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 5 HD (1)
 https://vavox.duckdns.org/xbyte.m3u8/?id=2737963486.m3u8
-#EXTINF:-1 tvg-id="499485497" tvg-name="TR | BEIN SPORTS 720P FEED (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 720P FEED (1)
-https://vavox.duckdns.org/xbyte.m3u8/?id=499485497.m3u8
-#EXTINF:-1 tvg-id="2113462398" tvg-name="TR | BEIN SPORTS 8K FEED (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S 8K FEED (1)
-https://vavox.duckdns.org/xbyte.m3u8/?id=2113462398.m3u8
-#EXTINF:-1 tvg-id="1453692314" tvg-name="TR | BEIN SPORTS FEED (OZEL FEED YAYIN) (1)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S FEED (OZEL FEED YAYIN) (1)
-https://vavox.duckdns.org/xbyte.m3u8/?id=1453692314.m3u8
+
 #EXTINF:-1 tvg-id="1197336000" tvg-name="TR | BEIN SPORTS HABER (6)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S HABER (6)
 https://vavox.duckdns.org/xbyte.m3u8/?id=1197336000.m3u8
 #EXTINF:-1 tvg-id="2806079612" tvg-name="TR | BEIN SPORTS HABER (7)" tvg-logo="https://i.hizliresim.com/gelqlt1.jpg" group-title="⚽🏀⚽🏀SPOR ÖZEL⚽🏀⚽🏀",TR | BEIN S HABER (7)
@@ -1859,7 +1862,7 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinb2.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 2",MAC İZLE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-2.m3u8
@@ -1890,7 +1893,7 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinb3.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 3",MAC İZLE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-3.m3u8
@@ -1920,7 +1923,7 @@ EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4" tvg-logo="https://i.imgur.com/4ZVIH
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinb4.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 4",MAC İZLE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-4.m3u8
@@ -1945,7 +1948,7 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinb5.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 5",MAC İZLE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-5.m3u8
@@ -1978,11 +1981,11 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinss.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="S SPORT 1-2",S1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-1.m3u8
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="S SPORT 1-2",S1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/s-sport.m3u8
@@ -2012,7 +2015,7 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinss2.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="S SPORT 1-2",S2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 https://hlssss-broken-resonance-17d1.kapsulforever.workers.dev/https://fener.demoscript.buzz/hls/s-sport-2.m3u8
@@ -2039,7 +2042,7 @@ https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://tre.9fc9b7b7144ee9
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayint1.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK BEİN 1",MAC İZLE
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="TİVİBU 1",MAC İZLE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://macizlet.my
 
@@ -2171,16 +2174,6 @@ https://aq.mojobettv4.com/yayinex7.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 7" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="TABİ SPORLAR",TABİ SPOR 7
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://ampm3u.ragiggccc44x.workers.dev/list/yayinex7.m3u8
-
-
-
-
-
-
-
-
-
-
 
 
 
