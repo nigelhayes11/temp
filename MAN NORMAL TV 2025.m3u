@@ -1,5 +1,12 @@
-#EXTM3U
-
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="bein dum" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="MNK SPOR"| TİVİBU D-SMART ",DUMAN
-#EXTVLCOPT:http-referrer=https://122dumantv.com/
-https://12mumdur.online/701/index.m3u8
+#EXTINF:-1 tvg-id="1363827223" tvg-name="TR | BEIN 1 FEED (720P) (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN 1 FEED (720P) (1)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzNjM4MjcyMjNiZmI5Y2UyMTJhMzU=
+#EXTINF:-1 tvg-id="300113394" tvg-name="TR | BEIN SPORTS 1 (6) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (6)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
+#EXTINF:-1 tvg-id="3840475653" tvg-name="TR | BEIN SPORTS 1 (720P) (1) " tvg-logo="https://i.imgur.com/drPalQa.png"  group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (720P) (1)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
+#EXTINF:-1 tvg-id="2233066433" tvg-name="TR | BEIN SPORTS 1 (720PFEED) (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (720PFEED) (1)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
+#EXTINF:-1 tvg-id="2576216897" tvg-name="TR | BEIN SPORTS 1 + (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 + (1)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
+#EXTINF:-1 tvg-id="1352421053" tvg-name="TR | BEIN SPORTS 1 50 FPS (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 50 FPS (1)
+https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzU5MzQ5Mzg2MDQxODk1MDY1YjExYg==
