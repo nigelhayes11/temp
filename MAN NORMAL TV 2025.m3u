@@ -1,12 +1,75 @@
-#EXTINF:-1 tvg-id="1363827223" tvg-name="TR | BEIN 1 FEED (720P) (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN 1 FEED (720P) (1)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzNjM4MjcyMjNiZmI5Y2UyMTJhMzU=
-#EXTINF:-1 tvg-id="300113394" tvg-name="TR | BEIN SPORTS 1 (6) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (6)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
-#EXTINF:-1 tvg-id="3840475653" tvg-name="TR | BEIN SPORTS 1 (720P) (1) " tvg-logo="https://i.imgur.com/drPalQa.png"  group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (720P) (1)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
-#EXTINF:-1 tvg-id="2233066433" tvg-name="TR | BEIN SPORTS 1 (720PFEED) (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 (720PFEED) (1)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
-#EXTINF:-1 tvg-id="2576216897" tvg-name="TR | BEIN SPORTS 1 + (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 + (1)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
-#EXTINF:-1 tvg-id="1352421053" tvg-name="TR | BEIN SPORTS 1 50 FPS (1) " tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽🏀⚽🏀BEİN 1 ÖZEL FHD ⚽🏀⚽🏀",TR | BEIN S 1 50 FPS (1)
-https://vavox.duckdns.org/cdn/getrok/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzU5MzQ5Mzg2MDQxODk1MDY1YjExYg==
+#EXTM3U
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="PARSFEED" tvg-logo="https://i.imgur.com/dxiLYHN.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",MNKFEED
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=546600&extension==.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsports1.tr" tvg-name="BEIN SPORTS 1 4K" tvg-logo="https://i.imgur.com/dxiLYHN.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 4K
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2202&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORTS 1 GECIKMESIZ" tvg-logo="https://i.imgur.com/NggaqQM.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 GECIKMESIZ
+http://a-panel.online:80/feedlist/qqJzw8kuBh/8200&extension==.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 1 PREMIUM HD" tvg-logo="https://www.tvlogolar.xyz/europa/turkey/beinsports1.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 1 PREMIUM HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551701&extension==.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsports1.tr" tvg-name="BEIN SPORTS 1 RAW" tvg-logo="https://i.imgur.com/NggaqQM.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 RAW
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=423873&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsports1.tr" tvg-name="BEIN SPORTS 1 HEVC" tvg-logo="https://i.imgur.com/Jx2duXb.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 HEVC
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2197&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsports1.tr" tvg-name="BEIN SPORTS 1 FHD" tvg-logo="https://i.imgur.com/KRD8mLI.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2198&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsports1.tr" tvg-name="BEIN SPORTS 1 HD" tvg-logo="https://i.imgur.com/RAGgh3S.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2199&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORTS  1 FHD YEDEK" tvg-logo="https://i.imgur.com/I0g7rbD.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS  1 FHD YEDEK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=490683&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORTS  1 HD YEDEK" tvg-logo="https://i.imgur.com/I0g7rbD.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS  1 HD YEDEK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=490684&extension==.m3u8
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 1 FEED FHD" tvg-logo="https://www.tvlogolar.xyz/europa/turkey/beinsports.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 1 FEED FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551624&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 1 MODUL [MAÇ ZAMANI]" tvg-logo="https://www.tvlogolar.xyz/europa/turkey/beinsports1.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 1 MODUL [MAÇ ZAMANI]
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551703&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 1 FHD" tvg-logo="https://www.tvlogolar.xyz/europa/turkey/beinsports1.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 1 PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551702&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="beinsportsmax1.tr" tvg-name="BEIN SPORTS 1 FEED" tvg-logo="https://i.imgur.com/F5wmRzv.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 FEED
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2216&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 1 FEED 2" tvg-logo="https://www.tvlogolar.xyz/europa/turkey/beinsports1.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 1 FEED YEDEK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551704&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORTS 1 MOBILE" tvg-logo="https://i.imgur.com/Oc4VGeB.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORTS 1 MOBILE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2201&extension==.m3u8
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 2 " tvg-logo="https://i.imgur.com/KWZNVM0.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 2 PREMIUM HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2207&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 3 " tvg-logo="https://i.imgur.com/3HsTs7p.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 3 PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551698&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 4 " tvg-logo="https://i.imgur.com/FYbRa96.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 4 PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551696&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT 5 " tvg-logo="https://i.imgur.com/0lz7UhN.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT 5 PREMIUM FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551694&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT MAX 1 " tvg-logo="https://i.imgur.com/I0g7rbD.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT MAX 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551691&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEIN SPORT MAX 2 " tvg-logo="https://i.imgur.com/aZPxIfT.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",BEIN SPORT MAX 2 FHD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=551690&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="ssport.tr" tvg-name="S SPORT 1 " tvg-logo="https://i.imgur.com/3hxCh8T.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",S SPORT 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2026&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="ssport2.tr" tvg-name="S SPORT 2 " tvg-logo="https://i.imgur.com/BBI3b9J.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",S SPORT 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2029&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sporsmart.tr" tvg-name="SPOR SMART 1 " tvg-logo="https://i.imgur.com/FsfX4iy.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",SPOR SMART 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2032&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SPOR SMART 2 " tvg-logo="https://i.imgur.com/FrTWVBK.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",SPOR SMART 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2034&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TIVIBUSPOR " tvg-logo="https://i.imgur.com/yG1s10o.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",TIVIBUSPOR HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2041&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TIVIBUSPOR 1 " tvg-logo="https://i.imgur.com/yG1s10o.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",TIVIBUSPOR 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2043&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TIVIBUSPOR 2 " tvg-logo="https://i.imgur.com/QnwexuJ.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",TIVIBUSPOR 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2045&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TIVIBUSPOR 3 " tvg-logo="https://i.imgur.com/F97x301.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",TIVIBUSPOR 3 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=33296&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="eurosport1.tr" tvg-name="EUROSPORT 1 " tvg-logo="https://i.imgur.com/v01kYKb.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",EUROSPORT 1 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=196082&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="eurosport2.tr" tvg-name="EUROSPORT 2 " tvg-logo="https://i.imgur.com/3mUdk8D.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",EUROSPORT 2 HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=196081&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sportstv.tr" tvg-name="SPORTS TV " tvg-logo="https://i.imgur.com/AcxfnUq.png" group-title="🏉🏉YENİ BEİN + SPOR PANEL🏉🏉",SPORTS TV HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:4D:01:E3&stream=2035&extension==.m3u8
