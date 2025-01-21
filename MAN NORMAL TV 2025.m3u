@@ -1,31 +1,54 @@
 
+
+
+
+
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT 1 A
+#EXTVLCOPT:https://livecdn.online/live/player.php?id=trt1
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trt1
 https://sqvqknxy7z.zortspor1.online/trt1/index.m3u8
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT 1 B
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trt1hd
 https://ajye0ysxrd.zortspor1.online/trt1/index.m3u8
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR HD
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR A
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trtspor
 https://ly4yi0q3r1.zortspor1.online/trtspor/index.m3u8
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR HD
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR B
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trtsporhd
 https://ajye0ysxrd.zortspor1.online/trtsporhd/index.m3u8
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR HD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii
 https://ly4yi0q3r1.zortspor1.online/tabii/index.m3u8
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 1 HD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 1 HD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii1
 https://ajye0ysxrd.zortspor1.online/tabii1/index.m3u8
 
-#E#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 2 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 2 FHD
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 2 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 2 FHD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii2
 https://ajye0ysxrd.zortspor1.online/tabii2/index.m3u8
 
-#E#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 3 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 3 FHD
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 3 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 3 FHD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii3
 https://ajye0ysxrd.zortspor1.online/tabii3/index.m3u8
 
-#E#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 4 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 4 FHD
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 4 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 4 FHD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii4
 https://ajye0ysxrd.zortspor1.online/tabii4/index.m3u8
 
-#E#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 5 HD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 5 HD
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 5 HD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 5 HD
+#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii5
 https://ajye0ysxrd.zortspor1.online/tabii5/index.m3u8
+
+
+
+
+
+
 
 
 
