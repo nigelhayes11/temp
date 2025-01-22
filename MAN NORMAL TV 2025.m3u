@@ -1,49 +1,64 @@
-
-#EXTINF:-1 tvg-id="" tvg-name="IT - Detective Conan (1996) (JP) S01 E49" tvg-logo="https://image.tmdb.org/t/p/w185/tQR2ZgevSWBwDswv2pTVhVWhuLk.jpg" group-title="ITALY BAMBINI",IT - Detective Conan (1996) (JP) S01 E49
-http://cf.shark-cdn.me:80/series/ec04cf1c13/f99d0dca31d38a01/890801.mkv
+----------------------------------------------------------------------------
 
 
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://images4.alphacoders.com/130/1301272.jpg"group-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT 1 A
-#EXTVLCOPT:https://livecdn.online/live/player.php?id=trt1
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trt1
-https://sqvqknxy7z.zortspor1.online/trt1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_480p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT 1 B
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trt1hd
-https://ajye0ysxrd.zortspor1.online/trt1/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR A
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trtspor
-https://ly4yi0q3r1.zortspor1.online/trtspor/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 1 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 1 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 1 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master_480p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Trt SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TRT SPOR B
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=trtsporhd
-https://ajye0ysxrd.zortspor1.online/trtsporhd/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR " tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR HD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii
-https://ly4yi0q3r1.zortspor1.online/tabii/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 2 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 2 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 2 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master_480p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 1 HD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 1 HD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii1
-https://ajye0ysxrd.zortspor1.online/tabii1/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 2 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 2 FHD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii2
-https://ajye0ysxrd.zortspor1.online/tabii2/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 3 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 3 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 3 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master_480p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 3 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 3 FHD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii3
-https://ajye0ysxrd.zortspor1.online/tabii3/index.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 4 FHD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 4 FHD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii4
-https://ajye0ysxrd.zortspor1.online/tabii4/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 4 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 4 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 4 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master_480p.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TABII SPOR 5 HD" tvg-logo="https://i.ibb.co/HK8zTCf/tabii-logo-D1-B3-E86673-seeklogo-com.pnggroup-title="⚽ŞAMPİYONLAR VE AVRUPA LİGİ⚽",TABII SPOR 5 HD
-#EXTVLCOPT:http-referrer=https://livecdn.online/live/player.php?id=tabii5
-https://sqvqknxy7z.zortspor1.online/tabii5/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 5 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 5 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 5 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master_480p.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 6 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 6 (720)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 6 (480)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇹🇷 TABİ SPOR",TABİ SPOR 
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_480p.m3u8
+
+
+
 
 
 
