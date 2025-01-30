@@ -3,9 +3,9 @@
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",atv
-http://stream.tvcdn.net/ulusal/atv.m3u8
+https://trkvz.daioncdn.net/atv/atv_720p.m3u8?e=1738276825&st=b_RnyEi5SONHh0Y2kDhBaw&sid=74cwsoqzyrma&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
-http://stream.tvcdn.net/ulusal/kanal-d.m3u8
+https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e=1738289107&st=B-W7wCWKdezzNUwtaez7Xw
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
 https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e=1737865492&st=tHu1GiINeJrcfWmln-YB1w
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
@@ -27,7 +27,7 @@ http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="http://assets.tvcdn.net/06e7abd9-0fbb-441f-af63-b895513d3aaa.png" group-title="📺TV KANALLARI FULL📺",A Haber
 http://stream.tvcdn.net/haber/a-haber.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",CNN Turk
-http://stream.tvcdn.net/haber/cnn-turk.m3u8
+https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8?&live=true&app=com.cnnturk&st=dyVmXlqbsoxfQd8cl5kwRQ&e=1738242577
 #EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="📺TV KANALLARI FULL📺",Haberturk
 http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="http://assets.tvcdn.net/d7e11245-3318-4cfd-bd1c-bdbb03d4c76a.png" group-title="📺TV KANALLARI FULL📺",Haber Global
@@ -58,7 +58,7 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-logo="http://assets.tvcdn.net/98d69f74-e6dc-4d4a-95c6-666683834a28.png" group-title="📺TV KANALLARI FULL📺",TRT Spor
 http://stream.tvcdn.net/spor/trt-spor.m3u8
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-logo="http://assets.tvcdn.net/27f74187-ef2a-4928-9515-77422081119c.png" group-title="📺TV KANALLARI FULL📺",TRT Spor Yıldız
-http://stream.tvcdn.net/spor/trt-spor-yildiz.m3u8
+https://trt.daioncdn.net/trtspor-yildiz/master_1080p.m3u8?platform=trtspor&sid=74cxm4w3pmso&app=6d14425d-4281-477b-8b74-49c40e4aa8b8&ce=2
 #EXTINF:-1 tvg-id="ASpor.tr" tvg-logo="http://assets.tvcdn.net/14f4941c-00e7-4662-9a21-8203dc37b51a.png" group-title="📺TV KANALLARI FULL📺",A Spor
 http://stream.tvcdn.net/spor/a-spor.m3u8
 #EXTINF:-1 tvg-id="SportsTV.tr" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="📺TV KANALLARI FULL📺",Sports TV
