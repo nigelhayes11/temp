@@ -116,154 +116,892 @@ http://stream.tvcdn.net/muzik/muzik-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/972fe810-96d7-4cad-8918-fe0c28a45e7d.png" group-title="📺TV KANALLARI FULL📺",Chill TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
 
+*************************************************************************
+****************************  MUZIK IP TV  **********************************
 
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="SONGTV Russia" tvg-logo="https://i.imgur.com/nM7LbmV.png",SONGTV Russia 
+
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490576&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490575&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490574&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490573&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490572&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 6" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 6
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490571&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 7" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 7
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490570&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 8" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 8
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490569&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 9" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 9
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490568&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE POP 10" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK  7/24 | TURKCE POP 10
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490567&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="IBRAHIM TATLISES" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | IBRAHIM TATLISES
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490566&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MUSLUM GURSES" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MUSLUM GURSES
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490565&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SEZEN AKSU" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SEZEN AKSU
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490564&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="YILDIZ TILBE" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | YILDIZ TILBE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490563&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EMIRCAN IGREK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | EMIRCAN IGREK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490562&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="RELAX CHİLL HOUSE MUSİC" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | RELAX CHİLL HOUSE MUSİC
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490561&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="UMIT BESEN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | UMIT BESEN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490560&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BLOK 13" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | BLOK 13
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490559&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EZEL" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | EZEL
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490558&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="CAKAL" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | CAKAL
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490557&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GUNES" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GUNES
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490556&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="UZI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | UZI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490555&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NESET ERTAS" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NESET ERTAS
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490554&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SERTAB ERENER" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SERTAB ERENER
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490553&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DEDUBLUMAN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | DEDUBLUMAN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490552&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SEMICENK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SEMICENK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490551&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE RAP 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE RAP 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490550&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE RAP 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE RAP 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490549&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE RAP 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE RAP 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490548&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE RAP 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE RAP 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490547&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE RAP 6" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE RAP 6
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490546&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK ROCK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK ROCK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490545&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DAMAR SARKILAR" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | DAMAR SARKILAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490544&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MEYHANE SARKILARI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MEYHANE SARKILARI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490543&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ERKIN KORAY" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ERKIN KORAY
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490541&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MOTIVE" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MOTIVE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490539&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SOFAR 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SOFAR 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490538&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SOFAR SOUND 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SOFAR SOUND 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490537&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SOFAR SOUND 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SOFAR SOUND 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490536&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SOFAR SOUND 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SOFAR SOUND 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490535&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SOFAR SOUND 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SOFAR SOUND 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490534&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ANADOLU ROCK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ANADOLU ROCK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490533&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="HUZUNLU AKUSTIK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | HUZUNLU AKUSTIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490532&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ 45LİK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ 45LİK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490531&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="CEM ADRIAN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | CEM ADRIAN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490530&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ARABESK KRALI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ARABESK KRALI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490529&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BARIS MANCO" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | BARIS MANCO
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490528&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KORAY AVCİ" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KORAY AVCİ
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490527&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="PIANO" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | PIANO
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490526&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="IBRAHIM TATLISES EN SEVILEN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | IBRAHIM TATLISES EN SEVILEN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490525&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="FASIL RUHU" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | FASIL RUHU
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490524&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="RAINY JAZZY" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | RAINY JAZZY
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490523&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKCE REMIX" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | TURKCE REMIX
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490522&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BLUES" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | BLUES
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490521&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SAKINLESTIRICI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SAKINLESTIRICI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490520&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK RAP" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK RAP
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490519&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="AHMET ASLAN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | AHMET ASLAN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490518&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="JAZZ BALTICA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | JAZZ BALTICA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490517&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ROCK MUZIK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ROCK MUZIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490516&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="CEZA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | CEZA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490515&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DEEP FEELING" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | DEEP FEELING
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490514&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="HIRAI ZERDUS" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | HIRAI ZERDUS
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490513&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="METALLICA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | METALLICA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490512&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="CEM KARACA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | CEM KARACA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490511&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="YABANCI RAP" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | YABANCI RAP
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490510&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="YABANCI KARISIK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | YABANCI KARISIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490509&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SHAKIRA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SHAKIRA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490508&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ADELE" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ADELE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490505&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KANUN GITAR" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KANUN GITAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490504&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ UNUTULMAYAN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ UNUTULMAYAN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490502&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ UNUTULMAYAN 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ UNUTULMAYAN 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490501&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ UNUTULMAYAN 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ UNUTULMAYAN 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490500&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ 1990LAR" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ 1990LAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490499&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ 1990LAR  1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ 1990LAR  1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490498&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ 1990LAR 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ 1990LAR 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490497&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ 1990LAR 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ 1990LAR 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490496&extension==.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MEYHANE SARKILARI 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MEYHANE SARKILARI 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490494&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MEYHANE SARKILARI 6" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MEYHANE SARKILARI 6
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490493&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="MEYHANE SARKILARI 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | MEYHANE SARKILARI 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490492&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJI EGLENCELI PARCALAR" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJI EGLENCELI PARCALAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490491&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ EGLENCELİ 45LİK PARCALAR" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ EGLENCELİ 45LİK PARCALAR
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490490&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ PARCALAR 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ PARCALAR 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490489&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ PARCALAR 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ PARCALAR 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490488&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ PARCALAR 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ PARCALAR 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490487&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ PARCALAR 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ PARCALAR 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490486&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTAJİ PARCALAR 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | NOSTAJİ PARCALAR 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490485&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GECMISTEN BUGUNE 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GECMISTEN BUGUNE 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490484&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GECMISTEN BUGUNE 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GECMISTEN BUGUNE 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490483&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GECMISTEN BUGUNE 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GECMISTEN BUGUNE 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490482&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GECMISTEN BUGUNE 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GECMISTEN BUGUNE 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490481&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GECMISTEN BUGUNE 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | GECMISTEN BUGUNE 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490480&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="COCUKLARI ICIN DINLENDIRICI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | COCUKLARI ICIN DINLENDIRICI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490479&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KENAN DOGULU" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KENAN DOGULU
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490478&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EYLEM AKTAS" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | EYLEM AKTAS
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490476&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="HANDE YENER" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | HANDE YENER
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490475&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ASKIN NUR YENGI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ASKIN NUR YENGI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490474&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EMRE AYDIN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | EMRE AYDIN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490473&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="IREM DERICI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | IREM DERICI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490472&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="AHMET KAYA" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | AHMET KAYA
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490471&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="AJDA PEKKAN" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | AJDA PEKKAN
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490470&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SEBNEM FERAH" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | SEBNEM FERAH
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490469&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="COCUK SARKILARI" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | COCUK SARKILARI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490468&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DINLENDIRICI MUZIK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | DINLENDIRICI MUZIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490467&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ROMANTIK PIANO  MUZIK" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | ROMANTIK PIANO  MUZIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490466&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK MUZIK 1" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK MUZIK 1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490465&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK MUZIK 2" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK MUZIK 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490464&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK MUZIK 3" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK MUZIK 3
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490463&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK MUZIK 4" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK MUZIK 4
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490462&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARISIK MUZIK 5" tvg-logo="https://i.ibb.co/7NrPpjh/logo.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 7/24 | KARISIK MUZIK 5
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=490461&extension==.m3u8
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="trtmuzik.tr" tvg-name="TRT MUZIK HD+" tvg-logo="https://i.imgur.com/R7ALJLO.png" group-title="MUZIK TV",TRT MUZIK HD+
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233445&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="trtmuzik.tr" tvg-name="TRT MUZIK HD" tvg-logo="https://i.imgur.com/R7ALJLO.png" group-title="MUZIK TV",TRT MUZIK HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233446&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="kralpop.tr" tvg-name="KRAL POP HD+" tvg-logo="https://i.imgur.com/s81MZLU.png" group-title="MUZIK TV",KRAL POP HD+
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233449&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="kralpop.tr" tvg-name="KRAL POP HD" tvg-logo="https://i.imgur.com/s81MZLU.png" group-title="MUZIK TV",KRAL POP HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233450&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dreamturk.tr" tvg-name="DREAM TURK HD+" tvg-logo="https://i.imgur.com/j6VY7ZI.png" group-title="MUZIK TV",DREAM TURK HD+
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233451&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="dreamturk.tr" tvg-name="DREAM TURK HD" tvg-logo="https://i.imgur.com/j6VY7ZI.png" group-title="MUZIK TV",DREAM TURK HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233452&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="
+
+urk.tr" tvg-name="POWER TURK HD" tvg-logo="https://i.imgur.com/pNK04u6.png" group-title="MUZIK TV",POWER TURK HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233453&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="powertv.tr" tvg-name="POWER TURK HD+" tvg-logo="https://i.imgur.com/pNK04u6.png" group-title="MUZIK TV",POWER TURK HD+
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233455&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="numberoneturk.tr" tvg-name="NR1 TURK  HD" tvg-logo="https://i.imgur.com/DtN8hUk.png" group-title="MUZIK TV",NR1 TURK  HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233457&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="numberoneturk.tr" tvg-name="NR1 DANCE" tvg-logo="https://i.imgur.com/Z0pIEHQ.png" group-title="MUZIK TV",NR1 DANCE
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233458&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="numberonetv.tr" tvg-name="NR1  HD" tvg-logo="https://i.imgur.com/DtN8hUk.png" group-title="MUZIK TV",NR1  HD
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233459&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="numberonetv.tr" tvg-name="NR1" tvg-logo="https://i.imgur.com/DtN8hUk.png" group-title="MUZIK TV",NR1
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233460&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="EKIN TURK TV" tvg-logo="https://i.imgur.com/P7cuSRW.png" group-title="MUZIK TV",EKIN TURK TV
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=233461&extension==.m3u8
+
+
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="RAP.HOUSE.POP" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 RAP.HOUSE.POP
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533960&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="POP CANLI [KRAL]" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 POP CANLI [KRAL]
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533959&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="POP CANLI [KRAL]" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 POP CANLI [KRAL]
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533958&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="METRO CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 METRO CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533957&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BEST CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 BEST CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533956&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ARABESK CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 ARABESK CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533955&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="BABA [ARABESK FANTAZI SARKILAR] CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 BABA [ARABESK FANTAZI SARKILAR] CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533954&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ARABESKIN SESI CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 ARABESKIN SESI CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533953&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DAMAR CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 DAMAR CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533952&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KARADENIZ CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 KARADENIZ CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533951&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="GOKKUSAGIM CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 GOKKUSAGIM CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533950&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DUBLE CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 DUBLE CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533949&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ASK-FM CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 ASK-FM CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533948&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKULER AKUSTIK" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 TURKULER AKUSTIK
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533947&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="VIRGIN CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 VIRGIN CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533946&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KIVIRCIK ALI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 KIVIRCIK ALI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533945&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKISH POP" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 TURKISH POP
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533944&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TURKISH POP 2" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 TURKISH POP 2
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533943&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="DAMAR 2 CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 DAMAR 2 CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533942&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ANGARA CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 ANGARA CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533941&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="RADYO 2000 CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 RADYO 2000 CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533940&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="NOSTALJI CANLI" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 NOSTALJI CANLI
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533939&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="POP REMIX [CANLI]" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 POP REMIX [CANLI]
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533938&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="RAP" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 RAP
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533937&extension==.m3u8
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="POP REMIX" tvg-logo="https://i.ibb.co/RH4H08S/1-SPECIALBOX.png" group-title="🎶🎶MÜZİK KANALLARI",MUZIK 24/7 POP REMIX
+http://pars.viper01.xyz:8080/play/live.php?mac=00:1A:79:10:E0:4C&stream=533936&extension==.m3u8
+
+
+
+
+
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Baraza TV Relaxing" tvg-logo="https://i.imgur.com/TZ1unwF.png",Baraza TV Relaxing
+https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Baraza TV Deep House" tvg-logo="https://i.imgur.com/TZ1unwF.png",Baraza TV Deep House 
+https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Number 1 TV" tvg-id="Number1TV.tr" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="MUZIK TV",NR1
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
+#EXTINF:-1 tvg-name="MILYON TV" tvg-id="" tvg-logo="https://i.ibb.co/sQRhqCs/milyon-tv.png" group-title="MUZIK TV",MILYON TV
+https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8
+#EXTINF:-1 tvg-name="KRAL POP" tvg-id="Kral.Pop.Radyo.tr" tvg-logo="https://i.ibb.co/vk0bKz0/kral-pop.png" group-title="MUZIK TV",KRAL POP
+http://dygvideo.dygdigital.com/live/hls/kralpop
+#EXTINF:-1 tvg-name="TATLISES TV" tvg-id="Tatlıses.Tv.tr" tvg-logo="https://i.ibb.co/yRy9zwt/tatlises-tv.png" group-title="MUZIK TV",TATLISES TV
+https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8
+#EXTINF:-1 tvg-name="Number 1 Ask" tvg-id="Number1Ask.tr" tvg-logo="https://i.ibb.co/5cJ0KtQ/nr1-ask.png" group-title="MUZIK TV",NR1 ASK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+#EXTINF:-1 tvg-name="Number 1 Damar" tvg-id="Number1Damar.tr" tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="MUZIK TV",NR1 DAMAR
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 tvg-name="Number 1 Dance" tvg-id="Number1Dance.tr" tvg-logo="https://i.ibb.co/kXFSFTN/nr1-dance.png" group-title="MUZIK TV",NR1 DANCE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-id="" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="MUZIK TV",NR1 FASHION ONE
+http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+#EXTINF:-1 tvg-name="TRT Muzik" tvg-id="TRTMuzik.tr" tvg-logo="https://i.ibb.co/4gbPpzC/trt-muzik.png" group-title="MUZIK TV",TRT MUZIK
+https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="Dream Turk" tvg-id="DreamTurk.tr" tvg-logo="https://i.ibb.co/fxRrKmB/dream-turk.png" group-title="MUZIK TV",DREAM TURK
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="PowerTurk TV" tvg-id="PowerTurkTV.tr" tvg-logo="https://i.ibb.co/xXcBD2C/powerturk.png" group-title="MUZIK TV",POWER TURK
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b5250000_sltur.m3u8
+#EXTINF:-1 tvg-name="Power TV" tvg-id="PowerTV.tr" tvg-logo="https://i.ibb.co/JrXDQJy/power-tv.png" group-title="MUZIK TV",POWER TV
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b2650000_sltur.m3u8
+#EXTINF:-1 tvg-name="POWER TURK TAPTAZE" tvg-id="" tvg-logo="https://i.ibb.co/F5K5xs9/powerturk-taptaze.png" group-title="MUZIK TV",POWER TURK TAPTAZE
+http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="POWER DANCE" tvg-id="" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="MUZIK TV",POWER DANCE
+https://listen.powerapp.com.tr/dance/dance.smil/chunklist_b1028000_sltur.m3u8
+#EXTINF:-1 tvg-name="POWER LOVE" tvg-id="" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="MUZIK TV",POWER LOVE
+https://listen.powerapp.com.tr/plove/love.smil/chunklist_b1028000_sltur.m3u8
+#EXTINF:-1 tvg-name="POWER TURK AKUSTIK" tvg-id="" tvg-logo="https://i.ibb.co/XFY7dCW/powerturk-akustik.png" group-title="MUZIK TV",POWER TURK AKUSTIK
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/chunklist_b1028000_sltur.m3u8
+#EXTINF:-1 tvg-name="POWER TURK SLOW" tvg-id="" tvg-logo="https://i.ibb.co/R4pcKqK/powerturk-slow.png" group-title="MUZIK TV",POWER TURK SLOW
+https://listen.powerapp.com.tr/pturkslow/slow.smil/chunklist_b1028000_sltur.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sıla TV" tvg-logo="http://assets.tvcdn.net/92b15cce-55df-4138-a88e-e1c222eab7c9.png" group-title="MUZIK TV",,Sıla TV
+https://stream.tvcdn.net/diger-muzik/sila-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Zeyno" tvg-logo="http://assets.tvcdn.net/21718aa9-5ff3-4620-acd8-68fbc544508d.png" group-title="MUZIK TV",,Zeyno
+https://stream.tvcdn.net/diger-muzik/zeyno.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Dost Web TV" tvg-logo="http://assets.tvcdn.net/f8af5ed8-4d05-4c2f-aa71-7d8e45ec19c2.png" group-title="MUZIK TV",,Dost Web TV
+https://stream.tvcdn.net/diger-muzik/dost-web-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Toppop TV" tvg-logo="http://assets.tvcdn.net/4a8468ec-c134-4db1-93ef-699f15e1522b.png" group-title="MUZIK TV",,Toppop TV
+https://stream.tvcdn.net/diger-muzik/toppop-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ezo TV" tvg-logo="http://assets.tvcdn.net/5b807bfa-5808-4af2-8a4b-4212e6d3d132.png" group-title="MUZIK TV",,Ezo TV
+https://stream.tvcdn.net/diger-muzik/ezo-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Arma TV" tvg-logo="http://assets.tvcdn.net/4ed2a8ac-fd7f-4379-84cc-af1473c3fa72.png" group-title="MUZIK TV",,Arma TV
+https://stream.tvcdn.net/diger-muzik/arma-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Genç SMS TV" tvg-logo="http://assets.tvcdn.net/fc1e5546-cc3e-4c7e-b379-f16052c81901.png" group-title="MUZIK TV",,Genç SMS TV
+https://stream.tvcdn.net/diger-muzik/genc-sms-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Aviva" tvg-logo="http://assets.tvcdn.net/8c8a9c78-0e9a-456c-8427-a727f81c8ca8.png" group-title="MUZIK TV",,Aviva
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+https://stream.tvcdn.net/diger-muzik/aviva.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Yaşam TV" tvg-logo="http://assets.tvcdn.net/6feeb5fd-1392-4230-aba7-c36319321758.png" group-title="MUZIK TV",Yaşam TV
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+https://stream.tvcdn.net/diger/yasam-tv.m3u8
+#EXTINF:-1 tvg-id="FinestTV.de" tvg-name="Finest TV" tvg-logo="http://assets.tvcdn.net/63a00e4e-eb16-4c55-9917-d1d2053f8b8b.png" group-title="MUZIK TV",,Finest TV
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+http://stream.tvcdn.net/diger-muzik/finest-tv.m3u8
+#EXTINF:-1 tvg-id="TempoTV.tr" tvg-name="Tempo TV" tvg-logo="http://assets.tvcdn.net/09eddd54-7c9e-4036-8f9f-07d3c60c867c.png" group-title="MUZIK TV",,Tempo TV
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+https://stream.tvcdn.net/diger-muzik/tempo-tv.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="13 Festival" tvg-logo="https://i.imgur.com/hTUe0Pw.png",13 Festival 
+https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="30A Music Channel" tvg-logo="https://i.imgur.com/gNWg9tl.png",30A Music Channel
+https://30a-tv.com/feeds/ceftech/30atvmusic.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="51 Radio TV" tvg-logo="https://www.51news.it/images/loghi/logo_tv_radio_51news.png",51 Radio TV 
+http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="88 Stereo" tvg-logo="https://i.imgur.com/i3YwORV.png",88 Stereo  
+http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="947 Joburg" tvg-logo="https://i.imgur.com/rXrCS3K.png",947 Joburg  
+https://ythls.armelin.one/channel/UCYTTndlEZ-zBvVAxtayuNEA.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="A2i Music" tvg-logo="https://i.imgur.com/Fykhzxh.jpg",A2i Music  
+https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Aditya Music" tvg-logo="https://t.infibeam.com/img/lookandfeel/5101232/753d6e8f698e4_logo.png.999xx.png",Aditya Music 
+https://ythls.armelin.one/channel/UCNApqoVYJbYSrni4YsbXzyQ.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Afrobeats" tvg-logo="https://i.imgur.com/232ndRK.png",Afrobeats 
+https://stream.ecable.tv/afrobeats/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Aghani Aghani TV" tvg-logo="https://i.imgur.com/o6HSfNg.png",Aghani Aghani TV  
+https://streaming-a-1035.cdn.nextologies.com/6zj8y5nemi8a32vyjjbkv0oqx/77pcakd8reik3g8qdqnexlkmq/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Amedia 1" tvg-logo="https://i.imgur.com/2pAHdAi.png",Amedia 1
+http://31.148.48.15/A1/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="AMusic Channel" tvg-logo="https://i.imgur.com/06zuf64.png",AMusic Channel 
+http://mn-nl.mncdn.com/amusictv/amusicsrt.stream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Arabica TV" tvg-logo="https://i.imgur.com/sTOoDy1.png",Arabica TV 
+http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Baeble Music" tvg-logo="https://i.imgur.com/gWZSS8a.png",Baeble Music 
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbaeble/CDN/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Balle Balle" tvg-logo="https://i.imgur.com/oxkkWH5.png",Balle Balle 
+https://mcncdndigital.com/balleballetv/index.m3u8
+
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Beats Radio" tvg-logo="https://i.imgur.com/zkNUO5p.png",Beats Radio 
+https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Bel RTL" tvg-logo="https://i.imgur.com/0DUprIW.png",Bel RTL 
+https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Belmedia TV" tvg-logo="https://i.imgur.com/xEbQsdj.png",Belmedia TV 
+https://ythls.armelin.one/channel/UCtj2xA6lW9BPE4BxnhxQQkw.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Bridge" tvg-logo="https://i.imgur.com/qYObfrG.png",Bridge
+http://31.148.48.15/Bridge_TV/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Buenísima Radio TV" tvg-logo="https://i.imgur.com/URKDlOZ.png",Buenísima Radio TV  
+https://ythls.armelin.one/channel/UCk20PydKzK3giq80G4mqSeg.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Canal 3 KMK TV" tvg-logo="https://i.imgur.com/sgRDRBK.jpg",Canal 3 KMK TV 
+https://cloudvideo.servers10.com:8081/8120/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Canal Cultura Venezuela" tvg-logo="https://culturavenezuela.com/wp-content/uploads/2021/07/cropped-Cierre-Alfa-SE.00_00_04_25.Imagen-fija003-150x150.png",Canal Cultura Venezuela  
+https://ythls.armelin.one/channel/UCMPPdsYmf-V6jukDtIfpM_A.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Cantina TV" tvg-logo="https://i.imgur.com/JWMk2fP.png",Cantina TV 
+https://vcp.myplaytv.com/cantinatv/cantinatv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Clubbing TV" tvg-logo="https://i.imgur.com/8giAFx5.png",Clubbing TV
+https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="CMC (California Music Channel)" tvg-logo="https://i.imgur.com/L38mC6H.png",CMC (California Music Channel)
+https://cmc-ono.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="CMC TV" tvg-logo="https://i.imgur.com/FCb7Ag2.png",CMC TV 
+https://stream.cmctv.hr:49998/cmc/live.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Company TV" tvg-logo="https://i.imgur.com/ccdwsWj.png",Company TV 
+https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Conecta TV" tvg-logo="https://i.imgur.com/qEk0QGa.png",Conecta TV
+https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Cool FM 98.9" tvg-logo="https://i.imgur.com/uGE6lZ2.png",Cool FM 98.9 
+https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Couleur 3" tvg-logo="https://i.imgur.com/VOIwYYd.png",Couleur 3 
+https://rtsc3video.akamaized.net/hls/live/2042837/c3video/3/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Dance FM" tvg-logo="https://i2.paste.pics/ff3e1e1045a1968dcdbcda3824a94eb3.png",Dance FM 
+https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="DASDING 90.8" tvg-logo="https://i.imgur.com/BmklHs8.png",DASDING 90.8 
+https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="DeepHouse District" tvg-logo="https://i.imgur.com/IV2Qvc0.png",DeepHouse District 
+https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Deluxe Lounge" tvg-logo="https://i.imgur.com/pgCA35z.png",Deluxe Lounge 
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2489
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="DSTV (614p)" tvg-logo="https://i.imgur.com/mGFVwkB.png",DSTV (614p) 
+http://46.249.95.140:8081/hls/data.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Ecua Stereo Radio TV" tvg-logo="https://i.imgur.com/tnFZY5O.png",Ecua Stereo Radio TV 
+https://video.misistemareseller.com/ecuastereotv/ecuastereotv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Ellinikos FM" tvg-logo="https://i.ibb.co/y0ydCNB/unnamed-4.png",Ellinikos FM 
+https://til.pp.ua:3093/live/ellinikosfmlive.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="EnerGeek Radio" tvg-logo="https://i.imgur.com/euaoN1A.png",EnerGeek Radio 
+https://streaming-cl.sh1ny.space/memfs/75b105a4-2fd3-4538-a55c-480f3903a262.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Euro Indie Music Chart TV" tvg-logo="https://i.imgur.com/lF0iofX.png",Euro Indie Music Chart TV 
+http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Exclusiv TV" tvg-logo="https://i.imgur.com/EfNHNts.png",Exclusiv TV  
+https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Fabulosa Estéreo 100.5 FM" tvg-logo="https://i.imgur.com/YFmzkOp.png",Fabulosa Estéreo 100.5 FM 
+https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Famatv" tvg-logo="https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg",Famatv  
+https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/rewind-3600.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Fame95 FM" tvg-logo="https://i.imgur.com/fvtF0qM.png",Fame95 FM 
+https://rjr-fame.akamaized.net/hls/live/2033820/RJR_FAME/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Farra Play" tvg-logo="https://i.imgur.com/bXWzstH.png",Farra Play  
+http://159.203.148.226/live/farra.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Fen Folk" tvg-logo="https://i.imgur.com/pq7wX0V.png",Fen Folk  
+https://ythls.armelin.one/channel/UCptENFbwjv79hmQPymnwKcA.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="FM ITALIA" tvg-logo="https://i.imgur.com/54CO2u9.png",FM ITALIA 
+https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Folk Klub" tvg-logo="https://i.imgur.com/Seq7Od7.png",Folk Klub 
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Folklorit TV" tvg-logo="https://i.imgur.com/wayxz5S.jpg",Folklorit TV  
+https://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Frecuencia Musical TV" tvg-logo="https://i.imgur.com/vPxvbVv.png",Frecuencia Musical TV 
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
+
+
+
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Fuego TV" tvg-logo="https://i.imgur.com/T9vWjeB.png",Fuego TV  
+https://video.misistemareseller.com/Fuegotv/Fuegotv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Gigant FM" tvg-logo="https://i.imgur.com/LwEHfjD.png",Gigant FM 
+https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Global TV" tvg-logo="https://i.imgur.com/z6srIMD.png",Global TV 
+https://stmv.video.gmpro.top/global/global/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="GugakTV 국악방송" tvg-logo="https://i.imgur.com/Ey7Htm8.png",GugakTV 국악방송 
+https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Hit Tv" tvg-logo="https://i0.wp.com/audiovisual451.com/wp-content/uploads/HIT-TV.jpg?resize=300%2C236&ssl=1",Hit Tv
+http://185.189.225.149/HitTV/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="HMI PROMZ NEWS" tvg-logo="https://i.imgur.com/gwPaw3v.png",HMI PROMZ NEWS 
+https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Hot TV" tvg-logo="https://i.imgur.com/W2rXjWd.png",Hot TV  
+https://ythls.armelin.one/channel/UCFV_yPFxPbbmrYJ9J6zJglA.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Hype Visual Radio" tvg-logo="https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png",Hype Visual Radio 
+https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Identité Télé Caraïbes (548p)" tvg-logo="https://i.imgur.com/Atsf6Cd.png",Identité Télé Caraïbes (548p)
+https://vdo2.pro-fhi.net:3769/stream/play.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="IFM TV" tvg-logo="https://i.imgur.com/9oEaZ9Y.png",IFM TV  
+https://ythls.armelin.one/channel/UCvPW0VhnTcxYjWIxCvMlw2Q.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Infinita TV" tvg-logo="https://i.imgur.com/1nHxdkR.png",Infinita TV 
+https://s2.tvdatta.com:3753/hybrid/play.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="INTV Australia" tvg-logo="https://i.imgur.com/1nJl0Pv.png",INTV Australia 
+http://tv1.intv.mk:1935/live/intv/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="IQ Channel" tvg-logo="https://i.imgur.com/hwuaomt.png",IQ Channel 
+https://rtmp.info/iqtv/envivo/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Isango TV" tvg-logo="https://i.imgur.com/EfsHaMQ.png",Isango TV  
+http://80.241.215.175:1935/isangostar/isangostar/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Ivoire Channel" tvg-logo="https://i.imgur.com/gKbNqQv.png",Ivoire Channel 
+https://video1.getstreamhosting.com:1936/8244/8244/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Izvorna TV" tvg-logo="https://i.imgur.com/lThyC3i.png",Izvorna TV  
+https://ythls.armelin.one/channel/UCCg4AIJUdOL0A_90Mcj1ilA.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="J.E.K.A. Muzzik" tvg-logo="https://i.imgur.com/5Y5NAEF.png",J.E.K.A. Muzzik 
+https://muzzik-live.morescreens.com/mts-4/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Jawhara FM" tvg-logo="https://www.jawharafm.net/ar/static/fr/image/png/logo-jfm.png",Jawhara FM  
+http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="JAWHARA TV" tvg-logo="https://i.postimg.cc/xT9fsvYQ/jawhara-fm-tv.jpg",JAWHARA TV  
+https://streaming.toutech.net/live/jtv/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kayhan TV" tvg-logo="https://i.imgur.com/2MDjU7x.png",Kayhan TV 
+https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kfm 94.5" tvg-logo="https://i.imgur.com/TqWYhIR.png",Kfm 94.5  
+https://ythls.armelin.one/channel/UCVklphu0DdSFQaoRu1e0fsw.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kiss Kiss Napoli TV" tvg-logo="https://i.imgur.com/RsGiBwE.png",Kiss Kiss Napoli TV 
+https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kiss Kiss TV" tvg-logo="https://i.imgur.com/ja6c2YZ.png",Kiss Kiss TV 
+https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Klape i Tambure TV" tvg-logo="https://i.imgur.com/sKj3dgc.png",Klape i Tambure TV 
+https://stream.cmctv.hr:49998/kit/live.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kronehit" tvg-logo="https://i.imgur.com/dQJQv1X.png",Kronehit 
+https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Kuriakos Music" tvg-logo="https://i.imgur.com/Zl40NYi.jpg",Kuriakos Music 
+http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="La Mega Mundial" tvg-logo="https://i.imgur.com/UdMsgkt.png",La Mega Mundial
+https://server40.servistreaming.com:3477/stream/play.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="LA MIA TV" tvg-logo="https://i.imgur.com/XIwTM1h.png",LA MIA TV  
+https://ss5.domint.net:3184/mia_str/lamiatv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="La Perla Radio TV" tvg-logo="https://i.imgur.com/8wDMgmB.jpg",La Perla Radio TV  
+https://eu1.servers10.com:8081/8068/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="La Voz del Trópico" tvg-logo="https://i.imgur.com/DKDFpHt.png",La Voz del Trópico  
+https://ss2.domint.net:3226/vttv_str/tropicotv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="La Voz Grupera TV" tvg-logo="https://i.imgur.com/Ku1CEeb.png",La Voz Grupera TV 
+https://cloudvideo.servers10.com:8081/8128/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="La-X" tvg-logo="https://i.imgur.com/i2GnQTq.png",La-X 
+https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Latin Zone TV" tvg-logo="https://i.imgur.com/duEDsne.png",Latin Zone TV 
+https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
+#EXTINF:-1 group-title="MUZIK TV"Religious" tvg-name="Lingkar TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png",Lingkar TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="LiraTV" tvg-logo="https://i.imgur.com/hBswXYZ.png",LiraTV 
+https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="LIVExLIVE" tvg-logo="https://i.imgur.com/KFzEoed.png",LIVExLIVE 
+https://dai.google.com/linear/hls/event/xC8SDBfbTKCTCa20kFJQXQ/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Lobo TV" tvg-logo="https://i.imgur.com/3fA50RJ.png",Lobo TV 
+https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Luna Estéreo 106.4 FM" tvg-logo="https://i.imgur.com/cESeD6R.png",Luna Estéreo 106.4 FM  
+https://servervideo.intermediacolombia.com:19360/kychbbz/kychbbz.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="M2" tvg-logo="https://i.imgur.com/AfcBWCg.png",M2 
+https://live.m2.tv/hls3/stream.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Mad World" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Mad_world.jpg",Mad World 
+https://ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Maimón TV Canal 3" tvg-logo="https://i.imgur.com/twldaaC.png",Maimón TV Canal 3 
+https://ss3.domint.net:3138/mtv_str/maimon/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Makao TV" tvg-logo="https://i.imgur.com/asD5y7i.png",Makao TV 
+https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Marina TV" tvg-logo="https://i.imgur.com/F2PzEaw.png",Marina TV  
+https://ythls.armelin.one/channel/UC1TelTm8bbY2jw0guInSvBA.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Master Show TV" tvg-logo="https://i.imgur.com/haXHFCT.png",Master Show TV 
+https://mastershowtv.videovox.pw/master6123/master6123/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="MegaBox" tvg-logo="https://i.imgur.com/JqaW7Ei.png",MegaBox  
+https://hdbox.chunklistv.com/live?stream=megabox
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Metropoli Medios TV" tvg-logo="https://i.imgur.com/yID5T2S.jpg",Metropoli Medios TV 
+https://eu1.servers10.com:8081/8214/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Mi Gente TV" tvg-logo="https://i.imgur.com/CSbmQlu.png",Mi Gente TV  [Geo-blocked]
+https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Miel TV" tvg-logo="https://i.imgur.com/dPSFrCs.png",Miel TV  
+https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Millenium 109 FM" tvg-logo="https://i.imgur.com/sfNL6Bv.png",Millenium 109 FM  
+https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Mosaïque FM" tvg-logo="https://i.imgur.com/GDUykah.png",Mosaïque FM  
+https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="MUZZIK" tvg-logo="https://i.imgur.com/9dz8MsD.png",MUZZIK 
+https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik ELECTRO" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik ELECTRO 
+https://muzzik-live.morescreens.com/mts-9/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik FLASHBACK" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik FLASHBACK 
+https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik MOBA" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik MOBA 
+https://muzzik-live.morescreens.com/mts-2/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik POP STAR" tvg-logo="https://i.imgur.com/E9ha9Or.png",Muzzik POP STAR 
+https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik SENSE" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik SENSE 
+https://muzzik-live.morescreens.com/mts-7/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik TIKTAK" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik TIKTAK 
+https://muzzik-live.morescreens.com/mts-a5/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Muzzik ZZ TV" tvg-logo="https://i.imgur.com/9dz8MsD.png",Muzzik ZZ TV 
+https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="MYX Philippines" tvg-logo="https://i.imgur.com/pbHuUuV.png",MYX Philippines 
+https://myxnola-abscbn-ono.amagi.tv/index.m3u8
+
+
+
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Nago TV (240p)" tvg-logo="https://i.imgur.com/cjFVtxK.png",Nago TV (240p)
+https://lakay.online/public/nagotv/index.fmp4.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Nick Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/NickMusic.svg/512px-NickMusic.svg.png",Nick Music 
+http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Now 70's" tvg-logo="https://i.imgur.com/qiCCX5X.png",Now 70's
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Now 80's" tvg-logo="https://i.imgur.com/YyPnMeB.png",Now 80's
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="NOW Rock" tvg-logo="https://i.imgur.com/GuM4GnX.png",NOW Rock
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Now TV 102.3FM Edmonton (CKNO-FM)" tvg-logo="https://i.imgur.com/sF2g7KE.png",Now TV 102.3FM Edmonton (CKNO-FM)
+https://videostream.jpbgdigital.com/NOWTV.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="NPC Rádio e TV" tvg-logo="https://i.imgur.com/mw1lYWE.png",NPC Rádio e TV 
+https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="NRG 91" tvg-logo="https://i.imgur.com/1Zl1OJ5.png",NRG 91  
+http://tv.nrg91.gr:1935/onweb/live/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="NRG TV" tvg-logo="https://i.imgur.com/1Zl1OJ5.png",NRG TV 
+https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Number 1 Ask" tvg-logo="https://i.imgur.com/slwbux7.png",Number 1 Ask 
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Number 1 Damar" tvg-logo="https://i.imgur.com/rYtbAGZ.png",Number 1 Damar 
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Number 1 Dance" tvg-logo="https://i.imgur.com/ZM4PSyq.png",Number 1 Dance 
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Óčko" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/512px-%C3%93%C4%8Dko_logo_2012.png",Óčko 
+https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Óčko Expres" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%93%C4%8Dko_Expres_logo.png/512px-%C3%93%C4%8Dko_Expres_logo.png",Óčko Expres 
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Óčko Gold" tvg-logo="https://i.imgur.com/nrWNyLc.jpg",Óčko Gold 
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="ON FM" tvg-logo="https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png",ON FM 
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Onda 15 TV" tvg-logo="https://i.imgur.com/mUrZz9O.png",Onda 15 TV 
+https://cloudvideo.servers10.com:8081/8034/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Onda Valencia" tvg-logo="https://i.imgur.com/6HxLUQd.png",Onda Valencia 
+https://cloudvideo.servers10.com:8081/8116/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Ondambiental TV" tvg-logo="https://i.imgur.com/u5804Au.jpg",Ondambiental TV 
+https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Panarmenian TV" tvg-logo="https://i.imgur.com/ldLRe4j.png",Panarmenian TV
+https://us1.ottstream.live:17071/C279/index.m3u8?token=123TREWQ456
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Panavisión" tvg-logo="https://i.imgur.com/qj1qBn1.png",Panavisión 
+https://vcp.myplaytv.com/panavision/panavision/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Panik TV" tvg-logo="https://i.imgur.com/13C3CPr.png",Panik TV 
+https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Play TV" tvg-logo="https://i.imgur.com/JWFOYuD.png",Play TV  
+http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Play TV" tvg-logo="https://i.imgur.com/1dmBqpf.png",Play TV  
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Power Dance" tvg-logo="https://i.imgur.com/QpPteBO.png",Power Dance 
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Power Love" tvg-logo="https://i.imgur.com/0RzUswR.png",Power Love 
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Power Türk Akustik" tvg-logo="https://i.imgur.com/driabBO.png",Power Türk Akustik 
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Power Türk Slow" tvg-logo="https://i.imgur.com/tQSoQXW.png",Power Türk Slow 
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Power Türk Taptaze" tvg-logo="https://i.imgur.com/a5nW3HU.png",Power Türk Taptaze 
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Qello Concerts by Stingray" tvg-logo="https://i.imgur.com/IRyFTWq.png",Qello Concerts by Stingray 
+https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Qmusic (Netherlands)" tvg-logo="https://i.imgur.com/fMTuqDu.png",Qmusic (Netherlands) 
+https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="QwestTV" tvg-logo="https://i.imgur.com/DjgNNHK.png",QwestTV
+https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Alegria 98.5 FM" tvg-logo="https://i.imgur.com/N00aS3x.png",Radio Alegria 98.5 FM 
+https://video.compuwebecuador.com:3880/stream/play.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Bonita 106.7" tvg-logo="https://i.imgur.com/IvZtqyz.png",Radio Bonita 106.7 
+https://cloudvideo.servers10.com:8081/8154/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Carnaval TV" tvg-logo="https://i.imgur.com/cdpbkSo.png",Radio Carnaval TV  
+https://eu1.servers10.com:8081/8116/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Contact" tvg-logo="https://i.imgur.com/32mmGvB.png",Radio Contact 
+https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Cuenca Estéreo" tvg-logo="https://i.imgur.com/qZzSOeU.png",Radio Cuenca Estéreo 
+https://eu1.servers10.com:8081/8074/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Fantástica 98.9 FM" tvg-logo="https://i.imgur.com/mpcIbrH.jpg",Radio Fantástica 98.9 FM 
+http://190.107.232.9:8082/livestream/stream.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Javan TV" tvg-logo="https://i.imgur.com/a1zuW2C.png",Radio Javan TV 
+http://74.115.215.41/live/smil:rjtv.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Onda Digital" tvg-logo="https://i.imgur.com/Lid5RTv.png",Radio Onda Digital
+https://v4.tustreaming.cl/radioondadigitaltv/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Piter Pan TV" tvg-logo="https://i.imgur.com/hbqVWV4.png",Radio Piter Pan TV  
+https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png",Radio Realpolitik 
+https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio TV Tendencias" tvg-logo="https://i.imgur.com/tsdrrV9.png",Radio TV Tendencias  
+https://s1.tvdatta.com:3950/multi_web/play.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Radio y Televisión Budokan (352p)" tvg-logo="https://i.imgur.com/1rfoSt8.png",Radio y Televisión Budokan (352p)
+https://cp.panelchs.com:1936/8016/8016/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Rararadio" tvg-logo="https://i.imgur.com/vTpfxUG.png",Rararadio 
+https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Retro Music Television" tvg-logo="https://i.imgur.com/pyOjdZs.png",Retro Music Television 
+https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Reyali (614p)" tvg-logo="https://i.imgur.com/YmFjnsF.png",Reyali (614p)
+https://eu1.servers10.com:8081/8090/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="RFPtv" tvg-logo="https://i.imgur.com/I60nQuR.png",RFPtv 
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="RTV Music" tvg-logo="https://www.jagobd.com/wp-content/uploads/2017/01/rtvmusic.jpg?x50681",RTV Music  
+https://ythls.armelin.one/channel/UCi-aUVwZR5U8GBNOy0CC4ww.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="RTV Vida" tvg-logo="https://i.imgur.com/EqUfEAh.png",RTV Vida 
+https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Rumba 98.5 FM" tvg-logo="https://i.imgur.com/snbcCWi.png",Rumba 98.5 FM 
+https://ss5.domint.net:3038/rum_str/rumba985fm/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Salsa Gorda Television" tvg-logo="https://i.imgur.com/3IhYd7G.jpg",Salsa Gorda Television 
+https://ssh101-fl.bozztv.com/ssh101/qMUAZEy/index.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Salto Brasa Music" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640",Salto Brasa Music 
+https://salto-streams.nl/hls/sotv1.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Sol Música" tvg-logo="https://i.imgur.com/rbJrmPw.png",Sol Música 
+https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="SoloBáilalo" tvg-logo="https://i.imgur.com/SImJE7c.png",SoloBáilalo 
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Somos Topo Point TV" tvg-logo="https://i.imgur.com/7Jx45yQ.png",Somos Topo Point TV  
+https://cloudflare.streamgato.us:3901/live/somostopopointtvlive.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="SONGTV Armenia" tvg-logo="https://i.imgur.com/nM7LbmV.png",SONGTV Armenia 
+https://songtv.hls.iptvdc.com/web-armenia/index.m3u8
+
+
+
+
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="SONGTV Russia" tvg-logo="https://i.imgur.com/nM7LbmV.png",SONGTV Russia 
 https://songtv.hls.iptvdc.com/web-russia/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="SOY Plancha TV" tvg-logo="https://i.ibb.co/P4kpMgk/1689344714578.jpg",SOY Plancha TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="SOY Plancha TV" tvg-logo="https://i.ibb.co/P4kpMgk/1689344714578.jpg",SOY Plancha TV 
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Star 101 FM (KNUT Guam)" tvg-logo="https://star101.gu/images/fb_icon.jpg",Star 101 FM (KNUT Guam) 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Star 101 FM (KNUT Guam)" tvg-logo="https://star101.gu/images/fb_icon.jpg",Star 101 FM (KNUT Guam) 
 https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Steelbird Music" tvg-logo="https://i.imgur.com/Egijzx3.png",Steelbird Music  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Steelbird Music" tvg-logo="https://i.imgur.com/Egijzx3.png",Steelbird Music  
 http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Ambience" tvg-logo="https://i.imgur.com/1mawJQX.png",Stingray Ambience 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Ambience" tvg-logo="https://i.imgur.com/1mawJQX.png",Stingray Ambience 
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziostingrayambiance/CDN/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Classic Rock" tvg-logo="https://i.imgur.com/FBgu8yB.png",Stingray Classic Rock 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Classic Rock" tvg-logo="https://i.imgur.com/FBgu8yB.png",Stingray Classic Rock 
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Classica" tvg-logo="https://i.imgur.com/nh1k5RC.png",Stingray Classica 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Classica" tvg-logo="https://i.imgur.com/nh1k5RC.png",Stingray Classica 
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray CMusic" tvg-logo="https://i.imgur.com/3UppN5P.png",Stingray CMusic 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray CMusic" tvg-logo="https://i.imgur.com/3UppN5P.png",Stingray CMusic 
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray DJAZZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/512px-Stingray_Djazz.png",Stingray DJAZZ 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray DJAZZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/512px-Stingray_Djazz.png",Stingray DJAZZ 
 https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Easy Listening" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png",Stingray Easy Listening 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Easy Listening" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png",Stingray Easy Listening 
 https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Flashback 70s" tvg-logo="https://i.imgur.com/jf5C9QF.png",Stingray Flashback 70s 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Flashback 70s" tvg-logo="https://i.imgur.com/jf5C9QF.png",Stingray Flashback 70s 
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Greatest Hits" tvg-logo="https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png",Stingray Greatest Hits 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Greatest Hits" tvg-logo="https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png",Stingray Greatest Hits 
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingraygreatesthits/CDN/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Hit List" tvg-logo="https://i.imgur.com/lgpIwId.png",Stingray Hit List 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Hit List" tvg-logo="https://i.imgur.com/lgpIwId.png",Stingray Hit List 
 https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Holiday Hits" tvg-logo="https://i.imgur.com/4xVVKH8.png",Stingray Holiday Hits 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Holiday Hits" tvg-logo="https://i.imgur.com/4xVVKH8.png",Stingray Holiday Hits 
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Hot Country" tvg-logo="https://i.imgur.com/PZhxyIT.png",Stingray Hot Country 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Hot Country" tvg-logo="https://i.imgur.com/PZhxyIT.png",Stingray Hot Country 
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Karaoke" tvg-logo="https://i.imgur.com/9TLTLS3.png",Stingray Karaoke 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Karaoke" tvg-logo="https://i.imgur.com/9TLTLS3.png",Stingray Karaoke 
 https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Naturescape" tvg-logo="https://i.imgur.com/882kd90.png",Stingray Naturescape 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Naturescape" tvg-logo="https://i.imgur.com/882kd90.png",Stingray Naturescape 
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Nothin' But 90s" tvg-logo="https://i.imgur.com/Tq3I0po.png",Stingray Nothin' But 90s 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Nothin' But 90s" tvg-logo="https://i.imgur.com/Tq3I0po.png",Stingray Nothin' But 90s 
 https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Pop Adult" tvg-logo="https://i.imgur.com/H2ugC9L.png",Stingray Pop Adult 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Pop Adult" tvg-logo="https://i.imgur.com/H2ugC9L.png",Stingray Pop Adult 
 https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Remember the 80s" tvg-logo="https://i.imgur.com/6E3wYrb.png",Stingray Remember the 80s 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Remember the 80s" tvg-logo="https://i.imgur.com/6E3wYrb.png",Stingray Remember the 80s 
 https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Rock Alternative" tvg-logo="https://i.imgur.com/mt8ulVX.png",Stingray Rock Alternative 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Rock Alternative" tvg-logo="https://i.imgur.com/mt8ulVX.png",Stingray Rock Alternative 
 https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Romance Latino" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png",Stingray Romance Latino 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Romance Latino" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png",Stingray Romance Latino 
 https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Smooth Jazz" tvg-logo="https://i.imgur.com/h1DsOzH.png",Stingray Smooth Jazz 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Smooth Jazz" tvg-logo="https://i.imgur.com/h1DsOzH.png",Stingray Smooth Jazz 
 https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Soul Storm" tvg-logo="https://i.imgur.com/dU1KC3f.png",Stingray Soul Storm 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Soul Storm" tvg-logo="https://i.imgur.com/dU1KC3f.png",Stingray Soul Storm 
 https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray The Spa" tvg-logo="https://i.imgur.com/ywAN923.png",Stingray The Spa 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray The Spa" tvg-logo="https://i.imgur.com/ywAN923.png",Stingray The Spa 
 https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Today's KPOP" tvg-logo="https://i.imgur.com/mMbntB5.png",Stingray Today's KPOP 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Today's KPOP" tvg-logo="https://i.imgur.com/mMbntB5.png",Stingray Today's KPOP 
 https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Today's Latin Pop" tvg-logo="https://i.imgur.com/Os3kRRP.png",Stingray Today's Latin Pop 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Today's Latin Pop" tvg-logo="https://i.imgur.com/Os3kRRP.png",Stingray Today's Latin Pop 
 https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Stingray Urban Beat" tvg-logo="https://i.imgur.com/Os3kRRP.png",Stingray Urban Beat 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Stingray Urban Beat" tvg-logo="https://i.imgur.com/Os3kRRP.png",Stingray Urban Beat 
 https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="STZ Telebista" tvg-logo="https://i.imgur.com/rFQuAEv.png",STZ Telebista 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="STZ Telebista" tvg-logo="https://i.imgur.com/rFQuAEv.png",STZ Telebista 
 https://cloudvideo.servers10.com:8081/stztelebista/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Súper Q Panamá" tvg-logo="https://i.imgur.com/ocTnqi7.png",Súper Q Panamá 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Súper Q Panamá" tvg-logo="https://i.imgur.com/ocTnqi7.png",Súper Q Panamá 
 https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Super TV (576p)" tvg-logo="https://i.imgur.com/pzxUE0O.png",Super TV (576p)
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Super TV (576p)" tvg-logo="https://i.imgur.com/pzxUE0O.png",Super TV (576p)
 http://iptv.supertv.ro:8000/play/a001/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Techno Warehouse (US)" tvg-logo="https://i.imgur.com/GyxXMDv.png",Techno Warehouse (US)  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Techno Warehouse (US)" tvg-logo="https://i.imgur.com/GyxXMDv.png",Techno Warehouse (US)  
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Telehit" tvg-logo="https://i.imgur.com/NVxHxJn.png",Telehit 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Telehit" tvg-logo="https://i.imgur.com/NVxHxJn.png",Telehit 
 http://45.175.139.194:8000/play/62
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Telehit Musica" tvg-logo="https://i.imgur.com/PfROac9.png",Telehit Musica 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Telehit Musica" tvg-logo="https://i.imgur.com/PfROac9.png",Telehit Musica 
 http://190.60.42.86:8000/play/a02x/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TeleMusik Sénégal" tvg-logo="https://i.imgur.com/dPAPLsd.png",TeleMusik Sénégal 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TeleMusik Sénégal" tvg-logo="https://i.imgur.com/dPAPLsd.png",TeleMusik Sénégal 
 https://58c04fb1d143f.streamlock.net/rezopropartner_1/rezopropartner_1/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Tezaur TV" tvg-logo="https://i.imgur.com/eAagwLW.png",Tezaur TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Tezaur TV" tvg-logo="https://i.imgur.com/eAagwLW.png",Tezaur TV 
 http://tezaur.mlbfan.org/tezaur/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="The Retro Channel" tvg-logo="https://i.imgur.com/t3i1HtE.jpg",The Retro Channel 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="The Retro Channel" tvg-logo="https://i.imgur.com/t3i1HtE.jpg",The Retro Channel 
 https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TMA" tvg-logo="https://i.imgur.com/1iOAl2j.png",TMA 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TMA" tvg-logo="https://i.imgur.com/1iOAl2j.png",TMA 
 http://hls.tmacaraibes.com/live/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TopEstrada TV" tvg-logo="https://i.imgur.com/0Dh1FJZ.png",TopEstrada TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TopEstrada TV" tvg-logo="https://i.imgur.com/0Dh1FJZ.png",TopEstrada TV 
 http://live.topestrada.com/live/topestrada/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Toyor Al-Jannah" tvg-logo="https://i.imgur.com/5j8z6cc.png",Toyor Al-Jannah  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Toyor Al-Jannah" tvg-logo="https://i.imgur.com/5j8z6cc.png",Toyor Al-Jannah  
 https://ythls.armelin.one/channel/UCZbpK_Lgctew3YNELlG2ecw.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/DLIbUMx.png",Trace Urban
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Tropi Q 99.7 FM" tvg-logo="https://i.imgur.com/5rPdHhb.png",Tropi Q 99.7 FM 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/DLIbUMx.png",Trace Urban
+https://cdn-apse1-prod.m3u8v2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Tropi Q 99.7 FM" tvg-logo="https://i.imgur.com/5rPdHhb.png",Tropi Q 99.7 FM 
 https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Tropical Music TV" tvg-logo="https://i.imgur.com/h48pwLn.png",Tropical Music TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Tropical Music TV" tvg-logo="https://i.imgur.com/h48pwLn.png",Tropical Music TV 
 http://68.235.37.11:1935/vallenato/vallenato/.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Tu Música HD" tvg-logo="https://i.imgur.com/HnjUjog.png",Tu Música HD 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Tu Música HD" tvg-logo="https://i.imgur.com/HnjUjog.png",Tu Música HD 
 https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Turbo Mix Radio TV" tvg-logo="https://i.imgur.com/AsdBQa3.png",Turbo Mix Radio TV  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Turbo Mix Radio TV" tvg-logo="https://i.imgur.com/AsdBQa3.png",Turbo Mix Radio TV  
 https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Türkmen Owazy (406p)" tvg-logo="https://i.imgur.com/Ap7l2jC.png",Türkmen Owazy 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Türkmen Owazy (406p)" tvg-logo="https://i.imgur.com/Ap7l2jC.png",Türkmen Owazy 
 https://alpha.tv.online.tm/hls/ch005.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TV A7 Plus" tvg-logo="https://i.imgur.com/qeo2oPM.png",TV A7 Plus 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TV A7 Plus" tvg-logo="https://i.imgur.com/qeo2oPM.png",TV A7 Plus 
 https://srv3.zcast.com.br/wellington7720/wellington7720/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TV Cidade (614p)" tvg-logo="https://i.imgur.com/gmSu21X.jpg",TV Cidade (614p)
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TV Cidade (614p)" tvg-logo="https://i.imgur.com/gmSu21X.jpg",TV Cidade (614p)
 https://stmv1.srvif.com/tvcidade/tvcidade/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TVONE Nicaragua" tvg-logo="https://i.imgur.com/FNk6rdz.png",TVONE Nicaragua  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TVONE Nicaragua" tvg-logo="https://i.imgur.com/FNk6rdz.png",TVONE Nicaragua  
 https://hdbox.chunklistv.com/live?stream=tvone
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="TVUNO" tvg-logo="https://i.imgur.com/dht94P4.png",TVUNO 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="TVUNO" tvg-logo="https://i.imgur.com/dht94P4.png",TVUNO 
 https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Urbano TV" tvg-logo="https://i.imgur.com/KVVU9PI.png",Urbano TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Urbano TV" tvg-logo="https://i.imgur.com/KVVU9PI.png",Urbano TV 
 https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="V2BEAT" tvg-logo="https://i.imgur.com/PXGqyLn.png",V2BEAT  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="V2BEAT" tvg-logo="https://i.imgur.com/PXGqyLn.png",V2BEAT  
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="V Classic TV" tvg-logo="https://i.imgur.com/WIACJSy.png",V Classic TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="V Classic TV" tvg-logo="https://i.imgur.com/WIACJSy.png",V Classic TV 
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Verbena TV" tvg-logo="https://verbenafm.com/wp-content/uploads/2022/08/logoverbenatv-300x300.png",Verbena TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Verbena TV" tvg-logo="https://verbenafm.com/wp-content/uploads/2022/08/logoverbenatv-300x300.png",Verbena TV 
 https://streamtv2.elitecomunicacion.cloud:3144/live/verbenatvlive.m3u8
 
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/512px-VH1_logonew.svg.png",VH1
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="VH1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/512px-VH1_logonew.svg.png",VH1
 https://streamer1.nexgen.bz/VH1/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Video Tour Channel" tvg-logo="https://i.imgur.com/zEi8eMC.png",Video Tour Channel  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Video Tour Channel" tvg-logo="https://i.imgur.com/zEi8eMC.png",Video Tour Channel  
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Vintage Music" tvg-logo="https://i2.paste.pics/508ad957b4f4585f59b0d4c265bbac61.png",Vintage Music 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Vintage Music" tvg-logo="https://i2.paste.pics/508ad957b4f4585f59b0d4c265bbac61.png",Vintage Music 
 https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Visión Televisión" tvg-logo="https://i.imgur.com/HV5tgcM.png",Visión Televisión 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Visión Televisión" tvg-logo="https://i.imgur.com/HV5tgcM.png",Visión Televisión 
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="VM Latino" tvg-logo="https://i.imgur.com/Dvo1b82.png",VM Latino  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="VM Latino" tvg-logo="https://i.imgur.com/Dvo1b82.png",VM Latino  
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="VoiceOver Radio TV" tvg-logo="https://i.imgur.com/HzGs1Eh.png",VoiceOver Radio TV 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="VoiceOver Radio TV" tvg-logo="https://i.imgur.com/HzGs1Eh.png",VoiceOver Radio TV 
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Vos y TV" tvg-logo="https://i.imgur.com/294FDCB.png",Vos y TV  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Vos y TV" tvg-logo="https://i.imgur.com/294FDCB.png",Vos y TV  
 https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Worldwide Muzzik" tvg-logo="https://i.imgur.com/tEzppGC.png",Worldwide Muzzik 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Worldwide Muzzik" tvg-logo="https://i.imgur.com/tEzppGC.png",Worldwide Muzzik 
 https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="WVCU-LP Concord University Radio The Cure 97.7" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG",WVCU-LP Concord University Radio The Cure 97.7 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="WVCU-LP Concord University Radio The Cure 97.7" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG",WVCU-LP Concord University Radio The Cure 97.7 
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Xite" tvg-logo="https://i.imgur.com/jxuwGRi.png",Xite 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Xite" tvg-logo="https://i.imgur.com/jxuwGRi.png",Xite 
 https://xite-samsung-de.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="YleX Studio Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",YleX Studio Live 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="YleX Studio Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",YleX Studio Live 
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="ZFM Zoetermeer" tvg-logo="https://i.imgur.com/vrjACvy.png",ZFM Zoetermeer 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="ZFM Zoetermeer" tvg-logo="https://i.imgur.com/vrjACvy.png",ZFM Zoetermeer 
 https://zfmzoetermeer.nl/live/master.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Матур ТВ" tvg-logo="https://i.imgur.com/Pg7K7eV.png",Матур ТВ 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Матур ТВ" tvg-logo="https://i.imgur.com/Pg7K7eV.png",Матур ТВ 
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Муз союз (576p)" tvg-logo="https://i.imgur.com/Puk1Bhx.png",Муз союз (576p)
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Муз союз (576p)" tvg-logo="https://i.imgur.com/Puk1Bhx.png",Муз союз (576p)
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Муз ТВ" tvg-logo="https://i.imgur.com/BtqrHmz.png",Муз ТВ
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Муз ТВ" tvg-logo="https://i.imgur.com/BtqrHmz.png",Муз ТВ
 http://stream01.vnet.am/MuzTv/mono.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Музыка Первого" tvg-logo="https://i.imgur.com/U0vKj3P.png",Музыка Первого
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Музыка Первого" tvg-logo="https://i.imgur.com/U0vKj3P.png",Музыка Первого
 http://31.148.48.15/Muzika_Pervogo/index.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Радио Хит (Орск)" tvg-logo="https://i.imgur.com/5xKqV1s.png",Радио Хит (Орск) 
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Радио Хит (Орск)" tvg-logo="https://i.imgur.com/5xKqV1s.png",Радио Хит (Орск) 
 http://lova.me/hls/hithd.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Радио Шансон" tvg-logo="https://i.imgur.com/lbqM3K2.png",Радио Шансон  
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Радио Шансон" tvg-logo="https://i.imgur.com/lbqM3K2.png",Радио Шансон  
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-#EXTINF:-1 group-title="🎶🎶 MÜZİK🎶🎶🎶" tvg-name="Страна ФМ" tvg-logo="https://i.imgur.com/WsPlKJJ.png",Страна ФМ
+#EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Страна ФМ" tvg-logo="https://i.imgur.com/WsPlKJJ.png",Страна ФМ
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
