@@ -55,6 +55,9 @@ http://stream.tvcdn.net/eglence/tlc.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",Ekol tv
 #EXTVLCOPT:http-referrer=https://www.ekoltv.com.tr/canli-yayin
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="HABER TURK HD" tvg-logo="https://i.ibb.co/5GmcTH9/haberturk.png" group-title="📺TV KANALLARI FULL📺", HABER TURK SPOR
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=74uh63sxqqws&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-logo="http://assets.tvcdn.net/98d69f74-e6dc-4d4a-95c6-666683834a28.png" group-title="📺TV KANALLARI FULL📺",TRT Spor
 http://stream.tvcdn.net/spor/trt-spor.m3u8
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-logo="http://assets.tvcdn.net/27f74187-ef2a-4928-9515-77422081119c.png" group-title="📺TV KANALLARI FULL📺",TRT Spor Yıldız
