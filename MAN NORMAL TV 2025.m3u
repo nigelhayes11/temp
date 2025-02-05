@@ -2,12 +2,12 @@
 
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",atv
-https://trkvz.daioncdn.net/atv/atv_720p.m3u8?e=1738619862&st=YFH6vNzG-Llr3hQP1-V_eQ&sid=74r2t4e3k6s6&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3
+#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
+https://c.fulltvizle.com/aytv/index.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
-https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e=1738632025&st=kdmQr_Ad3yMxYmukYk6O2A
+https://c.fulltvizle.com/fox/index.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
 http://stream.tvcdn.net/ulusal/show-tv.m3u8
 #EXTINF:-1 tvg-id="BeyazTV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
@@ -55,7 +55,8 @@ http://stream.tvcdn.net/eglence/tlc.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",Ekol tv
 #EXTVLCOPT:http-referrer=https://www.ekoltv.com.tr/canli-yayin
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-
+#EXTINF:-1 tvg-id="" tvg-name="TR:BEINSPORTS HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="📺TV KANALLARI FULL📺",TR:BEINSPORTS HABER HD
+https://canlitvulusal3.xyz/live/beinsportshaber/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HABER TURK HD" tvg-logo="https://i.hizliresim.com/946pdny.png" group-title="📺TV KANALLARI FULL📺", HT SPOR
 https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=74uh63sxqqws&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-logo="http://assets.tvcdn.net/98d69f74-e6dc-4d4a-95c6-666683834a28.png" group-title="📺TV KANALLARI FULL📺",TRT Spor
