@@ -22,6 +22,8 @@ http://stream.tvcdn.net/ulusal/360-tv.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-logo="http://assets.tvcdn.net/d7741078-ccce-47d8-ba1c-a041b659bad6.png" group-title="📺TV KANALLARI FULL📺",TV 100
 http://stream.tvcdn.net/ulusal/tv-100.m3u8
+
+#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",HABER KANAL>>>>>
 #EXTINF:-1 tvg-id="TRTHaber.tr" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="📺TV KANALLARI FULL📺",TRT Haber
 http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="http://assets.tvcdn.net/06e7abd9-0fbb-441f-af63-b895513d3aaa.png" group-title="📺TV KANALLARI FULL📺",A Haber
@@ -55,6 +57,8 @@ http://stream.tvcdn.net/eglence/tlc.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",Ekol tv
 #EXTVLCOPT:http-referrer=https://www.ekoltv.com.tr/canli-yayin
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+
+#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",SPOR KANAL>>>>>
 #EXTINF:-1 tvg-id="" tvg-name="TR:BEINSPORTS HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="📺TV KANALLARI FULL📺",TR:BEINSPORTS HABER HD
 https://canlitvulusal3.xyz/live/beinsportshaber/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HABER TURK HD" tvg-logo="https://i.hizliresim.com/946pdny.png" group-title="📺TV KANALLARI FULL📺", HT SPOR
@@ -81,6 +85,7 @@ http://stream.tvcdn.net/spor/tjk-tv-2.m3u8
 http://stream.tvcdn.net/spor/tay-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/639df808-f325-4b05-8cdb-9ed151338087.png" group-title="📺TV KANALLARI FULL📺",Fit YaÅŸa TV
 http://stream.tvcdn.net/spor/fit-yasa-tv.m3u8
+#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",MÜZİK  KANAL>>>>>
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="http://assets.tvcdn.net/e9efa31e-106b-40e0-ab4e-a760061c7ad6.png" group-title="📺TV KANALLARI FULL📺",TRT Muzik
 http://stream.tvcdn.net/muzik/trt-muzik.m3u8
 #EXTINF:-1 tvg-id="DreamTurk.tr" tvg-logo="http://assets.tvcdn.net/b7ff7221-f255-439d-9ee9-0f73348005b8.png" group-title="📺TV KANALLARI FULL📺",Dream Turk
