@@ -126,6 +126,7 @@ http://stream.tvcdn.net/muzik/number-1-dance.m3u8
 http://stream.tvcdn.net/muzik/muzik-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/972fe810-96d7-4cad-8918-fe0c28a45e7d.png" group-title="📺TV KANALLARI FULL📺",Chill TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
+
 #EXTINF:-1 tvg-name="Number 1 TV" tvg-id="Number1TV.tr" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="⚡️MÜZİK YERLİ TV⚡️",NR1
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
 #EXTINF:-1 tvg-name="MILYON TV" tvg-id="" tvg-logo="https://i.ibb.co/sQRhqCs/milyon-tv.png" group-title="⚡️MÜZİK YERLİ TV⚡️",MILYON TV
@@ -967,7 +968,7 @@ https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="〽️〽️〽️〽️〽️〽️〽️〽️〽️〽️〽️〽️",.
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/dvquk1x.jpg"group-title="🌟🌟FİLMLER DİL SEÇENEKLİ🌟🌟",Maria (HALUK BİLGİNER)
 https://vidmody.com/vs/tt22893404
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/01/59320.jpggroup-title="🌟🌟SERİLER DİL SEÇENEKL🌟🌟>",Zo
+#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/01/59320.jpggroup-title="🏵️🏵️SERİLER DİL SEÇENEKLİ🏵️🏵️>",
 https://vidmody
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/mxojhgq.jpg" group-title="🌟🌟FİLMLER DİL SEÇENEKLİ🌟🌟",Balalayka
 https://cdn.jfvid.com/vod/converted-video/vod-content/18/98/90/69/37/59/17/19/17/8/5c085f73-4fed-4b03-87f8-7b2735b6ac94/kaltura/desc_71ce8cf4a2d4a62dce52d9e96add6f13/vpGkCIvk3ECQ/vw=640,vh=356,fps=25.00,vbrt=511722,abrt=129379,vcodec=avc1.4D4014,acodec=mp4a.40.2,label=360p/index-f3-v1-a1.m3u8
@@ -2312,8 +2313,7 @@ https://vidmody.com/vs/tt1130884
 https://vidmody.com/vs/tt2906216
 #EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/01/59320.jpggroup-title="🌟🌟FİLMLER DİL SEÇENEKLİ🌟🌟",Zodyak Katili 2007
 https://vidmody.com/vs/tt0443706
-#EXTINF:-1 tvg-logo="https://tr.web.img3.acsta.net/pictures/bzp/01/59320.jpggroup-title="🌟🌟SERİLER DİL SEÇENEKLİ🌟🌟>",Zo
-https://vidmody
+
 
 
 #EXTINF:-1 tvg-name="Paranın Kokusu"tvg-id=""tvg-logo="https://i.hizliresim.com/hw21jfm.jpg""group-title="🔮🔮 MUBİ FİLM PLATFORM🔮🔮",MUBİ FİLİMLERİ
