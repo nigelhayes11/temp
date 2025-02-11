@@ -3,11 +3,11 @@
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
-https://c.fulltvizle.com/aytv/index.m3u8
+https://c.fulltvizle.com/atv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
-https://c.fulltvizle.com/fox/index.m3u8
+http://31.222.206.98/8820/tracks-v1a1/mono.ts.m3u8?token=test
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
 http://stream.tvcdn.net/ulusal/show-tv.m3u8
 #EXTINF:-1 tvg-id="BeyazTV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
@@ -963,7 +963,77 @@ http://lova.me/hls/hithd.m3u8
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Страна ФМ" tvg-logo="https://i.imgur.com/WsPlKJJ.png",Страна ФМ
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent.png" group-title="⚡️Belgesel",Love Nature HD
+https://aegis-cloudfront-1.tubi.video/dc8bda97-ce9e-4091-b4e8-11254dea4da6/1080p-cc/index.m3u8
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="⚡️Belgesel",TRT Belgesel
+http://31.222.206.98/8860/tracks-v1a1/mono.ts.m3u8?token=test
+#EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/c6c727a2-b2be-4d9b-a32c-48ffa778cbb6.png" group-title="⚡️Belgesel",TGRT Belgesel
+http://stream.tvcdn.net/belgesel/tgrt-belgesel.m3u8
+#EXTINF:-1 tvg-id="TarimTV.tr" tvg-logo="http://assets.tvcdn.net/2038e897-1bbf-4744-8028-975e32561396.png" group-title="⚡️Belgesel",Tarım TV
+http://stream.tvcdn.net/belgesel/tarim-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/beiniz.png" tvg-name="TR:BEIN IZ HD" group-title="⚡️Belgesel",TR:BEIN IZ HD
+#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE2OTEyMjMwNzgwMzk1N2Q1ZDRiMGM=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="⚡️Belgesel",Nat Geo Wild HD
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzMjQxNjYxNjJmODM5MWE3Y2E2Mw==
+#EXTINF:-1 tvg-logo="https://account.nationalgeographic.com/media/national-geographic/media/National-Geographic-Logo.png" group-title="⚡️Belgesel",Nat Geo HD
+https://saran-live.ercdn.net/natgeohd/index.m3u8?st=uo_tiDvIzeRrTIyZ402B9g&e=1738278432
+#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/2998d78b-5098-4e5a-8450-b2f7148ff817.png" group-title="⚡️Belgesel",Toprak TV
+http://stream.tvcdn.net/belgesel/toprak-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/bbcearth.png" tvg-name="TR:BBC EARTH HD" group-title="⚡️Belgesel",TR:BBC EARTH HD
+#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIyMjg0OTY4NTY2ODdiMmZhMGIyMjI=
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/histortychannel.png" tvg-name="TR:HISTORY CHANNEL HD" group-title="⚡️Belgesel",TR:HISTORY CHANNEL HD
+#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQyMDc0ODc1NjIyYzE4NTM0ZWVlZDc=
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" tvg-name="TR:DMAX HD" group-title="⚡️Belgesel",TR:DMAX HD
+https://dmax.blutv.com/blutv_dmax2/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" tvg-name="TR:TLC HD" group-title="⚡️Belgesel",TR:TLC HD
+https://tlc.blutv.com/blutv_tlc_live/live.m3u8
+#EXTINF:-1 tvg-id="KoyTV.tr" tvg-logo="http://assets.tvcdn.net/6014fb29-bf4c-4e83-8982-949179e6bd8e.png" group-title="⚡️Belgesel",Köy TV
+http://stream.tvcdn.net/belgesel/koy-tv.m3u8
+#EXTINF:-1 tvg-id="Yaban.tr" tvg-logo="http://assets.tvcdn.net/808e5d06-f9a6-4989-ac8c-63f686e61ea0.png" group-title="⚡️Belgesel",Yaban TV
+http://stream.tvcdn.net/belgesel/yaban-tv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/ciftcitv.png" tvg-name="TR:CIFTCI TV HD" group-title="⚡️Belgesel",TR:CIFTCI TV HD
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG8A8C6MTyWHTETmGYUhQ5sh2UF65xZ40pN8pdybfeJe1uuhVj7qhJbjEh&s=10" group-title="⚡️YENİ🌎🍿TV ",Dizi Tv HD
+https://tivi240.ozelip.com:3745/stream/play.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcA6VvTXi4mtR26U9aHbM-9M-Nczx_IXBu5oYxYDrC2GS103p1ecKdFQs&s=10" group-title="⚡️YENİ🌎🍿TV ",Tabii Tv (FİLM-DİZİ)
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8?sid=aePzYBwko0uFy0f8miUVmA
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",Kemal Sunal HD
+https://deathless-ulusal-kanallar.tiiny.io/?url=https://tv.canlitv.vip/saban-tv
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/blutvplay1.png" tvg-name="TR:BLUTV PLAY 1 HD" group-title="⚡️YENİ🌎🍿TV ",TR:BLUTV PLAY 1 HD
+https://play1.blutv.com/blutv_play1/smil:blutv_play1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/blutvplay2.png" tvg-name="TR:BLUTV PLAY 2 HD" group-title="⚡️YENİ🌎🍿TV ",TR:BLUTV PLAY 2 HD
+https://play2.blutv.com/blutv_play2/smil:blutv_play2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/sinema/beinboxoffice1.png" tvg-name="TR:BEIN BOX OFFICE 1 HD" group-title="⚡️YENİ🌎🍿TV ",TR:BEIN BOX OFFICE 1 HD
+#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzMjAzNjM4NTAyN2EwNGI1ZTAwZjk=
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/sinema/beinboxoffice2.png" tvg-name="TR:BEIN BOX OFFICE 2 HD" group-title="⚡️YENİ🌎🍿TV ",TR:BEIN BOX OFFICE 2 HD
+#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MjI2NDA5MGI0ZjZlY2VmMzEwZA==
+#EXTINF:-1 tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png" group-title="⚡️YENİ🌎🍿TV ",TR:BEİN BOX OFFİCE 3 HD
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5Lzg3OTk4MTYxMGQ5MzQ5ZTI5NWM1YQ==
+#EXTINF:-1 tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png" group-title="⚡️YENİ🌎🍿TV ",Be*IN Box Office Turk
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1Njc0ODY2MDUxMzVhYTc1ZjdkZGE=
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVYpxhMXF_d6E-K-5AGQzPH01is8oChX9Tg&usqp=CAU" group-title="⚡️YENİ🌎🍿TV ",BeIN Series 1
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxOTA5MjIyOTgzNzcwZWYwYmIxM2M=
+#EXTINF:-1 tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-series-2-logo.png?rkt=DfS6Tgv6Hjr93k3" group-title="⚡️YENİ🌎🍿TV ",BeIN Series 2
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMzMDg2OTM3Mzg2Y2Y3YWNlM2EwNDA=
+#EXTINF:-1 tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-series-3-logo.png?rkt=DfS6Tgv6Hjr93k3" group-title="⚡️YENİ🌎🍿TV ",Be*IN Series 3
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQxNjY0MTg3NzgyYzA0Y2RhMGExN2U=
+#EXTINF:-1 tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png" group-title="⚡️YENİ🌎🍿TV ",BeIN IZ HD
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMxNTYxNzgzNTlkYjI4ZWYzYTM0NGQ=
+#EXTINF:-1 tvg-logo="https://mediacms01.digiturkplay.com/channel_logo/w_bein_hd.png" group-title="⚡️YENİ🌎🍿TV ",BeIN Gurme HD
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5Lzk1MDM5NDY1NmNiYjczMTk0NjljNA==
+#EXTINF:-1 tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/sinemaaile.png" group-title="⚡️YENİ🌎🍿TV ",Sinema Aile 1 HD
+http://31.222.206.98/8847/tracks-v1a1/mono.ts.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://www.turksatinternet.net/wp-content/uploads/2018/10/Sinema-Aile-2.png.webp" group-title="⚡️YENİ🌎🍿TV ",Sinema Aile 2 HD
+http://31.222.206.98/8853/tracks-v1a1/mono.ts.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWvzevGMwISV817MdzVHHeWPZtDjLYrBfsPA&usqp=CAU" group-title="⚡️YENİ🌎🍿TV ",Sinema Aksiyon 2
+http://31.222.206.98/8849/tracks-v1a1/mono.ts.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://www.turksatinternet.net/wp-content/uploads/2018/10/Sinema-1001.png.webp" group-title="⚡️YENİ🌎🍿TV ",Sinema 1001 HD
+http://31.222.206.98/8848/tracks-v1a1/mono.ts.m3u8?token=test
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="〽️FİLMLER GİRİŞ〽️",.
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/dvquk1x.jpg""group-title="🌟🌟FİLMLER DİL SEÇENEKLİ🌟🌟",Maria (HALUK BİLGİNER)
 https://vidmody.com/vs/tt22893404
@@ -3593,6 +3663,22 @@ https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/64
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S SPORT 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/S_Sport_Plus_Logo.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S-Sports 1 Plus
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQwMzYwNDYyMTkzM2RkNDdkN2U5YTE=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/S_Sport_Plus_Logo.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S - Sport +1
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1NTk3NTY3OTFiZjVhNDMzMjBhNzQ=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/S_Sport_Plus_Logo.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S-Sport +2
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIzMTQxODM1NjYwMTdlYTNlMGE5N2M=
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀"Exxen 1 HD
+https://bcovlive-a.akamaihd.net/88affc2b8d9845d9adb0f4a22db27653/eu-central-1/6415845530001/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀"Exxen 2 HD
+https://bcovlive-a.akamaihd.net/446cfea025a440c492201835dd88f74a/eu-central-1/6415845530001/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀"Exxen 3 HD
+https://bcovlive-a.akamaihd.net/11d43931fe8741b286897fd8488a1a2b/eu-central-1/6415845530001/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀"Exxen 4 HD
+https://bcovlive-a.akamaihd.net/764299a9db4b429aa9250edc9e791156/eu-central-1/6415845530001/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🇪🇺⚽🇪🇺 Ş.LİGİ UEFA TABİ🇪🇺⚽🇪🇺 ",TABİ SPOR 
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
@@ -3704,39 +3790,56 @@ https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.s
 
 
 
-
-
 💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛BEİN SPOR 1💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",İNAT TV
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNAT TV
 #EXTVLCOPT:http-referrer=https://inattv881.xyz/
 https://h0.b4c8d3e9f1a2b7c5d48.cfd/yayininat.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",DUMAN
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽MNK BEİN 1 WEB ⚽",DUMAN
 #EXTVLCOPT:http-referrer=https://123dumantv.com/
 https://10mumdur.shop/701/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",ZULA
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽MNK BEİN 1 WEB ⚽",ZULA
 #EXTVLCOPT:http-referrer=https://betzulatv12.pages.dev/
 https://v4y.centtv42.live/yayinzirve.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="BEİN1B" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",4K BEİN
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="BEİN1B" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽MNK BEİN 1 WEB ⚽",4K BEİN
 https://mobil.92test.cfd/yayint24.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN ZULA ALT 1" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",NET 1
+#EXTINF:-1 tvg-id="" tvg-name="BEIN ZULA ALT 1" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽MNK BEİN 1 WEB ⚽",NET 1
 #EXTVLCOPT:http-referrer=https://www.netsportv154.top/
 https://hlsssssssssss.compele.workers.dev/https://fener.demoscript.buzz/hls/bein-sports-1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",GO ALT
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽MNK BEİN 1 WEB ⚽",GO ALT
 https://jhvggr.site/daddyhd/cdn/62/main.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",Vİ BEIN 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽MNK BEİN 1 WEB ⚽",Vİ BEIN 
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.argigksdf79xf.workers.dev/list/yayinstar.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽⚽🏀MNK BEİN 1 WEB ⚽⚽",GOLEY
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽MNK BEİN 1 WEB ⚽",GOLEY
 #EXTVLCOPT:http-referrer=https://ifra.strmrdrfrosf.click/index.php?id=601
 https://sette.78c56a395e57b9134a.click/p/neden/601/a.cf-worker-12f3a14d3dac9156.workers.dev/chunklist_hd.m3u8
+#EXTINF:-1 tvg-id="TR" xui-id="{XUI_ID}" tvg-logo="https://i.hizliresim.com/5j967nr.png" tvg-name="TR: beIN Sport 1 HD" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/bein1.png" tvg-name="TR:BEINSPORTS 1 HD" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://hello-world-aged-resonance-fc8f.bokaflix.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKwkw3NN_ycWEF_nDBIGQCkTY3G_gJtRWVpI1vMqkk7TywRsgpW081gSG&s=10" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK #1
+https://mobil.92test.cfd/yayint24.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKwkw3NN_ycWEF_nDBIGQCkTY3G_gJtRWVpI1vMqkk7TywRsgpW081gSG&s=10" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#2
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKwkw3NN_ycWEF_nDBIGQCkTY3G_gJtRWVpI1vMqkk7TywRsgpW081gSG&s=10" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK#3
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKwkw3NN_ycWEF_nDBIGQCkTY3G_gJtRWVpI1vMqkk7TywRsgpW081gSG&s=10" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#4
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKwkw3NN_ycWEF_nDBIGQCkTY3G_gJtRWVpI1vMqkk7TywRsgpW081gSG&s=10" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 (480P) [İNT KÖTÜ OLAN]
+http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI5MTkyMjkzNDY3YTcwMjA3OGEzMjA=
+
+
+
 
 
 
