@@ -963,38 +963,39 @@ http://lova.me/hls/hithd.m3u8
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 group-title="🎶🎶MÜZİK KANALLARI"tvg-name="Страна ФМ" tvg-logo="https://i.imgur.com/WsPlKJJ.png",Страна ФМ
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent.png" group-title="⚡️Belgesel",Love Nature HD
+
+#EXTINF:-1 tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent.png" group-title="⚡️YENİ🌎🍿TV ",Love Nature HD
 https://aegis-cloudfront-1.tubi.video/dc8bda97-ce9e-4091-b4e8-11254dea4da6/1080p-cc/index.m3u8
-#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="⚡️Belgesel",TRT Belgesel
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="⚡️YENİ🌎🍿TV ",TRT Belgesel
 http://31.222.206.98/8860/tracks-v1a1/mono.ts.m3u8?token=test
-#EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/c6c727a2-b2be-4d9b-a32c-48ffa778cbb6.png" group-title="⚡️Belgesel",TGRT Belgesel
+#EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/c6c727a2-b2be-4d9b-a32c-48ffa778cbb6.png" group-title="⚡️YENİ🌎🍿TV ",TGRT Belgesel
 http://stream.tvcdn.net/belgesel/tgrt-belgesel.m3u8
-#EXTINF:-1 tvg-id="TarimTV.tr" tvg-logo="http://assets.tvcdn.net/2038e897-1bbf-4744-8028-975e32561396.png" group-title="⚡️Belgesel",Tarım TV
+#EXTINF:-1 tvg-id="TarimTV.tr" tvg-logo="http://assets.tvcdn.net/2038e897-1bbf-4744-8028-975e32561396.png" group-title="⚡️YENİ🌎🍿TV ",Tarım TV
 http://stream.tvcdn.net/belgesel/tarim-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/beiniz.png" tvg-name="TR:BEIN IZ HD" group-title="⚡️Belgesel",TR:BEIN IZ HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/beiniz.png" tvg-name="TR:BEIN IZ HD" group-title="⚡️YENİ🌎🍿TV ",TR:BEIN IZ HD
 #EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE2OTEyMjMwNzgwMzk1N2Q1ZDRiMGM=
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="⚡️Belgesel",Nat Geo Wild HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="⚡️YENİ🌎🍿TV ",Nat Geo Wild HD
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzMjQxNjYxNjJmODM5MWE3Y2E2Mw==
-#EXTINF:-1 tvg-logo="https://account.nationalgeographic.com/media/national-geographic/media/National-Geographic-Logo.png" group-title="⚡️Belgesel",Nat Geo HD
+#EXTINF:-1 tvg-logo="https://account.nationalgeographic.com/media/national-geographic/media/National-Geographic-Logo.png" group-title="⚡️YENİ🌎🍿TV ",Nat Geo HD
 https://saran-live.ercdn.net/natgeohd/index.m3u8?st=uo_tiDvIzeRrTIyZ402B9g&e=1738278432
-#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/2998d78b-5098-4e5a-8450-b2f7148ff817.png" group-title="⚡️Belgesel",Toprak TV
+#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/2998d78b-5098-4e5a-8450-b2f7148ff817.png" group-title="⚡️YENİ🌎🍿TV ",Toprak TV
 http://stream.tvcdn.net/belgesel/toprak-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/bbcearth.png" tvg-name="TR:BBC EARTH HD" group-title="⚡️Belgesel",TR:BBC EARTH HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/bbcearth.png" tvg-name="TR:BBC EARTH HD" group-title="⚡️YENİ🌎🍿TV ",TR:BBC EARTH HD
 #EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIyMjg0OTY4NTY2ODdiMmZhMGIyMjI=
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/histortychannel.png" tvg-name="TR:HISTORY CHANNEL HD" group-title="⚡️Belgesel",TR:HISTORY CHANNEL HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/histortychannel.png" tvg-name="TR:HISTORY CHANNEL HD" group-title="⚡️YENİ🌎🍿TV ",TR:HISTORY CHANNEL HD
 #EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQyMDc0ODc1NjIyYzE4NTM0ZWVlZDc=
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" tvg-name="TR:DMAX HD" group-title="⚡️Belgesel",TR:DMAX HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" tvg-name="TR:DMAX HD" group-title="⚡️YENİ🌎🍿TV ",TR:DMAX HD
 https://dmax.blutv.com/blutv_dmax2/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" tvg-name="TR:TLC HD" group-title="⚡️Belgesel",TR:TLC HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" tvg-name="TR:TLC HD" group-title="⚡️YENİ🌎🍿TV ",TR:TLC HD
 https://tlc.blutv.com/blutv_tlc_live/live.m3u8
-#EXTINF:-1 tvg-id="KoyTV.tr" tvg-logo="http://assets.tvcdn.net/6014fb29-bf4c-4e83-8982-949179e6bd8e.png" group-title="⚡️Belgesel",Köy TV
+#EXTINF:-1 tvg-id="KoyTV.tr" tvg-logo="http://assets.tvcdn.net/6014fb29-bf4c-4e83-8982-949179e6bd8e.png" group-title="⚡️YENİ🌎🍿TV ",Köy TV
 http://stream.tvcdn.net/belgesel/koy-tv.m3u8
-#EXTINF:-1 tvg-id="Yaban.tr" tvg-logo="http://assets.tvcdn.net/808e5d06-f9a6-4989-ac8c-63f686e61ea0.png" group-title="⚡️Belgesel",Yaban TV
+#EXTINF:-1 tvg-id="Yaban.tr" tvg-logo="http://assets.tvcdn.net/808e5d06-f9a6-4989-ac8c-63f686e61ea0.png" group-title="⚡️YENİ🌎🍿TV ",Yaban TV
 http://stream.tvcdn.net/belgesel/yaban-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/ciftcitv.png" tvg-name="TR:CIFTCI TV HD" group-title="⚡️Belgesel",TR:CIFTCI TV HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/ciftcitv.png" tvg-name="TR:CIFTCI TV HD" group-title="⚡️YENİ🌎🍿TV ",TR:CIFTCI TV HD
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG8A8C6MTyWHTETmGYUhQ5sh2UF65xZ40pN8pdybfeJe1uuhVj7qhJbjEh&s=10" group-title="⚡️YENİ🌎🍿TV ",Dizi Tv HD
 https://tivi240.ozelip.com:3745/stream/play.m3u8
@@ -1034,6 +1035,23 @@ http://31.222.206.98/8853/tracks-v1a1/mono.ts.m3u8?token=test
 http://31.222.206.98/8849/tracks-v1a1/mono.ts.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://www.turksatinternet.net/wp-content/uploads/2018/10/Sinema-1001.png.webp" group-title="⚡️YENİ🌎🍿TV ",Sinema 1001 HD
 http://31.222.206.98/8848/tracks-v1a1/mono.ts.m3u8?token=test
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) 7/24 Kemal Sunal 1
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=21070&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) 7/24 Kemal Sunal 2
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=2984&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) 7/24 Kemal Sunal 3
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=47680&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) 7/24 Kemal Sunal 4
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=71214&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) 7/24 Kemal Sunal 5
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=101020&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) Şener Şen 1
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=151779&extension=m3u8
+#EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) Adile Naşit 1
+http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=97694&extension=m3u8
+
+
+
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="〽️FİLMLER GİRİŞ〽️",.
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/dvquk1x.jpg""group-title="🌟🌟FİLMLER DİL SEÇENEKLİ🌟🌟",Maria (HALUK BİLGİNER)
 https://vidmody.com/vs/tt22893404
