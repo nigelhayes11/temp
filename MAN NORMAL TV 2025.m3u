@@ -3049,7 +3049,7 @@ https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_1080p.m3u8
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: beIN Sport 1 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🎱🎱YENİ ÖZEL FUTBOL KANALLARI"🎱🎱,TR: beIN Sport 1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
-https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
+https://a.str-worker-vnfhnbxgdf.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: beIN Sport 2 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🎱🎱YENİ ÖZEL FUTBOL KANALLARI"🎱🎱,TR: beIN Sport 2 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
 https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein2/602/playlist.m3u8
@@ -3126,6 +3126,9 @@ https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.s
 
 
 
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",MNK1
+#EXTVLCOPT:http-referrer=https://inattvcom5364.xyz/
+https://s1.inattvcom5364.xyz/cdn/b1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Vİ BEIN 
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
@@ -3153,19 +3156,15 @@ http://pro.royal8080.com:8080/play/live.php?mac=00:1A:79:9D:84:ED&stream=117040&
 #EXTVLCOPT:http-referrer=
 https://tvcdn.4t40.workers.dev/https://koprulu1.global.ssl.fastly.net/app/innatyeni.m3u8/?id=b1
 
-#EXTINF:-1 tvg-id="TR" xui-id="{XUI_ID}" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-name="TR: beIN Sport 1 HD" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 HD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
-https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-name="TR:BEINSPORTS 1 HD" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
-https://hello-world-aged-resonance-fc8f.bokaflix.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/bein1/601/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK #1
-https://mobil.92test.cfd/yayint24.m3u8
+https://f0.b4c8d3e9f1a2b7c5d57.cfd/yayininat.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#2
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
+https://g0.b4c8d3e9f1a2b7c5d57.cfd/yayininat.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK#3
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
+https://t1b.centtv46.live/yayinzirve.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#4
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 (480P) [İNT KÖTÜ OLAN]
