@@ -2831,9 +2831,6 @@ https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.s
 https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/tabi5/4105/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNAT 1
-#EXTVLCOPT:http-referrer=https://inattvcom5364.xyz/
-https://s1.inattvcom5364.xyz/cdn/b1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Vİ BEIN 
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
@@ -2842,9 +2839,7 @@ https://t6co.ragigcccv93x.workers.dev/list/yayinstar.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",GO ALT
 https://green-wildflower-90d6.1ff056997784445980.workers.dev/static/bs1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNAT TV
-#EXTVLCOPT:http-referrer=https://inattv901.xyz
-https://h0.b4c8d3e9f1a2b7c5d58.cfd/yayininat.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
@@ -2854,36 +2849,40 @@ https://20mumdur.shop/701/index.m3u8
 #EXTVLCOPT:http-referrer=https://grtv21.live/
 https://attibi.raventv8.live/yayinzirve.m3u8
 
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="BEİN1B" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",4K BEİN
-http://pro.royal8080.com:8080/play/live.php?mac=00:1A:79:9D:84:ED&stream=117040&extension=ts
-
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",GOLEY
 #EXTVLCOPT:http-referrer=
 https://tvcdn.4t40.workers.dev/https://koprulu1.global.ssl.fastly.net/app/innatyeni.m3u8/?id=b1
 
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNAT A
+#EXTVLCOPT:http-referrer=https://inattvcom5364.xyz/
+https://s1.inattvcom5364.xyz/cdn/b1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNAT B
+#EXTVLCOPT:http-referrer=https://inattv903.xyz/
+https://j0.b4c8d3e9f1a2b7c5d60.cfd/yayininat.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="BEİN1B" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",4K BEİN
+http://pro.royal8080.com:8080/play/live.php?mac=00:1A:79:9D:84:ED&stream=117040&extension=ts
 
 
 
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK #1
-https://f0.b4c8d3e9f1a2b7c5d57.cfd/yayininat.m3u8
+#EXTVLCOPT:http-referrer=https://inattv904.xyz/
+https://k0.b4c8d3e9f1a2b7c5d61.cfd/yayininat.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#2
-https://g0.b4c8d3e9f1a2b7c5d57.cfd/yayininat.m3u8
+#EXTVLCOPT:http-referrer=https://inattv903.xyz/
+https://k0.b4c8d3e9f1a2b7c5d61.cfd/yayininat.m3u8
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports YEDEK#3
 https://t1b.centtv46.live/yayinzirve.m3u8
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 YEDEK#4
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NzEwNTg4OTI0NTkxMDNkZTc3YQ==
-#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 (480P) [İNT KÖTÜ OLAN]
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI5MTkyMjkzNDY3YTcwMjA3OGEzMjA=
+
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Be*IN Sports 1 ALT
 http://65.21.85.175:8000/play/a034/index.m3u8?token=livetv
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Pz6BMntQ/Picsart-25-01-22-08-58-55-869.png"group-title="⚽MNK BEİN 1 WEB ⚽,  ,BEIN SPORTS 720P FEED |D
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Pz6BMntQ/Picsart-25-01-22-08-58-55-869.png"group-title="⚽MNK BEİN 1 WEB ⚽,  ,BEIN SPORTS 8K FEED |D
-http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Pz6BMntQ/Picsart-25-01-22-08-58-55-869.png"group-title="⚽MNK BEİN 1 WEB ⚽,  ,BEIN SPORTS FEED (OZEL FEED YAYIN) |D
-https://alpha.cf-worker-abee49828fa8fbd5.workers.dev/live/selcukbeinsports1/playlist.m3u8
-
-
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Bez
+#EXTVLCOPT:http-referrer=https://trgoals1176.xyz/
+https://k0.b4c8d3e9f1a2b7c5d61.cfd/yayin1.m3u8
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Beza
+#EXTVLCOPT:http-referrer=https://trgoals1177.xyz/
+https://k0.b4c8d3e9f1a2b7c5d61.cfd/yayin1.m3u8
 
 
 
