@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",avrp
-https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/1_h71t/cff15aa6-4a8f-471b-8ba4-fc42cf761814.hb.smil/hlssubplaylist-ovbnqq8h_oacns17.m3u8?st=8fhZsVWEaubj7tU--t1dZA&e=1715545438
+
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
@@ -3944,7 +3943,44 @@ https://deathless-palx.tiiny.io/?s=prens&season=2&episode=5
 https://deathless-palx.tiiny.io/?s=prens&season=2&episode=6
 #EXTINF:-1 xui-id="{XuI_ID}" tvg-id="TR" tvg-name="TR: prens 2 Sezon 7 Bölüm" tvg-logo="https://i.hizliresim.com/dyeima1.jpeg" group-title="🤴🏻PRENS🤴🏻",TR: prens 2 Sezon 7 Bölüm
 https://deathless-palx.tiiny.io/?s=prens&season=2&episode=7
-
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E01.mp4
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/1_h71t/cff15aa6-4a8f-471b-8ba4-fc42cf761814.hb.smil/hlssubplaylist-ovbnqq8h_oacns17.m3u8?st=8fhZsVWEaubj7tU--t1dZA&e=1715545438
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E02.mp4
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/2_1mvq/f277fff2-8f66-44c8-a384-003e8c68529f.hb.smil/hlssubplaylist-ovbnqq8h_oacnc17.m3u8?st=loGb4azXE0EqsK6T2CbKBA&e=1715506155
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E03.mp4
+ https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/3_4c92/8e1dce83-6c6c-405a-96d1-f30739afdd3d.hb.smil/hlssubplaylist-ovbnqq8h_oacnI27.m3u8?st=kVBPYsq2J9wLTtcpVZ4bvg&e=1715544733
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E04.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/4_zmod/0c8dc40b-8405-433a-80d0-d7bf44c1b340.hb.smil/hlssubplaylist-ovbnqq8h_oacngN7.m3u8?st=myeVeYovNeWR2RQr1A8e9g&e=1715544778
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E05.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/5_im09/d3eb1443-e1c2-41f3-bd60-a59405399445.hb.smil/hlssubplaylist-ovbnqq8h_oacnQ27.m3u8?st=3FAVLpRFX602piXEm7izDg&e=1715544781
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E06.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/6_dv4x/d37db986-7ffd-4ee9-969c-b7c6a8330b3b.hb.smil/hlssubplaylist-ovbnqq8h_oacnys7.m3u8?st=a50zqPgddYri3WpQWvKCZQ&e=1715544782
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E07.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/7_uytu/752392df-38f6-4a31-ba92-4838dc1e1336.hb.smil/hlssubplaylist-ovbnqq8h_oacnM47.m3u8?st=ymZp--ny9BSq5QNS6GsJ3g&e=1715544782
+##EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E08.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/8_kfb0/c8301f41-4b77-482b-8a9c-61f8af5bab36.hb.smil/hlssubplaylist-ovbnqq8h_oacnE87.m3u8?st=UVAgb8De8KzwfRYV0oPmUQ&e=1715544784
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E09.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/9_g6re/abe0a1ea-0ae8-41e5-a272-10ec4233ad8e.hb.smil/hlssubplaylist-ovbnqq8h_oacnw37.m3u8?st=lBJPOZzSiz1rmUcEIWWPdA&e=1715544786
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E10.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/10_nkik/cb9f184e-d082-4a19-ac4c-45308b15bed6.hb.smil/hlssubplaylist-ovbnqq8h_oacnQA7.m3u8?st=sY9r_nxDvj5nAKyOdEPzVw&e=1715544787
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E11.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/11_lbed/6729b2b1-f87e-419c-bdc1-66d92e14f037.hb.smil/hlssubplaylist-ovbnqq8h_oacna47.m3u8?st=Iwx833Y3_vkY9USqrQf9rQ&e=1715546327
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E12.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/12_tf1r/128322ba-e28c-4c88-87ab-d0f2e25b1adf.hb.smil/hlssubplaylist-ovbnqq8h_oacno37.m3u8?st=5IaYKSRoAX9TdLRc_n-wfQ&e=1715546328
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E13.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/13_es5q/7d619727-8384-4e3d-96e2-bfe43e02f01e.hb.smil/hlssubplaylist-ovbnqq8h_oacn227.m3u8?st=STEzEWLKRCTWt8gHyIEehw&e=1715546329
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E14.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/14_qqlc/2c0b7c52-f9cb-4951-aaa3-da63be7c70b1.hb.smil/hlssubplaylist-ovbnqq8h_oacnmI7.m3u8?st=uYBNrTx_xCIw9CjJmpKBmA&e=1715546330
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E15.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/15_dnpp/4c8ea04a-75b8-4d27-9c62-8580c1e8b64d.hb.smil/hlssubplaylist-ovbnqq8h_oacnE07.m3u8?st=UaU-UkQ6iPQOZDrFT4YSmg&e=1715546331
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E16.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/16_kriw/1c8f77f7-c2c3-44b6-8a4c-453d33b0573e.hb.smil/hlssubplaylist-ovbnqq8h_oacn2A7.m3u8?st=3-g4zV7wqIJPFyHRDV_R0w&e=1715546332
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E17.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/17_izqn/86842001-c9cf-4b80-9db4-f83294fa9fd6.hb.smil/hlssubplaylist-ovbnqq8h_oacn437.m3u8?st=PaSmLb0Ecy2P9ufBf-_-0w&e=1715546333
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E18.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/18_s2lq/515eae14-a35b-4172-91c5-5cc1c63295fa.hb.smil/hlssubplaylist-ovbnqq8h_oacnO97.m3u8?st=L1ZuB4ispb4-bhBL4yNQ5g&e=1715546335
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="😃AVRUPA YAKASI😃",S01E19.mp4 
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/19_gxku/e482a99f-18e7-4696-93c5-70c259800c2b.hb.smil/hlssubplaylist-ovbnqq8h_oacnk17.m3u8?st=7kSQyFsj42B1CzZC5kdHZw&e=1715546335
 https://deathless-palx.tiiny.io/?s=prens&season=3&episode=6
 #EXTINF:-1 xui-id="{XuI_ID}" tvg-id="TR" tvg-name="TR: prens 3 Sezon 7 Bölüm" tvg-logo="https://i.hizliresim.com/dyeima1.jpeg" group-title="🤴🏻PRENS🤴🏻",TR: prens 3 Sezon 7 Bölüm
 https://deathless-palx.tiiny.io/?s=prens&season=3&episode=7
