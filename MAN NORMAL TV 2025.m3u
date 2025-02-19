@@ -2777,6 +2777,29 @@ https://green-wildflower-90d6.1ff056997784445980.workers.dev/static/bs4.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
 https://green-wildflower-90d6.1ff056997784445980.workers.dev/static/bs5.m3u8
 
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: EXXEN Sport HD" tvg-logo="https://pbs.twimg.com/profile_images/1364250406763843588/67V4CGqv_400x400.jpg" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: EXXEN1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://bcovlive-a.akamaihd.net/88affc2b8d9845d9adb0f4a22db27653/eu-central-1/6415845530001/playlist.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: EXXEN Sport HD" tvg-logo="https://pbs.twimg.com/profile_images/1364250406763843588/67V4CGqv_400x400.jpg" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: EXXEN2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://bcovlive-a.akamaihd.net/446cfea025a440c492201835dd88f74a/eu-central-1/6415845530001/playlist.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: EXXEN Sport HD" tvg-logo="https://pbs.twimg.com/profile_images/1364250406763843588/67V4CGqv_400x400.jpg" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: EXXEN3
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://bcovlive-a.akamaihd.net/11d43931fe8741b286897fd8488a1a2b/eu-central-1/6415845530001/playlist.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: EXXEN Sport HD" tvg-logo="https://pbs.twimg.com/profile_images/1364250406763843588/67V4CGqv_400x400.jpg" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: EXXEN4
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://bcovlive-a.akamaihd.net/764299a9db4b429aa9250edc9e791156/eu-central-1/6415845530001/playlist.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: Euro Sport 1 HD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/eurosport-1-new.png" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: Euro Sport 1 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://eurosport1.blutv.com/blutv_eurosport1/smil:eurosport1.smil/playlist.m3u8
+
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="TR" tvg-name="TR: Euro Sport 2 HD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/eurosport-2-new.png" group-title="🦀YENİ ÖZEL FUTBOL(AKTİF)🦀",TR: Euro Sport 2 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
+https://eurosport2.blutv.com/blutv_eurosport2/smil:eurosport2.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",Vİ BEIN 
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
