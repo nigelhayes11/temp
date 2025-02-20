@@ -1053,8 +1053,7 @@ http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=97694&extension=m3
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",90'LAR
 http://37.247.98.8/stream/166/
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",90'LAR
-https://moondigitalmaster.radyotvonline.net/90lar/playlist.m3u8
+
 
 
 
@@ -1079,11 +1078,9 @@ http://95.173.188.170:9306/;
 http://anadolu.liderhost.com.tr:6688/;
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",ARABESK FM BİZ
 http://yayin.arabeskfm.biz:8042/;
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",ARABESK MELODİ FM
-http://arabeskmelodi.kesintisizyayin.com:8888/;
 
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",ARABESK RADYO BİZ
-https://dinle.arabeskradyo.biz/stream/1/?icy
+
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",ARABESKİN SESİ FM
 http://www.arabeskinsesi.net:9958/;
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",ARABESKLAND
@@ -1099,11 +1096,10 @@ http://46.20.4.34/radyoland/classicland.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",DAMAR FM
 https://yayin.damarfm.com:8080/;
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",DAMLA FM
-http://yayin.rtmp.org:8750/;?1587655600936
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",DANCELAND
 http://46.20.4.34/radyoland/danceland.stream/playlist.m3u8
-#E
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",DISCOLAND
 http://46.20.4.34/radyoland/discoland.stream/playlist.m3u8
 
