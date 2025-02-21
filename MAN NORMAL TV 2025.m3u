@@ -3073,13 +3073,64 @@ https://l0.b4c8d3e9f1a2b7c5d62.cfd/yayininat.m3u8
 https://s1.inattvcom5364.xyz/cdn/b1.m3u8
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="BEİN1B" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",4K BEİN
-http://pro.royal8080.com:8080/play/live.php?mac=00:1A:79:9D:84:ED&stream=117040&extension=ts
+http://65.21.85.175:8000/play/a034/index.m3u8?token=livetv
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="fxnetwork.tr" tvg-name="TRGOL" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",GOLEY
 #EXTVLCOPT:http-referrer=
-https://tvcdn.4t40.workers.dev/https://koprulu1.global.ssl.fastly.net/app/innatyeni.m3u8/?id=b1
+https://cdn2.lexter1.com/stream/431081.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNATA
+#EXTVLCOPT:http-referrer=https://inattv911.xyz/
+https://l1.b4c8d3e9f1a2b7c5d63.cfd/yayininat.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",İNATB
+#EXTVLCOPT:http-referrer=https://inattv910.xyz/
+https://l1.b4c8d3e9f1a2b7c5d63.cfd/yayininat.m3u8
 
 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",TRGOL
+#EXTVLCOPT:http-referrer=https://trgoals1185.xyz/
+https://l0.b4c8d3e9f1a2b7c5d62.cfd/yayin1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",TRGOLB
+#EXTVLCOPT:http-referrer=https://trgoals1186.xyz/
+https://l1.b4c8d3e9f1a2b7c5d63.cfd/yayin1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",TRGOLC
+#EXTVLCOPT:http-referrer=https://trgoals1186.xyz/
+https://l2.b4c8d3e9f1a2b7c5d64.cfd/yayin1.m3u8
+
+
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2113462398" tvg-name="TR | BEIN SPORTS 8K FEED (1)" ,TR | BEIN SPORTS 8K FEED (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2113462398.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="1536730627" tvg-name="TR | BEIN SPORTS 4K FEED(UYDU) (1)" ,TR | BEIN SPORTS 4K FEED(UYDU) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=1536730627.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="593493860" tvg-name="TR | BEIN SPORTS 1 HD (TURKEY) (1)" ,TR | BEIN SPORTS 1 HD (TURKEY) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=593493860.m3u8
+
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="3840475653" tvg-name="TR | BEIN SPORTS 1 (720P) (1)" ,TR | BEIN SPORTS 1 (720P) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=3840475653.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2233066433" tvg-name="TR | BEIN SPORTS 1 (720PFEED) (1)" ,TR | BEIN SPORTS 1 (720PFEED) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2233066433.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="1352421053" tvg-name="TR | BEIN SPORTS 1 50 FPS (1)" ,TR | BEIN SPORTS 1 50 FPS (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=1352421053.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="300113394" tvg-name="TR | BEIN SPORTS 1 (6)" ,TR | BEIN SPORTS 1 (6)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=300113394.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="1363827223" tvg-name="TR | BEIN 1 FEED (720P) (1)" ,TR | BEIN 1 FEED (720P) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=1363827223.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2576216897" tvg-name="TR | BEIN SPORTS 1 + (1)" ,TR | BEIN SPORTS 1 + (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2576216897.m3u8
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2919229346" tvg-name="TR | BEIN 1 SD (480P) (1)" ,TR | BEIN 1 SD (480P) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2919229346.m3u8#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="1453692314" tvg-name="TR | BEIN SPORTS FEED (OZEL FEED YAYIN) (1)" ,TR | BEIN SPORTS FEED (OZEL FEED YAYIN) (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=1453692314.m3u8
+
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="662179620" tvg-name="TR | BEIN SPORTS 1 HD (1)" ,TR | BEIN SPORTS 1 HD (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=662179620.m3u8
+
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2190922298" tvg-name="TR | BEIN SERIES 1 (6)" ,TR | BEIN SERIES 1 (6)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2190922298.m3u8
+
+#EXTINF:-1 group-title="⚽MNK BEİN 1 WEB ⚽" tvg-logo="https://i.hizliresim.com/c11fk0n.png" tvg-id="2403425031" tvg-name="TR | BEIN SPORTS 1 H265 (1)" ,TR | BEIN SPORTS 1 H265 (1)
+https://plexpan.duckdns.org/xbyte.m3u8/?id=2403425031.m3u8
 
 
 
