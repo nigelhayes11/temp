@@ -766,10 +766,24 @@ http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=151779&extension=m
 #EXTINF:-1 group-title="⚡️YENİ🌎🍿TV ",(TR) Adile Naşit 1
 http://d.tvdark.eu/play/live.php?mac=00:1A:79:02:9F:A3&stream=97694&extension=m3u8
 
+
+
+#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",GREEKLAND
+http://46.20.4.34/radyoland/greekland.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 GREEK
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e389058588_1/playlist.m3u8
+
+#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",POWER GREECE
+https://listen.powerapp.com.tr/powergreece/abr/powergreece/128/playlist.m3u8
+
+#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",Derti greece
+http://derti.live24.gr/derty1000
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",90'LAR
 http://37.247.98.8/stream/166/
 
-
+#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 TURK 90'LAR
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e325182420_1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",AKUSTİKLAND
@@ -834,8 +848,7 @@ http://yayin.turkhosted.com:6006/;
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",FLOW
 http://46.20.4.34/radyoland/driveland.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",GREEKLAND
-http://46.20.4.34/radyoland/greekland.stream/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",HAYATMİX REMİX
 https://hayatmix.yayin.com.tr/mp3
@@ -914,8 +927,7 @@ https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e41c7
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 FM
 https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2f95dcb16_1/playlist.m3u8
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 GREEK
-https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e389058588_1/playlist.m3u8
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 HEART
 https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e367972335_1/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 JAZZ
@@ -928,8 +940,7 @@ https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e3aec
 https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e39cae8c9c_1/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 SLOW
 https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e3a53317d4_1/playlist.m3u8
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 TURK 90'LAR
-https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e325182420_1/playlist.m3u8
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 TURK DAMAR
 https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e3ce2c120f_1/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",NUMBER 1 TURK ELLER HAVAYA
@@ -988,8 +999,7 @@ https://anadolu.liderhost.com.tr:10919/;
 https://listen.powerapp.com.tr/powerdance/abr/powerdance/128/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",POWER DEEP
 https://listen.powerapp.com.tr/powerdeep/abr/powerdeep/128/playlist.m3u8
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",POWER GREECE
-https://listen.powerapp.com.tr/powergreece/abr/powergreece/128/playlist.m3u8
+
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",POWER LOVE
 https://listen.powerapp.com.tr/powerlove/abr/powerlove/128/playlist.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",POWER POP
@@ -1181,8 +1191,7 @@ http://www.arabeskinsesi.net:9958/;
 http://yayin.damarfm.com:8080
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",DEM RADYO
 http://s1.voscast.com:9572
-#EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",Derti greece
-http://derti.live24.gr/derty1000
+
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.hizliresim.com/5y3zf2y.png" group-title=" 📻 RADYO DİNLE📻",KLASIK HOME
 http://37.247.98.8/stream/32/
