@@ -6045,6 +6045,14 @@ https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/64
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S SPORT 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/playlist.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S+plus1
+https://v.arectv13.sbs/static/pl1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S+plus2
+https://v.arectv13.sbs/static/pl2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S+plus3
+https://v.arectv13.sbs/static/pl3.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",Exxen 1 HD
 https://bcovlive-a.akamaihd.net/88affc2b8d9845d9adb0f4a22db27653/eu-central-1/6415845530001/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuBUwmDEIxAFg9_iEHtMvtbTTc9a6bD1t5dQxmBTZ_0U6towl04Kw3H8&s=10" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",Exxen 2 HD
@@ -7784,7 +7792,24 @@ https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/189_tllw/e538f5de-7bb2-4b64-b
 https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/190_f8t6/de58c78a-09a8-4039-8edc-2f441a59cb01.hb.smil/hlssubplaylist-ovbnqq8h_oacnYc8.m3u8?st=nR2wXey5LNnZyGzWKm7jkg&e=1715548591
 
 
-
+#EXTINF:-1 tvg-id="6843" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/3fdd30bdd3cb2f194617588f1cd455fc.jpg" tvg-name="Arabalar 2" group-title="Aile",Arabalar 2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/afabe6ca8e0a0900718851e087dc67ae17113176997.mp4/index.m3u8
+#EXTINF:-1 tvg-id="6842" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/df42f3a73608b4b268e87545605ed940.jpg" tvg-name="Arabalar" group-title="Aile",Arabalar
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/a0f52758c6bf890fd0f8a4a8c9c0a29b17113177286.mp4/index.m3u8
+#EXTINF:-1 tvg-id="6821" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/86095be16487dcfb524742993c1f03b3.jpg" tvg-name="Şirinler: Kayıp Köy" group-title="Aile",Şirinler: Kayıp Köy
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/b75b61a1a3ceed4897e20c4279a7d042171130444311.mp4/index.m3u8
+#EXTINF:-1 tvg-id="6820" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/505a12bedd1821081ec6b53336b5c368.jpg" tvg-name="Şirinler 2" group-title="Aile",Şirinler 2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/085c25e9fd26e25ec0f0096cee9b58d817113044848.mp4/index.m3u8
+#EXTINF:-1 tvg-id="6819" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/94a49d80e937368ce0f4cb110f1a9168.jpg" tvg-name="Şirinler" group-title="Aile",Şirinler
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/da1e2d6bd4732bcb75b54f7134f5b50e17113044629.mp4/index.m3u8
+#EXTINF:-1 tvg-id="6796" tvg-logo="https://a.prectv35.sbs/uploads/cache/poster_thumb/uploads/jpg/1fa4f3ca6491836f8835c70bd36e0689.jpg" tvg-name="Alvin ve Sincaplar: Yol Macerası" group-title="Aile",Alvin ve Sincaplar: Yol Macerası
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://load.rectv2024live.com/hls/10/cdn32/3dcc0cf1c3b36e0a63215b4268cada7917112421546.mp4/index.m3u8
 
 
 
