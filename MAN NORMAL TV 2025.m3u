@@ -142,10 +142,7 @@ http://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8
 https://ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8
 #EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="NRG91.gr" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" ,NRG 91 
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
-#EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="NRG91.gr",NRG 91 (720p) [Not 24/7]
-http://tv.nrg91.gr:1935/onweb/live/master.m3u8
-#EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="NRGTV.gr",NRG TV (720p)
-https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8
+
 
 #EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="ANT1Cyprus.cy" tvg-logo="https://i.imgur.com/2KAObBt.png" ,ANT1 Cyprus (1080p)
 http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
@@ -158,16 +155,15 @@ https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
 
 
 #EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="SkaiTV.gr",Skai TV (720p)
-http://skai-live-back.siliconweb.com/media/cambria4/index.m3u8
+https://skai-live.siliconweb.com/media/cambria4/index.m3u8
 
 
-#EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="Tilemousiki.gr",Tilemousiki (480p) [Not 24/7]
-http://wpso.com:1936/hls/music1.m3u8
+
 
 
 
 #EXTINF:-1 group-title="🇬🇷YUNAN TV🇬🇷" tvg-id="PanikTV.gr" tvg-logo="https://i.imgur.com/13C3CPr.png" ,Panik TV (1080p)
-https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
+https://livetv.streams.ovh:1936/paniktv/paniktv/chunklist_w1001867913.m3u8
 #EXTINF:-1 tvg-name="Number 1 TV" tvg-id="Number1TV.tr" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="⚡️MÜZİK YERLİ TV⚡️",NR1
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
 #EXTINF:-1 tvg-name="MILYON TV" tvg-id="" tvg-logo="https://i.ibb.co/sQRhqCs/milyon-tv.png" group-title="⚡️MÜZİK YERLİ TV⚡️",MILYON TV
