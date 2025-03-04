@@ -10,6 +10,10 @@ http://89.187.191.41/ATV-HD-TR/video.m3u8
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
 https://c.fulltvizle.com/fox/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now B
+http://116.202.238.88/FOXTV_TR/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Show TV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
 http://stream.tvcdn.net/ulusal/show-tv.m3u8
 #EXTINF:-1 tvg-id="Beyaz TV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
@@ -31,7 +35,7 @@ http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="http://assets.tvcdn.net/06e7abd9-0fbb-441f-af63-b895513d3aaa.png" group-title="📺TV KANALLARI FULL📺",A Haber
 http://stream.tvcdn.net/haber/a-haber.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",CNN Turk
-https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8?&live=true&app=com.cnnturk&st=dyVmXlqbsoxfQd8cl5kwRQ&e=1738242577
+https://x.canlitvapp.com/cnn/playlist.m3u8
 #EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="📺TV KANALLARI FULL📺",Haberturk
 http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="http://assets.tvcdn.net/d7e11245-3318-4cfd-bd1c-bdbb03d4c76a.png" group-title="📺TV KANALLARI FULL📺",Haber Global
