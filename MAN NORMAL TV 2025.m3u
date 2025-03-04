@@ -2,6 +2,8 @@
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1a
+https://be6721.rcr72.waw04.cdn255.com/hls2/01/08342/,c787uhn0ohip_h,lang/eng/2985d4ymnrqw_eng,lang/bul/2985d4ymnrqw_bul,lang/cze/2985d4ymnrqw_cze,lang/gre/2985d4ymnrqw_gre,lang/spa/2985d4ymnrqw_spa,lang/fre/2985d4ymnrqw_fre,lang/hrv/2985d4ymnrqw_hrv,lang/hun/2985d4ymnrqw_hun,lang/ind/2985d4ymnrqw_ind,lang/may/2985d4ymnrqw_may,lang/pol/2985d4ymnrqw_pol,lang/por/2985d4ymnrqw_por,lang/rum/2985d4ymnrqw_rum,lang/srp/2985d4ymnrqw_srp,lang/swe/2985d4ymnrqw_swe,lang/tha/2985d4ymnrqw_tha,lang/tur/2985d4ymnrqw_tur,lang/chi/2985d4ymnrqw_chi,.urlset/master.m3u8?t=MEBtbDPjRyARN2B1KlyrFYzvCWZeGG01CS2mQccqyWI&s=1741081944&e=10800&f=41712041&srv=07&asn=47524&sp=4000&p=&fr=c787uhn0ohip
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
 https://tv.prectv5.sbs/live/atv1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv B
