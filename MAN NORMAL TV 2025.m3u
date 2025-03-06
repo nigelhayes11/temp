@@ -717,17 +717,31 @@ http://lova.me/hls/hithd.m3u8
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 group-title="🌎🎶YABANCI MÜZİK TV🌎🎶l"tvg-name="Страна ФМ" tvg-logo="https://i.imgur.com/WsPlKJJ.png",Страна ФМ
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/1024px-Natgeologo.svg.png" group-title="⚡️YENİ🌎🍿TV ",National Geographic HD
+https://tls.tc/M0Vkz
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="⚡️YENİ🌎🍿TV ",National Geographic Wild HD
+https://tls.tc/bbN6Z
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/1200px-InvestigationDiscoveryLogo2020.svg.png" group-title="⚡️YENİ🌎🍿TV ",Discovery ID
+https://tls.tc/03Scg
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/35/2/discovery-channel-logo-png_seeklogo-355483.png" group-title="⚡️YENİ🌎🍿TV ",Discovery Channel
+https://tls.tc/9PvKE
+#EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2023/01/History-Channel-logo.png" group-title="⚡️YENİ🌎🍿TV ",History Channel
+https://tls.tc/soTb3
+#EXTINF:-1 tvg-logo="https://www.viasatworld.com/media/1438/history-vw.png" group-title="⚡️YENİ🌎🍿TV ",Viasat History
+https://tls.tc/omYYh
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Viasat_Nature-logo.svg/1200px-Viasat_Nature-logo.svg.png" group-title="⚡️YENİ🌎🍿TV ",Viasat Nature
+https://tls.tc/9vnrP
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Viasat_Explore-logo.svg/1200px-Viasat_Explore-logo.svg.png" group-title="⚡️YENİ🌎🍿TV ",Viasat Explore
+https://tls.tc/2V5sD
+#EXTINF:-1 tvg-logo="https://bein-sports.com.tr/Upload/Galeri/Buyuk/01-44.png" group-title="⚡️YENİ🌎🍿TV ",BeIN İZ
+https://tls.tc/Js5IH
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/B/bein-home-entertainment-logo-5D8277747F-seeklogo.com.png" group-title="⚡️YENİ🌎🍿TV ",BeIN H&E
+https://tls.tc/HVbVp
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Bein_gurme.png" group-title="⚡️YENİ🌎🍿TV ",BeIN Gurme
+https://tls.tc/88g1e
 #EXTINF:-1 tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/love-nature_transparent.png" group-title="⚡️YENİ🌎🍿TV ",Love Nature HD
 https://aegis-cloudfront-1.tubi.video/dc8bda97-ce9e-4091-b4e8-11254dea4da6/1080p-cc/index.m3u8
-#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="⚡️YENİ🌎🍿TV ",TRT Belgesel
-http://31.222.206.98/8860/tracks-v1a1/mono.ts.m3u8?token=test
-#EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/c6c727a2-b2be-4d9b-a32c-48ffa778cbb6.png" group-title="⚡️YENİ🌎🍿TV ",TGRT Belgesel
-http://stream.tvcdn.net/belgesel/tgrt-belgesel.m3u8
-#EXTINF:-1 tvg-id="TarimTV.tr" tvg-logo="http://assets.tvcdn.net/2038e897-1bbf-4744-8028-975e32561396.png" group-title="⚡️YENİ🌎🍿TV ",Tarım TV
-http://stream.tvcdn.net/belgesel/tarim-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/beiniz.png" tvg-name="TR:BEIN IZ HD" group-title="⚡️YENİ🌎🍿TV ",TR:BEIN IZ HD
-#EXTVLCOPT:http-referrer=https://dcdlplayerd91af.xyz
+
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE2OTEyMjMwNzgwMzk1N2Q1ZDRiMGM=
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png" group-title="⚡️YENİ🌎🍿TV ",Nat Geo Wild HD
 http://ucanadamsabri.duckdns.org/DeaTHLesS/freeiptv/king.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzMjQxNjYxNjJmODM5MWE3Y2E2Mw==
