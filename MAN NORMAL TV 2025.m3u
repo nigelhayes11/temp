@@ -1,17 +1,43 @@
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/tivibutrspor.png" group-title="TR - SPOR",(TR) Tivibu Spor 1 HD
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=7559&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/tivibutrspor3.png" group-title="TR - SPOR",(TR) Tivibu Spor 3 HD
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=7561&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/eurosport1.png" group-title="TR - SPOR",(TR) EuroSport 1 HD
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=2989&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/eurosport2hd.png" group-title="TR - SPOR",(TR) EuroSport 2 HD
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=2988&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/trtsporhd.png" group-title="TR - SPOR",(TR) Trt Spor HD
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=2825&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/sportstvtr.png" group-title="TR - SPOR",(TR) Sports TV
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=2857&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/trtsporhd.png" group-title="TR - SPOR",(TR) Trt Spor
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=2826&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysport1hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 1 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=4619&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga2hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 2 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3336&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga3hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 3 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3335&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga4hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 4 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3334&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga5hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 5 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3333&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga6hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 6 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3332&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga7hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 7 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3331&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga8hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 8 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3330&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga9hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 9 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3329&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysport1hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 10 HEVC
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=119880&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga1hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 1 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3248&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga2hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 2 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3247&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga3hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 3 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3246&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga4hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 4 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3245&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga5hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 5 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3244&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga6hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 6 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3243&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga7hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 7 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3242&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga8hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 8 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3241&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga9hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 9 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3240&extension=ts
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/Logolar/skysportbundesliga10hd.png" group-title="DE - SKY BUNDESLIGA",(DE) Sky Bundesliga 10 4K+
+http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=3337&extension=ts
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/turkey1.xml.gz,https://www.open-epg.com/files/turkey2.xml.gz,https://www.open-epg.com/files/turkey3.xml.gz,https://www.open-epg.com/files/turkey4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz,https://www.open-epg.com/files/turkeypremium2.xml.gz,https://www.open-epg.com/files/turkeypremium4.xml.gz,https://www.open-epg.com/files/turkeypremium3.xml.gz,https://www.open-epg.com/files/turkeypremium1.xml.gz" 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
