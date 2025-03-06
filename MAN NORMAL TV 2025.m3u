@@ -1,27 +1,4 @@
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 1 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135166&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 2 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135165&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 3 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135164&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 4 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135163&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 5 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135162&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 6 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135161&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 7 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135160&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 8 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135159&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 9 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135158&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 10 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=135157&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 11 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=184252&extension=ts
-#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/Flag/germany.png" group-title="DE - SPORTS",(DE) RTL Event 12 4K+ (RTL+)
-http://iptv.darktv.eu:80/play/live.php?mac=00:1A:79:14:66:18&stream=184253&extension=ts
+
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/turkey1.xml.gz,https://www.open-epg.com/files/turkey2.xml.gz,https://www.open-epg.com/files/turkey3.xml.gz,https://www.open-epg.com/files/turkey4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz,https://www.open-epg.com/files/turkeypremium2.xml.gz,https://www.open-epg.com/files/turkeypremium4.xml.gz,https://www.open-epg.com/files/turkeypremium3.xml.gz,https://www.open-epg.com/files/turkeypremium1.xml.gz" 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
