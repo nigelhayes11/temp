@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://www.open-epg.com/files/turkey1.xml.gz,https://www.open-epg.com/files/turkey2.xml.gz,https://www.open-epg.com/files/turkey3.xml.gz,https://www.open-epg.com/files/turkey4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz,https://www.open-epg.com/files/turkeypremium2.xml.gz,https://www.open-epg.com/files/turkeypremium4.xml.gz,https://www.open-epg.com/files/turkeypremium3.xml.gz,https://www.open-epg.com/files/turkeypremium1.xml.gz" 
+
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
@@ -8646,27 +8646,4 @@ https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/189_tllw/e538f5de-7bb2-4b64-b
 https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/190_f8t6/de58c78a-09a8-4039-8edc-2f441a59cb01.hb.smil/hlssubplaylist-ovbnqq8h_oacnYc8.m3u8?st=nR2wXey5LNnZyGzWKm7jkg&e=1715548591
 
 
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="GOLD: beIN SP⚽RTS 1 ʜᴅ" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?2992" group-title="MNK VİP",GOLD: beIN SP⚽RTS 1 ʜᴅ
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/868684
 
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="GOLD: beIN SP⚽RTS 1 RAW" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?2992" group-title="MNK VİP",GOLD: beIN SP⚽RTS 1 RAW
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/868667
-
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="GOLD: beIN SP⚽RTS 1 ᵁᴴᴰ 3840P" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?2992" group-title="MNK VİP",GOLD: beIN SP⚽RTS 1 ᵁᴴᴰ 3840P
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/868658
-
-#EXTINF:-1 tvg-id="" tvg-name="TR VIP: BEIN SPORTS 1 HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?ver=16866" group-title="MNK VİP",TR VIP: BEIN SPORTS 1 HD
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/401288
-
-#EXTINF:-1 tvg-id="" tvg-name="TR VIP: BEIN SPORTS 1 HD+" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?ver=16866" group-title="MNK VİP",TR VIP: BEIN SPORTS 1 HD+
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/401285
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="GOLD: beIN SP⚽RTS 1 ᴴᴰ" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?2992" group-title="MNK VİP",GOLD: beIN SP⚽RTS 1 ᴴᴰ
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/868691
-
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="GOLD: beIN SP⚽RTS 1 RAW" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1366.png?2992" group-title="MNK VİP",GOLD: beIN SP⚽RTS 1 RAW
-http://hi-world.me:80/8cf14d197d/a2b57be24241b636/868674
-
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="TR: beIN Sports 1 HD" tvg-logo="http://181.233.124.64:80/images/9dadd0d9ae004374fe5e26e9988d9e19.png" group-title="ay",VİP KANAL
-http://kytv.xyz:80/5883287657/2992825879/220988.ts
-#EXTINF:-1 tvg-id="beINSports1.tr" tvg-name="TR: beIN Sports 1 HD" tvg-logo="http://181.233.124.64:80/images/9dadd0d9ae004374fe5e26e9988d9e19.png" group-title="ay",DEHA
-https://video.twimg.com/amplify_video/1896298544950124544/pl/B0-IhrThZr8G5O8z.m3u8?tag=16
