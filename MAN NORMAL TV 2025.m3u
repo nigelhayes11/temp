@@ -1,15 +1,4 @@
-#EXTM3U
-#EXTINF:-1 , test
-#EXTVLCOPT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
-#EXTVLCOPT:http-origin=https://golvar5489.sbs
-#EXTVLCOPT:http-referrer=https://golvar5489.sbs/
-https://a.strmrdr-cf-worker-4c6e747518.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/DmodYM9CdSNPUZyc2x7VWd/5062/a.strmrdr-cf-worker-4c6e747518.workers.dev/chunklist_hd.m3u8
 
-#EXTINF:-1 , test2
-#EXTVLCOPT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
-#EXTVLCOPT:http-origin=https://golvar5489.sbs
-#EXTVLCOPT:http-referrer=https://golvar5489.sbs/
-https://a.strmrdr-cf-worker-2b4b403730.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/DmodYM9CdSNPUZyc2x7VWd/5062/a.strmrdr-cf-worker-2b4b403730.workers.dev/chunklist_hd.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
@@ -8571,5 +8560,7 @@ https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/189_tllw/e538f5de-7bb2-4b64-b
 #EXTINF:-1 tvg-id="AVRUPA YAKASI" tvg-logo="https://i.hizliresim.com/6eabdgp.png" group-title="😃AVRUPA YAKASI😃",S06E28.mp4 
 https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/190_f8t6/de58c78a-09a8-4039-8edc-2f441a59cb01.hb.smil/hlssubplaylist-ovbnqq8h_oacnYc8.m3u8?st=nR2wXey5LNnZyGzWKm7jkg&e=1715548591
 
-
-
+#EXTINF:-1 tvg-id="AVRUPA YAKASI" tvg-logo="https://i.hizliresim.com/6eabdgp.png" group-title="dizi final",sen ağlama
+https://startv-p3.mncdn.com/smil:sen_aglama_istanbul_s1b08_98aabb6d26c2_DD_smil.smil/chunklist_b1628000.m3u8?st=t_qKRamhpUr7bd6tag9Utw&e=1741609137&r=2
+#EXTINF:-1 tvg-id="AVRUPA YAKASI" tvg-logo="https://i.hizliresim.com/6eabdgp.png" group-title="dizi final",yargı
+https://kanaldvod.duhnet.tv/hls/V/ML/yargi_mirriad/yargi_mirriad.smil/hlssubplaylist-ovbnGvek_oacnWx7.m3u8?&app=com.kanald&min=0&max=1250
