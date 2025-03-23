@@ -1,4 +1,24 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="Beinsports.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-1.png" group-title="TURKEY",beIN SPORTS 1 Turkey
+#EXTVLCOPT:http-origin=https://funzoneplay.cfd
+#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://zekonew.koskoros.ru/zeko/premium62/mono.m3u8
+#EXTINF:-1 tvg-id="Beinsports.2.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-2.png" group-title="TURKEY",beIN SPORTS 2 Turkey
+#EXTVLCOPT:http-origin=https://funzoneplay.cfd
+#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://zekonew.koskoros.ru/zeko/premium63/mono.m3u8
+#EXTINF:-1 tvg-id="Beinsports.3.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-3.png" group-title="TURKEY",beIN SPORTS 3 Turkey
+#EXTVLCOPT:http-origin=https://funzoneplay.cfd
+#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://zekonew.koskoros.ru/zeko/premium64/mono.m3u8
+#EXTINF:-1 tvg-id="Beinsports.4.tr" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/bein-sports-4.png" group-title="TURKEY",beIN SPORTS 4 Turkey
+#EXTVLCOPT:http-origin=https://funzoneplay.cfd
+#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://zekonew.koskoros.ru/zeko/premium67/mono.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
