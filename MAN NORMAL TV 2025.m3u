@@ -10,7 +10,8 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/2306/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",Show TV HD
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/2307/index.m3u8
-
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",ATV
+http://89.187.191.41/ATV-HD-TR/video.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",NOW HD TR
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/2309/index.m3u8
@@ -18,6 +19,13 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/2309/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",KANAL D
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/2326/index.m3u8
+
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8 HD TR
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6896/index.m3u8
+
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8.5 FHD TR
+
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6898/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",360 TV HD TR
 
@@ -32,10 +40,10 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6744/index.m3u8
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6745/index.m3u8
 
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports 1 HD TR
 
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6781/index.m3u8
 
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN IZ TV HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/19078/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Gurme HD TR
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6804/index.m3u8
@@ -46,11 +54,12 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6813/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Series Sci-fi TR
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6814/index.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",Tivibu Spor 2 FHD TR
 
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6816/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports Haber FHD TR
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6939/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports 1 HD TR
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6781/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports 1 (Yedek) HD TR
-
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6817/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports 2 HD TR
 
@@ -165,7 +174,33 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6866/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",National Geographic FHD TR
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6867/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA 1002 HD
 
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31221/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA AİLE 2 HD
+
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31222/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA AİLE HD
+
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31223/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA AKSİYON 2 HD
+
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31224/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA KOMEDİ HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31225/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA TV 1001 HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31226/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA TV 2 HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31227/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA TV AKSİYON HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31228/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA TV HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31229/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA YERLİ 2 HD
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31230/index.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",SİNEMA YERLİ HD
+
+http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/31231/index.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Movies Action HD TR
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6877/index.m3u8
@@ -197,21 +232,7 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6891/index.m3u8
 
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6893/index.m3u8
 
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8.5 TR
 
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6895/index.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8 HD TR
-
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6896/index.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8 Int TR
-
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6897/index.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8.5 FHD TR
-
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6898/index.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",TV 8.5 HD TR
-
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6899/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",Beyaz TV FHD TR
 
@@ -221,8 +242,6 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6906/index.m3u8
 http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6907/index.m3u8
 
 
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr" group-title="📺DİGİTÜRK ÖZEL📺",beIN Sports Haber FHD TR
-http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6939/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
