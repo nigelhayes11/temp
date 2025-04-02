@@ -200,20 +200,18 @@ http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6907/index.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
-https://tv.arectv29.sbs/live/atv1.m3u8
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv B
-http://89.187.191.41/ATV-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv ORJ 
 https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1743623653&st=H34izEbEjcCIvzH4hGsY2w&sid=7ahq87uegugm&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3
+#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
+http://89.187.191.41/ATV-HD-TR/video.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv B
+http://89.187.191.41/ATV-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=79wefhwjyi4s&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
 https://c.fulltvizle.com/fox/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now B
 http://116.202.238.88/FOXTV_TR/playlist.m3u8
-
 #EXTINF:-1 tvg-id="Show TV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
 http://stream.tvcdn.net/ulusal/show-tv.m3u8
 #EXTINF:-1 tvg-id="Beyaz TV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
@@ -228,7 +226,6 @@ http://stream.tvcdn.net/ulusal/360-tv.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-logo="http://assets.tvcdn.net/d7741078-ccce-47d8-ba1c-a041b659bad6.png" group-title="📺TV KANALLARI FULL📺",TV 100
 http://stream.tvcdn.net/ulusal/tv-100.m3u8
-
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",HABER KANAL>>>>>
 #EXTINF:-1 tvg-id="TRTHaber.tr" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="📺TV KANALLARI FULL📺",TRT Haber
 http://stream.tvcdn.net/haber/trt-haber.m3u8
