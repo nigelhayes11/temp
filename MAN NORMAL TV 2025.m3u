@@ -2137,7 +2137,11 @@ https://ddy6new.newkso.ru/ddy6/premium573/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium127/mono.m3u8
 ********************************************************************************************
-
+#EXTINF:-1 tvg-id="SPORT.TV5.HD.pt" tvg-logo="" group-title="🇬🇷⚽FUTBOLI🇬🇷⚽",nova premier lig
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium599/mono.m3u8
 #EXTINF:-1 tvg-id="SPORT.TV5.HD.pt" tvg-logo="" group-title="🇬🇷⚽FUTBOLI🇬🇷⚽",nova 1
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
