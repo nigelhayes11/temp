@@ -1428,7 +1428,10 @@ https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",REC
 #EXTVLCOPT:http-user-agent=googleusercontent
-https://r14.cf1-b17.workers.dev/static/bs1.m3u8
+https://r14.a96.workers.dev/static/bs1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",RECB
+#EXTVLCOPT:http-user-agent=googleusercontent
+https://r14.a96.workers.dev/static/bs11.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN 1 WEB ⚽",DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
 https://35mumdur.shop/701/index.m3u8
@@ -1493,15 +1496,15 @@ https://www.vavoo.to/play/2919229346/index.m3u8
 https://www.vavoo.to/play/143239535/index.m3u8
 ***************************************************************************************************************************************
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S SPORT 1 KABLOTV
-https://sakultah.org/yayin.m3u8?id=1810
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=1810
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",S SPORT 2 KABLOTV
-https://sakultah.org/yayin.m3u8?id=3901
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=3901
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",SSP1 REC
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://r14.af94.workers.dev/static/ss11.m3u8
+https://r14.af96.workers.dev/static/ss11.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🇪🇸🇮🇹🏀Euroleague İspanya İtalya Ligi S SPORT🇪🇸🇮🇹🏀",SSP2 REC
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://r14.af94.workers.dev/static/ss2.m3u8
+https://r14.af96.workers.dev/static/ss2.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN DUMAN⚽",DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
