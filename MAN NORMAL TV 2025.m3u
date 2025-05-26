@@ -21,6 +21,8 @@ https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="📺TV KANALLARI FULL📺",TV8
 https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="📺TV KANALLARI FULL📺",TV8 KBL
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2614
 #EXTINF:-1 tvg-name="Star"tvg-id="Star.tr"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODT1C4SB518JljOlb7etd8VRmpGQJSyiFVw&s" group-title="📺TV KANALLARI FULL📺",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=7cvita288gq9&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-name="360 TV"tvg-id="360 TV.tr"tvg-logo="https://yt3.googleusercontent.com/YlVLnsvpXboD7VKUsek8u99QZ3L7uduZgO4cewlgmvkZ6UnD65HGfSdzyYp4ZKJoByzLZ34H7w=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺",360 TV
@@ -67,25 +69,21 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",SPOR KANAL>>>>>
 https://cdn.dzen.ru
 #EXTINF:-1 tvg-id="" tvg-name="TR:BEINSPORTS HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="📺TV KANALLARI FULL📺",TR:BEINSPORTS HABER HD
-https://canlitvulusal3.xyz/live/beinsportshaber/index.m3u8
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2114
 #EXTINF:-1 tvg-name="HT Spor"tvg-id="HT Spor.tr"tvg-logo="https://yt3.googleusercontent.com/B3IWp1Ke7InBdWs0z8dkXpRlg4J6lQ0ETi8hbMQ64w3uh9RfHTOtU6K7_uLYRbIoA6NteY9a=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺", HT SPOR
 https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=74uh63sxqqws&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 tvg-name="TRT Spor"tvg-id="TRT Spor.tr"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="📺TV KANALLARI FULL📺",TRT Spor
-http://stream.tvcdn.net/spor/trt-spor.m3u8
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=3101
 #EXTINF:-1 tvg-name="TRT Spor Yıldız"tvg-id="TRT Spor Yıldız.tr"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="📺TV KANALLARI FULL📺",TRT Spor Yıldız
 https://trt.daioncdn.net/trtspor-yildiz/master_1080p.m3u8?platform=trtspor&sid=74cxm4w3pmso&app=6d14425d-4281-477b-8b74-49c40e4aa8b8&ce=2
 #EXTINF:-1 tvg-name="A Spor"tvg-id="A Spor.tr"tvg-logo="https://cdn6.aptoide.com/imgs/7/f/d/7fd636ea06646d1a9aaefe27a11dfb58_icon.png" group-title="📺TV KANALLARI FULL📺",A Spor
-https://trkvz.daioncdn.net/aspor/aspor_1080p.m3u8?e=1740686103&st=XWjNoYduwdtA5tIgy5Gpxw&sid=774et0wa8svu&app=45f847c4-04e8-419a-a561-2ebf87084765&ce=3
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2002
 #EXTINF:-1 tvg-name="Sports TV"tvg-id="Sports TV.tr"tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="📺TV KANALLARI FULL📺",Sports TV
-http://stream.tvcdn.net/spor/sports-tv.m3u8
-#EXTINF:-1 tvg-id="TivibuSpor.tr" tvg-logo="http://assets.tvcdn.net/f771bddf-7354-4857-8d33-51be11bc7bdd.png" group-title="📺TV KANALLARI FULL📺",Tivibu Spor
-http://stream.tvcdn.net/spor/tivibu-spor.m3u8
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=1204
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="📺TV KANALLARI FULL📺",FB TV
-http://stream.tvcdn.net/spor/fb-tv.m3u8
-#EXTINF:-1 tvg-id="GSTV.tr" tvg-logo="http://assets.tvcdn.net/777501f0-ebb0-450b-913e-a3c1e2e977fe.png" group-title="📺TV KANALLARI FULL📺",GS TV
-http://stream.tvcdn.net/spor/gs-tv.m3u8
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=1806
 #EXTINF:-1 tvg-id="TJKTV.tr" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="📺TV KANALLARI FULL📺",TJK TV
-http://stream.tvcdn.net/spor/tjk-tv.m3u8
+https://tjktv-live.tjk.org/tjktv/tjktv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="📺TV KANALLARI FULL📺",TJK TV 2
 http://stream.tvcdn.net/spor/tjk-tv-2.m3u8
 #EXTINF:-1 tvg-id="TAYTV.tr" tvg-logo="http://assets.tvcdn.net/11ab0508-b919-4623-bd4d-08c46946cf8e.png" group-title="📺TV KANALLARI FULL📺",Tay TV
