@@ -1,14 +1,10 @@
 #EXTM3U
-
-
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
 https://trt.daioncdn.net/trt-1/master.m3u8?app=web&
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv ORJ 
 https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1743623653&st=H34izEbEjcCIvzH4hGsY2w&sid=7ahq87uegugm&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv
-http://89.187.191.41/ATV-HD-TR/video.m3u8
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv B
-http://89.187.191.41/ATV-HD-TR/video.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv kBl
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2401
 #EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=79wefhwjyi4s&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now TV
@@ -21,7 +17,7 @@ https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="📺TV KANALLARI FULL📺",TV8
 https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8
-
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2614
 #EXTINF:-1 tvg-name="Star"tvg-id="Star.tr"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODT1C4SB518JljOlb7etd8VRmpGQJSyiFVw&s" group-title="📺TV KANALLARI FULL📺",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=7cvita288gq9&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-name="360 TV"tvg-id="360 TV.tr"tvg-logo="https://yt3.googleusercontent.com/YlVLnsvpXboD7VKUsek8u99QZ3L7uduZgO4cewlgmvkZ6UnD65HGfSdzyYp4ZKJoByzLZ34H7w=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺",360 TV
@@ -36,7 +32,7 @@ http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="http://assets.tvcdn.net/06e7abd9-0fbb-441f-af63-b895513d3aaa.png" group-title="📺TV KANALLARI FULL📺",A Haber
 http://stream.tvcdn.net/haber/a-haber.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",CNN Turk
-https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8?&live=true&app=com.cnnturk&st=X3_byjpB--qoX_sFXv3GZw&e=1745666867
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2813
 #EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="📺TV KANALLARI FULL📺",Haberturk
 http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="http://assets.tvcdn.net/d7e11245-3318-4cfd-bd1c-bdbb03d4c76a.png" group-title="📺TV KANALLARI FULL📺",Haber Global
@@ -44,7 +40,7 @@ http://stream.tvcdn.net/haber/haber-global.m3u8
 #EXTINF:-1 tvg-id="UlkeTV.tr" tvg-logo="http://assets.tvcdn.net/e20947de-9a22-4e53-9f88-b69cdf278be7.png" group-title="📺TV KANALLARI FULL📺",ulke TV
 http://stream.tvcdn.net/haber/ulke-tv.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="📺TV KANALLARI FULL📺",Halk TV
-http://stream.tvcdn.net/haber/halk-tv.m3u8
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=1512
 #EXTINF:-1 tvg-id="NTV.tr" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="📺TV KANALLARI FULL📺",NTV
 http://stream.tvcdn.net/haber/ntv.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr" tvg-logo="http://assets.tvcdn.net/7bab6062-acec-4452-a419-345ab95f24e9.png" group-title="📺TV KANALLARI FULL📺",TRT 2
@@ -76,7 +72,7 @@ https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=3101
 #EXTINF:-1 tvg-name="TRT Spor Yıldız"tvg-id="TRT Spor Yıldız.tr"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="📺TV KANALLARI FULL📺",TRT Spor Yıldız
 https://trt.daioncdn.net/trtspor-yildiz/master_1080p.m3u8?platform=trtspor&sid=74cxm4w3pmso&app=6d14425d-4281-477b-8b74-49c40e4aa8b8&ce=2
 #EXTINF:-1 tvg-name="A Spor"tvg-id="A Spor.tr"tvg-logo="https://cdn6.aptoide.com/imgs/7/f/d/7fd636ea06646d1a9aaefe27a11dfb58_icon.png" group-title="📺TV KANALLARI FULL📺",A Spor
-https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=2002
+https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=3103
 #EXTINF:-1 tvg-name="Sports TV"tvg-id="Sports TV.tr"tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="📺TV KANALLARI FULL📺",Sports TV
 https://lemonchiffon-dotterel-347603.hostingersite.com/yayin.m3u8?id=1204
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="📺TV KANALLARI FULL📺",FB TV
@@ -92,45 +88,39 @@ http://stream.tvcdn.net/spor/fit-yasa-tv.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",MÜZİK  KANAL>>>>>
 https://cdn.dzen.ru
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="http://assets.tvcdn.net/e9efa31e-106b-40e0-ab4e-a760061c7ad6.png" group-title="📺TV KANALLARI FULL📺",TRT Muzik
-http://stream.tvcdn.net/muzik/trt-muzik.m3u8
+https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="DreamTurk.tr" tvg-logo="http://assets.tvcdn.net/b7ff7221-f255-439d-9ee9-0f73348005b8.png" group-title="📺TV KANALLARI FULL📺",Dream Turk
-http://stream.tvcdn.net/muzik/dream-turk.m3u8
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8?&live=true&app=com.dreamturk&st=0SS_584g5nlti989kGsw_g&e=1749124330
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="http://assets.tvcdn.net/c866b6f0-00bd-40b9-9583-8cbdbe6a503e.png" group-title="📺TV KANALLARI FULL📺",Powerturk TV
-http://stream.tvcdn.net/muzik/powerturk-tv.m3u8
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b2628000_slTUR.m3u8?nimblesessionid=97547633
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="http://assets.tvcdn.net/c866b6f0-00bd-40b9-9583-8cbdbe6a503e.png" group-title="📺TV KANALLARI FULL📺",Power HİTS
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b1628000_slTUR.m3u8?nimblesessionid=97543754
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TV
 http://stream.tvcdn.net/muzik/power-tv.m3u8
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power DANCE
+https://listen.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=97545215
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power LOVE
+https://listen.powerapp.com.tr/plove/love.smil/chunks.m3u8?nimblesessionid=97545538
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power AKUSTİK
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=97546532
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TR SLOW
+https://listen.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=97546925
+#EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TÜRK TAPTAZE
+https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=97547309
 #EXTINF:-1 tvg-id="KralPopTV.tr" tvg-logo="http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png" group-title="📺TV KANALLARI FULL📺",Kral Pop TV
 http://stream.tvcdn.net/muzik/kral-pop-tv.m3u8
 #EXTINF:-1 tvg-id="Number1TV.tr" tvg-logo="http://assets.tvcdn.net/c46cb81f-8075-442a-be24-d77a05f57921.png" group-title="📺TV KANALLARI FULL📺",Number One TV
-http://stream.tvcdn.net/muzik/number-one-tv.m3u8
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8?md5=yvmV8mimAL_AUTE59O8Q7w&expires=1749199677
 #EXTINF:-1 tvg-id="Number1Turk.tr" tvg-logo="http://assets.tvcdn.net/8fdc5969-a87a-4067-a74a-65d88c131166.png" group-title="📺TV KANALLARI FULL📺",Number One Turk
-http://stream.tvcdn.net/muzik/number-one-turk.m3u8
-#EXTINF:-1 tvg-id="TatlisesTV.tr" tvg-logo="http://assets.tvcdn.net/c65a05ac-96c4-4e80-b232-d27e88fc70c6.png" group-title="📺TV KANALLARI FULL📺",Tatlıses TV
-http://stream.tvcdn.net/muzik/tatlises-tv.m3u8
-#EXTINF:-1 tvg-id="TMB.tr" tvg-logo="http://assets.tvcdn.net/bff30a45-6e50-456c-af0e-62c62191c837.png" group-title="📺TV KANALLARI FULL📺",TMB
-http://stream.tvcdn.net/muzik/tmb.m3u8
-#EXTINF:-1 tvg-id="PowerDance.tr" tvg-logo="http://assets.tvcdn.net/aca9e643-a4b0-4f01-abd5-66a5a2fc1042.png" group-title="📺TV KANALLARI FULL📺",Power Dance
-http://stream.tvcdn.net/muzik/power-dance.m3u8
-#EXTINF:-1 tvg-id="PowerLove.tr" tvg-logo="http://assets.tvcdn.net/f755a1c1-097f-4692-a7a8-c804da8d1ed5.png" group-title="📺TV KANALLARI FULL📺",Power Love
-http://stream.tvcdn.net/muzik/power-love.m3u8
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" tvg-logo="http://assets.tvcdn.net/2005fd7a-ffe1-497a-a56b-ac60bcb3a2a2.png" group-title="📺TV KANALLARI FULL📺",Powerturk Akustik
-http://stream.tvcdn.net/muzik/powerturk-akustik.m3u8
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr" tvg-logo="http://assets.tvcdn.net/fcec79e5-9d47-4812-86ac-00728538ad7f.png" group-title="📺TV KANALLARI FULL📺",Powerturk Slow
-http://stream.tvcdn.net/muzik/powerturk-slow.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr" tvg-logo="http://assets.tvcdn.net/ebb82c5c-86ac-4dc5-ba78-b26e536cebf7.png" group-title="📺TV KANALLARI FULL📺",Powerturk Taptaze
-http://stream.tvcdn.net/muzik/powerturk-taptaze.m3u8
-#EXTINF:-1 tvg-id="Number1Ask.tr" tvg-logo="http://assets.tvcdn.net/a93b01d9-2c8f-4406-b5f9-abdf2f600e79.png" group-title="📺TV KANALLARI FULL📺",Number 1 Ask
-http://stream.tvcdn.net/muzik/number-1-ask.m3u8
-#EXTINF:-1 tvg-id="Number1Damar.tr" tvg-logo="http://assets.tvcdn.net/2330eb6b-5e83-44ed-a2c5-028417f4cb67.png" group-title="📺TV KANALLARI FULL📺",Number 1 Damar
-http://stream.tvcdn.net/muzik/number-1-damar.m3u8
-#EXTINF:-1 tvg-id="Number1Dance.tr" tvg-logo="http://assets.tvcdn.net/45eb173b-8b68-4caa-a5d3-65dc044b08e9.png" group-title="📺TV KANALLARI FULL📺",Number 1 Dance
-http://stream.tvcdn.net/muzik/number-1-dance.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/f50d76a9-885f-4659-8dae-ea125469d25a.png" group-title="📺TV KANALLARI FULL📺",Muzik TV
-http://stream.tvcdn.net/muzik/muzik-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/972fe810-96d7-4cad-8918-fe0c28a45e7d.png" group-title="📺TV KANALLARI FULL📺",Chill TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8?md5=z2zOXrw8Vl6bnjCe_rGdVQ&expires=1749199730
+#EXTINF:-1 tvg-id="Number1Turk.tr" tvg-logo="http://assets.tvcdn.net/8fdc5969-a87a-4067-a74a-65d88c131166.png" group-title="📺TV KANALLARI FULL📺",Number One AŞK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18f9c54e6.smil/chunklist_b400000.m3u8?md5=98mQsPk_kGnKhNUNfKjRQw&expires=1749199751
+#EXTINF:-1 tvg-id="Number1Turk.tr" tvg-logo="http://assets.tvcdn.net/8fdc5969-a87a-4067-a74a-65d88c131166.png" group-title="📺TV KANALLARI FULL📺",Number One DAMAR
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/chunklist_b400000.m3u8?md5=JNmB872GZapgylo3_pCYSw&expires=1685861577
 
- #EXTINF:-1  tvg-name="TRT 1"tvg-name="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
+
+
+
 
 
 #EXTINF:-1  group-title="🇬🇷YUNAN TV🇬🇷" tvg-name="BarazaTVRelaxing.gr",Baraza GREEK TV
