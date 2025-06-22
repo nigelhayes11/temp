@@ -1,4 +1,9 @@
 #EXTM3U
+#EXTINF:-1 group-title="SPAIN" tvg-id="M+.Vamos.es" tvg-logo="https://nigelhys10-nigelhys10.hf.space/proxy/m3u?url=https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/vamos.png",#Vamos Spain
+#EXTVLCOPT:http-origin=https://nigelhys10-nigelhys10.hf.space/proxy/m3u?url=https://forcedtoplay.xyz
+#EXTVLCOPT:http-referrer=https://nigelhys10-nigelhys10.hf.space/proxy/m3u?url=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nigelhys10-nigelhys10.hf.space/proxy/m3u?url=https://example.com/watch/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW01MjEvbW9uby5tM3U4.m3u8
 
 
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
