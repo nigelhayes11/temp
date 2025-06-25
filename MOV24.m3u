@@ -1,4 +1,23 @@
 #EXTM3U
+#EXTM3U url-tvg="https://raw.githubusercontent.com/phosani/daddylive-m3u/refs/heads/main/epg.xml"
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium51|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
+#EXTINF:-1 tvg-id="WABC.us" tvg-name="ABC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/abc-us.png" group-title="USA (DADDY LIVE)" ,ABC
+https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer="https://lefttoplay.xyz/"|Origin="https://lefttoplay.xyz"
+
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium302|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
+#EXTINF:-1 tvg-id="AandE.us" tvg-name="A&E" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/a-and-e-us.png" group-title="USA (DADDY LIVE)" ,A&E
+https://zekonew.newkso.ru/zeko/premium302/mono.m3u8|Referer="https://lefttoplay.xyz/"|Origin="https://lefttoplay.xyz"
+
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium303|number=1",IV=0x30303030303030303030303068418fc2,KEYFORMAT="identity"
+#EXTINF:-1 tvg-id="AMC.us" tvg-name="AMC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/amc-us.png" group-title="USA (DADDY LIVE)" ,AMC
+https://nfsnew.newkso.ru/nfs/premium303/mono.m3u8|Referer="https://lefttoplay.xyz/"|Origin="https://lefttoplay.xyz"
+
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium304|number=1",IV=0x30303030303030303030303068418fc2,KEYFORMAT="identity"
+#EXTINF:-1 tvg-id="AnimalPlanet.us" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/animal-planet-us.png" group-title="USA (DADDY LIVE)" ,Animal Planet
+https://nfsnew.newkso.ru/nfs/premium304/mono.m3u8|Referer="https://lefttoplay.xyz/"|Origin="https://lefttoplay.xyz"
+
+#EXTINF:-1 tvg-id="AdultSwim(English).ca" tvg-name="Adult Swim" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/adult-swim-us.png" group-title="USA (DADDY LIVE)" ,Adult Swim
+https://ddy6new.newkso.ru/ddy6/premium295/mono.m3u8|Referer="https://lefttoplay.xyz/"|Origin="https://lefttoplay.xyz"
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Selçukspor liste",Bein Sports 1 Selçukspor
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1828.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
