@@ -1,42 +1,40 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
-https://trt.daioncdn.net/trt-1/master.m3u8?app=web&
+https://koprulu4.global.ssl.fastly.net/kablo/?id=trt1
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv ORJ 
-https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1743623653&st=H34izEbEjcCIvzH4hGsY2w&sid=7ahq87uegugm&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv kBl
-https://kablo.vercel.app/index.m3u8?id=8 
+https://koprulu4.global.ssl.fastly.net/kablo/?id=atv
 #EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
-https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=79wefhwjyi4s&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+https://koprulu4.global.ssl.fastly.net/kablo/?id=kanald
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now KABLO
-https://kablo.vercel.app/index.m3u8?id=13 
+https://koprulu4.global.ssl.fastly.net/kablo/?id=now
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now B
 http://116.202.238.88/FOXTV_TR/playlist.m3u8
 #EXTINF:-1 tvg-id="Show TV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
-https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8
+https://koprulu4.global.ssl.fastly.net/kablo/?id=showtv
 #EXTINF:-1 tvg-id="Beyaz TV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+https://koprulu4.global.ssl.fastly.net/kablo/?id=beyaztv
 #EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="📺TV KANALLARI FULL📺",TV8
-https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+https://koprulu4.global.ssl.fastly.net/kablo/?id=tv8
 #EXTINF:-1 tvg-name="Star"tvg-id="Star.tr"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODT1C4SB518JljOlb7etd8VRmpGQJSyiFVw&s" group-title="📺TV KANALLARI FULL📺",Star TV
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=7cvita288gq9&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+https://koprulu4.global.ssl.fastly.net/kablo/?id=startv
 #EXTINF:-1 tvg-name="360 TV"tvg-id="360 TV.tr"tvg-logo="https://yt3.googleusercontent.com/YlVLnsvpXboD7VKUsek8u99QZ3L7uduZgO4cewlgmvkZ6UnD65HGfSdzyYp4ZKJoByzLZ34H7w=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺",360 TV
 https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
 #EXTINF:-1 tvg-name="muysTV.tr" tvg-logo="http://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png" group-title="📺TV KANALLARI FULL📺",Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
 #EXTINF:-1 tvg-id="TV100.tr" tvg-logo="http://assets.tvcdn.net/d7741078-ccce-47d8-ba1c-a041b659bad6.png" group-title="📺TV KANALLARI FULL📺",TV 100
-https://tv100.daioncdn.net/tv100/tv100_720p.m3u8?&sid=7cviyhg8rfmm&app=356e7599-d81d-4357-935a-355a1ad9846e&ce=2
+https://koprulu4.global.ssl.fastly.net/kablo/?id=tv100
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",HABER KANAL>>>>>
-
+https://koprulu4.global.ssl.fastly.net/kablo/?id=ekoltv
 #EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",CNN Turk
-https://kablo.vercel.app/index.m3u8?id=42
+https://koprulu4.global.ssl.fastly.net/kablo/?id=cnnturk
 #EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",SÖZCÜ TV
-https://kablo.vercel.app/index.m3u8?id=60 
+https://koprulu4.global.ssl.fastly.net/kablo/?id=szctv
 #EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="📺TV KANALLARI FULL📺",Haberturk
 https://kablo.vercel.app/index.m3u8?id=45
 #EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="http://assets.tvcdn.net/d7e11245-3318-4cfd-bd1c-bdbb03d4c76a.png" group-title="📺TV KANALLARI FULL📺",Haber Global
 https://kablo.vercel.app/index.m3u8?id=55
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="📺TV KANALLARI FULL📺",Halk TV
-https://kablo.vercel.app/index.m3u8?id=58
+https://koprulu4.global.ssl.fastly.net/kablo/?id=halktv
 #EXTINF:-1 tvg-id="NTV.tr" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="📺TV KANALLARI FULL📺",NTV
 https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?token=MXRUZk85cHZnNElmUVlXWVpBMmNqSEhrWExWT3FhK3dCc0t6eElNVVZnVT0=&sid=7gucwzbenbqa&app=7c4bb802-0c41-409e-8cd2-799984995694&ce=3
 #EXTINF:-1 tvg-id="A2TV.tr" tvg-logo="http://assets.tvcdn.net/9db055df-4bc8-4a68-b0fd-766a5a3113bc.png" group-title="📺TV KANALLARI FULL📺",a2
@@ -57,28 +55,36 @@ https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",SPOR KANAL>>>>>
 https://cdn.dzen.ru
-#EXTINF:-1 tvg-id="" tvg-name="TR:BEINSPORTS HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/spor/beinhaber.png" group-title="📺TV KANALLARI FULL📺",TR:BEINSPORTS HABER HD
-https://kablo.vercel.app/index.m3u8?id=104 
-#EXTINF:-1 tvg-name="HT Spor"tvg-id="HT Spor.tr"tvg-logo="https://yt3.googleusercontent.com/B3IWp1Ke7InBdWs0z8dkXpRlg4J6lQ0ETi8hbMQ64w3uh9RfHTOtU6K7_uLYRbIoA6NteY9a=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺", HT SPOR
-https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=74uh63sxqqws&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
-#EXTINF:-1 tvg-name="TRT Spor"tvg-id="TRT Spor.tr"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png" group-title="📺TV KANALLARI FULL📺",TRT Spor
-https://kablo.vercel.app/index.m3u8?id=103
-#EXTINF:-1 tvg-name="TRT Spor Yıldız"tvg-id="TRT Spor Yıldız.tr"tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="📺TV KANALLARI FULL📺",TRT Spor Yıldız
-https://trt.daioncdn.net/trtspor-yildiz/master_1080p.m3u8?platform=trtspor&sid=74cxm4w3pmso&app=6d14425d-4281-477b-8b74-49c40e4aa8b8&ce=2
-#EXTINF:-1 tvg-name="A Spor"tvg-id="A Spor.tr"tvg-logo="https://cdn6.aptoide.com/imgs/7/f/d/7fd636ea06646d1a9aaefe27a11dfb58_icon.png" group-title="📺TV KANALLARI FULL📺",A Spor
-https://kablo.vercel.app/index.m3u8?id=105
-#EXTINF:-1 tvg-name="Sports TV"tvg-id="Sports TV.tr"tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="📺TV KANALLARI FULL📺",Sports TV
-https://kablo.vercel.app/index.m3u8?id=116
-#EXTINF:-1 tvg-id="FBTV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="📺TV KANALLARI FULL📺",FB TV
-https://kablo.vercel.app/index.m3u8?id=117
-#EXTINF:-1 tvg-id="TJKTV.tr" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="📺TV KANALLARI FULL📺",TJK TV
-https://tjktv-live.tjk.org/tjktv/tjktv_1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="📺TV KANALLARI FULL📺",TJK TV 2
-http://stream.tvcdn.net/spor/tjk-tv-2.m3u8
-#EXTINF:-1 tvg-id="TAYTV.tr" tvg-logo="http://assets.tvcdn.net/11ab0508-b919-4623-bd4d-08c46946cf8e.png" group-title="📺TV KANALLARI FULL📺",Tay TV
-http://stream.tvcdn.net/spor/tay-tv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="http://assets.tvcdn.net/639df808-f325-4b05-8cdb-9ed151338087.png" group-title="📺TV KANALLARI FULL📺",Fit YaÅŸa TV
-http://stream.tvcdn.net/spor/fit-yasa-tv.m3u8
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="📺TV KANALLARI FULL📺",Trt Spor  
+https://koprulu4.global.ssl.fastly.net/kablo/?id=trtspor
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="📺TV KANALLARI FULL📺",beIN Sports Haber
+https://koprulu4.global.ssl.fastly.net/kablo/?id=beinsportshaber
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="📺TV KANALLARI FULL📺",A Spor  
+https://koprulu4.global.ssl.fastly.net/kablo/?id=aspor
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="📺TV KANALLARI FULL📺",Eurosport 1
+https://koprulu4.global.ssl.fastly.net/kablo/?id=eurosport1hd
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="📺TV KANALLARI FULL📺",Eurosport 2
+https://koprulu4.global.ssl.fastly.net/kablo/?id=eurosport2hd
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="📺TV KANALLARI FULL📺",HT Spor
+https://koprulu4.global.ssl.fastly.net/kablo/?id=htsporhd
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/eb8b4876-a698-41b8-b937-518abbba69fd.png" group-title="📺TV KANALLARI FULL📺",Trace Sports Stars
+https://koprulu4.global.ssl.fastly.net/kablo/?id=tracesport
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/eacbf9b8-9c4c-490b-b462-f3656a6aa833.png" group-title="📺TV KANALLARI FULL📺",Cosmo Sports
+https://koprulu4.global.ssl.fastly.net/kablo/?id=fightscreen
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f0f167c1-f2b1-41d0-9713-75c315820713.png" group-title="📺TV KANALLARI FULL📺",S Sport
+https://koprulu4.global.ssl.fastly.net/kablo/?id=ssport
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="📺TV KANALLARI FULL📺",S Sport 2
+https://koprulu4.global.ssl.fastly.net/kablo/?id=ssport2
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="📺TV KANALLARI FULL📺",Nba Tv
+https://koprulu4.global.ssl.fastly.net/kablo/?id=nbatv
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ef633fa1-7ee7-4712-8932-aadc2c5db2d3.png" group-title="📺TV KANALLARI FULL📺",W-Sport
+https://koprulu4.global.ssl.fastly.net/kablo/?id=wsport
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="📺TV KANALLARI FULL📺",Trt Spor Yıldız
+https://koprulu4.global.ssl.fastly.net/kablo/?id=trtsporyildiz
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="📺TV KANALLARI FULL📺",Sports Tv
+https://koprulu4.global.ssl.fastly.net/kablo/?id=sportstv
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" group-title="📺TV KANALLARI FULL📺",Fb Tv
+https://koprulu4.global.ssl.fastly.net/kablo/?id=fbtv
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",MÜZİK  KANAL>>>>>
 https://cdn.dzen.ru
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="http://assets.tvcdn.net/e9efa31e-106b-40e0-ab4e-a760061c7ad6.png" group-title="📺TV KANALLARI FULL📺",TRT Muzik
