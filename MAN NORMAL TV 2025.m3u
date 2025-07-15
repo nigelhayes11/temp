@@ -1486,8 +1486,9 @@ https://www.vavoo.to/play/2919229346/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐟" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐟
 https://www.vavoo.to/play/143239535/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 6 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🟩FULL SPOR PANELLERİ GİRİŞ🟩",SPOR
-https://35mumdur.shop/701
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="🟩FULL SPOR PANELLERİ GİRİŞ🟩",.
+
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽MNK BEİN DUMAN⚽",DUMAN1
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
 https://35mumdur.shop/701/index.m3u8
