@@ -172,60 +172,110 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/epicdramahd_stream/index.m3u8?wm
 https://ottcdn.kablowebtv.net/live_turksat_sub3/FilmScreen_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDI1IDY6MzU6MzEgQU0maGFzaF92YWx1ZT1RU1BKUGZKSm90OGxFM1F0OEJBQ0RnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT 1.tr"tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="📺TV KANALLARI FULL📺",TRT1
-https://koprulu4.global.ssl.fastly.net/kablo/?id=trt1
-#EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="📺TV KANALLARI FULL📺",Atv ORJ 
-https://koprulu4.global.ssl.fastly.net/kablo/?id=atv
-#EXTINF:-1 tvg-id="Kanal D.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="📺TV KANALLARI FULL📺",Kanal D
-https://koprulu4.global.ssl.fastly.net/kablo/?id=kanald
-#EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now KABLO
-https://koprulu4.global.ssl.fastly.net/kablo/?id=now
-#EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="📺TV KANALLARI FULL📺",Now B
-http://116.202.238.88/FOXTV_TR/playlist.m3u8
-#EXTINF:-1 tvg-id="Show TV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="📺TV KANALLARI FULL📺",Show TV
-https://koprulu4.global.ssl.fastly.net/kablo/?id=showtv
-#EXTINF:-1 tvg-id="Beyaz TV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="📺TV KANALLARI FULL📺",Beyaz TV
-https://koprulu4.global.ssl.fastly.net/kablo/?id=beyaztv
-#EXTINF:-1 tvg-id="TV8.tr" tvg-logo="http://assets.tvcdn.net/f91342d2-bcae-4ee0-a6f8-76a8d32b891b.png" group-title="📺TV KANALLARI FULL📺",TV8
-https://koprulu4.global.ssl.fastly.net/kablo/?id=tv8
-#EXTINF:-1 tvg-name="Star"tvg-id="Star.tr"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODT1C4SB518JljOlb7etd8VRmpGQJSyiFVw&s" group-title="📺TV KANALLARI FULL📺",Star TV
-https://koprulu4.global.ssl.fastly.net/kablo/?id=startv
-#EXTINF:-1 tvg-name="360 TV"tvg-id="360 TV.tr"tvg-logo="https://yt3.googleusercontent.com/YlVLnsvpXboD7VKUsek8u99QZ3L7uduZgO4cewlgmvkZ6UnD65HGfSdzyYp4ZKJoByzLZ34H7w=s900-c-k-c0x00ffffff-no-rj" group-title="📺TV KANALLARI FULL📺",360 TV
-https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
-#EXTINF:-1 tvg-name="muysTV.tr" tvg-logo="http://assets.tvcdn.net/e876bf88-411c-4a9c-ad29-e449e651f7ae.png" group-title="📺TV KANALLARI FULL📺",Luys TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/chunklist_b200000.m3u8
-#EXTINF:-1 tvg-id="TV100.tr" tvg-logo="http://assets.tvcdn.net/d7741078-ccce-47d8-ba1c-a041b659bad6.png" group-title="📺TV KANALLARI FULL📺",TV 100
-https://koprulu4.global.ssl.fastly.net/kablo/?id=tv100
-#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",HABER KANAL>>>>>
-https://koprulu4.global.ssl.fastly.net/kablo/?id=ekoltv
-#EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",CNN Turk
-https://koprulu4.global.ssl.fastly.net/kablo/?id=cnnturk
-#EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="📺TV KANALLARI FULL📺",SÖZCÜ TV
-https://koprulu4.global.ssl.fastly.net/kablo/?id=szctv
-#EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="📺TV KANALLARI FULL📺",Haberturk
-https://kablo.vercel.app/index.m3u8?id=45
-#EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="http://assets.tvcdn.net/d7e11245-3318-4cfd-bd1c-bdbb03d4c76a.png" group-title="📺TV KANALLARI FULL📺",Haber Global
-https://kablo.vercel.app/index.m3u8?id=55
-#EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="📺TV KANALLARI FULL📺",Halk TV
-https://koprulu4.global.ssl.fastly.net/kablo/?id=halktv
-#EXTINF:-1 tvg-id="NTV.tr" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="📺TV KANALLARI FULL📺",NTV
-https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?token=MXRUZk85cHZnNElmUVlXWVpBMmNqSEhrWExWT3FhK3dCc0t6eElNVVZnVT0=&sid=7gucwzbenbqa&app=7c4bb802-0c41-409e-8cd2-799984995694&ce=3
-#EXTINF:-1 tvg-id="A2TV.tr" tvg-logo="http://assets.tvcdn.net/9db055df-4bc8-4a68-b0fd-766a5a3113bc.png" group-title="📺TV KANALLARI FULL📺",a2
-http://stream.tvcdn.net/eglence/a2.m3u8
-#EXTINF:-1 tvg-id="Teve2.tr" tvg-logo="http://assets.tvcdn.net/4cad68c0-fa2c-4b84-a1c2-1f0704eca7a4.png" group-title="📺TV KANALLARI FULL📺",teve2
-http://stream.tvcdn.net/eglence/teve2.m3u8
-#EXTINF:-1 tvg-id="ShowMax.tr" tvg-logo="http://assets.tvcdn.net/ec1c55f6-b525-4466-b41c-a935915a6962.png" group-title="📺TV KANALLARI FULL📺",Show Max
-http://stream.tvcdn.net/eglence/show-max.m3u8
-#EXTINF:-1 tvg-id="TV85.tr" tvg-logo="http://assets.tvcdn.net/be26f47c-18d7-4447-971c-ca4ba60ffb4c.png" group-title="📺TV KANALLARI FULL📺",TV8.5
-https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?&sid=7a80e0zxalub&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
-#EXTINF:-1 tvg-id="DMAX.tr" tvg-logo="http://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png" group-title="📺TV KANALLARI FULL📺",DMAX
-http://stream.tvcdn.net/eglence/dmax.m3u8
-#EXTINF:-1 tvg-id="TLC.tr" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="📺TV KANALLARI FULL📺",TLC
-http://stream.tvcdn.net/eglence/tlc.m3u8
-#EXTINF:-1 tvg-name="Ekol TV"tvg-id="Ekol TV.tr"tvg-logo="https://i.ytimg.com/vi/Dgu7vLzwb98/hq720.jpg?v=6732222d&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCYQCw0CbQSX2Q6DoJ03pM2o7OPQw" group-title="📺TV KANALLARI FULL📺",Ekol tv
-#EXTVLCOPT:http-referrer=https://www.ekoltv.com.tr/canli-yayin
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 1 HD
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD  [yedek]" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 1 HD  [yedek]
+https://b.fulltvizle.com/trt1/index.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="TR:ATV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/atv.png" group-title="🛜KABLO TV FULL🛜",TR:ATV HQ
+https://b.fulltvizle.com/aytv/index.m3u8
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="🛜KABLO TV FULL🛜",TR:SHOW TV HD
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="🛜KABLO TV FULL🛜",TR:SHOW TV HQ
+https://b.fulltvizle.com/show/index.m3u8
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="🛜KABLO TV FULL🛜",TR:STAR TV HD
+https://dogus-live.daioncdn.net/startv/startv.m3u8
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="🛜KABLO TV FULL🛜",TR:STAR TV HQ
+https://b.fulltvizle.com/star/index.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL D HD
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL D HQ
+https://b.fulltvizle.com/kanald/index.m3u8
+#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="🛜KABLO TV FULL🛜",TR:NOW HD
+https://b.fulltvizle.com/fox/index.m3u8
+#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="🛜KABLO TV FULL🛜",TR:NOW HQ
+http://116.202.238.88/FOXTV_TR/index.m3u8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TR:TV 8 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv8.png" group-title="🛜KABLO TV FULL🛜",TR:TV 8 HD
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="TV85.tr" tvg-name="TR:TV 8.5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv85.png" group-title="🛜KABLO TV FULL🛜",TR:TV 8.5 HD
+https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="🛜KABLO TV FULL🛜",TR:BEYAZ TV HD
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="🛜KABLO TV FULL🛜",TR:BEYAZ TV HQ
+https://canlitvulusal.xyz/live/beyaztv/index.m3u8
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 7 HQ
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 7 HD
+https://canlitvulusal.xyz/live/kanal7/index.m3u8
+#EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TR:TEVE 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/teve2.png" group-title="🛜KABLO TV FULL🛜",TR:TEVE 2 HD
+https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
+#EXTINF:-1 tvg-id="360.tr" tvg-name="TR:360 TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/360tv.png" group-title="🛜KABLO TV FULL🛜",TR:360 TV HD
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:CINE 6 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/cine6.png" group-title="🛜KABLO TV FULL🛜",TR:CINE 6 HD
+#EXTVLCOPT:http-referrer=https://www.cine6tv.com.tr
+https://radyotelekomtv.com/player/m3u8/5ca5d92515b99f2e20ee0a40c0a3031d/5ca5d92515b99f2e20ee0a40c0a3031d.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:EURO D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanaldeuro.png" group-title="🛜KABLO TV FULL🛜",TR:EURO D HD
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:EURO STAR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/eurostar.png" group-title="🛜KABLO TV FULL🛜",TR:EURO STAR HD
+https://canlitvulusal.xyz/live/eurostar/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="🛜KABLO TV FULL🛜",TR:TRT MUZIK UHD
+https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:A HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ahaber.png" group-title="🛜KABLO TV FULL🛜",TR:A HABER UHD
+https://b.fulltvizle.com/ahaber/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:CNN TURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/cnnturk.png" group-title="🛜KABLO TV FULL🛜",TR:CNN TURK UHD
+https://b.fulltvizle.com/cnn/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:HABERTURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberturk.png" group-title="🛜KABLO TV FULL🛜",TR:HABERTURK UHD
+https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TRT HABER UHD
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:ULKE TV UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/ulketv.png" group-title="🛜KABLO TV FULL🛜",TR:ULKE TV UHD
+https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:FLASH HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/flashaber.png" group-title="🛜KABLO TV FULL🛜",TR:FLASH HABER UHD
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:AKIT TV UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/akitv.png" group-title="🛜KABLO TV FULL🛜",TR:AKIT TV UHD
+https://akittv-live.ercdn.net/akittv/akittv_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TV 100 UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tv100.png" group-title="🛜KABLO TV FULL🛜",TR:TV 100 UHD
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT AVAZ HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trtavaz.png" group-title="🛜KABLO TV FULL🛜",TR:TRT AVAZ HD
+https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TLC UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" group-title="🛜KABLO TV FULL🛜",TR:TLC UHD
+https://dogus-live.daioncdn.net/tlc/tlc.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:DMAX UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" group-title="🛜KABLO TV FULL🛜",TR:DMAX UHD
+https://dogus-live.daioncdn.net/dmax/dmax.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TRT HABER HD
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TGRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tgrthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TGRT HABER HD
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:SOZCU TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png" group-title="🛜KABLO TV FULL🛜",TR:SOZCU TV HD
+#EXTVLCOPT:http-referrer=https://turkcanli.tv
+https://helga.iptv2022.com/szc_tv/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:HALK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/halktv.png" group-title="🛜KABLO TV FULL🛜",TR:HALK TV HD
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TELE 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tele1.png" group-title="🛜KABLO TV FULL🛜",TR:TELE 1 HD
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:YOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek2/yoltv.png" group-title="🛜KABLO TV FULL🛜",TR:YOL TV HD
+https://iptv.amgsmart2home.de/YOLTVMAIN/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:BLOOMBERG HT HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bloomberg.png" group-title="🛜KABLO TV FULL🛜",TR:BLOOMBERG HT HD
+https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:NTV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ntv.png" group-title="🛜KABLO TV FULL🛜",TR:NTV HD
+https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:BENGUTURK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bengu.png" group-title="🛜KABLO TV FULL🛜",TR:BENGUTURK TV HD
+https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:EKOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ekoltv.png" group-title="🛜KABLO TV FULL🛜",TR:EKOL TV HD
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-
+#EXTINF:-1 tvg-id="" tvg-name="TR:HABER GLOBAL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberglobal.png" group-title="🛜KABLO TV FULL🛜",TR:HABER GLOBAL HD
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:KANAL 24 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal24.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 24 HD
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TR:TRT TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trtturk.png" group-title="🛜KABLO TV FULL🛜",TR:TRT TURK HD
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TV 4 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal4.png" group-title="🛜KABLO TV FULL🛜",TR:TV 4 HD
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TV 5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal5.png" group-title="🛜KABLO TV FULL🛜",TR:TV 5 HD
+https://tv5-live.ercdn.net/tv5/tv5.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT BELGESEL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trtbelgesel.png" group-title="🛜KABLO TV FULL🛜",TR:TRT BELGESEL HD
+https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trt2.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 2 HD
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",SPOR KANAL>>>>>
 https://cdn.dzen.ru
 #EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="📺TV KANALLARI FULL📺",Trt Spor  
