@@ -1,4 +1,3 @@
-
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="🛜KABLO TV FULL🛜",sinematv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/sinematv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDI1IDY6MzU6MzAgQU0maGFzaF92YWx1ZT1mYnd6dW9KY2ZCaW9GUUsyd3dvczBnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
@@ -1684,66 +1683,62 @@ https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",İNAT
 #EXTVLCOPT:http-referrer=https://inattv1070.xyz/
 https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",🔑🔑🔑VPN (HAYVAN LOGOLU OLANLAR)🔑🔑🔑
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 8K 🐯" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 8K 🐯
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",🔑🔑🔑#EXTVLCOPT:network-caching=3500VPN (HAYVAN LOGOLU OLANLAR)🔑🔑🔑
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",🔑🔑🔑VPN (HAYVAN LOGOLU OLANLAR)🔑🔑🔑
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 8K 🐯" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 8K 🐯
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",🔑🔑🔑#EXTVLCOPT:network-caching=3500VPN (HAYVAN LOGOLU OLANLAR)🔑🔑🔑
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 8K 🐯" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 8K 🐯
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 8K 🐯" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 8K 🐯
-#EXTVLCOPT:network-caching=3500
 https://www.vavoo.to/play/2113462398/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐶" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4 HDK 🐶
-#EXTVLCOPT:network-caching=3500
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐶" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 4 HDK 🐶
+
 https://www.vavoo.to/play/267105889/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐺" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4 HDK 🐺
-#EXTVLCOPT:network-caching=3500
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐺" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 4 HDK 🐺
 https://www.vavoo.to/play/1536730627/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐱 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐱 
-#EXTVLCOPT:network-caching=3500
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐱 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐱 
 https://www.vavoo.to/play/662179620/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐭 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐭 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐭 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐭 
 #EXTVLCOPT:network-caching=3500
 https://www.vavoo.to/play/300113394/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐸 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐸 
-#EXTVLCOPT:network-caching=3500
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐸 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐸 
 https://www.vavoo.to/play/593493860/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐻 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐻
-#EXTVLCOPT:network-caching=3500
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐻 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐻
 https://www.vavoo.to/play/2113462398/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐶" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4 HDK 🐶
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐶" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 4 HDK 🐶
 https://www.vavoo.to/play/267105889/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐺" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4 HDK 🐺
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HDK 🐺" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 4 HDK 🐺
 https://www.vavoo.to/play/1536730627/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐱 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐱 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐱 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐱 
 https://www.vavoo.to/play/662179620/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐭 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐭 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐭 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐭 
 https://www.vavoo.to/play/300113394/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐸 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐸 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐸 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐸 
 https://www.vavoo.to/play/593493860/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐻 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐻
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐻 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐻
 https://www.vavoo.to/play/2576216897/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐴 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐴
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐴 " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐴
 https://www.vavoo.to/play/3428984703/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐑" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐑
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐑" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐑
 https://www.vavoo.to/play/1453692314/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐼" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐼
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐼" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐼
 https://www.vavoo.to/play/1363827223/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐦" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐦
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐦" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐦
 https://www.vavoo.to/play/3840475653/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐤" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐤
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐤" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐤
 https://www.vavoo.to/play/2233066433/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐔" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐔
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐔" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐔
 https://www.vavoo.to/play/499485497/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐍" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐍 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐍" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐍 
 https://www.vavoo.to/play/1352421053/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐫" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐫
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐫" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐫
 https://www.vavoo.to/play/2403425031/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐢" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐢 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐢" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐢 
 https://www.vavoo.to/play/3692337241/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐜" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐜
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐜" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐜
 https://www.vavoo.to/play/2919229346/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐟" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD 🐟
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD 🐟" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" "http-user-agent="VAVOO/2.6" http-referrer="https://vavoo.to/",BEIN SPORTS 1 HD 🐟
 https://www.vavoo.to/play/143239535/index.m3u8
+
 
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="sinema1002.tr" tvg-name="SINEMA TV 1002 HD" tvg-logo="https://i.imgur.com/kZR0MVi.png" group-title="🟩FULL SPOR PANELLERİ GİRİŞ🟩",.
 
