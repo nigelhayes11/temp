@@ -1,10 +1,13 @@
 #EXTM3U url-tvg="https://www.open-epg.com/app/download.php?file=turkey1.xml""https://www.open-epg.com/app/download.php?file=turkey2.xml""https://www.open-epg.com/app/download.php?file=turkey3.xml""https://www.open-epg.com/app/download.php?file=turkey4.xml"
 #EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",mncd
 https://vavoo.to/tv/vavoo?i
-#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",24.m
+#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",testvav
+http-user-agent="VAVOO/2.6" 
+http-referrer='https://www.vavoo.to/
+#EXTVLCOPT:network-caching=6500
+https://vavoo.to/play/1702470161/index.m3u8
+#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 HABER HD+ SD .b" tvg-logo=" https://i.imgur.com/Mm8hdfx.png"  group-title="⚡HABER⚡",test gold
 https://vavoo.to/vavoo-iptv/play/17029379329ed4b84db05f
-#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 HABER HD+ SD .b" tvg-logo=" https://i.imgur.com/Mm8hdfx.png"  group-title="⚡HABER⚡",24 HABER HD+ SD .b
-https://vavoo.to/vavoo-iptv/play/3828793616b62b9cc5834c
 #EXTINF:-1 tvg-id="" tvg-name="24 KITCHEN .c"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png"group-title="⚡BELGESEL⚡",24 KITCHEN .c
 https://vavoo.to/tv/vavoo?id=329569928726734a4497dc
 #EXTINF:-1 tvg-id="" tvg-name="24 KITCHEN .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png"group-title="⚡BELGESEL⚡",24 KITCHEN .s
