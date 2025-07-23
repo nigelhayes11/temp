@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://www.open-epg.com/app/download.php?file=turkey1.xml""https://www.open-epg.com/app/download.php?file=turkey2.xml""https://www.open-epg.com/app/download.php?file=turkey3.xml""https://www.open-epg.com/app/download.php?file=turkey4.xml"
 #EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",mncd
 https://vavoo.to/tv/vavoo?i
-#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",testvav
+#EXTINF:-1 tvg-id="24 TV.tr" tvg-name="24 .s"" tvg-logo=" https://i.imgur.com/Mm8hdfx.png" group-title="⚡HABER⚡",testvane
 http-user-agent="VAVOO/2.6" 
 http-referrer='https://www.vavoo.to/
 #EXTVLCOPT:network-caching=6500
