@@ -1,446 +1,307 @@
 #EXTM3U
 -----------
-#EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="Sinema ve Dizi",Sinema tv
-https://kablosistem.vercel.app/index.m3u8?id=2
-#EXTINF:-1 tvg-id="3" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="Sinema ve Dizi",Sinema Aksiyon
-https://kablosistem.vercel.app/index.m3u8?id=3
-#EXTINF:-1 tvg-id="4" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/ae3d90a0-37ee-4e48-a6bc-1375e5f1329a.png" group-title="Sinema ve Dizi",Sinema Yerli
-https://kablosistem.vercel.app/index.m3u8?id=4
-#EXTINF:-1 tvg-id="5" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c8283b71-81f8-4fc6-8e48-6bb8f7f49ad7.png" group-title="Sinema ve Dizi",Sinema Aile
-https://kablosistem.vercel.app/index.m3u8?id=5
-#EXTINF:-1 tvg-id="6" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8d9fbebd-cade-492d-9cb4-6522cb558794.png" group-title="Sinema ve Dizi",Sinema 1001
-https://kablosistem.vercel.app/index.m3u8?id=6
-#EXTINF:-1 tvg-id="7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4145ea10-96ad-400d-8870-f22a075f4add.png" group-title="Sinema ve Dizi",Sinema Komedi
-https://kablosistem.vercel.app/index.m3u8?id=7
-#EXTINF:-1 tvg-id="8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",Trt 1
+#EXTINF:-1 tvg-id="8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="🛜KABLO TV FULL🛜",Trt 1
 https://kablosistem.vercel.app/index.m3u8?id=8
-#EXTINF:-1 tvg-id="9" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="Ulusal",Atv
+#EXTINF:-1 tvg-id="9" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="🛜KABLO TV FULL🛜",Atv
 https://kablosistem.vercel.app/index.m3u8?id=9
-#EXTINF:-1 tvg-id="10" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="Ulusal",Show TV
+#EXTINF:-1 tvg-id="10" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="🛜KABLO TV FULL🛜",Show TV
 https://kablosistem.vercel.app/index.m3u8?id=10
-#EXTINF:-1 tvg-id="11" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Ulusal",Kanal D
+#EXTINF:-1 tvg-id="11" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="🛜KABLO TV FULL🛜",Kanal D
 https://kablosistem.vercel.app/index.m3u8?id=11
-#EXTINF:-1 tvg-id="12" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4a7901e4-dbc5-491d-b014-6da6fa236e99.png" group-title="Ulusal",Star
+#EXTINF:-1 tvg-id="12" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4a7901e4-dbc5-491d-b014-6da6fa236e99.png" group-title="🛜KABLO TV FULL🛜",Star
 https://kablosistem.vercel.app/index.m3u8?id=12
-#EXTINF:-1 tvg-id="13" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f218c717-723e-49e3-a3f0-428979d2fa3e.png" group-title="Ulusal",Kanal 7
-https://kablosistem.vercel.app/index.m3u8?id=13
-#EXTINF:-1 tvg-id="14" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" group-title="Ulusal",Now
+#EXTINF:-1 tvg-id="14" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" group-title="🛜KABLO TV FULL🛜",Now
 https://kablosistem.vercel.app/index.m3u8?id=14
-#EXTINF:-1 tvg-id="15" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ab41b407-70c4-4634-8ed4-bf9be8cf81e2.png" group-title="Ulusal",Tv 8
+#EXTINF:-1 tvg-id="15" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ab41b407-70c4-4634-8ed4-bf9be8cf81e2.png" group-title="🛜KABLO TV FULL🛜",Tv 8
 https://kablosistem.vercel.app/index.m3u8?id=15
-#EXTINF:-1 tvg-id="16" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="Ulusal",Beyaz Tv
+#EXTINF:-1 tvg-id="16" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="🛜KABLO TV FULL🛜",Beyaz Tv
 https://kablosistem.vercel.app/index.m3u8?id=16
-#EXTINF:-1 tvg-id="17" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fee44d61-2476-40ae-89eb-f51a7428789d.png" group-title="Ulusal",a2
+#EXTINF:-1 tvg-id="17" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fee44d61-2476-40ae-89eb-f51a7428789d.png" group-title="🛜KABLO TV FULL🛜",a2
 https://kablosistem.vercel.app/index.m3u8?id=17
-#EXTINF:-1 tvg-id="18" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8373a6d8-d5c5-4990-8fe6-14bcde706ecd.png" group-title="Ulusal",Teve 2
+#EXTINF:-1 tvg-id="18" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8373a6d8-d5c5-4990-8fe6-14bcde706ecd.png" group-title="🛜KABLO TV FULL🛜",Teve 2
 https://kablosistem.vercel.app/index.m3u8?id=18
-#EXTINF:-1 tvg-id="19" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/36157058-80ce-4724-a7ff-28bbad7df301.png" group-title="Ulusal",360
+#EXTINF:-1 tvg-id="19" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/36157058-80ce-4724-a7ff-28bbad7df301.png" group-title="🛜KABLO TV FULL🛜",360
 https://kablosistem.vercel.app/index.m3u8?id=19
-#EXTINF:-1 tvg-id="20" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Ulusal",Tlc
+#EXTINF:-1 tvg-id="20" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="🛜KABLO TV FULL🛜",Tlc
 https://kablosistem.vercel.app/index.m3u8?id=20
-#EXTINF:-1 tvg-id="21" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Ulusal",Dmax
+#EXTINF:-1 tvg-id="21" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="🛜KABLO TV FULL🛜",Dmax
 https://kablosistem.vercel.app/index.m3u8?id=21
-#EXTINF:-1 tvg-id="22" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/6a265ee4-81f8-4a57-80ba-41ddb0663aaf.png" group-title="Ulusal",Kon
+#EXTINF:-1 tvg-id="22" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/6a265ee4-81f8-4a57-80ba-41ddb0663aaf.png" group-title="🛜KABLO TV FULL🛜",Kon
 https://kablosistem.vercel.app/index.m3u8?id=22
-#EXTINF:-1 tvg-id="23" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/e2291af0-569b-4260-94f3-5505d1a40e76.png" group-title="Ulusal",Tv 100
+#EXTINF:-1 tvg-id="23" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/e2291af0-569b-4260-94f3-5505d1a40e76.png" group-title="🛜KABLO TV FULL🛜",Tv 100
 https://kablosistem.vercel.app/index.m3u8?id=23
-#EXTINF:-1 tvg-id="24" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/16752eb5-4001-4b31-860c-ab947ed2c86d.png" group-title="Ulusal",Cnbc-e
+#EXTINF:-1 tvg-id="24" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/16752eb5-4001-4b31-860c-ab947ed2c86d.png" group-title="🛜KABLO TV FULL🛜",Cnbc-e
 https://kablosistem.vercel.app/index.m3u8?id=24
-#EXTINF:-1 tvg-id="25" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/5f895c30-fa0a-4f74-b4b6-ee562fb27e26.png" group-title="Ulusal",Ulusal Kanal
+#EXTINF:-1 tvg-id="25" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/5f895c30-fa0a-4f74-b4b6-ee562fb27e26.png" group-title="🛜KABLO TV FULL🛜",Ulusal Kanal
 https://kablosistem.vercel.app/index.m3u8?id=25
-#EXTINF:-1 tvg-id="26" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/86c1a901-3b47-41e6-bf9b-b433ec170fdd.png" group-title="Ulusal",Gzt Tv
+#EXTINF:-1 tvg-id="26" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/86c1a901-3b47-41e6-bf9b-b433ec170fdd.png" group-title="🛜KABLO TV FULL🛜",Gzt Tv
 https://kablosistem.vercel.app/index.m3u8?id=26
-#EXTINF:-1 tvg-id="27" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Ulusal",Tv 8,5
+#EXTINF:-1 tvg-id="27" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="🛜KABLO TV FULL🛜",Tv 8,5
 https://kablosistem.vercel.app/index.m3u8?id=27
-#EXTINF:-1 tvg-id="28" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c4ca1fe1-e4ef-496a-9e97-b41a55910e43.png" group-title="Ulusal",Ekol Sports
+#EXTINF:-1 tvg-id="28" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c4ca1fe1-e4ef-496a-9e97-b41a55910e43.png" group-title="🛜KABLO TV FULL🛜",Ekol Sports
 https://kablosistem.vercel.app/index.m3u8?id=28
-#EXTINF:-1 tvg-id="29" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fc190867-720b-4e57-b561-993d0a02bcae.png" group-title="Ulusal",Kanal B
-https://kablosistem.vercel.app/index.m3u8?id=29
-#EXTINF:-1 tvg-id="30" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bd1c765c-df9f-4d23-8af2-ef84796fbe64.png" group-title="Ulusal",Genç Tv
-https://kablosistem.vercel.app/index.m3u8?id=30
-#EXTINF:-1 tvg-id="31" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4b16c0b2-6b04-452f-8342-7f082e803854.png" group-title="Ulusal",Vav Tv
-https://kablosistem.vercel.app/index.m3u8?id=31
-#EXTINF:-1 tvg-id="32" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b6c2e739-0336-4e34-9f27-38e181522363.png" group-title="Ulusal",Tyt Türk
-https://kablosistem.vercel.app/index.m3u8?id=32
-#EXTINF:-1 tvg-id="33" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/3d8f616d-a421-4fcd-a13a-1a29e3bbd88c.png" group-title="Ulusal",Tmb
-https://kablosistem.vercel.app/index.m3u8?id=33
-#EXTINF:-1 tvg-id="34" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/66c8ed0b-96b6-4476-806e-5e8e877c7fd4.png" group-title="Ulusal",Tv 4
-https://kablosistem.vercel.app/index.m3u8?id=34
-#EXTINF:-1 tvg-id="35" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6edd1622-84fd-4ebf-a50b-7e95787ee427.png" group-title="Ulusal",Bengü Türk
-https://kablosistem.vercel.app/index.m3u8?id=35
-#EXTINF:-1 tvg-id="36" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/14a65b49-958f-497f-be22-52d958ef8498.png" group-title="Ulusal",Trt 2
-https://kablosistem.vercel.app/index.m3u8?id=36
-#EXTINF:-1 tvg-id="37" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/1da9e4ec-4e08-4bc9-bf29-5060d63bca07.png" group-title="Ulusal",Tarih Tv
-https://kablosistem.vercel.app/index.m3u8?id=37
-#EXTINF:-1 tvg-id="38" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ec93858b-ea91-4e9d-b510-bc3187e5ade9.png" group-title="Yaşam & Eğlence",Mezzo
-https://kablosistem.vercel.app/index.m3u8?id=38
-#EXTINF:-1 tvg-id="39" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8abc330-f38a-4a81-b555-c5fef692f63e.png" group-title="Yaşam & Eğlence",Classical Harmony
-https://kablosistem.vercel.app/index.m3u8?id=39
-#EXTINF:-1 tvg-id="40" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8c07dd0b-0100-4a56-9a8c-9f810a184bd4.png" group-title="Ulusal Haber",Trt Haber
-https://kablosistem.vercel.app/index.m3u8?id=40
-#EXTINF:-1 tvg-id="41" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7f90b121-1f7f-4dc7-980f-38167b147cdb.png" group-title="Ulusal Haber",A Haber
-https://kablosistem.vercel.app/index.m3u8?id=41
-#EXTINF:-1 tvg-id="42" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/344f452e-fa44-4f00-8005-1b8898186888.png" group-title="Ulusal Haber",Ntv
-https://kablosistem.vercel.app/index.m3u8?id=42
-#EXTINF:-1 tvg-id="43" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3686a1f5-9c4d-401f-9c7b-031ca66454a0.png" group-title="Ulusal Haber",Cnn Türk
-https://kablosistem.vercel.app/index.m3u8?id=43
-#EXTINF:-1 tvg-id="44" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/216cade3-b4a7-4c8b-8d62-aab7a3431a89.png" group-title="Ulusal Haber",24 Tv
-https://kablosistem.vercel.app/index.m3u8?id=44
-#EXTINF:-1 tvg-id="45" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a5773592-d40c-4d84-a64a-21c422cc7eb3.png" group-title="Ulusal Haber",Tgrt Haber
-https://kablosistem.vercel.app/index.m3u8?id=45
-#EXTINF:-1 tvg-id="46" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/516aa59e-70a2-4be3-9077-02862a052fde.png" group-title="Ulusal Haber",Haber Türk
-https://kablosistem.vercel.app/index.m3u8?id=46
-#EXTINF:-1 tvg-id="47" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/5795a2e7-9d78-4cc5-b83e-b6dcf36256fd.png" group-title="Ulusal Haber",Bloomberg Ht
-https://kablosistem.vercel.app/index.m3u8?id=47
-#EXTINF:-1 tvg-id="48" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/5a733c68-7739-4466-851d-573cfd125990.png" group-title="Ulusal Haber",Ülke Tv
-https://kablosistem.vercel.app/index.m3u8?id=48
-#EXTINF:-1 tvg-id="49" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b6abbbf7-0822-448d-a942-7af6d079d997.png" group-title="Ulusal Haber",Tvnet
-https://kablosistem.vercel.app/index.m3u8?id=49
-#EXTINF:-1 tvg-id="50" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/76a7dd67-cee1-4c70-914e-551d77e09661.png" group-title="Ulusal Haber",Akit Tv
-https://kablosistem.vercel.app/index.m3u8?id=50
-#EXTINF:-1 tvg-id="51" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1f260af7-37dd-4368-8c9a-2d4c28fa5fd1.png" group-title="Ulusal Haber",Brt 1
-https://kablosistem.vercel.app/index.m3u8?id=51
-#EXTINF:-1 tvg-id="52" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/0acb34e5-4b37-434e-b555-c7eb0271ba9d.png" group-title="Ulusal",Trt Türk
-https://kablosistem.vercel.app/index.m3u8?id=52
-#EXTINF:-1 tvg-id="53" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4a3026d6-b1be-4373-bb83-447117196e55.png" group-title="Ulusal",Trt Avaz
-https://kablosistem.vercel.app/index.m3u8?id=53
-#EXTINF:-1 tvg-id="54" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aac80fcc-d1e7-41da-85b6-3037cc3f1a4b.png" group-title="Ulusal",Trt 3 - Tbmm
-https://kablosistem.vercel.app/index.m3u8?id=54
-#EXTINF:-1 tvg-id="55" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1d937ced-d803-47eb-aa0c-90586e4e162e.png" group-title="Ulusal",Trt Kurdi
-https://kablosistem.vercel.app/index.m3u8?id=55
-#EXTINF:-1 tvg-id="56" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ecb65a51-f5ad-440f-9c21-a4db8cbc9398.png" group-title="Ulusal Haber",Haber Global
-https://kablosistem.vercel.app/index.m3u8?id=56
-#EXTINF:-1 tvg-id="57" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" group-title="Ulusal",Ekol TV
-https://kablosistem.vercel.app/index.m3u8?id=57
-#EXTINF:-1 tvg-id="58" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/be5ace80-d03f-40f1-8c6b-a6e66ca96927.png" group-title="Ulusal Haber",Krt Tv
-https://kablosistem.vercel.app/index.m3u8?id=58
-#EXTINF:-1 tvg-id="59" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" group-title="Ulusal Haber",Halk Tv
-https://kablosistem.vercel.app/index.m3u8?id=59
-#EXTINF:-1 tvg-id="60" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c4b99d5a-c302-4524-aad7-e490def3bf0d.png" group-title="Ulusal Haber",TH Türk Haber
-https://kablosistem.vercel.app/index.m3u8?id=60
-#EXTINF:-1 tvg-id="61" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2fdd6eb0-bd9e-44ef-ad0e-7f2c4cf3a8a7.png" group-title="Ulusal Haber",Szc Tv
-https://kablosistem.vercel.app/index.m3u8?id=61
-#EXTINF:-1 tvg-id="62" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/cf2bdbf5-2686-4437-9e8b-33d80385645c.png" group-title="Ulusal Haber",A Para
-https://kablosistem.vercel.app/index.m3u8?id=62
-#EXTINF:-1 tvg-id="63" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c5d7d21d-7fc2-4429-8331-bb7bdb20172a.png" group-title="Ulusal Haber",Ekotürk
-https://kablosistem.vercel.app/index.m3u8?id=63
-#EXTINF:-1 tvg-id="64" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1a0988d9-5d11-4b35-8d5e-bae0ca492b38.png" group-title="Ulusal",TV 42
-https://kablosistem.vercel.app/index.m3u8?id=64
-#EXTINF:-1 tvg-id="65" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/043eff4d-bde2-493c-9c7d-c07a698bb0be.png" group-title="Ulusal",Tv 5
-https://kablosistem.vercel.app/index.m3u8?id=65
-#EXTINF:-1 tvg-id="66" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ccf5746a-1eda-45ed-9afc-5e281fa7a704.png" group-title="Ulusal Haber",Lider Haber
-https://kablosistem.vercel.app/index.m3u8?id=66
-#EXTINF:-1 tvg-id="67" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" group-title="Ulusal Haber",Tele 1
-https://kablosistem.vercel.app/index.m3u8?id=67
-#EXTINF:-1 tvg-id="68" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bb23721e-664b-48c6-a9f4-5e55f890f026.png" group-title="Ulusal Haber",As Tv
-https://kablosistem.vercel.app/index.m3u8?id=68
-#EXTINF:-1 tvg-id="69" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/999a12b9-6679-4621-8096-c88a76b33e92.png" group-title="Ulusal",Tivi 6
-https://kablosistem.vercel.app/index.m3u8?id=69
-#EXTINF:-1 tvg-id="70" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/45cbd99f-5e77-4c59-b8a2-3e0aa66d1c3f.png" group-title="Ulusal Haber",FLASH HABER
-https://kablosistem.vercel.app/index.m3u8?id=70
-#EXTINF:-1 tvg-id="71" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="Yabancı Haber",TRT World
-https://kablosistem.vercel.app/index.m3u8?id=71
-#EXTINF:-1 tvg-id="72" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/39782c5a-711e-4f31-8ae0-590303ff65c4.png" group-title="Yabancı Haber",A News
-https://kablosistem.vercel.app/index.m3u8?id=72
-#EXTINF:-1 tvg-id="73" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a5693ef9-7290-41c9-ad65-7c23b94ddf97.png" group-title="Yabancı Haber",CNN International
-https://kablosistem.vercel.app/index.m3u8?id=73
-#EXTINF:-1 tvg-id="74" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/953f9cf4-15ab-447b-b08d-1349f65cbbcf.png" group-title="Yabancı Haber",Bloomberg
-https://kablosistem.vercel.app/index.m3u8?id=74
-#EXTINF:-1 tvg-id="75" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a73baff0-a3f5-434c-acc2-a00b5b625adf.png" group-title="Yabancı Haber",Al Jazeera (Arapça)
-https://kablosistem.vercel.app/index.m3u8?id=75
-#EXTINF:-1 tvg-id="76" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/cd5d8a5c-1fa0-4a1a-abfb-def33e98338b.png" group-title="Yabancı Haber",Al Jazeera (English)
-https://kablosistem.vercel.app/index.m3u8?id=76
-#EXTINF:-1 tvg-id="77" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1857f0c2-3a80-4b95-bb35-ffcefdcf4729.png" group-title="Yabancı Haber",TRT Arabia
-https://kablosistem.vercel.app/index.m3u8?id=77
-#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b2d761b5-1822-4531-8f00-51bb232f8afa.png" group-title="Yabancı Haber",Dw Tv (English)
-https://kablosistem.vercel.app/index.m3u8?id=78
-#EXTINF:-1 tvg-id="79" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="Yabancı Haber",France 24 (English)
-https://kablosistem.vercel.app/index.m3u8?id=79
-#EXTINF:-1 tvg-id="80" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1dcd7ed1-b0ca-40bd-86a6-7ee0be1de4ba.png" group-title="Yabancı Haber",France 24 (French)
-https://kablosistem.vercel.app/index.m3u8?id=80
-#EXTINF:-1 tvg-id="81" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/dd7a57ef-0e92-470d-9a86-3c6169a10afe.png" group-title="Yabancı Haber",Cgtn
-https://kablosistem.vercel.app/index.m3u8?id=81
-#EXTINF:-1 tvg-id="82" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/926b063a-44e4-4300-89b8-3e04111da93e.png" group-title="Yabancı Haber",Russia 24
-https://kablosistem.vercel.app/index.m3u8?id=82
-#EXTINF:-1 tvg-id="83" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/6925f7f0-2d64-4a15-99ec-e4a19c117279.png" group-title="Belgesel",Trt Belgesel
-https://kablosistem.vercel.app/index.m3u8?id=83
-#EXTINF:-1 tvg-id="84" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png" group-title="Belgesel",National Geographic
-https://kablosistem.vercel.app/index.m3u8?id=84
-#EXTINF:-1 tvg-id="85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4cc38817-6eb0-4f26-ac2b-cb5baa3b68ba.png" group-title="Belgesel",National Geographic Wild
-https://kablosistem.vercel.app/index.m3u8?id=85
-#EXTINF:-1 tvg-id="86" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aaac1290-6d58-4036-b106-a7026a4c1bfc.png" group-title="Belgesel",Discovery Channel
-https://kablosistem.vercel.app/index.m3u8?id=86
-#EXTINF:-1 tvg-id="87" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/539be808-86e7-4ed2-aa0b-130dbc1ac450.png" group-title="Belgesel",ID
-https://kablosistem.vercel.app/index.m3u8?id=87
-#EXTINF:-1 tvg-id="88" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9bbb2de-204b-48f6-a62f-94fa4252a6b0.png" group-title="Belgesel",Viasat History
-https://kablosistem.vercel.app/index.m3u8?id=88
-#EXTINF:-1 tvg-id="89" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f297ad42-3a86-42b7-90fd-ba2339a7a6d5.png" group-title="Belgesel",Love Nature
-https://kablosistem.vercel.app/index.m3u8?id=89
-#EXTINF:-1 tvg-id="90" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7194b74e-4b67-4ec6-83ef-09af3669a515.png" group-title="Belgesel",Docu Screen
-https://kablosistem.vercel.app/index.m3u8?id=90
-#EXTINF:-1 tvg-id="91" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d39dd182-c195-4025-976d-10af0b08335e.png" group-title="Belgesel",Viasat Explore
-https://kablosistem.vercel.app/index.m3u8?id=91
-#EXTINF:-1 tvg-id="92" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/08bd982f-08e2-4e05-8f80-892a74c4d143.png" group-title="Belgesel",Cgtn Documentary
-https://kablosistem.vercel.app/index.m3u8?id=92
-#EXTINF:-1 tvg-id="93" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/29fb144d-ad0e-4402-9afb-0b1a9dfc98a3.png" group-title="Yabancı",Az Tv
-https://kablosistem.vercel.app/index.m3u8?id=93
-#EXTINF:-1 tvg-id="94" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a5f1e18e-e3cb-4288-a603-60fa4fc3f10d.png" group-title="Yabancı",Türkmeneli Tv
-https://kablosistem.vercel.app/index.m3u8?id=94
-#EXTINF:-1 tvg-id="95" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c8571202-da92-4afb-8de9-96c0577c0851.png" group-title="Yabancı",Tv5 Monde
-https://kablosistem.vercel.app/index.m3u8?id=95
-#EXTINF:-1 tvg-id="96" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1d027e6f-4d0f-4f07-992e-821f2d551e9e.png" group-title="Yabancı",Cctv 4
-https://kablosistem.vercel.app/index.m3u8?id=96
-#EXTINF:-1 tvg-id="97" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bfe7a0d7-cd08-4a5c-850a-8dd2b6dbbac4.png" group-title="Yabancı",Saudi Tv
-https://kablosistem.vercel.app/index.m3u8?id=97
-#EXTINF:-1 tvg-id="98" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9cbd8a73-9397-4081-84f8-2b9e66d464c9.png" group-title="Yabancı",Bir Tv
-https://kablosistem.vercel.app/index.m3u8?id=98
-#EXTINF:-1 tvg-id="99" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3e32e0db-b536-4ba1-90d1-f7aaae33204f.png" group-title="Yabancı",Hayat 2
-https://kablosistem.vercel.app/index.m3u8?id=99
-#EXTINF:-1 tvg-id="100" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b02e4513-7e5a-4fda-bb41-d155735580d5.png" group-title="Yabancı",Planeta Rtr
-https://kablosistem.vercel.app/index.m3u8?id=100
-#EXTINF:-1 tvg-id="101" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/cc25bb9c-1b0e-4a19-a77a-182dc73a0935.png" group-title="Yabancı Haber",Kbs World
-https://kablosistem.vercel.app/index.m3u8?id=101
-#EXTINF:-1 tvg-id="102" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7c31e29a-c073-4d9b-a73d-acab75a35d6e.png" group-title="Yabancı Haber",Nhk World
-https://kablosistem.vercel.app/index.m3u8?id=102
-#EXTINF:-1 tvg-id="103" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/6efa2f13-269b-41a3-8378-afb073963ac5.png" group-title="Yabancı",Arirang
-https://kablosistem.vercel.app/index.m3u8?id=103
-#EXTINF:-1 tvg-id="104" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b079e32b-9991-4724-9cf9-5f40231b3adf.png" group-title="Yabancı",Freedom
-https://kablosistem.vercel.app/index.m3u8?id=104
-#EXTINF:-1 tvg-id="105" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="Spor",Trt Spor
+#EXTINF:-1 tvg-id="105" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="🛜KABLO TV FULL🛜",Trt Spor
 https://kablosistem.vercel.app/index.m3u8?id=105
-#EXTINF:-1 tvg-id="106" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
+#EXTINF:-1 tvg-id="106" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="🛜KABLO TV FULL🛜",beIN Sports Haber
 https://kablosistem.vercel.app/index.m3u8?id=106
-#EXTINF:-1 tvg-id="107" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="Spor",A Spor
+#EXTINF:-1 tvg-id="107" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="🛜KABLO TV FULL🛜",A Spor
 https://kablosistem.vercel.app/index.m3u8?id=107
-#EXTINF:-1 tvg-id="108" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Eurosport 1
+#EXTINF:-1 tvg-id="108" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="🛜KABLO TV FULL🛜",Eurosport 1
 https://kablosistem.vercel.app/index.m3u8?id=108
-#EXTINF:-1 tvg-id="109" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
+#EXTINF:-1 tvg-id="109" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="🛜KABLO TV FULL🛜",Eurosport 2
 https://kablosistem.vercel.app/index.m3u8?id=109
-#EXTINF:-1 tvg-id="110" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",HT Spor
+#EXTINF:-1 tvg-id="110" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="🛜KABLO TV FULL🛜",HT Spor
 https://kablosistem.vercel.app/index.m3u8?id=110
-#EXTINF:-1 tvg-id="111" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/eb8b4876-a698-41b8-b937-518abbba69fd.png" group-title="Spor",Trace Sports Stars
+#EXTINF:-1 tvg-id="111" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/eb8b4876-a698-41b8-b937-518abbba69fd.png" group-title="🛜KABLO TV FULL🛜",Trace Sports Stars
 https://kablosistem.vercel.app/index.m3u8?id=111
-#EXTINF:-1 tvg-id="112" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/eacbf9b8-9c4c-490b-b462-f3656a6aa833.png" group-title="Spor",Cosmo Sports
+#EXTINF:-1 tvg-id="112" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/eacbf9b8-9c4c-490b-b462-f3656a6aa833.png" group-title="🛜KABLO TV FULL🛜",Cosmo Sports
 https://kablosistem.vercel.app/index.m3u8?id=112
-#EXTINF:-1 tvg-id="113" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f0f167c1-f2b1-41d0-9713-75c315820713.png" group-title="Spor",S Sport
+#EXTINF:-1 tvg-id="113" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f0f167c1-f2b1-41d0-9713-75c315820713.png" group-title="🛜KABLO TV FULL🛜",S Sport
 https://kablosistem.vercel.app/index.m3u8?id=113
-#EXTINF:-1 tvg-id="114" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="Spor",S Sport 2
+#EXTINF:-1 tvg-id="114" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="🛜KABLO TV FULL🛜",S Sport 2
 https://kablosistem.vercel.app/index.m3u8?id=114
-#EXTINF:-1 tvg-id="115" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv
+#EXTINF:-1 tvg-id="115" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="🛜KABLO TV FULL🛜",Nba Tv
 https://kablosistem.vercel.app/index.m3u8?id=115
-#EXTINF:-1 tvg-id="116" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ef633fa1-7ee7-4712-8932-aadc2c5db2d3.png" group-title="Spor",W-Sport
+#EXTINF:-1 tvg-id="116" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ef633fa1-7ee7-4712-8932-aadc2c5db2d3.png" group-title="🛜KABLO TV FULL🛜",W-Sport
 https://kablosistem.vercel.app/index.m3u8?id=116
-#EXTINF:-1 tvg-id="117" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="Spor",Trt Spor Yıldız
+#EXTINF:-1 tvg-id="117" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="🛜KABLO TV FULL🛜",Trt Spor Yıldız
 https://kablosistem.vercel.app/index.m3u8?id=117
-#EXTINF:-1 tvg-id="118" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="Spor",Sports Tv
+#EXTINF:-1 tvg-id="118" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="🛜KABLO TV FULL🛜",Sports Tv
 https://kablosistem.vercel.app/index.m3u8?id=118
-#EXTINF:-1 tvg-id="119" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" group-title="Spor",Fb Tv
+#EXTINF:-1 tvg-id="119" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" group-title="🛜KABLO TV FULL🛜",Fb Tv
 https://kablosistem.vercel.app/index.m3u8?id=119
-#EXTINF:-1 tvg-id="120" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/01053a55-0936-405c-8017-d33ef351706f.png" group-title="Sinema ve Dizi",FX
+#EXTINF:-1 tvg-id="33" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/3d8f616d-a421-4fcd-a13a-1a29e3bbd88c.png" group-title="🛜KABLO TV FULL🛜",Tmb
+https://kablosistem.vercel.app/index.m3u8?id=33
+
+
+
+#EXTINF:-1 tvg-id="40" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8c07dd0b-0100-4a56-9a8c-9f810a184bd4.png" group-title="🛜KABLO TV FULL🛜",Trt Haber
+https://kablosistem.vercel.app/index.m3u8?id=40
+#EXTINF:-1 tvg-id="41" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7f90b121-1f7f-4dc7-980f-38167b147cdb.png" group-title="🛜KABLO TV FULL🛜",A Haber
+https://kablosistem.vercel.app/index.m3u8?id=41
+#EXTINF:-1 tvg-id="42" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/344f452e-fa44-4f00-8005-1b8898186888.png" group-title="🛜KABLO TV FULL🛜",Ntv
+https://kablosistem.vercel.app/index.m3u8?id=42
+#EXTINF:-1 tvg-id="43" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3686a1f5-9c4d-401f-9c7b-031ca66454a0.png" group-title="🛜KABLO TV FULL🛜",Cnn Türk
+https://kablosistem.vercel.app/index.m3u8?id=43
+#EXTINF:-1 tvg-id="44" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/216cade3-b4a7-4c8b-8d62-aab7a3431a89.png" group-title="🛜KABLO TV FULL🛜",24 Tv
+https://kablosistem.vercel.app/index.m3u8?id=44
+#EXTINF:-1 tvg-id="45" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a5773592-d40c-4d84-a64a-21c422cc7eb3.png" group-title="🛜KABLO TV FULL🛜",Tgrt Haber
+https://kablosistem.vercel.app/index.m3u8?id=45
+#EXTINF:-1 tvg-id="46" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/516aa59e-70a2-4be3-9077-02862a052fde.png" group-title="🛜KABLO TV FULL🛜",Haber Türk
+https://kablosistem.vercel.app/index.m3u8?id=46
+#EXTINF:-1 tvg-id="47" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/5795a2e7-9d78-4cc5-b83e-b6dcf36256fd.png" group-title="🛜KABLO TV FULL🛜",Bloomberg Ht
+https://kablosistem.vercel.app/index.m3u8?id=47
+
+#EXTINF:-1 tvg-id="52" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/0acb34e5-4b37-434e-b555-c7eb0271ba9d.png" group-title="🛜KABLO TV FULL🛜",Trt Türk
+https://kablosistem.vercel.app/index.m3u8?id=52
+#EXTINF:-1 tvg-id="53" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4a3026d6-b1be-4373-bb83-447117196e55.png" group-title="🛜KABLO TV FULL🛜",Trt Avaz
+https://kablosistem.vercel.app/index.m3u8?id=53
+#EXTINF:-1 tvg-id="54" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aac80fcc-d1e7-41da-85b6-3037cc3f1a4b.png" group-title="🛜KABLO TV FULL🛜",Trt 3 - Tbmm
+https://kablosistem.vercel.app/index.m3u8?id=54
+#EXTINF:-1 tvg-id="55" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1d937ced-d803-47eb-aa0c-90586e4e162e.png" group-title="🛜KABLO TV FULL🛜",Trt Kurdi
+https://kablosistem.vercel.app/index.m3u8?id=55
+#EXTINF:-1 tvg-id="56" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ecb65a51-f5ad-440f-9c21-a4db8cbc9398.png" group-title="🛜KABLO TV FULL🛜",Haber Global
+https://kablosistem.vercel.app/index.m3u8?id=56
+#EXTINF:-1 tvg-id="57" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/229e051d-6090-4235-a2ef-9420a17e6f9d.png" group-title="🛜KABLO TV FULL🛜",Ekol TV
+https://kablosistem.vercel.app/index.m3u8?id=57
+#EXTINF:-1 tvg-id="58" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/be5ace80-d03f-40f1-8c6b-a6e66ca96927.png" group-title="🛜KABLO TV FULL🛜",Krt Tv
+https://kablosistem.vercel.app/index.m3u8?id=58
+#EXTINF:-1 tvg-id="59" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" group-title="🛜KABLO TV FULL🛜",Halk Tv
+https://kablosistem.vercel.app/index.m3u8?id=59
+
+#EXTINF:-1 tvg-id="61" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2fdd6eb0-bd9e-44ef-ad0e-7f2c4cf3a8a7.png" group-title="🛜KABLO TV FULL🛜",Szc Tv
+https://kablosistem.vercel.app/index.m3u8?id=61
+#EXTINF:-1 tvg-id="62" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/cf2bdbf5-2686-4437-9e8b-33d80385645c.png" group-title="🛜
+#EXTINF:-1 tvg-id="83" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/6925f7f0-2d64-4a15-99ec-e4a19c117279.png" group-title="🛜KABLO TV FULL🛜",Trt Belgesel
+https://kablosistem.vercel.app/index.m3u8?id=83
+#EXTINF:-1 tvg-id="84" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png" group-title="🛜KABLO TV FULL🛜",National Geographic
+https://kablosistem.vercel.app/index.m3u8?id=84
+#EXTINF:-1 tvg-id="85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4cc38817-6eb0-4f26-ac2b-cb5baa3b68ba.png" group-title="🛜KABLO TV FULL🛜",National Geographic Wild
+https://kablosistem.vercel.app/index.m3u8?id=85
+#EXTINF:-1 tvg-id="86" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aaac1290-6d58-4036-b106-a7026a4c1bfc.png" group-title="🛜KABLO TV FULL🛜",Discovery Channel
+https://kablosistem.vercel.app/index.m3u8?id=86
+#EXTINF:-1 tvg-id="87" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/539be808-86e7-4ed2-aa0b-130dbc1ac450.png" group-title="🛜KABLO TV FULL🛜",ID
+https://kablosistem.vercel.app/index.m3u8?id=87
+#EXTINF:-1 tvg-id="88" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9bbb2de-204b-48f6-a62f-94fa4252a6b0.png" group-title="🛜KABLO TV FULL🛜",Viasat History
+https://kablosistem.vercel.app/index.m3u8?id=88
+#EXTINF:-1 tvg-id="89" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f297ad42-3a86-42b7-90fd-ba2339a7a6d5.png" group-title="🛜KABLO TV FULL🛜",Love Nature
+https://kablosistem.vercel.app/index.m3u8?id=89
+#EXTINF:-1 tvg-id="90" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7194b74e-4b67-4ec6-83ef-09af3669a515.png" group-title="🛜KABLO TV FULL🛜",Docu Screen
+https://kablosistem.vercel.app/index.m3u8?id=90
+#EXTINF:-1 tvg-id="91" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d39dd182-c195-4025-976d-10af0b08335e.png" group-title="🛜KABLO TV FULL🛜",Viasat Explore
+https://kablosistem.vercel.app/index.m3u8?id=91
+#EXTINF:-1 tvg-id="92" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/08bd982f-08e2-4e05-8f80-892a74c4d143.png" group-title="🛜KABLO TV FULL🛜",Cgtn Documentary
+https://kablosistem.vercel.app/index.m3u8?id=92
+
+
+#EXTINF:-1 tvg-id="120" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/01053a55-0936-405c-8017-d33ef351706f.png" group-title="🛜KABLO TV FULL🛜",FX
 https://kablosistem.vercel.app/index.m3u8?id=120
-#EXTINF:-1 tvg-id="121" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/df8891dd-4c22-41f7-85b0-d516ab62b473.png" group-title="Sinema ve Dizi",Epic Drama
+#EXTINF:-1 tvg-id="121" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/df8891dd-4c22-41f7-85b0-d516ab62b473.png" group-title="🛜KABLO TV FULL🛜",Epic Drama
 https://kablosistem.vercel.app/index.m3u8?id=121
-#EXTINF:-1 tvg-id="122" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Sinema ve Dizi",Film Screen
+#EXTINF:-1 tvg-id="122" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="🛜KABLO TV FULL🛜",Film Screen
 https://kablosistem.vercel.app/index.m3u8?id=122
-#EXTINF:-1 tvg-id="123" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2408078f-52c8-45bd-8bd7-30d8c2dcbb96.png" group-title="Yaşam & Eğlence",Kitchen TV
-https://kablosistem.vercel.app/index.m3u8?id=123
-#EXTINF:-1 tvg-id="124" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d8dfa223-6fd9-4780-9b5a-3e3fe87454ad.png" group-title="Yaşam & Eğlence",Myzen Tv
-https://kablosistem.vercel.app/index.m3u8?id=124
-#EXTINF:-1 tvg-id="125" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="Çocuk & Eğitim",Trt Çocuk
+
+#EXTINF:-1 tvg-id="125" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="🛜KABLO TV FULL🛜",Trt Çocuk
 https://kablosistem.vercel.app/index.m3u8?id=125
-#EXTINF:-1 tvg-id="126" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/12a9b581-f79c-41ba-b1e4-2f13f0087776.png" group-title="Çocuk & Eğitim",Minika Çocuk
+#EXTINF:-1 tvg-id="126" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/12a9b581-f79c-41ba-b1e4-2f13f0087776.png" group-title="🛜KABLO TV FULL🛜",Minika Çocuk
 https://kablosistem.vercel.app/index.m3u8?id=126
-#EXTINF:-1 tvg-id="127" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7dfb3c14-3837-4c82-9c30-88edefebe4bd.png" group-title="Çocuk & Eğitim",Minika Go
+#EXTINF:-1 tvg-id="127" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7dfb3c14-3837-4c82-9c30-88edefebe4bd.png" group-title="🛜KABLO TV FULL🛜",Minika Go
 https://kablosistem.vercel.app/index.m3u8?id=127
-#EXTINF:-1 tvg-id="128" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7e733bf8-6c0e-4d6e-b18a-5864e571894b.png" group-title="Çocuk & Eğitim",Trt Diyanet Çocuk
-https://kablosistem.vercel.app/index.m3u8?id=128
-#EXTINF:-1 tvg-id="129" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1e92ccd2-d2f4-48e5-a886-164389511271.png" group-title="Çocuk & Eğitim",Spacetoon
+#EXTINF:-1 tvg-id="129" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1e92ccd2-d2f4-48e5-a886-164389511271.png" group-title="🛜KABLO TV FULL🛜",Spacetoon
 https://kablosistem.vercel.app/index.m3u8?id=129
-#EXTINF:-1 tvg-id="130" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png" group-title="Çocuk & Eğitim",Azoomee
+#EXTINF:-1 tvg-id="130" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png" group-title="🛜KABLO TV FULL🛜",Azoomee
 https://kablosistem.vercel.app/index.m3u8?id=130
-#EXTINF:-1 tvg-id="131" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2442b7b7-04da-41c1-a7ca-03466853040e.png" group-title="Çocuk & Eğitim",Baby Tv
+#EXTINF:-1 tvg-id="131" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2442b7b7-04da-41c1-a7ca-03466853040e.png" group-title="🛜KABLO TV FULL🛜",Baby Tv
 https://kablosistem.vercel.app/index.m3u8?id=131
-#EXTINF:-1 tvg-id="132" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/51d3a383-2842-4a4c-b622-20f09b309973.png" group-title="Çocuk & Eğitim",Disney Junior
+#EXTINF:-1 tvg-id="132" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/51d3a383-2842-4a4c-b622-20f09b309973.png" group-title="🛜KABLO TV FULL🛜",Disney Junior
 https://kablosistem.vercel.app/index.m3u8?id=132
-#EXTINF:-1 tvg-id="133" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4c47b639-2916-4563-9e40-0f2a7925b2ea.png" group-title="Çocuk & Eğitim",Cartoon Network
+#EXTINF:-1 tvg-id="133" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4c47b639-2916-4563-9e40-0f2a7925b2ea.png" group-title="🛜KABLO TV FULL🛜",Cartoon Network
 https://kablosistem.vercel.app/index.m3u8?id=133
-#EXTINF:-1 tvg-id="134" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3b9d40e7-327e-4d51-977b-e46286eda12f.png" group-title="Çocuk & Eğitim",Moonbug
+#EXTINF:-1 tvg-id="134" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3b9d40e7-327e-4d51-977b-e46286eda12f.png" group-title="🛜KABLO TV FULL🛜",Moonbug
 https://kablosistem.vercel.app/index.m3u8?id=134
-#EXTINF:-1 tvg-id="135" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8107e33-52b1-4ba0-a7d4-bb877d5658c4.png" group-title="Çocuk & Eğitim",Duck Tv
+#EXTINF:-1 tvg-id="135" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8107e33-52b1-4ba0-a7d4-bb877d5658c4.png" group-title="🛜KABLO TV FULL🛜",Duck Tv
 https://kablosistem.vercel.app/index.m3u8?id=135
-#EXTINF:-1 tvg-id="136" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/31a93dde-3b2e-4be7-b684-43ee9c2a5442.png" group-title="Çocuk & Eğitim",English Club
+#EXTINF:-1 tvg-id="136" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/31a93dde-3b2e-4be7-b684-43ee9c2a5442.png" group-title="🛜KABLO TV FULL🛜",English Club
 https://kablosistem.vercel.app/index.m3u8?id=136
-#EXTINF:-1 tvg-id="137" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f2ed966d-693e-40b4-a737-740817d4eb2f.png" group-title="Çocuk & Eğitim",Da Vinci
+#EXTINF:-1 tvg-id="137" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f2ed966d-693e-40b4-a737-740817d4eb2f.png" group-title="🛜KABLO TV FULL🛜",Da Vinci
 https://kablosistem.vercel.app/index.m3u8?id=137
-#EXTINF:-1 tvg-id="138" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="Çocuk & Eğitim",LangLab
+#EXTINF:-1 tvg-id="138" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="🛜KABLO TV FULL🛜",LangLab
 https://kablosistem.vercel.app/index.m3u8?id=138
-#EXTINF:-1 tvg-id="139" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a29ccf28-73b8-48ef-a055-ddb1820c9d57.png" group-title="Çocuk & Eğitim",LingoToons
+#EXTINF:-1 tvg-id="139" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a29ccf28-73b8-48ef-a055-ddb1820c9d57.png" group-title="🛜KABLO TV FULL🛜",LingoToons
 https://kablosistem.vercel.app/index.m3u8?id=139
-#EXTINF:-1 tvg-id="140" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png" group-title="Çocuk & Eğitim",TinyTeen
+#EXTINF:-1 tvg-id="140" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png" group-title="🛜KABLO TV FULL🛜",TinyTeen
 https://kablosistem.vercel.app/index.m3u8?id=140
-#EXTINF:-1 tvg-id="141" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/47fcca43-c2ac-4ab8-ae92-2b007655be9f.png" group-title="Çocuk & Eğitim",Trt Eba TV
+#EXTINF:-1 tvg-id="141" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/47fcca43-c2ac-4ab8-ae92-2b007655be9f.png" group-title="🛜KABLO TV FULL🛜",Trt Eba TV
 https://kablosistem.vercel.app/index.m3u8?id=141
-#EXTINF:-1 tvg-id="142" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9fac001-ce36-4712-9eaa-786ec2465171.png" group-title="Ulusal",Diyanet Tv
+#EXTINF:-1 tvg-id="142" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9fac001-ce36-4712-9eaa-786ec2465171.png" group-title="🛜KABLO TV FULL🛜",Diyanet Tv
 https://kablosistem.vercel.app/index.m3u8?id=142
-#EXTINF:-1 tvg-id="143" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/655c2fee-0b87-48df-b41e-cb5c742807ad.png" group-title="Yabancı",Al Quran Al Kareem
-https://kablosistem.vercel.app/index.m3u8?id=143
-#EXTINF:-1 tvg-id="144" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/00701177-8898-4f68-a08e-5f45e0e12df3.png" group-title="Yabancı",Al Sunnah Al Nabawiyah
-https://kablosistem.vercel.app/index.m3u8?id=144
-#EXTINF:-1 tvg-id="145" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Ulusal",Lalegül Tv
-https://kablosistem.vercel.app/index.m3u8?id=145
-#EXTINF:-1 tvg-id="146" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/81ac5eb4-6201-47ce-977e-736a4247da91.png" group-title="Müzik",Trt Müzik
-https://kablosistem.vercel.app/index.m3u8?id=146
-#EXTINF:-1 tvg-id="147" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png" group-title="Müzik",Dream Türk
-https://kablosistem.vercel.app/index.m3u8?id=147
-#EXTINF:-1 tvg-id="148" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/39b773d6-719e-440b-b97c-3b8eaed0153e.png" group-title="Müzik",Trace Urban
-https://kablosistem.vercel.app/index.m3u8?id=148
+
+#EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="🛜KABLO TV FULL🛜",Sinema tv
+https://kablosistem.vercel.app/index.m3u8?id=2
+#EXTINF:-1 tvg-id="3" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="🛜KABLO TV FULL🛜",Sinema Aksiyon
+https://kablosistem.vercel.app/index.m3u8?id=3
+#EXTINF:-1 tvg-id="4" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/ae3d90a0-37ee-4e48-a6bc-1375e5f1329a.png" group-title="🛜KABLO TV FULL🛜",Sinema Yerli
+https://kablosistem.vercel.app/index.m3u8?id=4
+#EXTINF:-1 tvg-id="5" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c8283b71-81f8-4fc6-8e48-6bb8f7f49ad7.png" group-title="🛜KABLO TV FULL🛜",Sinema Aile
+https://kablosistem.vercel.app/index.m3u8?id=5
+#EXTINF:-1 tvg-id="6" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8d9fbebd-cade-492d-9cb4-6522cb558794.png" group-title="🛜KABLO TV FULL🛜",Sinema 1001
+https://kablosistem.vercel.app/index.m3u8?id=6
+#EXTINF:-1 tvg-id="7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4145ea10-96ad-400d-8870-f22a075f4add.png" group-title="🛜KABLO TV FULL🛜",Sinema Komedi
+https://kablosistem.vercel.app/index.m3u8?id=7
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 1 HD
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="📺TV KANALLARI FULL📺",TR:TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD  [yedek]" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 1 HD  [yedek]
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD  [yedek]" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="📺TV KANALLARI FULL📺",TR:TRT 1 HD  [yedek]
 https://b.fulltvizle.com/trt1/index.m3u8
-#EXTINF:-1 tvg-id="ATV.tr" tvg-name="TR:ATV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/atv.png" group-title="🛜KABLO TV FULL🛜",TR:ATV HQ
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="TR:ATV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/atv.png" group-title="📺TV KANALLARI FULL📺",TR:ATV HQ
 https://b.fulltvizle.com/aytv/index.m3u8
-#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="🛜KABLO TV FULL🛜",TR:SHOW TV HD
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="📺TV KANALLARI FULL📺",TR:SHOW TV HD
 https://ciner-live.daioncdn.net/showtv/showtv.m3u8
-#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="🛜KABLO TV FULL🛜",TR:SHOW TV HQ
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="📺TV KANALLARI FULL📺",TR:SHOW TV HQ
 https://b.fulltvizle.com/show/index.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="🛜KABLO TV FULL🛜",TR:STAR TV HD
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="📺TV KANALLARI FULL📺",TR:STAR TV HD
 https://dogus-live.daioncdn.net/startv/startv.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="🛜KABLO TV FULL🛜",TR:STAR TV HQ
+#EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="📺TV KANALLARI FULL📺",TR:STAR TV HQ
 https://b.fulltvizle.com/star/index.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL D HD
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL D HD
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL D HQ
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL D HQ
 https://b.fulltvizle.com/kanald/index.m3u8
-#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="🛜KABLO TV FULL🛜",TR:NOW HD
+#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="📺TV KANALLARI FULL📺",TR:NOW HD
 https://b.fulltvizle.com/fox/index.m3u8
-#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="🛜KABLO TV FULL🛜",TR:NOW HQ
+#EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="📺TV KANALLARI FULL📺",TR:NOW HQ
 http://116.202.238.88/FOXTV_TR/index.m3u8
-#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TR:TV 8 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv8.png" group-title="🛜KABLO TV FULL🛜",TR:TV 8 HD
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TR:TV 8 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv8.png" group-title="📺TV KANALLARI FULL📺",TR:TV 8 HD
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
-#EXTINF:-1 tvg-id="TV85.tr" tvg-name="TR:TV 8.5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv85.png" group-title="🛜KABLO TV FULL🛜",TR:TV 8.5 HD
+#EXTINF:-1 tvg-id="TV85.tr" tvg-name="TR:TV 8.5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv85.png" group-title="📺TV KANALLARI FULL📺",TR:TV 8.5 HD
 https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
-#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="🛜KABLO TV FULL🛜",TR:BEYAZ TV HD
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="📺TV KANALLARI FULL📺",TR:BEYAZ TV HD
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
-#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="🛜KABLO TV FULL🛜",TR:BEYAZ TV HQ
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="📺TV KANALLARI FULL📺",TR:BEYAZ TV HQ
 https://canlitvulusal.xyz/live/beyaztv/index.m3u8
-#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 7 HQ
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:EKOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ekoltv.png" group-title="📺TV KANALLARI FULL📺",TR:EKOL TV HD
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL 7 HQ
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
-#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 7 HD
+#EXTINF:-1 tvg-id="Kanal7.tr" tvg-name="TR:KANAL 7 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanal7.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL 7 HD
 https://canlitvulusal.xyz/live/kanal7/index.m3u8
-#EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TR:TEVE 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/teve2.png" group-title="🛜KABLO TV FULL🛜",TR:TEVE 2 HD
+#EXTINF:-1 tvg-id="Teve2.tr" tvg-name="TR:TEVE 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/teve2.png" group-title="📺TV KANALLARI FULL📺",TR:TEVE 2 HD
 https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
-#EXTINF:-1 tvg-id="360.tr" tvg-name="TR:360 TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/360tv.png" group-title="🛜KABLO TV FULL🛜",TR:360 TV HD
+#EXTINF:-1 tvg-id="360.tr" tvg-name="TR:360 TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/360tv.png" group-title="📺TV KANALLARI FULL📺",TR:360 TV HD
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:CINE 6 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/cine6.png" group-title="🛜KABLO TV FULL🛜",TR:CINE 6 HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:CINE 6 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/cine6.png" group-title="📺TV KANALLARI FULL📺",TR:CINE 6 HD
 #EXTVLCOPT:http-referrer=https://www.cine6tv.com.tr
 https://radyotelekomtv.com/player/m3u8/5ca5d92515b99f2e20ee0a40c0a3031d/5ca5d92515b99f2e20ee0a40c0a3031d.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:EURO D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanaldeuro.png" group-title="🛜KABLO TV FULL🛜",TR:EURO D HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:EURO D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanaldeuro.png" group-title="📺TV KANALLARI FULL📺",TR:EURO D HD
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_3_750/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:EURO STAR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/eurostar.png" group-title="🛜KABLO TV FULL🛜",TR:EURO STAR HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:EURO STAR HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/eurostar.png" group-title="📺TV KANALLARI FULL📺",TR:EURO STAR HD
 https://canlitvulusal.xyz/live/eurostar/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="🛜KABLO TV FULL🛜",TR:TRT MUZIK UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT MUZIK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/trtmuzik.png" group-title="📺TV KANALLARI FULL📺",TR:TRT MUZIK UHD
 https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:A HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ahaber.png" group-title="🛜KABLO TV FULL🛜",TR:A HABER UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:A HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ahaber.png" group-title="📺TV KANALLARI FULL📺",TR:A HABER UHD
 https://b.fulltvizle.com/ahaber/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:CNN TURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/cnnturk.png" group-title="🛜KABLO TV FULL🛜",TR:CNN TURK UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:CNN TURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/cnnturk.png" group-title="📺TV KANALLARI FULL📺",TR:CNN TURK UHD
 https://b.fulltvizle.com/cnn/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:HABERTURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberturk.png" group-title="🛜KABLO TV FULL🛜",TR:HABERTURK UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:HABERTURK UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberturk.png" group-title="📺TV KANALLARI FULL📺",TR:HABERTURK UHD
 https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TRT HABER UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="📺TV KANALLARI FULL📺",TR:TRT HABER UHD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:ULKE TV UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/ulketv.png" group-title="🛜KABLO TV FULL🛜",TR:ULKE TV UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:ULKE TV UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/ulketv.png" group-title="📺TV KANALLARI FULL📺",TR:ULKE TV UHD
 https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:FLASH HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/flashaber.png" group-title="🛜KABLO TV FULL🛜",TR:FLASH HABER UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:FLASH HABER UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/flashaber.png" group-title="📺TV KANALLARI FULL📺",TR:FLASH HABER UHD
 https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:AKIT TV UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/akitv.png" group-title="🛜KABLO TV FULL🛜",TR:AKIT TV UHD
-https://akittv-live.ercdn.net/akittv/akittv_720p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TV 100 UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tv100.png" group-title="🛜KABLO TV FULL🛜",TR:TV 100 UHD
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:TV 100 UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tv100.png" group-title="📺TV KANALLARI FULL📺",TR:TV 100 UHD
 https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT AVAZ HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trtavaz.png" group-title="🛜KABLO TV FULL🛜",TR:TRT AVAZ HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT AVAZ HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trtavaz.png" group-title="📺TV KANALLARI FULL📺",TR:TRT AVAZ HD
 https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TLC UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" group-title="🛜KABLO TV FULL🛜",TR:TLC UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TLC UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/tlc.png" group-title="📺TV KANALLARI FULL📺",TR:TLC UHD
 https://dogus-live.daioncdn.net/tlc/tlc.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:DMAX UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" group-title="🛜KABLO TV FULL🛜",TR:DMAX UHD
+#EXTINF:-1 tvg-id="" tvg-name="TR:DMAX UHD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/dmax.png" group-title="📺TV KANALLARI FULL📺",TR:DMAX UHD
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TRT HABER HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trthaber.png" group-title="📺TV KANALLARI FULL📺",TR:TRT HABER HD
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TGRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tgrthaber.png" group-title="🛜KABLO TV FULL🛜",TR:TGRT HABER HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TGRT HABER HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tgrthaber.png" group-title="📺TV KANALLARI FULL📺",TR:TGRT HABER HD
 https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:SOZCU TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png" group-title="🛜KABLO TV FULL🛜",TR:SOZCU TV HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:SOZCU TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/sozcu.png" group-title="📺TV KANALLARI FULL📺",TR:SOZCU TV HD
 #EXTVLCOPT:http-referrer=https://turkcanli.tv
 https://helga.iptv2022.com/szc_tv/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:HALK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/halktv.png" group-title="🛜KABLO TV FULL🛜",TR:HALK TV HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:HALK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/halktv.png" group-title="📺TV KANALLARI FULL📺",TR:HALK TV HD
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TELE 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tele1.png" group-title="🛜KABLO TV FULL🛜",TR:TELE 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TELE 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/tele1.png" group-title="📺TV KANALLARI FULL📺",TR:TELE 1 HD
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:YOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek2/yoltv.png" group-title="🛜KABLO TV FULL🛜",TR:YOL TV HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:YOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek2/yoltv.png" group-title="📺TV KANALLARI FULL📺",TR:YOL TV HD
 https://iptv.amgsmart2home.de/YOLTVMAIN/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:BLOOMBERG HT HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bloomberg.png" group-title="🛜KABLO TV FULL🛜",TR:BLOOMBERG HT HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:BLOOMBERG HT HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bloomberg.png" group-title="📺TV KANALLARI FULL📺",TR:BLOOMBERG HT HD
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:NTV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ntv.png" group-title="🛜KABLO TV FULL🛜",TR:NTV HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:NTV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ntv.png" group-title="📺TV KANALLARI FULL📺",TR:NTV HD
 https://dogus-live.daioncdn.net/ntv/ntv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:BENGUTURK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bengu.png" group-title="🛜KABLO TV FULL🛜",TR:BENGUTURK TV HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:BENGUTURK TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/bengu.png" group-title="📺TV KANALLARI FULL📺",TR:BENGUTURK TV HD
 https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:EKOL TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/ekoltv.png" group-title="🛜KABLO TV FULL🛜",TR:EKOL TV HD
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:HABER GLOBAL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberglobal.png" group-title="🛜KABLO TV FULL🛜",TR:HABER GLOBAL HD
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:HABER GLOBAL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberglobal.png" group-title="📺TV KANALLARI FULL📺",TR:HABER GLOBAL HD
 https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:KANAL 24 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal24.png" group-title="🛜KABLO TV FULL🛜",TR:KANAL 24 HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:KANAL 24 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal24.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL 24 HD
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TR:TRT TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trtturk.png" group-title="🛜KABLO TV FULL🛜",TR:TRT TURK HD
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TR:TRT TURK HD" tvg-logo="https://i0.wp.com/resim.yayins.com/haber/trtturk.png" group-title="📺TV KANALLARI FULL📺",TR:TRT TURK HD
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TV 4 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal4.png" group-title="🛜KABLO TV FULL🛜",TR:TV 4 HD
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TV 5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/kanal5.png" group-title="🛜KABLO TV FULL🛜",TR:TV 5 HD
-https://tv5-live.ercdn.net/tv5/tv5.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT BELGESEL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trtbelgesel.png" group-title="🛜KABLO TV FULL🛜",TR:TRT BELGESEL HD
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT BELGESEL HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trtbelgesel.png" group-title="📺TV KANALLARI FULL📺",TR:TRT BELGESEL HD
 https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR:TRT 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trt2.png" group-title="🛜KABLO TV FULL🛜",TR:TRT 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trt2.png" group-title="📺TV KANALLARI FULL📺",TR:TRT 2 HD
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",SPOR KANAL>>>>>
-https://cdn.dzen.ru
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="📺TV KANALLARI FULL📺",Trt Spor  
-https://koprulu4.global.ssl.fastly.net/kablo/?id=trtspor
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="📺TV KANALLARI FULL📺",beIN Sports Haber
-https://koprulu4.global.ssl.fastly.net/kablo/?id=beinsportshaber
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="📺TV KANALLARI FULL📺",A Spor  
-https://koprulu4.global.ssl.fastly.net/kablo/?id=aspor
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="📺TV KANALLARI FULL📺",Eurosport 1
-https://koprulu4.global.ssl.fastly.net/kablo/?id=eurosport1hd
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="📺TV KANALLARI FULL📺",Eurosport 2
-https://koprulu4.global.ssl.fastly.net/kablo/?id=eurosport2hd
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="📺TV KANALLARI FULL📺",HT Spor
-https://koprulu4.global.ssl.fastly.net/kablo/?id=htsporhd
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/eb8b4876-a698-41b8-b937-518abbba69fd.png" group-title="📺TV KANALLARI FULL📺",Trace Sports Stars
-https://koprulu4.global.ssl.fastly.net/kablo/?id=tracesport
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/eacbf9b8-9c4c-490b-b462-f3656a6aa833.png" group-title="📺TV KANALLARI FULL📺",Cosmo Sports
-https://koprulu4.global.ssl.fastly.net/kablo/?id=fightscreen
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f0f167c1-f2b1-41d0-9713-75c315820713.png" group-title="📺TV KANALLARI FULL📺",S Sport
-https://koprulu4.global.ssl.fastly.net/kablo/?id=ssport
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="📺TV KANALLARI FULL📺",S Sport 2
-https://koprulu4.global.ssl.fastly.net/kablo/?id=ssport2
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="📺TV KANALLARI FULL📺",Nba Tv
-https://koprulu4.global.ssl.fastly.net/kablo/?id=nbatv
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ef633fa1-7ee7-4712-8932-aadc2c5db2d3.png" group-title="📺TV KANALLARI FULL📺",W-Sport
-https://koprulu4.global.ssl.fastly.net/kablo/?id=wsport
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="📺TV KANALLARI FULL📺",Trt Spor Yıldız
-https://koprulu4.global.ssl.fastly.net/kablo/?id=trtsporyildiz
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ce3a853a-b638-44b8-b4f4-9728aec137d3.png" group-title="📺TV KANALLARI FULL📺",Sports Tv
-https://koprulu4.global.ssl.fastly.net/kablo/?id=sportstv
-#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" group-title="📺TV KANALLARI FULL📺",Fb Tv
-https://koprulu4.global.ssl.fastly.net/kablo/?id=fbtv
-#EXTINF:-1 tvg-name="ekol tv" tvg-language="Turkish" tvg-country="TR" tvg-id="ekol tv " group-title="📺TV KANALLARI FULL📺",MÜZİK  KANAL>>>>>
-https://cdn.dzen.ru
+#EXTINF:-1 tvg-id="" tvg-name="TR:TRT 2 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/trt2.png" group-title="📺TV KANALLARI FULL📺",TR:TRT 2 HD
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="http://assets.tvcdn.net/e9efa31e-106b-40e0-ab4e-a760061c7ad6.png" group-title="📺TV KANALLARI FULL📺",TRT Muzik
 https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="DreamTurk.tr" tvg-logo="http://assets.tvcdn.net/b7ff7221-f255-439d-9ee9-0f73348005b8.png" group-title="📺TV KANALLARI FULL📺",Dream Turk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8?&live=true&app=com.dreamturk&st=0SS_584g5nlti989kGsw_g&e=1749124330
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="http://assets.tvcdn.net/c866b6f0-00bd-40b9-9583-8cbdbe6a503e.png" group-title="📺TV KANALLARI FULL📺",Powerturk TV
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b2628000_slTUR.m3u8?nimblesessionid=97547633
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b1628000_slTUR.m3u8?nimblesessionid=96517469
 #EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="http://assets.tvcdn.net/c866b6f0-00bd-40b9-9583-8cbdbe6a503e.png" group-title="📺TV KANALLARI FULL📺",Power HİTS
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b1628000_slTUR.m3u8?nimblesessionid=97543754
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TV
@@ -454,7 +315,7 @@ https://listen.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessi
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TR SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=97546925
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-logo="http://assets.tvcdn.net/ccb54b98-472f-4c36-a48f-46431c84ab6a.png" group-title="📺TV KANALLARI FULL📺",Power TÜRK TAPTAZE
-https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=97547309
+https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=96519975
 #EXTINF:-1 tvg-id="KralPopTV.tr" tvg-logo="http://assets.tvcdn.net/61431fea-4103-46a3-9f8c-aad1504b9776.png" group-title="📺TV KANALLARI FULL📺",Kral Pop TV
 https://dogus.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8?token=aVNYL3Y3dmVtS3Y4bWtteDkwSmRpSEVzS2Y4Wjk1aU9yUzVGL2lDWnZGcz0=&sid=7gucsk0p9d8z&app=f38a38b4-ce55-4040-8676-9826937d6128&ce=2
 #EXTINF:-1 tvg-id="Number1TV.tr" tvg-logo="http://assets.tvcdn.net/c46cb81f-8075-442a-be24-d77a05f57921.png" group-title="📺TV KANALLARI FULL📺",Number One TV
@@ -465,6 +326,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18f9c54e6.smil/chunklist_b400000.m3u8?md5=98mQsPk_kGnKhNUNfKjRQw&expires=1749199751
 #EXTINF:-1 tvg-id="Number1Turk.tr" tvg-logo="http://assets.tvcdn.net/8fdc5969-a87a-4067-a74a-65d88c131166.png" group-title="📺TV KANALLARI FULL📺",Number One DAMAR
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/chunklist_b400000.m3u8?md5=JNmB872GZapgylo3_pCYSw&expires=1685861577
+
+
 
 
 
