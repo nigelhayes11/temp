@@ -1712,11 +1712,12 @@ http://123livetv.info:8080/3pFL4ZGKHY/yd2Ke7L2y5/431988
 
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",REC
-#EXTVLCOPT:http-user-agent=googleusercontent
 https://bs.arectv33.sbs/static/bs1.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",RECB
 #EXTVLCOPT:http-user-agent=googleusercontent
 https://bs.arectv33.sbs/static/bs11.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
 https://35mumdur.shop/701/index.m3u8
@@ -1724,12 +1725,7 @@ https://35mumdur.shop/701/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",JEST
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://grilish11-xavi.hf.space/proxy/m3u?url=https://95724.zirvestream1.cfd/yayinzirve.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",JESTinhos
-#EXTVLCOPT:http-referrer=https://jestyayin941.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://grilish11-xavi.hf.space/proxy/m3u?url=https://95724.zirvestream1.cfd/yayinzirve.m3u8
-
+https://95724.zirvestream1.cfd/yayinzirve.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEİN 95
 http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
@@ -1737,14 +1733,30 @@ http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEİN 57
 http://57.129.73.112:8480/701/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",DEMO
-#EXTVLCOPT:http-referrer=https://jestyayin940.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://demoyayiyin.sunxtvcloud.workers.dev/Bein-Sport-1-HD/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",WİDE
 https://goldvod.org/tv/wideiptv?id=158
 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",GOLD VOD
+#EXTVLCOPT:http-referrer=https://jestyayin940.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://goldvod.org/tv/strm?id=5062
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",JUST SPOR
+#EXTVLCOPT:http-referrer=https://justsporthd42.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://streamcdn.xyz/hls/bein1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",NETSPOR
+#EXTVLCOPT:http-referrer=https://www.netsportv213.top/
+https://hlssssss.sabunyagiz.workers.dev/https://corestream.corestream.lat//hls/bein-sports-1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",TRGOAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1357.xyz/
+https://r0.4928d54d950ee70q17.lat/yayin1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",trgolb
+#EXTVLCOPT:http-referrer=https://inattv1070.xyz/
+https://s0.4928d54d950ee70q18.lat/yayinzirve.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",B1+
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -1755,14 +1767,12 @@ https://live-cdn-65984.varplaycdn.cfd/601/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://lively1.cf4-86.workers.dev/static/bs1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",GOLD VOD
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",DEMO
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://goldvod.org/tv/strm?id=5062
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",JUST SPOR
-#EXTVLCOPT:http-referrer=https://justsporthd42.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://streamcdn.xyz/hls/bein1.m3u8
+https://demoyayiyin.sunxtvcloud.workers.dev/Bein-Sport-1-HD/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",B1 LOW
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -1778,25 +1788,8 @@ https://fscvd.top/daddyhd/cdn/TEST/main.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Vİ BEIN 
 #EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
 https://t6co.yahsvvsvs23.workers.dev/list/yayinstar.m3u8
-EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Vİ BEIN C 
-#EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
-https://t6co.kkkjasdk23200.workers.dev/list/yayinstar.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Vİ BEIN B 
-#EXTVLCOPT:http-referrer=https://mgviagrtoomuch.com/
-https://t6co.yahsvvsvs23.workers.dev/list/yayinpeakstream.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",NETSPOR
-#EXTVLCOPT:http-referrer=https://www.netsportv213.top/
-https://hls.johntaylors029.workers.dev/https://volestream.volestream.lat/hls/bein-sports-1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",sell
-#EXTVLCOPT:http-referrer=https://www.netsportv213.top/
-https://alpha.cf-worker-68cd556c274d0c.workers.dev/live/selcukbeinsports1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",TRGOALSpr
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1357.xyz/
-https://grilish11-xavi.hf.space/proxy/m3u?url=https://r0.4928d54d950ee70q17.lat/yayin1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",İNAT
-#EXTVLCOPT:http-referrer=https://inattv1070.xyz/
-https://grilish11-xavi.hf.space/proxy/m3u?url=https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
+
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",🔥🔥🔥🔥(KALAN KANALLAR ÖZEL TEST FHD)🔥🔥🔥🔥
 https://www.vavoo.t
