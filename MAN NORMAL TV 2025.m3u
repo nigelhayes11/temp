@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="Sky Bundesliga 1.de" tvg-name="|DE| SKY BUNDESLIGA 1 HD" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 1 HD
+http://ukmonster2017.org:80/live/12345678/87654321/770957.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 2 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 2 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770956.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 3 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 3 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770955.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 4 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 4 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770954.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 5 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 5 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770953.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 6 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 6 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770952.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 7 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 7 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770951.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="|DE| SKY BUNDESLIGA 8 HD weekend only" tvg-logo="https://files.ekmcdn.com/madflags/images/germany-country-flag-25mm-pin-button-badge-34-p.png" group-title="GERMANY | BACKUP",|DE| SKY BUNDESLIGA 8 HD weekend only
+http://ukmonster2017.org:80/live/12345678/87654321/770950.m3u8
 #EXTINF:-1 tvg-id="8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="🛜KABLO TV FULL🛜",mnkss
 https://vavoo.to/play/662179620/index.m3u8
 #EXTINF:-1 tvg-id="8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="🛜KABLO TV FULL🛜",Trt 1
