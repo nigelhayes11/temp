@@ -1,9 +1,10 @@
 #EXTM3U
-#EXTM3U
+
 #EXTINF:-1 tvg-id="1" tvg-name="BEIN SPORTS 1 (ZIRVE)" group-title="🟡🔵FB-FEYE🔴⚪",EXZRV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referer=https://justsporthd42.xyz/
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://monotv523.com
 https://three.zirvestream4.cfd/yayinex1.m3u8
+
 #EXTINF:-1 tvg-id="1" tvg-name="BEIN SPORTS 1 (ZIRVE)" group-title="🟡🔵FB-FEYE🔴⚪",EXXEN A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referer=https://justsporthd42.xyz/
