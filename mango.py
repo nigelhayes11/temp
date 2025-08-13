@@ -11,8 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # ======= Ayarlar =======
 SHORT_URL   = "https://t.co/aOAO1eIsqE"  # Kısayol link burada
-CSV_FILE    = "kanallar.csv"             # Başlıklı CSV: dosya,tvg_id,kanal_adi
-OUTPUT_M3U  = "trgoals.m3u"
+CSV_FILE    = "chnn.csv"             # Başlıklı CSV: dosya,tvg_id,kanal_adi
+OUTPUT_M3U  = "mango.m3u"
 USER_AGENT  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 # ========================
 
