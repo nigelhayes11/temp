@@ -137,7 +137,7 @@ class XYZsportsManager:
 
 # ---------------- Main ----------------
 if __name__ == "__main__":
-    CIKTI_DOSYASI = "Birlesik.m3u"
+    CIKTI_DOSYASI = "cinos.m3u"
 
     all_m3u = ["#EXTM3U"]
 
@@ -157,4 +157,4 @@ if __name__ == "__main__":
     with open(CIKTI_DOSYASI, "w", encoding="utf-8") as f:
         f.write("\n".join(all_m3u))
 
-    print(f"✅ Birleşik M3U oluşturuldu: {CIKTI_DOSYASI}")
+    print(f"✅ cinos M3U oluşturuldu: {CIKTI_DOSYASI}")
