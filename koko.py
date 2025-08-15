@@ -10,9 +10,9 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # ======= Ayarlar =======
-SHORT_URL   = "https://t.co/aOAO1eIsqE"  # Kısayol link burada
+SHORT_URL   = "https://dengetv54.live/"  # Kısayol link burada
 CSV_FILE    = "kanallar.csv"             # Başlıklı CSV: dosya,tvg_id,kanal_adi
-OUTPUT_M3U  = "trgoals.m3u"
+OUTPUT_M3U  = "MAN NORMAL TV 2025.m3u"
 USER_AGENT  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 # ========================
 
