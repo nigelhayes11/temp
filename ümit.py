@@ -103,5 +103,5 @@ class Dengetv54Manager:
         print("✅ Dengetv54 kanalları başarıyla eklendi.")
 
 if __name__ == "__main__":
-    manager = Dengetv54Manager("https://github.com/nigelhayes11/temp/ümit.m3u")
+    manager = Dengetv54Manager("https://github.com/nigelhayes11/temp/blob/main/omit.m3u")
     manager.calistir()
