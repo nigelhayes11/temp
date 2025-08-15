@@ -1,5 +1,5 @@
 name: Update mokito M3U
-name: MAN NORMAL TV 2025  M3U
+name: Update MAN NORMAL TV 2025  M3U
 on:
   # Manuel tetikleme
   workflow_dispatch:
@@ -42,6 +42,13 @@ jobs:
       # Git commit ve push
       - name: Commit and push mokito.m3u
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Birlesik.m3u
+          git commit -m "Update mokito M3U" || echo "No changes to commit"
+          git push
+ - name: Commit and push Commit and push MAN NORMAL TV 2025.m3u
+        run:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Birlesik.m3u
