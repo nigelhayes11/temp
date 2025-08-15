@@ -35,7 +35,10 @@ jobs:
       # Scripti çalıştır
       - name: Run mokito.py
         run: python mokito.py
-
+        
+      - name: MonoTV.py Çalıştır
+        run: python MonoTV.py
+        
       # Git commit ve push
       - name: Commit and push mokito.m3u
         run: |
