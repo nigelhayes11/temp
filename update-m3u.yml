@@ -4,7 +4,7 @@ on:
   # Manuel tetikleme
   workflow_dispatch:
 
-  # Otomatik 24 saatlik tetikleme (UTC)
+  # Otomatik 2 saatlik tetikleme (UTC)
   schedule:
     - cron: '0 0 * * *'  # Her gün 00:00 UTC
   push:
@@ -42,5 +42,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add omit.m3u
-          git commit -m "Update Birlesik M3U" || echo "No changes to commit"
+          git commit -m "Update omit M3U" || echo "No changes to commit"
           git push
