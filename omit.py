@@ -1,107 +1,98 @@
 from httpx import Client
+import re
 import os
+from urllib.parse import urlparse
+import sys
 
-class Dengetv54Manager:
-    def __init__(self, ana_m3u_dosyasi):
-        self.ana_m3u_dosyasi = ana_m3u_dosyasi
-        self.httpx = Client(timeout=10, verify=False)
-        self.base_stream_url = "https://four.zirvestream4.cfd/"
-        self.referer_url = None
-        self.channel_files = {
-            1: "yayinzirve.m3u8",
-            2: "yayin1.m3u8",
-            3: "yayininat.m3u8",
-            4: "yayinb2.m3u8",
-            5: "yayinb3.m3u8",
-            6: "yayinb4.m3u8",
-            7: "yayinb5.m3u8",
-            8: "yayinbm1.m3u8",
-            9: "yayinbm2.m3u8",
-            10: "yayinss.m3u8",
-            11: "yayinss2.m3u8",
-            13: "yayint1.m3u8",
-            14: "yayint2.m3u8",
-            15: "yayint3.m3u8",
-            16: "yayinsmarts.m3u8",
-            17: "yayinsms2.m3u8",
-            18: "yayintrtspor.m3u8",
-            19: "yayintrtspor2.m3u8",
-            20: "yayintrt1.m3u8",
-            21: "yayinas.m3u8",
-            22: "yayinatv.m3u8",
-            23: "yayintv8.m3u8",
-            24: "yayintv85.m3u8",
-            25: "yayinf1.m3u8",
-            26: "yayinnbatv.m3u8",
-            27: "yayineu1.m3u8",
-            28: "yayineu2.m3u8",
-            29: "yayinex1.m3u8",
-            30: "yayinex2.m3u8",
-            31: "yayinex3.m3u8",
-            32: "yayinex4.m3u8",
-            33: "yayinex5.m3u8",
-            34: "yayinex6.m3u8",
-            35: "yayinex7.m3u8",
-            36: "yayinex8.m3u8"
-        }
+class XYZsportsManager:
+    def __init__(self, cikti_dosyasi):
+        self.cikti_dosyasi = cikti_dosyasi
+        self.httpx = Client(timeout=10, verify=False, http2=True)
+        self.domain_bilgileri = []
+        self.channel_ids = [
+            "bein-sports-1", "bein-sports-2", "bein-sports-3",
+            "bein-sports-4", "bein-sports-5", "bein-sports-max-1",
+            "bein-sports-max-2", "smart-spor", "smart-spor-2",
+            "trt-spor", "trt-spor-2", "aspor", "s-sport",
+            "s-sport-2", "s-sport-plus-1", "s-sport-plus-2"
+        ]
 
-    def find_working_domain(self):
+    def find_working_domain(self, start=248, end=350):
         headers = {"User-Agent": "Mozilla/5.0"}
-        for i in range(54, 105):  # 54'ten 104'e kadar
-            test_domain = f"https://dengetv{i}.live/"
-            print(f"🔍 {test_domain} kontrol ediliyor...")
+        for i in range(start, end + 1):
+            url = f"https://www.xyzsports{i}.xyz/"
             try:
-                r = self.httpx.get(test_domain, headers=headers)
-                if r.status_code == 200 and r.text.strip():
-                    print(f"✅ Çalışan domain bulundu: {test_domain}")
-                    return test_domain
-            except:
+                r = self.httpx.get(url, headers=headers)
+                if r.status_code == 200 and "uxsyplayer" in r.text:
+                    print(f"Çalışan domain bulundu: {url}")
+                    return r.text, url
+                else:
+                    print(f"Denenen domain: {url} | Durum: {r.status_code}")
+            except Exception as e:
+                print(f"Hata ({url}): {str(e)}")
                 continue
-        print("❌ Hiçbir domain bulunamadı!")
+        return None, None
+
+    def find_dynamic_player_domain(self, html):
+        m = re.search(r'https?://([a-z0-9\-]+\.[0-9a-z]+\.click)', html)
+        if m:
+            player_url = f"https://{m.group(1)}"
+            print(f"Player domain bulundu: {player_url}")
+            return player_url
+        print("Player domain bulunamadı!")
         return None
 
-    def build_m3u8_content(self):
-        m3u_content = []
-        for idx, file_name in self.channel_files.items():
-            channel_name = file_name.replace(".m3u8", "").capitalize()
-            m3u_content.append(f'#EXTINF:-1 group-title="Dengetv54",{channel_name}')
-            m3u_content.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0')
-            m3u_content.append(f'#EXTVLCOPT:http-referrer={self.referer_url}')
-            m3u_content.append(f"{self.base_stream_url}{file_name}")
-        return "\n".join(m3u_content)
+    def extract_base_stream_url(self, html):
+        m = re.search(r'this\.baseStreamUrl\s*=\s*[\'"]([^\'"]+)', html)
+        if m:
+            print(f"Base stream URL bulundu: {m.group(1)}")
+            return m.group(1)
+        print("Base stream URL bulunamadı!")
+        return None
 
-    def ana_m3u_guncelle(self, yeni_icerik):
-        if not os.path.exists(self.ana_m3u_dosyasi):
-            raise FileNotFoundError(f"Dosya bulunamadı: {self.ana_m3u_dosyasi}")
-        
-        with open(self.ana_m3u_dosyasi, "r", encoding='utf-8') as dosya:
-            ana_icerik = dosya.read()
-
-        lines = ana_icerik.split("\n")
-        filtered_lines = []
-        skip = False
-        for line in lines:
-            if line.startswith("#EXTINF") and 'group-title="Dengetv54"' in line:
-                skip = True
-                continue
-            if skip and line and not line.startswith("#EXTINF"):
-                continue
-            skip = False
-            filtered_lines.append(line)
-
-        yeni_dosya_icerik = "\n".join(filtered_lines) + "\n\n" + yeni_icerik
-        with open(self.ana_m3u_dosyasi, "w", encoding='utf-8') as dosya:
-            dosya.write(yeni_dosya_icerik)
+    def build_m3u8_content(self, base_stream_url, referer_url):
+        m3u = ["#EXTM3U"]
+        for cid in self.channel_ids:
+            channel_name = cid.replace("-", " ").title()
+            m3u.append(f'#EXTINF:-1 group-title="Umitmod",{channel_name}')
+            m3u.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0')
+            m3u.append(f'#EXTVLCOPT:http-referrer={referer_url}')
+            m3u.append(f'{base_stream_url}{cid}/playlist.m3u8')
+        return "\n".join(m3u)
 
     def calistir(self):
-        self.referer_url = self.find_working_domain()
-        if not self.referer_url:
-            return
-        
-        m3u8_icerik = self.build_m3u8_content()
-        self.ana_m3u_guncelle(m3u8_icerik)
-        print("✅ Dengetv54 kanalları başarıyla eklendi.")
+        try:
+            html, referer_url = self.find_working_domain()
+            if not html:
+                raise RuntimeError("Çalışan domain bulunamadı!")
+            
+            player_domain = self.find_dynamic_player_domain(html)
+            if not player_domain:
+                raise RuntimeError("Player domain bulunamadı!")
+
+            r = self.httpx.get(
+                f"{player_domain}/index.php?id={self.channel_ids[0]}",
+                headers={
+                    "User-Agent": "Mozilla/5.0",
+                    "Referer": referer_url
+                }
+            )
+            
+            base_url = self.extract_base_stream_url(r.text)
+            if not base_url:
+                raise RuntimeError("Base stream URL bulunamadı!")
+
+            m3u_icerik = self.build_m3u8_content(base_url, referer_url)
+
+            with open(self.cikti_dosyasi, "w", encoding="utf-8") as f:
+                f.write(m3u_icerik)
+            
+            print(f"\nM3U dosyası başarıyla oluşturuldu: {self.cikti_dosyasi}")
+            print(f"Toplam kanal sayısı: {len(self.channel_ids)}")
+            
+        except Exception as e:
+            print(f"\nHATA: {str(e)}")
+            sys.exit(1)
 
 if __name__ == "__main__":
-    manager = Dengetv54Manager("https://github.com/nigelhayes11/temp/blob/main/omit.m3u")
-    manager.calistir()
+    XYZsportsManager("omit.m3u").calistir()
