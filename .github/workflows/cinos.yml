@@ -1,10 +1,10 @@
-name: Update Birlesik M3U
+name: Update cinos M3U
 
 on:
   # Manuel tetikleme
   workflow_dispatch:
 
-  # Otomatik 24 saatlik tetikleme (UTC)
+  # Otomatik 2 saatlik tetikleme (UTC)
   schedule:
     - cron: '0 0 * * *'  # Her gün 00:00 UTC
   push:
@@ -33,14 +33,14 @@ jobs:
           pip install httpx
 
       # Scripti çalıştır
-      - name: Run birlesik.py
-        run: python birlesik.py
+      - name: Run cinos.py
+        run: python cinos.py
 
       # Git commit ve push
-      - name: Commit and push Birlesik.m3u
+      - name: Commit and push cinos.m3u
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add Birlesik.m3u
-          git commit -m "Update Birlesik M3U" || echo "No changes to commit"
+          git add cinos.m3u
+          git commit -m "Update cinos M3U" || echo "No changes to commit"
           git push
