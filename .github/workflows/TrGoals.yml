@@ -1,4 +1,4 @@
-name: Birleşik kontrol
+name: Update MAN NORMAL TV 2025 M3U
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
