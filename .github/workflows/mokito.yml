@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add Birlesik.m3u
+          git add mokito.m3u
           git commit -m "Update mokito M3U" || echo "No changes to commit"
           git push
  - name: Commit and push Commit and push MAN NORMAL TV 2025.m3u
