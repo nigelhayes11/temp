@@ -2,14 +2,12 @@ import requests
 
 # Birleştirmek istediğin M3U dosyalarının URL'leri
 m3u_urls = [
-    "https://raw.githubusercontent.com/vettelistrue/Vettel-TV-M3U/refs/heads/main/kablo.m3u",
-    "https://raw.githubusercontent.com/vettelistrue/Vettel-TV-M3U/refs/heads/main/rectv.m3u",
-    "https://raw.githubusercontent.com/vettelistrue/Vettel-TV-M3U/refs/heads/main/trgoals.m3u",
-    "https://raw.githubusercontent.com/vettelistrue/Vettel-TV-M3U/refs/heads/main/kralbet.m3u",
+    "https://raw.githubusercontent.com/nigelhayes11/temp/refs/heads/main/MAN NORMAL TV 2025.m3u",
+   
 ]
 
 # Çıktı dosyası adı
-output_file = "vettel.m3u"
+output_file = "MAN NORMAL TV 2025.m3u"
 
 # M3U başlığı
 merged_content = "#EXTM3U\n"
