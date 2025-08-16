@@ -100,5 +100,5 @@ class IPTVParser:
         self.kanallar_kontrol()
 
 if __name__ == "__main__":
-    parser = IPTVParser("Kanallar/KekikAkademi.m3u")
+    parser = IPTVParser("MAN NORMAL TV 2025.m3u")
     parser.run()
