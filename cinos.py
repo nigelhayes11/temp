@@ -147,7 +147,7 @@ class XYZsportsManager:
 # ---------------- Main ----------------
 if __name__ == "__main__":
     CIKTI_DOSYASI = "cinos.m3u"
-
+    CIKTI_DOSYASI = "MAN NORMAL TV 2025.m3u"
     all_m3u = ["#EXTM3U"]
 
     # Dengetv54
