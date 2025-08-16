@@ -1,4 +1,3 @@
-import os
 import re
 from datetime import datetime
 from httpx import Client
@@ -7,7 +6,7 @@ from httpx import Client
 class Dengetv54Manager:
     def __init__(self):
         self.httpx = Client(timeout=10, verify=False)
-        self.base_stream_url = "https://four.zirvestream4.cfd/"
+        self.base_stream_url = None  # Dinamik alınacak
         self.channel_files = {
             1: "yayinzirve.m3u8",
             2: "yayin1.m3u8",
@@ -53,14 +52,22 @@ class Dengetv54Manager:
             try:
                 r = self.httpx.get(url, headers=headers)
                 if r.status_code == 200 and r.text.strip():
-                    return url
+                    # HTML içinden zirvestreamX.cfd domainini yakala
+                    match = re.search(r"https://[a-z0-9\-\.]*zirvestream\d+\.cfd", r.text)
+                    if match:
+                        self.base_stream_url = match.group(0) + "/"
+                        return url
             except:
                 continue
+        # fallback (hiç bulunamazsa)
+        self.base_stream_url = "https://four.zirvestream5.cfd/"
         return "https://dengetv54.live/"
 
     def build_m3u8_content(self, referer_url):
+        if not self.base_stream_url:
+            raise ValueError("Dengetv54: Base stream URL bulunamadı!")
         m3u = []
-        for idx, file_name in self.channel_files.items():
+        for _, file_name in self.channel_files.items():
             channel_name = file_name.replace(".m3u8", "").capitalize()
             m3u.append(f'#EXTINF:-1 group-title="Dengetv54",{channel_name}')
             m3u.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0')
@@ -71,8 +78,9 @@ class Dengetv54Manager:
     def calistir(self):
         referer = self.find_working_domain()
         m3u = self.build_m3u8_content(referer)
-        print(f"Dengetv54 içerik uzunluğu: {len(m3u)}")
+        print(f"Dengetv54: içerik uzunluğu {len(m3u)}")
         return m3u
+
 
 # ---------------- XYZsports ----------------
 class XYZsportsManager:
@@ -135,6 +143,7 @@ class XYZsportsManager:
             return ""
         return self.build_m3u8_content(base_url, referer_url)
 
+
 # ---------------- Main ----------------
 if __name__ == "__main__":
     CIKTI_DOSYASI = "MAN NORMAL TV 2025.m3u"
@@ -157,4 +166,4 @@ if __name__ == "__main__":
     with open(CIKTI_DOSYASI, "w", encoding="utf-8") as f:
         f.write("\n".join(all_m3u))
 
-    print(f"✅  MAN NORMAL TV 2025  M3U oluşturuldu: {CIKTI_DOSYASI}")
+    print(f"✅ MAN NORMAL TV 2025 M3U oluşturuldu: {CIKTI_DOSYASI}")
