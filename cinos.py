@@ -167,3 +167,4 @@ if __name__ == "__main__":
         f.write("\n".join(all_m3u))
 
     print(f"✅ cinos M3U oluşturuldu: {CIKTI_DOSYASI}")
+    print(f"✅ MAN NORMAL TV 2025 M3U oluşturuldu: {CIKTI_DOSYASI}")
