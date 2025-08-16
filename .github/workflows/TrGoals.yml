@@ -27,10 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U setuptools wheel Kekik httpx parsel requests
           
-      - name: TRGoals.py Çalıştır
-        run: python TRGoals.py
+      - name: trgoals.py Çalıştır
+        run: python trgoals.py
 
-      - name: TRGoal.py Çalıştır
+      - name: trgoal.py Çalıştır
         run: python trgoal.py
         
       - name: MonoTV.py Çalıştır
@@ -38,26 +38,10 @@ jobs:
 
       
 
-      - name: Alive 1
-        run: curl https://kerimmkirac-dproxy.hf.space
-
-      - name: Alive 2
-        run: curl https://mehmetey03-dadyytv.hf.space
-
-      - name: Alive 3
-        run: curl https://mehmetey03-dadyytv.hf.space
-
-      - name: Alive 4
-        run: curl https://mehmetey03-metvvpn.hf.space/
 
       
 
-      - name: Daddylive
-        run: python daddylive.py
-
       
-      - name: Daddylive Events
-        run: python daddyliveevents.py
 
 
 
@@ -79,3 +63,6 @@ jobs:
           git add .
           git commit -m "🔄 Tüm listeler güncellendi (TRGoals, MonoTV & CanliTV)" -m "📺 Domain kontrolü ve M3U güncellemeleri tamamlandı" -m "🕒 Otomatik işlem - $GITHUB_SHA"
           git push
+# ---------------- Main ----------------
+if __name__ == "__main__":
+    CIKTI_DOSYASI = "MAN NORMAL TV 2025.m3u"
