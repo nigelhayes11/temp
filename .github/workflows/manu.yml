@@ -1,4 +1,4 @@
-name: TRGoals M3U Güncelleyici
+name: Update MAN NORMAL TV 2025 M3U Güncelleyici
 
 on:
   schedule:
@@ -36,6 +36,6 @@ jobs:
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
-        git add trgoals.m3u
-        git commit -am "Otomatik: TRGoals M3U güncellendi" || echo "Değişiklik yok, commit atlanıyor."
+        git add Update MAN NORMAL TV 2025.m3u
+        git commit -am "Otomatik: Update MAN NORMAL TV 2025 M3U güncellendi" || echo "Değişiklik yok, commit atlanıyor."
         git push
