@@ -42,5 +42,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add MAN NORMAL TV 2025.m3u
-          git commit -m "Update cinos M3U" || echo "No changes to commit"
+          git commit -m "Update MAN NORMAL TV 2025 M3U" || echo "No changes to commit"
           git push
