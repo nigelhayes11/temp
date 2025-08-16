@@ -44,3 +44,6 @@ jobs:
           git add cinos.m3u
           git commit -m "Update cinos M3U" || echo "No changes to commit"
           git push
+           git add MAN NORMAL 2025.m3u
+          git commit -m "Update mAN NORMAL 2025 M3U" || echo "No changes to commit"
+          git push
