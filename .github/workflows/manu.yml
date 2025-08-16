@@ -1,0 +1,41 @@
+name: TRGoals M3U Güncelleyici
+
+on:
+  schedule:
+    # Her 3 saatte bir çalışır (örn: 00:00, 03:00, 06:00, ..., 21:00 UTC)
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    # Bu, GitHub arayüzünden manuel olarak çalıştırmana olanak tanır.
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Depoya yazma izni veriyoruz
+
+    steps:
+    - name: Depoyu Kopyala
+      uses: actions/checkout@v4
+
+    - name: Python Ortamını Kur
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Kullandığın Python sürümünü buraya yaz (örn: '3.9', '3.10', '3.11')
+
+    - name: Bağımlılıkları Yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install Kekik httpx parsel
+
+    - name: M3U Dosyasını Güncelle
+      run: |
+        python Pythonlar/trgoals.py # Python scriptinin dosya adını buraya yaz
+
+    - name: Değişiklikleri Git'e Kaydet (Commit)
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add trgoals.m3u
+        git commit -am "Otomatik: TRGoals M3U güncellendi" || echo "Değişiklik yok, commit atlanıyor."
+        git push
