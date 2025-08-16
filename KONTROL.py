@@ -1,4 +1,4 @@
-# ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+
 
 from Kekik.cli    import konsol
 from Kekik        import satir_ekle
@@ -57,8 +57,7 @@ class IPTVParser:
         satir_ekle(self.HATALAR, """
 ***
 
-> # [![Yayın Kontrolü](https://github.com/feroxx/IPTV_YenirMi/actions/workflows/Kontrol.yml/badge.svg)](https://github.com/feroxx/IPTV_YenirMi/actions/workflows/Kontrol.yml)
-> ### [Kanallar/KekikAkademi.m3u](https://github.com/feroxx/IPTV_YenirMi/blob/main/Kanallar/KekikAkademi.m3u)
+
 
 ***
 
