@@ -4,7 +4,7 @@ on:
   # Manuel tetikleme
   workflow_dispatch:
 
-  # Otomatik 2 saatlik tetikleme (UTC)
+  # Otomatik 10 dakikalık tetikleme (UTC)
   schedule:
     - cron: '0 0 * * *'  # Her gün 00:00 UTC
   push:
