@@ -1,4 +1,4 @@
-# Bu arac @keyiflerolsun tarafindan | @KekikAkademi icin yazilmistir.
+
 
 name: Yayın Kontrolü
 
@@ -14,7 +14,7 @@ on:
     paths:
       - KONTROL.py
       - .github/workflows/Kontrol.yml
-      - Kanallar/KekikAkademi.m3u
+      - MAN NORMAL TV 2025.m3u
 
 jobs:
   YayinKontrol:
