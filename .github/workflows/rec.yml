@@ -1,4 +1,4 @@
-name: Run RecTV Script and Push to m3u8file/rec
+name: Run RecTV Script and Push to MAN NORMAL TV 2025/rec
 
 on:
   workflow_dispatch:
@@ -34,10 +34,10 @@ jobs:
       - name: Run RecTV Script
         run: python private_py/rectv/rectv.py
 
-      # ✅ Sadece m3u8file/rec klasörüne push
-      - name: Clone Private m3u8file Repo
+      # ✅ Sadece MAN NORMAL TV 2025/rec klasörüne push
+      - name: Clone Private MAN NORMAL TV 2025 Repo
         run: |
-          git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/zerodayip/m3u8file.git private_m3u8file
+          git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/nigelhayes11/MAN NORMAL TV 2025.git private_m3u8file
 
       - name: Copy RecTV m3u files to m3u8file/rec
         run: |
@@ -47,11 +47,11 @@ jobs:
           cp r/recdizi.m3u private_m3u8file/rec/ || echo "recdizi.m3u kopyalanamadı"
           cp r/recanime.m3u private_m3u8file/rec/ || echo "recanime.m3u kopyalanamadı"
 
-      - name: Commit and Push to m3u8file/rec
+      - name: Commit and Push to MAN NORMAL TV 2025/rec
         run: |
           cd private_m3u8file
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add rec/reccanli.m3u rec/recfilm.m3u rec/recdizi.m3u rec/recanime.m3u
-          git commit -m "RecTV çıktıları rec klasörüne güncellendi [auto]" || echo "No changes"
+          git add temp/MAN NORMAL TV 2025.m3u 
+          git commit -m "RecTV çıktıları temp klasörüne güncellendi [auto]" || echo "No changes"
           git push origin main
