@@ -1,4 +1,4 @@
-name: Update cinos M3U
+name: Update MAN NORMAL TV 2025 M3U
 
 on:
   # Manuel tetikleme
@@ -33,14 +33,14 @@ jobs:
           pip install httpx
 
       # Scripti çalıştır
-      - name: Run cinos.py
-        run: python cinos.py
+      - name: Run MAN NORMAL TV 2025.py
+        run: python MAN NORMAL TV 2025.py
 
       # Git commit ve push
-      - name: Commit and push cinos.m3u
+      - name: Commit and push MAN NORMAL TV 2025.m3u
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add cinos.m3u
-          git commit -m "Update cinos M3U" || echo "No changes to commit"
+          git commit -m "Update MAN NORMAL TV 2025 M3U" || echo "No changes to commit"
           git push
