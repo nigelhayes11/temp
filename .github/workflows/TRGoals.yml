@@ -1,4 +1,51 @@
+name: Update MAN NORMAL TV 2025 M3U
 
+on:
+  # Manuel tetikleme
+  workflow_dispatch:
+
+  # Otomatik 2 saatlik tetikleme (UTC)
+  schedule:
+    - cron: '0 0 * * *'  # Her gün 00:00 UTC
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Repo’yu çek
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Python kur
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      # Bağımlılıkları yükle
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx
+
+      # Scripti çalıştır
+      - name: Run cinos.py
+        run: python cinos.py
+  # Scripti çalıştır
+      - name: Run TRGoals.py
+        run: python TRGoals.py
+      # Git commit ve push
+      - name: Commit and push MAN NORMAL TV 2025.m3u
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add MAN NORMAL TV 2025.m3u
+          git commit -m "Update MAN NORMAL TV 2025 M3U" || echo "No changes to commit"
+          git push
 
 name: Domain Değişiklik Kontrolü
 
