@@ -1,3 +1,21 @@
+name: Update MAN NORMAL TV 2025 M3U
+
+on:
+  # Manuel tetikleme
+  workflow_dispatch:
+
+  # Otomatik 10 dakikalık tetikleme (UTC)
+  schedule:
+    - cron: '0 0 * * *'  # Her gün 00:00 UTC
+  push:
+    branches:
+      - main
+
+
+
+
+
+
 name: Birleşik kontrol
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
