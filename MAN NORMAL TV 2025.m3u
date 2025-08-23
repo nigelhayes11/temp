@@ -1957,11 +1957,11 @@ https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv51.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",REC A
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf21-2c8.workers.dev/static/bs1.m3u8?ad=random?token=rX2ArvcJTEvbWEnPmhW8Xg&tms=1755935136
+https://1.cf21-2c8.workers.dev/static/bs1.m3u8?ad=random?token=tGY9ZEjsZvcAjUTyaoXk8w&tms=1756057752
 #EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv51.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",REC B
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf21-2c8.workers.dev/static/bs11.m3u8?ad=random?token=rX2ArvcJTEvbWEnPmhW8Xg&tms=1755935136
+https://1.cf21-2c8.workers.dev/static/bs11.m3u8?ad=random?token=tGY9ZEjsZvcAjUTyaoXk8w&tms=1756057752
 
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Yayinzirve
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1989,10 +1989,21 @@ http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.netsportv219.top/
 https://corestream.corestream.lat//hls/bein-sports-1.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",ALİKOCCC
+#EXTVLCOPT:http-referrer=https://www.netsportv219.top/
+https://corestream.corestream.lat//hls/bein-sports-1.m3u8
+https://hlssssssssss.alikoctanju.workers.dev/https://corestream.corestream.lat//hls/bein-sports-1.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BNOW
 #EXTVLCOPT:http-referrer=https://jestyayin941.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://king.normanud.shop/M831746/M831746.m3u8
+https://king.nurhansd.shop/M847097/M847097.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BNOW B
+#EXTVLCOPT:http-referrer=https://jestyayin941.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://king.nurhansd.shop/M817817/M817817.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",TRGOAL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
