@@ -7,7 +7,7 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="TR:SHOW TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/showtv.png" group-title="📺TV KANALLARI FULL📺",TR:SHOW TV HD
 https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8
 #EXTINF:-1 tvg-id="StarTV.tr" tvg-name="TR:STAR TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/startv.png" group-title="📺TV KANALLARI FULL📺",TR:STAR TV HD
-https://dogus-live.daioncdn.net/startv/startv_1080p.m3u8
+https://dogus.daioncdn.net/startv/startv_720p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="TR:KANAL D HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/kanald.png" group-title="📺TV KANALLARI FULL📺",TR:KANAL D HD
 https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
 #EXTINF:-1 tvg-id="Now.tr" tvg-name="TR:NOW HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/fox.png" group-title="📺TV KANALLARI FULL📺",TR:NOW A
@@ -20,7 +20,7 @@ https://trn03.tulix.tv/gt-fox-turk-tv/index.m3u8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTINF:-1 tvg-id="TV85.tr" tvg-name="TR:TV 8.5 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/tv85.png" group-title="📺TV KANALLARI FULL📺",TR:TV 8.5 HD
 https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
-#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="📺TV KANALLARI FULL📺",TR:BEYAZ TV HD
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="TR:BEYAZ TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/beyaz.png" group-title="📺TV KANALLARI FULL📺",TR:BEYAZ TV 
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 #EXTINF:-1 tvg-id="360.tr" tvg-name="TR:360 TV HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/360tv.png" group-title="📺TV KANALLARI FULL📺",TR:360 TV HD
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
@@ -1310,27 +1310,27 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 1 KABLOTV
-https://kablosistem.vercel.app/index.m3u8?id=113
+https://king.maorkoso.shop/M970499/M970499.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 2 KABLOTV
-https://kablosistem.vercel.app/index.m3u8?id=114
+https://king.maorkoso.shop/M817817/M817817.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",SSP1 REC
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://bs.arectv31.sbs/static/ss11.m3u8
+https://1.cf29-2c8.workers.dev/static/ss11.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",SSP2 REC
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://bs.arectv31.sbs/static/ss2.m3u8
+https://1.cf29-2c8.workers.dev/static/ss2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 1
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://lively1.cf4-86.workers.dev/static/pl1.m3u8
+https://1.cf29-2c8.workers.dev/static/pl1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 2
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://lively1.cf4-86.workers.dev/static/pl2.m3u8
+https://1.cf29-2c8.workers.dev/static/pl2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 3
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://lively1.cf4-86.workers.dev/static/pl3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 4
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://lively1.cf4-86.workers.dev/static/pl4.m3u8
+https://1.cf29-2c8.workers.dev/static/pl4.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" "group-title="👑Ş.LİGİ UEFA TABİ👑",TABİ SPOR
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
@@ -1354,17 +1354,17 @@ https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Yayinzirve
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayinzirve.m3u8
+https://three.zirvestream13.cfd/yayinzirve.m3u8
 
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Yayin1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayin1.m3u8
+https://three.zirvestream13.cfd/yayin1.m3u8
 
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",Yayininat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayininat.m3u8
+https://three.zirvestream13.cfd/yayininat.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
@@ -1373,10 +1373,7 @@ https://35mumdur.shop/701/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEİN 95
 http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",NEWB1
-#EXTVLCOPT:http-referrer=https://akintv2.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",NETSPOR
 #EXTVLCOPT:http-referrer=https://www.netsportv219.top/
@@ -1384,7 +1381,7 @@ https://corestream.corestream.lat//hls/bein-sports-1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",NET2
 #EXTVLCOPT:http-referrer=https://www.netsportv219.top/
-https://hlssssss.forlamana.workers.dev/https://corestream.corestream.lat//hls/bein-sports-1.m3u8
+https://hlssssssssss.gumgumatiyorkalbim.workers.dev/https://corestream.corestream.lat//hls/bein-sports-1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BNOW
 #EXTVLCOPT:http-referrer=https://jestyayin941.com/
@@ -1400,11 +1397,11 @@ https://king.nurhansd.shop/M817817/M817817.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",TRGOAL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1357.xyz/
-https://three.4928d54d950ee70q33.lat/yayin1.m3u8
+https://five.4928d54d950ee70q35.lat/yayin1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",trgolb
 #EXTVLCOPT:http-referrer=https://inattv1070.xyz/
-https://three.4928d54d950ee70q33.lat/yayinzirve.m3u8
+https://five.4928d54d950ee70q35.lat/yayinzirve.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",ANDRO
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
@@ -1427,34 +1424,39 @@ https://hgbbg.cfd/cdn/bein_sports_1_hd/main.m3u8
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",XYZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.xyzsports250.xyz/
-https://one.c37c5ccda41b4ac6.click/live/bein-sports-1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/bein-sports-1/playlist.m3u8
 
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",SELL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports1/playlist.m3u8
 
+
+#EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",SELL2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://one.bb8b40ab87119249.click/live/selcukobs1/playlist.m3u8
 
 #EXTINF:-1 group-title="🇩🇪⚽ALMANYA LİGİ TİVİBU🇩🇪⚽",TİVİBU1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayint1.m3u8
+https://three.zirvestream13.cfd/yayint1.m3u8
 
 #EXTINF:-1 group-title="🇩🇪⚽ALMANYA LİGİ TİVİBU🇩🇪⚽",TİVİBU2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayint2.m3u8
+https://three.zirvestream13.cfd/yayint2.m3u8
 
 
 #EXTINF:-1 group-title="🇩🇪⚽ALMANYA LİGİ TİVİBU🇩🇪⚽",TİVİBU3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayint3.m3u8
+https://three.zirvestream13.cfd/yayint3.m3u8
 
 #EXTINF:-1 group-title="🇩🇪⚽ALMANYA LİGİ TİVİBU🇩🇪⚽",TİVİBU4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://dengetv54.live/
-https://two.zirvestream12.cfd/yayint4.m3u8
+https://three.zirvestream13.cfd/yayint4.m3u8
 
 
 
@@ -1817,27 +1819,27 @@ https://goldvod.org/tv/vavoo?id=22126598207be09810152c
 #EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs1.m3u8
+https://1.cf29-2c8.workers.dev/static/bs1.m3u8
 #EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs11.m3u8
+https://1.cf29-2c8.workers.dev/static/bs11.m3u8
 #EXTINF:-1 tvg-id="148" tvg-name="Bein Sports 2" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs2.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/bs2.m3u8?ad=random
 #EXTINF:-1 tvg-id="147" tvg-name="Bein Sports 3" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 3
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs3.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/bs3.m3u8?ad=random
 #EXTINF:-1 tvg-id="146" tvg-name="Bein Sports 4" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 4
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs4.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/bs4.m3u8?ad=random
 #EXTINF:-1 tvg-id="145" tvg-name="Bein Sports 5" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports 5
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/bs5.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/bs5.m3u8?ad=random
 #EXTINF:-1 tvg-id="144" tvg-name="Bein Sports Max 1" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png" group-title="🔴Rec🔴MNK FULL SPOR", Bein Sports Max 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
@@ -1849,43 +1851,43 @@ https://tv.arectv34.sbs/live/bm2.m3u8?ad=random
 #EXTINF:-1 tvg-id="141" tvg-name="S SPORT 1" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/29b3ca0f04190b3727b3d8255cbb5d2a.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S SPORT 1
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/ss11.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/ss11.m3u8?ad=random
 #EXTINF:-1 tvg-id="140" tvg-name="S SPORT 2" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/46e2f65ec582fdbc8edfd01899eca2a1.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S SPORT 2
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/ss2.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/ss2.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl1.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl1.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl2.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl2.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl3.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl3.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl4.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl4.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl5.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl5.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl6.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl6.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl7.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl7.m3u8?ad=random
 #EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="🔴Rec🔴MNK FULL SPOR", S Sport Plus
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf25-2c8.workers.dev/static/pl8.m3u8?ad=random
+https://1.cf29-2c8.workers.dev/static/pl8.m3u8?ad=random
 #EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="🔴Rec🔴MNK FULL SPOR", TABİİ SPOR
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
@@ -1992,185 +1994,185 @@ https://trt.daioncdn.net/trt-1/master.m3u8?app=web&
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD (VIP)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinzirve.m3u8
+https://five.4928d54d950ee70q35.lat/yayinzirve.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",Bein Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayin1.m3u8
+https://five.4928d54d950ee70q35.lat/yayin1.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports2.tr" tvg-name="Bein Sports 2 HD",Bein Sports 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinb2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinb2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports3.tr" tvg-name="Bein Sports 3 HD",Bein Sports 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinb3.m3u8
+https://five.4928d54d950ee70q35.lat/yayinb3.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports4.tr" tvg-name="Bein Sports 4 HD",Bein Sports 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinb4.m3u8
+https://five.4928d54d950ee70q35.lat/yayinb4.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinSports5.tr" tvg-name="Bein Sports 5 HD",Bein Sports 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinb5.m3u8
+https://five.4928d54d950ee70q35.lat/yayinb5.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinMax1.tr" tvg-name="Bein Max 1 HD",Bein Max 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinbm1.m3u8
+https://five.4928d54d950ee70q35.lat/yayinbm1.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="BeinMax2.tr" tvg-name="Bein Max 2 HD",Bein Max 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinbm2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinbm2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="SSport1.tr" tvg-name="S Sport 1 HD",S Sport 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinss.m3u8
+https://five.4928d54d950ee70q35.lat/yayinss.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="SSport2.tr" tvg-name="S Sport 2 HD",S Sport 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinss2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinss2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="SSportPlus.tr" tvg-name="S Sport Plus HD",S Sport Plus HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinssp2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinssp2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TivibuSpor1.tr" tvg-name="Tivibu Spor 1 HD",Tivibu Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayint1.m3u8
+https://five.4928d54d950ee70q35.lat/yayint1.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",Tivibu Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayint2.m3u8
+https://five.4928d54d950ee70q35.lat/yayint2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TivibuSpor3.tr" tvg-name="Tivibu Spor 3 HD",Tivibu Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayint3.m3u8
+https://five.4928d54d950ee70q35.lat/yayint3.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="SmartSpor1.tr" tvg-name="Smart Spor 1 HD",Smart Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinsmarts.m3u8
+https://five.4928d54d950ee70q35.lat/yayinsmarts.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="SmartSpor2.tr" tvg-name="Smart Spor 2 HD",Smart Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinsms2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinsms2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TRTSpor.tr" tvg-name="TRT Spor HD",TRT Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayintrtspor.m3u8
+https://five.4928d54d950ee70q35.lat/yayintrtspor.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız HD",TRT Spor Yıldız HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayintrtspor2.m3u8
+https://five.4928d54d950ee70q35.lat/yayintrtspor2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ASpor.tr" tvg-name="A Spor HD",A Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinas.m3u8
+https://five.4928d54d950ee70q35.lat/yayinas.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ATV.tr" tvg-name="ATV HD",ATV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinatv.m3u8
+https://five.4928d54d950ee70q35.lat/yayinatv.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TV8.tr" tvg-name="TV8 HD",TV8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayintv8.m3u8
+https://five.4928d54d950ee70q35.lat/yayintv8.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="TV85.tr" tvg-name="TV8.5 HD",TV8.5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayintv85.m3u8
+https://five.4928d54d950ee70q35.lat/yayintv85.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="NBATV.tr" tvg-name="NBA TV HD",NBA TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinnbatv.m3u8
+https://five.4928d54d950ee70q35.lat/yayinnbatv.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor1.tr" tvg-name="Exxen Spor 1 HD",Exxen Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex1.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex1.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor2.tr" tvg-name="Exxen Spor 2 HD",Exxen Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex2.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex2.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor3.tr" tvg-name="Exxen Spor 3 HD",Exxen Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex3.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex3.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor4.tr" tvg-name="Exxen Spor 4 HD",Exxen Spor 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex4.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex4.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor5.tr" tvg-name="Exxen Spor 5 HD",Exxen Spor 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex5.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex5.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor6.tr" tvg-name="Exxen Spor 6 HD",Exxen Spor 6 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex6.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex6.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor7.tr" tvg-name="Exxen Spor 7 HD",Exxen Spor 7 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex7.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex7.m3u8
 #EXTINF:-1 group-title="🥷TRG⚽L SPOR FULL🥷" tvg-id="ExxenSpor8.tr" tvg-name="Exxen Spor 8 HD",Exxen Spor 8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
-https://three.4928d54d950ee70q33.lat/yayinex8.m3u8
+https://five.4928d54d950ee70q35.lat/yayinex8.m3u8
 
 🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="🍊MNK FULL SPOR 3🍊",*SELCUKSPOR*
-#EXTVLCOPT:http-referrer=https://124dumantv.com/
+#EXTVLCOPT:http-referrer=ht
 #EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports1/playlist.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BeIN Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports2/playlist.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BeIN Sports 3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports 3
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports3/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports3/playlist.m3u8
 #EXTINF:-1 tvg-id="bein4" tvg-name="BeIN Sports 4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports 4
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports4/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="bein5" tvg-name="BeIN Sports 5" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_5_US.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports 5
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsports5/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsports5/playlist.m3u8
 #EXTINF:-1 tvg-id="beinmax1" tvg-name="BeIN Sports Max 1" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports Max 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsportsmax1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsportsmax1/playlist.m3u8
 #EXTINF:-1 tvg-id="beinmax2" tvg-name="BeIN Sports Max 2" tvg-logo="http://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="🥷SELÇUK SPOR FULL🥷",BeIN Sports Max 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukbeinsportsmax2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukbeinsportsmax2/playlist.m3u8
 #EXTINF:-1 tvg-id="tivibu1" tvg-name="Tivibu Spor 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png" group-title="🥷SELÇUK SPOR FULL🥷",Tivibu Spor 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuktivibuspor1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuktivibuspor1/playlist.m3u8
 #EXTINF:-1 tvg-id="tivibu2" tvg-name="Tivibu Spor 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/kuasdm1642604455.png" group-title="🥷SELÇUK SPOR FULL🥷",Tivibu Spor 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuktivibuspor2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="tivibu3" tvg-name="Tivibu Spor 3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/slwrz41642604502.png" group-title="🥷SELÇUK SPOR FULL🥷",Tivibu Spor 3
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuktivibuspor3/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuktivibuspor3/playlist.m3u8
 #EXTINF:-1 tvg-id="tivibu4" tvg-name="Tivibu Spor 4" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png" group-title="🥷SELÇUK SPOR FULL🥷",Tivibu Spor 4
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuktivibuspor4/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuktivibuspor4/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport1" tvg-name="S Sport 1" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="🥷SELÇUK SPOR FULL🥷",S Sport 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukssport/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukssport/playlist.m3u8
 #EXTINF:-1 tvg-id="ssport2" tvg-name="S Sport 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="🥷SELÇUK SPOR FULL🥷",S Sport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukssport2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukssport2/playlist.m3u8
 #EXTINF:-1 tvg-id="smart1" tvg-name="Smart Spor 1" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png" group-title="🥷SELÇUK SPOR FULL🥷",Smart Spor 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuksmartspor/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuksmartspor/playlist.m3u8
 #EXTINF:-1 tvg-id="smart2" tvg-name="Smart Spor 2" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png" group-title="🥷SELÇUK SPOR FULL🥷",Smart Spor 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcuksmartspor2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcuksmartspor2/playlist.m3u8
 #EXTINF:-1 tvg-id="aspor" tvg-name="A Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="🥷SELÇUK SPOR FULL🥷",A Spor
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukaspor/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukaspor/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport1" tvg-name="Eurosport 1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="🥷SELÇUK SPOR FULL🥷",Eurosport 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukeurosport1/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukeurosport1/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport2" tvg-name="Eurosport 2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="🥷SELÇUK SPOR FULL🥷",Eurosport 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://one.c37c5ccda41b4ac6.click/live/selcukeurosport2/playlist.m3u8
+https://one.bb8b40ab87119249.click/live/selcukeurosport2/playlist.m3u8
 
 🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀
 
@@ -2217,154 +2219,28 @@ https://35mumdur.shop/713/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🍔MNK FULL SPOR 5🍔",*JEST TV*
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 HD " tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS 1 HD 
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinzirve.m3u8
+https://three.zirvestream13.cfd/yayinzirve.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS 2 HD
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinb2.m3u8
+https://three.zirvestream13.cfd/yayinb2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS 3 HD
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinb3.m3u8
+https://three.zirvestream13.cfd/yayinb3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HD" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS 4 HD
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinb4.m3u8
+https://three.zirvestream13.cfd/yayinb4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 5 HD" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS 5 HD
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinb5.m3u8
+https://three.zirvestream13.cfd/yayinb5.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M1" tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS M1
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinbm1.m3u8
+https://three.zirvestream13.cfd/yayinbm1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS M2" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="🍔MNK FULL SPOR 5🍔",BEIN SPORTS M2 
 #EXTVLCOPT:http-referrer=https://jestyayin940.com/
-https://two.zirvestream12.cfd/yayinbm2.m3u8
+https://three.zirvestream13.cfd/yayinbm2.m3u8
 
 
 
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD 🙊" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 2 HD 🙊
-https://www.vavoo.to/play/2509466191/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD 🐬" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 2 HD 🐬
-https://www.vavoo.to/play/1447241506/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD 🐎" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 2 HD 🐎
-https://www.vavoo.to/play/2851539143/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD 🐠" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 2 HD 🐠
-https://www.vavoo.to/play/3236362911/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 2 HD 🐙" tvg-logo="http://72register34.com/logos/beins2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 2 HD 🐙
-https://www.vavoo.to/play/3694662475/index.m3u8
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD 🐛" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 3 HD 🐛
-https://www.vavoo.to/play/2834514943/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD 🐶" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 3 HD 🐶
-https://www.vavoo.to/play/1797459602/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD 🐺" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 3 HD 🐺
-https://www.vavoo.to/play/1700595801/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD 🐱" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 3 HD 🐱 
-https://www.vavoo.to/play/206371329/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 3 HD 🐸" tvg-logo="http://72register34.com/logos/bein3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 3 HD 🐸
-https://www.vavoo.to/play/3410167560/index.m3u8
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HD 🐯 " tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 4 HD🐯
-https://www.vavoo.to/play/450076655/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HD 🐨" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 4 HD 🐨
-https://www.vavoo.to/play/3640906370/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HD 🐻" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 4 HD 🐻
-https://www.vavoo.to/play/1872232768/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 4 HD 🐒" tvg-logo="http://72register34.com/logos/bein4hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 4 HD 🐒
-https://www.vavoo.to/play/2938268353/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 6 HD 🐴" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 5 HD 🐴
-https://www.vavoo.to/play/1230448192/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 6 HD 🐑" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 5HD 🐑
-https://www.vavoo.to/play/3831757618/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 6 HD 🐼" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 5 HD 🐼
-https://www.vavoo.to/play/4000315601/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 6 HD 🐧" tvg-logo="http://72register34.com/logos/bein5hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS 5 HD 🐧
-https://www.vavoo.to/play/2737963486/index.m3u8
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 1 🐦" tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 1 🐦
-https://www.vavoo.to/play/2832430535/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 1 🐤" tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 1 🐤
-https://www.vavoo.to/play/1221587067/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 1 🐣" tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 1 🐣
-https://www.vavoo.to/play/4071474743/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 1 🐔" tvg-logo="https://i.imgur.com/2lHI2Dn.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 1 🐔
-https://www.vavoo.to/play/225281423/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2 🐍" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 2 🐍
-https://www.vavoo.to/play/4017295127/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2 🐢" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 2 🐢
-https://www.vavoo.to/play/258968235/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2 🐞" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 2 🐞 
-https://www.vavoo.to/play/3407936242/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 2 🐲" tvg-logo="https://i.imgur.com/rS9nkZE.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",BEIN SPORTS MAX 2 🐲
-https://www.vavoo.to/play/2212659820/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS A" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 1 A
-https://vavoo.to/play/3962972352/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS B" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 1 B
-https://vavoo.to/play/3718336295/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS C" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 1 C
-https://vavoo.to/play/3346549722/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS D" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 1 D
-https://vavoo.to/play/919993168/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS E" tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 1 E
-https://vavoo.to/play/2559756791/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS 2" tvg-logo="http://72register34.com/logos/ssport2hd.png"group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",S SPORTS 2
-https://vavoo.to/play/1313768516/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="SMART SPOR--" tvg-logo="http://72register34.com/logos/sporsmarthd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",SMARTS SPOR--
-https://vavoo.to/play/1771511397/index.m3u8
-
-
-#EXTINF:-1 tvg-id="" tvg-name="💥💥💥💥💥💥💥💥" tvg-logo="http://72register34.com/logos/bein1-hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",💥💥💥💥💥💥💥💥
-https://www.vavoo.to/play/143239535/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 1" tvg-logo="http://72register34.com/logos/tivibuspor1hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",TIVIBU SPOR 1
-https://www.vavoo.to/play/2565972338/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 2" tvg-logo="http://72register34.com/logos/tivibuspor2hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",TIVIBU SPOR 2
-https://www.vavoo.to/play/3746683810/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TIVIBU SPOR 3" tvg-logo="http://72register34.com/logos/tivibuspor3hd.png" group-title="🔓 FULL SPOR VAVOO (VPN) 🔓",TIVIBU SPOR 3
-https://www.vavoo.to/play/3794924050/index.m3u8
 
 
 🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀
