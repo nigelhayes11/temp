@@ -1,5 +1,55 @@
 #EXTM3U
-
+#EXTM3U
+#EXTINF:0,trt1
+https://live-cdn-65984.varplaycdn.cfd/trt1/index.m3u8
+#EXTINF:0,kanald
+https://live-cdn-65984.varplaycdn.cfd/kanald/index.m3u8
+#EXTINF:0,startv
+https://live-cdn-65984.varplaycdn.cfd/startv/index.m3u8
+#EXTINF:0,atv
+https://live-cdn-65984.varplaycdn.cfd/atv/index.m3u8
+#EXTINF:0,show
+https://live-cdn-65984.varplaycdn.cfd/showtv/index.m3u8
+#EXTINF:0,now
+https://live-cdn-65984.varplaycdn.cfd/nowtv/index.m3u8
+#EXTINF:0,tv8
+https://live-cdn-65984.varplaycdn.cfd/tv8/index.m3u8
+#EXTINF:0,tv85
+https://live-cdn-65984.varplaycdn.cfd/tv85/index.m3u8
+#EXTINF:0,teve2
+https://live-cdn-65984.varplaycdn.cfd/teve2/index.m3u8
+#EXTINF:0,beyaz tv
+https://live-cdn-65984.varplaycdn.cfd/beyaztv/index.m3u8
+#EXTINF:0,kanal7
+https://live-cdn-65984.varplaycdn.cfd/kanal7/index.m3u8
+#EXTINF:0,360 tv
+https://live-cdn-65984.varplaycdn.cfd/360/index.m3u8
+#EXTINF:-1,Bein-Sport 1 HD
+https://live-cdn-65984.varplaycdn.cfd/601/index.m3u8
+#EXTINF:-1,Bein-Sport 2 HD
+https://live-cdn-65984.varplaycdn.cfd/602/index.m3u8
+#EXTINF:-1,Bein-Sport 3 HD
+https://live-cdn-65984.varplaycdn.cfd/603/index.m3u8
+#EXTINF:-1,Bein-Sport 4 HD
+https://live-cdn-65984.varplaycdn.cfd/604/index.m3u8
+#EXTINF:-1,Bein-Sport 5 HD
+https://live-cdn-65984.varplaycdn.cfd/605/index.m3u8
+#EXTINF:-1,S Sport HD
+https://live-cdn-65984.varplaycdn.cfd/607/index.m3u8
+#EXTINF:-1,S Sport 2 HD
+https://live-cdn-65984.varplaycdn.cfd/608/index.m3u8
+#EXTINF:-1,SPOR Smart HD
+https://live-cdn-65984.varplaycdn.cfd/609/index.m3u8
+#EXTINF:-1,SPOR Smart 2 HD
+https://live-cdn-65984.varplaycdn.cfd/610/index.m3u8
+#EXTINF:-1,Tivibu Spor 1
+https://live-cdn-65984.varplaycdn.cfd/701/index.m3u8
+#EXTINF:-1,Tivibu Spor 2
+https://live-cdn-65984.varplaycdn.cfd/702/index.m3u8
+#EXTINF:-1,Tivibu Spor 3
+https://live-cdn-65984.varplaycdn.cfd/703/index.m3u8
+#EXTINF:-1,Tivibu Spor 4
+https://live-cdn-65984.varplaycdn.cfd/704/index.m3u8
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #EXTINF:-1 group-title="🌍TRT 1 AVRUPA🌍" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",TRTJEST
