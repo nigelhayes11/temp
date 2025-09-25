@@ -1553,7 +1553,10 @@ https://skjhj.cfd/cdn/s_sports_1_hd/main.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
 https://skjhj.cfd/cdn/s_sports_2_hd/main.m3u8
 
-
+#EXTINF:-1 group-title="⚽MNK FULL SPOR ⚽" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",TABİ SPOR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
+https://skjhj.cfd/cdn/tabii_spor_hd/main.m3u8
 #EXTINF:-1 group-title="⚽MNK FULL SPOR ⚽" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",TABİ 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
