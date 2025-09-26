@@ -1,7 +1,10 @@
 #EXTM3U
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+#EXTINF:-1 tvg-logo="https://digiturkpaketler.com/img/kanallar/bein-sports-hd-1.png" group-title="BEIN SPORTS KANALLARI", BEIN SPORTS 1 (3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko, m3u-ip.tv 2.2.4) Chrome/132.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://yakatv9.live/
+https://pasgoliptv34.site/701/mono.m3u8
 #EXTINF:-1 group-title="🌍TRT 1 AVRUPA🌍" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",TRTJEST
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
