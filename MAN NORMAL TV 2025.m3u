@@ -1332,6 +1332,10 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 1 KABLOTV
+#EXTVLCOPT:http-referrer=https://jestyayin941.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://jestyayin941.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://king.akormakd.shop/M206054/M206054.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 2 KABLOTV
 https://king.akormakd.shop/M648317/M648317.m3u8
@@ -1349,16 +1353,11 @@ https://bs.arectv33.sbs/static/pl1.m3u8
 https://bs.arectv33.sbs/static/pl2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 3
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://lively1.cf4-86.workers.dev/static/pl3.m3u8
+https://bs.arectv33.sbs/static/pl3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S plus 4
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://bs.arectv33.sbs/static/pl4.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",bein
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://bs.arectv33.sbs/static/bs11.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",beinb
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://bs.arectv33.sbs/static/bs1.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" "group-title="👑Ş.LİGİ UEFA TABİ👑",TABİ SPOR
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 1 (1080)" tvg-logo="https://i.imgur.com/QaBZS0C.png" "group-title="👑Ş.LİGİ UEFA TABİ👑",TABİ SPOR 1
