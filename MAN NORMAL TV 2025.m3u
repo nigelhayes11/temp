@@ -1306,8 +1306,9 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo=""tvg-id="" group-title="⚡️SPOR TV KANALLARI⚡️",TRT SPOR YILDIZ
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo=""tvg-id="" group-title="⚡️SPOR TV KANALLARI⚡️",FB TV
+#EXTINF:0 tvg-logo=""tvg-id="" group-title="⚡️SPOR TV KANALLARI⚡️",TJK TV
 https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/chunklist.m3u8
-
+https://tjktv-live.tjk.org/tjktv/tjktv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 1 KABLOTV
 #EXTVLCOPT:http-referrer=https://jestyayin941.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
