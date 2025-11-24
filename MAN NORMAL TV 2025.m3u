@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="S Sport 1 | A" tvg-logo="https://img.dsmartgo.com.tr/content/D/G-/13120/Thumbnail.png" group-title="InatBox - Spor Kanalları",S Sport 1 | A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.108 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com/
+https://redzones.icu/ssp/01.m3u8?md5=nDawPQQSKPPiMD-86PvirQ&expires=1762100564
+#EXTINF:-1 tvg-name="S Sport 1 | B" tvg-logo="https://img.dsmartgo.com.tr/content/D/G-/13120/Thumbnail.png" group-title="InatBox - Spor Kanalları",S Sport 1 | B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.108 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com/
+https://xenonal.cfd/static/ssp01/index.mpd?md5=nDawPQQSKPPiMD-86PvirQ&expires=1762100564
+#EXTINF:-1 tvg-name="S Sport 2 | A" tvg-logo="https://img.dsmartgo.com.tr/content/t/VK/20856/Thumbnail.png" group-title="InatBox - Spor Kanalları",S Sport 2 | A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.108 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com/
+https://redzones.icu/ssp/02.m3u8?md5=TNnCDJV3yGJHsyqWW9Wnvg&expires=1762100563
+#EXTINF:-1 tvg-name="S Sport 2 | B" tvg-logo="https://img.dsmartgo.com.tr/content/t/VK/20856/Thumbnail.png" group-title="InatBox - Spor Kanalları",S Sport 2 | B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.108 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com/
+https://xenonal.cfd/static/ssp02/index.mpd?md5=nDawPQQSKPPiMD-86PvirQ&expires=1762100564
 #EXTINF:-1 group-title="🌍TRT 1 AVRUPA🌍" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",BİRAZ TRT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
