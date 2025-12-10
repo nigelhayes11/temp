@@ -49,7 +49,10 @@ https://andro.226503.xyz/checklist/androstreamlivebiraztrt1.m3u8
 https://jkjgg.cfd/trt_1_hd/main.m3u8
 
 
-
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="📺TV1",TR:TRT1a
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://trgoals1369.xyz/
+https://jkjgg.cfd/trt_1_hd/main.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TR:TRT 1 HD" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/trt1.png" group-title="📺TV KANALLARI FULL📺",TR:TRT 1 HD
 https://trt.daioncdn.net/trt-1/master_1440p.m3u8?&sid=7vuki2pr4rhb&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="TR:ATV HQ" tvg-logo="https://i0.wp.com/resim.yayins.com/ulusal/atv.png" group-title="📺TV KANALLARI FULL📺",TR:ATV HQ
