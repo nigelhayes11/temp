@@ -1,45 +1,46 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵, ATV 1
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵", ATV 1
 http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵, ATV 2
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵", ATV 2
 http://89.187.191.41/ATV-HD-TR/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵, ATV 2
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵", ATV 2
 http://95.174.71.114/TR-ATV/index.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵, ATV 4K
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵", ATV 4K
 http://line.8k-ott.xyz:80/play/live.php?mac=00:1A:79:10:01:7C&stream=912479&extension=ts&play_token=8o7u4FVB6m
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912455.png" group-title="🔴🟡GS-FB🟡🔵,TR| ATV HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912455.png" group-title="🔴🟡GS-FB🟡🔵",TR| ATV HD
 http://line.8k-ott.xyz:80/play/live.php?mac=00:1A:79:10:01:7C&stream=912455&extension=ts&play_token=YjzYO7zcGe
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv biraz
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv biraz
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 13; Samsung F1833B Build/TP1A.280629.015)
 https://andro.226503.xyz/checklist/androstreamliveatv.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv gol
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv gol
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ogr.d72577a9dd0ec6.sbs/yayinatv.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv orj
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv orj
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://trkvz.daioncdn.net/atv/atv.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv hq
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv hq
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 http://89.187.191.41/ATV-HD-TR/video.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv a
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv a
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv b
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv b
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv c
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv c
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://trkvz-live.daioncdn.net/atv/atv.m3u8
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵,atv d
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/912479.png" group-title="🔴🟡GS-FB🟡🔵",atv d
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://trkvz.daioncdn.net/atv/atv.m3u8?app=d1ce2d40-5256-4550-b02e-e73c185a314e
+
 
 #EXTINF:-1 tvg-id="" tvg-name="TRT 1 Andro" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="🌍TRT  AVRUPA🌍",TRT 1 Andro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
