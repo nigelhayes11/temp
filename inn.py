@@ -1,83 +1,131 @@
 import requests
 import re
+import sys
 
-# M3U içeriği
-m3u_content = "#EXTM3U\n"
-
-# Trgoals domain kontrol
-base = "https://trgoals"
-domain = ""
-
-for i in range(1470, 2101):
-    test_domain = f"{base}{i}.xyz"
+def main():
     try:
-        response = requests.head(test_domain, timeout=3)
-        if response.status_code == 200:
-            domain = test_domain
-            break
-    except:
-        continue
-
-if not domain:
-    print("Çalışır bir domain bulunamadı.")
-    exit()
-
-# YAPILAN DEĞİŞİKLİK BURADA:
-# Artık formatımız şu şekilde -> "id": ["Kanal İsmi", "Grup İsmi"]
-channel_ids = {
-    "yayinzirve": ["beIN Sports 1 A", "Goals TV"],
-    "yayininat":  ["beIN Sports 1 B", "Goals TV"],
-    "yayin1":     ["beIN Sports 1 C️", "Goals TV"],
-    "yayinb2":    ["beIN Sports 2", "Goals TV"],
-    "yayinb3":    ["beIN Sports 3", "Goals TV"],
-    "yayinb4":    ["beIN Sports 4", "Goals TV"],
-    "yayinb5":    ["beIN Sports 5", "Goals TV"],
-    "yayinbm1":   ["beIN Sports 1 Max", "Goals TV"],
-    "yayinbm2":   ["beIN Sports 2 Max", "Goals TV"],
-    "yayinss":    ["S Sports 1", "Goals TV"],
-    "yayinss2":   ["S Sports 2", "Goals TV"],
-    "yayint1":    ["Tivibu Sports 1", "Goals TV"],
-    "yayint2":    ["Tivibu Sports 2", "Goals TV"],
-    "yayint3":    ["Tivibu Sports 3", "Goals TV"],
-    "yayint4":    ["Tivibu Sports 4", "Goals TV"],
-    "yayinsmarts":["Smart Sports", "Goals TV"],
-    "yayinsms2":  ["Smart Sports 2", "Goals TV"],
-    "yayineu1":  ["Euro Sport 1", "Goals TV"],
-    "yayineu2":  ["Euro Sport 2", "Goals TV"],
-    "yayinex1":   ["Tâbii 1", "Goals TV"],
-    "yayinex2":   ["Tâbii 2", "Goals TV"],
-    "yayinex3":   ["Tâbii 3", "Goals TV"],
-    "yayinex4":   ["Tâbii 4", "Goals TV"],
-    "yayinex5":   ["Tâbii 5", "Goals TV"],
-    "yayinex6":   ["Tâbii 6", "Goals TV"],
-    "yayinex7":   ["Tâbii 7", "Goals TV"],
-    "yayinex8":   ["Tâbii 8", "Goals TV"]
-}
-
-# Kanalları çek
-# YAPILAN DEĞİŞİKLİK: Döngü artık (details) adında bir liste alıyor
-for channel_id, details in channel_ids.items():
-    channel_name = details[0]  # Listenin ilk elemanı İsim
-    group_title = details[1]   # Listenin ikinci elemanı Grup
-    
-    channel_url = f"{domain}/channel.html?id={channel_id}"
-    try:
-        r = requests.get(channel_url, headers={"User-Agent":"Mozilla/5.0"}, timeout=5)
-        match = re.search(r'const baseurl = "(.*?)"', r.text)
-        if match:
-            baseurl = match.group(1)
-            full_url = f"{baseurl}{channel_id}.m3u8"
+        # Domain aralığı (25–99)
+        active_domain = None
+        print("🔍 Aktif domain aranıyor...")
+        
+        for i in range(1497, 2000):
+            url = f"https://trgoals{i}.xyz/"
+            try:
+                r = requests.head(url, timeout=5)
+                if r.status_code == 200:
+                    active_domain = url
+                    print(f"✅ Aktif domain bulundu: {active_domain}")
+                    break
+            except Exception as e:
+                continue
+        
+        if not active_domain:
+            print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
+            return 0
+        
+        """
+        print("📡 Kanal ID'si alınıyor...")
+        try:
+            html = requests.get(active_domain, timeout=10).text
+            m = re.search(r'<iframe[^>]+id="customIframe"[^>]+src="/channel.html\?id=([^"]+)"', html)
             
-            # group-title kısmına yukarıdan gelen değişkeni koyduk
-            m3u_content += f'#EXTINF:-1 group-title="{group_title}", {channel_name}\n'
-            m3u_content += f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n'
-            m3u_content += f'#EXTVLCOPT:http-referrer={domain}\n'
-            m3u_content += f'{full_url}\n'
-    except:
-        continue
+            if not m:
+                print("⚠️  Kanal ID bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                return 0
+            
+            first_id = m.group(1)
+            print(f"✅ Kanal ID bulundu: {first_id}")
+            
+        except Exception as e:
+            print(f"⚠️  HTML alınırken hata: {str(e)}")
+            return 0
+        """
+        
+        # Base URL çek
+        print("🔗 Base URL alınıyor...")
+        try:
+            event_source = requests.get(active_domain + "channel.html?id=" + "yayinzirve", timeout=10).text
+            b = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', event_source)
+            
+            if not b:
+                print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
+                return 0
+            
+            base_url = b.group(1)
+            print(f"✅ Base URL bulundu: {base_url}")
+            
+        except Exception as e:
+            print(f"⚠️  Event source alınırken hata: {str(e)}")
+            return 0
+        
+        # Kanal listesi
+        channel_ids = {
+            "yayinzirve": ["beIN Sports 1 A", "Inat TV"],
+            "yayininat":  ["beIN Sports 1 B", "Inat TV"],
+            "yayin1":     ["beIN Sports 1 C️", "Inat TV"],
+            "yayinb2":    ["beIN Sports 2", "Inat TV"],
+            "yayinb3":    ["beIN Sports 3", "Inat TV"],
+            "yayinb4":    ["beIN Sports 4", "Inat TV"],
+            "yayinb5":    ["beIN Sports 5", "Inat TV"],
+            "yayinbm1":   ["beIN Sports 1 Max", "Inat TV"],
+            "yayinbm2":   ["beIN Sports 2 Max", "Inat TV"],
+            "yayinss":    ["S Sports 1", "Inat TV"],
+            "yayinss2":   ["S Sports 2", "Inat TV"],
+            "yayint1":    ["Tivibu Sports 1", "Inat TV"],
+            "yayint2":    ["Tivibu Sports 2", "Inat TV"],
+            "yayint3":    ["Tivibu Sports 3", "Inat TV"],
+            "yayint4":    ["Tivibu Sports 4", "Inat TV"],
+            "yayinsmarts":["Smart Sports", "Inat TV"],
+            "yayinsms2":  ["Smart Sports 2", "Inat TV"],
+            "yayineu1":  ["Euro Sport 1", "Inat TV"],
+            "yayineu2":  ["Euro Sport 2", "Inat TV"],
+            "yayinex1":   ["Tâbii 1", "Inat TV"],
+            "yayinex2":   ["Tâbii 2", "Inat TV"],
+            "yayinex3":   ["Tâbii 3", "Inat TV"],
+            "yayinex4":   ["Tâbii 4", "Inat TV"],
+            "yayinex5":   ["Tâbii 5", "Inat TV"],
+            "yayinex6":   ["Tâbii 6", "Inat TV"],
+            "yayinex7":   ["Tâbii 7", "Inat TV"],
+            "yayinex8":   ["Tâbii 8", "Inat TV"]
+        }
+        
+        # M3U dosyası oluştur
+        print("📝 M3U dosyası oluşturuluyor...")
+        lines = ["\n"]
+        for cid, details in channel_ids.items():
+            name = details[0]  # Listenin ilk elemanı: Kanal Adı (Örn: beIN Sports 1 A)
+            title = details[1] # Listenin ikinci elemanı: Grup (Örn: Inat TV)
+            
+            # EXTM3U satırını oluştur
+            lines.append(f'#EXTINF:-1 group-title="Inat TV" ,{name}')
+            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
+            lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
+            
+            # URL satırını oluştur (Sözlük anahtarı olan 'cid' kullanılıyor)
+            full_url = f"{base_url}{cid}.m3u8"
+            lines.append(full_url)
+        
+        with open("inn.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        
+        print(f"✅ inattv.m3u başarıyla oluşturuldu ({len(channel_ids)} kanal)")
+        return 0
+        
+    except Exception as e:
+        print(f"❌ Beklenmeyen hata: {str(e)}")
+        print("⚠️  Boş M3U dosyası oluşturuluyor...")
+        return 0
 
-# Dosyaya kaydet
-with open("inn.m3u", "w", encoding="utf-8") as f:
-    f.write(m3u_content)
+if __name__ == "__main__":
+    exit_code = main()
+    sys.exit(exit_code)
 
-print("inn.m3u oluşturuldu.")
+
+
+
+
+
+
+
+
+
