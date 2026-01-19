@@ -121,7 +121,7 @@ def main():
             name = channel['name']
             
             # EXTM3U satırını oluştur
-            lines.append(f'#EXTINF:-1 group-title="YERLİ FUTBOL SEÇ İZLE ,{name}')
+            lines.append(f'#EXTINF:-1 group-title="TR MAÇ SEÇ İZLE ,{name}')
             lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
             
