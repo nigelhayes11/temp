@@ -17,15 +17,15 @@ PATHS = [
 ]
 
 CHANNEL_NAMES = [
-    "Neon Kanal 1",
-    "Neon Kanal 2",
-    "Neon Kanal 3",
-    "Neon Kanal 4",
-    "Neon Kanal 5",
-    "Neon Kanal 6",
-    "Neon Kanal 7",
-    "Neon Kanal 8",
-    "Neon Kanal 9"
+    "BEİN 1",
+    "BEİN 2",
+    "BEİN 3",
+    "BEİN 4",
+    "BEİN 5",
+    "BEİN MX1",
+    "BEİN MX2",
+    "SSPORT",
+    "SSPORT2",
 ]
 
 REFERRER = "https://monotv524.com/"
@@ -45,7 +45,7 @@ with open(OUTPUT, "w", encoding="utf-8") as f:
             r = requests.get(url, headers=headers, timeout=5)
             if r.status_code == 200 and "#EXTM3U" in r.text:
                 print("✅ BULUNDU:", url)
-                f.write(f'#EXTINF:-1 group-title="Neon Spor",{channel}\n')
+                f.write(f'#EXTINF:-1 group-title="JEST TV",{channel}\n')
                 f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
                 f.write(f'#EXTVLCOPT:http-referrer={REFERRER}\n')
                 f.write(url + "\n")
