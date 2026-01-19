@@ -10,7 +10,7 @@ kbl = 'kbl.m3u'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
-cikis_dosyasi = 'man26.m3u'
+cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
 # M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
 def oku_m3u(dosya_adi):
