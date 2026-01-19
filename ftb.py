@@ -40,9 +40,9 @@ def main():
             """
             # Base URL'i al
             channel_url = active_domain + "channel.html?id=" + "yayinzirve"
-            channel_html = requests.get(channel_url, timeout=10).text
+            event_source = requests.get(channel_url, timeout=10).text
             
-            b = re.search(r'B_URL\s*=\s*["\']([^"\']+)["\']', channel_html)
+            b = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', event_source)
             
             if not b:
                 print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
@@ -121,7 +121,7 @@ def main():
             name = channel['name']
             
             # EXTM3U satırını oluştur
-            lines.append(f'#EXTINF:-1 group-title="SEÇ İZLE YERLİ FUTBOL" ,{name}')
+            lines.append(f'#EXTINF:-1 group-title="YERLİ FUTBOL SEÇ İZLE ,{name}')
             lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
             lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
             
