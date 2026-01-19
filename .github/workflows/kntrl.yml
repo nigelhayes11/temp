@@ -57,9 +57,9 @@ jobs:
       - name: fll.py Çalıştır
         continue-on-error: true
         run: python fll.py 
-      - name: jungle.py Çalıştır
+      - name: a.py Çalıştır
         continue-on-error: true
-        run: python jungle.py 
+        run: python a.py 
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
