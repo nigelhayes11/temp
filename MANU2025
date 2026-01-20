@@ -40,6 +40,51 @@ http://176.123.10.77:8480/aspor/index.m3u8
 http://176.123.10.77:8480/atv/index.m3u8
 #EXTINF:1,tv8
 http://176.123.10.77:8480/tv8/index.m3u8
+
+
+
+#EXTINF:-1,beinsport 1 HD
+http://176.123.10.77:8480/b1/index.m3u8
+#EXTINF:-1,beinsport 2 HD
+http://176.123.10.77:8480/b2/index.m3u8
+#EXTINF:-1,beinsport 4 HD
+http://176.123.10.77:8480/b4/index.m3u8
+#EXTINF:-1,beinsport 5 HD
+http://176.123.10.77:8480/b5/index.m3u8
+#EXTINF:-1,beinsportmax 1 HD
+http://176.123.10.77:8480/bmax1/index.m3u8
+#EXTINF:-1,beinsportmax 2 HD
+http://176.123.10.77:8480/bmax2/index.m3u8
+#EXTINF:-1,ssport 1 HD
+http://176.123.10.77:8480/s1/index.m3u8
+#EXTINF:-1,ssport 2 HD
+http://176.123.10.77:8480/s2/index.m3u8
+#EXTINF:1,smartsport 1 HD
+http://176.123.10.77:8480/smart1/index.m3u8
+#EXTINF:1,smartsport 2 HD
+http://176.123.10.77:8480/smart2/index.m3u8
+#EXTINF:1,eurosport 1 HD
+http://176.123.10.77:8480/euro1/index.m3u8
+#EXTINF:1,eurosport 2 HD
+http://176.123.10.77:8480/euro2/index.m3u8
+#EXTINF:1,tivibu spor 1 HD
+http://176.123.10.77:8480/t1/index.m3u8
+#EXTINF:1,tivibu spor 2 HD
+http://176.123.10.77:8480/t2/index.m3u8
+#EXTINF:1,tivibu spor 3 HD
+http://176.123.10.77:8480/t3/index.m3u8
+#EXTINF:1,tivibu spor 4 HD
+http://176.123.10.77:8480/t4/index.m3u8
+#EXTINF:1,trt spor HD
+http://176.123.10.77:8480/trtspor/index.m3u8
+#EXTINF:1,trt apor yildiz HD
+http://176.123.10.77:8480/trtsporyildiz/index.m3u8
+#EXTINF:1,a spor HD
+http://176.123.10.77:8480/aspor/index.m3u8
+#EXTINF:1,atv
+http://176.123.10.77:8480/atv/index.m3u8
+#EXTINF:1,tv8
+http://176.123.10.77:8480/tv8/index.m3u8
 #EXTINF:-1,BeIN Sports 1
 https://dga1op10s1u3lep.eaf7037ecd540a.click/live/beinsports-1/playlist.m3u8
 #EXTINF:-1,BeIN Sports 2
@@ -50,3 +95,4 @@ https://dga1op10s1u3lep.eaf7037ecd540a.click/live/beinsports-3/playlist.m3u8
 https://dga1op10s1u3lep.eaf7037ecd540a.click/live/beinsports-4/playlist.m3u8
 #EXTINF:-1,Bein Sports 5
 https://dga1op10s1u3lep.eaf7037ecd540a.click/live/beinsports-5/playlist.m3u8
+
