@@ -11,6 +11,7 @@ ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 neon = 'neon.m3u'
+cafe = 'cafe.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
 # M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
@@ -34,6 +35,7 @@ kbl_icerik = oku_m3u(kbl)
 ne_icerik = oku_m3u(ne)
 rnl_icerik = oku_m3u(rnl)
 neon_icerik = oku_m3u(neon)
+cafe_icerik = oku_m3u(cafe)
 liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
 
 # Birleştir
@@ -49,6 +51,7 @@ birlesik_icerik = (
     ne_icerik +
     rnl_icerik +
     neon_icerik +
+    cafe_icerik +
     liveeventsfilter_icerik
 )
 
