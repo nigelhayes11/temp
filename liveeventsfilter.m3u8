@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball Euroleague] Virtus Bologna vs Fenerbahce 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Virtus Bologna vs Fenerbahce 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://37.49.225.198/hls/EDDDDQQ.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Brazil Carioca - Taca Guanabara] Botafogo RJ vs Volta Redonda (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Brazil Carioca - Taca Guanabara] Botafogo RJ vs Volta Redonda (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -49,11 +44,16 @@ http://37.49.225.198/hls/fccccq.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://37.49.225.198/hls/fcccc.m3u8
-#EXTINF:-1 tvg-chno="75" tvg-id="Live.Event.us" tvg-name="[Handball EHF Euro] Sweden vs Croatia (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Handball EHF Euro] Sweden vs Croatia (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTINF:-1 tvg-chno="50" tvg-id="Soccer.Dummy.us" tvg-name="[Europe UEFA Champions League] Bayern Munchen vs Union Saint-Gilloise (SPORT9)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[Europe UEFA Champions League] Bayern Munchen vs Union Saint-Gilloise (SPORT9)
+#EXTVLCOPT:http-referrer=https://vividmosaica.com/
+#EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://37.49.225.198/hls/EDDDDQQQQ.m3u8
+https://d13.epicquesthero.com:999/hls/do7.m3u8?md5=YoTFXzE-ne6csCPvnPLNZQ&expires=1769038221
+#EXTINF:-1 tvg-chno="54" tvg-id="Soccer.Dummy.us" tvg-name="[Europe UEFA Champions League] Olympique Marseille vs Liverpool (SPORT9)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[Europe UEFA Champions League] Olympique Marseille vs Liverpool (SPORT9)
+#EXTVLCOPT:http-referrer=https://vividmosaica.com/
+#EXTVLCOPT:http-origin=https://vividmosaica.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d13.epicquesthero.com:999/hls/do1.m3u8?md5=d2SmWDsCjrQaEQqDbW8Mkw&expires=1769038212
 #EXTINF:-1 tvg-chno="79" tvg-id="Live.Event.us" tvg-name="[Live Event] Atalanta vs Athletic (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Atalanta vs Athletic (PAWA)
 #EXTVLCOPT:http-referrer=https://pawastreams.net/atalanta-v-athletic/97558/
 #EXTVLCOPT:http-origin=https://pawastreams.net/atalanta-v-athletic/97558/
@@ -254,11 +254,6 @@ https://streameast.asia/playlist/stream_6.m3u8?md5=1bgeiEHzjQpuyIReLeELpw&expire
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=paramount+event+7&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn-live-tv.ru/api/v1/channels/us-paramount-event-7/index.m3u8?token=8e5a160f8ad0b41110d2c60d9449e99f6d22d023481522b9657e8883799c77df.1769023844.b0dc89b51984e7111cfd1ad2dea629d1.e83714825462f875fb6388c51c2ddb6d.07e71a017a1c84a94d3ae2046cec6cd1.6135928bc65f0036
-#EXTINF:-1 tvg-chno="202" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Chelsea vs Pafos (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Chelsea vs Pafos (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.105.46/hls/ddddXZ.m3u8
 #EXTINF:-1 tvg-chno="206" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Chelsea vs Pafos 3 HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Chelsea vs Pafos 3 HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
