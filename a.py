@@ -1,7 +1,7 @@
 import requests
 
-PREFIX = "75d"
-DOMAIN_NUM = 114
+PREFIX = "v79"
+DOMAIN_NUM = 116
 TLD = "lat"
 
 PATHS = [
