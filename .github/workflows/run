@@ -1,0 +1,36 @@
+name: IPTV Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run scripts
+        run: |
+          python main.py
+          python export_m3u.py
+
+      - name: Commit output
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
+          git add watchfty.json watchfty.m3u
+          git commit -m "Auto update IPTV" || exit 0
+          git push
