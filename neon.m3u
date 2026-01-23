@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="JEST TV",BEİN 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv524.com/
-https://v79.zirvedesin116.lat/yayinzirve.m3u8
 #EXTINF:-1 group-title="JEST TV",BEİN 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
@@ -27,11 +23,3 @@ https://v79.zirvedesin116.lat/yayinbm1.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinbm2.m3u8
-#EXTINF:-1 group-title="JEST TV",SSPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv524.com/
-https://v79.zirvedesin116.lat/yayinss.m3u8
-#EXTINF:-1 group-title="JEST TV",SSPORT2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv524.com/
-https://v79.zirvedesin116.lat/yayinss2.m3u8
