@@ -24,11 +24,21 @@ https://streameast.asia/playlist/stream_9.m3u8?md5=vQHn_9whhiSy-lsdrCT8fg&expire
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.106.134/hls/JYYYQQQQ.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[CAF Champions League] Power Dynamos vs Rivers United 2 HD (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2391.png" group-title="Live Events",[CAF Champions League] Power Dynamos vs Rivers United 2 HD (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://play7ba.peodlc.com/sport/202_4653749_1.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[Championship] Charlton Athletic vs Millwall (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[Championship] Charlton Athletic vs Millwall (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=sky+sports+football&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=sky+sports+football&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn-live-tv.ru/api/v1/channels/gb-sky-sports-football/index.m3u8?token=555ac665500a2d65e69e847634a77b995624096ba506235065dbcea7ead4fdb8.1769259685.8f2df1c3a922de9998731282dc52b0cb.09f78cacacadb8167c9389d1098b8da4.dbd90b278b3df252802399e2a3b042df.c2d130d74548f51b
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Championship] Preston North End vs Middlesbrough (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[Championship] Preston North End vs Middlesbrough (CDNTV)
+#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=cbs+sports+network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=cbs+sports+network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn-live-tv.ru/api/v1/channels/us-cbs-sports-network/index.m3u8?token=26f4610d7d3941e2d9e00af13cdd8387a681420710b3f65656ce441664e12708.1769259690.664b8f9d7da32bf765139da0427a9baa.321ddb35b0b87f680d8560896390370a.bf09d6d379d52fd6fbf6e0bca3ab1590.c2623cb8df5831e2
 #EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Cricket ICC U19 World Cup] India U19 vs New Zealand U19 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Cricket ICC U19 World Cup] India U19 vs New Zealand U19 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
