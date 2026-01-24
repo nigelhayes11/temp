@@ -1,37 +1,57 @@
 #EXTM3U
-#EXTINF:-1 group-title="JEST TV",BEİN 1
+#EXTINF:-1 group-title="JEST TV",YAYINZIRVE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinzirve.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN 2
+#EXTINF:-1 group-title="JEST TV",YAYINB2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinb2.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN 3
+#EXTINF:-1 group-title="JEST TV",YAYINB3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinb3.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN 4
+#EXTINF:-1 group-title="JEST TV",YAYINB4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinb4.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN 5
+#EXTINF:-1 group-title="JEST TV",YAYINB5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinb5.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN MX1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv524.com/
-https://v79.zirvedesin116.lat/yayinbm1.m3u8
-#EXTINF:-1 group-title="JEST TV",BEİN MX2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv524.com/
-https://v79.zirvedesin116.lat/yayinbm2.m3u8
-#EXTINF:-1 group-title="JEST TV",SSPORT
+#EXTINF:-1 group-title="JEST TV",YAYINSS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinss.m3u8
-#EXTINF:-1 group-title="JEST TV",SSPORT2
+#EXTINF:-1 group-title="JEST TV",YAYINSS2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
 https://v79.zirvedesin116.lat/yayinss2.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINZIRVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinzirve.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINB2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinb2.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINB3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinb3.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINB4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinb4.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINB5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinb5.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINSS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinss.m3u8
+#EXTINF:-1 group-title="JEST TV",YAYINSS2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv524.com/
+https://j7i.zirvedesin117.lat/yayinss2.m3u8
