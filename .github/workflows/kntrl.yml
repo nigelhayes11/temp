@@ -63,9 +63,6 @@ jobs:
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
-      - name: wf.py Çalıştır
-        continue-on-error: true
-        run: python wf.py 
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
