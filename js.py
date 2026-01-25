@@ -57,7 +57,7 @@ def main():
         m3u.append(f'#EXTVLCOPT:http-referrer={site_url}')
         m3u.append(f"{base_url}{file}")
 
-    with open("betorspin.m3u8", "w", encoding="utf-8") as f:
+    with open("neon.m3u8", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u))
     
     print("-" * 30)
