@@ -52,12 +52,12 @@ def main():
     m3u = ["#EXTM3U"]
     for name, file in SABIT_KANALLAR.items():
         # İstediğin Özel Format
-        m3u.append(f'#EXTINF:-1 group-title="BetOrSpin Kanallar",{name}')
+        m3u.append(f'#EXTINF:-1 group-title="JEST TV",{name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={FIXED_UA}')
         m3u.append(f'#EXTVLCOPT:http-referrer={site_url}')
         m3u.append(f"{base_url}{file}")
 
-    with open("neon.m3u8", "w", encoding="utf-8") as f:
+    with open("neon.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u))
     
     print("-" * 30)
