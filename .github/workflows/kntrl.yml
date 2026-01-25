@@ -59,8 +59,8 @@ jobs:
         run: python fll.py 
       - name: a.py Çalıştır
         continue-on-error: true
-        run: python a.py 
-      - name: sc.py Çalıştır
+        run: python js.py 
+      - name: js.py Çalıştır
         continue-on-error: true
         run: python sc.py 
       - name: Değişiklik Kontrolü
