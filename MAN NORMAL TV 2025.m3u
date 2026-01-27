@@ -1,4 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="JEST TV",CANLI YAYIN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13)
+#EXTVLCOPT:http-referrer=https://bahisnowtv615.com/
+#EXTVLCOPT:http-origin=https://bahisnowtv615.com
+https://cdn.bahisnowtv615.com/M970499/M970499.m3u8
+
+#EXTINF:-1 group-title="JEST TV",CANLI YAYIN2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.bahisnow.tv/
+#EXTVLCOPT:http-origin=https://www.bahisnow.tv
+https://cdn.bahisnowtv615.com/M970499/M970499.m3u8
 #EXTINF:-1 tvg-id="1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="Sinema ve Dizi",Sinema Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/sinematv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yNy8yMDI2IDk6MTQ6MzYgQU0maGFzaF92YWx1ZT1oZFVSMTA1RTc5OEMvU3JrVDhZd0x3PT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LGViODc3NDRjLTk4NDItNDUwNy05YjBhLTQ0N2RmYjg2NjJhZCxhMDkwODc4NC1kMTI4LTQ2MWYtYjc2Yi1hNTdkZWIxYjgwY2MsMGZhMDM1OWQtYTE5Yi00MWIyLTllNzMtMjllY2I2OTY5NjQwLDAsOjpmZmZmOjEwLjAuMC4y
 #EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="Sinema ve Dizi",Sinema Aksiyon
