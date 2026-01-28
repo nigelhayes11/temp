@@ -29,16 +29,6 @@ http://205.237.107.90/hls/JJJY.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.107.90/hls/AFAFAFQQ.m3u8
-#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[European Championship] Slovenia vs Iceland (SPORT9)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[European Championship] Slovenia vs Iceland (SPORT9)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d15.epicquesthero.com:999/hls/do88.m3u8?md5=WN2cj3GIn5UMRxX-1fRZng&expires=1769619643
-#EXTINF:-1 tvg-chno="40" tvg-id="Live.Event.us" tvg-name="[European Championship] Spain vs Portugal (SPORT9)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[European Championship] Spain vs Portugal (SPORT9)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d13.epicquesthero.com:999/hls/do21.m3u8?md5=p_eOuX6wWemhmaQMQ82ifw&expires=1769619639
 #EXTINF:-1 tvg-chno="43" tvg-id="Live.Event.us" tvg-name="[Finland Hockey Liiga] Assat vs KooKoo (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Finland Hockey Liiga] Assat vs KooKoo (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -144,41 +134,16 @@ https://cd.tookit.shop:2053/storage/bun1/index.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.107.90/hls/AFAFAFQQQ.m3u8
-#EXTINF:-1 tvg-chno="101" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Al Najma vs Al Riyadh (TOTALSPRTK)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Al Najma vs Al Riyadh (TOTALSPRTK)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek777.com/Al-Najma-vs-Al-Riyadh/60028
-#EXTVLCOPT:http-origin=https://live3.totalsportek777.com/Al-Najma-vs-Al-Riyadh/60028
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fes.feswxuyt.site/simpch6/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2g2IiwiaXAiOiIwLjAuMC4wIiwiZXhwIjoxNzY5NjE3ODEyLCJyYW5kIjoiOGM5OTliYjY0MGMzYWZiMiJ9.d0a4f04e0370d102632194c0f76f4babbc68f2347028205a1cd2f9b8de3f9618
 #EXTINF:-1 tvg-chno="102" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker German Masterse 1 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker German Masterse 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.105.197/hls/ZBBBQQ.m3u8
-#EXTINF:-1 tvg-chno="103" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker German Masterse 2 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker German Masterse 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.105.197/hls/ZBBBQ.m3u8
 #EXTINF:-1 tvg-chno="104" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker German Masterse 3 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker German Masterse 3 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.105.197/hls/ZBBBQQQ.m3u8
-#EXTINF:-1 tvg-chno="105" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker German Masterse 4 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker German Masterse 4 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.105.197/hls/ZBBBQQQq.m3u8
-#EXTINF:-1 tvg-chno="109" tvg-id="Live.Event.us" tvg-name="[UAE Premier League] Ajman vs Shabab Al-Ahli Dubai (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[UAE Premier League] Ajman vs Shabab Al-Ahli Dubai (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.107.90/hls/RRRRQ.m3u8
-#EXTINF:-1 tvg-chno="110" tvg-id="Live.Event.us" tvg-name="[UAE Premier League] Al Dhafra vs Al Sharjah (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[UAE Premier League] Al Dhafra vs Al Sharjah (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.107.90/hls/RRRRQQ.m3u8
 #EXTINF:-1 tvg-chno="111" tvg-id="Live.Event.us" tvg-name="[UAE Premier League] Al Wasl vs Khorfakkan (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[UAE Premier League] Al Wasl vs Khorfakkan (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
