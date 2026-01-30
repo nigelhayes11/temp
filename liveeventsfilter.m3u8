@@ -4,11 +4,6 @@
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://a.swinapi.sbs/hls/kikikiq.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball - Czech Republic. Women. Cup] KP Brno (W) -  Levharti Chomutov (W) (LIVETVSX)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball - Czech Republic. Women. Cup] KP Brno (W) -  Levharti Chomutov (W) (LIVETVSX)
-#EXTVLCOPT:http-referrer=https://livetv.sx/enx/
-#EXTVLCOPT:http-origin=https://livetv.sx/enx/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://tvcom-cz-basketbal-live.ssl.cdn.cra.cz/tipsport/kk1/playlist.m3u8?DVR
 #EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Biathlon Skiing] Biathlon Skiing World Cup (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Biathlon Skiing] Biathlon Skiing World Cup (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -34,11 +29,6 @@ https://a.swinapi.sbs/hls/kikikiqqqqq.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://a.swinapi.sbs/hls/kikikiqqq.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[English Premier League U18] Liverpool U18 vs Derby U18 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[English Premier League U18] Liverpool U18 vs Derby U18 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://a.swinapi.sbs/hls/kikiki.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Friendly Atlantic Cup] Tromso vs Mjallby (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Friendly Atlantic Cup] Tromso vs Mjallby (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -194,11 +184,6 @@ http://origin.thetvapp.to/hls/NHL04/mono.m3u8
 #EXTVLCOPT:http-origin=https://tvpass.org
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://origin.thetvapp.to/hls/NHL01/mono.m3u8
-#EXTINF:-1 tvg-chno="77" tvg-id="Live.Event.us" tvg-name="[One] One Friday Fights (SPORT9)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[One] One Friday Fights (SPORT9)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d14.epicquesthero.com:999/hls/do39.m3u8?md5=Rq8qWDWr9-gnuSi0dXVn5A&expires=1769785238
 #EXTINF:-1 tvg-chno="82" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Taawon vs Al Okhdood (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Taawon vs Al Okhdood (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
