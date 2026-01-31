@@ -3,7 +3,7 @@ kbl = 'kbl.m3u'
 tvf = 'tvf.m3u'
 r = 'r.m3u'
 r2 = 'r2.m3u'
-selcuk = 'selcuk.m3u'
+selcukk = 'selcukk.m3u'
 an = 'an.m3u'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
@@ -26,11 +26,10 @@ kbl_icerik = oku_m3u(kbl)
 tvf_icerik = oku_m3u(tvf)
 r_icerik = oku_m3u(r)
 r2_icerik = oku_m3u(r2)
-selcuk_icerik = oku_m3u(selcuk)
+selcukk_icerik = oku_m3u(selcukk)
 an_icerik = oku_m3u(an)
 ne_icerik = oku_m3u(ne)
 rnl_icerik = oku_m3u(rnl)
-neon_icerik = oku_m3u(neon)
 cafe_icerik = oku_m3u(cafe)
 int_icerik = oku_m3u(int)
 liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
@@ -41,7 +40,7 @@ birlesik_icerik = (
     tvf_icerik +
     r_icerik +
     r2_icerik +
-    selcuk_icerik +
+    selcukk_icerik +
     an_icerik +
     ne_icerik +
     rnl_icerik +
