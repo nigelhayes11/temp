@@ -111,22 +111,22 @@ def main():
                 if cid_match and name:
                     cid = cid_match.group(1)
                     title = f"{status.get_text(strip=True) if status else 'CANLI'} | {name.get_text(strip=True)}"
-                    m3u_content.append(f'#EXTINF:-1 group-title="Canlı Maçlar",{title}')
+                    m3u_content.append(f'#EXTINF:-1 group-title="int spor",{title}')
                     m3u_content.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
                     m3u_content.append(f'#EXTVLCOPT:http-referrer={active_domain}/')
                     m3u_content.append(f'{base_url}{cid}/mono.m3u8')
 
         # 2. Sabit Kanallar Bölümü
         for cid, name in fixed_channels.items():
-            m3u_content.append(f'#EXTINF:-1 group-title="7/24 Kanallar",{name}')
+            m3u_content.append(f'#EXTINF:-1 group-title="int spor",{name}')
             m3u_content.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
             m3u_content.append(f'#EXTVLCOPT:http-referrer={active_domain}/')
             m3u_content.append(f'{base_url}{cid}/mono.m3u8')
 
-        with open("karsilasmalar.m3u", "w", encoding="utf-8") as f:
+        with open("int.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_content))
 
-        print(f"🏁 BAŞARILI → karsilasmalar.m3u hazır. ({len(m3u_content)-1} kanal)")
+        print(f"🏁 BAŞARILI → int.m3u hazır. ({len(m3u_content)-1} kanal)")
 
     except Exception as e:
         print(f"❌ Hata: {e}")
