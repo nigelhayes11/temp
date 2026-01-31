@@ -1,16 +1,13 @@
 # Birleştirilecek dosya adları
 kbl = 'kbl.m3u'
 tvf = 'tvf.m3u'
-ftb = 'ftb.m3u'
 r = 'r.m3u'
 r2 = 'r2.m3u'
-inn = 'inn.m3u'
 selcuk = 'selcuk.m3u'
 an = 'an.m3u'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
-neon = 'neon.m3u'
 cafe = 'cafe.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
@@ -26,10 +23,8 @@ def oku_m3u(dosya_adi):
 # İçerikleri oku
 kbl_icerik = oku_m3u(kbl)
 tvf_icerik = oku_m3u(tvf)
-ftb_icerik = oku_m3u(ftb)
 r_icerik = oku_m3u(r)
 r2_icerik = oku_m3u(r2)
-inn_icerik = oku_m3u(inn)
 selcuk_icerik = oku_m3u(selcuk)
 an_icerik = oku_m3u(an)
 ne_icerik = oku_m3u(ne)
@@ -43,15 +38,12 @@ liveeventsfilter_icerik = oku_m3u(liveeventsfilter)
 birlesik_icerik = (
     kbl_icerik +
     tvf_icerik +
-    ftb_icerik +
     r_icerik +
     r2_icerik +
-    inn_icerik +
     selcuk_icerik +
     an_icerik +
     ne_icerik +
     rnl_icerik +
-    neon_icerik +
     cafe_icerik +
     liveeventsfilter_icerik
 )
