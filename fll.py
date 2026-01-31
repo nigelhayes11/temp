@@ -7,6 +7,7 @@ selcuk = 'selcuk.m3u'
 an = 'an.m3u'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
+int = 'int.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 cafe = 'cafe.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
@@ -31,7 +32,7 @@ ne_icerik = oku_m3u(ne)
 rnl_icerik = oku_m3u(rnl)
 neon_icerik = oku_m3u(neon)
 cafe_icerik = oku_m3u(cafe)
-
+int_icerik = oku_m3u(int)
 liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
 
 # Birleştir
@@ -45,6 +46,7 @@ birlesik_icerik = (
     ne_icerik +
     rnl_icerik +
     cafe_icerik +
+    int_icerik +
     liveeventsfilter_icerik
 )
 
