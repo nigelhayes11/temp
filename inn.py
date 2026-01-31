@@ -112,7 +112,7 @@ class MonoHybridScraper:
                 f'#EXTVLCOPT:http-referrer={referer}'
             )
             m3u.append(
-                f'{stream}{cid}/inn.m3u8'
+                f'{stream}{cid}/mono.m3u8'
             )
 
         with open("inn.m3u", "w", encoding="utf-8") as f:
@@ -122,3 +122,4 @@ class MonoHybridScraper:
 
 if __name__ == "__main__":
     MonoHybridScraper().run()
+
