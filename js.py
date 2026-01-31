@@ -71,7 +71,7 @@ def main():
 
     # 2. SABİT KANALLARI EKLE (Listenin Başına)
     for name, file in SABIT_KANALLAR:
-        m3u.append(f'#EXTINF:-1 group-title="📺 SABİT KANALLAR",{name}')
+        m3u.append(f'#EXTINF:-1 group-title="JEST TV",{name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
         m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}')
         m3u.append(f"{base_url}{file}")
@@ -89,15 +89,15 @@ def main():
         else:
             link = f"{base_url}{pure_id}.m3u8"
 
-        m3u.append(f'#EXTINF:-1 group-title="⚽ CANLI MAÇLAR",{clean_name}')
+        m3u.append(f'#EXTINF:-1 group-title="JEST TV",{clean_name}')
         m3u.append(f'#EXTVLCOPT:http-user-agent={UA}')
         m3u.append(f'#EXTVLCOPT:http-referrer={TARGET_URL}')
         m3u.append(link)
 
     # 4. KAYDET
-    with open("neon.m3u8", "w", encoding="utf-8") as f:
+    with open("neon.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u))
-    print(f"🚀 Başarılı! Sabit kanallar ve canlı maçlar joker.m3u8 dosyasına yazıldı.")
+    print(f"🚀 Başarılı! Sabit kanallar ve canlı maçlar neon.m3u dosyasına yazıldı.")
 
 if __name__ == "__main__":
     main()
