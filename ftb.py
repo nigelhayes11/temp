@@ -123,7 +123,7 @@ def main():
             m3u_content.append(f'#EXTVLCOPT:http-referrer={active_domain}/')
             m3u_content.append(f'{base_url}{cid}/mono.m3u8')
 
-        with open(ftb.m3u", "w", encoding="utf-8") as f:
+        with open("ftb.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_content))
 
         print(f"🏁 BAŞARILI → ftb.m3u hazır. ({len(m3u_content)-1} kanal)")
