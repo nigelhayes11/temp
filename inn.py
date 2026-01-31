@@ -1,124 +1,88 @@
 import requests
 import re
-import sys
+import urllib3
+import json
 
-def main():
-    try:
-        # Domain aralığı (25–99)
-        active_domain = None
-        print("🔍 Aktif domain aranıyor...")
-        
-        for i in range(1497, 2000):
-            url = f"https://trgoals{i}.xyz/"
-            try:
-                r = requests.head(url, timeout=5)
-                if r.status_code == 200:
-                    active_domain = url
-                    print(f"✅ Aktif domain bulundu: {active_domain}")
-                    break
-            except Exception as e:
-                continue
-        
-        if not active_domain:
-            print("⚠️  Aktif domain bulunamadı. Boş M3U dosyası oluşturuluyor...")
-            return 0
-        
-        """
-        print("📡 Kanal ID'si alınıyor...")
-        try:
-            html = requests.get(active_domain, timeout=10).text
-            m = re.search(r'<iframe[^>]+id="customIframe"[^>]+src="/channel.html\?id=([^"]+)"', html)
-            
-            if not m:
-                print("⚠️  Kanal ID bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                return 0
-            
-            first_id = m.group(1)
-            print(f"✅ Kanal ID bulundu: {first_id}")
-            
-        except Exception as e:
-            print(f"⚠️  HTML alınırken hata: {str(e)}")
-            return 0
-        """
-        
-        # Base URL çek
-        print("🔗 Base URL alınıyor...")
-        try:
-            event_source = requests.get(active_domain + "channel.html?id=" + "yayinzirve", timeout=10).text
-            b = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', event_source)
-            
-            if not b:
-                print("⚠️  Base URL bulunamadı. Boş M3U dosyası oluşturuluyor...")
-                return 0
-            
-            base_url = b.group(1)
-            print(f"✅ Base URL bulundu: {base_url}")
-            
-        except Exception as e:
-            print(f"⚠️  Event source alınırken hata: {str(e)}")
-            return 0
-        
-        # Kanal listesi
-        channel_ids = {
-            "yayinzirve": ["beIN Sports 1 A", "Inat TV"],
-            "yayininat":  ["beIN Sports 1 B", "Inat TV"],
-            "yayin1":     ["beIN Sports 1 C️", "Inat TV"],
-            "yayinb2":    ["beIN Sports 2", "Inat TV"],
-            "yayinb3":    ["beIN Sports 3", "Inat TV"],
-            "yayinb4":    ["beIN Sports 4", "Inat TV"],
-            "yayinb5":    ["beIN Sports 5", "Inat TV"],
-            "yayinbm1":   ["beIN Sports 1 Max", "Inat TV"],
-            "yayinbm2":   ["beIN Sports 2 Max", "Inat TV"],
-            "yayinss":    ["S Sports 1", "Inat TV"],
-            "yayinss2":   ["S Sports 2", "Inat TV"],
-            "yayint1":    ["Tivibu Sports 1", "Inat TV"],
-            "yayint2":    ["Tivibu Sports 2", "Inat TV"],
-            "yayint3":    ["Tivibu Sports 3", "Inat TV"],
-            "yayint4":    ["Tivibu Sports 4", "Inat TV"],
-            "yayinsmarts":["Smart Sports", "Inat TV"],
-            "yayinsms2":  ["Smart Sports 2", "Inat TV"],
-            "yayineu1":  ["Euro Sport 1", "Inat TV"],
-            "yayineu2":  ["Euro Sport 2", "Inat TV"],
-            "yayinex1":   ["Tâbii 1", "Inat TV"],
-            "yayinex2":   ["Tâbii 2", "Inat TV"],
-            "yayinex3":   ["Tâbii 3", "Inat TV"],
-            "yayinex4":   ["Tâbii 4", "Inat TV"],
-            "yayinex5":   ["Tâbii 5", "Inat TV"],
-            "yayinex6":   ["Tâbii 6", "Inat TV"],
-            "yayinex7":   ["Tâbii 7", "Inat TV"],
-            "yayinex8":   ["Tâbii 8", "Inat TV"]
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+class MonoHybridScraper:
+    def __init__(self):
+        self.api_url = "https://justintvcanli.online/domain.php"
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         }
+        self.kanallar = {
+            "zirve": "beIN Sports 1 A", "trgoals": "beIN Sports 1 B", "yayin1": "beIN Sports 1 C",
+            "b2": "beIN Sports 2", "b3": "beIN Sports 3", "b4": "beIN Sports 4", "b5": "beIN Sports 5",
+            "bm1": "beIN Sports 1 Max", "bm2": "beIN Sports 2 Max", "ss1": "S Sports 1",
+            "ss2": "S Sports 2", "smarts": "Smart Sports", "sms2": "Smart Sports 2",
+            "t1": "Tivibu Sports 1", "t2": "Tivibu Sports 2", "t3": "Tivibu Sports 3",
+            "t4": "Tivibu Sports 4", "as": "A Spor", "trtspor": "TRT Spor",
+            "trtspor2": "TRT Spor Yıldız", "trt1": "TRT 1", "atv": "ATV",
+            "tv85": "TV8.5", "nbatv": "NBA TV", "eu1": "Euro Sport 1", "eu2": "Euro Sport 2",
+            "ex1": "Tâbii 1", "ex2": "Tâbii 2", "ex3": "Tâbii 3", "ex4": "Tâbii 4",
+            "ex5": "Tâbii 5", "ex6": "Tâbii 6", "ex7": "Tâbii 7", "ex8": "Tâbii 8"
+        }
+
+    def fetch_assets(self):
+        """Aktif domaini (Referer) tarayarak bulur ve sunucuyu API'den çeker."""
+        active_referer = None
         
-        # M3U dosyası oluştur
-        print("📝 M3U dosyası oluşturuluyor...")
-        lines = ["\n"]
-        for cid, details in channel_ids.items():
-            name = details[0]  # Listenin ilk elemanı: Kanal Adı (Örn: beIN Sports 1 A)
-            title = details[1] # Listenin ikinci elemanı: Grup (Örn: Inat TV)
-            
-            # EXTM3U satırını oluştur
-            lines.append(f'#EXTINF:-1 group-title="Inat TV" ,{name}')
-            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)')
-            lines.append(f'#EXTVLCOPT:http-referrer={active_domain}')
-            
-            # URL satırını oluştur (Sözlük anahtarı olan 'cid' kullanılıyor)
-            full_url = f"{base_url}{cid}.m3u8"
-            lines.append(full_url)
+        print("🌐 Aktif domain (Referer) taranıyor...")
+        # 530'dan 580'e kadar aktif olanı bul
+        for i in range(530, 580):
+            target = f"https://monotv{i}.com"
+            try:
+                # Proxy kullanmadan direkt deniyoruz, gerekirse proxy_base eklenebilir
+                r = requests.get(target, headers=self.headers, timeout=5, verify=False)
+                if r.status_code == 200:
+                    active_referer = target + "/"
+                    print(f"✅ Aktif Referer Bulundu: {active_referer}")
+                    break
+            except:
+                continue
+
+        # Yayın sunucusunu API'den al
+        print("📡 Yayın sunucusu API'den çekiliyor...")
+        stream_server = None
+        try:
+            rapi = requests.get(self.api_url, headers=self.headers, timeout=10, verify=False)
+            if rapi.status_code == 200:
+                data = rapi.json()
+                stream_server = data.get("baseurl", "").replace("\\", "")
+        except:
+            pass
+
+        return active_referer, stream_server
+
+    def run(self):
+        referer, stream = self.fetch_assets()
+
+        # Eğer domain bulunamazsa hata verme, sadece bildir
+        if not referer:
+            referer = "https://justintvcanli.online/" # Yedek referer
+            print("⚠️ Aktif monotv bulunamadı, yedek referer kullanılıyor.")
         
+        if not stream:
+            print("❌ Sunucu adresi API'den alınamadı.")
+            return
+
+        print(f"✅ Final Sunucu: {stream}")
+        print(f"✅ Final Referer: {referer}")
+
+        m3u = ["#EXTM3U"]
+        for cid, name in self.kanallar.items():
+            m3u.append(f'#EXTINF:-1,{name}')
+            m3u.append(f'#EXTVLCOPT:http-referrer={referer}')
+            m3u.append(f'{stream}{cid}/mono.m3u8')
+
         with open("inn.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(lines))
+            f.write("\n".join(m3u))
         
-        print(f"✅ inn.m3u başarıyla oluşturuldu ({len(channel_ids)} kanal)")
-        return 0
-        
-    except Exception as e:
-        print(f"❌ Beklenmeyen hata: {str(e)}")
-        print("⚠️  Boş M3U dosyası oluşturuluyor...")
-        return 0
+        print(f"🏁 Başarılı: {len(self.kanallar)} kanal hazır.")
 
 if __name__ == "__main__":
-    exit_code = main()
-    sys.exit(exit_code)
+    MonoHybridScraper().run()
 
 
 
