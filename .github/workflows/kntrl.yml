@@ -57,7 +57,9 @@ jobs:
       - name: fll.py Çalıştır
         continue-on-error: true
         run: python fll.py 
-    
+      - name: int.py Çalıştır
+        continue-on-error: true
+        run: python int.py 
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
