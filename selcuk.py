@@ -125,7 +125,7 @@ def create_m3u(filename="selcukk.m3u"):
 
         tvg_id = normalize_tvg_id(ch["name"])
 
-        m3u.append(f'#EXTINF:-1 tvg-id="{tvg_id}" group-title="Spor",{ch["name"]}')
+        m3u.append(f'#EXTINF:-1 tvg-id="{tvg_id}" group-title="SELCUK SPOR",{ch["name"]}')
         m3u.append(f"#EXTVLCOPT:http-referrer={referer}")
         m3u.append(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}")
         m3u.append(m3u8)
