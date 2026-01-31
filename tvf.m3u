@@ -2199,9 +2199,10 @@ https://nextpulse.sbs/static/pl5.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://nextpulse.sbs/static/pl6.m3u8
 
-#EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4K(KUTU) 
+
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU) .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4K FEED(KUTU) .b
 https://vavoo.to/vavoo-iptv/play/267105889a25a483e5e80
-#EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4K(UYDU) 
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU) .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 4K FEED(UYDU) .b
 https://vavoo.to/vavoo-iptv/play/1536730627bbf8f95ca477
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",REC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2307,6 +2308,31 @@ https://dga1op10s1u3leo.ee086cf9635f72.click/live/beinsports-1/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://ww.dooballfree.vip/live/bein1/playlist.m3u8
+
+
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 .c" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 .c
+https://vavoo.to/vavoo-iptv/play/300113394ceebba66c8ad
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 (720PFEED) .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 (720PFEED) .b
+https://vavoo.to/vavoo-iptv/play/22330664333ebb4acbb6ab
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 [LIVE DURING EVENTS ONLY] .s" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 [LIVE DURING EVENTS ONLY] .s
+https://vavoo.to/vavoo-iptv/play/342898470360b159ef8301
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 + .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 + .b
+https://vavoo.to/vavoo-iptv/play/2576216897d1c2b14af4e9
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 50 FPS .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 50 FPS .b
+https://vavoo.to/vavoo-iptv/play/13524210538e192d878d20
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 H265 .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 H265 .b
+https://vavoo.to/vavoo-iptv/play/24034250314fd9aa349685
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 HD .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD .b
+https://vavoo.to/vavoo-iptv/play/66217962033a2d3e9c47f
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 HD (TURKEY) .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 1 HD (TURKEY) .b
+https://vavoo.to/vavoo-iptv/play/5934938605e361d7e0ff0
+#EXTINF:-1 tvg-name="BEIN SPOTS1 SD .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPOTS1 SD .b
+https://vavoo.to/vavoo-iptv/play/143239535a2e3c23c1d16
+
+#EXTINF:-1 tvg-name="BEIN SPORTS 720P FEED .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 720P FEED .b
+https://vavoo.to/vavoo-iptv/play/499485497d6131f47417d
+#EXTINF:-1 tvg-name="BEIN SPORTS 8K FEED .b" tvg-logo="" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEIN SPORTS 8K FEED .b
+
 
 
 #EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU) .b" tvg-logo="" group-title="⭐VAVOO 4K SPOR FULL⭐",BEIN SPORTS 4K FEED(KUTU) .b
