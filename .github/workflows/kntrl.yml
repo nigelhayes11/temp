@@ -57,15 +57,11 @@ jobs:
       - name: fll.py Çalıştır
         continue-on-error: true
         run: python fll.py 
-      - name: js.py Çalıştır
-        continue-on-error: true
-        run: python js.py 
+    
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
-      - name: upp.py Çalıştır
-        continue-on-error: true
-        run: python upp.py 
+      
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
