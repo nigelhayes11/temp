@@ -63,7 +63,9 @@ jobs:
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
-      
+      - name: jst.py Çalıştır
+        continue-on-error: true
+        run: python jst.py 
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
