@@ -72,10 +72,10 @@ class MonoHybridScraper:
 
         m3u = ["#EXTM3U"]
         for cid, name in self.kanallar.items():
-            m3u.append(f'#EXTINF:-1,{name}')
+            m3u.append(f'#EXTINF:-1 group-title="JEST SPOR",{name}')
             m3u.append(f'#EXTVLCOPT:http-referrer={referer}')
             m3u.append(f'{stream}{cid}/mono.m3u8')
-            m3u.append(f'#EXTINF:-1 group-title="JEST SPOR",{name}')
+            
         with open("jst.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u))
         
