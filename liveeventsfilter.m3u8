@@ -24,6 +24,11 @@ https://edge2caster.pro/hls/mlkijfezag65.m3u8?st=hZlmSOZNsoJAq_Hj5bBaWNpyFijwkda
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?st=MKlilt8CyT0MnuhBAYjYJT-kI_CHyAAwFSsVhoARrR4&e=1769990443
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Boxing] Jose Valenzuela - Diego Torres (EMBEDHD)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Boxing] Jose Valenzuela - Diego Torres (EMBEDHD)
+#EXTVLCOPT:http-referrer=https://vividmosaica.com/
+#EXTVLCOPT:http-origin=https://vividmosaica.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://d15.epicquesthero.com:999/hls/mevent1.m3u8?md5=EIKR6um2C6-LdBDkNsuIBw&expires=1769992287
 #EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Brazil Paulista] Bragantino vs Sao Bernardo (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Brazil Paulista] Bragantino vs Sao Bernardo (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -64,11 +69,6 @@ https://edge2caster.pro/hls/uyopzarf50.m3u8?st=8cOQCD9fmgCer4uS2JbyfXsc6KX-uUQTW
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=tudn&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn-live-tv.ru/api/v1/channels/us-tudn/index.m3u8?token=5f76aee403781a96f23d6442f57dc05ce6e7f3a6c49c6634a05c5770572c33e5.1769985056.5978fadc8e01995759a5937b6fe76f34.2f085b3c62fd39c17b6305e6a660d7e7.283aa1e7d7cb65f9ecae117fc700ac86.205b8a81b7832254
-#EXTINF:-1 tvg-chno="69" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1 France] Strasbourg vs PSG 2 (FAWA)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1 France] Strasbourg vs PSG 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.105.46/hls/fnnnXV.m3u8
 #EXTINF:-1 tvg-chno="73" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] RC Strasbourg vs Paris Saint-Germain (iSTRMEAST)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] RC Strasbourg vs Paris Saint-Germain (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -119,6 +119,11 @@ https://cdn-live-tv.ru/api/v1/channels/it-sky-sport-255/index.m3u8?token=71262f1
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://d14.epicquesthero.com:999/hls/mdetroitpistons.m3u8?md5=6msmoyOy_tO1lMYCbsmXLQ&expires=1769992270
+#EXTINF:-1 tvg-chno="106" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers @ New York Knicks (TVPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers @ New York Knicks (TVPASS)
+#EXTVLCOPT:http-referrer=https://tvpass.org
+#EXTVLCOPT:http-origin=https://tvpass.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://origin.thetvapp.to/hls/NBA07/mono.m3u8
 #EXTINF:-1 tvg-chno="111" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat - Chicago Bulls (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Miami Heat - Chicago Bulls (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://vividmosaica.com/
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
@@ -309,11 +314,6 @@ http://origin.thetvapp.to/hls/ESPN/mono.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://f.ulkjerg.shop/hls/FCCCCQQQQ.m3u8
-#EXTINF:-1 tvg-chno="188" tvg-id="Live.Event.us" tvg-name="[Peru Liga 1 Apertura] Alianza Atl vs Cusco (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Peru Liga 1 Apertura] Alianza Atl vs Cusco (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://c.utfdvdvd.shop/hls/cacacaqq.m3u8
 #EXTINF:-1 tvg-chno="191" tvg-id="Soccer.Dummy.us" tvg-name="[Portugal Primeira Liga] Tondela vs Benfica 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Portugal Primeira Liga] Tondela vs Benfica 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -324,11 +324,6 @@ https://f.ulkjerg.shop/hls/FCCCCQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.105.46/hls/FCCCCQ.m3u8
-#EXTINF:-1 tvg-chno="199" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Newell's Old Boys vs Boca Juniors (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Newell's Old Boys vs Boca Juniors (CDNTV)
-#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=viaplay+sports+1&code=gb&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=viaplay+sports+1&code=gb&user=cdnlivetv&plan=free
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn-live-tv.ru/api/v1/channels/gb-viaplay-sports-1/index.m3u8?token=109f2917eeb5d3585b4178bb1d4cee1fd9f6669e3566905f3d8c7f7e8c92695b.1769983248.61850c4979fef95ceabe9434a5180335.78a2089dc7b8a3ba8e49e033f2ae6ba2.53e2681675284381ed77026171179e54.7a806849902b17dc
 #EXTINF:-1 tvg-chno="204" tvg-id="Live.Event.us" tvg-name="[Rugby Top 14] Section Paloise vs RC Toulonnais (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Rugby Top 14] Section Paloise vs RC Toulonnais (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -339,11 +334,6 @@ https://f.ulkjerg.shop/hls/FCCCC.m3u8
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=astro+football&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn-live-tv.ru/api/v1/channels/us-astro-football/index.m3u8?token=722a89dc2bdac9d9685c43ad6ec613f246fe9ebfac8a3898bdc73f43792a0573.1769974250.6f099feb3980487d2148bb6ae14ba7bb.256d1b843c4b0b0a4a47d269c83a01cf.7e6b8af95ff767638a18b16b631bc79d.69e0d2920d9828e5
-#EXTINF:-1 tvg-chno="211" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker German Masters (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker German Masters (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://f.ulkjerg.shop/hls/FBBBQQQQq.m3u8
 #EXTINF:-1 tvg-chno="212" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Athletic Club vs Real Sociedad (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Athletic Club vs Real Sociedad (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.info
 #EXTVLCOPT:http-origin=https://roxiestreams.info
