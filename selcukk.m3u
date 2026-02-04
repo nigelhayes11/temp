@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="boluspor---alanyaspor13-00" group-title="SELCUK SPOR",Boluspor - Alanyaspor13:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
 #EXTINF:-1 tvg-id="fatih-karagumruk---rams-basaksehir15-30" group-title="SELCUK SPOR",Fatih Karagümrük - Rams Başakşehir15:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -15,14 +11,18 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
-#EXTINF:-1 tvg-id="lyon---laval22-30" group-title="SELCUK SPOR",Lyon - Laval22:30
+#EXTINF:-1 tvg-id="lorient---paris-fc22-30" group-title="SELCUK SPOR",Lorient - Paris FC22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports3/playlist.m3u8
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports5/playlist.m3u8
 #EXTINF:-1 tvg-id="toulouse---amiens22-30" group-title="SELCUK SPOR",Toulouse - Amiens22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax2/playlist.m3u8
+#EXTINF:-1 tvg-id="lyon---laval22-30" group-title="SELCUK SPOR",Lyon - Laval22:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports3/playlist.m3u8
 #EXTINF:-1 tvg-id="nice---montpellier22-30" group-title="SELCUK SPOR",Nice - Montpellier22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -31,14 +31,14 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax1/playlist.
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcuktrtspor/playlist.m3u8
-#EXTINF:-1 tvg-id="troyes---lens23-00" group-title="SELCUK SPOR",Troyes - Lens23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="aberdeen---celtic23-00" group-title="SELCUK SPOR",Aberdeen - Celtic23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcuktabiispor1/playlist.m3u8
+#EXTINF:-1 tvg-id="troyes---lens23-00" group-title="SELCUK SPOR",Troyes - Lens23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="besiktas-gain---turk-telekom20-00" group-title="SELCUK SPOR",Beşiktaş GAİN - Türk Telekom20:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -55,14 +55,6 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcuktabiispor8/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukssport/playlist.m3u8
-#EXTINF:-1 tvg-id="tkorpatsch---earango13-00" group-title="SELCUK SPOR",T.Korpatsch - E.Arango13:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax2/playlist.m3u8
-#EXTINF:-1 tvg-id="sbejlek---jostapenko13-30" group-title="SELCUK SPOR",S.Bejlek - J.Ostapenko13:30
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax1/playlist.m3u8
 #EXTINF:-1 tvg-id="bbencic---sonay-kartal16-00" group-title="SELCUK SPOR",B.Bencic - Sonay Kartal16:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -71,10 +63,6 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax1/playlist.
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax1/playlist.m3u8
-#EXTINF:-1 tvg-id="boluspor---alanyaspor13-00" group-title="SELCUK SPOR",Boluspor - Alanyaspor13:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
 #EXTINF:-1 tvg-id="fatih-karagumruk---rams-basaksehir15-30" group-title="SELCUK SPOR",Fatih Karagümrük - Rams Başakşehir15:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -87,14 +75,18 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukaspor/playlist.m3u8
-#EXTINF:-1 tvg-id="lyon---laval22-30" group-title="SELCUK SPOR",Lyon - Laval22:30
+#EXTINF:-1 tvg-id="lorient---paris-fc22-30" group-title="SELCUK SPOR",Lorient - Paris FC22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports3/playlist.m3u8
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports5/playlist.m3u8
 #EXTINF:-1 tvg-id="toulouse---amiens22-30" group-title="SELCUK SPOR",Toulouse - Amiens22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax2/playlist.m3u8
+#EXTINF:-1 tvg-id="lyon---laval22-30" group-title="SELCUK SPOR",Lyon - Laval22:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports3/playlist.m3u8
 #EXTINF:-1 tvg-id="nice---montpellier22-30" group-title="SELCUK SPOR",Nice - Montpellier22:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -103,14 +95,14 @@ https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsportsmax1/playlist.
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcuktrtspor/playlist.m3u8
-#EXTINF:-1 tvg-id="troyes---lens23-00" group-title="SELCUK SPOR",Troyes - Lens23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="aberdeen---celtic23-00" group-title="SELCUK SPOR",Aberdeen - Celtic23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcuktabiispor1/playlist.m3u8
+#EXTINF:-1 tvg-id="troyes---lens23-00" group-title="SELCUK SPOR",Troyes - Lens23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.ae7a68ab7a83db.click/live/selcukbeinsports4/playlist.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1724" group-title="SELCUK SPOR",Bein Sports 17/24
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
