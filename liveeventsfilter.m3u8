@@ -209,11 +209,6 @@ https://d13.epicquesthero.com:999/hls/do18.m3u8?md5=a61etoTVXQLG4bzAChw-_w&expir
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.25/hls/JNNN.m3u8
-#EXTINF:-1 tvg-chno="86" tvg-id="Live.Event.us" tvg-name="[Hungary NB 1 Liga] DVTK vs Gyor (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Hungary NB 1 Liga] DVTK vs Gyor (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://205.237.107.90/hls/FCCCQQQ.m3u8
 #EXTINF:-1 tvg-chno="87" tvg-id="Live.Event.us" tvg-name="[Indonesia Liga 1] Bali United vs Persebaya (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Indonesia Liga 1] Bali United vs Persebaya (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -234,6 +229,11 @@ http://205.237.104.40/hls/JUJUJUQQ.m3u8
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=bein+sports+1&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live.ru/secure/api/v1/us-bein-sports-1/playlist.m3u8?token=0c68dbcc748bdad8297359af321d284493362e431194b70a9265c74738d17b96.1770469265.fb831eb65d107306a1cea5c01581a047.b47e63f725ad8a0024fd3c762d93f71e.220daa7561c5ce84a038aec1140a1cbd&signature=3c9edca0924677410a32f3f57f55e707c8cf74136b83547e1597cb6685d36fd4
+#EXTINF:-1 tvg-chno="92" tvg-id="Soccer.Dummy.us" tvg-name="[Liga I] UTA Arad vs Csikszereda (CDNTV)" tvg-logo="https://i.gyazo.com/3fd4b38d5263ca391e45850eb58d11e6.png" group-title="Live Events",[Liga I] UTA Arad vs Csikszereda (CDNTV)
+#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=digi+sport+1&code=ro&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=digi+sport+1&code=ro&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edge.cdn-live.ru/secure/api/v1/ro-digi-sport-1/playlist.m3u8?token=1f4cc54a23a3d67ccdbc87ea9bcb1c49c89976c041f4092cd3c0ecc4c805e429.1770469262.dd3830f6072476f5a3b2babce72ca8a9.19a79f147c90b89737deed4f8a85e4c3.8184c2503e288a4dc9ec0bc297ebb178&signature=8b9912fbee7c377f378a11a2567c05330cc7b928f7f91c5e49808b98cf0bc76b
 #EXTINF:-1 tvg-chno="99" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 2] Laval vs Le Mans (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/96.png" group-title="Live Events",[Ligue 2] Laval vs Le Mans (CDNTV)
 #EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=bein+sports+1&code=fr&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=bein+sports+1&code=fr&user=cdnlivetv&plan=free
@@ -334,6 +334,16 @@ https://d14.epicquesthero.com:999/hls/do88.m3u8?md5=2L5L5oIN5NQNtGG1bKawhQ&expir
 #EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=laliga+tv+hypermotion+1&code=es&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edge.cdn-live.ru/secure/api/v1/es-laliga-tv-hypermotion-1/playlist.m3u8?token=9d96d21f5c3e438909e0537acb14a90cc28cf5412a183fb14bcc6cb0fae70ecb.1770469255.f167d98d969b4365b35bd31580af8e04.333bf9b29170c55b80f9f9b051b5caa0.a6da149c76968c0eea13386ea451b9dc&signature=93fe8c77ae5b326cf42d28531d99c57219ed4a21c30a4c976a3ad609d74ade38
+#EXTINF:-1 tvg-chno="141" tvg-id="Live.Event.us" tvg-name="[Serbia Super Liga] Javor vs TSC (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serbia Super Liga] Javor vs TSC (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.104.40/hls/FRFRFRQQQ.m3u8
+#EXTINF:-1 tvg-chno="142" tvg-id="Live.Event.us" tvg-name="[Serbia Super Liga] Radnik vs Partizan (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Serbia Super Liga] Radnik vs Partizan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://205.237.104.40/hls/FRFRFRQQQQ.m3u8
 #EXTINF:-1 tvg-chno="146" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker World Grand Prix (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker World Grand Prix (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -369,6 +379,11 @@ https://daffodil.xn--1000-ugoa0hsb9a0hb.com/golazo.m3u8
 #EXTVLCOPT:http-origin=https://storytrench.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://broadcasthub.click//hls/YJ8krnYwZrR/index.m3u8?st=QMk47s8oIr1lco-fwV5zkQ&e=1770480033
+#EXTINF:-1 tvg-chno="156" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish Segunda Liga] Andorra vs Real Sociedad B (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/107.png" group-title="Live Events",[Spanish Segunda Liga] Andorra vs Real Sociedad B (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.25/hls/YUYUYU.m3u8
 #EXTINF:-1 tvg-chno="159" tvg-id="Live.Event.us" tvg-name="[Tanzania Ligi Kuu Bara] TRA United vs Mbeya City (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Tanzania Ligi Kuu Bara] TRA United vs Mbeya City (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -379,11 +394,6 @@ http://205.237.107.90/hls/FCCC.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://205.237.104.40/hls/FRFRFRQ.m3u8
-#EXTINF:-1 tvg-chno="163" tvg-id="Soccer.Dummy.us" tvg-name="[Turkey Super Lig] Fatih Karagumruk vs Antalyaspor (SPORT9)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Turkey Super Lig] Fatih Karagumruk vs Antalyaspor (SPORT9)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d13.epicquesthero.com:999/hls/do91.m3u8?md5=bepOhs3NCH4h4EH9afvI6w&expires=1770476448
 #EXTINF:-1 tvg-chno="167" tvg-id="Live.Event.us" tvg-name="[World Club Friendly] Vasteras SK vs Djurgarden (SPORT9)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[World Club Friendly] Vasteras SK vs Djurgarden (SPORT9)
 #EXTVLCOPT:http-referrer=https://vividmosaica.com/
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
