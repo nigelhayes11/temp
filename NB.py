@@ -14,7 +14,7 @@ DYNAMIC_WAIT_TIMEOUT = 15000
 GAME_TABLE_WAIT_TIMEOUT = 30000
 
 STREAM_PATTERN = re.compile(r"\.m3u8($|\?)", re.IGNORECASE)
-OUTPUT_FILE = "CastwebSports.m3u8"
+OUTPUT_FILE = "NB.m3u8"
 
 NFL_BASE_URL = "https://nflwebcast.com/"
 NHL_BASE_URL = "https://slapstreams.com/"
