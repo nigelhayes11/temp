@@ -114,7 +114,7 @@ def main():
             channels = scrape_all_channels(page)
 
         m3u_content = []
-        output_filename = "MSİ.m3u"
+        output_filename = "msi.m3u"
         m3u_header_lines = [
             "#EXTM3U",
             f"#EXT-X-USER-AGENT:{USER_AGENT}",
