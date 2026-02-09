@@ -69,9 +69,9 @@ jobs:
       - name: zs.py Çalıştır
         continue-on-error: true
         run: python zs.py 
-      - name: cdn.py Çalıştır
+      - name: NB.py Çalıştır
         continue-on-error: true
-        run: python cdn.py
+        run: python NB.py
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
