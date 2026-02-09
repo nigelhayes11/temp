@@ -1,0 +1,36 @@
+name: SPORT9 Live M3U
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # 20 dakikada bir
+  workflow_dispatch:
+
+jobs:
+  sport9:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright selectolax
+          playwright install chromium
+          playwright install-deps
+
+      - name: Fetch SPORT9 M3U
+        run: python fetch_sport9.py
+
+      - name: Commit updated M3U
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "update spr9.m3u"
+          file_pattern: "spr9.m3u"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
