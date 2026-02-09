@@ -69,9 +69,6 @@ jobs:
       - name: zs.py Çalıştır
         continue-on-error: true
         run: python zs.py 
-      - name: NB.py Çalıştır
-        continue-on-error: true
-        run: python NB.py
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
