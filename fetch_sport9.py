@@ -5,7 +5,7 @@ from playwright.async_api import async_playwright
 from selectolax.parser import HTMLParser
 
 BASE_URL = "https://sport9.ru/"
-OUT_FILE = "spr9.m3u8"
+OUT_FILE = "spr9.m3u"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
 async def get_live_events(html: str):
