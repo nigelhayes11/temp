@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Ayarlar
-REDIRECT_SOURCE = "https://raw.githack.com/eniyiyayinci/redirect-cdn/main/inattv.html"
+REDIRECT_SOURCE = "http://raw.githack.com/eniyiyayinci/redirect-cdn/main/index.html"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
@@ -50,7 +50,7 @@ def main():
 
     base_url = resolve_base_url(active_domain)
     if not base_url:
-        base_url = "https://9vy.d72577a9dd0ec19.sbs/" 
+        base_url = "https://mm9.d72577a9dd0ec19.sbs/" 
         print(f"⚠️ Sunucu otomatik bulunamadı, fallback kullanılıyor: {base_url}")
     else:
         print(f"✅ Yayın sunucusu tespit edildi: {base_url}")
@@ -111,14 +111,14 @@ def main():
                 if cid_match and name:
                     cid = cid_match.group(1)
                     title = f"{status.get_text(strip=True) if status else 'CANLI'} | {name.get_text(strip=True)}"
-                    m3u_content.append(f'#EXTINF:-1 group-title="int spor",{title}')
+                    m3u_content.append(f'#EXTINF:-1 group-title="Canlı Maçlar",{title}')
                     m3u_content.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
                     m3u_content.append(f'#EXTVLCOPT:http-referrer={active_domain}/')
                     m3u_content.append(f'{base_url}{cid}/mono.m3u8')
 
         # 2. Sabit Kanallar Bölümü
         for cid, name in fixed_channels.items():
-            m3u_content.append(f'#EXTINF:-1 group-title="int spor",{name}')
+            m3u_content.append(f'#EXTINF:-1 group-title="7/24 Kanallar",{name}')
             m3u_content.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
             m3u_content.append(f'#EXTVLCOPT:http-referrer={active_domain}/')
             m3u_content.append(f'{base_url}{cid}/mono.m3u8')
@@ -126,7 +126,7 @@ def main():
         with open("int.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_content))
 
-        print(f"🏁 BAŞARILI → int.m3u hazır. ({len(m3u_content)-1} kanal)")
+        print(f"🏁 BAŞARILI → karsilasmalar2.m3u hazır. ({len(m3u_content)-1} kanal)")
 
     except Exception as e:
         print(f"❌ Hata: {e}")
