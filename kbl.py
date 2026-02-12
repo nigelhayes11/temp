@@ -56,4 +56,18 @@ def get_canli_tv_m3u():
 
                 tvg_id = str(kanal_index)
 
-                f.write(f'#EXTINF:-1
+                f.write(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="🔵KABLO TV TR🔵",{name}\n')
+                f.write(f'{hls_url}\n')
+
+                kanal_sayisi += 1
+                kanal_index += 1  
+        
+        print(f"📺 kbl.m3u oluşturuldu! ({kanal_sayisi} kanal)")
+        return True
+        
+    except Exception as e:
+        print(f"❌ Hata: {e}")
+        return False
+
+if __name__ == "__main__":
+    get_canli_tv_m3u()
