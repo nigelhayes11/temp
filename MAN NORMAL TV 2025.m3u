@@ -2542,14 +2542,14 @@ https://cloudlyticsapp.lol/static/pl5.m3u8
 #EXTINF:-1 group-title="Rec Tv",S SPORT+ PLUS HD 6
 https://cloudlyticsapp.lol/static/pl6.m3u8
 #EXTM3U
-#EXTINF:-1 tvg-id="atletico-madrid---manchester-utd23-00" group-title="SELCUK SPOR",Atletico Madrid - Manchester Utd23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.4301303bddff03.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="brentford---arsenal23-00" group-title="SELCUK SPOR",Brentford - Arsenal23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.4301303bddff03.click/live/selcukbeinsports3/playlist.m3u8
+#EXTINF:-1 tvg-id="atletico-madrid---manchester-utd23-00" group-title="SELCUK SPOR",Atletico Madrid - Manchester Utd23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.4301303bddff03.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="olympiakos---kizilyildiz22-15" group-title="SELCUK SPOR",Olympiakos - Kizilyildiz22:15
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2558,14 +2558,14 @@ https://dga1op10s1u3leo.4301303bddff03.click/live/selcukssport2/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.4301303bddff03.click/live/selcukssport/playlist.m3u8
-#EXTINF:-1 tvg-id="atletico-madrid---manchester-utd23-00" group-title="SELCUK SPOR",Atletico Madrid - Manchester Utd23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.4301303bddff03.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="brentford---arsenal23-00" group-title="SELCUK SPOR",Brentford - Arsenal23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.4301303bddff03.click/live/selcukbeinsports3/playlist.m3u8
+#EXTINF:-1 tvg-id="atletico-madrid---manchester-utd23-00" group-title="SELCUK SPOR",Atletico Madrid - Manchester Utd23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.4301303bddff03.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1724" group-title="SELCUK SPOR",Bein Sports 17/24
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2841,7 +2841,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-02-12T19:53:22.104757
+# Generated: 2026-02-12T20:19:47.065772
 #EXTM3U
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" group-title="ATOMSPOR TV",BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://www.atomsportv488.top
@@ -2885,71 +2885,92 @@ https://dry-fog-ea8b.reskamsan.workers.dev/https://corestream.ronaldovurdu.help/
 https://dry-fog-ea8b.reskamsan.workers.dev/https://corestream.ronaldovurdu.help//hls/trt-spor.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsports 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-1/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sbeinsports 2
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsports 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-3/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sbeinsports 4
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-4/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sbeinsports 5
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-5/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsportsmax 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsportsmax-1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsportsmax 2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsportsmax-2/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sssport
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/sssport/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sssport2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sssport2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Ssmartspor
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/ssmartspor/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Ssmartspor2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/ssmartspor2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Stivibuspor 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stivibuspor-1/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Stivibuspor 2
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/stivibuspor-2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Stivibuspor 3
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stivibuspor-3/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Stivibuspor 4
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stivibuspor-4/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsportshaber
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsportshaber/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Saspor
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/saspor/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Seurosport1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/seurosport1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Seurosport2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/seurosport2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sf1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sf1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Stabiispor
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stabiispor/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Strt1
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/strt1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Stv8
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stv8/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Strtspor
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/strtspor/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Strtspor2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/strtspor2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Satv
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/satv/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sdazn1
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sdazn1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sdazn2
-#EXTVLCOPT:http-referrer=https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sdazn2/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sssportplus1
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://dga1op10s1u3leo.4301303bddff03.click/live/sssportplus1/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Canlı Maçlar",23:00 | Atletico Madrid - Barcelona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -4005,11 +4026,11 @@ http://195.178.110.37/hls/HRRRQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.37/hls/BGBGBGQ.m3u8
-#EXTINF:-1 tvg-chno="108" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Wolfsburg W vs Juventus W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Wolfsburg W vs Juventus W (FAWA)
+#EXTINF:-1 tvg-chno="107" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Atletico Madrid W vs Manchester Utd W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Atletico Madrid W vs Manchester Utd W (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.27/hls/FFFFQQQ.m3u8
+https://b.rtzsa.cfd/hls/FAFAFAFA.m3u8
 #EXTINF:-1 tvg-chno="110" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] UEFA Nations League Draws (STRMBTW)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[UEFA Nations League] UEFA Nations League Draws (STRMBTW)
 #EXTVLCOPT:http-referrer=https://streambtw.live/iframe/ch2.php
 #EXTVLCOPT:http-origin=https://streambtw.live/iframe/ch2.php
