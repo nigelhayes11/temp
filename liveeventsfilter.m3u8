@@ -39,11 +39,6 @@ https://n10.sanwalyaarpya.com:1686/hls/mevent1.m3u8?md5=TrZfjPFqCjkij6Rsr5xRyQ&e
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://pfl6.ioniszenith.space/playlist/45175/load-playlist
-#EXTINF:-1 tvg-chno="62" tvg-id="Soccer.Dummy.us" tvg-name="[CAF Champions League] Berkane vs Rivers United (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2391.png" group-title="Live Events",[CAF Champions League] Berkane vs Rivers United (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.25/hls/AHNNNQQQQQ.m3u8
 #EXTINF:-1 tvg-chno="63" tvg-id="Soccer.Dummy.us" tvg-name="[CAF Champions League] Pyramids vs Power Dynamos (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2391.png" group-title="Live Events",[CAF Champions League] Pyramids vs Power Dynamos (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -264,6 +259,11 @@ https://edge.cdn-live.ru/secure/api/v1/us-bein-sports/playlist.m3u8?token=de9776
 #EXTVLCOPT:http-origin=https://pawastreams.net/aston-villa-v-newcastle/99289/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://ml.buzztip.site:2053/storage/e1/index.m3u8
+#EXTINF:-1 tvg-chno="189" tvg-id="Live.Event.us" tvg-name="[Live Event] Aston Villa vs Newcastle United (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Aston Villa vs Newcastle United (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://gametimes.plus/home/blog1/
+#EXTVLCOPT:http-origin=https://gametimes.plus/home/blog1/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://gametimes.plus/1111.php
 #EXTINF:-1 tvg-chno="190" tvg-id="Live.Event.us" tvg-name="[Live Event] Como vs Fiorentina (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Como vs Fiorentina (PAWA)
 #EXTVLCOPT:http-referrer=https://pawastreams.net/como-v-fiorentina/99277/
 #EXTVLCOPT:http-origin=https://pawastreams.net/como-v-fiorentina/99277/
@@ -284,11 +284,21 @@ https://ml.buzztip.site:2053/storage/L/index.m3u8
 #EXTVLCOPT:http-origin=https://gametimes.plus/home/blog3/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://gametimes.plus/3333.php
+#EXTINF:-1 tvg-chno="194" tvg-id="Live.Event.us" tvg-name="[Live Event] Liverpool vs Brighton (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Brighton (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://gametimes.plus/home/blog1/
+#EXTVLCOPT:http-origin=https://gametimes.plus/home/blog1/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://gametimes.plus/1111.php
 #EXTINF:-1 tvg-chno="195" tvg-id="Live.Event.us" tvg-name="[Live Event] Liverpool vs Brighton (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Brighton (PAWA)
 #EXTVLCOPT:http-referrer=https://pawastreams.net/liverpool-v-brighton/99287/
 #EXTVLCOPT:http-origin=https://pawastreams.net/liverpool-v-brighton/99287/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://ml.buzztip.site:2053/storage/e1/index.m3u8
+#EXTINF:-1 tvg-chno="196" tvg-id="Live.Event.us" tvg-name="[Live Event] Real Madrid vs Real Sociedad (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Real Sociedad (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://gametimes.plus/home/blog2/
+#EXTVLCOPT:http-origin=https://gametimes.plus/home/blog2/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://gametimes.plus/2222.php
 #EXTINF:-1 tvg-chno="197" tvg-id="Live.Event.us" tvg-name="[Live Event] Real Madrid vs Real Sociedad (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Real Sociedad (PAWA)
 #EXTVLCOPT:http-referrer=https://pawastreams.net/real-madrid-v-real-sociedad/99279/
 #EXTVLCOPT:http-origin=https://pawastreams.net/real-madrid-v-real-sociedad/99279/
