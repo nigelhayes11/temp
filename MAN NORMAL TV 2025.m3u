@@ -1,10 +1,2 @@
-#EXTM3U
-
-#EXTINF:-1 tvg-id="test1" tvg-name="Test Kanal 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" group-title="Haber",Test Kanal 1
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
-
-#EXTINF:-1 tvg-id="test2" tvg-name="Test Kanal 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" group-title="Spor",Test Kanal 2
-https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
-
-#EXTINF:-1 tvg-id="test3" tvg-name="Test Kanal 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" group-title="Film",Test Kanal 3
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 1 HD" group-title="Andro TV" ,beIN Sport 1 HD
+https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
