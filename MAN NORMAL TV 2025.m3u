@@ -1,4 +1,33 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="UmitVIP-spor",Bein Sports 1
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
+
+#EXTINF:-1 tvg-id="149_umitmod1" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="UmitVIP-spor",Bein Sports 1
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs11.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
+
+#EXTINF:-1 tvg-id="148" tvg-name="Bein Sports 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png" group-title="UmitVIP-spor",Bein Sports 2
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
+
+#EXTINF:-1 tvg-id="147" tvg-name="Bein Sports 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" group-title="UmitVIP-spor",Bein Sports 3
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
+
+#EXTINF:-1 tvg-id="146" tvg-name="Bein Sports 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" group-title="UmitVIP-spor",Bein Sports 4
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
+
+#EXTINF:-1 tvg-id="145" tvg-name="Bein Sports 5" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png" group-title="UmitVIP-spor",Bein Sports 5
+#EXTVLCOPT:http-user-agent=googleusercontent
+#EXTVLCOPT:http-referrer=https://twitter.com/
+https://1.cf32-2c8.workers.dev/static/bs5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
 #EXTINF:-1 tvg-id="1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/05224d68-1e63-435b-b3f4-93f95e94b890.png" group-title="Ulusal",Kablo Info
 https://ottcdn.kablowebtv.net/live_turksat_sub3/kabloinfo_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDc6NTY6MzYgQU0maGFzaF92YWx1ZT0wM1BNcUVCUkRKYWRmNHVqWGVwenpRPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LGViODc3NDRjLTk4NDItNDUwNy05YjBhLTQ0N2RmYjg2NjJhZCxhMDkwODc4NC1kMTI4LTQ2MWYtYjc2Yi1hNTdkZWIxYjgwY2MsMGZhMDM1OWQtYTE5Yi00MWIyLTllNzMtMjllY2I2OTY5NjQwLDAsOjpmZmZmOjEwLjAuMC4y
 #EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="Sinema ve Dizi",Sinema Tv
