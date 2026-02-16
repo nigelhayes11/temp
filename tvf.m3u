@@ -2209,12 +2209,13 @@ https://vavoo.to/vavoo-iptv/play/267105889a25a483e5e80
 #EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 4K FEED(UYDU) 
 https://vavoo.to/vavoo-iptv/play/1536730627bbf8f95ca477
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",REC
+
+#EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",REC
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://yastikkavgasi.lol/static/bs11.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",REC B
+#EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",REC B
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://yastikkavgasi.lol/static/bs1.m3u8
