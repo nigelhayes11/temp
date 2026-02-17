@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="DAZN 1 .c""tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="⚡Germany⚡",DAZN 1 .c
+https://vavoo.to/vavoo-iptv/play/263339334cc4fd6ebe9ff
+#EXTINF:-1 tvg-name="DAZN 1 [LIVE DURING EVENTS ONLY] .s""tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="⚡Germany⚡",DAZN 1 [LIVE DURING EVENTS ONLY] .s
+https://vavoo.to/vavoo-iptv/play/2748335805b3e1e95b64c0
+#EXTINF:-1 tvg-name="DAZN 1 FHD .b""tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="⚡Germany⚡",DAZN 1 FHD .b
+https://vavoo.to/vavoo-iptv/play/13464368479556ecce2a7d
 #EXTINF:-1 tvg-id="1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/05224d68-1e63-435b-b3f4-93f95e94b890.png" group-title="Ulusal",Kablo Info
 https://ottcdn.kablowebtv.net/live_turksat_sub3/kabloinfo_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI2IDE6NDg6MjcgUE0maGFzaF92YWx1ZT02QmFQZ3R3QXlOTkR3MkpOODV2Y1ZRPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LGViODc3NDRjLTk4NDItNDUwNy05YjBhLTQ0N2RmYjg2NjJhZCxhMDkwODc4NC1kMTI4LTQ2MWYtYjc2Yi1hNTdkZWIxYjgwY2MsMGZhMDM1OWQtYTE5Yi00MWIyLTllNzMtMjllY2I2OTY5NjQwLDAsOjpmZmZmOjEwLjAuMC4yMDY=
 #EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="Sinema ve Dizi",Sinema Tv
