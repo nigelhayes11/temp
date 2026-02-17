@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="fc-seoul---hiroshima13-00" group-title="SELCUK SPOR",FC Seoul - Hiroshima13:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuksmartspor/playlist.m3u8
 #EXTINF:-1 tvg-id="hatayspor---igdirspor14-30" group-title="SELCUK SPOR",Hatayspor - Iğdırspor14:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -27,14 +23,14 @@ https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktrtspor/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktrt1/playlist.m3u8
-#EXTINF:-1 tvg-id="benfica---real-madrid23-00" group-title="SELCUK SPOR",Benfica - Real Madrid23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor1/playlist.m3u8
 #EXTINF:-1 tvg-id="bdortmund---atalanta23-00" group-title="SELCUK SPOR",B.Dortmund - Atalanta23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor3/playlist.m3u8
+#EXTINF:-1 tvg-id="benfica---real-madrid23-00" group-title="SELCUK SPOR",Benfica - Real Madrid23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor1/playlist.m3u8
 #EXTINF:-1 tvg-id="monaco---psg23-00" group-title="SELCUK SPOR",Monaco - PSG23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -47,10 +43,6 @@ https://dga1op10s1u3leo.77b6de8e471484.click/live/selcukaspor/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.77b6de8e471484.click/live/selcukaspor/playlist.m3u8
-#EXTINF:-1 tvg-id="fc-seoul---hiroshima13-00" group-title="SELCUK SPOR",FC Seoul - Hiroshima13:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuksmartspor/playlist.m3u8
 #EXTINF:-1 tvg-id="hatayspor---igdirspor14-30" group-title="SELCUK SPOR",Hatayspor - Iğdırspor14:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -75,14 +67,14 @@ https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktrtspor/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktrt1/playlist.m3u8
-#EXTINF:-1 tvg-id="benfica---real-madrid23-00" group-title="SELCUK SPOR",Benfica - Real Madrid23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor1/playlist.m3u8
 #EXTINF:-1 tvg-id="bdortmund---atalanta23-00" group-title="SELCUK SPOR",B.Dortmund - Atalanta23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor3/playlist.m3u8
+#EXTINF:-1 tvg-id="benfica---real-madrid23-00" group-title="SELCUK SPOR",Benfica - Real Madrid23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.77b6de8e471484.click/live/selcuktabiispor1/playlist.m3u8
 #EXTINF:-1 tvg-id="monaco---psg23-00" group-title="SELCUK SPOR",Monaco - PSG23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
