@@ -3,7 +3,7 @@ import re
 import time
 
 # AtomSporTV
-START_URL = "https://url24.link/AtomSporTV"
+START_URL = "https://atomsportv488.top/"
 OUTPUT_FILE = "rnl.m3u"
 
 GREEN = "\033[92m"
@@ -32,7 +32,7 @@ def get_base_domain():
                 print(f"Ana Domain: {base_domain}")
                 return base_domain
         
-        return "https://www.atomsportv480.top"
+        return "https://www.atomsportv488.top"
         
     except Exception as e:
         print(f"Domain hatası: {e}")
