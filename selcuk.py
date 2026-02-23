@@ -64,7 +64,7 @@ def fetch_streams(domain, referer):
             pass
     return result
 
-def write_m3u(links, filename="selcuk.m3u", referer=""):
+def write_m3u(links, filename="selcukk.m3u", referer=""):
     print(f"\n M3U dosyası yazılıyor: {filename}")
     lines = [""]
     for ch, url in links:
