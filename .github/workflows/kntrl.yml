@@ -37,9 +37,6 @@ jobs:
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
-      - name: r.py Çalıştır
-        continue-on-error: true
-        run: python r.py
       - name: r2.py Çalıştır
         continue-on-error: true
         run: python r2.py
