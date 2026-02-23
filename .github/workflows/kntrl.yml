@@ -27,9 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4
           
-      - name: inn.py Çalıştır
-        continue-on-error: true
-        run: python inn.py
+     
       - name: oki.py Çalıştır
         continue-on-error: true
         run: python oki.py  
@@ -45,9 +43,6 @@ jobs:
       - name: r2.py Çalıştır
         continue-on-error: true
         run: python r2.py
-      - name: ftb.py Çalıştır
-        continue-on-error: true
-        run: python ftb.py
       - name: kbl.py Çalıştır
         continue-on-error: true
         run: python kbl.py        
@@ -63,9 +58,6 @@ jobs:
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
-      - name: jst.py Çalıştır
-        continue-on-error: true
-        run: python jst.py 
       - name: msi.py Çalıştır
         continue-on-error: true
         run: python msi.py 
