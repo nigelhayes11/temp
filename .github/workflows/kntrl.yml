@@ -66,12 +66,9 @@ jobs:
       - name: jst.py Çalıştır
         continue-on-error: true
         run: python jst.py 
-      - name: zs.py Çalıştır
+      - name: msi.py Çalıştır
         continue-on-error: true
-        run: python zs.py 
-      - name: MSİ.py Çalıştır
-        continue-on-error: true
-        run: python MSİ.py 
+        run: python msi.py 
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
