@@ -1,12 +1,12 @@
-import requests
 import json
 import re
 from cloudscraper import CloudScraper
 
+
 class RecTVUrlFetcher:
     def __init__(self):
         self.session = CloudScraper()
-    
+
     def get_rectv_domain(self):
         try:
             response = self.session.post(
@@ -28,60 +28,55 @@ class RecTVUrlFetcher:
                     "analyticsUserProperties": {},
                     "appId": "1:791583031279:android:244c3d507ab299fcabc01a",
                     "languageCode": "tr-TR",
-                    "timeZone": "Africa\/Nairobi"
+                    "timeZone": "Africa/Nairobi"
                 }
             )
-            print(f"{response.json()}")
-            domains_str = response.json().get("entries", {}).get("ab_rotating_live_tv_domains", "[]")
+
+            data = response.json()
+            domains_str = data.get("entries", {}).get("ab_rotating_live_tv_domains", "[]")
             domains_list = json.loads(domains_str)
-            main_url = domains_list[0] if domains_list else "https://cloudlyticsapp.lol"
-            base_domain = main_url
-            print(f"🟢 Güncel RecTV domain alındı: {base_domain}")
-            return base_domain
+
+            # Domain al
+            domain = domains_list[0] if domains_list else "cloudlyticsapp.lol"
+
+            # HER ZAMAN HTTPS YAP
+            domain = domain.replace("http://", "")
+            domain = domain.replace("https://", "")
+            domain = "https://" + domain.strip()
+
+            print(f"✅ Güncel HTTPS domain: {domain}")
+            return domain
+
         except Exception as e:
-            print("🔴 RecTV domain alınamadı!")
-            print(f"Hata: {type(e).__name__} - {e}")
+            print(f"❌ Domain alınamadı: {type(e).__name__} - {e}")
             return None
-    
+
     def update_m3u_domains(self, m3u_file_path, new_domain):
-        """
-        M3U dosyasındaki TÜM domain'leri yeni domain ile değiştirir
-        
-        Args:
-            m3u_file_path: M3U dosyasının yolu
-            new_domain: Yeni domain (örn: https://cloudlyticsapp.lol)
-        """
         try:
-            # M3U dosyasını oku
             with open(m3u_file_path, 'r', encoding='utf-8') as file:
                 content = file.read()
-            
-            # Tüm URL'lerdeki domain'leri bul ve değiştir
-            # Regex ile https://domain.com kısmını yakala ve yeni domain ile değiştir
+
+            # Tüm http/https domainleri değiştir
             updated_content = re.sub(
-                r'https?://[^/]+',  # https:// veya http:// ile başlayan ve / ile biten kısım
-                new_domain,          # Yeni domain
-                content              # İçerik
+                r'https?://[^/\s]+',
+                new_domain,
+                content
             )
-            
-            # Güncellenmiş içeriği dosyaya yaz
+
             with open(m3u_file_path, 'w', encoding='utf-8') as file:
                 file.write(updated_content)
-            
-            # Kaç adet değişiklik yapıldığını hesapla
-            changes_count = len(re.findall(r'https?://[^/]+', content))
-            
-            print(f"✅ M3U dosyası güncellendi: {changes_count} adet domain değiştirildi -> {new_domain}")
+
+            print("✅ M3U dosyası tamamen HTTPS domain ile güncellendi.")
             return True
-                
+
         except Exception as e:
-            print(f"❌ M3U dosyası güncellenirken hata oluştu: {type(e).__name__} - {e}")
+            print(f"❌ M3U güncellenemedi: {type(e).__name__} - {e}")
             return False
+
 
 if __name__ == "__main__":
     fetcher = RecTVUrlFetcher()
     domain = fetcher.get_rectv_domain()
-    
+
     if domain:
-        # M3U dosyasını güncelle
         fetcher.update_m3u_domains("r2.m3u", domain)
