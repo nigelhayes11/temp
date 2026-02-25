@@ -6,6 +6,34 @@ https://tv
 
 #EXTINF:-1 group-title="🔴🔴🔴ALT GRUP FULL AKTİF🔴🔴🔴",
 https://tv
+#EXTM3U
+#EXTINF:-1 tvg-id="Trt1" tvg-name="TRT 1" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/trt1.png",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Atv" tvg-name="ATV" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/atv.png",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+
+#EXTINF:-1 tvg-id="KanalD" tvg-name="Kanal D" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/kanald.png",Kanal D 
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald.m3u8
+#EXTINF:-1 tvg-id="StarTV" tvg-name="Star TV" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/startv.png",Star TV
+https://emmazbvkkf.turknet.ercdn.net/cnifuowzza/startv/startv.m3u8
+#EXTINF:-1 tvg-id="ShowTV" tvg-name="Show TV" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/showtv.png",Show TV
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
+#EXTINF:-1 tvg-id="Now" tvg-name="Now" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/now.png",Now
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-id="TV8" tvg-name="TV8" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/tv8.png",TV8 
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="TV85" tvg-name="TV85" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/tv85.png",TV85
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
+#EXTINF:-1 tvg-id="A2" tvg-name="A2" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/a2.png",A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+
+#EXTINF:-1 tvg-id="Teve2 " tvg-name="Teve2 " tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/teve2.png",Teve2 
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8
+
+#EXTINF:-1 tvg-id="Beyaztv" tvg-name="Beyaztv" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/beyaztv.png",Beyaztv
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-id="TV360" tvg-name="TV360" tvg-group="🟢Ulusal🟢" tvg-logo="../turk-tv1/image/360tv.png",TV360
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="🟠D GO ULUSAL🟠",Trt 1
 https://trt.daioncdn.net/trt-1/master_1440p.m3u8?&sid=874i4a9gafuj&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
 #EXTINF:-1 tvg-id="8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="🟠D GO ULUSAL🟠",Atv    
