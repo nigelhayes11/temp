@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Melbourne Victory vs Adelaide United (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Australia A-League] Melbourne Victory vs Adelaide United (FAWA)
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Azerbaijan Premier League] Araz vs Zira (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Azerbaijan Premier League] Araz vs Zira (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.37/hls/FNNNQQQ.m3u8
+http://195.178.110.37/hls/TTTTQQQ.m3u8
 #EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Bulgaria efbet League] Arda vs Spartak Varna (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Bulgaria efbet League] Arda vs Spartak Varna (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -44,11 +44,11 @@ http://195.178.110.37/hls/ACCCCQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.37/hls/ACCCCQQ.m3u8
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[India ISL] East Bengal vs Jamshedpur (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[India ISL] East Bengal vs Jamshedpur (FAWA)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[India ISL] Bengaluru FC vs Punjab (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[India ISL] Bengaluru FC vs Punjab (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.37/hls/SASASAQQ.m3u8
+http://195.178.110.37/hls/TTTT.m3u8
 #EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Live Event] Augsburg vs Köln (PAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Augsburg vs Köln (PAWA)
 #EXTVLCOPT:http-referrer=https://pawastreams.net/augsburg-v-koln/100101/
 #EXTVLCOPT:http-origin=https://pawastreams.net/augsburg-v-koln/100101/
@@ -89,11 +89,11 @@ https://lb.buzztip.site/it/index.m3u8
 #EXTVLCOPT:http-origin=https://pawastreams.net/wolves-v-aston-villa/100109/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lb.buzztip.site/p1/index.m3u8
-#EXTINF:-1 tvg-chno="49" tvg-id="Racing.Dummy.us" tvg-name="[MOTOGP] MotoGP Thailand Grand Prix vs Live (TOTALSPRTK)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MOTOGP] MotoGP Thailand Grand Prix vs Live (TOTALSPRTK)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek777.com/MotoGP-Thailand-Grand-Prix-vs-Live/59031
-#EXTVLCOPT:http-origin=https://live3.totalsportek777.com/MotoGP-Thailand-Grand-Prix-vs-Live/59031
+#EXTINF:-1 tvg-chno="51" tvg-id="Live.Event.us" tvg-name="[Malaysia Super League] The Real Warriors vs DPMM (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Malaysia Super League] The Real Warriors vs DPMM (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fes.feswalki.site/simpch2/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gyIiwiaXAiOiIwLjAuMC4wIiwiZXhwIjoxNzcyMTk5MDM2LCJyYW5kIjoiMGJlZWJiNjY0YTFkNTM0MCJ9.d6dc8e268be4d8f306145e10b9086acaeb9fe3fcc0f618de9ead5f5772987c03
+http://195.178.110.37/hls/TTTTQQ.m3u8
 #EXTINF:-1 tvg-chno="52" tvg-id="Racing.Dummy.us" tvg-name="[MotoGP] MotoGP Grand Prix of Thailand (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MotoGP] MotoGP Grand Prix of Thailand (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
