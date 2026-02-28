@@ -3713,7 +3713,8 @@ http://77.46.130.252:99/maxsport3
 #EXTINF:-1 group-title="⚽⚽YABANCI FUTBOL⚽⚽⚽⚽",ESPN 2 🇦🇷
 http://45.228.234.30:16000/play/a01l/index.m3u8
 
-
+#EXTINF:-1 tvg-chno="145" tvg-id="NBA.Basketball.Dummy.us" " tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="🏀[NBA]🏀",NBA ESPN
+http://origin.thetvapp.to/hls/ESPN/mono.m3u8
 #EXTINF:-1 tvg-chno="145" tvg-id="NBA.Basketball.Dummy.us" " tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="🏀[NBA]🏀",NBA 1 A
 http://origin.thetvapp.to/hls/NBA01/mono.m3u8
 #EXTINF:-1 tvg-chno="145" tvg-id="NBA.Basketball.Dummy.us" " tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="🏀[NBA]🏀",NBA 1 B
