@@ -9,7 +9,6 @@ ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 cafe = 'cafe.m3u'
-jst = 'jst.m3u'
 msi = 'msi.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
