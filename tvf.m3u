@@ -9,6 +9,54 @@ https://tv
 #EXTM3U
 
 
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",CNN TR
+https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=VhhUoOBc_Np34JxpcVifoQ&e=1772365195
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",HALK TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",SZC TV
+https://cdn.tecostream.xyz/Sozcu_Tv.m3u8
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",NTV
+http://dygvideo.dygdigital.com/live/hls/puhuntvdai?m3u8
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",HABER TÜRK
+https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",BLOOMBERG
+https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",A HABER
+https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8?st=zklpCclpeetu5Mg0Jwb29w&e=1772400366
+
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",TRT HABER
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",CNN USA
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 tvg-id="72" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a5693ef9-7290-41c9-ad65-7c23b94ddf97.png" group-title="🌎HABER🌎(AKTİF)",CNN International
+https://a1xs.vip/1000016
+
+
+#EXTINF:-1 tvg-id="75" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/cd5d8a5c-1fa0-4a1a-abfb-def33e98338b.png" group-title="🌎HABER🌎(AKTİF)",Al Jazeera (İngilizce)
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+
+
+#EXTINF:-1 tvg-id="77" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/b2d761b5-1822-4531-8f00-51bb232f8afa.png" group-title="🌎HABER🌎(AKTİF)",Dw Tv (İngilizce)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+
+
+#EXTINF:-1 tvg-id="71" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/39782c5a-711e-4f31-8ae0-590303ff65c4.png" group-title="🌎HABER🌎(AKTİF)",BBC News
+https://a1xs.vip/1000015
+#EXTINF:-1 tvg-id="70" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="🌎HABER🌎(AKTİF)",TRT World
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="71" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/39782c5a-711e-4f31-8ae0-590303ff65c4.png" group-title="🌎HABER🌎(AKTİF)",BBC News
+https://a1xs.vip/1000015
+#EXTINF:-1 tvg-id="71" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/39782c5a-711e-4f31-8ae0-590303ff65c4.png" group-title="🌎HABER🌎(AKTİF)",A News
+https://trkvz-live.ercdn.net/anewshd/anewshd_720p.m3u8?st=SJZyFzK1-LlkY7HZIhfRag&e=1772398290
+
+
 
 #EXTINF:-1 tvg-id="7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="🟠D GO ULUSAL🟠",Trt 1
 https://trt.daioncdn.net/trt-1/master_1440p.m3u8?&sid=874i4a9gafuj&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
