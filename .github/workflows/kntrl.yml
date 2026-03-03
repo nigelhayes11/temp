@@ -1,11 +1,14 @@
 name: Kontrol
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'  
+
 jobs:
   BirlesikGuncelleme:
     runs-on: ubuntu-latest
@@ -25,35 +28,41 @@ jobs:
       - name: Gereksinimleri Kur
         run: |
           python -m pip install --upgrade pip
-          pip install -U setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4
+          pip install --upgrade setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4
           
-     
       - name: oki.py Çalıştır
         continue-on-error: true
         run: python oki.py  
+
       - name: an.py Çalıştır
         continue-on-error: true
         run: python an.py
+
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
+
       - name: r2.py Çalıştır
         continue-on-error: true
         run: python r2.py
-      - name: kbl.py Çalıştır
+
+      - name: kbl.py Çalıştır        
         continue-on-error: true
         run: python kbl.py        
-      - name: rnl.py Çalıştır
+
+      - name: rnl.py Çalıştır        
         continue-on-error: true
         run: python rnl.py        
+
       - name: fll.py Çalıştır
         continue-on-error: true
         run: python fll.py 
-      - name: sc.py Çalıştır
-        continue-on-error: true
-        run: python sc.py 
+
+      - name: sc.py Çalıştır ve Değişiklik Kontrol
         id: degisiklik_kontrol
+        continue-on-error: true
         run: |
+          python sc.py
           git diff --quiet . || echo "degisiklik=true" >> $GITHUB_OUTPUT
           
       - name: Değişiklikleri Commit Et
@@ -64,4 +73,3 @@ jobs:
           git add .
           git commit -m "🔄 Kanallar güncellendi" -m "📺 Domain kontrolü ve M3U güncellemeleri tamamlandı" -m "🕒 Otomatik işlem - $GITHUB_SHA"
           git push
-
