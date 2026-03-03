@@ -9,7 +9,6 @@ ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 cafe = 'cafe.m3u'
-msi = 'msi.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
 # M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
@@ -44,8 +43,7 @@ birlesik_icerik = (
     ne_icerik +
     rnl_icerik +
     cafe_icerik +
-    msi_icerik +
-    liveeventsfilter_icerik
+    liveeventsfilter_icerik +
 )
 
 # Yeni dosyaya yaz
