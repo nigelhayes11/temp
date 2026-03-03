@@ -40,7 +40,7 @@ birlesik_icerik = (
     ne_icerik +
     rnl_icerik +
     cafe_icerik +
-    liveeventsfilter_icerik +
+    liveeventsfilter_icerik 
 )
 
 # Yeni dosyaya yaz
