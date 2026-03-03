@@ -1,8 +1,6 @@
 #EXTM3U
 #EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXT-X-ORIGIN:https://taraftarium24.xyz
-#EXTINF:-1 tvg-name="Estudiantes - Velez Sarsfield" group-title="MAÇ SEÇ İZLE (VPN)",Estudiantes - Velez Sarsfield
-https://andro.2385437.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 tvg-name="NC State - Duke" group-title="MAÇ SEÇ İZLE (VPN)",NC State - Duke
 https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 tvg-name="Independiente Rivadavia - River Plate" group-title="MAÇ SEÇ İZLE (VPN)",Independiente Rivadavia - River Plate
@@ -47,88 +45,160 @@ https://andro.2385437.xyz/checklist/androstreamlivetrts.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 tvg-name="Wolverhampton - Liverpool" group-title="MAÇ SEÇ İZLE (VPN)",Wolverhampton - Liverpool
 https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 tvg-name="Sportivo Luqueno - Rubio Nu II" group-title="MAÇ SEÇ İZLE (VPN)",Sportivo Luqueno - Rubio Nu II
-https://andro.2385437.xyz/checklist/androstreamlivech296334043631620096.m3u8
-#EXTINF:-1 tvg-name="Sao Luiz RS - EC Novo Hamburgo II" group-title="MAÇ SEÇ İZLE (VPN)",Sao Luiz RS - EC Novo Hamburgo II
-https://andro.2385437.xyz/checklist/androstreamlivech296581227649208320.m3u8
-#EXTINF:-1 tvg-name="SC Penedense - ASA (Agremiação Sportiva Arapiraquense) II" group-title="MAÇ SEÇ İZLE (VPN)",SC Penedense - ASA (Agremiação Sportiva Arapiraquense) II
-https://andro.2385437.xyz/checklist/androstreamlivech296593019663323136.m3u8
-#EXTINF:-1 tvg-name="FC Nouadhibou - FC Tevragh Zeina II" group-title="MAÇ SEÇ İZLE (VPN)",FC Nouadhibou - FC Tevragh Zeina II
-https://andro.2385437.xyz/checklist/androstreamlivech296604427252699136.m3u8
-#EXTINF:-1 tvg-name="Deportivo Riestra - Platense II" group-title="MAÇ SEÇ İZLE (VPN)",Deportivo Riestra - Platense II
-https://andro.2385437.xyz/checklist/androstreamlivech296074088207912960.m3u8
-#EXTINF:-1 tvg-name="Estudiantes de la Plata - Velez Sarsfield II" group-title="MAÇ SEÇ İZLE (VPN)",Estudiantes de la Plata - Velez Sarsfield II
-https://andro.2385437.xyz/checklist/androstreamlivech296074085366272000.m3u8
-#EXTINF:-1 tvg-name="Trem DC AP - Cristal AP II" group-title="MAÇ SEÇ İZLE (VPN)",Trem DC AP - Cristal AP II
-https://andro.2385437.xyz/checklist/androstreamlivech296584845115822080.m3u8
-#EXTINF:-1 tvg-name="Portuguesa RJ - Sampaio Correa RJ II" group-title="MAÇ SEÇ İZLE (VPN)",Portuguesa RJ - Sampaio Correa RJ II
-https://andro.2385437.xyz/checklist/androstreamlivech296401861050929152.m3u8
+#EXTINF:-1 tvg-name="Cleveland Cavaliers - Detroit Pistons" group-title="MAÇ SEÇ İZLE (VPN)",Cleveland Cavaliers - Detroit Pistons
+https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 tvg-name="FC Seoul - Vissel Kobe" group-title="MAÇ SEÇ İZLE (VPN)",FC Seoul - Vissel Kobe
+https://andro.2385437.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 tvg-name="Erzurumspor - Keçiörengücü" group-title="MAÇ SEÇ İZLE (VPN)",Erzurumspor - Keçiörengücü
+https://andro.2385437.xyz/checklist/androstreamliveas.m3u8
+#EXTINF:-1 tvg-name="Johor Darul - Hiroshima" group-title="MAÇ SEÇ İZLE (VPN)",Johor Darul - Hiroshima
+https://andro.2385437.xyz/checklist/androstreamlivesm1.m3u8
+#EXTINF:-1 tvg-name="Vakifbank - Zeren Spor" group-title="MAÇ SEÇ İZLE (VPN)",Vakifbank - Zeren Spor
+https://andro.2385437.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 tvg-name="Botaş - Emlak Konut" group-title="MAÇ SEÇ İZLE (VPN)",Botaş - Emlak Konut
+https://andro.2385437.xyz/checklist/androstreamliveht.m3u8
+#EXTINF:-1 tvg-name="Karabağ - Shamakhi" group-title="MAÇ SEÇ İZLE (VPN)",Karabağ - Shamakhi
+https://andro.2385437.xyz/checklist/androstreamlivecbcs.m3u8
+#EXTINF:-1 tvg-name="AZ Alkmaar - SC Telstar" group-title="MAÇ SEÇ İZLE (VPN)",AZ Alkmaar - SC Telstar
+https://andro.2385437.xyz/checklist/androstreamlivesifir.m3u8
+#EXTINF:-1 tvg-name="Türkiye - Çekya" group-title="MAÇ SEÇ İZLE (VPN)",Türkiye - Çekya
+https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 tvg-name="NEC Nijmegen - PSV" group-title="MAÇ SEÇ İZLE (VPN)",NEC Nijmegen - PSV
+https://andro.2385437.xyz/checklist/androstreamlivesifir.m3u8
+#EXTINF:-1 tvg-name="Galatasaray Daikin - Kuzeyboru" group-title="MAÇ SEÇ İZLE (VPN)",Galatasaray Daikin - Kuzeyboru
+https://andro.2385437.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 tvg-name="ÇBK Mersin - Lattes Montpellier" group-title="MAÇ SEÇ İZLE (VPN)",ÇBK Mersin - Lattes Montpellier
+https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
+#EXTINF:-1 tvg-name="Gaziantep FK - Fenerbahçe" group-title="MAÇ SEÇ İZLE (VPN)",Gaziantep FK - Fenerbahçe
+https://andro.2385437.xyz/checklist/androstreamliveatv.m3u8
+#EXTINF:-1 tvg-name="Beşiktaş - Ç.Rizespor" group-title="MAÇ SEÇ İZLE (VPN)",Beşiktaş - Ç.Rizespor
+https://andro.2385437.xyz/checklist/androstreamliveas.m3u8
+#EXTINF:-1 tvg-name="Beyoğlu Yeni Çarşi - Kocaelispor" group-title="MAÇ SEÇ İZLE (VPN)",Beyoğlu Yeni Çarşi - Kocaelispor
+https://andro.2385437.xyz/checklist/androstreamliveas.m3u8
+#EXTINF:-1 tvg-name="Rayo Vallecano - Real Oviedo" group-title="MAÇ SEÇ İZLE (VPN)",Rayo Vallecano - Real Oviedo
+https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 tvg-name="Aston Villa - Chelsea" group-title="MAÇ SEÇ İZLE (VPN)",Aston Villa - Chelsea
+https://andro.2385437.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 tvg-name="Hamburg - Bayer Leverkusen" group-title="MAÇ SEÇ İZLE (VPN)",Hamburg - Bayer Leverkusen
+https://andro.2385437.xyz/checklist/androstreamlivets1.m3u8
+#EXTINF:-1 tvg-name="Brighton - Arsenal" group-title="MAÇ SEÇ İZLE (VPN)",Brighton - Arsenal
+https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 tvg-name="Fulham - West Ham" group-title="MAÇ SEÇ İZLE (VPN)",Fulham - West Ham
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 tvg-name="Manchester City - Nottingham Forest" group-title="MAÇ SEÇ İZLE (VPN)",Manchester City - Nottingham Forest
+https://andro.2385437.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 tvg-name="Aberdeen - Celtic" group-title="MAÇ SEÇ İZLE (VPN)",Aberdeen - Celtic
+https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 tvg-name="Real Sociedad - Athletic Bilbao" group-title="MAÇ SEÇ İZLE (VPN)",Real Sociedad - Athletic Bilbao
+https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
+#EXTINF:-1 tvg-name="Lazio - Atalanta" group-title="MAÇ SEÇ İZLE (VPN)",Lazio - Atalanta
+https://andro.2385437.xyz/checklist/androstreamlivetrts.m3u8
+#EXTINF:-1 tvg-name="Marsilya - Toulouse" group-title="MAÇ SEÇ İZLE (VPN)",Marsilya - Toulouse
+https://andro.2385437.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 tvg-name="Newcastle - Manchester Utd" group-title="MAÇ SEÇ İZLE (VPN)",Newcastle - Manchester Utd
+https://andro.2385437.xyz/checklist/androstreamlivebs5.m3u8
 #EXTINF:-1 tvg-name="Deportivo Maldonado - Juventud Piedras II" group-title="MAÇ SEÇ İZLE (VPN)",Deportivo Maldonado - Juventud Piedras II
 https://andro.2385437.xyz/checklist/androstreamlivech295967173552410624.m3u8
-#EXTINF:-1 tvg-name="Viper+ - Sunrise+" group-title="MAÇ SEÇ İZLE (VPN)",Viper+ - Sunrise+
-https://andro.2385437.xyz/checklist/androstreamlivech18497163.m3u8
-#EXTINF:-1 tvg-name="Runners - Inferno FC" group-title="MAÇ SEÇ İZLE (VPN)",Runners - Inferno FC
-https://andro.2385437.xyz/checklist/androstreamlivech18497164.m3u8
-#EXTINF:-1 tvg-name="LANDSCAPE - CADASTRE" group-title="MAÇ SEÇ İZLE (VPN)",LANDSCAPE - CADASTRE
-https://andro.2385437.xyz/checklist/androstreamlivech18497052.m3u8
-#EXTINF:-1 tvg-name="Hannover (Amatörler) - Koln (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Hannover (Amatörler) - Koln (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497133.m3u8
-#EXTINF:-1 tvg-name="Lampone (3x3) - Fiore (3x3)" group-title="MAÇ SEÇ İZLE (VPN)",Lampone (3x3) - Fiore (3x3)
-https://andro.2385437.xyz/checklist/androstreamlivech18497151.m3u8
-#EXTINF:-1 tvg-name="PSV (Amatörler) - Ajax (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",PSV (Amatörler) - Ajax (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497173.m3u8
-#EXTINF:-1 tvg-name="Maras - Stelsoff" group-title="MAÇ SEÇ İZLE (VPN)",Maras - Stelsoff
-https://andro.2385437.xyz/checklist/androstreamlivech18497155.m3u8
-#EXTINF:-1 tvg-name="Darmstadt (Amatörler) - Paderborn (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Darmstadt (Amatörler) - Paderborn (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497134.m3u8
-#EXTINF:-1 tvg-name="Revolution + - United +" group-title="MAÇ SEÇ İZLE (VPN)",Revolution + - United +
-https://andro.2385437.xyz/checklist/androstreamlivech18497154.m3u8
-#EXTINF:-1 tvg-name="Milan+ - Real+" group-title="MAÇ SEÇ İZLE (VPN)",Milan+ - Real+
-https://andro.2385437.xyz/checklist/androstreamlivech18497140.m3u8
-#EXTINF:-1 tvg-name="Rowdies + - Tulsa +" group-title="MAÇ SEÇ İZLE (VPN)",Rowdies + - Tulsa +
-https://andro.2385437.xyz/checklist/androstreamlivech18497106.m3u8
-#EXTINF:-1 tvg-name="FOSSIL - PSY" group-title="MAÇ SEÇ İZLE (VPN)",FOSSIL - PSY
-https://andro.2385437.xyz/checklist/androstreamlivech18497048.m3u8
-#EXTINF:-1 tvg-name="Bayern+ - Tottenham+" group-title="MAÇ SEÇ İZLE (VPN)",Bayern+ - Tottenham+
-https://andro.2385437.xyz/checklist/androstreamlivech18497139.m3u8
-#EXTINF:-1 tvg-name="Presto (2x2) - Elite (2x2)" group-title="MAÇ SEÇ İZLE (VPN)",Presto (2x2) - Elite (2x2)
-https://andro.2385437.xyz/checklist/androstreamlivech18497123.m3u8
-#EXTINF:-1 tvg-name="Motor Cruise - Skyforce" group-title="MAÇ SEÇ İZLE (VPN)",Motor Cruise - Skyforce
-https://andro.2385437.xyz/checklist/androstreamlivech18496965.m3u8
-#EXTINF:-1 tvg-name="Houston Christian Huskies (W) - Texas A&M Corpus Christi Islanders (W) II" group-title="MAÇ SEÇ İZLE (VPN)",Houston Christian Huskies (W) - Texas A&M Corpus Christi Islanders (W) II
-https://andro.2385437.xyz/checklist/androstreamlivech296690670934200320.m3u8
-#EXTINF:-1 tvg-name="Rostov-on-Don - Krasnoyarsk" group-title="MAÇ SEÇ İZLE (VPN)",Rostov-on-Don - Krasnoyarsk
-https://andro.2385437.xyz/checklist/androstreamlivech18497111.m3u8
-#EXTINF:-1 tvg-name="İtalya (TBL) - Peru (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",İtalya (TBL) - Peru (TBL)
-https://andro.2385437.xyz/checklist/androstreamlivech18497086.m3u8
-#EXTINF:-1 tvg-name="Meksika (TBL) - Malaysia (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Meksika (TBL) - Malaysia (TBL)
-https://andro.2385437.xyz/checklist/androstreamlivech18497088.m3u8
-#EXTINF:-1 tvg-name="Houston Christian Huskies (Bayanlar) - Texas A&M Corpus Christi (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Houston Christian Huskies (Bayanlar) - Texas A&M Corpus Christi (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18497169.m3u8
-#EXTINF:-1 tvg-name="Çin (Bayanlar) - Türkiye (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Çin (Bayanlar) - Türkiye (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18496628.m3u8
-#EXTINF:-1 tvg-name="Brezilya - Rusya" group-title="MAÇ SEÇ İZLE (VPN)",Brezilya - Rusya
-https://andro.2385437.xyz/checklist/androstreamlivech18496715.m3u8
-#EXTINF:-1 tvg-name="İtalya (Bayanlar) - Sırbistan (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",İtalya (Bayanlar) - Sırbistan (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18496714.m3u8
-#EXTINF:-1 tvg-name="Slovenya - Rusya" group-title="MAÇ SEÇ İZLE (VPN)",Slovenya - Rusya
-https://andro.2385437.xyz/checklist/androstreamlivech18496951.m3u8
-#EXTINF:-1 tvg-name="Küba - ABD" group-title="MAÇ SEÇ İZLE (VPN)",Küba - ABD
-https://andro.2385437.xyz/checklist/androstreamlivech18497118.m3u8
+#EXTINF:-1 tvg-name="Trem DC AP - Cristal AP II" group-title="MAÇ SEÇ İZLE (VPN)",Trem DC AP - Cristal AP II
+https://andro.2385437.xyz/checklist/androstreamlivech296584845115822080.m3u8
+#EXTINF:-1 tvg-name="San Luis de Quillota - Curico Unido II" group-title="MAÇ SEÇ İZLE (VPN)",San Luis de Quillota - Curico Unido II
+https://andro.2385437.xyz/checklist/androstreamlivech296268216750346240.m3u8
+#EXTINF:-1 tvg-name="Sportivo San Lorenzo - Libertad Asuncion II" group-title="MAÇ SEÇ İZLE (VPN)",Sportivo San Lorenzo - Libertad Asuncion II
+https://andro.2385437.xyz/checklist/androstreamlivech296334043441827840.m3u8
+#EXTINF:-1 tvg-name="Chemal FC - Kaedi FC II" group-title="MAÇ SEÇ İZLE (VPN)",Chemal FC - Kaedi FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296513645633114112.m3u8
+#EXTINF:-1 tvg-name="Orlando City II - Huntsville City FC II" group-title="MAÇ SEÇ İZLE (VPN)",Orlando City II - Huntsville City FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296615255995617280.m3u8
+#EXTINF:-1 tvg-name="Tigres FC - Real Cartagena II" group-title="MAÇ SEÇ İZLE (VPN)",Tigres FC - Real Cartagena II
+https://andro.2385437.xyz/checklist/androstreamlivech296218399417339904.m3u8
+#EXTINF:-1 tvg-name="Madureira - Flamengo RJ II" group-title="MAÇ SEÇ İZLE (VPN)",Madureira - Flamengo RJ II
+https://andro.2385437.xyz/checklist/androstreamlivech295987530306981888.m3u8
+#EXTINF:-1 tvg-name="Independiente Rivadavia - CA River Plate II" group-title="MAÇ SEÇ İZLE (VPN)",Independiente Rivadavia - CA River Plate II
+https://andro.2385437.xyz/checklist/androstreamlivech296074039690301440.m3u8
+#EXTINF:-1 tvg-name="Manta FC - Independiente Del Valle II" group-title="MAÇ SEÇ İZLE (VPN)",Manta FC - Independiente Del Valle II
+https://andro.2385437.xyz/checklist/androstreamlivech296027446706475008.m3u8
+#EXTINF:-1 tvg-name="Banfield - Club Atletico Aldosivi II" group-title="MAÇ SEÇ İZLE (VPN)",Banfield - Club Atletico Aldosivi II
+https://andro.2385437.xyz/checklist/androstreamlivech296074085450158080.m3u8
+#EXTINF:-1 tvg-name="Waterhouse FC - Spanish Town Police FC II" group-title="MAÇ SEÇ İZLE (VPN)",Waterhouse FC - Spanish Town Police FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296660609795395584.m3u8
+#EXTINF:-1 tvg-name="City + - United +" group-title="MAÇ SEÇ İZLE (VPN)",City + - United +
+https://andro.2385437.xyz/checklist/androstreamlivech18497480.m3u8
+#EXTINF:-1 tvg-name="Vitesse (Amatörler) - Groningen (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Vitesse (Amatörler) - Groningen (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497560.m3u8
+#EXTINF:-1 tvg-name="Tropics - Sidekicks FC" group-title="MAÇ SEÇ İZLE (VPN)",Tropics - Sidekicks FC
+https://andro.2385437.xyz/checklist/androstreamlivech18497483.m3u8
+#EXTINF:-1 tvg-name="Alianza+ - Melgar+" group-title="MAÇ SEÇ İZLE (VPN)",Alianza+ - Melgar+
+https://andro.2385437.xyz/checklist/androstreamlivech18497567.m3u8
+#EXTINF:-1 tvg-name="Louisville + - Rowdies +" group-title="MAÇ SEÇ İZLE (VPN)",Louisville + - Rowdies +
+https://andro.2385437.xyz/checklist/androstreamlivech18497536.m3u8
+#EXTINF:-1 tvg-name="Hoffenheim (Amatörler) - Koln (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Hoffenheim (Amatörler) - Koln (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497568.m3u8
+#EXTINF:-1 tvg-name="Greuther Furth (Amatörler) - Paderborn (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Greuther Furth (Amatörler) - Paderborn (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497569.m3u8
+#EXTINF:-1 tvg-name="Bern+ - Mons+" group-title="MAÇ SEÇ İZLE (VPN)",Bern+ - Mons+
+https://andro.2385437.xyz/checklist/androstreamlivech18497563.m3u8
+#EXTINF:-1 tvg-name="Tulumba - Purmamarca" group-title="MAÇ SEÇ İZLE (VPN)",Tulumba - Purmamarca
+https://andro.2385437.xyz/checklist/androstreamlivech18497550.m3u8
+#EXTINF:-1 tvg-name="Bozhou - Dongying" group-title="MAÇ SEÇ İZLE (VPN)",Bozhou - Dongying
+https://andro.2385437.xyz/checklist/androstreamlivech18497553.m3u8
+#EXTINF:-1 tvg-name="Toronto+ - Sporting+" group-title="MAÇ SEÇ İZLE (VPN)",Toronto+ - Sporting+
+https://andro.2385437.xyz/checklist/androstreamlivech18497491.m3u8
+#EXTINF:-1 tvg-name="Rhinos - Stars" group-title="MAÇ SEÇ İZLE (VPN)",Rhinos - Stars
+https://andro.2385437.xyz/checklist/androstreamlivech18497233.m3u8
+#EXTINF:-1 tvg-name="Washington Wizards - Houston Rockets II" group-title="MAÇ SEÇ İZLE (VPN)",Washington Wizards - Houston Rockets II
+https://andro.2385437.xyz/checklist/androstreamlivech296613570106658816.m3u8
+#EXTINF:-1 tvg-name="Howard Bison - Coppin State Eagles" group-title="MAÇ SEÇ İZLE (VPN)",Howard Bison - Coppin State Eagles
+https://andro.2385437.xyz/checklist/androstreamlivech18497375.m3u8
+#EXTINF:-1 tvg-name="Kuzey Carolina State Wolfpack - Duke Blue Devils" group-title="MAÇ SEÇ İZLE (VPN)",Kuzey Carolina State Wolfpack - Duke Blue Devils
+https://andro.2385437.xyz/checklist/androstreamlivech18497307.m3u8
+#EXTINF:-1 tvg-name="Delaware State Hornets - South Carolina State Bulldogs" group-title="MAÇ SEÇ İZLE (VPN)",Delaware State Hornets - South Carolina State Bulldogs
+https://andro.2385437.xyz/checklist/androstreamlivech18497374.m3u8
+#EXTINF:-1 tvg-name="Cleveland State Vikings - IUPUI Jaguars" group-title="MAÇ SEÇ İZLE (VPN)",Cleveland State Vikings - IUPUI Jaguars
+https://andro.2385437.xyz/checklist/androstreamlivech18497376.m3u8
+#EXTINF:-1 tvg-name="Portekiz (TBL) - Singapore (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Portekiz (TBL) - Singapore (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497290.m3u8
+#EXTINF:-1 tvg-name="Tayland (TBL) - Netherlands (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Tayland (TBL) - Netherlands (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497289.m3u8
+#EXTINF:-1 tvg-name="Nizhny Novgorod - Rostov-on-Don" group-title="MAÇ SEÇ İZLE (VPN)",Nizhny Novgorod - Rostov-on-Don
+https://andro.2385437.xyz/checklist/androstreamlivech18497317.m3u8
+#EXTINF:-1 tvg-name="Milwaukee Bucks - Boston Celtics II" group-title="MAÇ SEÇ İZLE (VPN)",Milwaukee Bucks - Boston Celtics II
+https://andro.2385437.xyz/checklist/androstreamlivech296617459940888576.m3u8
+#EXTINF:-1 tvg-name="Belmont Bruins (Bayanlar) - Güney Illinois Salukis (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Belmont Bruins (Bayanlar) - Güney Illinois Salukis (Bayanlar)
+https://andro.2385437.xyz/checklist/androstreamlivech18497495.m3u8
+#EXTINF:-1 tvg-name="Nicholls State Colonels - McNeese State Cowboys" group-title="MAÇ SEÇ İZLE (VPN)",Nicholls State Colonels - McNeese State Cowboys
+https://andro.2385437.xyz/checklist/androstreamlivech18497498.m3u8
+#EXTINF:-1 tvg-name="Volgograd - Krasnoyarsk" group-title="MAÇ SEÇ İZLE (VPN)",Volgograd - Krasnoyarsk
+https://andro.2385437.xyz/checklist/androstreamlivech18497552.m3u8
+#EXTINF:-1 tvg-name="Netherlands (TBL) - Portekiz (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Netherlands (TBL) - Portekiz (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497532.m3u8
+#EXTINF:-1 tvg-name="Texas Rio Grand Valley Vaqueros - Northwestern State Demons" group-title="MAÇ SEÇ İZLE (VPN)",Texas Rio Grand Valley Vaqueros - Northwestern State Demons
+https://andro.2385437.xyz/checklist/androstreamlivech18497478.m3u8
+#EXTINF:-1 tvg-name="Singapore (TBL) - Tayland (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Singapore (TBL) - Tayland (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497531.m3u8
+#EXTINF:-1 tvg-name="Motor Cruise - Stars" group-title="MAÇ SEÇ İZLE (VPN)",Motor Cruise - Stars
+https://andro.2385437.xyz/checklist/androstreamlivech18497525.m3u8
+#EXTINF:-1 tvg-name="Incarnate Word - Stephen F. Austin Lumberjacks" group-title="MAÇ SEÇ İZLE (VPN)",Incarnate Word - Stephen F. Austin Lumberjacks
+https://andro.2385437.xyz/checklist/androstreamlivech18497496.m3u8
+#EXTINF:-1 tvg-name="Çin - Mozambik" group-title="MAÇ SEÇ İZLE (VPN)",Çin - Mozambik
+https://andro.2385437.xyz/checklist/androstreamlivech18497404.m3u8
+#EXTINF:-1 tvg-name="Japonya - Küba" group-title="MAÇ SEÇ İZLE (VPN)",Japonya - Küba
+https://andro.2385437.xyz/checklist/androstreamlivech18497451.m3u8
+#EXTINF:-1 tvg-name="İtalya - Japonya" group-title="MAÇ SEÇ İZLE (VPN)",İtalya - Japonya
+https://andro.2385437.xyz/checklist/androstreamlivech18497291.m3u8
+#EXTINF:-1 tvg-name="Japonya (Bayanlar) - Türkiye (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Japonya (Bayanlar) - Türkiye (Bayanlar)
+https://andro.2385437.xyz/checklist/androstreamlivech18497225.m3u8
 #EXTINF:-1 tvg-name="Rusya (Bayanlar) - Çin (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Rusya (Bayanlar) - Çin (Bayanlar)
 https://andro.2385437.xyz/checklist/androstreamlivech18497160.m3u8
-#EXTINF:-1 tvg-name="Vostok (4x4) - Dinamo (4x4)" group-title="MAÇ SEÇ İZLE (VPN)",Vostok (4x4) - Dinamo (4x4)
-https://andro.2385437.xyz/checklist/androstreamlivech18496829.m3u8
-#EXTINF:-1 tvg-name="Ukrayna - ABD" group-title="MAÇ SEÇ İZLE (VPN)",Ukrayna - ABD
-https://andro.2385437.xyz/checklist/androstreamlivech18497079.m3u8
-#EXTINF:-1 tvg-name="Avustralya - Slovakya" group-title="MAÇ SEÇ İZLE (VPN)",Avustralya - Slovakya
-https://andro.2385437.xyz/checklist/androstreamlivech18497084.m3u8
+#EXTINF:-1 tvg-name="İran - Arjantin" group-title="MAÇ SEÇ İZLE (VPN)",İran - Arjantin
+https://andro.2385437.xyz/checklist/androstreamlivech18497519.m3u8
+#EXTINF:-1 tvg-name="CSB Blazers - San Sebastian Golden Stags" group-title="MAÇ SEÇ İZLE (VPN)",CSB Blazers - San Sebastian Golden Stags
+https://andro.2385437.xyz/checklist/androstreamlivech18497555.m3u8
+#EXTINF:-1 tvg-name="İtalya - ABD" group-title="MAÇ SEÇ İZLE (VPN)",İtalya - ABD
+https://andro.2385437.xyz/checklist/androstreamlivech18497214.m3u8
 #EXTINF:-1 tvg-name="Petr Loganov - Pavel Gushchin" group-title="MAÇ SEÇ İZLE (VPN)",Petr Loganov - Pavel Gushchin
 https://andro.2385437.xyz/checklist/androstreamlivech18496867.m3u8
-#EXTINF:-1 tvg-name="Nikita Geraskin - Evgeny Pleshkunov" group-title="MAÇ SEÇ İZLE (VPN)",Nikita Geraskin - Evgeny Pleshkunov
-https://andro.2385437.xyz/checklist/androstreamlivech18496924.m3u8
-#EXTINF:-1 tvg-name="Maxim Ionov - Artem Chupris" group-title="MAÇ SEÇ İZLE (VPN)",Maxim Ionov - Artem Chupris
-https://andro.2385437.xyz/checklist/androstreamlivech18496982.m3u8
+#EXTINF:-1 tvg-name="Ivan Kalachov - Artur Shinkevich" group-title="MAÇ SEÇ İZLE (VPN)",Ivan Kalachov - Artur Shinkevich
+https://andro.2385437.xyz/checklist/androstreamlivech18497273.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports 1" group-title="ANDRO TV FULL (VPN)",BeIN Sports 1
 https://andro.2385437.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports 2" group-title="ANDRO TV FULL (VPN)",BeIN Sports 2
@@ -235,88 +305,108 @@ https://andro.2385437.xyz/checklist/androstreamliveexn6.m3u8
 https://andro.2385437.xyz/checklist/androstreamliveexn7.m3u8
 #EXTINF:-1 tvg-name="Exxen Sports 8" group-title="ANDRO TV FULL (VPN)",Exxen Sports 8
 https://andro.2385437.xyz/checklist/androstreamliveexn8.m3u8
-#EXTINF:-1 tvg-name="Sportivo Luqueno - Rubio Nu II" group-title="MAÇ SEÇ İZLE (VPN)",Sportivo Luqueno - Rubio Nu II
-https://andro.2385437.xyz/checklist/androstreamlivech296334043631620096.m3u8
-#EXTINF:-1 tvg-name="Sao Luiz RS - EC Novo Hamburgo II" group-title="MAÇ SEÇ İZLE (VPN)",Sao Luiz RS - EC Novo Hamburgo II
-https://andro.2385437.xyz/checklist/androstreamlivech296581227649208320.m3u8
-#EXTINF:-1 tvg-name="SC Penedense - ASA (Agremiação Sportiva Arapiraquense) II" group-title="MAÇ SEÇ İZLE (VPN)",SC Penedense - ASA (Agremiação Sportiva Arapiraquense) II
-https://andro.2385437.xyz/checklist/androstreamlivech296593019663323136.m3u8
-#EXTINF:-1 tvg-name="FC Nouadhibou - FC Tevragh Zeina II" group-title="MAÇ SEÇ İZLE (VPN)",FC Nouadhibou - FC Tevragh Zeina II
-https://andro.2385437.xyz/checklist/androstreamlivech296604427252699136.m3u8
-#EXTINF:-1 tvg-name="Deportivo Riestra - Platense II" group-title="MAÇ SEÇ İZLE (VPN)",Deportivo Riestra - Platense II
-https://andro.2385437.xyz/checklist/androstreamlivech296074088207912960.m3u8
-#EXTINF:-1 tvg-name="Estudiantes de la Plata - Velez Sarsfield II" group-title="MAÇ SEÇ İZLE (VPN)",Estudiantes de la Plata - Velez Sarsfield II
-https://andro.2385437.xyz/checklist/androstreamlivech296074085366272000.m3u8
-#EXTINF:-1 tvg-name="Trem DC AP - Cristal AP II" group-title="MAÇ SEÇ İZLE (VPN)",Trem DC AP - Cristal AP II
-https://andro.2385437.xyz/checklist/androstreamlivech296584845115822080.m3u8
-#EXTINF:-1 tvg-name="Portuguesa RJ - Sampaio Correa RJ II" group-title="MAÇ SEÇ İZLE (VPN)",Portuguesa RJ - Sampaio Correa RJ II
-https://andro.2385437.xyz/checklist/androstreamlivech296401861050929152.m3u8
 #EXTINF:-1 tvg-name="Deportivo Maldonado - Juventud Piedras II" group-title="MAÇ SEÇ İZLE (VPN)",Deportivo Maldonado - Juventud Piedras II
 https://andro.2385437.xyz/checklist/androstreamlivech295967173552410624.m3u8
-#EXTINF:-1 tvg-name="Viper+ - Sunrise+" group-title="MAÇ SEÇ İZLE (VPN)",Viper+ - Sunrise+
-https://andro.2385437.xyz/checklist/androstreamlivech18497163.m3u8
-#EXTINF:-1 tvg-name="Runners - Inferno FC" group-title="MAÇ SEÇ İZLE (VPN)",Runners - Inferno FC
-https://andro.2385437.xyz/checklist/androstreamlivech18497164.m3u8
-#EXTINF:-1 tvg-name="LANDSCAPE - CADASTRE" group-title="MAÇ SEÇ İZLE (VPN)",LANDSCAPE - CADASTRE
-https://andro.2385437.xyz/checklist/androstreamlivech18497052.m3u8
-#EXTINF:-1 tvg-name="Hannover (Amatörler) - Koln (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Hannover (Amatörler) - Koln (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497133.m3u8
-#EXTINF:-1 tvg-name="Lampone (3x3) - Fiore (3x3)" group-title="MAÇ SEÇ İZLE (VPN)",Lampone (3x3) - Fiore (3x3)
-https://andro.2385437.xyz/checklist/androstreamlivech18497151.m3u8
-#EXTINF:-1 tvg-name="PSV (Amatörler) - Ajax (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",PSV (Amatörler) - Ajax (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497173.m3u8
-#EXTINF:-1 tvg-name="Maras - Stelsoff" group-title="MAÇ SEÇ İZLE (VPN)",Maras - Stelsoff
-https://andro.2385437.xyz/checklist/androstreamlivech18497155.m3u8
-#EXTINF:-1 tvg-name="Darmstadt (Amatörler) - Paderborn (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Darmstadt (Amatörler) - Paderborn (Amatörler)
-https://andro.2385437.xyz/checklist/androstreamlivech18497134.m3u8
-#EXTINF:-1 tvg-name="Revolution + - United +" group-title="MAÇ SEÇ İZLE (VPN)",Revolution + - United +
-https://andro.2385437.xyz/checklist/androstreamlivech18497154.m3u8
-#EXTINF:-1 tvg-name="Milan+ - Real+" group-title="MAÇ SEÇ İZLE (VPN)",Milan+ - Real+
-https://andro.2385437.xyz/checklist/androstreamlivech18497140.m3u8
-#EXTINF:-1 tvg-name="Rowdies + - Tulsa +" group-title="MAÇ SEÇ İZLE (VPN)",Rowdies + - Tulsa +
-https://andro.2385437.xyz/checklist/androstreamlivech18497106.m3u8
-#EXTINF:-1 tvg-name="FOSSIL - PSY" group-title="MAÇ SEÇ İZLE (VPN)",FOSSIL - PSY
-https://andro.2385437.xyz/checklist/androstreamlivech18497048.m3u8
-#EXTINF:-1 tvg-name="Bayern+ - Tottenham+" group-title="MAÇ SEÇ İZLE (VPN)",Bayern+ - Tottenham+
-https://andro.2385437.xyz/checklist/androstreamlivech18497139.m3u8
-#EXTINF:-1 tvg-name="Presto (2x2) - Elite (2x2)" group-title="MAÇ SEÇ İZLE (VPN)",Presto (2x2) - Elite (2x2)
-https://andro.2385437.xyz/checklist/androstreamlivech18497123.m3u8
-#EXTINF:-1 tvg-name="Motor Cruise - Skyforce" group-title="MAÇ SEÇ İZLE (VPN)",Motor Cruise - Skyforce
-https://andro.2385437.xyz/checklist/androstreamlivech18496965.m3u8
-#EXTINF:-1 tvg-name="Houston Christian Huskies (W) - Texas A&M Corpus Christi Islanders (W) II" group-title="MAÇ SEÇ İZLE (VPN)",Houston Christian Huskies (W) - Texas A&M Corpus Christi Islanders (W) II
-https://andro.2385437.xyz/checklist/androstreamlivech296690670934200320.m3u8
-#EXTINF:-1 tvg-name="Rostov-on-Don - Krasnoyarsk" group-title="MAÇ SEÇ İZLE (VPN)",Rostov-on-Don - Krasnoyarsk
-https://andro.2385437.xyz/checklist/androstreamlivech18497111.m3u8
-#EXTINF:-1 tvg-name="İtalya (TBL) - Peru (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",İtalya (TBL) - Peru (TBL)
-https://andro.2385437.xyz/checklist/androstreamlivech18497086.m3u8
-#EXTINF:-1 tvg-name="Meksika (TBL) - Malaysia (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Meksika (TBL) - Malaysia (TBL)
-https://andro.2385437.xyz/checklist/androstreamlivech18497088.m3u8
-#EXTINF:-1 tvg-name="Houston Christian Huskies (Bayanlar) - Texas A&M Corpus Christi (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Houston Christian Huskies (Bayanlar) - Texas A&M Corpus Christi (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18497169.m3u8
-#EXTINF:-1 tvg-name="Çin (Bayanlar) - Türkiye (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Çin (Bayanlar) - Türkiye (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18496628.m3u8
-#EXTINF:-1 tvg-name="Brezilya - Rusya" group-title="MAÇ SEÇ İZLE (VPN)",Brezilya - Rusya
-https://andro.2385437.xyz/checklist/androstreamlivech18496715.m3u8
-#EXTINF:-1 tvg-name="İtalya (Bayanlar) - Sırbistan (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",İtalya (Bayanlar) - Sırbistan (Bayanlar)
-https://andro.2385437.xyz/checklist/androstreamlivech18496714.m3u8
-#EXTINF:-1 tvg-name="Slovenya - Rusya" group-title="MAÇ SEÇ İZLE (VPN)",Slovenya - Rusya
-https://andro.2385437.xyz/checklist/androstreamlivech18496951.m3u8
-#EXTINF:-1 tvg-name="Küba - ABD" group-title="MAÇ SEÇ İZLE (VPN)",Küba - ABD
-https://andro.2385437.xyz/checklist/androstreamlivech18497118.m3u8
+#EXTINF:-1 tvg-name="Trem DC AP - Cristal AP II" group-title="MAÇ SEÇ İZLE (VPN)",Trem DC AP - Cristal AP II
+https://andro.2385437.xyz/checklist/androstreamlivech296584845115822080.m3u8
+#EXTINF:-1 tvg-name="San Luis de Quillota - Curico Unido II" group-title="MAÇ SEÇ İZLE (VPN)",San Luis de Quillota - Curico Unido II
+https://andro.2385437.xyz/checklist/androstreamlivech296268216750346240.m3u8
+#EXTINF:-1 tvg-name="Sportivo San Lorenzo - Libertad Asuncion II" group-title="MAÇ SEÇ İZLE (VPN)",Sportivo San Lorenzo - Libertad Asuncion II
+https://andro.2385437.xyz/checklist/androstreamlivech296334043441827840.m3u8
+#EXTINF:-1 tvg-name="Chemal FC - Kaedi FC II" group-title="MAÇ SEÇ İZLE (VPN)",Chemal FC - Kaedi FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296513645633114112.m3u8
+#EXTINF:-1 tvg-name="Orlando City II - Huntsville City FC II" group-title="MAÇ SEÇ İZLE (VPN)",Orlando City II - Huntsville City FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296615255995617280.m3u8
+#EXTINF:-1 tvg-name="Tigres FC - Real Cartagena II" group-title="MAÇ SEÇ İZLE (VPN)",Tigres FC - Real Cartagena II
+https://andro.2385437.xyz/checklist/androstreamlivech296218399417339904.m3u8
+#EXTINF:-1 tvg-name="Madureira - Flamengo RJ II" group-title="MAÇ SEÇ İZLE (VPN)",Madureira - Flamengo RJ II
+https://andro.2385437.xyz/checklist/androstreamlivech295987530306981888.m3u8
+#EXTINF:-1 tvg-name="Independiente Rivadavia - CA River Plate II" group-title="MAÇ SEÇ İZLE (VPN)",Independiente Rivadavia - CA River Plate II
+https://andro.2385437.xyz/checklist/androstreamlivech296074039690301440.m3u8
+#EXTINF:-1 tvg-name="Manta FC - Independiente Del Valle II" group-title="MAÇ SEÇ İZLE (VPN)",Manta FC - Independiente Del Valle II
+https://andro.2385437.xyz/checklist/androstreamlivech296027446706475008.m3u8
+#EXTINF:-1 tvg-name="Banfield - Club Atletico Aldosivi II" group-title="MAÇ SEÇ İZLE (VPN)",Banfield - Club Atletico Aldosivi II
+https://andro.2385437.xyz/checklist/androstreamlivech296074085450158080.m3u8
+#EXTINF:-1 tvg-name="Waterhouse FC - Spanish Town Police FC II" group-title="MAÇ SEÇ İZLE (VPN)",Waterhouse FC - Spanish Town Police FC II
+https://andro.2385437.xyz/checklist/androstreamlivech296660609795395584.m3u8
+#EXTINF:-1 tvg-name="City + - United +" group-title="MAÇ SEÇ İZLE (VPN)",City + - United +
+https://andro.2385437.xyz/checklist/androstreamlivech18497480.m3u8
+#EXTINF:-1 tvg-name="Vitesse (Amatörler) - Groningen (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Vitesse (Amatörler) - Groningen (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497560.m3u8
+#EXTINF:-1 tvg-name="Tropics - Sidekicks FC" group-title="MAÇ SEÇ İZLE (VPN)",Tropics - Sidekicks FC
+https://andro.2385437.xyz/checklist/androstreamlivech18497483.m3u8
+#EXTINF:-1 tvg-name="Alianza+ - Melgar+" group-title="MAÇ SEÇ İZLE (VPN)",Alianza+ - Melgar+
+https://andro.2385437.xyz/checklist/androstreamlivech18497567.m3u8
+#EXTINF:-1 tvg-name="Louisville + - Rowdies +" group-title="MAÇ SEÇ İZLE (VPN)",Louisville + - Rowdies +
+https://andro.2385437.xyz/checklist/androstreamlivech18497536.m3u8
+#EXTINF:-1 tvg-name="Hoffenheim (Amatörler) - Koln (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Hoffenheim (Amatörler) - Koln (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497568.m3u8
+#EXTINF:-1 tvg-name="Greuther Furth (Amatörler) - Paderborn (Amatörler)" group-title="MAÇ SEÇ İZLE (VPN)",Greuther Furth (Amatörler) - Paderborn (Amatörler)
+https://andro.2385437.xyz/checklist/androstreamlivech18497569.m3u8
+#EXTINF:-1 tvg-name="Bern+ - Mons+" group-title="MAÇ SEÇ İZLE (VPN)",Bern+ - Mons+
+https://andro.2385437.xyz/checklist/androstreamlivech18497563.m3u8
+#EXTINF:-1 tvg-name="Tulumba - Purmamarca" group-title="MAÇ SEÇ İZLE (VPN)",Tulumba - Purmamarca
+https://andro.2385437.xyz/checklist/androstreamlivech18497550.m3u8
+#EXTINF:-1 tvg-name="Bozhou - Dongying" group-title="MAÇ SEÇ İZLE (VPN)",Bozhou - Dongying
+https://andro.2385437.xyz/checklist/androstreamlivech18497553.m3u8
+#EXTINF:-1 tvg-name="Toronto+ - Sporting+" group-title="MAÇ SEÇ İZLE (VPN)",Toronto+ - Sporting+
+https://andro.2385437.xyz/checklist/androstreamlivech18497491.m3u8
+#EXTINF:-1 tvg-name="Rhinos - Stars" group-title="MAÇ SEÇ İZLE (VPN)",Rhinos - Stars
+https://andro.2385437.xyz/checklist/androstreamlivech18497233.m3u8
+#EXTINF:-1 tvg-name="Washington Wizards - Houston Rockets II" group-title="MAÇ SEÇ İZLE (VPN)",Washington Wizards - Houston Rockets II
+https://andro.2385437.xyz/checklist/androstreamlivech296613570106658816.m3u8
+#EXTINF:-1 tvg-name="Howard Bison - Coppin State Eagles" group-title="MAÇ SEÇ İZLE (VPN)",Howard Bison - Coppin State Eagles
+https://andro.2385437.xyz/checklist/androstreamlivech18497375.m3u8
+#EXTINF:-1 tvg-name="Kuzey Carolina State Wolfpack - Duke Blue Devils" group-title="MAÇ SEÇ İZLE (VPN)",Kuzey Carolina State Wolfpack - Duke Blue Devils
+https://andro.2385437.xyz/checklist/androstreamlivech18497307.m3u8
+#EXTINF:-1 tvg-name="Delaware State Hornets - South Carolina State Bulldogs" group-title="MAÇ SEÇ İZLE (VPN)",Delaware State Hornets - South Carolina State Bulldogs
+https://andro.2385437.xyz/checklist/androstreamlivech18497374.m3u8
+#EXTINF:-1 tvg-name="Cleveland State Vikings - IUPUI Jaguars" group-title="MAÇ SEÇ İZLE (VPN)",Cleveland State Vikings - IUPUI Jaguars
+https://andro.2385437.xyz/checklist/androstreamlivech18497376.m3u8
+#EXTINF:-1 tvg-name="Portekiz (TBL) - Singapore (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Portekiz (TBL) - Singapore (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497290.m3u8
+#EXTINF:-1 tvg-name="Tayland (TBL) - Netherlands (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Tayland (TBL) - Netherlands (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497289.m3u8
+#EXTINF:-1 tvg-name="Nizhny Novgorod - Rostov-on-Don" group-title="MAÇ SEÇ İZLE (VPN)",Nizhny Novgorod - Rostov-on-Don
+https://andro.2385437.xyz/checklist/androstreamlivech18497317.m3u8
+#EXTINF:-1 tvg-name="Milwaukee Bucks - Boston Celtics II" group-title="MAÇ SEÇ İZLE (VPN)",Milwaukee Bucks - Boston Celtics II
+https://andro.2385437.xyz/checklist/androstreamlivech296617459940888576.m3u8
+#EXTINF:-1 tvg-name="Belmont Bruins (Bayanlar) - Güney Illinois Salukis (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Belmont Bruins (Bayanlar) - Güney Illinois Salukis (Bayanlar)
+https://andro.2385437.xyz/checklist/androstreamlivech18497495.m3u8
+#EXTINF:-1 tvg-name="Nicholls State Colonels - McNeese State Cowboys" group-title="MAÇ SEÇ İZLE (VPN)",Nicholls State Colonels - McNeese State Cowboys
+https://andro.2385437.xyz/checklist/androstreamlivech18497498.m3u8
+#EXTINF:-1 tvg-name="Volgograd - Krasnoyarsk" group-title="MAÇ SEÇ İZLE (VPN)",Volgograd - Krasnoyarsk
+https://andro.2385437.xyz/checklist/androstreamlivech18497552.m3u8
+#EXTINF:-1 tvg-name="Netherlands (TBL) - Portekiz (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Netherlands (TBL) - Portekiz (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497532.m3u8
+#EXTINF:-1 tvg-name="Texas Rio Grand Valley Vaqueros - Northwestern State Demons" group-title="MAÇ SEÇ İZLE (VPN)",Texas Rio Grand Valley Vaqueros - Northwestern State Demons
+https://andro.2385437.xyz/checklist/androstreamlivech18497478.m3u8
+#EXTINF:-1 tvg-name="Singapore (TBL) - Tayland (TBL)" group-title="MAÇ SEÇ İZLE (VPN)",Singapore (TBL) - Tayland (TBL)
+https://andro.2385437.xyz/checklist/androstreamlivech18497531.m3u8
+#EXTINF:-1 tvg-name="Motor Cruise - Stars" group-title="MAÇ SEÇ İZLE (VPN)",Motor Cruise - Stars
+https://andro.2385437.xyz/checklist/androstreamlivech18497525.m3u8
+#EXTINF:-1 tvg-name="Incarnate Word - Stephen F. Austin Lumberjacks" group-title="MAÇ SEÇ İZLE (VPN)",Incarnate Word - Stephen F. Austin Lumberjacks
+https://andro.2385437.xyz/checklist/androstreamlivech18497496.m3u8
+#EXTINF:-1 tvg-name="Çin - Mozambik" group-title="MAÇ SEÇ İZLE (VPN)",Çin - Mozambik
+https://andro.2385437.xyz/checklist/androstreamlivech18497404.m3u8
+#EXTINF:-1 tvg-name="Japonya - Küba" group-title="MAÇ SEÇ İZLE (VPN)",Japonya - Küba
+https://andro.2385437.xyz/checklist/androstreamlivech18497451.m3u8
+#EXTINF:-1 tvg-name="İtalya - Japonya" group-title="MAÇ SEÇ İZLE (VPN)",İtalya - Japonya
+https://andro.2385437.xyz/checklist/androstreamlivech18497291.m3u8
+#EXTINF:-1 tvg-name="Japonya (Bayanlar) - Türkiye (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Japonya (Bayanlar) - Türkiye (Bayanlar)
+https://andro.2385437.xyz/checklist/androstreamlivech18497225.m3u8
 #EXTINF:-1 tvg-name="Rusya (Bayanlar) - Çin (Bayanlar)" group-title="MAÇ SEÇ İZLE (VPN)",Rusya (Bayanlar) - Çin (Bayanlar)
 https://andro.2385437.xyz/checklist/androstreamlivech18497160.m3u8
-#EXTINF:-1 tvg-name="Vostok (4x4) - Dinamo (4x4)" group-title="MAÇ SEÇ İZLE (VPN)",Vostok (4x4) - Dinamo (4x4)
-https://andro.2385437.xyz/checklist/androstreamlivech18496829.m3u8
-#EXTINF:-1 tvg-name="Ukrayna - ABD" group-title="MAÇ SEÇ İZLE (VPN)",Ukrayna - ABD
-https://andro.2385437.xyz/checklist/androstreamlivech18497079.m3u8
-#EXTINF:-1 tvg-name="Avustralya - Slovakya" group-title="MAÇ SEÇ İZLE (VPN)",Avustralya - Slovakya
-https://andro.2385437.xyz/checklist/androstreamlivech18497084.m3u8
+#EXTINF:-1 tvg-name="İran - Arjantin" group-title="MAÇ SEÇ İZLE (VPN)",İran - Arjantin
+https://andro.2385437.xyz/checklist/androstreamlivech18497519.m3u8
+#EXTINF:-1 tvg-name="CSB Blazers - San Sebastian Golden Stags" group-title="MAÇ SEÇ İZLE (VPN)",CSB Blazers - San Sebastian Golden Stags
+https://andro.2385437.xyz/checklist/androstreamlivech18497555.m3u8
+#EXTINF:-1 tvg-name="İtalya - ABD" group-title="MAÇ SEÇ İZLE (VPN)",İtalya - ABD
+https://andro.2385437.xyz/checklist/androstreamlivech18497214.m3u8
 #EXTINF:-1 tvg-name="Petr Loganov - Pavel Gushchin" group-title="MAÇ SEÇ İZLE (VPN)",Petr Loganov - Pavel Gushchin
 https://andro.2385437.xyz/checklist/androstreamlivech18496867.m3u8
-#EXTINF:-1 tvg-name="Nikita Geraskin - Evgeny Pleshkunov" group-title="MAÇ SEÇ İZLE (VPN)",Nikita Geraskin - Evgeny Pleshkunov
-https://andro.2385437.xyz/checklist/androstreamlivech18496924.m3u8
-#EXTINF:-1 tvg-name="Maxim Ionov - Artem Chupris" group-title="MAÇ SEÇ İZLE (VPN)",Maxim Ionov - Artem Chupris
-https://andro.2385437.xyz/checklist/androstreamlivech18496982.m3u8
+#EXTINF:-1 tvg-name="Ivan Kalachov - Artur Shinkevich" group-title="MAÇ SEÇ İZLE (VPN)",Ivan Kalachov - Artur Shinkevich
+https://andro.2385437.xyz/checklist/androstreamlivech18497273.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports 1" group-title="ANDRO TV FULL (VPN)",BeIN Sports 1
 https://andro.2385437.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports 2" group-title="ANDRO TV FULL (VPN)",BeIN Sports 2
