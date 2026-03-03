@@ -1,52 +1,32 @@
-# Birleştirilecek dosya adları
-kbl = 'kbl.m3u'
-tvf = 'tvf.m3u'
-r2 = 'r2.m3u'
-selcukk = 'selcukk.m3u'
-an = 'an.m3u'
-ne = 'ne.m3u'
-rnl = 'rnl.m3u'
-liveeventsfilter = 'liveeventsfilter.m3u8'
-cafe = 'cafe.m3u'
+dosyalar = [
+    'kbl.m3u',
+    'tvf.m3u',
+    'r2.m3u',
+    'selcukk.m3u',
+    'an.m3u',
+    'ne.m3u',
+    'rnl.m3u',
+    'cafe.m3u',
+    'liveeventsfilter.m3u8'
+]
+
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
-# M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
 def oku_m3u(dosya_adi):
     try:
         with open(dosya_adi, 'r', encoding='utf-8') as f:
-            return [satir.rstrip() for satir in f if satir.strip()]
+            return [satir.rstrip() for satir in f if satir.strip() and satir.strip() != "#EXTM3U"]
     except FileNotFoundError:
         print(f"⚠️ Dosya bulunamadı: {dosya_adi}")
         return []
 
-# İçerikleri oku
-kbl_icerik = oku_m3u(kbl)
-tvf_icerik = oku_m3u(tvf)
-r2_icerik = oku_m3u(r2)
-selcukk_icerik = oku_m3u(selcukk)
-an_icerik = oku_m3u(an)
-ne_icerik = oku_m3u(ne)
-rnl_icerik = oku_m3u(rnl)
-cafe_icerik = oku_m3u(cafe)
-liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
+birlesik_icerik = []
+for d in dosyalar:
+    birlesik_icerik += oku_m3u(d)
 
-# Birleştir
-birlesik_icerik = (
-    kbl_icerik +
-    tvf_icerik +
-    r2_icerik +
-    selcukk_icerik +
-    an_icerik +
-    ne_icerik +
-    rnl_icerik +
-    cafe_icerik +
-    liveeventsfilter_icerik +
-)
-
-# Yeni dosyaya yaz
 with open(cikis_dosyasi, 'w', encoding='utf-8') as f:
     f.write("#EXTM3U\n")
     for satir in birlesik_icerik:
-        f.write(satir + '\n')
+        f.write(satir + "\n")
 
 print(f"✅ {cikis_dosyasi} dosyası başarıyla oluşturuldu.")
