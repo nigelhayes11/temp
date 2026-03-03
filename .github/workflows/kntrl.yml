@@ -52,10 +52,6 @@ jobs:
       - name: sc.py Çalıştır
         continue-on-error: true
         run: python sc.py 
-      - name: msi.py Çalıştır
-        continue-on-error: true
-        run: python msi.py 
-      - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
         run: |
           git diff --quiet . || echo "degisiklik=true" >> $GITHUB_OUTPUT
