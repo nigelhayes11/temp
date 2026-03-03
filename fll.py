@@ -1,7 +1,6 @@
 # Birleştirilecek dosya adları
 kbl = 'kbl.m3u'
 tvf = 'tvf.m3u'
-r = 'r.m3u'
 r2 = 'r2.m3u'
 selcukk = 'selcukk.m3u'
 an = 'an.m3u'
@@ -23,7 +22,6 @@ def oku_m3u(dosya_adi):
 # İçerikleri oku
 kbl_icerik = oku_m3u(kbl)
 tvf_icerik = oku_m3u(tvf)
-r_icerik = oku_m3u(r)
 r2_icerik = oku_m3u(r2)
 selcukk_icerik = oku_m3u(selcukk)
 an_icerik = oku_m3u(an)
@@ -36,7 +34,6 @@ liveeventsfilter_icerik = oku_m3u(liveeventsfilter)
 birlesik_icerik = (
     kbl_icerik +
     tvf_icerik +
-    r_icerik +
     r2_icerik +
     selcukk_icerik +
     an_icerik +
