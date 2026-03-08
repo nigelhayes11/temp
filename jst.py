@@ -13,6 +13,9 @@ CHANNEL_IDS = [
 'tabii4','tabii5','tabii6','xexxen','xexxen1'
 ]
 
+HEADERS = {
+"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+}
 
 
 def get_base_url(domain):
@@ -81,9 +84,7 @@ def create_m3u(base):
             name = ch.upper()
 
             f.write(f'#EXTINF:-1 group-title="ZeusTV",{name}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={REFERER}\n')
-            f.write(f'{stream}\n')
+            f.write(f"{stream}\n")
 
     print("zeus.m3u oluşturuldu")
 
