@@ -13,12 +13,20 @@ CHANNEL_IDS = [
 'tabii4','tabii5','tabii6','xexxen','xexxen1'
 ]
 
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+REFERER = "https://google.com/"
+
+HEADERS = {
+    "User-Agent": USER_AGENT
+}
+
+
 def get_base_url(domain):
 
     url = f"{domain}/ch.html?id=b1"
 
     try:
-        r = requests.get(url, timeout=5)
+        r = requests.get(url, headers=HEADERS, timeout=5)
         html = r.text
 
         patterns = [
@@ -50,7 +58,7 @@ def find_working_base():
         domain = f"https://{BASE_DOMAIN_PATTERN.format(i)}"
 
         try:
-            r = requests.get(domain, timeout=3)
+            r = requests.get(domain, headers=HEADERS, timeout=3)
 
             if r.status_code == 200:
                 print("Aktif domain:", domain)
@@ -76,9 +84,12 @@ def create_m3u(base):
         for ch in CHANNEL_IDS:
 
             stream = f"{base}{ch}/index.m3u8"
+            name = ch.upper()
 
-            f.write(f'#EXTINF:-1,{ch}\n')
-            f.write(f"{stream}\n")
+            f.write(f'#EXTINF:-1 group-title="ZeusTV",{name}\n')
+            f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+            f.write(f'#EXTVLCOPT:http-referrer={REFERER}\n')
+            f.write(f'{stream}\n')
 
     print("zeus.m3u oluşturuldu")
 
