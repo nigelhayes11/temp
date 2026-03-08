@@ -57,6 +57,10 @@ jobs:
       - name: fll.py Çalıştır
         continue-on-error: true
         run: python fll.py 
+        
+      - name: jst.py Çalıştır
+        continue-on-error: true
+        run: python jst.py 
 
       - name: sc.py Çalıştır ve Değişiklik Kontrol
         id: degisiklik_kontrol
