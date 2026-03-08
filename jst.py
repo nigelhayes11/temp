@@ -13,12 +13,6 @@ CHANNEL_IDS = [
 'tabii4','tabii5','tabii6','xexxen','xexxen1'
 ]
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-REFERER = "https://google.com/"
-
-HEADERS = {
-    "User-Agent": USER_AGENT
-}
 
 
 def get_base_url(domain):
