@@ -1,69 +1,41 @@
 import requests
 import base64
 import re
-from concurrent.futures import ThreadPoolExecutor
 
-BASE_PATTERN = "https://zeustv{}.com"
+BASE_DOMAIN_PATTERN = "zeustv{}.com"
+START_INDEX = 230
+END_INDEX = 500
 
-START = 200
-END = 1200
-
-CHANNELS = [
+CHANNEL_IDS = [
 'b1','b1local','b2','b3','b4','bein5','b1max','b2max',
 's1','s2','smart1','smart2','tivibu','tivibu1','tivibu2','tivibu3',
 'sifirtv','euro1','euro2','tabiiyedek','tabii1','tabii2','tabii3',
 'tabii4','tabii5','tabii6','xexxen','xexxen1'
 ]
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-REFERER = "https://google.com/"
+def get_base_url(domain):
 
-HEADERS = {
-"User-Agent": USER_AGENT
-}
-
-
-# DOMAIN KONTROL
-def check_domain(i):
-
-    domain = BASE_PATTERN.format(i)
+    url = f"{domain}/ch.html?id=b1"
 
     try:
-
-        r = requests.get(domain, headers=HEADERS, timeout=3)
-
-        if r.status_code == 200:
-            return domain
-
-    except:
-        pass
-
-    return None
-
-
-# BASE64 ÇÖZ
-def extract_base(domain):
-
-    try:
-
-        url = f"{domain}/ch.html?id=b1"
-
-        r = requests.get(url, headers=HEADERS, timeout=5)
-
+        r = requests.get(url, timeout=5)
         html = r.text
 
-        match = re.search(r'atob\("([A-Za-z0-9+/=]+)"\)', html)
+        patterns = [
+            r'atob\("([A-Za-z0-9+/=]+)"\)',
+            r'var\s+\w+\s*=\s*"([A-Za-z0-9+/=]+)"'
+        ]
 
-        if match:
+        for p in patterns:
+            m = re.search(p, html)
+            if m:
+                code = m.group(1)
+                decoded = base64.b64decode(code).decode()
 
-            code = match.group(1)
+                if not decoded.endswith("/"):
+                    decoded += "/"
 
-            decoded = base64.b64decode(code).decode()
-
-            if not decoded.endswith("/"):
-                decoded += "/"
-
-            return decoded
+                return decoded
 
     except:
         pass
@@ -71,73 +43,55 @@ def extract_base(domain):
     return None
 
 
-# STREAM KONTROL
-def check_stream(url):
+def find_working_base():
 
-    try:
+    for i in range(START_INDEX, END_INDEX+1):
 
-        r = requests.get(url, headers=HEADERS, timeout=5)
+        domain = f"https://{BASE_DOMAIN_PATTERN.format(i)}"
 
-        if "#EXTM3U" in r.text:
-            return True
+        try:
+            r = requests.get(domain, timeout=3)
 
-    except:
-        pass
+            if r.status_code == 200:
+                print("Aktif domain:", domain)
 
-    return False
+                base = get_base_url(domain)
+
+                if base:
+                    print("Base bulundu:", base)
+                    return base
+
+        except:
+            pass
+
+    return None
 
 
-# M3U OLUŞTUR
 def create_m3u(base):
 
     with open("zeus.m3u","w",encoding="utf8") as f:
 
         f.write("#EXTM3U\n")
 
-        for ch in CHANNELS:
+        for ch in CHANNEL_IDS:
 
             stream = f"{base}{ch}/index.m3u8"
 
-            if check_stream(stream):
+            f.write(f'#EXTINF:-1,{ch}\n')
+            f.write(f"{stream}\n")
 
-                name = ch.upper()
-
-                f.write(f'#EXTINF:-1 group-title="ZeusTV",{name}\n')
-                f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-                f.write(f'#EXTVLCOPT:http-referrer={REFERER}\n')
-                f.write(f'{stream}\n')
+    print("zeus.m3u oluşturuldu")
 
 
-# ANA
 def main():
 
-    print("Domain taranıyor...")
+    base = find_working_base()
 
-    domains = []
+    if not base:
+        print("base bulunamadı")
+        return
 
-    with ThreadPoolExecutor(max_workers=50) as executor:
-
-        results = executor.map(check_domain, range(START, END))
-
-        for r in results:
-            if r:
-                domains.append(r)
-
-    print("Bulunan domain:", domains)
-
-    for d in domains:
-
-        base = extract_base(d)
-
-        if base:
-
-            print("Base bulundu:", base)
-
-            create_m3u(base)
-
-            return
-
-    print("Base bulunamadı")
+    create_m3u(base)
 
 
 if __name__ == "__main__":
