@@ -14,11 +14,6 @@ http://195.178.110.37/hls/AAAA.m3u8
 #EXTVLCOPT:http-origin=https://hmembeds.one/embed/fox-sports-1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://grand-s-main.faggotsports.tv/out/v2/0229b5481afd5808b9dd487c25ee6463/index.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Cleveland Cavaliers vs. Orlando Magic Basketball (TIMSTRMS)" tvg-logo="https://cdn.nba.com/manage/2026/03/cle_vs_orl_game_recap_031126_thumbnail.png" group-title="Live Events",[Basketball] Cleveland Cavaliers vs. Orlando Magic Basketball (TIMSTRMS)
-#EXTVLCOPT:http-referrer=https://hmembeds.one/embed/event-125e1976e0
-#EXTVLCOPT:http-origin=https://hmembeds.one/embed/event-125e1976e0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://grand-s-main.faggotsports.tv/out/v2/516117f59c523fde5efbcbf516fae733/index.m3u8
 #EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Houston Rockets at Denver Nuggets (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Houston Rockets at Denver Nuggets (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streamcenter.xyz
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
@@ -289,11 +284,6 @@ https://daffodil.xn--1000-ugoa0hsb9a0hb.com/nba2.m3u8
 #EXTVLCOPT:http-origin=https://live.totalsportekarmy.com/New-Orleans-Pelicans-vs-Toronto-Raptors/58853
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://d3bupko82pjars.cloudfront.net/status/n2/fronts.woff2?cfec8b
-#EXTINF:-1 tvg-chno="152" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New York Knicks @ Utah Jazz (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New York Knicks @ Utah Jazz (TVAPP)
-#EXTVLCOPT:http-referrer=https://thetvapp.to
-#EXTVLCOPT:http-origin=https://thetvapp.to
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://origin.thetvapp.to/hls/NBA02/mono.m3u8
 #EXTINF:-1 tvg-chno="154" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New York Knicks vs Utah Jazz (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New York Knicks vs Utah Jazz (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.info
 #EXTVLCOPT:http-origin=https://roxiestreams.info
@@ -454,21 +444,11 @@ https://instreams.pro/US/NBA6/index.m3u8?st=cr3aCtCPc5WqSEB0x7pluQ
 #EXTVLCOPT:http-origin=https://instreams.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://instreams.pro/US/NBA3/index.m3u8?st=6UkiUWaax4JECouzFU7XnQ
-#EXTINF:-1 tvg-chno="219" tvg-id="Live.Event.us" tvg-name="[North America CONCACAF Champions Cup] San Diego vs Toluca (SPRTZONE)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[North America CONCACAF Champions Cup] San Diego vs Toluca (SPRTZONE)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://n12.sanwalyaarpya.com:1686/hls/do30.m3u8?md5=bnJMcTgm07G-76oFxWZGuw&expires=1773293420
 #EXTINF:-1 tvg-chno="220" tvg-id="Live.Event.us" tvg-name="[Other] Hype Brazil (iSTRMEAST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Other] Hype Brazil (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://red2.pulselyra.shop/playlist/46950/load-playlist
-#EXTINF:-1 tvg-chno="225" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Indian Wells (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Tennis ATP] Tennis ATP Indian Wells (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.37/hls/YYYY.m3u8
 #EXTINF:-1 tvg-chno="226" tvg-id="Live.Event.us" tvg-name="[Tennis WTA] Tennis WTA Indian Wells (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Tennis WTA] Tennis WTA Indian Wells (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
