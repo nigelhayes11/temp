@@ -2400,20 +2400,10 @@ https://nextpulse.sbs/static/pl5.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://nextpulse.sbs/static/pl6.m3u8
 
-#EXTINF:-1 tvg-name="BEIN SPORTS 8K FEED .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 8K FEED 
-https://vavoo.to/vavoo-iptv/play/2113462398d8dd57a8ea73
 
-#EXTINF:-1 tvg-name="BEIN SPORTS 1 (720PFEED) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 1 (720PFEED) .b
-https://vavoo.to/vavoo-iptv/play/22330664333ebb4acbb6ab
-#EXTINF:-1 tvg-name="BEIN SPORTS FEED (OZEL FEED YAYIN) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS FEED (OZEL FEED YAYIN) 
-https://vavoo.to/vavoo-iptv/play/1453692314f52730c50395
 
-#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 4K FEED(KUTU) 
-https://vavoo.to/vavoo-iptv/play/267105889a25a483e5e80
-
-#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 4K FEED(UYDU) 
-https://vavoo.to/vavoo-iptv/play/1536730627bbf8f95ca477
-
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BEİN ACE FHD
+http://88.99.165.164:6878/ace/getstream?id=118416583faa3fb4f03800173429b6b844b43a52
 
 #EXTINF:-1 group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",REC
 #EXTVLCOPT:http-user-agent=googleusercontent
@@ -2441,13 +2431,14 @@ https://twilight-butterfly-a365.esraerolseninapam.workers.dev/https://corestream
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",ANDROK
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamlivebs1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",RAPİD
-http://tv.rapidstreamz.workers.dev/?ID=http://zx.visiona.top:8081/sports/bein1tr/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BİRAZ TV
 #EXTVLCOPT:http-referrer=https://birazcikspor37.xyz/
 https://andro.5172948.xyz/checklist/androstreamlivebiraz1.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",ZEUS SPOR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://zeustv.info/live/bein1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",B1 LOW
 #EXTVLCOPT:http-referrer=https://jestyayin945.com/
@@ -2472,11 +2463,6 @@ http://live.freeshot.workers.dev/?ID=beINSPORTS1TR
 https://dga1op10s1u3leo.7af32068d38fdf.click/live/selcukbeinsports1/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",BOSS
-#EXTVLCOPT:http-referrer=https://bosssports216.com
-#EXTVLCOPT:http-origin=https://bosssports216.com
-https://bo.ca2d61c35af5c1b593.workers.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/777/playlist.m3u8
-
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",176
 http://176.123.10.77:8480/b1/index.m3u8
@@ -2486,9 +2472,7 @@ http://176.123.10.77:8480/b1/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://raspy-forest-b1e4.aykara463.workers.dev/701.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://i.hizliresim.com/c11fk0n.png" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡",ZEUS SPOR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://zeustv.info/live/bein1/playlist.m3u8
+
 
 #EXTINF:-1 tvg-name="BEIN SPOTS1 SD .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPOTS1NW
 https://6e9e98f0df58ee21c25d8e8198b29956a1d07fd158f146252a3081.betconnectlivecdn1002.shop/601/index.m3u8
@@ -2513,7 +2497,19 @@ https://vavoo.to/vavoo-iptv/play/5934938605e361d7e0ff0
 https://vavoo.to/vavoo-iptv/play/143239535a2e3c23c1d16
 #EXTINF:-1 tvg-name="BEIN SPORTS 720P FEED .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 720P FEED .b
 https://vavoo.to/vavoo-iptv/play/499485497d6131f47417d
+#EXTINF:-1 tvg-name="BEIN SPORTS 8K FEED .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 8K FEED 
+https://vavoo.to/vavoo-iptv/play/2113462398d8dd57a8ea73
 
+#EXTINF:-1 tvg-name="BEIN SPORTS 1 (720PFEED) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 1 (720PFEED) .b
+https://vavoo.to/vavoo-iptv/play/22330664333ebb4acbb6ab
+#EXTINF:-1 tvg-name="BEIN SPORTS FEED (OZEL FEED YAYIN) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS FEED (OZEL FEED YAYIN) 
+https://vavoo.to/vavoo-iptv/play/1453692314f52730c50395
+
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 4K FEED(KUTU) 
+https://vavoo.to/vavoo-iptv/play/267105889a25a483e5e80
+
+#EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="⚽🔵🟡MNK BEİN 1 WEB +VPN🔵🟡" +VPN🔵🟡",BEIN SPORTS 4K FEED(UYDU) 
+https://vavoo.to/vavoo-iptv/play/1536730627bbf8f95ca477
 
 
 #EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(KUTU) .b" tvg-logo="" group-title="⭐VAVOO 4K SPOR FULL⭐",BEIN SPORTS 4K FEED(KUTU) .b
