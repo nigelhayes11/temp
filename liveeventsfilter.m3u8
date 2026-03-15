@@ -9,6 +9,11 @@ https://mainstreams.pro/hls/ztyarueaghj71.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://red6.lumenglide.shop/playlist/47200/load-playlist
+#EXTINF:-1 tvg-chno="37" tvg-id="Live.Event.us" tvg-name="[Cricket] Bangladesh vs Pakistan (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Cricket] Bangladesh vs Pakistan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.27/hls/FUUUQQQ.m3u8
 #EXTINF:-1 tvg-chno="70" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1 GP] Formula 1 GP China 2 HD (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP China 2 HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -24,6 +29,11 @@ https://pl1.wecanfix2.space/playlist/47053/load-playlist
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://pl2.wecanfix3.space/playlist/47202/load-playlist
+#EXTINF:-1 tvg-chno="93" tvg-id="Live.Event.us" tvg-name="[Live Event] Cry Palace vs Leeds (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Cry Palace vs Leeds (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://24start.net/homes/blog3/
+#EXTVLCOPT:http-origin=https://24start.net/homes/blog3/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://24start.net/s3.php
 #EXTINF:-1 tvg-chno="96" tvg-id="Live.Event.us" tvg-name="[Live Event] F1 Chinese Grand Prix vs Live (TOTALSPRTK1)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] F1 Chinese Grand Prix vs Live (TOTALSPRTK1)
 #EXTVLCOPT:http-referrer=https://live.totalsportekarmy.com/F1-Chinese-Grand-Prix-vs-Live/59033
 #EXTVLCOPT:http-origin=https://live.totalsportekarmy.com/F1-Chinese-Grand-Prix-vs-Live/59033
@@ -564,11 +574,6 @@ https://instreams.live/US/NBA7/index.m3u8?st=wkZvUZqFp3EE2fNzxve-JA
 #EXTVLCOPT:http-origin=https://roxiestreams.info
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://602.xn--1000-ugoa0hsb9a0hb.com/flo.m3u8
-#EXTINF:-1 tvg-chno="333" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC Fight Night Emmett vs Vallejos (TOTALSPRTK1)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[UFC] UFC Fight Night Emmett vs Vallejos (TOTALSPRTK1)
-#EXTVLCOPT:http-referrer=https://live.totalsportekarmy.com/UFC-Fight-Night-Emmett-vs-Vallejos/64221
-#EXTVLCOPT:http-origin=https://live.totalsportekarmy.com/UFC-Fight-Night-Emmett-vs-Vallejos/64221
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://d34tc0owumbyhu.cloudfront.net/status/u1/fronts.woff2?7891dd
 #EXTINF:-1 tvg-chno="347" tvg-id="Baseball.Dummy.us" tvg-name="[World Baseball Classic] Japan vs Venezuela (iSTRMEAST)" tvg-logo="https://i.gyazo.com/3e1119df65dee3290afdad55b84ac332.webp" group-title="Live Events",[World Baseball Classic] Japan vs Venezuela (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
