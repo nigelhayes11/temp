@@ -1,11 +1,18 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="4273153967" tvg-name="CNN TURK HD (1)" tvg-logo="" group-title="Turkey",CNN TURK HD (1)
-https://vavoo.to/play/4273153967/index.m3u8
-#EXTINF:-1 tvg-id="2325261286" tvg-name="4K TR: ATV HD (1)" tvg-logo="" group-title="Turkey",4K TR: ATV HD (1)
-https://vavoo.to/play/2325261286/index.m3u8
+#EXTINF:-1 tvg-id="1221587067" tvg-name="BEIN SPORTS MAX 1 (6)" tvg-logo="" group-title="Turkey",BEIN SPORTS MAX 1 (6)
+https://vavoo.to/play/1221587067/index.m3u8
+#EXTINF:-1 tvg-id="4071474743" tvg-name="BEIN SPORTS MAX 1 FHD (1)" tvg-logo="" group-title="Turkey",BEIN SPORTS MAX 1 FHD (1)
+https://vavoo.to/play/4071474743/index.m3u8
+
 #EXTINF:-1 tvg-id="1453692314" tvg-name="BEIN SPORTS FEED (OZEL FEED YAYIN) (1)" tvg-logo="" group-title="Turkey",BEIN SPORTS FEED (OZEL FEED YAYIN) (1)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://vavoo.to/play/1453692314/index.m3u8
 #EXTINF:-1 tvg-id="1771137539" tvg-name="4K TR: A SPOR HD (1)" tvg-logo="" group-title="Turkey",4K TR: A SPOR HD (1)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://vavoo.to/play/1771137539/index.m3u8
 #EXTINF:-1 tvg-id="3840475653" tvg-name="BEIN SPORTS 1 (720P) (1)" tvg-logo="" group-title="Turkey",BEIN SPORTS 1 (720P) (1)
 https://vavoo.to/play/3840475653/index.m3u8
