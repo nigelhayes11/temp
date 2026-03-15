@@ -3,7 +3,7 @@ import re
 import time
 
 # AtomSporTV
-START_URL = "https://atomsportv488.top/"
+START_URL = "https://url24.link/AtomSporTV"
 OUTPUT_FILE = "rnl.m3u"
 
 GREEN = "\033[92m"
@@ -32,7 +32,7 @@ def get_base_domain():
                 print(f"Ana Domain: {base_domain}")
                 return base_domain
         
-        return "https://www.atomsportv488.top"
+        return "https://www.atomsportv480.top"
         
     except Exception as e:
         print(f"Domain hatası: {e}")
@@ -95,6 +95,9 @@ def get_all_possible_channels():
         ("bein-sports-2", "BEIN SPORTS 2"),
         ("bein-sports-3", "BEIN SPORTS 3"),
         ("bein-sports-4", "BEIN SPORTS 4"),
+        ("bein-sports-5", "BEIN SPORTS 5"),
+        ("bein-sports-max-1", "BEIN SPORTS MAX 1"),
+        ("bein-sports-max-2", "BEIN SPORTS MAX 2"),
         
         # S SPORT
         ("s-sport", "S SPORT"),
@@ -153,7 +156,7 @@ def create_m3u(working_channels, base_domain):
     print(f"\nM3U dosyası oluşturuluyor...")
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        f.write("")
         
         for channel in working_channels:
             channel_id = channel["id"]
@@ -161,7 +164,7 @@ def create_m3u(working_channels, base_domain):
             m3u8_url = channel["url"]
             
             # EXTINF satırı
-            f.write(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="ATOMSPOR TV",{channel_name}\n')
+            f.write(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{channel_name}" group-title="Atom TV",{channel_name}\n')
             
             # VLC seçenekleri
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}\n')
@@ -196,20 +199,6 @@ def main():
     # 4. M3U oluştur
     print("\n4. M3U dosyası oluşturuluyor...")
     create_m3u(working_channels, base_domain)
-    
-    # 5. Sonuçları göster
-    print("\n" + "=" * 60)
-    print("ÇALIŞAN KANALLAR:")
-    
-    for channel in working_channels:
-        print(f"  ✓ {channel['name']}")
-    
-    # 6. GitHub komutları
-    print("\n" + "=" * 60)
-    print("GitHub komutları:")
-    print(f"  git add {OUTPUT_FILE}")
-    print('  git commit -m "AtomSporTV M3U güncellemesi"')
-    print("  git push")
 
 if __name__ == "__main__":
     main()
