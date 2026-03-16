@@ -84,6 +84,16 @@ https://onebot3c.s3.us-east-1.amazonaws.com/barcelona_480p30.m3u8
 #EXTVLCOPT:http-origin=https://24start.net/homes/blog3/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://24start.net/s3.php
+#EXTINF:-1 tvg-chno="176" tvg-id="Live.Event.us" tvg-name="[Live Event] Liverpool vs Tottenham (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Liverpool vs Tottenham (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://24start.net/homes/blog1/
+#EXTVLCOPT:http-origin=https://24start.net/homes/blog1/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://24start.net/s1.php
+#EXTINF:-1 tvg-chno="178" tvg-id="Live.Event.us" tvg-name="[Live Event] Man United vs Aston Villa (OVOGOAL)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Man United vs Aston Villa (OVOGOAL)
+#EXTVLCOPT:http-referrer=https://24start.net/homes/blog1/
+#EXTVLCOPT:http-origin=https://24start.net/homes/blog1/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://24start.net/s1.php
 #EXTINF:-1 tvg-chno="190" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics @ Cleveland Guardians (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Athletics @ Cleveland Guardians (TVAPP)
 #EXTVLCOPT:http-referrer=https://thetvapp.to
 #EXTVLCOPT:http-origin=https://thetvapp.to
