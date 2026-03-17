@@ -1,4 +1,32 @@
 #EXTM3U
+#EXTM3U
+#EXTINF:0,CNN TURK HD (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/4273153967/index.m3u8
+#EXTINF:0,4K TR: ATV HD (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/2325261286/index.m3u8
+#EXTINF:0,BEIN SPORTS FEED (OZEL FEED YAYIN) (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/1453692314/index.m3u8
+#EXTINF:0,4K TR: A SPOR HD (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/1771137539/index.m3u8
+#EXTINF:0,BEIN SPORTS 1 (720P) (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/3840475653/index.m3u8
+#EXTINF:0,KANAL D HD (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/1130441933/index.m3u8
+#EXTINF:0,4K TR: A HABER HD (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/1064954896/index.m3u8
+#EXTINF:0,FOX TV HD (H265) (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/1345288490/index.m3u8
+#EXTINF:0,BEIN SPORTS 8K FEED (1)
+#EXTVLCOPT:network-caching=1000
+https://vavoo.to/play/2113462398/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/22c5fe05-d70b-4c68-98fb-03bae4870e81.png" group-title="Sinema ve Dizi",Sinema Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/sinematv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MDMvMTcvMjAyNiAwNjoxNToyMyBBTSZoYXNoX3ZhbHVlPW1tREE5WDd2ek5DZTFpZDUrcE5ENnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD1hMDkwODc4NC1kMTI4LTQ2MWYtYjc2Yi1hNTdkZWIxYjgwY2MsMGZhMDM1OWQtYTE5Yi00MWIyLTllNzMtMjllY2I2OTY5NjQwLDVkMGVkMzI0LTlhZDItNDdiMi04ZGZlLWFiN2Q1NDQ0MjM5OSwsMTMyLjE5Ni44Mi4yLDE3NzM3Mzg5MjMmY2xpZW50X2lwPTEzMi4xOTYuODIuMiZjaGVja2lwPXRydWU=
 #EXTINF:-1 tvg-id="2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="Sinema ve Dizi",Sinema Aksiyon
