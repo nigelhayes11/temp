@@ -364,16 +364,16 @@ https://n10.sanwalyaarpya.com:1686/hls/do18.m3u8?md5=0RT3fl9fNL5a4sN5zgFxCg&expi
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.37/hls/NHNHNHQQQqQ.m3u8
+#EXTINF:-1 tvg-chno="161" tvg-id="Soccer.Dummy.us" tvg-name="[Greece Super League] AEK Athens vs Kifisia (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/98.png" group-title="Live Events",[Greece Super League] AEK Athens vs Kifisia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://195.178.110.37/hls/ABBBQQQ.m3u8
 #EXTINF:-1 tvg-chno="162" tvg-id="Soccer.Dummy.us" tvg-name="[Greece Super League] AEK Athens vs Kifisia (S2WATCH)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/98.png" group-title="Live Events",[Greece Super League] AEK Athens vs Kifisia (S2WATCH)
 #EXTVLCOPT:http-referrer=https://swoparm.net/embed/sr3yoc3x
 #EXTVLCOPT:http-origin=https://swoparm.net/embed/sr3yoc3x
 #EXTVLCOPT:http-user-agent=curl/8.19.0
 https://6hy7mh9r.80386851.net:8443/hls/sr3yoc3x.m3u8?s=15yY_jF10echbTIxC0wlbw&e=1774220409
-#EXTINF:-1 tvg-chno="163" tvg-id="Soccer.Dummy.us" tvg-name="[Greece Super League] AEK Athens vs Kifisia (SPRTZONE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/98.png" group-title="Live Events",[Greece Super League] AEK Athens vs Kifisia (SPRTZONE)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://n13.sanwalyaarpya.com:1686/hls/do24.m3u8?md5=RMG4ifqFjZXlnzyBCCMoRQ&expires=1774206044
 #EXTINF:-1 tvg-chno="164" tvg-id="Soccer.Dummy.us" tvg-name="[Greece Super League] Aris vs OFI (S2WATCH)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/98.png" group-title="Live Events",[Greece Super League] Aris vs OFI (S2WATCH)
 #EXTVLCOPT:http-referrer=https://swoparm.net/embed/4yk3uwx7swc
 #EXTVLCOPT:http-origin=https://swoparm.net/embed/4yk3uwx7swc
@@ -939,26 +939,6 @@ http://origin.thetvapp.to/hls/NHL02/mono.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.info
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.maxservices.tv/nhl.m3u8
-#EXTINF:-1 tvg-chno="385" tvg-id="Soccer.Dummy.us" tvg-name="[Netherlands Eredivisie] Groningen vs AZ (S2WATCH)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Netherlands Eredivisie] Groningen vs AZ (S2WATCH)
-#EXTVLCOPT:http-referrer=https://swoparm.net/embed/iuj5xqas0nsjms
-#EXTVLCOPT:http-origin=https://swoparm.net/embed/iuj5xqas0nsjms
-#EXTVLCOPT:http-user-agent=curl/8.19.0
-https://6hy7mh9r.80386851.net:8443/hls/iuj5xqas0nsjms.m3u8?s=abYG03f-hdHJM9WCb7yUmw&e=1774216831
-#EXTINF:-1 tvg-chno="386" tvg-id="Soccer.Dummy.us" tvg-name="[Netherlands Eredivisie] Groningen vs AZ (SPRTZONE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Netherlands Eredivisie] Groningen vs AZ (SPRTZONE)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://n12.sanwalyaarpya.com:1686/hls/do89.m3u8?md5=DAHw_dr29QZcQ7UTVwRXmg&expires=1774207877
-#EXTINF:-1 tvg-chno="390" tvg-id="Live.Event.us" tvg-name="[Norway Eliteserien] Sandefjord vs Sarpsborg 08 (S2WATCH)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Norway Eliteserien] Sandefjord vs Sarpsborg 08 (S2WATCH)
-#EXTVLCOPT:http-referrer=https://swoparm.net/embed/uj4cqt9ou631o
-#EXTVLCOPT:http-origin=https://swoparm.net/embed/uj4cqt9ou631o
-#EXTVLCOPT:http-user-agent=curl/8.19.0
-https://6hy7mh9r.80386851.net:8443/hls/uj4cqt9ou631o.m3u8?s=U3A5WD5y1CGd3avp4yawfQ&e=1774216830
-#EXTINF:-1 tvg-chno="391" tvg-id="Live.Event.us" tvg-name="[Norway Eliteserien] Sandefjord vs Sarpsborg 08 (SPRTZONE)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Norway Eliteserien] Sandefjord vs Sarpsborg 08 (SPRTZONE)
-#EXTVLCOPT:http-referrer=https://vividmosaica.com/
-#EXTVLCOPT:http-origin=https://vividmosaica.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://n11.sanwalyaarpya.com:1686/hls/do69.m3u8?md5=ex4lG-5A1TMi3JYEMskgbg&expires=1774207883
 #EXTINF:-1 tvg-chno="394" tvg-id="Soccer.Dummy.us" tvg-name="[Poland Ekstraklasa] Widzew Łodz vs Gornik Zabrze (S2WATCH)" tvg-logo="https://i.gyazo.com/362e31efdd0dad03b00858f4fb0901b5.png" group-title="Live Events",[Poland Ekstraklasa] Widzew Łodz vs Gornik Zabrze (S2WATCH)
 #EXTVLCOPT:http-referrer=https://swoparm.net/embed/tz9fixrutd27d
 #EXTVLCOPT:http-origin=https://swoparm.net/embed/tz9fixrutd27d
@@ -1004,11 +984,6 @@ https://601.maxservices.tv/mxgp.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.37/hls/FFFFQQQQ.m3u8
-#EXTINF:-1 tvg-chno="422" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Roma vs Lecce (TOTALSPRTK3)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Roma vs Lecce (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportekarmy.com/Roma-vs-Lecce/64212
-#EXTVLCOPT:http-origin=https://live3.totalsportekarmy.com/Roma-vs-Lecce/64212
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch7/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2g3IiwiaXAiOiIwLjAuMC4wIiwiZXhwIjoxNzc0MjAyNDYyLCJyYW5kIjoiOWRlYWU4NjFiMGIwNDFjZCJ9.c36aaaad43e78014ed134371de708b1c6b8f92530d783ed7cae46be32bbd6d4f
 #EXTINF:-1 tvg-chno="423" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Roma vs Lecce (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Roma vs Lecce (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
