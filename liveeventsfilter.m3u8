@@ -34,6 +34,11 @@ https://24start.net/s1.php
 #EXTVLCOPT:http-origin=https://24start.net/homes/blog2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://24start.net/s2.php
+#EXTINF:-1 tvg-chno="50" tvg-id="Live.Event.us" tvg-name="[Live Event] Real Madrid vs Atletico Madrid (TOTALSPRTK1)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] Real Madrid vs Atletico Madrid (TOTALSPRTK1)
+#EXTVLCOPT:http-referrer=https://live.totalsportekarmy.com/Real-Madrid-vs-Atletico-Madrid/64048
+#EXTVLCOPT:http-origin=https://live.totalsportekarmy.com/Real-Madrid-vs-Atletico-Madrid/64048
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://1a-1791.com/live/r31jzt5k/slot-87/a0az-3iu2_1080p/chunklist.m3u8
 #EXTINF:-1 tvg-chno="54" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks @ San Diego Padres (TVAPP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Arizona Diamondbacks @ San Diego Padres (TVAPP)
 #EXTVLCOPT:http-referrer=https://thetvapp.to
 #EXTVLCOPT:http-origin=https://thetvapp.to
@@ -334,11 +339,6 @@ https://instreams.live/US/NBA5/index.m3u8?st=wZOlsBO2qA15etmPyiCQLw
 #EXTVLCOPT:http-origin=https://instreams.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://instreams.live/US/NHL9/index.m3u8?st=-ryzu8LD96sdL-Ng_k6LQw
-#EXTINF:-1 tvg-chno="212" tvg-id="Live.Event.us" tvg-name="[Paraguay Primera Division] Sp Luqueno vs 2 de Mayo (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Paraguay Primera Division] Sp Luqueno vs 2 de Mayo (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.37/hls/AAAAAZZZQQQ.m3u8
 #EXTINF:-1 tvg-chno="219" tvg-id="Racing.Dummy.us" tvg-name="[Racing] M2/MXGP - Race (ROXIE)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Racing] M2/MXGP - Race (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.info
 #EXTVLCOPT:http-origin=https://roxiestreams.info
