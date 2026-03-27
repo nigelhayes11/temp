@@ -2075,9 +2075,12 @@ https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/chunklist.m3u8
 #EXTINF:0 tvg-logo=""tvg-id="" group-title="⚡️SPOR TV KANALLARI⚡️",TJK TV
 https://tjktv-live.tjk.org/tjktv/tjktv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 1 vav
-#EXTVLCOPT:http-referer=https://justsporthd45.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
-https://vavoo.to/vavoo-iptv/play/33465497225b9857743b71
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-header=XRequestedWith: XMLHttpRequest
+https://redzones.icu/ssp/01.m3u8?md5=aS-WXB8L6luTZIgplZS-LA&expires=1774617016
+# Orijinal: https://str.boxbc.icu/CDN/SSP/bir.php
+# Tip: tekli_regex_lb_sh_3
 #EXTINF:-1 tvg-id="" tvg-name="S SPORTS " tvg-logo="http://72register34.com/logos/ssport1hd.png" group-title="🏀Euroleague  S SPORT🏀",S SPORT 1 vav b
 #EXTVLCOPT:http-referer=https://justsporthd45.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
@@ -3448,7 +3451,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-03-27T09:36:59.041115
+# Generated: 2026-03-27T11:26:10.674724
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://www.atomsportv494.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
@@ -3647,11 +3650,6 @@ https://zeustv432423.info/xexxen/index.m3u8
 #EXTINF:-1 group-title="ZeusTV",XEXXEN1
 https://zeustv432423.info/xexxen1/index.m3u8
 #EXTM3U
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[FIFA Series] New Zealand vs Finland (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[FIFA Series] New Zealand vs Finland (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.2/hls/EEEEQQ.m3u8
 #EXTINF:-1 tvg-chno="14" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1 GP] Formula 1 GP Japan 2 HD (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP Japan 2 HD (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -3692,11 +3690,6 @@ http://origin.thetvapp.to/hls/MLB07/mono.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.premiumjh.shop/mlb7.m3u8
-#EXTINF:-1 tvg-chno="56" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Guardians vs Mariners (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Guardians vs Mariners (WEBCAST)
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com
-#EXTVLCOPT:http-origin=https://mlbwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-cdn.b-cdn.net/newz/newz/110.m3u8
 #EXTINF:-1 tvg-chno="58" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Houston Astros (ROXIE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Houston Astros (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
