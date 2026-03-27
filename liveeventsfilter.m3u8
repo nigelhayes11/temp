@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="7" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball] Iowa Hawkeyes vs. Nebraska Cornhuskers (TIMSTRMS)" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/videos/vita/S__QTbw9ZTE8QhrE_768x432.jpg" group-title="Live Events",[Basketball] Iowa Hawkeyes vs. Nebraska Cornhuskers (TIMSTRMS)
-#EXTVLCOPT:http-referrer=https://embed.timstreams.fit/embed/tbs-usa
-#EXTVLCOPT:http-origin=https://embed.timstreams.fit/embed/tbs-usa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://imgs-001.juno-api-noe.icu/secure/api/v1/tbs-usa.m3u8?md5=7878b958c20c477b7712edbc9334f569&exp=1774569619
 #EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New Orleans Pelicans at Detroit Pistons (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New Orleans Pelicans at Detroit Pistons (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streamcenter.xyz
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
@@ -19,16 +14,6 @@ https://mainstreams.pro/hls/mlkijfezag65.m3u8
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8
-#EXTINF:-1 tvg-chno="18" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball] Texas Longhorns vs. Purdue Boilermakers (TIMSTRMS)" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/videos/vita/GWAU5mPkYHFWHaF2_768x432.jpg" group-title="Live Events",[Basketball] Texas Longhorns vs. Purdue Boilermakers (TIMSTRMS)
-#EXTVLCOPT:http-referrer=https://embed.timstreams.fit/embed/cbs-usa
-#EXTVLCOPT:http-origin=https://embed.timstreams.fit/embed/cbs-usa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://imgs-001.juno-api-noe.icu/secure/api/v1/cbs-usa.m3u8?md5=42a96912e73c1a5107ebb5ff22f972d9&exp=1774569614
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Chile Cup] Limache vs Palestino (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Chile Cup] Limache vs Palestino (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.2/hls/AFFFQQQQQ.m3u8
 #EXTINF:-1 tvg-chno="28" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Croatia at Colombia (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Football] Croatia at Colombia (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streamcenter.xyz
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
@@ -74,21 +59,6 @@ https://mainstreams.pro/hls/hjksgdfauzy51.m3u8
 #EXTVLCOPT:http-origin=https://streamcenter.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://mainstreams.pro/hls/lmdsjkfgv52.m3u8
-#EXTINF:-1 tvg-chno="52" tvg-id="Live.Event.us" tvg-name="[International Friendlies] Chile vs Cape Verde Islands (TOTALSPRTK3)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[International Friendlies] Chile vs Cape Verde Islands (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/Chile-vs-Cape-Verde-Islands/65203
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/Chile-vs-Cape-Verde-Islands/65203
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch19/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gxOSIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0NywicmFuZCI6ImQzOGI5NTMxNDU4OTFiNWMifQ.c2c01dfa7c30001ba27fa84cc1e0f889a9539ace03297a36c557348f4d38b724
-#EXTINF:-1 tvg-chno="53" tvg-id="Live.Event.us" tvg-name="[International Friendlies] China vs Curacao (TOTALSPRTK3)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[International Friendlies] China vs Curacao (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/China-vs-Curacao/65204
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/China-vs-Curacao/65204
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch10/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gxMCIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0NywicmFuZCI6IjVjMmE2NTE5Y2MyMzQ2YzEifQ.bf4bc05cccd233c4bd8613b6ebdc34c06b04a2d40977eb5197412fa5c6dcfbda
-#EXTINF:-1 tvg-chno="56" tvg-id="Live.Event.us" tvg-name="[International Friendlies] New Zealand vs Finland (TOTALSPRTK3)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[International Friendlies] New Zealand vs Finland (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/New-Zealand-vs-Finland/64978
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/New-Zealand-vs-Finland/64978
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch10/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gxMCIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0OCwicmFuZCI6ImRkOTA0YjNhNjcyZTFmNTEifQ.7cb9d7daa197722d5e58ea9fa83ef3557bf97c1e80f416861e54c472a8c94de6
 #EXTINF:-1 tvg-chno="57" tvg-id="Live.Event.us" tvg-name="[International Friendly Games] Brazil vs France (iSTRMEAST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[International Friendly Games] Brazil vs France (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -149,6 +119,11 @@ http://origin.thetvapp.to/hls/MLB07/mono.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://601.premiumjh.shop/mlb7.m3u8
+#EXTINF:-1 tvg-chno="100" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Diamondbacks vs Dodgers (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Diamondbacks vs Dodgers (WEBCAST)
+#EXTVLCOPT:http-referrer=https://mlbwebcast.com
+#EXTVLCOPT:http-origin=https://mlbwebcast.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://webcast-cdn.b-cdn.net/newz/newz/133.m3u8
 #EXTINF:-1 tvg-chno="102" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros - Los Angeles Angels (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Houston Astros - Los Angeles Angels (EMBEDHD)
 #EXTVLCOPT:http-referrer=https://vividmosaica.com/
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
@@ -304,11 +279,6 @@ https://601.simplyataide.boutique/ncaa.m3u8
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://n14.sanwalyaarpya.com:1686/hls/mcharlottehornets.m3u8?md5=9mUtaP8L3hZmSF8kjGdNuQ&expires=1774571440
-#EXTINF:-1 tvg-chno="134" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Charlotte Hornets vs New York Knicks (TOTALSPRTK3)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Charlotte Hornets vs New York Knicks (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/Charlotte-Hornets-vs-New-York-Knicks/60119
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/Charlotte-Hornets-vs-New-York-Knicks/60119
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch20/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gyMCIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0OSwicmFuZCI6IjNjZDc1MDZkZDViOWUwMTAifQ.6896be3c28b6b920bbca280f710b84720170e6aa81f13cddcc6bf50a78880da8
 #EXTINF:-1 tvg-chno="135" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Charlotte Hornets vs New York Knicks (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Charlotte Hornets vs New York Knicks (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -319,11 +289,6 @@ https://chatgpt.hereisman.net/playlist/47906/load-playlist
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://n14.sanwalyaarpya.com:1686/hls/mdetroitpistons.m3u8?md5=qbcBu-8HYQU3Q4Tqt9gJjw&expires=1774571441
-#EXTINF:-1 tvg-chno="137" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Detroit Pistons vs New Orleans Pelicans (TOTALSPRTK3)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Detroit Pistons vs New Orleans Pelicans (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/Detroit-Pistons-vs-New-Orleans-Pelicans/60117
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/Detroit-Pistons-vs-New-Orleans-Pelicans/60117
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch21/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gyMSIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0OCwicmFuZCI6ImNhYjI0MzM5OTYzOTZmYTgifQ.bec0d9b75e2e37b7147b2b6f6b73e74c479661bd3d57a82bfb8166a6a6b58f13
 #EXTINF:-1 tvg-chno="138" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Detroit Pistons vs New Orleans Pelicans (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Detroit Pistons vs New Orleans Pelicans (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -354,11 +319,6 @@ https://daffodil.shadow-ran.online/nba.m3u8
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://n12.sanwalyaarpya.com:1686/hls/morlandomagic.m3u8?md5=OA92xoCMlezaoMqmWC-54A&expires=1774571443
-#EXTINF:-1 tvg-chno="147" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Orlando Magic vs Sacramento Kings (TOTALSPRTK3)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Orlando Magic vs Sacramento Kings (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/Orlando-Magic-vs-Sacramento-Kings/60118
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/Orlando-Magic-vs-Sacramento-Kings/60118
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch22/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gyMiIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTY0OSwicmFuZCI6ImFkNDdmMzM5MWRhZWQwOWEifQ.a6ba653e67f5d38f366f8453ca614848504c4bb11ca988c19f970521b4dfd868
 #EXTINF:-1 tvg-chno="148" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Orlando Magic vs Sacramento Kings (iSTRMEAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Orlando Magic vs Sacramento Kings (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net
@@ -669,6 +629,11 @@ https://webcast-cdn.b-cdn.net/newz/newz/86.m3u8
 #EXTVLCOPT:http-origin=https://vividmosaica.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://n12.sanwalyaarpya.com:1686/hls/mlouisblue.m3u8?md5=LwkhmTbakgSZARZdBjnloQ&expires=1774575035
+#EXTINF:-1 tvg-chno="219" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] St. Louis Blues vs San Jose Sharks (CDNTV)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] St. Louis Blues vs San Jose Sharks (CDNTV)
+#EXTVLCOPT:http-referrer=https://cdn-live.tv/api/v1/channels/player/?name=tnt+sports+10&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-origin=https://cdn-live.tv/api/v1/channels/player/?name=tnt+sports+10&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edge.cdn-live.ru/secure/api/v1/gb-tnt-sports-10/playlist.m3u8?token=52dd902534e0c5f71fe9939a7bdbb0accd511d773d13938808c0301abf79a2f2.1774567840.56b540a1df1c40811002aed095fd470d.f10858c1e1874ee3f728cf636c9100da.286625f4007a7723a9837f16219dc143&signature=4e2970fa5e555b4640e402f9b805ade39c2fd272f707efda0ae8f640d54b9b30
 #EXTINF:-1 tvg-chno="220" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Stars vs Islanders (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Stars vs Islanders (WEBCAST)
 #EXTVLCOPT:http-referrer=https://slapstreams.com
 #EXTVLCOPT:http-origin=https://slapstreams.com
@@ -734,11 +699,6 @@ https://daffodil.shadow-ran.online/chile.m3u8
 #EXTVLCOPT:http-origin=https://roxiestreams.su
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://daffodil.shadow-ran.online/fs2.m3u8
-#EXTINF:-1 tvg-chno="236" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Colombia vs Croatia (TIMSTRMS)" tvg-logo="https://timstreams.net/api/thumb-u-edb231dacb39.jpg" group-title="Live Events",[Soccer] Colombia vs Croatia (TIMSTRMS)
-#EXTVLCOPT:http-referrer=https://embed.timstreams.fit/embed/fox-sports-2
-#EXTVLCOPT:http-origin=https://embed.timstreams.fit/embed/fox-sports-2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://imgs-001.juno-api-noe.icu/secure/api/v1/fox-sports-2.m3u8?md5=7005162bdbd8956206ae2a001ed1baf0&exp=1774569610
 #EXTINF:-1 tvg-chno="237" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Gibraltar vs Latvia (ROXIE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Gibraltar vs Latvia (ROXIE)
 #EXTVLCOPT:http-referrer=https://roxiestreams.su
 #EXTVLCOPT:http-origin=https://roxiestreams.su
@@ -774,11 +734,6 @@ https://daffodil.shadow-ran.online/fs1.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.2/hls/YYYY.m3u8
-#EXTINF:-1 tvg-chno="253" tvg-id="Live.Event.us" tvg-name="[WORLDCUPQUALIFYING] New Caledonia vs Jamaica (TOTALSPRTK3)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[WORLDCUPQUALIFYING] New Caledonia vs Jamaica (TOTALSPRTK3)
-#EXTVLCOPT:http-referrer=https://live3.totalsportek.foo/New-Caledonia-vs-Jamaica/64960
-#EXTVLCOPT:http-origin=https://live3.totalsportek.foo/New-Caledonia-vs-Jamaica/64960
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://fg1.fgfbg5433dd.site/simpch15/index.m3u8?token=eyJzdHJlYW0iOiJzaW1wY2gxNSIsImlwIjoiMC4wLjAuMCIsImV4cCI6MTc3NDU2OTYzNSwicmFuZCI6ImE4N2JhMTEwZmUyZTZiNjAifQ.e4ac8cb13a2424e026272d587c4d9b42b66178708777b731d026920478ee7511
 #EXTINF:-1 tvg-chno="258" tvg-id="Live.Event.us" tvg-name="[World Cup Qualification] Bolivia vs Suriname (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[World Cup Qualification] Bolivia vs Suriname (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -789,8 +744,3 @@ http://195.178.110.2/hls/AFFFQQQQQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://195.178.110.25/hls/SASASAq.m3u8
-#EXTINF:-1 tvg-chno="265" tvg-id="Live.Event.us" tvg-name="[World Cup Qualification] Poland vs Albania 1 (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[World Cup Qualification] Poland vs Albania 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://195.178.110.25/hls/SASASAqqq.m3u8
