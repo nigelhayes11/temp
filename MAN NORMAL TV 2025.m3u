@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1,BEIN SPORTS 1 H265 |D
-https://vavoo.to/vavoo-iptv/play/24034250311fdb297b466e
-#EXTINF:-1,BEIN SPORTS 1 HD (TURKEY) |D
-https://vavoo.to/vavoo-iptv/play/593493860189d11f7fa05
-#EXTINF:-1,BEIN SPORTS 1 HD |D
-https://vavoo.to/vavoo-iptv/play/6621796209b1d59f3eb10
-#EXTINF:-1,BEIN SPORTS 2 |E
-https://vavoo.to/vavoo-iptv/play/144724150649fb3ed7eec1
 #EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",CNN TR
 https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=VhhUoOBc_Np34JxpcVifoQ&e=1772365195
 #EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",HALK TV
@@ -3459,7 +3451,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-03-29T10:58:18.446910
+# Generated: 2026-03-29T11:37:38.535265
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="BEIN SPORTS 1" group-title="Atom TV",BEIN SPORTS 1
 #EXTVLCOPT:http-referrer=https://www.atomsportv494.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
