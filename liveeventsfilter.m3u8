@@ -729,6 +729,11 @@ https://lista-preta-tv.site/live/index.php?ch=Canal11
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=783
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://lista-preta-tv.site/tv247V3/us/index.php?id=CBSSportsGolazo
+#EXTINF:-1 tvg-chno="423" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Werder Bremen vs RB Leipzig (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Werder Bremen vs RB Leipzig (LISTA)
+#EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=467
+#EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=467
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://lista-preta-tv.site/live/gr/index.php?ch=NOVASPORTS4
 #EXTINF:-1 tvg-chno="424" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Željezničar vs Sarajevo (LISTA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Željezničar vs Sarajevo (LISTA)
 #EXTVLCOPT:http-referrer=https://lista-preta-tv.site/player-all.html?id=1063
 #EXTVLCOPT:http-origin=https://lista-preta-tv.site/player-all.html?id=1063
