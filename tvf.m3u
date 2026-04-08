@@ -2450,7 +2450,24 @@ https://vavoo.to/vavoo-iptv/play/267105889a25a483e5e80
 #EXTINF:-1 tvg-name="BEIN SPORTS 4K FEED(UYDU) .b" tvg-logo="https://i.hizliresim.com/pping4p.jpg" group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪" ,BEIN SPORTS 4K FEED(UYDU) 
 https://vavoo.to/vavoo-iptv/play/1536730627bbf8f95ca477
 
+#EXTINF:-1 tvg-logo="https://img.dsmartgo.com.tr/content/D/G-/13120/Thumbnail.png" group-title="tab",S tab| A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-header=XRequestedWith: XMLHttpRequest
+https://tvsonetfsi.cfd/static/tabi/index.m3u8?md5=QFrMRfIdj7DoG0KlbpUI-w&expires=1775644650
+# Orijinal: https://str.boxbc.icu/CDN/SSP/bir.php
+# Tip: tekli_regex_lb_sh_3
 
+#EXTINF:-1 tvg-logo="https://img.dsmartgo.com.tr/content/D/G-/13120/Thumbnail.png" group-title="tab",S tab| A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-header=XRequestedWith: XMLHttpRequest
+https://tvsonetfsi.cfd/static/tabi_01/index.m3u8?md5=TpEMqEPtwtoeI23tP8T9Hw&expires=1775644602
+# Tip: tekli_regex_lb_sh_3
+#EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="tab",Tabii Spor
+http://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43005.jpeg" group-title="tab",Tabii Spor 1
+http://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master_1080p.m3u8
 
 
 
