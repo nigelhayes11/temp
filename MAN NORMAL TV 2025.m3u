@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://img.yayinekrani.com/teams/v9Z5ZLjeD85iJSIzZOU3m9uZJ8OYy80f6chF2lob.png" group-title="CANLI MAÇLAR - NBA",SA Spurs - Portland TB [04:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://canlimacizlejustin.online/
+https://dr5.zirvedesin219.cfd/ss/mono.m3u8
+# İki logo: https://img.yayinekrani.com/teams/v9Z5ZLjeD85iJSIzZOU3m9uZJ8OYy80f6chF2lob.png | https://img.yayinekrani.com/teams/QVZzvS2Gbq3twmIDIcLAHXi2OH9gDn4NKwNIGSAN.png
+
+#EXTINF:-1 tvg-logo="https://img.yayinekrani.com/teams/gUJSQTZh6I6iaLOcbmbEYogudh7C1muJaY8psxOh.png" group-title="CANLI MAÇLAR - Trendyol 1. Lig",Boluspor - Sivasspor [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://canlimacizlejustin.online/
+https://dr5.zirvedesin219.cfd/trtspor/mono.m3u8
 #EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",CNN TR
 https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=VhhUoOBc_Np34JxpcVifoQ&e=1772365195
 #EXTINF:-1 tvg-id="78" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7b3fce6-7662-470b-9224-fd930e29a7f7.png" group-title="🌎HABER🌎(AKTİF)",HALK TV
