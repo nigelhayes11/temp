@@ -1,0 +1,45 @@
+{
+  "name": "TR Streaming Hub",
+  "items": [
+    {
+      "title": "🔥 Netflix Popüler Diziler",
+      "type": "series",
+      "query": "netflix popular series 2025"
+    },
+    {
+      "title": "🎬 Netflix Filmler",
+      "type": "movie",
+      "query": "netflix popular movies 2025"
+    },
+    {
+      "title": "🧙‍♂️ Disney+ Diziler",
+      "type": "series",
+      "query": "disney plus series popular"
+    },
+    {
+      "title": "🎥 Disney+ Filmler",
+      "type": "movie",
+      "query": "disney plus movies"
+    },
+    {
+      "title": "💣 HBO Dizileri",
+      "type": "series",
+      "query": "hbo series popular"
+    },
+    {
+      "title": "🚀 Amazon Prime Dizileri",
+      "type": "series",
+      "query": "amazon prime series popular"
+    },
+    {
+      "title": "🇹🇷 Türk Dizileri",
+      "type": "series",
+      "query": "turkish series popular"
+    },
+    {
+      "title": "🇹🇷 Türk Filmleri",
+      "type": "movie",
+      "query": "turkish movies"
+    }
+  ]
+}
