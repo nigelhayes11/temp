@@ -3152,7 +3152,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-04-27T10:20:45.348993
+# Generated: 2026-04-27T12:03:14.406513
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Atom TV", beIN Sports 1
 https://hlsssssss.enayispor.workers.dev/https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
@@ -3169,9 +3169,6 @@ https://hlsssssss.enayispor.workers.dev/https://corestream.ronaldovurdu.help//hl
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Atom TV", TRT Spor
 https://hlsssssss.enayispor.workers.dev/https://corestream.ronaldovurdu.help//hls/trt-spor.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="Spor Cafe",Sbeinsports 1
-#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
-https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sbeinsports-1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sbeinsports-2/playlist.m3u8
@@ -3241,18 +3238,12 @@ https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/stv8/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Strtspor
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/strtspor/playlist.m3u8
-#EXTINF:-1 group-title="Spor Cafe",Strtspor2
-#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
-https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/strtspor2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Satv
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/satv/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sdazn1
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sdazn1/playlist.m3u8
-#EXTINF:-1 group-title="Spor Cafe",Sdazn2
-#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
-https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sdazn2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sssportplus1
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sssportplus1/playlist.m3u8
@@ -3314,11 +3305,6 @@ https://zeustv432423.info/xexxen/index.m3u8
 #EXTINF:-1 group-title="ZeusTV",XEXXEN1
 https://zeustv432423.info/xexxen1/index.m3u8
 #EXTM3U
-#EXTINF:-1 tvg-chno="26" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Los Angeles Lakers at Houston Rockets (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Los Angeles Lakers at Houston Rockets (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://streamcenter.xyz
-#EXTVLCOPT:http-origin=https://streamcenter.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://mainstreams.pro/hls/zayrtezafgvdv68.m3u8
 #EXTINF:-1 tvg-chno="35" tvg-id="Soccer.Dummy.us" tvg-name="[English FA Cup] Leeds United vs Chelsea (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png&w=500&h=500" group-title="Live Events",[English FA Cup] Leeds United vs Chelsea (STRMSGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-us.php?stream=NFLHD1
 #EXTVLCOPT:http-origin=https://instream.click/jwp-us.php?stream=NFLHD1
@@ -3349,11 +3335,6 @@ https://instreams.pro/EU/HDTV22/index.m3u8
 #EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://instreams.pro/EU/HDTV17/index.m3u8
-#EXTINF:-1 tvg-chno="79" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Edmonton Oilers at Anaheim Ducks (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Edmonton Oilers at Anaheim Ducks (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://streamcenter.xyz
-#EXTVLCOPT:http-origin=https://streamcenter.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://mainstreams.pro/hls/rtzaeyvhb53.m3u8
 #EXTINF:-1 tvg-chno="82" tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Como vs Genoa (STRMSGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italian Serie A] Como vs Genoa (STRMSGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/jwp-eu.php?stream=HDTV11
 #EXTVLCOPT:http-origin=https://instream.click/jwp-eu.php?stream=HDTV11

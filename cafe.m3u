@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 group-title="Spor Cafe",Sbeinsports 1
+#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
+https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sbeinsports-1/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sbeinsports 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sbeinsports-2/playlist.m3u8
@@ -68,12 +71,18 @@ https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/stv8/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Strtspor
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/strtspor/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Strtspor2
+#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
+https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/strtspor2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Satv
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/satv/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sdazn1
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sdazn1/playlist.m3u8
+#EXTINF:-1 group-title="Spor Cafe",Sdazn2
+#EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
+https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sdazn2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sssportplus1
 #EXTVLCOPT:http-referrer=https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.e4acb56cc2ba28.click/live/sssportplus1/playlist.m3u8
