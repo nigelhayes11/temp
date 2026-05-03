@@ -4,11 +4,11 @@ import re
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 CHANNELS = [
-    {"id": "bein1", "source_id": "selcukbeinsports1", "name": "BeIN Sports 1 A", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
+    {"id": "bein1", "source_id": "selcukksbein1", "name": "BeIN Sports 1 A", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
     {"id": "bein1", "source_id": "selcukobs1", "name": "BeIN Sports 1 B", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png", "group": "Selcuk TV"},
-    {"id": "bein2", "source_id": "selcukbeinsports2", "name": "BeIN Sports 2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png", "group": "Selcuk TV"},
-    {"id": "bein3", "source_id": "selcukbeinsports3", "name": "BeIN Sports 3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "Selcuk TV"},
-    {"id": "bein4", "source_id": "selcukbeinsports4", "name": "BeIN Sports 4", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png", "group": "Selcuk TV"},
+    {"id": "bein2", "source_id": "selcukksbein2", "name": "BeIN Sports 2", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png", "group": "Selcuk TV"},
+    {"id": "bein3", "source_id": "selcukksbein3", "name": "BeIN Sports 3", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png", "group": "Selcuk TV"},
+    {"id": "bein4", "source_id": "selcukksbein4", "name": "BeIN Sports 4", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png", "group": "Selcuk TV"},
     {"id": "bein5", "source_id": "selcukbeinsports5", "name": "BeIN Sports 5", "logo": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_5_US.png", "group": "Selcuk TV"},
     {"id": "beinmax1", "source_id": "selcukbeinsportsmax1", "name": "BeIN Sports Max 1", "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png", "group": "Selcuk TV"},
     {"id": "beinmax2", "source_id": "selcukbeinsportsmax2", "name": "BeIN Sports Max 2", "logo": "http://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568", "group": "Selcuk TV"},
@@ -26,10 +26,10 @@ CHANNELS = [
     {"id": "eurosport2", "source_id": "seurosport2", "name": "Eurosport 2", "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png", "group": "Selcuk TV"},
 ]
 
-def find_working_domain(start=6, end=100):
+def find_working_domain(start=2, end=100):
     print("sporcafe domainleri taranıyor")
     for i in range(start, end + 1):
-        url = f"https://www.sporcafe{i}.xyz/"
+        url = f"https://www.selcuksportshdv{i}.xyz/"
         try:
             res = requests.get(url, headers=HEADERS, timeout=5)
             if res.status_code == 200 and "uxsyplayer" in res.text:
