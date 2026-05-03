@@ -27,7 +27,7 @@ CHANNELS = [
 ]
 
 def find_working_domain(start=2, end=100):
-    print("sporcafe domainleri taranıyor")
+    print("selcuksportshdv domainleri taranıyor")
     for i in range(start, end + 1):
         url = f"https://www.selcuksportshdv{i}.xyz/"
         try:
