@@ -1020,14 +1020,23 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 *************************************************************************
 ****************************  MUZIK IP TV  **********************************
-#EXTM3U
-# TECSUN PL-505 ~ Location: 37.975288, 23.625487
-
 # === YUNAN POP VE YEREL MÜZİK (GREEK POP & LOCAL) ===
-#EXTINF:0 group-title="Yunan Pop & Yerel",087.50 ~ Κρήτη FM - 087.50 ~ Κρήτη FM
-http://s3.onweb.gr:8878
+
+#EXTINF:0 group-title="Yunan Pop & Yerel",102.20 ~ Sfera - 102.20 ~ Sfera
+http://sfera.live24.gr/sfera4132
+#EXTINF:0 group-title="Yunan Pop & Yerel",092.30 ~ Λάμψη - 092.30 ~ Λάμψη
+https://az11.yesstreaming.net:8140/radio.mp3
+#EXTINF:0 group-title="Yunan Pop & Yerel",094.90 ~ Ρυθμός - 094.90 ~ Ρυθμός
+https://stream.radiojar.com/g4tyehk5yvduv
 #EXTINF:0 group-title="Yunan Pop & Yerel",088.00 ~ Μέντα - 088.00 ~ Μέντα
 https://stream.radiojar.com/menta.aac
+#EXTINF:0 group-title="Yunan Pop & Yerel",099.20 ~ Μελωδία - 099.20 ~ Μελωδία
+https://stream.radiojar.com/8du64725e3quv
+#EXTINF:0 group-title="İnternet Radyoları",Derti - Derti
+http://derti.live24.gr/derty1000
+
+#EXTINF:0 group-title="Yunan Pop & Yerel",087.50 ~ Κρήτη FM - 087.50 ~ Κρήτη FM
+http://s3.onweb.gr:8878
 #EXTINF:0 group-title="Yunan Pop & Yerel",089.80 ~ Δρόμος - 089.80 ~ Δρόμος
 https://n01a-eu.rcs.revma.com/10q3enqxbfhvv
 #EXTINF:0 group-title="Yunan Pop & Yerel",091.40 ~ Λύρα - 091.40 ~ Λύρα
@@ -1038,34 +1047,32 @@ https://az11.yesstreaming.net:8140/radio.mp3
 http://orange.live24.gr/orange9320
 #EXTINF:0 group-title="Yunan Pop & Yerel",093.40 ~ Παλμός - 093.40 ~ Παλμός
 http://s6.onweb.gr:8010/;stream
-#EXTINF:0 group-title="Yunan Pop & Yerel",094.90 ~ Ρυθμός - 094.90 ~ Ρυθμός
-https://stream.radiojar.com/g4tyehk5yvduv
 #EXTINF:0 group-title="Yunan Pop & Yerel",098.60 ~ Μουσικός - 098.60 ~ Μουσικός
 https://netradio.live24.gr/mousikos986
-#EXTINF:0 group-title="Yunan Pop & Yerel",099.20 ~ Μελωδία - 099.20 ~ Μελωδία
-https://stream.radiojar.com/8du64725e3quv
+
 #EXTINF:0 group-title="Yunan Pop & Yerel",101.30 ~ Δίεση - 101.30 ~ Δίεση
 https://n05a-eu.rcs.revma.com/gkfwrhqxbfhvv
-#EXTINF:0 group-title="Yunan Pop & Yerel",102.20 ~ Sfera - 102.20 ~ Sfera
-http://sfera.live24.gr/sfera4132
+
 #EXTINF:0 group-title="Yunan Pop & Yerel",104.60 ~ My Radio - 104.60 ~ My Radio
 https://streaming.myradio1046.fm/myradio1046
 
 # === YABANCI POP, DANS VE ELEKTRONİK (INTERNATIONAL & DANCE) ===
+#EXTINF:0 group-title="Yabancı Pop & Dans",095.20 ~ Athens Deejay - 095.20 ~ Athens Deejay
+https://stream.rcs.revma.com/f663xvvehkcwv
 #EXTINF:0 group-title="Yabancı Pop & Dans",087.70 ~ En Lefko - 087.70 ~ En Lefko
 https://stream.radiojar.com/enlefko877
-#EXTINF:0 group-title="Yabancı Pop & Dans",088.90 ~ Hit - 088.90 ~ Hit
-https://stream.radiojar.com/wgv51425e3quv
 #EXTINF:0 group-title="Yabancı Pop & Dans",089.20 ~ Music - 089.20 ~ Music
 https://netradio.live24.gr/music892
 #EXTINF:0 group-title="Yabancı Pop & Dans",092.00 ~ Galaxy - 092.00 ~ Galaxy
 http://galaxy.live24.gr/galaxy9292
+
+#EXTINF:0 group-title="Yabancı Pop & Dans",088.90 ~ Hit - 088.90 ~ Hit
+https://stream.radiojar.com/wgv51425e3quv
 #EXTINF:0 group-title="Yabancı Pop & Dans",092.60 ~ Best - 092.60 ~ Best
 http://best.live24.gr/best1222
 #EXTINF:0 group-title="Yabancı Pop & Dans",092.90 ~ Kiss FM - 092.90 ~ Kiss FM
 http://kissfm.live24.gr/kiss2111
-#EXTINF:0 group-title="Yabancı Pop & Dans",095.20 ~ Athens Deejay - 095.20 ~ Athens Deejay
-https://n07-us.rcs.revma.com/f663xvvehkcwv?rj-ttl=5&rj-tok=AAABnn06fbkAD6s3O5-3WUElkA.m3u8
+
 #EXTINF:0 group-title="Yabancı Pop & Dans",096.00 ~ Styl FM - 096.00 ~ Styl FM
 https://sh.onweb.gr:7064/;
 #EXTINF:0 group-title="Yabancı Pop & Dans",096.60 ~ Pepper - 096.60 ~ Pepper
@@ -1170,8 +1177,7 @@ http://radiostreaming.ert.gr/ert-voiceofgreece
 https://radiostreaming.ert.gr/ert-webjazz
 #EXTINF:0 group-title="İnternet Radyoları",ΕΡΑ ~ Τα λαϊκά - ΕΡΑ ~ Τα λαϊκά
 https://radiostreaming.ert.gr/ert-talaika
-#EXTINF:0 group-title="İnternet Radyoları",Derti - Derti
-http://derti.live24.gr/derty1000
+
 #EXTINF:0 group-title="İnternet Radyoları",melodia.au ~ Μελωδία Αδελαΐδας - melodia.au ~ Μελωδία Αδελαΐδας
 https://s18.myradiostream.com:4476
 #EXTINF:0 group-title="İnternet Radyoları",melodia.au ~ Μελωδία Αδελαΐδας (Ρεμπέτικα) - melodia.au ~ Μελωδία Αδελαΐδας (Ρεμπέτικα)
@@ -1180,6 +1186,10 @@ http://203.213.16.149:820
 https://n02.radiojar.com/9ndpdg3c0s8uv
 #EXTINF:0 group-title="İnternet Radyoları",F Radio GR - F Radio GR
 https://stream-175.zeno.fm/78pga7pvwk8uv
+
+
+
+
 
 
 #EXTINF:-1 group-title="🌎🎶YABANCI MÜZİK TV🌎🎶l" tvg-name="Baraza TV Relaxing" tvg-logo="https://i.imgur.com/TZ1unwF.png",Baraza TV Relaxing
