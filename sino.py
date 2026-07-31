@@ -1,127 +1,55 @@
 import requests
-import re
-import os
 
-# --- KONFIGÜRASYON ---
-BASE_DOMAIN_PATTERN = "zeustv{}.vip"
-START_INDEX = 262
-END_INDEX = 500
-REQUEST_TIMEOUT = 5  
-MASTER_M3U_FILENAME = "zeus.m3u" 
+# Sabit AJAX URL
+ajax_url = "https://www.salamis1tv.online/ajax?method=channel_stream&stream=s-sport"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Referer": "https://www.salamis1tv.online/",
+    "X-Requested-With": "XMLHttpRequest"
+}
 
-CHANNEL_IDS = [
-    'b1', 'b1local', 'b2', 'b3', 'b4', 'bein5', 'b1max', 'b2max',
-    's1', 's2', 'smart1', 'smart2', 'tivibu', 'tivibu1', 'tivibu2', 'tivibu3',
-    'sifirtv', 'euro1', 'euro2', 'tabiiyedek', 'tabii1', 'tabii2', 'tabii3',
-    'tabii4', 'tabii5', 'tabii6', 'xexxen', 'xexxen1'
+# Sabit stream çekiyoruz (S Spor kanalı için)
+response = requests.get(ajax_url, headers=headers, timeout=10)
+data = response.json()
+if data.get("ok") and "stream" in data:
+    stream_sample = data["stream"].replace("\\/", "/")
+    print(f"✔ Örnek stream bulundu: {stream_sample}")
+    
+    # Domain ve dosya kısmını ayırıyoruz
+    domain = stream_sample.rsplit('/', 2)[0]  # https://savatv16.com
+else:
+    print("❌ Stream alınamadı.")
+    exit()
+
+# Kanal listesi
+channels = [
+    {"name": "BEIN Sport 1", "id": "701"}, {"name": "BEIN Sport 2", "id": "702"},
+    {"name": "BEIN Sport 3", "id": "703"}, {"name": "BEIN Sport 4", "id": "704"},
+    {"name": "S Spor", "id": "705"}, {"name": "S Spor 2", "id": "730"},
+    {"name": "Tivibu Spor 1", "id": "706"}, {"name": "Tivibu Spor 2", "id": "711"},
+    {"name": "Tivibu Spor 3", "id": "712"}, {"name": "Tivibu Spor 4", "id": "713"},
+    {"name": "Spor Smart 1", "id": "707"}, {"name": "Spor Smart 2", "id": "708"},
+    {"name": "A Spor", "id": "709"}, {"name": "NBA", "id": "nba"},
+    {"name": "SKYF1", "id": "skyf1"},
 ]
 
-def get_base_url_from_page(active_domain, channel_id='b1'):
-    page_url = f"{active_domain}/ch.html?id={channel_id}"
-    print(f"  📄 Sayfa kaynağı inceleniyor: {page_url}")
-    try:
-        response = requests.get(page_url, timeout=10)
-        response.raise_for_status()
-        html_content = response.text
+# M3U oluşturma
+m3u_lines = ['#EXTM3U x-tvg-url=""']
 
-        match = re.search(r'var\s+streamUrl\s*=\s*["\']([^"\']+)["\']', html_content)
-
-        if match:
-            base_video_url = match.group(1)
-            if not base_video_url.endswith('/'):
-                base_video_url += '/'
-            print(f"    ✅ Çözülen URL: {base_video_url}")
-            return base_video_url
-        else:
-            print("    ❌ Sayfa kaynağında URL bulunamadı.")
-            return None
-
-    except requests.exceptions.RequestException as e:
-        print(f"    ❌ Sayfaya erişilemedi: {e}")
-        return None
-
-def find_working_domain_and_url():
-    print(f"🔍 {BASE_DOMAIN_PATTERN.format(START_INDEX)} ile {BASE_DOMAIN_PATTERN.format(END_INDEX)} arasında aktif domain taranıyor...")
+for ch in channels:
+    m3u_lines.append(f'#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",{ch["name"]}')
+    m3u_lines.append(f'#EXTVLCOPT:http-referer=https://3salamistv.online/')
+    m3u_lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36')
     
-    for i in range(START_INDEX, END_INDEX + 1):
-        domain = BASE_DOMAIN_PATTERN.format(i)
-        url = f"https://{domain}"
-        
-        try:
-            response = requests.get(url + "/", timeout=REQUEST_TIMEOUT, allow_redirects=True)
-            if response.status_code == 200:
-                print(f"\n✅ Aktif domain bulundu: {url}")
-                base_video_url = get_base_url_from_page(url, 'b1')
-                
-                if base_video_url:
-                    return url, base_video_url
-                else:
-                    print(f"  ⚠️ Domain aktif ama aranan kod yok! Bir sonraki domaine geçiliyor...\n")
-            else:
-                pass 
-                
-        except requests.ConnectionError:
-            pass
-        except requests.Timeout:
-            pass
-        except Exception:
-            pass
+    # Eğer ID sayısalsa domain + ID + mono.m3u8 yapıyoruz
+    if ch["id"].isdigit():
+        url = f'{domain}/{ch["id"]}/mono.m3u8'
+    else:
+        url = stream_sample  # sayısal değilse (nba, skyf1) örnek stream
+    m3u_lines.append(url)
 
-    print("❌ Gerekli kodu içeren hiçbir aktif domain bulunamadı.")
-    return None, None
+# Dosyaya yaz
+with open("zeus.m3u", "w", encoding="utf-8") as f:
+    f.write("\n".join(m3u_lines))
 
-def create_m3u8_files(base_video_url, github_folder):
-    print(f"\n📁 '{github_folder}' klasöründe .m3u8 dosyaları oluşturuluyor...")
-    os.makedirs(github_folder, exist_ok=True)
-
-    m3u8_template = """#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=5500000,AVERAGE-BANDWIDTH=8976000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",FRAME-RATE=25
-{stream_url}
-"""
-    created_files = 0
-    for channel_id in CHANNEL_IDS:
-        stream_url = f"{base_video_url}{channel_id}/index.m3u8"
-        filename = os.path.join(github_folder, f"{channel_id}.m3u8")
-
-        try:
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(m3u8_template.format(stream_url=stream_url))
-            created_files += 1
-        except Exception as e:
-            print(f"  ❌ {filename} oluşturulamadı: {e}")
-
-    print(f"  🎉 Ayrı dosyalar tamamlandı! {created_files} dosya oluşturuldu.")
-
-def create_master_m3u(base_video_url):
-    print(f"\n📋 '{MASTER_M3U_FILENAME}' dosyası sıfırdan oluşturuluyor...")
-    try:
-        with open(MASTER_M3U_FILENAME, 'w', encoding='utf-8') as f:
-            f.write("#EXTM3U\n")
-            for channel_id in CHANNEL_IDS:
-                stream_url = f"{base_video_url}{channel_id}/index.m3u8"
-                channel_name = channel_id.upper()
-                f.write(f'#EXTINF:-1 tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="DeaTHLesS", {channel_name}\n')
-                f.write(f'{stream_url}\n')
-                
-        print(f"  ✅ {MASTER_M3U_FILENAME} başarıyla güncellendi/oluşturuldu!")
-    except Exception as e:
-        print(f"  ❌ {MASTER_M3U_FILENAME} oluşturulurken hata oluştu: {e}")
-
-def main():
-    print("🤖 Zeus TV M3U8 Botu Başlıyor...\n")
-
-    active_domain, base_video_url = find_working_domain_and_url()
-    
-    if not base_video_url:
-        print("❌ Video base URL'si alınamadığı için işlem durduruldu.")
-        return
-
-    create_m3u8_files(base_video_url, GITHUB_FOLDER_NAME)
-    
-    create_master_m3u(base_video_url)
-    
-    print("\n🚀 Tüm işlemler sorunsuz tamamlandı!")
-
-if __name__ == "__main__":
-    main()
+print("\n✅ salamistv.m3u başarıyla oluşturuldu!")
