@@ -52,4 +52,4 @@ for ch in channels:
 with open("zeus.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(m3u_lines))
 
-print("\n✅ salamistv.m3u başarıyla oluşturuldu!")
+print("\n✅ zeus.m3u başarıyla oluşturuldu!")
