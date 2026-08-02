@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,tv4
-https://jsistem33r.online/tv4sportkanalen/main.m3u8
+#EXTM3U
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD B
@@ -2269,14 +2268,14 @@ https://dga1op10s1u3leo.33a6243d11525c.click/live/selcukssplus1/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
-#EXTINF:-1 tvg-id="liverpool---leeds-united23-00" group-title="Sell spor+sec izle",Liverpool - Leeds United23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="newells-old-boys---boca-juniors23-00" group-title="Sell spor+sec izle",Newell's Old Boys - Boca Juniors23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuksmartspor/playlist.m3u8
+#EXTINF:-1 tvg-id="liverpool---leeds-united23-00" group-title="Sell spor+sec izle",Liverpool - Leeds United23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="trabzonspor---al-sadd18-30" group-title="Sell spor+sec izle",Trabzonspor - Al Sadd18:30
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2289,14 +2288,14 @@ https://dga1op10s1u3leo.33a6243d11525c.click/live/selcukssplus1/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
-#EXTINF:-1 tvg-id="liverpool---leeds-united23-00" group-title="Sell spor+sec izle",Liverpool - Leeds United23:00
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="newells-old-boys---boca-juniors23-00" group-title="Sell spor+sec izle",Newell's Old Boys - Boca Juniors23:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuksmartspor/playlist.m3u8
+#EXTINF:-1 tvg-id="liverpool---leeds-united23-00" group-title="Sell spor+sec izle",Liverpool - Leeds United23:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.33a6243d11525c.click/live/selcuktrtspor/playlist.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1724" group-title="Sell spor+sec izle",Bein Sports 17/24
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2572,7 +2571,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-08-02T11:46:38.778857
+# Generated: 2026-08-02T12:44:37.197785
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Atom TV", beIN Sports 1
  https://corestream.siteyaptim.live//bein1/tracks-v1a1/mono.m3u8
@@ -2677,78 +2676,6 @@ https://dga1op10s1u3leo.33a6243d11525c.click/live/sdazn2/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.sporcafe12.xyz/
 https://dga1op10s1u3leo.33a6243d11525c.click/live/sssportplus1/playlist.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="ZeusTV",B1
-https://zeus324232.cfd/b1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B1LOCAL
-https://zeus324232.cfd/b1local/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B2
-https://zeus324232.cfd/b2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B3
-https://zeus324232.cfd/b3/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B4
-https://zeus324232.cfd/b4/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",BEIN5
-https://zeus324232.cfd/bein5/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B1MAX
-https://zeus324232.cfd/b1max/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",B2MAX
-https://zeus324232.cfd/b2max/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",S1
-https://zeus324232.cfd/s1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",S2
-https://zeus324232.cfd/s2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",SMART1
-https://zeus324232.cfd/smart1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",SMART2
-https://zeus324232.cfd/smart2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TIVIBU
-https://zeus324232.cfd/tivibu/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TIVIBU1
-https://zeus324232.cfd/tivibu1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TIVIBU2
-https://zeus324232.cfd/tivibu2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TIVIBU3
-https://zeus324232.cfd/tivibu3/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",SIFIRTV
-https://zeus324232.cfd/sifirtv/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",EURO1
-https://zeus324232.cfd/euro1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",EURO2
-https://zeus324232.cfd/euro2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABIIYEDEK
-https://zeus324232.cfd/tabiiyedek/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII1
-https://zeus324232.cfd/tabii1/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII2
-https://zeus324232.cfd/tabii2/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII3
-https://zeus324232.cfd/tabii3/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII4
-https://zeus324232.cfd/tabii4/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII5
-https://zeus324232.cfd/tabii5/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",TABII6
-https://zeus324232.cfd/tabii6/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",XEXXEN
-https://zeus324232.cfd/xexxen/index.m3u8
-#EXTINF:-1 group-title="ZeusTV",XEXXEN1
-https://zeus324232.cfd/xexxen1/index.m3u8
-#EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="[AFL Aussie Rules] Essendon Bombers vs Adelaide Crows (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/afl.png" group-title="Live Events",[AFL Aussie Rules] Essendon Bombers vs Adelaide Crows (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/CACACAAAAA.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="[AFL Aussie Rules] Gold Coast Suns vs Melbourne Demons (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/afl.png" group-title="Live Events",[AFL Aussie Rules] Gold Coast Suns vs Melbourne Demons (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/CACACAAAAAA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="[AFL Aussie Rules] Richmond Tigers vs West Coast Eagles (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/afl.png" group-title="Live Events",[AFL Aussie Rules] Richmond Tigers vs West Coast Eagles (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.190/hls/CACACAAAAA.m3u8
 #EXTINF:-1 tvg-chno="14" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Lamont Roach vs William Zepeda (iSTRMEAST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Boxing] Lamont Roach vs William Zepeda (iSTRMEAST)
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/54058?ad=111
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54058?ad=111
@@ -3139,6 +3066,11 @@ https://chatgpt.hereisman.net/playlist/54097/load-playlist
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54093?ad=111
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/54093/load-playlist
+#EXTINF:-1 tvg-chno="373" tvg-id="Live.Event.us" tvg-name="[Snooker] Snooker Shanghai Masters (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Snooker] Snooker Shanghai Masters (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://193.47.62.41/hls/tpppq.m3u8
 #EXTINF:-1 tvg-chno="386" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Las Vegas Aces @ Chicago Sky | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Las Vegas Aces @ Chicago Sky | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -3154,6 +3086,11 @@ https://edgestream3.pro/hls/ztyarueaghj71.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54062?ad=111
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/54062/load-playlist
+#EXTINF:-1 tvg-chno="392" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE SummerSlam | Night 1 | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[WWE] WWE SummerSlam | Night 1 | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream3.pro/hls/hbfhzbfzak46.m3u8
 #EXTINF:-1 tvg-chno="393" tvg-id="Live.Event.us" tvg-name="[World Rally] World Rally Championship Finland (FAWA)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[World Rally] World Rally Championship Finland (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
