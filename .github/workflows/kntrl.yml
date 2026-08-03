@@ -45,7 +45,10 @@ jobs:
       - name: r2.py Çalıştır
         continue-on-error: true
         run: python r2.py
-
+        
+      - name: salam.py Çalıştır        
+        continue-on-error: true
+        run: python salam.py   
      
 
       - name: rnl.py Çalıştır        
