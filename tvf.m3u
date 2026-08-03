@@ -2375,10 +2375,8 @@ http://nw5mr1vl9xp4zk2sh7tq3gj6b.medya.trt.com.tr/master_1080p.m3u8
 http://pz2rt7nw1mr9sh4vl6xk3gj5b.medya.trt.com.tr/master_1080p.m3u8
 
 
-#EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://st1.lol/
-https://st1.lol/static/bs11.m3u8
+#EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC*
+https://chat.cfbu247.sbs/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2MiIsInRzIjoxNzc5OTY4MDg5NjQ1fQ==
 
 #EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC B
 #EXTVLCOPT:http-user-agent=googleusercontent
