@@ -1,5 +1,33 @@
 #EXTM3U
-#EXTM3U
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/galatasaray.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Galatasaray - Rennes [21:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/galatasaray.png | https://patronsports2.cfd/img/logos/rennes.png
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/trabzonspor.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Trabzonspor - Udinese [17:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/trabzonspor.png | https://patronsports2.cfd/img/logos/udinese.png
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/unionberlin.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Union Berlin - Cagliari [15:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/unionberlin.png | https://patronsports2.cfd/img/logos/cagliari.png
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/psv.png" group-title="CANLI MAÇLAR - Hollanda Süper Kupa",PSV - AZ Alkmaar [19:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/psv.png | https://patronsports2.cfd/img/logos/azalkmaar.png
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/liverpool.png" group-title="CANLI MAÇLAR - Premier Lig Yaz Serisi",Liverpool - Leeds United [23:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/liverpool.png | https://patronsports2.cfd/img/logos/leedsunited.png
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Atletizm Trail World Series",Atletizm Trail World Series - Pitztal [07:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD B
