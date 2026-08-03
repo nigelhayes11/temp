@@ -1,34 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/galatasaray.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Gaatas [21:00]
-https://homefixer.help/static/cer/index.m3u8?md5=7-hYZ0p_1ZuZPe-lol0URQ&expires=1785756374
-# İki logo: https://patronsports2.cfd/img/logos/galatasaray.png | https://patronsports2.cfd/img/logos/rennes.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/trabzonspor.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Trabzonspor - Udinese [17:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://homefixer.help/static/cer/index.m3u8?md5=7-hYZ0p_1ZuZPe-lol0URQ&expires=1785756374
-# İki logo: https://patronsports2.cfd/img/logos/trabzonspor.png | https://patronsports2.cfd/img/logos/udinese.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/unionberlin.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Union Berlin - Cagliari [15:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/unionberlin.png | https://patronsports2.cfd/img/logos/cagliari.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/psv.png" group-title="CANLI MAÇLAR - Hollanda Süper Kupa",PSV - AZ Alkmaar [19:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/psv.png | https://patronsports2.cfd/img/logos/azalkmaar.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/liverpool.png" group-title="CANLI MAÇLAR - Premier Lig Yaz Serisi",Li
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
-#EXTVLCOPT:http-referrer=https://google.com/
-#EXTVLCOPT:http-header=XRequestedWith: XMLHttpRequest
-https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
-# Orijinal: https://str.boxbc.icu/CDN/SSP/bir.php
-# Tip: tekli_regex_lb_sh_3
-# İki logo: https://patronsports2.cfd/img/logos/liverpool.png | https://patronsports2.cfd/img/logos/leedsunited.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Atletizm Trail World Series",Atletizm Trail World Series - Pitztal [07:30]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
+#EXTM3U
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD B
@@ -2185,10 +2156,8 @@ http://vl2nq8sh4tw1mr7xp5zk9gj3y.medya.trt.com.tr/master_1080p.m3u8
 http://nw5mr1vl9xp4zk2sh7tq3gj6b.medya.trt.com.tr/master_1080p.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 6" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII6" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/51612_0-0-1919-1080.jpeg" group-title="🏆⚽Ş.LİGİ UEFA🏆⚽",Tabii Spor 7
 http://pz2rt7nw1mr9sh4vl6xk3gj5b.medya.trt.com.tr/master_1080p.m3u8
-#EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://st1.lol/
-https://st1.lol/static/bs11.m3u8
+#EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC*
+https://chat.cfbu247.sbs/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2MiIsInRzIjoxNzc5OTY4MDg5NjQ1fQ==
 #EXTINF:-1 group-title="🔵⚪BEİN 1 WEB +VPN🔵⚪",REC B
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://st1.lol/
@@ -2289,6 +2258,14 @@ https://st11.lol/static/pl5.m3u8
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dga1op10s1u3leo.33a6243d11525c.click/live/selcukssplus1/playlist.m3u8
+#EXTINF:-1 tvg-id="jpegula---aeala19-00" group-title="Sell spor+sec izle",J.Pegula - A.Eala19:00
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.33a6243d11525c.click/live/selcukbeinsportsmax2/playlist.m3u8
+#EXTINF:-1 tvg-id="kboulter---kcross19-30" group-title="Sell spor+sec izle",K.Boulter - K.Cross19:30
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://dga1op10s1u3leo.33a6243d11525c.click/live/selcukbeinsportsmax1/playlist.m3u8
 #EXTINF:-1 tvg-id="galatasaray---rennes21-00" group-title="Sell spor+sec izle",Galatasaray - Rennes21:00
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1841.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -2568,7 +2545,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/che
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
-# Generated: 2026-08-03T04:51:33.900873
+# Generated: 2026-08-03T11:05:54.075490
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Atom TV", beIN Sports 1
  https://corestream.siteyaptim.live//bein1/tracks-v1a1/mono.m3u8
@@ -2672,6 +2649,67 @@ https://dga1op10s1u3leo.33a6243d11525c.click/live/sdazn2/playlist.m3u8
 #EXTINF:-1 group-title="Spor Cafe",Sssportplus1
 #EXTVLCOPT:http-referrer=https://www.sporcafe12.xyz/
 https://dga1op10s1u3leo.33a6243d11525c.click/live/sssportplus1/playlist.m3u8
+#EXTM3U x-tvg-url=""
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 1
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/701/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 2
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/702/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 3
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/703/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",BEIN Sport 4
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/704/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",S Spor
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/705/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",S Spor 2
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/730/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Tivibu Spor 1
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/706/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Tivibu Spor 2
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/711/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Tivibu Spor 3
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/712/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Tivibu Spor 4
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/713/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Spor Smart 1
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/707/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",Spor Smart 2
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/708/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",A Spor
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/709/mono.m3u8
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",NBA
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/705/mono.m3u8?sign=c46f075aa62308dbefd41f163f0e88cdb0e718d9cef00ee37b5d002b5fb2a912&ip=68.220.62.241&expires=1785762380
+#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",SKYF1
+#EXTVLCOPT:http-referer=https://3salamistv.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://54b53072540eeeb8f8e9343e71f28176.biz/705/mono.m3u8?sign=c46f075aa62308dbefd41f163f0e88cdb0e718d9cef00ee37b5d002b5fb2a912&ip=68.220.62.241&expires=1785762380
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Argentina Liga Profesional] Lanus vs Instituto (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1.png" group-title="Live Events",[Argentina Liga Profesional] Lanus vs Instituto (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
@@ -2688,11 +2726,6 @@ http://193.47.62.190/hls/KVVVEEAAAA.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/KVVVEEAAAA.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Colombian Primera A] América de Cali vs Boyacá Chicó FC (FLYEMBD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Colombian Primera A] América de Cali vs Boyacá Chicó FC (FLYEMBD)
-#EXTVLCOPT:http-referrer=https://instream.click/flyembed2.php?stream=win
-#EXTVLCOPT:http-origin=https://instream.click/flyembed2.php?stream=win
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.pro/live/win/mono.m3u8?st=sUh5_Unn9JbmjMOJKBxUtg&e=1785735036
 #EXTINF:-1 tvg-chno="28" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Liverpool vs Leeds United (Chicago) | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Football] Liverpool vs Leeds United (Chicago) | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -2708,11 +2741,6 @@ https://edgestream3.pro/hls/24SDAZFcsqnj24.m3u8
 #EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/54145?ad=111
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://chatgpt.hereisman.net/playlist/54145/load-playlist
-#EXTINF:-1 tvg-chno="68" tvg-id="Soccer.Dummy.us" tvg-name="[Liga MX] Toluca vs Necaxa (FLYEMBD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/22.png" group-title="Live Events",[Liga MX] Toluca vs Necaxa (FLYEMBD)
-#EXTVLCOPT:http-referrer=https://instream.click/flyembed2.php?stream=tudn
-#EXTVLCOPT:http-origin=https://instream.click/flyembed2.php?stream=tudn
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.pro/live/tudn/mono.m3u8?st=q1VNY0E_410oTxnwrEjK7Q&e=1785733212
 #EXTINF:-1 tvg-chno="101" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB Baseball] Los Angeles Dodgers vs Boston Red Sox (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB Baseball] Los Angeles Dodgers vs Boston Red Sox (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -2888,11 +2916,6 @@ https://ftv2.xyzstreams.st/MLBTVCIN/B0008/master.m3u8
 #EXTVLCOPT:http-origin=https://xyzstreams.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://ftv2.xyzstreams.st/MLBTVPIT/B0023/master.m3u8
-#EXTINF:-1 tvg-chno="146" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Red Sox vs Dodgers (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Red Sox vs Dodgers (WEBCAST)
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com
-#EXTVLCOPT:http-origin=https://mlbwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=YQ6jPnCEC7k-gS6wYWfvrY5GmpfgO72r_Obo6hCS1Jg&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhElkJJ36sE5m_ABEhUzYefj%2F&expires=1785738642/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhElkJJ36sE5m_ABEhUzYefj/133.m3u8
 #EXTINF:-1 tvg-chno="148" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants @ San Diego Padres | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] San Francisco Giants @ San Diego Padres | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -2938,11 +2961,6 @@ https://ftv2.xyzstreams.st/MLBTVHOU/B0013/master.m3u8
 #EXTVLCOPT:http-origin=https://xyzstreams.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://ftv2.xyzstreams.st/MLBTVTEX/B0029/master.m3u8
-#EXTINF:-1 tvg-chno="157" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tigers vs Athletics (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Tigers vs Athletics (WEBCAST)
-#EXTVLCOPT:http-referrer=https://mlbwebcast.com
-#EXTVLCOPT:http-origin=https://mlbwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=8DyeULzHUdUbouKxM5bYs_aFD9C7B1EIJSRnlc6OtK4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhF-u7n6hzdamqIEEb0FLN2u%2F&expires=1785738641/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhF-u7n6hzdamqIEEb0FLN2u/128.m3u8
 #EXTINF:-1 tvg-chno="159" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals @ Atlanta Braves | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals @ Atlanta Braves | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -2958,11 +2976,6 @@ https://ftv2.xyzstreams.st/MLBTVATL/B0003/master.m3u8
 #EXTVLCOPT:http-origin=https://xyzstreams.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://ftv2.xyzstreams.st/MLBTVWAS/B0018/master.m3u8
-#EXTINF:-1 tvg-chno="164" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Boston Red Sox vs Los Angeles Dodgers | EN (STRMGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Boston Red Sox vs Los Angeles Dodgers | EN (STRMGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/jwp2-us.php?stream=MLB15
-#EXTVLCOPT:http-origin=https://instream.click/jwp2-us.php?stream=MLB15
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://instreams.pro/live/MLB15/mono.m3u8?st=HzNwi7W1CypcpVdf_de_Qw&e=1785733212
 #EXTINF:-1 tvg-chno="169" tvg-id="Soccer.Dummy.us" tvg-name="[Mexico Liga MX] Toluca vs Necaxa (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/22.png" group-title="Live Events",[Mexico Liga MX] Toluca vs Necaxa (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
