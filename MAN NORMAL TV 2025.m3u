@@ -17,10 +17,13 @@ https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/psv.png | https://patronsports2.cfd/img/logos/azalkmaar.png
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/liverpool.png" group-title="CANLI MAÇLAR - Premier Lig Yaz Serisi",Liverpool - Leeds United [23:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/liverpool.png" group-title="CANLI MAÇLAR - Premier Lig Yaz Serisi",Li
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-header=XRequestedWith: XMLHttpRequest
 https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# Orijinal: https://str.boxbc.icu/CDN/SSP/bir.php
+# Tip: tekli_regex_lb_sh_3
 # İki logo: https://patronsports2.cfd/img/logos/liverpool.png | https://patronsports2.cfd/img/logos/leedsunited.png
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Atletizm Trail World Series",Atletizm Trail World Series - Pitztal [07:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
