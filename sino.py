@@ -49,7 +49,7 @@ for ch in channels:
     m3u_lines.append(url)
 
 # Dosyaya yaz
-with open("zeus.m3u", "w", encoding="utf-8") as f:
+with open("salam.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(m3u_lines))
 
-print("\n✅ zeus.m3u başarıyla oluşturuldu!")
+print("\n✅ salam.m3u başarıyla oluşturuldu!")
