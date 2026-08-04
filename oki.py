@@ -1,87 +1,148 @@
+import requests
+import re
+import urllib3
+import warnings
 import os
-from datetime import datetime
+import concurrent.futures
 
-# ---------------- NexaTVManager ----------------
-class NexaTVManager:
-    def __init__(self):
-        self.proxy_prefix = "https://api.codetabs.com/v1/proxy/?quest="
-        self.base_stream_url = "https://andro.okan11gote12sokan.cfd/checklist/"
-        self.logo_url = "https://i.hizliresim.com/51ksesp.png"
-        self.group_title = "NexaTV"
-        self.channels = [
-            {"name": "TR:beIN Sport 1 HD", "path": "androstreamlivebs1.m3u8"},
-            {"name": "TR:beIN Sport 2 HD", "path": "androstreamlivebs2.m3u8"},
-            {"name": "TR:beIN Sport 3 HD", "path": "androstreamlivebs3.m3u8"},
-            {"name": "TR:beIN Sport 4 HD", "path": "androstreamlivebs4.m3u8"},
-            {"name": "TR:beIN Sport 5 HD", "path": "androstreamlivebs5.m3u8"},
-            {"name": "TR:beIN Sport Max 1 HD", "path": "androstreamlivebsm1.m3u8"},
-            {"name": "TR:beIN Sport Max 2 HD", "path": "androstreamlivebsm2.m3u8"},
-            {"name": "TR:S Sport 1 HD", "path": "androstreamlivess1.m3u8"},
-            {"name": "TR:S Sport 2 HD", "path": "androstreamlivess2.m3u8"},
-            {"name": "TR:Tivibu Sport HD", "path": "androstreamlivets.m3u8"},
-            {"name": "TR:Tivibu Sport 1 HD", "path": "androstreamlivets1.m3u8"},
-            {"name": "TR:Tivibu Sport 2 HD", "path": "androstreamlivets2.m3u8"},
-            {"name": "TR:Tivibu Sport 3 HD", "path": "androstreamlivets3.m3u8"},
-            {"name": "TR:Tivibu Sport 4 HD", "path": "androstreamlivets4.m3u8"},
-            {"name": "TR:Smart Sport 1 HD", "path": "androstreamlivesm1.m3u8"},
-            {"name": "TR:Smart Sport 2 HD", "path": "androstreamlivesm2.m3u8"},
-            {"name": "TR:Euro Sport 1 HD", "path": "androstreamlivees1.m3u8"},
-            {"name": "TR:Euro Sport 2 HD", "path": "androstreamlivees2.m3u8"},
-            {"name": "TR:Tabii HD", "path": "androstreamlivetb.m3u8"},
-            {"name": "TR:Tabii 1 HD", "path": "androstreamlivetb1.m3u8"},
-            {"name": "TR:Tabii 2 HD", "path": "androstreamlivetb2.m3u8"},
-            {"name": "TR:Tabii 3 HD", "path": "androstreamlivetb3.m3u8"},
-            {"name": "TR:Tabii 4 HD", "path": "androstreamlivetb4.m3u8"},
-            {"name": "TR:Tabii 5 HD", "path": "androstreamlivetb5.m3u8"},
-            {"name": "TR:Tabii 6 HD", "path": "androstreamlivetb6.m3u8"},
-            {"name": "TR:Tabii 7 HD", "path": "androstreamlivetb7.m3u8"},
-            {"name": "TR:Tabii 8 HD", "path": "androstreamlivetb8.m3u8"},
-            {"name": "TR:Exxen HD", "path": "androstreamliveexn.m3u8"},
-            {"name": "TR:Exxen 1 HD", "path": "androstreamliveexn1.m3u8"},
-            {"name": "TR:Exxen 2 HD", "path": "androstreamliveexn2.m3u8"},
-            {"name": "TR:Exxen 3 HD", "path": "androstreamliveexn3.m3u8"},
-            {"name": "TR:Exxen 4 HD", "path": "androstreamliveexn4.m3u8"},
-            {"name": "TR:Exxen 5 HD", "path": "androstreamliveexn5.m3u8"},
-            {"name": "TR:Exxen 6 HD", "path": "androstreamliveexn6.m3u8"},
-            {"name": "TR:Exxen 7 HD", "path": "androstreamliveexn7.m3u8"},
-        ]
+# Sertifika uyarılarını kapatmak için
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+warnings.filterwarnings('ignore')
 
-    def calistir(self):
-        """NexaTV kanallarından oluşan M3U içeriğini döndürür."""
-        m3u = ["#EXTM3U"]
-        for channel in self.channels:
-            real_url = f"{self.base_stream_url}{channel['path']}"
-            stream_url = f"{self.proxy_prefix}{real_url}"
-            m3u.append(
-                f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="{channel["name"]}" '
-                f'tvg-logo="{self.logo_url}" group-title="{self.group_title}",{channel["name"]}'
-            )
-            m3u.append(stream_url)
-        content = "\n".join(m3u)
-        print(f"NexaTV içerik uzunluğu: {len(content)} karakter")
-        return content
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+}
 
+OUTPUT_FILENAME = "ne.m3u"
+STATIC_LOGO = "https://i.hizliresim.com/evoarjs.jpg"
 
-# ---------------- Ana Çalıştırma ----------------
-def gorevi_calistir():
-    print(f"--- NexaTV Görevi Başlatıldı ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')}) ---")
-    manager = NexaTVManager()
-    m3u_content = manager.calistir()
-    file_name = "ne.m3u"
+def get_andro_content():
+    print("--- Andro Panel Taraması Başlatıldı ---")
+    results = []
+    base_pattern = "https://mahsunsports{}.xyz"
+    headers = HEADERS.copy()
+    
+    channels = [
+        ("androstreamlivebiraz1", 'TR:beIN Sport 1 HD'),
+        ("androstreamlivebs1", 'TR:beIN Sport 1 HD'),
+        ("androstreamlivebs2", 'TR:beIN Sport 2 HD'),
+        ("androstreamlivebs3", 'TR:beIN Sport 3 HD'),
+        ("androstreamlivebs4", 'TR:beIN Sport 4 HD'),
+        ("androstreamlivebs5", 'TR:beIN Sport 5 HD'),
+        ("androstreamlivebsm1", 'TR:beIN Sport Max 1 HD'),
+        ("androstreamlivebsm2", 'TR:beIN Sport Max 2 HD'),
+        ("androstreamlivess1", 'TR:S Sport 1 HD'),
+        ("androstreamlivess2", 'TR:S Sport 2 HD'),
+        ("androstreamlivets", 'TR:Tivibu Sport HD'),
+        ("androstreamlivets1", 'TR:Tivibu Sport 1 HD'),
+        ("androstreamlivets2", 'TR:Tivibu Sport 2 HD'),
+        ("androstreamlivets3", 'TR:Tivibu Sport 3 HD'),
+        ("androstreamlivets4", 'TR:Tivibu Sport 4 HD'),
+        ("androstreamlivesm1", 'TR:Smart Sport 1 HD'),
+        ("androstreamlivesm2", 'TR:Smart Sport 2 HD'),
+        ("androstreamlivees1", 'TR:Euro Sport 1 HD'),
+        ("androstreamlivees2", 'TR:Euro Sport 2 HD'),
+        ("androstreamlivetb", 'TR:Tabii HD'),
+        ("androstreamlivetb1", 'TR:Tabii 1 HD'),
+        ("androstreamlivetb2", 'TR:Tabii 2 HD'),
+        ("androstreamlivetb3", 'TR:Tabii 3 HD'),
+        ("androstreamlivetb4", 'TR:Tabii 4 HD'),
+        ("androstreamlivetb5", 'TR:Tabii 5 HD'),
+        ("androstreamlivetb6", 'TR:Tabii 6 HD'),
+        ("androstreamlivetb7", 'TR:Tabii 7 HD'),
+        ("androstreamlivetb8", 'TR:Tabii 8 HD'),
+        ("androstreamliveexn", 'TR:Exxen HD'),
+        ("androstreamliveexn1", 'TR:Exxen 1 HD'),
+        ("androstreamliveexn2", 'TR:Exxen 2 HD'),
+        ("androstreamliveexn3", 'TR:Exxen 3 HD'),
+        ("androstreamliveexn4", 'TR:Exxen 4 HD'),
+        ("androstreamliveexn5", 'TR:Exxen 5 HD'),
+        ("androstreamliveexn6", 'TR:Exxen 6 HD'),
+        ("androstreamliveexn7", 'TR:Exxen 7 HD'),
+        ("androstreamliveexn8", 'TR:Exxen 8 HD')
+    ]
 
+    def check_domain(index):
+        url = base_pattern.format(index)
+        try:
+            response = requests.get(url, headers=headers, timeout=5, verify=False)
+            if response.status_code == 200:
+                return url
+        except:
+            return None
+        return None
+
+    print("Aktif domain aranıyor (10-99)...")
+    active_site = None
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        futures = [executor.submit(check_domain, i) for i in range(10, 100)]
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            if result:
+                active_site = result
+                break
+    
+    if not active_site:
+        print("Aktif site bulunamadı.")
+        return results
+
+    print(f"Bulunan Domain: {active_site}")
+    event_url = f"{active_site}/event.html?id=androstreamlivebs1"
+    
     try:
-        with open(file_name, "w", encoding="utf-8") as f:
-            f.write(m3u_content + f"\n\n# Generated: {datetime.utcnow().isoformat()}")
-        print(f"✅ M3U dosyası oluşturuldu: {file_name}")
+        r2 = requests.get(event_url, headers=headers, verify=False, timeout=10)
+        h2_text = r2.text
     except Exception as e:
-        print(f"❌ Dosya yazılamadı: {e}")
+        print(f"Event sayfası hatası: {e}")
+        return results
 
-    print("--- Görev Tamamlandı ---")
+    baseurl_match = re.search(r'baseurls\s*=\s*\[(.*?)\]', h2_text, re.DOTALL | re.IGNORECASE)
+    if not baseurl_match:
+        print("Sunucu adresleri bulunamadı.")
+        return results
 
+    urls_text = baseurl_match.group(1).replace('"', '').replace("'", "").replace("\n", "").replace("\r", "")
+    servers = [url.strip() for url in urls_text.split(',') if url.strip().startswith("http")]
+    servers = list(set(servers))
+
+    active_servers = []
+    test_id = "androstreamlivebs1"
+    for server in servers:
+        server = server.rstrip('/')
+        test_url = f"{server}/{test_id}.m3u8" if "checklist" in server else f"{server}/checklist/{test_id}.m3u8"
+        test_url = test_url.replace("checklist//", "checklist/")
+        try:
+            temp_response = requests.get(test_url, headers={'Referer': active_site + "/"}, verify=False, timeout=5)
+            if temp_response.status_code == 200:
+                active_servers.append(server)
+        except:
+            continue
+
+    for server in active_servers:
+        server = server.rstrip('/')
+        for cid, cname in channels:
+            final_url = f"{server}/{cid}.m3u8" if "checklist" in server else f"{server}/checklist/{cid}.m3u8"
+            final_url = final_url.replace("checklist//", "checklist/")
+            entry = f'#EXTINF:-1 tvg-logo="{STATIC_LOGO}" group-title="Andro-Panel", {cname}\n#EXTVLCOPT:http-referrer={active_site}/\n{final_url}'
+            results.append(entry)
+            
+    return results
+
+def main():
+    print("İşlem Başladı...")
+    all_content = ["#EXTM3U"]
+    all_content.extend(get_andro_content())
+    
+    try:
+        with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
+            f.write("\n".join(all_content))
+        print(f"\nBaşarılı! {len(all_content)-1} kanal kaydedildi.")
+    except IOError as e:
+        print(f"\nHata: {e}")
 
 if __name__ == "__main__":
-    gorevi_calistir()
-
+    main()
 
 
 
