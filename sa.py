@@ -37,7 +37,7 @@ channels = [
 m3u_lines = ['#EXTM3U x-tvg-url=""']
 
 for ch in channels:
-    m3u_lines.append(f'#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/b6xqz10.jpg" group-title="SalamisTV",{ch["name"]}')
+    m3u_lines.append(f'#EXTINF:-1 tvg-id="spor" tvg-logo="https://i.hizliresim.com/51ksesp.png" group-title="SalamisTV",{ch["name"]}')
     m3u_lines.append(f'#EXTVLCOPT:http-referer=https://3salamistv.online/')
     m3u_lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36')
     
