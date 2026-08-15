@@ -34,6 +34,11 @@ https://cdn8.zohanayaan.com:1686/hls/do49.m3u8?md5=6YnfGmtXM3H6EFImZdRwPw&expire
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/sqdahach1ax.m3u8
+#EXTINF:-1 tvg-chno="39" tvg-id="Soccer.Dummy.us" tvg-name="[CLUB Friendly] Chelsea vs. Real Sociedad | Spanish (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[CLUB Friendly] Chelsea vs. Real Sociedad | Spanish (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8
 #EXTINF:-1 tvg-chno="40" tvg-id="Soccer.Dummy.us" tvg-name="[CLUB Friendly] Internazionale vs. Real Betis | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[CLUB Friendly] Internazionale vs. Real Betis | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -154,11 +159,6 @@ https://cdn4.zohanayaan.com:1686/hls/do19.m3u8?md5=bTq6kop2guG_8E-5aBQAWw&expire
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn6.zohanayaan.com:1686/hls/do39.m3u8?md5=vioYRoA8KYX1tYKLcG5Z7Q&expires=1786813221
-#EXTINF:-1 tvg-chno="101" tvg-id="Soccer.Dummy.us" tvg-name="[Club Friendly] Newcastle United vs Bayer Leverkusen | EN (PLYFST)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Club Friendly] Newcastle United vs Bayer Leverkusen | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/do7.m3u8?md5=CKqyA8yI7pAbKlR3F0s-OA&expires=1786809640
 #EXTINF:-1 tvg-chno="103" tvg-id="Soccer.Dummy.us" tvg-name="[Club Friendly] Sunderland vs Rennes | FR (PLYFST)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Club Friendly] Sunderland vs Rennes | FR (PLYFST)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
@@ -204,11 +204,6 @@ https://cdn1.zohanayaan.com:1686/hls/do42.m3u8?md5=CbiorHCpFzq_mT3b5HLalQ&expire
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn8.zohanayaan.com:1686/hls/do43.m3u8?md5=kGZ3_9ls1gRiBWn-83busQ&expires=1786813218
-#EXTINF:-1 tvg-chno="125" tvg-id="Soccer.Dummy.us" tvg-name="[Denmark Division 1] Koge vs Hvidovre IF (FAWA)" tvg-logo="https://b.fssta.com/uploads/application/soccer/competition-logos/Danish1stDivision-alternate.vresize.500.500.medium.0.png" group-title="Live Events",[Denmark Division 1] Koge vs Hvidovre IF (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.191/hls/FOOOOAAA.m3u8
 #EXTINF:-1 tvg-chno="126" tvg-id="Soccer.Dummy.us" tvg-name="[Dutch Eerste Divisie] FC Volendam vs FC Oss (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Dutch Eerste Divisie] FC Volendam vs FC Oss (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -219,106 +214,41 @@ http://193.47.62.190/hls/riiiaAAa.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/riiiaa.m3u8
-#EXTINF:-1 tvg-chno="129" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Bristol City - Millwall (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Bristol City - Millwall (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nbristolcity.m3u8?md5=R652VXMj8lLW5OMGFFhdyw&expires=1786809639
 #EXTINF:-1 tvg-chno="130" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Bristol City vs. Millwall (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/84svl61782467884.jpg" group-title="Live Events",[EFL Championship] Bristol City vs. Millwall (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/brc-mil
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/brc-mil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/brc-mil/playlist.m3u8?tk=Kq9HktnxrXz4BO30akaQOA&e=1786845633
-#EXTINF:-1 tvg-chno="131" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Charlton Athletic - Derby County (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Charlton Athletic - Derby County (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn13.zohanayaan.com:1686/hls/ncharltonathletic.m3u8?md5=JOXxuew7H94iz9iB6WZkVA&expires=1786809649
 #EXTINF:-1 tvg-chno="132" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Charlton Athletic vs. Derby County (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/unzy981782467887.jpg" group-title="Live Events",[EFL Championship] Charlton Athletic vs. Derby County (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/cha-der
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/cha-der
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/cha-der/playlist.m3u8?tk=Kq9HktnxrXz4BO30akaQOA&e=1786845633
-#EXTINF:-1 tvg-chno="133" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Middlesbrough - Lincoln City (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Middlesbrough - Lincoln City (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/nmiddlesbrough.m3u8?md5=oSWs1DxqxsIMDsYhy1Dhaw&expires=1786809641
 #EXTINF:-1 tvg-chno="134" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Middlesbrough vs. Lincoln City (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/dm9gkd1782467885.jpg" group-title="Live Events",[EFL Championship] Middlesbrough vs. Lincoln City (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/mid-lcn
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/mid-lcn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/mid-lcn/playlist.m3u8?tk=Kq9HktnxrXz4BO30akaQOA&e=1786845633
-#EXTINF:-1 tvg-chno="135" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Norwich City - West Bromwich Albion (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Norwich City - West Bromwich Albion (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn14.zohanayaan.com:1686/hls/nnorwichcity.m3u8?md5=9FCkWl3ubN73rXAqztgzXA&expires=1786809644
 #EXTINF:-1 tvg-chno="136" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Norwich City vs. West Bromwich Albion (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/hd37og1784876323.jpg" group-title="Live Events",[EFL Championship] Norwich City vs. West Bromwich Albion (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/nor-wba
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/nor-wba
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/nor-wba/playlist.m3u8?tk=Kq9HktnxrXz4BO30akaQOA&e=1786845633
-#EXTINF:-1 tvg-chno="137" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Portsmouth - Queens Park Rangers (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Portsmouth - Queens Park Rangers (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn12.zohanayaan.com:1686/hls/nportsmouth.m3u8?md5=NYW5Ltd4E5wiqCCA6FpIqQ&expires=1786809651
 #EXTINF:-1 tvg-chno="138" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Portsmouth vs. Queens Park Rangers (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/c6olho1782467888.jpg" group-title="Live Events",[EFL Championship] Portsmouth vs. Queens Park Rangers (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/por-qpr
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/por-qpr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/por-qpr/playlist.m3u8?tk=omhhSHlWe_1BTfI0dyvw8A&e=1786845634
-#EXTINF:-1 tvg-chno="139" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Stoke City - Swansea City (EMBEDHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Stoke City - Swansea City (EMBEDHD)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn15.zohanayaan.com:1686/hls/nstokecity.m3u8?md5=YdWHJhGzA-il7fydvz2F1w&expires=1786809647
 #EXTINF:-1 tvg-chno="140" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Stoke City vs. Swansea City (DAMITV)" tvg-logo="https://www.thesportsdb.com/images/media/event/thumb/auvc421784875742.jpg" group-title="Live Events",[EFL Championship] Stoke City vs. Swansea City (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=efl-championship/2026-08-15/stk-swa
 #EXTVLCOPT:http-origin=https://damitv.st/embed/?id=efl-championship/2026-08-15/stk-swa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://messi.damitv.st/live-hls/channel/efl-championship/2026-08-15/stk-swa/playlist.m3u8?tk=omhhSHlWe_1BTfI0dyvw8A&e=1786845634
-#EXTINF:-1 tvg-chno="144" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Bolton Wanderers vs Preston North End | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Bolton Wanderers vs Preston North End | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/do7.m3u8?md5=CKqyA8yI7pAbKlR3F0s-OA&expires=1786809640
-#EXTINF:-1 tvg-chno="146" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Bristol City vs Millwall | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Bristol City vs Millwall | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn3.zohanayaan.com:1686/hls/do31.m3u8?md5=Ab1Dqevm-PIYtbxQot6wUA&expires=1786809670
 #EXTINF:-1 tvg-chno="147" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Charlton Athletic vs Derby County | SE (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Charlton Athletic vs Derby County | SE (PLYFST)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cdn10.zohanayaan.com:1686/hls/do79.m3u8?md5=EV1J1wiH27bLUjwOYsZDDA&expires=1786809689
-#EXTINF:-1 tvg-chno="148" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Middlesbrough vs Lincoln City | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Middlesbrough vs Lincoln City | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/do8.m3u8?md5=PTMzZF7giEiA-_qPNRx3Gg&expires=1786809651
-#EXTINF:-1 tvg-chno="149" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Norwich City vs West Bromwich Albion | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Norwich City vs West Bromwich Albion | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn1.zohanayaan.com:1686/hls/do32.m3u8?md5=hMUj8RZFDkAIyBhrRpcxNA&expires=1786809672
-#EXTINF:-1 tvg-chno="150" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Portsmouth vs Queens Park Rangers | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Portsmouth vs Queens Park Rangers | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn1.zohanayaan.com:1686/hls/do33.m3u8?md5=SY_Zea61MHaFIskHhDOJdQ&expires=1786809674
-#EXTINF:-1 tvg-chno="151" tvg-id="Soccer.Dummy.us" tvg-name="[England Championship] Stoke City vs Swansea City | EN (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[England Championship] Stoke City vs Swansea City | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/do34.m3u8?md5=qBPnn93mut22rNpyv9SqXA&expires=1786809675
-#EXTINF:-1 tvg-chno="152" tvg-id="Live.Event.us" tvg-name="[England League One] Notts County vs Leicester City | EN (PLYFST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[England League One] Notts County vs Leicester City | EN (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn4.zohanayaan.com:1686/hls/do8.m3u8?md5=PTMzZF7giEiA-_qPNRx3Gg&expires=1786809651
 #EXTINF:-1 tvg-chno="155" tvg-id="Soccer.Dummy.us" tvg-name="[English Championship] Bristol City vs Millwall (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[English Championship] Bristol City vs Millwall (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -504,11 +434,6 @@ https://live2.jxa76.com/live/sd-6Mwe5HawziBaFK5QdZ_540p.m3u8?txSecret=ef52368c48
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.191/hls/FOOOO.m3u8
-#EXTINF:-1 tvg-chno="213" tvg-id="Soccer.Dummy.us" tvg-name="[Friendly Match] Newcastle United vs Bayer Leverkusen 2 (FAWA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Friendly Match] Newcastle United vs Bayer Leverkusen 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://live2.jxa76.com/live/sd-6MwarbMJVZfKyZY3Ru_540p.m3u8?txSecret=20213adea412ef29c9d3f8e520c2c2c4&txTime=1A0072A8DA5
 #EXTINF:-1 tvg-chno="214" tvg-id="Soccer.Dummy.us" tvg-name="[Friendly Match] Sunderland vs Rennes (FAWA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Friendly Match] Sunderland vs Rennes (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -519,36 +444,11 @@ http://193.47.62.190/hls/TMMMAAA.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/TMMMAAAAA.m3u8
-#EXTINF:-1 tvg-chno="216" tvg-id="Soccer.Dummy.us" tvg-name="[Friendly Match] Tottenham Hotspur vs Hoffenheim 2 (FAWA)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Friendly Match] Tottenham Hotspur vs Hoffenheim 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://live2.jxa76.com/live/sd-6MweaGuWFsbTupCZr3_540p.m3u8?txSecret=74168e7b6f11ad74cd50fdb932878558&txTime=1A0072FA09C
 #EXTINF:-1 tvg-chno="228" tvg-id="Soccer.Dummy.us" tvg-name="[German 3 liga] Verl vs Duisburg (FAWA)" tvg-logo="https://i.gyazo.com/9f4f2e8370377b6214b4103003196de7.png" group-title="Live Events",[German 3 liga] Verl vs Duisburg (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/riiiaAa.m3u8
-#EXTINF:-1 tvg-chno="232" tvg-id="Soccer.Dummy.us" tvg-name="[Germany 3. Liga] Fortuna Düsseldorf vs Hoffenheim II | DE (PLYFST)" tvg-logo="https://i.gyazo.com/9f4f2e8370377b6214b4103003196de7.png" group-title="Live Events",[Germany 3. Liga] Fortuna Düsseldorf vs Hoffenheim II | DE (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/do99.m3u8?md5=ql5ob9Eu2100cvyhGRH5LQ&expires=1786809704
-#EXTINF:-1 tvg-chno="238" tvg-id="Soccer.Dummy.us" tvg-name="[Germany 3. Liga] Verl vs MSV Duisburg | DE (PLYFST)" tvg-logo="https://i.gyazo.com/9f4f2e8370377b6214b4103003196de7.png" group-title="Live Events",[Germany 3. Liga] Verl vs MSV Duisburg | DE (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn2.zohanayaan.com:1686/hls/do99.m3u8?md5=ql5ob9Eu2100cvyhGRH5LQ&expires=1786809704
-#EXTINF:-1 tvg-chno="240" tvg-id="Soccer.Dummy.us" tvg-name="[Germany Bundesliga 2] Hertha BSC vs Heidenheim | DE (PLYFST)" tvg-logo="https://i.gyazo.com/6c343e57acf501f4df3502d7ec646897.png" group-title="Live Events",[Germany Bundesliga 2] Hertha BSC vs Heidenheim | DE (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn10.zohanayaan.com:1686/hls/do12.m3u8?md5=TnC3oZhAY6ogxdnxVU_hyA&expires=1786809660
-#EXTINF:-1 tvg-chno="242" tvg-id="Soccer.Dummy.us" tvg-name="[Germany Bundesliga 2] Simulcast | DE (PLYFST)" tvg-logo="https://i.gyazo.com/6c343e57acf501f4df3502d7ec646897.png" group-title="Live Events",[Germany Bundesliga 2] Simulcast | DE (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn3.zohanayaan.com:1686/hls/do11.m3u8?md5=XL6zpLamz5D92Kagu6Xd2Q&expires=1786809658
 #EXTINF:-1 tvg-chno="244" tvg-id="Soccer.Dummy.us" tvg-name="[Hungary NB 1 Liga] Ujpest vs MTK Budapest (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/hungary/1500x1500/nemzeti-bajnoksag.bd684103.png" group-title="Live Events",[Hungary NB 1 Liga] Ujpest vs MTK Budapest (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -794,11 +694,6 @@ https://ftv.xyzstreams.st/MLBTVWAS/B0018/master.m3u8
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/bzagLHzach19.m3u8
-#EXTINF:-1 tvg-chno="419" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Browns vs Bears (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Browns vs Bears (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=8_-xbNX7SYxStkT5zZy7gGZXoieV5y6adZtM1GGwj4E&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFPMvpDqXJhuiARO0LO8B26%2F&expires=1786809664/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFPMvpDqXJhuiARO0LO8B26/51.m3u8
 #EXTINF:-1 tvg-chno="420" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers vs. Buffalo Bills | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Carolina Panthers vs. Buffalo Bills | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -809,31 +704,16 @@ https://edgestream2.pro/hls/sfjnzabacah31.m3u8
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/qsdnajbq32.m3u8
-#EXTINF:-1 tvg-chno="422" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cowboys vs Seahawks (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Cowboys vs Seahawks (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=7SCMWlg0FT9wqhg6AbyTsucWCJh97a5-bVO1BOmCH8s&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFolP7eA9_VD-4bwC-VhQjq%2F&expires=1786809669/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFolP7eA9_VD-4bwC-VhQjq/235.m3u8
 #EXTINF:-1 tvg-chno="423" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys vs. Seattle Seahawks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys vs. Seattle Seahawks | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/jkhazabcka36.m3u8
-#EXTINF:-1 tvg-chno="424" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Eagles vs Ravens (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Eagles vs Ravens (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=fOdErsdtPOMMfAGLPDtjfA27tRWR5KvMtwZl7C-HMrE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEEdjTgGciGXnWteyv3X0l-%2F&expires=1786809668/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEEdjTgGciGXnWteyv3X0l-/73.m3u8
 #EXTINF:-1 tvg-chno="425" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jacksonville Jaguars vs. New Orleans Saints | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jacksonville Jaguars vs. New Orleans Saints | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/oipozuezeji33.m3u8
-#EXTINF:-1 tvg-chno="426" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jaguars vs Saints (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jaguars vs Saints (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=4_BJULrOIym2PQDAI9QVI3Z4hJUWIUhnq_yU52X00M0&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFVI8WIOEDH8sxCh8XF1wTm%2F&expires=1786809666/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFVI8WIOEDH8sxCh8XF1wTm/224.m3u8
 #EXTINF:-1 tvg-chno="427" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams vs. Kansas City Chiefs | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Rams vs. Kansas City Chiefs | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -844,41 +724,11 @@ https://edgestream2.pro/hls/uheyztezgj34.m3u8
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/JHDAJBDnjdna30.m3u8
-#EXTINF:-1 tvg-chno="429" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Panthers vs Bills (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Panthers vs Bills (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=TwLZCpvk_1_EyBg87UjFxMAbeQ-2bt7dXFnqGPvhhx8&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEhoAMMPw3O6G5MgXef8ULO%2F&expires=1786809663/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEhoAMMPw3O6G5MgXef8ULO/233.m3u8
 #EXTINF:-1 tvg-chno="430" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Philadelphia Eagles vs. Baltimore Ravens | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Philadelphia Eagles vs. Baltimore Ravens | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://edgestream2.pro/hls/jnknjfzbk35.m3u8
-#EXTINF:-1 tvg-chno="431" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Rams vs Chiefs (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Rams vs Chiefs (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=WTJK3-B43OJ_NUllAH4pvp0BFPwWGQ0ias323h_bBXQ&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGYzREOrwb64i-GZApwqBnh%2F&expires=1786809668/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGYzREOrwb64i-GZApwqBnh/59.m3u8
-#EXTINF:-1 tvg-chno="432" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Vikings vs Giants (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Vikings vs Giants (WEBCAST)
-#EXTVLCOPT:http-referrer=https://nflwebcast.com
-#EXTVLCOPT:http-origin=https://nflwebcast.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://webcast-origin.b-cdn.net/bcdn_token=w1S4ZvkZm_GhiHMeFCH6CNUIx97PtpHkCR2ZSTbbXr8&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHL8l4L_5ZbXxs8qqgrRnWm%2F&expires=1786809665/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHL8l4L_5ZbXxs8qqgrRnWm/65.m3u8
-#EXTINF:-1 tvg-chno="433" tvg-id="Soccer.Dummy.us" tvg-name="[Netherlands Eredivisie] Willem II vs NEC | NL (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Netherlands Eredivisie] Willem II vs NEC | NL (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn5.zohanayaan.com:1686/hls/do88.m3u8?md5=GvdsU8tVRw8Vae_Dj3p9uQ&expires=1786809693
-#EXTINF:-1 tvg-chno="434" tvg-id="Soccer.Dummy.us" tvg-name="[Norway Eliteserien] KFUM Oslo vs Lillestrom (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/13.png" group-title="Live Events",[Norway Eliteserien] KFUM Oslo vs Lillestrom (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.191/hls/riiia.m3u8
-#EXTINF:-1 tvg-chno="435" tvg-id="Soccer.Dummy.us" tvg-name="[Norway Eliteserien] KFUM vs Lillestrøm | NO (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/13.png" group-title="Live Events",[Norway Eliteserien] KFUM vs Lillestrøm | NO (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn9.zohanayaan.com:1686/hls/do66.m3u8?md5=bSEQjR5oh2We2ye6pVhcMA&expires=1786809685
 #EXTINF:-1 tvg-chno="437" tvg-id="Soccer.Dummy.us" tvg-name="[Poland Ekstraklasa] Piast Gliwice vs Wieczysta Kraków | PL (PLYFST)" tvg-logo="https://i.gyazo.com/362e31efdd0dad03b00858f4fb0901b5.png" group-title="Live Events",[Poland Ekstraklasa] Piast Gliwice vs Wieczysta Kraków | PL (PLYFST)
 #EXTVLCOPT:http-referrer=https://exposestrat.com
 #EXTVLCOPT:http-origin=https://exposestrat.com
@@ -894,21 +744,11 @@ https://cdn3.zohanayaan.com:1686/hls/do60.m3u8?md5=BwzXeazFTOYC7fUE_mqJ4w&expire
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.190/hls/riiiaAAAAa.m3u8
-#EXTINF:-1 tvg-chno="441" tvg-id="Soccer.Dummy.us" tvg-name="[Portugal Primeira Liga] Alverca vs Estrela | PT (PLYFST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Portugal Primeira Liga] Alverca vs Estrela | PT (PLYFST)
-#EXTVLCOPT:http-referrer=https://exposestrat.com
-#EXTVLCOPT:http-origin=https://exposestrat.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cdn6.zohanayaan.com:1686/hls/do21.m3u8?md5=yjJFrge7RFpSj89n486-5g&expires=1786809667
 #EXTINF:-1 tvg-chno="453" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish League Cup] Aberdeen vs Dundee FC (FAWA)" tvg-logo="https://www.cfclassics.co/images/cups/scotland/leaguecup/scottish-league-cup-600x400.png" group-title="Live Events",[Scottish League Cup] Aberdeen vs Dundee FC (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.194/hls/YNNNAA.m3u8
-#EXTINF:-1 tvg-chno="455" tvg-id="Soccer.Dummy.us" tvg-name="[Scottish League Cup] Dunfermline vs Ross County (FAWA)" tvg-logo="https://www.cfclassics.co/images/cups/scotland/leaguecup/scottish-league-cup-600x400.png" group-title="Live Events",[Scottish League Cup] Dunfermline vs Ross County (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.192/hls/AAFFFA.m3u8
 #EXTINF:-1 tvg-chno="458" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Chelsea vs Real Sociedad, 2026 Club Friendly (SPRTSPASS)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Chelsea vs Real Sociedad, 2026 Club Friendly (SPRTSPASS)
 #EXTVLCOPT:http-referrer=https://sportspass.site/soccer/chelsea.html
 #EXTVLCOPT:http-origin=https://sportspass.site/soccer/chelsea.html
