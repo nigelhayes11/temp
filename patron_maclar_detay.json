@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ex2",
+    "name": "Slovan Bratislava - NK Celje [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/sbratislava.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/sbratislava.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/celje.png",
+    "league": "UEFA Şampiyonlar Ligi Play-Off",
+    "type": "football",
+    "time": "22:00",
+    "home": "Slovan Bratislava",
+    "away": "NK Celje"
+  },
+  {
+    "id": "ss",
+    "name": "Atletico Madrid - Malaga [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/malaga.png",
+    "league": "İspanya La Liga",
+    "type": "football",
+    "time": "22:00",
+    "home": "Atletico Madrid",
+    "away": "Malaga"
+  },
+  {
+    "id": "ex7",
+    "name": "NEC Nijmegen - Bodo Glimt [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/necnijmegen.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/necnijmegen.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/bodoglimt.png",
+    "league": "UEFA Şampiyonlar Ligi Play-Off",
+    "type": "football",
+    "time": "22:00",
+    "home": "NEC Nijmegen",
+    "away": "Bodo Glimt"
+  },
+  {
+    "id": "ex1",
+    "name": "Celtic - LASK Linz [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/celtic.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/celtic.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/slaskwroclaw.png",
+    "league": "UEFA Şampiyonlar Ligi Play-Off",
+    "type": "football",
+    "time": "22:00",
+    "home": "Celtic",
+    "away": "LASK Linz"
+  }
+]
