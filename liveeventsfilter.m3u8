@@ -104,6 +104,16 @@ http://193.47.62.194/hls/QQQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.41/hls/OKKKAA.m3u8
+#EXTINF:-1 tvg-chno="85" tvg-id="Soccer.Dummy.us" tvg-name="[English EFL Trophy] Mansfield vs Manchester City U21 (FAWA)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/EFL_Trophy.png" group-title="Live Events",[English EFL Trophy] Mansfield vs Manchester City U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://193.47.62.41/hls/OPPPA.m3u8
+#EXTINF:-1 tvg-chno="86" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Atlético Madrid vs. Málaga | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Football] Atlético Madrid vs. Málaga | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/377qj1h2727.m3u8
 #EXTINF:-1 tvg-chno="87" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Barcelona vs. Al Ahly | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Football] Barcelona vs. Al Ahly | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -374,11 +384,16 @@ https://webcast-origin.b-cdn.net/bcdn_token=64ZGit27jbPxoU7fpMP8mDL65ODFx0jlLOp-
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.41/hls/OFFFAAAAA.m3u8
-#EXTINF:-1 tvg-chno="238" tvg-id="Soccer.Dummy.us" tvg-name="[Russia Cup] Rubin Kazan vs Spartak Moscow (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Rubin Kazan vs Spartak Moscow (FAWA)
+#EXTINF:-1 tvg-chno="236" tvg-id="Soccer.Dummy.us" tvg-name="[Russia Cup] Dynamo Moscow vs Krasnodar (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Dynamo Moscow vs Krasnodar (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.41/hls/OFFFAAAAAAA.m3u8
+http://193.47.62.41/hls/ICCCAAAAA.m3u8
+#EXTINF:-1 tvg-chno="239" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi King Cup] Al-Ula vs Al Fateh (FAWA)" tvg-logo="https://b.fssta.com/uploads/application/soccer/competition-logos/KingsCup.vresize.350.350.medium.0.png" group-title="Live Events",[Saudi King Cup] Al-Ula vs Al Fateh (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+http://193.47.62.41/hls/OPPP.m3u8
 #EXTINF:-1 tvg-chno="240" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi King Cup] Damac vs Al Taawon (FAWA)" tvg-logo="https://b.fssta.com/uploads/application/soccer/competition-logos/KingsCup.vresize.350.350.medium.0.png" group-title="Live Events",[Saudi King Cup] Damac vs Al Taawon (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
@@ -439,11 +454,6 @@ http://193.47.62.41/hls/GMMMAAAAA.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.41/hls/ICCC.m3u8
-#EXTINF:-1 tvg-chno="256" tvg-id="Soccer.Dummy.us" tvg-name="[Sweden Svenska Cupen] Vaxjo Norra vs Varnamo (FAWA)" tvg-logo="https://www.cfclassics.co/images/cups/sweden/svenskacupen/svenska-cupen-600x400.png" group-title="Live Events",[Sweden Svenska Cupen] Vaxjo Norra vs Varnamo (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-http://193.47.62.41/hls/GMMM.m3u8
 #EXTINF:-1 tvg-chno="257" tvg-id="Soccer.Dummy.us" tvg-name="[Tanzania Ligi Kuu Bara] Kagera Sugar vs Singida Black Stars (FAWA)" tvg-logo="https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png" group-title="Live Events",[Tanzania Ligi Kuu Bara] Kagera Sugar vs Singida Black Stars (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
