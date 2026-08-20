@@ -1,50 +1,74 @@
 [
   {
-    "id": "ex2",
-    "name": "Slovan Bratislava - NK Celje [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/sbratislava.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/sbratislava.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/celje.png",
-    "league": "UEFA Şampiyonlar Ligi Play-Off",
+    "id": "ex1",
+    "name": "Beşiktaş - Kauno Zalgiris [20:00]",
+    "logo": "https://patronsports2.cfd/img/logos/besiktas.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/besiktas.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/zalgiris.png",
+    "league": "UEFA Avrupa Ligi Play-Off",
     "type": "football",
+    "time": "20:00",
+    "home": "Beşiktaş",
+    "away": "Kauno Zalgiris"
+  },
+  {
+    "id": "atv",
+    "name": "Trabzonspor - Ferencvaros [20:00]",
+    "logo": "https://patronsports2.cfd/img/logos/trabzonspor.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/trabzonspor.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/ferencvaros.png",
+    "league": "UEFA Avrupa Ligi Play-Off",
+    "type": "football",
+    "time": "20:00",
+    "home": "Trabzonspor",
+    "away": "Ferencvaros"
+  },
+  {
+    "id": "trtspor2",
+    "name": "Kuzey Makedonya - Türkiye [18:00]",
+    "logo": "https://patronsports2.cfd/img/logos/kuzeymakedonya.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/kuzeymakedonya.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/turkiye.png",
+    "league": "Akdeniz Oyunlari",
+    "type": "volleyball",
+    "time": "18:00",
+    "home": "Kuzey Makedonya",
+    "away": "Türkiye"
+  },
+  {
+    "id": "ex3",
+    "name": "Al Fayha - Al Hilal [21:00]",
+    "logo": "https://patronsports2.cfd/img/logos/alfayha.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/alfayha.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/alhilal.png",
+    "league": "Suudi Arabistan Pro Lig",
+    "type": "football",
+    "time": "21:00",
+    "home": "Al Fayha",
+    "away": "Al Hilal"
+  },
+  {
+    "id": "eu2",
+    "name": "BMW Açik Golf Turnuvasi - Gün 1 [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/golf.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/golf.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/golf.png",
+    "league": "BMW Açik Golf Turnuvasi",
+    "type": "porsche_supercup",
     "time": "22:00",
-    "home": "Slovan Bratislava",
-    "away": "NK Celje"
+    "home": "BMW Açik Golf Turnuvasi",
+    "away": "Gün 1"
   },
   {
     "id": "ss",
-    "name": "Atletico Madrid - Malaga [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/malaga.png",
+    "name": "Rayo Vallecano - Alaves [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/rayovallecano.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/rayovallecano.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/alaves.png",
     "league": "İspanya La Liga",
     "type": "football",
     "time": "22:00",
-    "home": "Atletico Madrid",
-    "away": "Malaga"
-  },
-  {
-    "id": "ex7",
-    "name": "NEC Nijmegen - Bodo Glimt [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/necnijmegen.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/necnijmegen.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/bodoglimt.png",
-    "league": "UEFA Şampiyonlar Ligi Play-Off",
-    "type": "football",
-    "time": "22:00",
-    "home": "NEC Nijmegen",
-    "away": "Bodo Glimt"
-  },
-  {
-    "id": "ex1",
-    "name": "Celtic - LASK Linz [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/celtic.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/celtic.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/slaskwroclaw.png",
-    "league": "UEFA Şampiyonlar Ligi Play-Off",
-    "type": "football",
-    "time": "22:00",
-    "home": "Celtic",
-    "away": "LASK Linz"
+    "home": "Rayo Vallecano",
+    "away": "Alaves"
   }
 ]
