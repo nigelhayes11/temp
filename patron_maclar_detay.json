@@ -12,6 +12,18 @@
     "away": "Galatasaray"
   },
   {
+    "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+    "name": "Erzurumspor - Galatasaray [21:30]",
+    "logo": "https://patronsports2.cfd/img/logos/erzurumspor.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/erzurumspor.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+    "league": "Trendyol Süper Lig | 2. Kanal",
+    "type": "football",
+    "time": "21:30",
+    "home": "Erzurumspor",
+    "away": "Galatasaray"
+  },
+  {
     "id": "trtspor",
     "name": "Karagümrük - Bursaspor [21:30]",
     "logo": "https://patronsports2.cfd/img/logos/fatihkaragumruk.png",
@@ -22,6 +34,18 @@
     "time": "21:30",
     "home": "Karagümrük",
     "away": "Bursaspor"
+  },
+  {
+    "id": "b3",
+    "name": "Arsenal - Coventry [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/arsenal.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/arsenal.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/coventry.png",
+    "league": "İngiltere Premier Lig",
+    "type": "football",
+    "time": "22:00",
+    "home": "Arsenal",
+    "away": "Coventry"
   },
   {
     "id": "trtspor2",
@@ -132,7 +156,7 @@
     "away": "Stuttgart"
   },
   {
-    "id": "ex1",
+    "id": "b5",
     "name": "Marsilya - Strasbourg [21:45]",
     "logo": "https://patronsports2.cfd/img/logos/marsilya.png",
     "home_logo": "https://patronsports2.cfd/img/logos/marsilya.png",
@@ -154,29 +178,5 @@
     "time": "22:00",
     "home": "Real Betis",
     "away": "Real Sociedad"
-  },
-  {
-    "id": "eu2",
-    "name": "BMW Açik Golf Turnuvasi - Gün 2 [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/aik.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/aik.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/gun2.png",
-    "league": "BMW Açik Golf Turnuvasi",
-    "type": "football",
-    "time": "22:00",
-    "home": "BMW Açik Golf Turnuvasi",
-    "away": "Gün 2"
-  },
-  {
-    "id": "ex2",
-    "name": "Arsenal - Coventry [22:00]",
-    "logo": "https://patronsports2.cfd/img/logos/arsenal.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/arsenal.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/coventry.png",
-    "league": "İngiltere Premier Lig",
-    "type": "football",
-    "time": "22:00",
-    "home": "Arsenal",
-    "away": "Coventry"
   }
 ]
