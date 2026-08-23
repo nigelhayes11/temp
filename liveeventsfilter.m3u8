@@ -9,11 +9,6 @@ http://193.47.62.41/hls/ARRRV.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 http://193.47.62.41/hls/ARRRV.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="AUS.Rules.Football.Dummy.us" tvg-name="[AFL] Essendon vs. Port Adelaide (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/qxmpu41656594082.jpg" group-title="Live Events",[AFL] Essendon vs. Port Adelaide (DAMITV)
-#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=afl/2026-08-23/ess-port
-#EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=afl/2026-08-23/ess-port
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://messi.damitv.st/live-hls/channel/afl/2026-08-23/ess-port/playlist.m3u8?tk=mB2iSK_hIPjrmrvXv00v5Q&e=1787493645
 #EXTINF:-1 tvg-chno="10" tvg-id="NFL.Dummy.us" tvg-name="[American Football] Dallas Cowboys vs. Arizona Cardinals | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[American Football] Dallas Cowboys vs. Arizona Cardinals | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://streame.center
 #EXTVLCOPT:http-origin=https://streame.center
@@ -374,11 +369,6 @@ https://chatgpt.hereisman.net/playlist/55053/load-playlist
 #EXTVLCOPT:http-origin=https://sportspass.site/nfl/bengals.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://hrfdddcsd.s3.us-east-1.amazonaws.com/falcons.m3u8
-#EXTINF:-1 tvg-chno="440" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys at Arizona Cardinals (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/btjrsl1784758706.jpg" group-title="Live Events",[NFL] Dallas Cowboys at Arizona Cardinals (DAMITV)
-#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=nfl/2026-08-22/dal-ari
-#EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=nfl/2026-08-22/dal-ari
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://messi.damitv.st/live-hls/channel/nfl/2026-08-22/dal-ari/playlist.m3u8?tk=hMQG8kIXxnY9f4F1A6YdGQ&e=1787491856
 #EXTINF:-1 tvg-chno="441" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys at Arizona Cardinals (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys at Arizona Cardinals (SPRTSPASS)
 #EXTVLCOPT:http-referrer=https://sportspass.site/nfl/cowboys.html
 #EXTVLCOPT:http-origin=https://sportspass.site/nfl/cowboys.html
