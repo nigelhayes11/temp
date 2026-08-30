@@ -3,15 +3,16 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.netsportv240.top/
 https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="⭐⭐⚽⚽⭐⭐BEİN 1 WEB +VPN⭐⭐⚽⚽⭐⭐",REC*(geç açılıyor)
 https://chat.cfbu247.sbs/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2MiIsInRzIjoxNzc5OTY4MDg5NjQ1fQ==
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="⭐⭐⚽⚽⭐⭐BEİN 1 WEB +VPN⭐⭐⚽⚽⭐⭐",ATOM2
-https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8
+https://corestream.ardastream.live//bein1/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="⭐⭐⚽⚽⭐⭐BEİN 1 WEB +VPN⭐⭐⚽⚽⭐⭐" ,ATOM
 #EXTVLCOPT:http-referrer=https://www.netsportv240.top/
-https://corestream.siteyaptim.live/bein1/tracks-v1a1/mono.m3u8
+https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 " tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="⭐⭐⚽⚽⭐⭐BEİN 1 WEB +VPN⭐⭐⚽⚽⭐⭐" ,DUMAN
 #EXTVLCOPT:http-referrer=https://124dumantv.com/
@@ -41,7 +42,7 @@ https://betconnectstreamserver1001.site/601/mono.m3u8
 
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" tvg-name="TR:Trt 1 HD" ,TR:Trt 1 HD B
+
 
 
 #EXTINF:-1 group-title="📺YERLİ POPÜLER KANALLAR📺" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" tvg-name="TR:Atv HD" ,TR:Atv HD
