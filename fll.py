@@ -1,6 +1,6 @@
 # Birleştirilecek dosya adları
 tvf = 'tvf.m3u'
-r2 = 'r2.m3u'
+r2 = 'r2m.m3u'
 selcukk = 'selcukk.m3u'
 an = 'an.m3u'
 ne = 'ne.m3u'
