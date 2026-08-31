@@ -6,7 +6,7 @@ an = 'an.m3u'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
-cafe = 'cafe.m3u'
+cafe = 'cafem.m3u'
 sa = 'sam.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
