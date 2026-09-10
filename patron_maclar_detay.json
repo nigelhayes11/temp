@@ -12,12 +12,36 @@
     "away": "Roma"
   },
   {
+    "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+    "name": "Fenerbahçe - Roma [19:45]",
+    "logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/roma.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
+    "type": "football",
+    "time": "19:45",
+    "home": "Fenerbahçe",
+    "away": "Roma"
+  },
+  {
     "id": "ex7",
     "name": "PSV - Shakhtar Donetsk [19:45]",
     "logo": "https://patronsports2.cfd/img/logos/psv.png",
     "home_logo": "https://patronsports2.cfd/img/logos/psv.png",
     "away_logo": "https://patronsports2.cfd/img/logos/shakhtar.png",
     "league": "UEFA Şampiyonlar Ligi",
+    "type": "football",
+    "time": "19:45",
+    "home": "PSV",
+    "away": "Shakhtar Donetsk"
+  },
+  {
+    "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+    "name": "PSV - Shakhtar Donetsk [19:45]",
+    "logo": "https://patronsports2.cfd/img/logos/psv.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/psv.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/shakhtar.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
     "type": "football",
     "time": "19:45",
     "home": "PSV",
@@ -36,12 +60,36 @@
     "away": "Bodo Glimt"
   },
   {
+    "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+    "name": "Bayern Münih - Bodo Glimt [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/bayern-munih.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/bayern-munih.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/bodoglimt.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
+    "type": "football",
+    "time": "22:00",
+    "home": "Bayern Münih",
+    "away": "Bodo Glimt"
+  },
+  {
     "id": "ex3",
     "name": "Slavia Prag - Lens [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/slavia-prag.png",
     "home_logo": "https://patronsports2.cfd/img/logos/slavia-prag.png",
     "away_logo": "https://patronsports2.cfd/img/logos/lens.png",
     "league": "UEFA Şampiyonlar Ligi",
+    "type": "football",
+    "time": "22:00",
+    "home": "Slavia Prag",
+    "away": "Lens"
+  },
+  {
+    "id": "https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8",
+    "name": "Slavia Prag - Lens [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/slavia-prag.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/slavia-prag.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/lens.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
     "type": "football",
     "time": "22:00",
     "home": "Slavia Prag",
@@ -60,6 +108,18 @@
     "away": "Sabah Bakü"
   },
   {
+    "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+    "name": "Manchester Utd - Sabah Bakü [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/manchesterunited.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/manchesterunited.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/sabahbaku.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
+    "type": "football",
+    "time": "22:00",
+    "home": "Manchester Utd",
+    "away": "Sabah Bakü"
+  },
+  {
     "id": "ex2",
     "name": "Como - Leipzig [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/como.png",
@@ -72,16 +132,16 @@
     "away": "Leipzig"
   },
   {
-    "id": "ss",
-    "name": "ABD - Macaristan [12:30]",
-    "logo": "https://patronsports2.cfd/img/logos/abd.png",
-    "home_logo": "https://patronsports2.cfd/img/logos/abd.png",
-    "away_logo": "https://patronsports2.cfd/img/logos/macaristan.png",
-    "league": "FIBA Kadinlar Dünya Kupasi",
-    "type": "basketball",
-    "time": "12:30",
-    "home": "ABD",
-    "away": "Macaristan"
+    "id": "https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8",
+    "name": "Como - Leipzig [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/como.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/como.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/leipzig.png",
+    "league": "Sadece Türkiye'den izlenebilir | FHD",
+    "type": "football",
+    "time": "22:00",
+    "home": "Como",
+    "away": "Leipzig"
   },
   {
     "id": "ss",
