@@ -210,4 +210,37 @@ def get_renconnect_content():
             return old_links
 
     return ordered_results
+# ============================================
+# MAIN
+# ============================================
 
+def main():
+    print("🔥 r2 v3.3 Başladı")
+
+    all_content = ["#EXTM3U"]
+    all_content.extend(get_selcuk_content())
+    all_content.extend(get_atom_content())
+    all_content.extend(get_trgoals_content())
+    all_content.extend(get_andro_content())
+    all_content.extend(get_xsport_content())
+    all_content.extend(get_renconnect_content())
+    all_content.extend(get_bonus_content())
+
+    try:
+        with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
+            f.write("\n".join(all_content))
+
+        full_path = os.path.abspath(OUTPUT_FILENAME)
+        total_channels = len(all_content) - 1
+
+        print("\n✅ Tamamlandı!")
+        print(f"📄 Dosya: {OUTPUT_FILENAME}")
+        print(f"📺 Kanal Sayısı: {total_channels}")
+        print(f"📂 Konum: {full_path}")
+
+    except IOError as e:
+        print(f"\n❌ Hata: {e}")
+
+
+if __name__ == "__main__":
+    main()
