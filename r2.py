@@ -218,13 +218,8 @@ def main():
     print("🔥 r2 v3.3 Başladı")
 
     all_content = ["#EXTM3U"]
-    all_content.extend(get_selcuk_content())
-    all_content.extend(get_atom_content())
-    all_content.extend(get_trgoals_content())
-    all_content.extend(get_andro_content())
-    all_content.extend(get_xsport_content())
-    all_content.extend(get_renconnect_content())
-    all_content.extend(get_bonus_content())
+    all_content.extend(get_r2_content())
+  
 
     try:
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
