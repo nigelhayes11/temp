@@ -218,7 +218,7 @@ def main():
     print("🔥 r2 v3.3 Başladı")
 
     all_content = ["#EXTM3U"]
-    all_content.extend(get_r2_content())
+    all_content.extend(get_renconnect_content())
   
 
     try:
