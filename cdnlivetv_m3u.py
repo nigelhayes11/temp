@@ -16,16 +16,38 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 REFERER = "https://cdnlivetv.is/"
 
-ENGLISH_CODES = ("us", "gb", "ca", "au", "nz")
+# Eğer script sadece bu demetteki ülkeleri tarıyorsa, de ve tr'yi buraya ekliyoruz:
+ENGLISH_CODES = ("us", "gb", "ca", "au", "nz", "de", "tr")
 
 LOGO_TREE_URL = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
 LOGO_RAW = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/"
 LOGO_INDEX_FILE = "tv_logos_index.json"
-CC_DIR = {"us": "united-states", "gb": "united-kingdom", "ca": "canada",
-          "au": "australia", "nz": "new-zealand"}
-CC_SUF = {"us": "us", "gb": "uk", "ca": "ca", "au": "au", "nz": "nz"}
+
+# GitHub üzerindeki klasör isimleri (countries/germany ve countries/turkey için)
+CC_DIR = {
+    "us": "united-states", 
+    "gb": "united-kingdom", 
+    "ca": "canada",
+    "au": "australia", 
+    "nz": "new-zealand",
+    "de": "germany",     # Almanya klasörü eklendi
+    "tr": "turkey"       # Türkiye klasörü eklendi
+}
+
+# Logo dosyalarının sonundaki ülke uzantıları (Örn: ard-de.png, trt1-tr.png için)
+CC_SUF = {
+    "us": "us", 
+    "gb": "uk", 
+    "ca": "ca", 
+    "au": "au", 
+    "nz": "nz",
+    "de": "de",          # Almanya dosya son eki eklendi
+    "tr": "tr"           # Türkiye dosya son eki eklendi
+}
+
 SKIP_DIRS = {"hd", "old", "screen-bug", "us-local", "utilities", "misc", "media", "vod"}
 
+# İhtiyacınıza göre doğrudan eşleşmeyen özel kanal logolarını buraya ekleyebilirsiniz:
 OVERRIDES = {
     "Altitude": "countries/united-states/altitude-sports-us.png",
     "CBS Sports Golazo": "countries/united-states/cbs-sports-golazo-network-us.png",
