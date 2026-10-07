@@ -16,13 +16,13 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5  # v4 yerine v5 yapıldı (Node 24 Uyumlu)
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6  # v5 yerine v6 yapıldı (Node 24 Uyumlu)
         with:
-          python-version: "3.14"
+          python-version: "3.13"       # Hata riskini önlemek için stabil güncel sürüme çekildi
 
       - name: Generate playlist
         run: python madueke.py
@@ -30,7 +30,7 @@ jobs:
       - name: Commit and push updated playlist
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@://github.com"
 
           git add madueke.m3u8
 
