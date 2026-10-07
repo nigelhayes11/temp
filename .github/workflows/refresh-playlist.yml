@@ -16,31 +16,39 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v5  # v4 yerine v5 yapıldı (Node 24 Uyumlu)
+      - name: Checkout Repository
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v6  # v5 yerine v6 yapıldı (Node 24 Uyumlu)
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.13"       # Hata riskini önlemek için stabil güncel sürüme çekildi
+          python-version: "3.13"
 
       - name: Generate playlist
-        run: python madueke.py
+        run: python cdnlivetv_m3u.py
 
       - name: Commit and push updated playlist
         run: |
+          # Git güvenlik uyarısını aşmak için mevcut klasörü güvenli ilan et
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          # Bot bilgilerini tanımla
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@://github.com"
 
-          git add madueke.m3u8
+          # Değişen m3u8 dosyasını Git hafızasına ekle
+          git add cdnlivetv_english.m3u8
 
+          # Dosya tamamen aynı olsa bile hata vermeden süreci devam ettir
           if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
+            echo "Dosyada değişiklik yok, yine de zorunlu commit atılıyor..."
+            git commit --allow-empty -m "periodic ping: cdnlivetv_english.m3u8"
+          else
+            git commit -m "update token: cdnlivetv_english.m3u8"
           fi
 
-          git commit -m "update token: madueke.m3u8"
-
-          # Incorporate any newer commit on GitHub before pushing
+          # Çakışmaları önlemek için önce çek, sonra GitHub'a yükle
           git pull --rebase origin main
           git push origin HEAD:main
