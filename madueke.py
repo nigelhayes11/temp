@@ -354,7 +354,7 @@ def write_m3u(entries, out):
 def main():
     ap = argparse.ArgumentParser(
         description="Generate an m3u playlist of English channels from CDN Live TV.")
-    ap.add_argument("-o", "--output", default="cdnlivetv_english.m3u8",
+    ap.add_argument("-o", "--output", default="madueke.m3u8",
                     help="output playlist file")
     ap.add_argument("--codes", default=",".join(ENGLISH_CODES),
                     help="comma-separated country codes to include")
