@@ -10,104 +10,34 @@ import unicodedata
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
-API = "https://api.cdnlivetv.is/api/v1/channels/"
-PLAYER = "https://cdnlivetv.tv/api/v1/channels/player/"
+API = "https://cdnlivetv.is"
+PLAYER = "https://cdnlivetv.tv"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
-REFERER = "https://cdnlivetv.is/"
+REFERER = "https://cdnlivetv.is"
 
-# Eğer script sadece bu demetteki ülkeleri tarıyorsa, de ve tr'yi buraya ekliyoruz:
-ENGLISH_CODES = ("us", "gb", "ca", "au", "nz", "de", "tr")
+# Sadece Türkiye (tr) kanallarını hedefliyoruz
+TURKISH_CODES = ("tr",)
 
-LOGO_TREE_URL = "https://api.github.com/repos/tv-logo/tv-logos/git/trees/main?recursive=1"
-LOGO_RAW = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/"
+LOGO_TREE_URL = "https://github.com"
+LOGO_RAW = "https://githubusercontent.com"
 LOGO_INDEX_FILE = "tv_logos_index.json"
 
-# GitHub üzerindeki klasör isimleri (countries/germany ve countries/turkey için)
-CC_DIR = {
-    "us": "united-states", 
-    "gb": "united-kingdom", 
-    "ca": "canada",
-    "au": "australia", 
-    "nz": "new-zealand",
-    "de": "germany",     # Almanya klasörü eklendi
-    "tr": "turkey"       # Türkiye klasörü eklendi
-}
-
-# Logo dosyalarının sonundaki ülke uzantıları (Örn: ard-de.png, trt1-tr.png için)
-CC_SUF = {
-    "us": "us", 
-    "gb": "uk", 
-    "ca": "ca", 
-    "au": "au", 
-    "nz": "nz",
-    "de": "de",          # Almanya dosya son eki eklendi
-    "tr": "tr"           # Türkiye dosya son eki eklendi
-}
-
+# Türkiye için logo dizin eşlemeleri
+CC_DIR = {"tr": "turkey"}
+CC_SUF = {"tr": "tr"}
 SKIP_DIRS = {"hd", "old", "screen-bug", "us-local", "utilities", "misc", "media", "vod"}
 
-# İhtiyacınıza göre doğrudan eşleşmeyen özel kanal logolarını buraya ekleyebilirsiniz:
+# Türkiye kanalları için gerekirse özel logo eşlemeleri ekleyebilirsiniz
 OVERRIDES = {
-    "Altitude": "countries/united-states/altitude-sports-us.png",
-    "CBS Sports Golazo": "countries/united-states/cbs-sports-golazo-network-us.png",
-    "DAZN 1": "countries/united-kingdom/dazn1-uk.png",
-    "Euro Sport 1": "countries/united-kingdom/eurosport-1-uk.png",
-    "Euro Sport 2": "countries/united-kingdom/eurosport-2-uk.png",
-    "GOLF TV": "countries/united-states/nbc-golf-channel-us.png",
-    "Hallmark": "countries/united-states/hallmark-channel-us.png",
-    "MAX": "countries/united-states/hbo-max-us.png",
-    "Nickelodeon TV": "countries/united-states/nickelodeon-us.png",
-    "Red Bull": "countries/international/red-bull-tv-int.png",
-    "Telemundo": "countries/united-states/telemundo-us.png",
-    "TUDN": "countries/united-states/tudn-us.png",
-    "truTV": "countries/united-states/tru-tv-us.png",
-    "Univision": "countries/united-states/us-local/univision/univision-us.png",
-    "Willow Cricket": "countries/united-states/willow-us.png",
+    "TRT 1": "countries/turkey/trt-1-tr.png",
 }
 
 WIKI_COMMONS = {
-    "Arizona Diamondbacks": "File:Arizona_Diamondbacks_logo_teal.svg",
-    "Atlanta Braves": "File:Atlanta_Braves_Insignia.svg",
-    "BBC": "File:BBC.svg",
-    "Boston Red Sox": "File:Boston_Red_Sox_cap_logo.svg",
-    "CBS": "File:CBS logo.svg",
-    "Chicago Cubs": "File:Chicago_Cubs_logo.svg",
-    "Chicago White Sox": "File:Chicago_White_Sox.svg",
-    "Cincinnati Reds": "File:Cincinnati_Reds_Logo.svg",
-    "Cleveland Guardians": "File:Cleveland_Guardians_cap_logo.svg",
-    "Colorado Rockies": "File:Colorado_Rockies_Cap_Insignia.svg",
-    "Detroit Tigers": "File:Detroit_Tigers_logo.svg",
-    "ESPN News": "File:ESPNews.svg",
-    "FOX Deportes": "File:FOX Deportes logo.png",
-    "History": "File:History (2021).svg",
-    "Houston Astros": "File:Houston-Astros-Logo.svg",
-    "Kansas City Royals": "File:Kansas_City_Royals_Primary_Logo.svg",
-    "Los Angeles Angels": "File:Los_Angeles_Angels_of_Anaheim.svg",
-    "Los Angeles Dodgers": "File:Los_Angeles_Dodgers_Logo.svg",
-    "Minnesota Twins": "File:Minnesota_Twins_New_Logo.svg",
-    "New York Mets": "File:New_York_Mets_Insignia.svg",
-    "New York Yankees": "File:New_York_Yankees_Primary_Logo.svg",
-    "Oakland Athletics": "File:Oakland_A's_logo.svg",
-    "Philadelphia Phillies": "File:Philadelphia_Phillies_Insignia.svg",
-    "Pittsburgh Pirates": "File:Pittsburgh_Pirates_logo_2014.svg",
-    "San Diego Padres": "File:SD_Logo_Brown.svg",
-    "San Francisco Giants": "File:San_Francisco_Giants_Cap_Insignia.svg",
-    "SportsNet New York": "File:SNY_logo.svg",
-    "St. Louis Cardinals": "File:St._Louis_Cardinals_insignia_logo.svg",
-    "Tampa Bay Rays": "File:Tampa_Bay_Rays_Logo.svg",
-    "Texas Rangers": "File:Texas Rangers logo.svg",
-    "TV ONE": "File:TV One US 2012.png",
-    "USA Network": "File:USA_Network_2020.svg",
+    "TRT": "File:TRT_logo.svg",
 }
 
-WIKI_ENWIKI = {
-    "Baltimore Orioles": "File:Baltimore Orioles Cap Insignia.svg",
-    "Miami Marlins": "File:Marlins team logo.svg",
-    "Milwaukee Brewers": "File:Milwaukee Brewers logo.svg",
-    "Seattle Mariners": "File:Seattle Mariners Insignia.svg",
-    "Toronto Blue Jays": "File:Toronto Blue Jay Primary Logo.svg",
-}
+WIKI_ENWIKI = {}
 
 
 def http_get(url, referer=REFERER, tries=5):
@@ -117,7 +47,7 @@ def http_get(url, referer=REFERER, tries=5):
         "Accept": "*/*",
     }
     token = os.environ.get("GITHUB_TOKEN")
-    if url.startswith("https://api.github.com/") and token:
+    if url.startswith("https://github.com") and token:
         headers["Authorization"] = f"token {token}"
     for attempt in range(tries):
         req = Request(url, headers=headers)
@@ -128,13 +58,13 @@ def http_get(url, referer=REFERER, tries=5):
             code = getattr(e, "code", None)
             if code == 429:
                 wait = min(60, (attempt + 1) * 5)
-                print(f"  rate limited, sleeping {wait}s ...", file=sys.stderr)
+                print(f"  oran sınırlandı (rate limited), {wait}sn bekleniyor ...", file=sys.stderr)
                 time.sleep(wait)
                 continue
             if attempt == tries - 1:
                 raise
             time.sleep(2 * (attempt + 1))
-    raise RuntimeError(f"failed to fetch {url}")
+    raise RuntimeError(f"Bağlantı hatası: {url}")
 
 
 def b64dec(s):
@@ -157,11 +87,15 @@ def extract_stream_url(html):
         return None
     url = m.group(0)
     if url.startswith("?"):
-        url = f"https://cdnlivetv.tv/secure/api/v1/{ch.group(1)}/playlist.m3u8" + url
+        url = f"https://cdnlivetv.tv{ch.group(1)}/playlist.m3u8" + url
     return url
 
 
 def normalize(s):
+    # Türkçe karakter desteği için genişletilmiş dönüşüm
+    s = s.replace("ı", "i").replace("İ", "i").replace("ğ", "g").replace("Ğ", "g")
+    s = s.replace("ü", "u").replace("Ü", "u").replace("ş", "s").replace("Ş", "s")
+    s = s.replace("ö", "o").replace("Ö", "o").replace("ç", "c").replace("Ç", "c")
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     s = s.replace("&", " and ").replace("+", " plus ")
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -186,8 +120,8 @@ def load_logo_index():
             json.dump(paths, open(LOGO_INDEX_FILE, "w", encoding="utf-8"))
     except Exception as e:
         if not paths:
-            raise SystemExit(f"Could not fetch tv-logos index: {e}")
-        print(f"  using cached logo index ({len(paths)} logos): {e}",
+            raise SystemExit(f"Logo indeksi alınamadı: {e}")
+        print(f"  Önbellekteki logolar kullanılıyor ({len(paths)} logo): {e}",
               file=sys.stderr)
     paths = [p for p in paths if p.startswith("countries/") and p.endswith(".png")]
     by_file = {}
@@ -273,27 +207,27 @@ def match_logo(name, code, by_file):
 
 def wiki_logo(name):
     if name in WIKI_COMMONS:
-        f, host = WIKI_COMMONS[name], "https://commons.wikimedia.org"
+        f, host = WIKI_COMMONS[name], "https://wikimedia.org"
     elif name in WIKI_ENWIKI:
-        f, host = WIKI_ENWIKI[name], "https://en.wikipedia.org"
+        f, host = WIKI_ENWIKI[name], "https://wikipedia.org"
     else:
         return None
     return f"{host}/wiki/Special:FilePath/{quote(f)}?width=512"
 
 
-def build_playlist(limit=None, codes=ENGLISH_CODES, delay=0.0):
+def build_playlist(limit=None, codes=TURKISH_CODES, delay=1.5):
     params = {"user": "cdnlivetv", "plan": "free"}
     url = API + "?" + urlencode(params)
-    print("Fetching channel list ...", file=sys.stderr)
+    print("Kanal listesi çekiliyor ...", file=sys.stderr)
     data = json.loads(http_get(url))
     channels = [c for c in data.get("channels", []) if c.get("code") in codes]
-    print(f"Total: {data.get('total_channels')}, English: {len(channels)}",
+    print(f"Toplam global kanal: {data.get('total_channels')}, Türkiye kanalları: {len(channels)}",
           file=sys.stderr)
 
-    print("Fetching tv-logos index ...", file=sys.stderr)
+    print("Tv-logos indeksi çekiliyor ...", file=sys.stderr)
     by_file, used_cache = load_logo_index()
     if used_cache:
-        print("  (used cached logo index)", file=sys.stderr)
+        print("  (Önbelleğe alınmış logo indeksi kullanıldı)", file=sys.stderr)
 
     channels = channels if limit is None else channels[:limit]
     entries = []
@@ -314,8 +248,8 @@ def build_playlist(limit=None, codes=ENGLISH_CODES, delay=0.0):
                 break
             except Exception as e:
                 tries -= 1
-                print(f"  error {name}: {e}", file=sys.stderr)
-                time.sleep(3)
+                print(f"  Hata {name}: {e}", file=sys.stderr)
+                time.sleep(4)
         if stream:
             logo = match_logo(name, ch["code"], by_file)
             if not logo:
@@ -329,12 +263,12 @@ def build_playlist(limit=None, codes=ENGLISH_CODES, delay=0.0):
             entries.append((ch, stream))
         else:
             failed += 1
-            print(f"  skipped: {name} (no stream url)", file=sys.stderr)
+            print(f"  Atlandı: {name} (Yayın URL'i bulunamadı)", file=sys.stderr)
         print(f"  [{i}/{len(channels)}] {name}", file=sys.stderr)
         if delay:
             time.sleep(delay)
 
-    print(f"Logos matched: {matched}/{len(channels)}", file=sys.stderr)
+    print(f"Eşleşen Logolar: {matched}/{len(channels)}", file=sys.stderr)
     return entries, failed
 
 
@@ -353,24 +287,11 @@ def write_m3u(entries, out):
 
 def main():
     ap = argparse.ArgumentParser(
-        description="Generate an m3u playlist of English channels from CDN Live TV.")
-    ap.add_argument("-o", "--output", default="cdnlivetv_english.m3u8",
-                    help="output playlist file")
-    ap.add_argument("--codes", default=",".join(ENGLISH_CODES),
-                    help="comma-separated country codes to include")
+        description="CDN Live TV üzerinden Türkiye kanalları için m3u listesi oluşturur.")
+    ap.add_argument("-o", "--output", default="madueke.m3u8",
+                    help="Çıktı m3u8 playlist dosyası")
+    ap.add_argument("--codes", default=",".join(TURKISH_CODES),
+                    help="Dahil edilecek ülke kodları (virgülle ayrılmış)")
     ap.add_argument("--limit", type=int, default=None,
-                    help="only process first N channels (for testing)")
-    ap.add_argument("--delay", type=float, default=0.7,
-                    help="seconds to wait between player page requests")
-    args = ap.parse_args()
-
-    codes = tuple(c.strip().lower() for c in args.codes.split(",") if c.strip())
-    entries, failed = build_playlist(limit=args.limit, codes=codes,
-                                     delay=args.delay)
-    write_m3u(entries, args.output)
-    print(f"Wrote {len(entries)} channels to {args.output} "
-          f"({failed} failed)", file=sys.stderr)
-
-
-if __name__ == "__main__":
-    main()
+                    help="Sadece ilk N kanalı işle (test etmek için)")
+    ap.add_argument("--delay", type=float, default=1.5,
