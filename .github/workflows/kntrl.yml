@@ -61,7 +61,7 @@ jobs:
         
       - name: madueke.py Çalıştır        
         continue-on-error: true
-        run: python rnl.py   
+        run: python madueke.py   
 
 
       - name: sc.py Çalıştır ve Değişiklik Kontrol
