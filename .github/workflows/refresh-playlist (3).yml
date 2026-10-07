@@ -25,7 +25,7 @@ jobs:
           python-version: "3.14"
 
       - name: Generate playlist
-        run: python cdnlivetv_m3u.py
+        run: python madueke.py
 
       - name: Commit and push updated playlist
         run: |
