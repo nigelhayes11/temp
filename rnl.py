@@ -13,7 +13,7 @@ HEADERS = {
 }
 
 OUTPUT_FILENAME = "rnl.m3u"
-STATIC_LOGO = "https://i.hizliresim.com/8xzjgqv.jpg"
+STATIC_LOGO = "https://i.hizliresim.com/d3ddoc6c.jpg"
 
 # --- ATOM SPOR LOGIC ---
 ATOM_CHANNELS = [
