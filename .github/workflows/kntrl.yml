@@ -42,9 +42,9 @@ jobs:
         continue-on-error: true
         run: python selcuk.py
 
-      - name: r2.py Çalıştır
+      - name: zs.py Çalıştır
         continue-on-error: true
-        run: python r2.py
+        run: python zs.py
         
       - name: sa.py Çalıştır        
         continue-on-error: true
