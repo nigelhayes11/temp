@@ -32,8 +32,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run taraftarium24.py
-        run: python taraftarium24.py
+      - name: Run an.py
+        run: python an.py
 
       - name: Commit changes
         run: |
