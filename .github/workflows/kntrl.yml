@@ -34,17 +34,12 @@ jobs:
         continue-on-error: true
         run: python oki.py  
 
-      - name: an.py Çalıştır
-        continue-on-error: true
-        run: python an.py
+  
 
       - name: selcuk.py Çalıştır
         continue-on-error: true
         run: python selcuk.py
 
-      - name: zs.py Çalıştır
-        continue-on-error: true
-        run: python zs.py
         
       - name: sa.py Çalıştır        
         continue-on-error: true
