@@ -2,7 +2,7 @@
 tvf = 'tvf.m3u'
 r2 = 'r2.m3u'
 selcukk = 'selcukk.m3u'
-an = 'an.m3u'
+an = 'an.m3u8'
 ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
