@@ -3,7 +3,6 @@ tvf = 'tvf.m3u'
 r2 = 'r2.m3u'
 selcukk = 'selcukk.m3u'
 an = 'an.m3u8'
-ne = 'ne.m3u'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 madueke = 'madueke.m3u8'
@@ -24,7 +23,6 @@ tvf_icerik = oku_m3u(tvf)
 r2_icerik = oku_m3u(r2)
 selcukk_icerik = oku_m3u(selcukk)
 an_icerik = oku_m3u(an)
-ne_icerik = oku_m3u(ne)
 rnl_icerik = oku_m3u(rnl)
 madueke_icerik = oku_m3u(madueke)
 sa_icerik = oku_m3u(sa)
@@ -36,7 +34,6 @@ birlesik_icerik = (
     r2_icerik +
     selcukk_icerik +
     an_icerik +
-    ne_icerik +
     rnl_icerik +
     madueke_icerik +
     sa_icerik +
