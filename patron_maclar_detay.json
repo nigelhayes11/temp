@@ -12,12 +12,36 @@
     "away": "Barcelona"
   },
   {
+    "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+    "name": "Galatasaray - Barcelona [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/barcelona.png",
+    "league": "UEFA Şampiyonlar Ligi | FHD",
+    "type": "football",
+    "time": "22:00",
+    "home": "Galatasaray",
+    "away": "Barcelona"
+  },
+  {
     "id": "ex7",
     "name": "Atletico Madrid - Manchester Utd [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
     "home_logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
     "away_logo": "https://patronsports2.cfd/img/logos/manchesterunited.png",
     "league": "UEFA Şampiyonlar Ligi",
+    "type": "football",
+    "time": "22:00",
+    "home": "Atletico Madrid",
+    "away": "Manchester Utd"
+  },
+  {
+    "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+    "name": "Atletico Madrid - Manchester Utd [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/atleticomadrid.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/manchesterunited.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
     "type": "football",
     "time": "22:00",
     "home": "Atletico Madrid",
@@ -36,12 +60,36 @@
     "away": "Lille"
   },
   {
+    "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+    "name": "Arsenal - Lille [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/arsenal.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/arsenal.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/lille.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
+    "type": "football",
+    "time": "22:00",
+    "home": "Arsenal",
+    "away": "Lille"
+  },
+  {
     "id": "ex3",
     "name": "Viking - Bayern Münih [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/viking.png",
     "home_logo": "https://patronsports2.cfd/img/logos/viking.png",
     "away_logo": "https://patronsports2.cfd/img/logos/bayern-munih.png",
     "league": "UEFA Şampiyonlar Ligi",
+    "type": "football",
+    "time": "22:00",
+    "home": "Viking",
+    "away": "Bayern Münih"
+  },
+  {
+    "id": "https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8",
+    "name": "Viking - Bayern Münih [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/viking.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/viking.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/bayern-munih.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
     "type": "football",
     "time": "22:00",
     "home": "Viking",
@@ -60,6 +108,18 @@
     "away": "Club Brugge"
   },
   {
+    "id": "https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8",
+    "name": "Inter - Club Brugge [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/inter.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/inter.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/clubbrugge.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
+    "type": "football",
+    "time": "22:00",
+    "home": "Inter",
+    "away": "Club Brugge"
+  },
+  {
     "id": "ex5",
     "name": "Leipzig - PSV [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/leipzig.png",
@@ -72,12 +132,36 @@
     "away": "PSV"
   },
   {
+    "id": "https://vl2nq8sh4tw1mr7xp5zk9gj3y.medya.trt.com.tr/master.m3u8",
+    "name": "Leipzig - PSV [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/leipzig.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/leipzig.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/psv.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
+    "type": "football",
+    "time": "22:00",
+    "home": "Leipzig",
+    "away": "PSV"
+  },
+  {
     "id": "ex4",
     "name": "Villarreal - Napoli [22:00]",
     "logo": "https://patronsports2.cfd/img/logos/villarreal.png",
     "home_logo": "https://patronsports2.cfd/img/logos/villarreal.png",
     "away_logo": "https://patronsports2.cfd/img/logos/napoli.png",
     "league": "UEFA Şampiyonlar Ligi",
+    "type": "football",
+    "time": "22:00",
+    "home": "Villarreal",
+    "away": "Napoli"
+  },
+  {
+    "id": "https://sh7tq2nw5mr1vl9xp4zk3gj8k.medya.trt.com.tr/master.m3u8",
+    "name": "Villarreal - Napoli [22:00]",
+    "logo": "https://patronsports2.cfd/img/logos/villarreal.png",
+    "home_logo": "https://patronsports2.cfd/img/logos/villarreal.png",
+    "away_logo": "https://patronsports2.cfd/img/logos/napoli.png",
+    "league": "Sadece Türkiye'den izlenebilir.",
     "type": "football",
     "time": "22:00",
     "home": "Villarreal",
