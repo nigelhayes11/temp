@@ -11,7 +11,8 @@ cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 def oku_m3u(dosya_adi):
     try:
         with open(dosya_adi, 'r', encoding='utf-8') as f:
-            return [satir.rstrip() for satir in f if satir.strip()]
+            # Satırları temizle, boş olanları ve en baştaki #EXTM3U etiketini filtrele
+            return [satir.rstrip() for satir in f if satir.strip() and not satir.startswith("#EXTM3U")]
     except FileNotFoundError:
         print(f"⚠️ Dosya bulunamadı: {dosya_adi}")
         return []
@@ -24,14 +25,14 @@ rnl_icerik = oku_m3u(rnl)
 madueke_icerik = oku_m3u(madueke)
 liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
 
-# Birleştir
+# Birleştir (Sondaki fazla + işareti kaldırıldı)
 birlesik_icerik = (
    tvf_icerik +
    selcukk_icerik +
    an_icerik +
    rnl_icerik +
    madueke_icerik +
-   liveeventsfilter_icerik +
+   liveeventsfilter_icerik
 )
 
 # Yeni dosyaya yaz
