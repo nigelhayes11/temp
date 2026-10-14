@@ -31,7 +31,7 @@ birlesik_icerik = (
    an_icerik +
    rnl_icerik +
    madueke_icerik +
-   liveeventsfilter_icerik 
+   liveeventsfilter_icerik +
 )
 
 # Yeni dosyaya yaz
