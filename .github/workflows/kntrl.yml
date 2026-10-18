@@ -3,11 +3,10 @@ name: Kontrol
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'  
+    - cron: '0 */1 * * *'  # 5 dakika yerine HER SAAT BAŞI çalışacak şekilde güncellendi
 
 jobs:
   BirlesikGuncelleme:
