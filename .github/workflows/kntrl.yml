@@ -53,8 +53,11 @@ jobs:
         
       - name: madueke.py Çalıştır        
         continue-on-error: true
-        run: python madueke.py   
-
+        
+        run: python tika.py   
+      - name: tika.py Çalıştır        
+        continue-on-error: true
+        run: python tika.py  
 
       - name: sc.py Çalıştır ve Değişiklik Kontrol
         id: degisiklik_kontrol
