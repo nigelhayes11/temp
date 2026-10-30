@@ -5,8 +5,8 @@ concurrency:
   cancel-in-progress: true
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */1 * * *'  # 5 dakika yerine HER SAAT BAŞI çalışacak şekilde güncellendi
+    schedule:
+    - cron: '*/20 * * * *'  # 20 dakikada bir çalışacak şekilde güncellendi
 
 jobs:
   BirlesikGuncelleme:
