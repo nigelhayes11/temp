@@ -5,7 +5,7 @@ an = 'an.m3u8'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 madueke = 'madueke.m3u8'
-cdnlive = 'cdnlivetv_channels.m3u'
+cdnlivetv_channels = 'cdnlivetv_channels.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
 # M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
