@@ -5,6 +5,7 @@ an = 'an.m3u8'
 rnl = 'rnl.m3u'
 liveeventsfilter = 'liveeventsfilter.m3u8'
 madueke = 'madueke.m3u8'
+cdnlive = 'cdnlivetv_channels.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
 # M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
@@ -23,8 +24,9 @@ selcukk_icerik = oku_m3u(selcukk)
 an_icerik = oku_m3u(an)
 rnl_icerik = oku_m3u(rnl)
 madueke_icerik = oku_m3u(madueke)
+tvf_icerik = oku_m3u(tvf)
 liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
-
+cdnlivetv_channels_icerik = oku_m3u(cdnlivetv_channels)  
 # Birleştir (Sondaki fazla + işareti kaldırıldı)
 birlesik_icerik = (
    tvf_icerik +
@@ -32,6 +34,7 @@ birlesik_icerik = (
    an_icerik +
    rnl_icerik +
    madueke_icerik +
+   cdnlivetv_channels +
    liveeventsfilter_icerik
 )
 
