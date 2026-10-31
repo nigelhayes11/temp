@@ -8,7 +8,7 @@ madueke = 'madueke.m3u8'
 cdnlivetv_channels = 'cdnlivetv_channels.m3u'
 cikis_dosyasi = 'MAN NORMAL TV 2025.m3u'
 
-# M3U / M3U8 dosyalarını oku (TEK FONKSİYON)
+# M3U / M3U8 dosyalarını oku
 def oku_m3u(dosya_adi):
     try:
         with open(dosya_adi, 'r', encoding='utf-8') as f:
@@ -24,18 +24,18 @@ selcukk_icerik = oku_m3u(selcukk)
 an_icerik = oku_m3u(an)
 rnl_icerik = oku_m3u(rnl)
 madueke_icerik = oku_m3u(madueke)
-tvf_icerik = oku_m3u(tvf)
-liveeventsfilter_icerik = oku_m3u(liveeventsfilter)  
-cdnlivetv_channels_icerik = oku_m3u(cdnlivetv_channels)  
-# Birleştir (Sondaki fazla + işareti kaldırıldı)
+liveeventsfilter_icerik = oku_m3u(liveeventsfilter)
+cdnlivetv_channels_icerik = oku_m3u(cdnlivetv_channels) # Hata düzeltildi
+
+# Birleştir 
 birlesik_icerik = (
-   tvf_icerik +
-   selcukk_icerik +
-   an_icerik +
-   rnl_icerik +
-   madueke_icerik +
-   cdnlivetv_channels +
-   liveeventsfilter_icerik
+    tvf_icerik + 
+    selcukk_icerik + 
+    an_icerik + 
+    rnl_icerik + 
+    madueke_icerik + 
+    cdnlivetv_channels_icerik + # _icerik takısı eklendi (Hata düzeltildi)
+    liveeventsfilter_icerik
 )
 
 # Yeni dosyaya yaz
