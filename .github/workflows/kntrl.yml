@@ -30,9 +30,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade setuptools wheel Kekik httpx parsel requests cloudscraper beautifulsoup4
           
-      - name: tvf.py Çalıştır
+      - name: oki.py Çalıştır
         continue-on-error: true
-        run: python tvf.py  
+        run: python oki.py  
 
       - name: an.py Çalıştır
         continue-on-error: true
@@ -42,9 +42,9 @@ jobs:
         continue-on-error: true
         run: python selcuk.py
 
-      - name: tika.py Çalıştır
+      - name: r2.py Çalıştır
         continue-on-error: true
-        run: python tika.py
+        run: python r2.py
         
       - name: sa.py Çalıştır        
         continue-on-error: true
