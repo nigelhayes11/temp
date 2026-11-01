@@ -1,4 +1,4 @@
-name: Taraftarium24 M3U8
+name: Tika
 
 permissions:
   contents: write   # <<--- En önemli satır (push izni)
@@ -32,8 +32,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run an.py
-        run: python an.py
+      - name: Run tika.py
+        run: python tika.py
 
       - name: Commit changes
         run: |
