@@ -32,21 +32,15 @@ jobs:
       # ============================================================
       # ESTRATTORI ATTIVI
       # ============================================================
-      - name: Extract DAMITV streams
-        run: python damitv_extractor.py
-        continue-on-error: true
+      
 
-      - name: Extract Daddylive streams
-        run: python daddylive_extractor.py
-        continue-on-error: true
+     
 
       - name: Extract CDN Live TV channels and events
-        run: python cdnlivetv_extractor.py
+        run: python tika.py
         continue-on-error: true
 
-      - name: Extract Vavoo
-        run: python vavoo_extractor.py
-        continue-on-error: true
+     
 
 
 
