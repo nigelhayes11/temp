@@ -1,23 +1,26 @@
-name: PAKETOS 
+name: PAKETOS
+
+on: 
+  schedule:
+    - cron: '0 * * * *' # Her saat başı çalışır
+  workflow_dispatch:     # El ile tetikleme açık
 
 permissions:
-  contents: write   # <<--- En önemli satır (push izni)
-
-on:
-  schedule:
-    - cron: '0 * * * *'  # Her saat başı çalışır
-  workflow_dispatch:
+  contents: write        # Depoya yazma izni (Kesinlikle en üst seviyede kalmalı)
 
 jobs:
   update-files:
     runs-on: ubuntu-latest
-
     steps:
+      # v4 sürümüne yükseltildi (Node uyarılarını siler)
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} 
 
+      # v5 sürümüne yükseltildi (Node uyarılarını siler)
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -35,18 +38,16 @@ jobs:
       - name: Run fll.py
         run: python fll.py
 
+      # Python kodunun diske gerçekten dosya yazıp yazmadığını görmek için kritik adım
+      - name: Check file status
+        run: git status
+
       - name: Commit changes
         run: |
           git add .
           git commit -m "Auto-update m3u8 files" || echo "No changes to commit"
 
-      - name: Pull remote changes safely
-        run: |
-          git fetch origin main
-          git rebase origin/main || git rebase --abort
-
       - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+          git pull origin main --rebase
+          git push origin main
