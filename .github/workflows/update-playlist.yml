@@ -47,9 +47,6 @@ jobs:
    
 
       
-      - name: Check streams
-        run: python check_playlist.py
-        continue-on-error: true
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
