@@ -1,3 +1,15 @@
+import os
+import sys
+
+try:
+    from selectolax.lexbor import LexborHTMLParser as HTMLParser
+except ModuleNotFoundError:
+    print("selectolax kütüphanesi bulunamadı, otomatik yükleniyor...")
+    os.system(f"{sys.executable} -m pip install selectolax")
+    from selectolax.lexbor import LexborHTMLParser as HTMLParser
+
+
+
 import asyncio
 import re
 from functools import partial
