@@ -34,8 +34,8 @@ jobs:
 
       - name: Run an.py
         run: python an.py
-      - name: Run poketop.py
-        run: python poketop.py
+      - name: Run update_tv.py
+        run: python update_tv.py
       - name: Commit changes
         run: |
           git add .
