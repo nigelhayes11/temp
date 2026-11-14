@@ -34,8 +34,8 @@ jobs:
 
       - name: Run an.py
         run: python an.py
-      - name: Run tika.py
-        run: python tika.py
+      - name: Run dami.py
+        run: python dami.py
      
       - name: Commit changes
         run: |
