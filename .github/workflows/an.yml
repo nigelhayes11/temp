@@ -36,7 +36,8 @@ jobs:
         run: python an.py
       - name: Run dami.py
         run: python dami.py
-       - name: Run sportspass.py
+        
+      - name: Run sportspass.py
         run: python sportspass.py
       - name: Commit changes
         run: |
