@@ -3,15 +3,9 @@
 #EXT-X-REFERER:https://streamseast.dad/
 #EXT-X-ORIGIN:https://streamseast.dad
 
-#EXTINF:-1 tvg-name="[NBA] Cleveland Cavaliers at Miami Heat" group-title="NBA",[NBA] Cleveland Cavaliers at Miami Heat
-https://aspencache.s3.eu-central-1.amazonaws.com/knicks.m3u8
-#EXTINF:-1 tvg-name="[NBA] Atlanta Hawks at Chicago Bulls" group-title="NBA",[NBA] Atlanta Hawks at Chicago Bulls
-https://aspencache.s3.eu-central-1.amazonaws.com/bulls.m3u8
-#EXTINF:-1 tvg-name="[NBA] Memphis Grizzlies at New Orleans Pelicans" group-title="NBA",[NBA] Memphis Grizzlies at New Orleans Pelicans
-https://aspencache.s3.eu-central-1.amazonaws.com/grizzlies.m3u8
-#EXTINF:-1 tvg-name="[NBA] Utah Jazz at Houston Rockets" group-title="NBA",[NBA] Utah Jazz at Houston Rockets
-https://aspencache.s3.eu-central-1.amazonaws.com/rockets.m3u8
 #EXTINF:-1 tvg-name="[NBA] Golden State Warriors at San Antonio Spurs" group-title="NBA",[NBA] Golden State Warriors at San Antonio Spurs
 https://aspencache.s3.eu-central-1.amazonaws.com/warriors.m3u8
 #EXTINF:-1 tvg-name="[NBA] Portland Trail Blazers at Sacramento Kings" group-title="NBA",[NBA] Portland Trail Blazers at Sacramento Kings
 https://aspencache.s3.eu-central-1.amazonaws.com/blazers.m3u8
+#EXTINF:-1 tvg-name="[NBA] Oklahoma City Thunder at LA Clippers" group-title="NBA",[NBA] Oklahoma City Thunder at LA Clippers
+https://aspencache.s3.eu-central-1.amazonaws.com/thunder.m3u8
