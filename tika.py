@@ -27,7 +27,7 @@ CHANNELS_OUTPUT = "cdnlivetv_channels.m3u"
 EVENTS_OUTPUT = "cdnlivetv_events.m3u"
 
 # --- SOLO CALCIO ---
-ONLY_SPORT = "Soccer"
+ONLY_SPORT = ["Soccer", "Basketball"]
 
 # --- ANTI RATE-LIMIT ---
 MAX_WORKERS = 3
