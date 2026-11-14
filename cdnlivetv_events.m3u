@@ -1,11 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ar" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/argentina/tyc-sports-hd-arg.webp" group-title="CDN Live TV Events - Soccer",Argentina vs Uruguay - TyC Sports HD ARG
-https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e0736406a5/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNmE1OjE3OTQ2MjQ4MDQyMDc6Y2RubGl2ZXR2LnR2OmRmYjU3OWU3ZjExOTg5ODMuMzIzNGEzN2MxN2ZiNDM3MGY5NDc1NTQyMWY4NDFlOTA4OGU1YjBhNTFlMjA3ZDY5MWM1ZjY2ZmNkZTljNGE0MA
-#EXTINF:-1 tvg-id="il" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-4-hd-il.webp" group-title="CDN Live TV Events - Soccer",Colombia vs Chile - Sport 4 HD IL
-https://cdnlivetv.tv/secure/api/v1/6add40b32d4a99e073641357/playlist.m3u8?token=NmFkZDQwYjMyZDRhOTllMDczNjQxMzU3OjE3OTQ2MjQ4MDQ0MDA6Y2RubGl2ZXR2LnR2OmViMDM4ZGVkZThmYjQyMWYuZDMxMmMyZDAyMDhjYzBmZWYwNGU3MTE1YjM2ZTI1MjIyMTFmNDZjOTc3YWU2OWYyNDkyZTkyZDEyNmU0MjljNA
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Atlético Goianiense vs Cuiabá - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI1MTE6Y2RubGl2ZXR2LnR2Ojk0YWQ1Y2NjMjU3OTJlYTUuNGEyOGNkODMzMzVlYmQ5ZjJlNjA2YWZlNTJiZDk0ZjljNTU1YzIyMzNiMWY0Y2RhNTMyMjk0ODBmNWE2ZTJkNw
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Criciúma vs Novorizontino - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Fortaleza vs Vila Nova - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Juventude vs Botafogo-SP - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Londrina vs Náutico - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Ponte Preta vs Operário Ferroviário - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",São Bernardo vs Athletic Club-MG - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",Sport Recife vs Goiás - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",CRB vs Ceará - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI3NjQ6Y2RubGl2ZXR2LnR2OjE0ODVjZTJkMTE0YzcyYTMuM2Q5YmNiNWE1MWZiM2M5ZDU1N2U5Y2IwMjkyMDkwNTVlY2U1Y2MxODAwMzJmOThiMmZmZmRjNmY4YzE1MDk4Mg
+#EXTINF:-1 group-title="CDN Live TV Events - Soccer",América Mineiro vs Avaí - Premiere Clubes HD BR
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e07364059f/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNTlmOjE3OTQ2NDE2ODI1MDk6Y2RubGl2ZXR2LnR2OmMyMjUyNzliMjM2YWY3M2YuN2RiYmZlMjE3ZGYyM2IyNWRmYjQyOGJhZGU4ODgxMzUyMjZjMGUyN2JiODQxNDkwNjc5ZTEyYTUxMzNiYTkwNw
 #EXTINF:-1 tvg-id="il" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-4-hd-il.webp" group-title="CDN Live TV Events - Soccer",Chile vs Colombia - Sport 4 HD IL
-https://cdnlivetv.tv/secure/api/v1/6add40b32d4a99e073641357/playlist.m3u8?token=NmFkZDQwYjMyZDRhOTllMDczNjQxMzU3OjE3OTQ2MjQ4MDQ0MDA6Y2RubGl2ZXR2LnR2OmViMDM4ZGVkZThmYjQyMWYuZDMxMmMyZDAyMDhjYzBmZWYwNGU3MTE1YjM2ZTI1MjIyMTFmNDZjOTc3YWU2OWYyNDkyZTkyZDEyNmU0MjljNA
-#EXTINF:-1 tvg-id="il" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/israel/sport-3-hd-il.webp" group-title="CDN Live TV Events - Soccer",Ecuador vs Costa Rica - Sport 3 HD IL
-https://cdnlivetv.tv/secure/api/v1/6add40b32d4a99e073641356/playlist.m3u8?token=NmFkZDQwYjMyZDRhOTllMDczNjQxMzU2OjE3OTQ2MjQ4MDUzMTE6Y2RubGl2ZXR2LnR2OmIwMzUwNzA2MDE3OGZlOTAuMjQ4MmNlOWQyNGI5MjA0YjkwMDY5NmJmMDZjMmE3MWM5ZmVmOTFkMGViOGMyOTcyNDNhYmE2ZGU5NmI2NDY4Nw
-#EXTINF:-1 group-title="CDN Live TV Events - Soccer",France U21 vs Italy U21 - 3:00 PM EDT Oregon @ Illinois 10/24 [DAZN CA]
-https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed81/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDgxOjE3OTQ2MjQ4MDQ0MTI6Y2RubGl2ZXR2LnR2OjAxYWFlNDYwZDE4YzY2M2IuZWQwOTFiYWQ3NTY3YTRiOWNmYTM4ZmIwODNhYmQzODc2NWNjYmI2NmQzNjI3YmUzZjg0MDg2MWYzMjYwMTQ0ZA
+https://cdnlivetv.tv/secure/api/v1/6add40b32d4a99e073641357/playlist.m3u8?token=NmFkZDQwYjMyZDRhOTllMDczNjQxMzU3OjE3OTQ2NDE2ODkyMjY6Y2RubGl2ZXR2LnR2OjJhMzQ1YjgwMmI1YzU3YTQuNWNhODU4ZDZmY2ViYWM1MjFiYWIyYzA4NDdmZTcyZDM0MWU4ZTljZDY1Mzg3ZjI3YmNmNDY5M2U0YmZlMGY3OA
+#EXTINF:-1 tvg-id="ar" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/argentina/tyc-sports-fhd-arg.webp" group-title="CDN Live TV Events - Soccer",Banfield vs Boca Juniors - TYC Sports FHD ARG
+https://cdnlivetv.tv/secure/api/v1/6add40b22d4a99e0736406a4/playlist.m3u8?token=NmFkZDQwYjIyZDRhOTllMDczNjQwNmE0OjE3OTQ2NDE2ODkwODc6Y2RubGl2ZXR2LnR2OmIxYzU5ZTYzZjg0MWJkYzguNTRjOTNiYjI5YjRhMzY5ZTUyZTNhNThiMThiZTQxMjI4MWEwZGEyMThlMzRmN2RhMjM0MTJkOTdiZTI2YWNlZA
