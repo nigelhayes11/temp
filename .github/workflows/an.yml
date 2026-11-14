@@ -34,10 +34,9 @@ jobs:
 
       - name: Run an.py
         run: python an.py
-      - name: Run sportspass.py
-        run: python sportspass.py
-      - name: Run dami.py
-        run: python dami.py
+      - name: Run tika.py
+        run: python tika.py
+     
       - name: Commit changes
         run: |
           git add .
