@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://damitv.st"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+DEFAULT_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
 
 def get_events(page) -> list[dict]:
@@ -15,11 +15,9 @@ def get_events(page) -> list[dict]:
     print(f"📡 Maç listesi tarayıcı ile çekiliyor: {api_url}")
 
     try:
-        # Cloudflare koruması varsa geçmesi için önce ana sayfaya uğra
         page.goto(BASE_URL, timeout=20000, wait_until="domcontentloaded")
         page.wait_for_timeout(2000)
 
-        # Tarayıcının kendi fetch isteğiyle API verisini al
         api_data = page.evaluate(f"""async () => {{
             const res = await fetch("{api_url}");
             return await res.json();
@@ -33,7 +31,6 @@ def get_events(page) -> list[dict]:
         return []
 
     now = datetime.now(timezone.utc)
-    # Saat aralığını genişlettik (3 saat önce başlamış - 6 saat sonra başlayacaklar)
     start_dt = now - timedelta(hours=3)
     end_dt = now + timedelta(hours=6)
 
@@ -89,7 +86,9 @@ def extract_m3u8(page, event: dict) -> str | None:
     try:
         data = page.evaluate(f"""async () => {{
             const res = await fetch("{extract_url}", {{
-                headers: {{ "Referer": "{event['refer']}" }}
+                headers: {{
+                    "Referer": "{event['refer']}"
+                }}
             }});
             if (!res.ok) return null;
             return await res.json();
@@ -105,16 +104,17 @@ def extract_m3u8(page, event: dict) -> str | None:
         else:
             print(f"❌ Kaynak henüz aktif değil: {event['name']}")
             return None
+
     except Exception as e:
         print(f"⚠️ Hata ({event['name']}): {e}")
         return None
 
 
-def save_outputs(streams: list[dict], m3u_filename: str = "dami.m3u", strm_folder: str = "dami_strm"):
+def save_outputs(streams: list[dict], user_agent: str, m3u_filename: str = "dami.m3u", strm_folder: str = "dami_strm"):
     """Bulunan yayınları dami.m3u ve STRM dosyaları olarak kaydeder."""
     with open(m3u_filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        f.write(f"#EXT-X-USER-AGENT:{USER_AGENT}\n")
+        f.write(f"#EXT-X-USER-AGENT:{user_agent}\n")
         f.write(f"#EXT-X-REFERER:{BASE_URL}/\n")
         f.write(f"#EXT-X-ORIGIN:{BASE_URL}\n\n")
 
@@ -122,10 +122,12 @@ def save_outputs(streams: list[dict], m3u_filename: str = "dami.m3u", strm_folde
             title = f"[{s['sport']}] {s['name']}"
             f.write(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{s["logo"]}" group-title="{s["sport"]}",{title}\n')
             f.write(f'#EXTVLCOPT:http-referrer={s["refer"]}\n')
+            f.write(f'#EXTVLCOPT:http-user-agent={user_agent}\n')
             f.write(f"{s['url']}\n")
 
     base_dir = Path(strm_folder)
     base_dir.mkdir(parents=True, exist_ok=True)
+
     for old_file in base_dir.glob("*.strm"):
         old_file.unlink()
 
@@ -133,7 +135,7 @@ def save_outputs(streams: list[dict], m3u_filename: str = "dami.m3u", strm_folde
         safe_title = re.sub(r'[\\/*?:"<>|]', "", f"[{s['sport']}] {s['name']}").strip()
         file_path = base_dir / f"{safe_title}.strm"
         with open(file_path, "w", encoding="utf-8") as f:
-            f.write(f"{s['url']}|Referer={s['refer']}&User-Agent={USER_AGENT}")
+            f.write(f"{s['url']}|Referer={s['refer']}&User-Agent={user_agent}")
 
     print(f"\n🎉 İşlem tamamlandı! {len(streams)} yayın '{m3u_filename}' dosyasına ve '{strm_folder}' klasörüne kaydedildi.")
 
@@ -141,7 +143,14 @@ def save_outputs(streams: list[dict], m3u_filename: str = "dami.m3u", strm_folde
 def main():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(user_agent=USER_AGENT)
+        context = browser.new_context()
+        page = context.new_page()
+
+        raw_ua = page.evaluate("() => navigator.userAgent")
+        active_ua = raw_ua.replace("HeadlessChrome", "Chrome") if raw_ua else DEFAULT_USER_AGENT
+
+        context.close()
+        context = browser.new_context(user_agent=active_ua)
         page = context.new_page()
 
         events = get_events(page)
@@ -160,7 +169,7 @@ def main():
                 valid_streams.append(ev)
 
         if valid_streams:
-            save_outputs(valid_streams, m3u_filename="dami.m3u")
+            save_outputs(valid_streams, user_agent=active_ua, m3u_filename="dami.m3u")
         else:
             print("😔 Çalışan yayın linki bulunamadı (Maçlar henüz başlamamış olabilir).")
 
