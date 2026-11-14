@@ -35,7 +35,7 @@ jobs:
 
       - name: 1. StreamEast (SportPass) Taraması
         continue-on-error: true
-        run: python sportpass.py
+        run: python sportspass.py
 
       - name: 2. DamiTV Taraması
         continue-on-error: true
