@@ -1,16 +1,14 @@
-name: STRMS
+name: IPTV Yayın Listelerini Güncelle
 
 on:
   schedule:
-    # Her 45 dakikada bir çalışır (Maç başlangıçlarını ve token yenilemelerini kaçırmaz)
+    # Her 45 dakikada bir çalışır
     - cron: '*/45 * * * *'
-  # İstediğiniz an GitHub Actions sekmesinden el ile çalıştırmak için:
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Aynı anda iki işlemin çakışmasını önler
 concurrency:
   group: iptv-updater
   cancel-in-progress: true
@@ -24,15 +22,13 @@ jobs:
       - name: Depoyu (Repo) İndir
         uses: actions/checkout@v4
 
-      - name: Python 3.11 Kurulumu
+      - name: Python Kurulumu
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: '3.12'
 
       - name: Playwright ve Tarayıcı Bağımlılıklarını Kur
         run: |
-          python -m pip install --upgrade pip
           pip install playwright
           playwright install chromium
           playwright install-deps chromium
@@ -49,11 +45,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@://github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # Oluşan tüm liste ve klasörleri ekle
           git add *.m3u *.m3u8 strm_streams/ dami_strm/ || true
           
-          # Sadece dosyalarda gerçek bir değişiklik varsa commit ve push yap
           if ! git diff --staged --quiet; then
             git commit -m "Otomatik yayın güncellemesi: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase origin main || true
