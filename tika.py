@@ -1,11 +1,6 @@
 # ================================================================
-# CDN Live TV - Extractor v4 (Soccer only + anti rate-limit + abort)
-# Estrae canali TV + eventi calcio dall'API cdnlivetv.is
-#
-# CHANGELOG v4:
-#  - RETRIES 4→2, BACKOFF_BASE 3→2, BACKOFF_MAX=6 (cap)
-#  - JITTER 0.5-1.2s → 0.3-0.7s
-#  - Abort automatico dopo 20 fallimenti consecutivi (canali)
+# CDN Live TV - Extractor v4 (Soccer & Basketball + anti rate-limit + abort)
+# Estrae canali TV + eventi calcio e basket dall'API cdnlivetv.is
 # ================================================================
 
 import requests
@@ -20,14 +15,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # === CONFIGURAZIONE ===
-API_CHANNELS = "https://api.cdnlivetv.is/api/v1/channels/?user=cdnlivetv&plan=free"
-API_EVENTS = "https://api.cdnlivetv.is/api/v1/events/sports/?user=cdnlivetv&plan=free"
+API_CHANNELS = "https://cdnlivetv.is"
+API_EVENTS = "https://cdnlivetv.is"
 
 CHANNELS_OUTPUT = "cdnlivetv_channels.m3u"
 EVENTS_OUTPUT = "cdnlivetv_events.m3u"
 
-# --- SOLO CALCIO ---
-ONLY_SPORT = "Soccer"
+# --- SOLO CALCIO E BASKET ---
+ONLY_SPORTS = ["Soccer", "Basketball"]
 
 # --- ANTI RATE-LIMIT ---
 MAX_WORKERS = 3
@@ -47,7 +42,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
                   "Chrome/131.0.0.0 Safari/537.36",
-    "Referer": "https://cdnlivetv.tv/",
+    "Referer": "https://cdnlivetv.tv",
     "Origin": "https://cdnlivetv.tv",
     "Accept": "*/*",
     "Accept-Language": "en-US,en;q=0.9",
@@ -211,15 +206,49 @@ def fetch_api(url: str, label: str):
 
 
 # ================================================================
+# SCRITTURA M3U
+# ================================================================
+def write_events_m3u(items: list, filepath: str):
+    valid = [x for x in items if x.get("url")]
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for item in valid:
+            sport = item.get("sport", "Sport")
+            league = item.get("league", "")
+            group = f"{sport} - {league}" if league else sport
+            logo = item.get("img", "")
+            name = item.get("name", "Evento")
+            url = item["url"]
+            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n')
+            f.write(f"{url}\n")
+    print(f"💾 Salvati {len(valid)}/{len(items)} stream eventi in {filepath}")
+
+
+def write_channels_m3u(items: list, filepath: str):
+    valid = [x for x in items if x.get("url")]
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for item in valid:
+            code = item.get("code", "").upper()
+            group = f"TV ({code})" if code else "TV Channels"
+            logo = item.get("img", "")
+            name = item.get("name", "Channel")
+            url = item["url"]
+            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n')
+            f.write(f"{url}\n")
+    print(f"💾 Salvati {len(valid)}/{len(items)} canali TV in {filepath}")
+
+
+# ================================================================
 # MAIN
 # ================================================================
 def main():
     print("=" * 60)
-    print(" CDN Live TV - Extractor v4 (Soccer only + abort)")
+    print(" CDN Live TV - Extractor v4 (Soccer & Basketball + abort)")
     print(f" Workers: {MAX_WORKERS} | Jitter: {JITTER_MIN}-{JITTER_MAX}s")
     print(f" Retries: {RETRIES} | Backoff max: {BACKOFF_MAX}s | Abort: {MAX_CONSECUTIVE_FAIL} KO di fila")
-    if ONLY_SPORT:
-        print(f" Filtro sport: {ONLY_SPORT}")
+    if ONLY_SPORTS:
+        print(f" Filtro sport: {', '.join(ONLY_SPORTS)}")
     print("=" * 60)
 
     # ============ FASE 1: EVENTI ============
@@ -233,138 +262,20 @@ def main():
         for sport, evs in root.items():
             if not isinstance(evs, list):
                 continue
-            if ONLY_SPORT and sport != ONLY_SPORT:
+            if ONLY_SPORTS and sport not in ONLY_SPORTS:
                 continue
             for ev in evs:
                 all_events.append((sport, ev))
 
         print(f"✓ {len(all_events)} eventi" +
-              (f" (solo {ONLY_SPORT})" if ONLY_SPORT else ""))
+              (f" (solo {', '.join(ONLY_SPORTS)})" if ONLY_SPORTS else ""))
 
         if all_events:
-            est_sec = len(all_events) * ((JITTER_MIN + JITTER_MAX) / 2) / MAX_WORKERS
-            print(f"⏱️  Stima: ~{est_sec/60:.0f} min")
-
-            t0 = time.time()
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-                futures = [ex.submit(process_event_item, ev, sp)
-                           for sp, ev in all_events]
-                done = 0
-                ok_total = 0
-                last_log = 0
+                futures = [ex.submit(process_event_item, ev, sp) for sp, ev in all_events]
                 for fut in as_completed(futures):
                     try:
-                        chunk = fut.result()
-                        results_ev_raw.extend(chunk)
-                        ok_total += sum(1 for r in chunk if r.get("url"))
-                    except Exception:
-                        pass
-                    done += 1
-                    now = time.time()
-                    if done % 100 == 0 or (now - last_log) > 30:
-                        elapsed = now - t0
-                        rate = done / elapsed if elapsed > 0 else 0
-                        eta = (len(all_events) - done) / rate if rate > 0 else 0
-                        print(f"  [{done}/{len(all_events)}] "
-                              f"OK: {ok_total} | {elapsed:.0f}s | ETA {eta:.0f}s")
-                        last_log = now
-
-    # ============ PAUSA ============
-    print(f"\n⏸️  Pausa {PAUSE_BETWEEN_PHASES}s...")
-    time.sleep(PAUSE_BETWEEN_PHASES)
-
-    # ============ FASE 2: CANALI (con abort) ============
-    print(f"\n[2/2] Scarico API canali TV...")
-    data_ch = fetch_api(API_CHANNELS, "API canali")
-
-    channels = []
-    if data_ch:
-        channels = data_ch.get("channels", [])
-        print(f"✓ {data_ch.get('total_channels', len(channels))} canali ricevuti")
-
-    if MAX_CHANNELS > 0:
-        channels = channels[:MAX_CHANNELS]
-
-    results_tv = []
-    aborted = False
-    if channels:
-        print(f"Elaboro {len(channels)} canali...")
-        t0 = time.time()
-        last_log = 0
-        done = 0
-        consecutive_fail = 0
-
-        executor = ThreadPoolExecutor(max_workers=MAX_WORKERS)
-        futures = [executor.submit(process_channel, ch) for ch in channels]
-
-        try:
-            for fut in as_completed(futures):
-                r = fut.result()
-                results_tv.append(r)
-                done += 1
-
-                if r["url"]:
-                    consecutive_fail = 0
-                else:
-                    consecutive_fail += 1
-
-                now = time.time()
-                if done % 50 == 0 or (now - last_log) > 30 or done == len(channels):
-                    ok = sum(1 for x in results_tv if x["url"])
-                    print(f"  [{done}/{len(channels)}] OK: {ok}  ({now-t0:.0f}s)")
-                    last_log = now
-
-                if consecutive_fail >= MAX_CONSECUTIVE_FAIL:
-                    print(f"\n🛑 Rate-limit rilevato: {consecutive_fail} KO consecutivi")
-                    print(f"   Abort dopo {done}/{len(channels)} canali (~{now-t0:.0f}s)")
-                    aborted = True
-                    break
-        finally:
-            if aborted:
-                for f in futures:
-                    f.cancel()
-                executor.shutdown(wait=False, cancel_futures=True)
-            else:
-                executor.shutdown(wait=True)
-
-    # ============ DEDUPLICA ============
-    seen_titles = set()
-    results_ev = []
-    for r in results_ev_raw:
-        if not r.get("url"):
-            continue
-        key = normalize_event_name(r["title"]) or r["title"].lower()
-        if key in seen_titles:
-            continue
-        seen_titles.add(key)
-        results_ev.append(r)
-
-    # ============ OUTPUT ============
-    tv_ok = [r for r in results_tv if r["url"]]
-    with open(CHANNELS_OUTPUT, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for r in tv_ok:
-            tvg_id = f' tvg-id="{r["code"]}"' if r["code"] else ""
-            logo = f' tvg-logo="{r["img"]}"' if r["img"] else ""
-            f.write(f'#EXTINF:-1{tvg_id}{logo} '
-                    f'group-title="CDN Live TV Channels",{r["name"]}\n')
-            f.write(f'{r["url"]}\n')
-
-    with open(EVENTS_OUTPUT, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for r in results_ev:
-            tvg_id = f' tvg-id="{r["code"]}"' if r.get("code") else ""
-            logo = f' tvg-logo="{r["img"]}"' if r.get("img") else ""
-            sport = r.get("sport", "Sport")
-            f.write(f'#EXTINF:-1{tvg_id}{logo} '
-                    f'group-title="CDN Live TV Events - {sport}",{r["name"]}\n')
-            f.write(f'{r["url"]}\n')
-
-    print(f"\n✅ Canali TV OK:    {len(tv_ok)}/{len(results_tv)}" +
-          (" (ABORT)" if aborted else ""))
-    print(f"✅ Eventi unici OK: {len(results_ev)}/{len(results_ev_raw)}")
-    print(f"📄 {CHANNELS_OUTPUT} | {EVENTS_OUTPUT}")
-
-
-if __name__ == "__main__":
-    main()
+                        res = fut.result()
+                        if res:
+                            results_ev_raw.extend(res)
+                    except Exception as e:
