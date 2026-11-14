@@ -1,58 +1,231 @@
-name: Cdn
+import requests
+import re
+import base64
+import urllib3
+import time
+import random
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-on:
-  schedule:
-    - cron: "42 * * * *"
-  workflow_dispatch:
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-permissions:
-  contents: write
+# Dosyaları kesin olarak bu .py dosyasının bulunduğu klasöre kaydet
+BASE_DIR = Path(__file__).resolve().parent
+CHANNELS_OUTPUT = BASE_DIR / "cdnlivetv_channels.m3u"
+EVENTS_OUTPUT = BASE_DIR / "cdnlivetv_events.m3u"
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
+# === AYARLAR ===
+API_CHANNELS_LIST = [
+    "https://cdnlivetv.tv",
+    "https://cdnlivetv.is",
+]
+API_EVENTS_LIST = [
+    "https://cdnlivetv.tv",
+    "https://cdnlivetv.is",
+]
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+# Tüm sporlar için boş bırakın: "" (Sadece basketbol için "Basketball" yazın)
+ONLY_SPORT = ""
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+MAX_WORKERS = 3
+TIMEOUT = 20
+RETRIES = 2
+JITTER_MIN = 0.3
+JITTER_MAX = 0.7
+PAUSE_BETWEEN_PHASES = 15
+BACKOFF_BASE = 2
+BACKOFF_MAX = 6
+MAX_CONSECUTIVE_FAIL = 20
 
-      - name: Install system deps + Python packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-          pip install requests yt-dlp playwright curl_cffi
-          playwright install --with-deps chromium
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/131.0.0.0 Safari/537.36",
+    "Referer": "https://cdnlivetv.tv",
+    "Origin": "https://cdnlivetv.tv",
+    "Accept": "*/*",
+}
 
-      # ============================================================
-      # ESTRATTORI ATTIVI
-      # ============================================================
-      
-
-     
-
-      - name: Extract CDN Live TV channels and events
-        run: python tika.py
-        continue-on-error: true
-
-     
-
+_resolve_cache: dict = {}
 
 
-   
+def b64d(s: str) -> bytes:
+    s = s.replace("-", "+").replace("_", "/")
+    s += "=" * (-len(s) % 4)
+    try:
+        return base64.b64decode(s)
+    except Exception:
+        return b""
 
-      
 
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update combined and checked playlists"
-          file_pattern: >-
-            cdnlivetv_channels.m3u
-            cdnlivetv_events.m3u
-      
+def resolve_m3u8(player_url: str):
+    if not player_url:
+        return None, "no player url"
+    if player_url in _resolve_cache:
+        return _resolve_cache[player_url]
+
+    time.sleep(random.uniform(JITTER_MIN, JITTER_MAX))
+    last_err = ""
+
+    for attempt in range(RETRIES):
+        try:
+            r = requests.get(player_url, headers=HEADERS, timeout=TIMEOUT, verify=False)
+            if r.status_code in (429, 502, 503):
+                wait = min((2 ** attempt) * BACKOFF_BASE, BACKOFF_MAX) + random.uniform(0, 1)
+                time.sleep(wait)
+                last_err = f"HTTP {r.status_code}"
+                continue
+
+            if r.status_code != 200:
+                result = (None, f"HTTP {r.status_code}")
+                _resolve_cache[player_url] = result
+                return result
+
+            html = r.text
+            join_match = re.search(
+                r"[A-Za-z_$][\w$]*\s*=\s*("
+                r"(?:[A-Za-z_$][\w$]*\([A-Za-z_$][\w$]*\)\s*\+\s*)+"
+                r"[A-Za-z_$][\w$]*\([A-Za-z_$][\w$]*\))",
+                html,
+            )
+            if not join_match:
+                result = (None, "no concat")
+                _resolve_cache[player_url] = result
+                return result
+
+            args = re.findall(r"[A-Za-z_$][\w$]*\(([A-Za-z_$][\w$]*)\)", join_match.group(1))
+            vars_dict = dict(re.findall(r"var\s+([A-Za-z_$][\w$]*)\s*=\s*'([^']*)'", html))
+
+            parts = [b64d(vars_dict[a]).decode("utf-8", errors="replace") for a in args if a in vars_dict]
+            url = "".join(parts)
+
+            result = (url, None) if url.startswith("http") else (None, "bozuk url")
+            _resolve_cache[player_url] = result
+            return result
+
+        except Exception as e:
+            last_err = f"{type(e).__name__}: {str(e)[:50]}"
+            time.sleep(1 + attempt)
+
+    result = (None, last_err or "hata")
+    _resolve_cache[player_url] = result
+    return result
+
+
+def fetch_working_api(url_list: list, label: str):
+    for url in url_list:
+        print(f"📡 {label} deneniyor: {url}")
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=False)
+            if r.status_code == 200:
+                return r.json()
+            print(f"  ⚠️ Yanıt kodu: {r.status_code}")
+        except Exception as e:
+            print(f"  ⚠️ Bağlantı hatası: {e}")
+    return None
+
+
+def process_channel(ch: dict) -> dict:
+    url, err = resolve_m3u8(ch.get("url", ""))
+    return {
+        "name": ch.get("name", "Unknown"),
+        "code": ch.get("code", ""),
+        "img": ch.get("image", ""),
+        "url": url,
+        "err": err,
+    }
+
+
+def process_event_item(event: dict, sport: str) -> list:
+    out = []
+    title = event.get("event") or event.get("title") or "Maç"
+    league = event.get("tournament") or event.get("league") or sport
+
+    for ch in event.get("channels", []) or []:
+        ch_name = ch.get("channel_name", "")
+        ch_url = ch.get("url", "")
+        if not ch_url:
+            continue
+        full_name = f"[{sport}] {title} - {ch_name}" if ch_name else f"[{sport}] {title}"
+        url, err = resolve_m3u8(ch_url)
+        out.append({
+            "name": full_name,
+            "league": league,
+            "img": ch.get("image", ""),
+            "url": url,
+            "err": err,
+            "sport": sport,
+        })
+    return out
+
+
+def main():
+    print(f"📂 Çıktı klasörü: {BASE_DIR}")
+
+    # 1. SPOR ETKİNLİKLERİ
+    data_ev = fetch_working_api(API_EVENTS_LIST, "Spor API")
+    results_ev = []
+    if data_ev:
+        root = data_ev.get("cdn-live-tv") or data_ev.get("cdnlivetv.tv") or data_ev.get("cdnlivetv.is") or {}
+        all_events = []
+        for sport, evs in root.items():
+            if not isinstance(evs, list):
+                continue
+            if ONLY_SPORT and sport.lower() != ONLY_SPORT.lower():
+                continue
+            for ev in evs:
+                all_events.append((sport, ev))
+
+        print(f"✓ {len(all_events)} maç bulundu. Yayınlar çözülüyor...")
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = [executor.submit(process_event_item, ev, sport) for sport, ev in all_events]
+            for fut in as_completed(futures):
+                results_ev.extend(fut.result())
+
+    valid_events = [x for x in results_ev if x.get("url")]
+    with open(EVENTS_OUTPUT, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for ev in valid_events:
+            group = f"{ev['sport']} | {ev['league']}" if ev['league'] else ev['sport']
+            f.write(f'#EXTINF:-1 tvg-logo="{ev["img"]}" group-title="{group}",{ev["name"]}\n')
+            f.write(f"#EXTVLCOPT:http-referrer={HEADERS['Referer']}\n")
+            f.write(f"{ev['url']}\n")
+    print(f"💾 Kaydedildi: {EVENTS_OUTPUT} ({len(valid_events)} çalışan maç)")
+
+    # 2. TV KANALLARI
+    print(f"\n⏳ Kanallar için {PAUSE_BETWEEN_PHASES} sn bekleniyor...")
+    time.sleep(PAUSE_BETWEEN_PHASES)
+
+    data_ch = fetch_working_api(API_CHANNELS_LIST, "Kanal API")
+    valid_channels = []
+    if data_ch and isinstance(data_ch.get("channels"), list):
+        channels_list = data_ch["channels"]
+        print(f"✓ {len(channels_list)} kanal bulundu. Yayınlar çözülüyor...")
+        consecutive_fails = 0
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {executor.submit(process_channel, ch): ch for ch in channels_list}
+            for fut in as_completed(futures):
+                res = fut.result()
+                if res.get("url"):
+                    consecutive_fails = 0
+                    valid_channels.append(res)
+                else:
+                    consecutive_fails += 1
+                    if consecutive_fails >= MAX_CONSECUTIVE_FAIL:
+                        print(f"🛑 Arka arkaya {MAX_CONSECUTIVE_FAIL} hata (Rate-Limit). Durduruldu.")
+                        for f in futures:
+                            f.cancel()
+                        break
+
+    with open(CHANNELS_OUTPUT, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for ch in valid_channels:
+            group = ch["code"].upper() if ch["code"] else "Genel"
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["img"]}" group-title="{group}",{ch["name"]}\n')
+            f.write(f"#EXTVLCOPT:http-referrer={HEADERS['Referer']}\n")
+            f.write(f"{ch['url']}\n")
+    print(f"💾 Kaydedildi: {CHANNELS_OUTPUT} ({len(valid_channels)} çalışan kanal)")
+
+
+if __name__ == "__main__":
+    main()
