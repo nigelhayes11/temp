@@ -41,16 +41,17 @@ jobs:
         continue-on-error: true
         run: python dami.py
 
-      - name: Oluşan M3U ve STRM Dosyalarını Depoya Kaydet
+           - name: Oluşan M3U ve STRM Dosyalarını Depoya Kaydet
         run: |
-          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add *.m3u *.m3u8 strm_streams/ dami_strm/ || true
           
           if ! git diff --staged --quiet; then
             git commit -m "Otomatik yayın güncellemesi: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main || true
-            git push
+            git pull --rebase origin ${{ github.ref_name }}
+            git push origin HEAD:${{ github.ref_name }}
           else
             echo "Listelerde yeni bir değişiklik yok, push atlandı."
           fi
+
