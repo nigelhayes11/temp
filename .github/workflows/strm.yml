@@ -1,55 +1,63 @@
-name: Taraftarium24 M3U8
-
-permissions:
-  contents: write   # <<--- En önemli satır (push izni)
+name: IPTV Yayın Listelerini Güncelle
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Her saat başı çalışır
+    # Her 45 dakikada bir çalışır (Maç başlangıçlarını ve token yenilemelerini kaçırmaz)
+    - cron: '*/45 * * * *'
+  # İstediğiniz an GitHub Actions sekmesinden el ile çalıştırmak için:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+# Aynı anda iki işlemin çakışmasını önler
+concurrency:
+  group: iptv-updater
+  cancel-in-progress: true
+
 jobs:
-  update-files:
+  scrape-and-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Depoyu (Repo) İndir
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Python 3.11 Kurulumu
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
+          cache: 'pip'
 
-      - name: Install Playwright
+      - name: Playwright ve Tarayıcı Bağımlılıklarını Kur
         run: |
           python -m pip install --upgrade pip
-          python -m pip install playwright
-          python -m playwright install
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: 1. StreamEast (SportPass) Taraması
+        continue-on-error: true
+        run: python sportpass.py
 
-      - name: Run an.py
-        run: python an.py
-      - name: Run sportspass.py
-        run: python sportspass.py
-      - name: Run dami.py
+      - name: 2. DamiTV Taraması
+        continue-on-error: true
         run: python dami.py
-      - name: Commit changes
-        run: |
-          git add .
-          git commit -m "Auto-update m3u8 files" || echo "No changes to commit"
 
-      - name: Pull remote changes safely
+      - name: Oluşan M3U ve STRM Dosyalarını Depoya Kaydet
         run: |
-          git fetch origin main
-          git rebase origin/main || git rebase --abort
-
-      - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Oluşan tüm liste ve klasörleri ekle
+          git add *.m3u *.m3u8 strm_streams/ dami_strm/ || true
+          
+          # Sadece dosyalarda gerçek bir değişiklik varsa commit ve push yap
+          if ! git diff --staged --quiet; then
+            git commit -m "Otomatik yayın güncellemesi: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "Listelerde yeni bir değişiklik yok, push atlandı."
+          fi
