@@ -1,244 +1,156 @@
-import asyncio
 import re
-from functools import partial
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import urljoin
+import requests
 
-from playwright.async_api import Browser, Page, TimeoutError
-from selectolax.lexbor import LexborHTMLParser as HTMLParser
+BASE_URL = "https://damitv.st"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 
-from .utils import Cache, Event, Time, get_logger, leagues, network
-
-log = get_logger(__name__)
-
-urls: dict[str, dict[str, str | float]] = {}
-
-TAG = "SPRTSPASS"
-
-CACHE_FILE = Cache(TAG, exp=10_800)
-
-BASE_URL = "https://streamseast.dad"
-
-SPORT_URLS = {
-    sport: urljoin(BASE_URL, sport.lower())
-    for sport in [
-        # "Boxing",
-        # "F1",
-        # "MLB",
-        # "MMA",
-        "NBA",
-        "NFL",
-        # "NHL",
-        # "Soccer",
-    ]
+HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "application/json, text/plain, */*",
+    "Origin": BASE_URL,
 }
 
 
-async def process_event(
-    url: str,
-    url_num: int,
-    page: Page,
-) -> tuple[str | None, str | None, str | None]:
-
-    captured: list[str] = []
-
-    got_one = asyncio.Event()
-
-    handler = partial(
-        network.capture_req,
-        captured=captured,
-        got_one=got_one,
-    )
-
-    page.on("request", handler)
-
-    event_name = "Sporting Event"
+def get_events() -> list[dict]:
+    """API üzerinden günün maçlarını çeker ve saat aralığına göre filtreler."""
+    api_url = urljoin(BASE_URL, "papi/matches/all-today")
+    print(f"📡 Maç listesi çekiliyor: {api_url}")
 
     try:
-        resp = await page.goto(
-            url,
-            wait_until="domcontentloaded",
-            timeout=6_000,
-        )
-
-        if not resp or not resp.ok:
-            log.error(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
-            return event_name, None
-
-        event_name_elem = page.locator("h1.match-head")
-
-        event_name = await event_name_elem.inner_text(timeout=1_250)
-
-        try:
-            ifr = page.locator("iframe.embed-responsive-item")
-
-            await ifr.wait_for(timeout=1_250)
-
-            ifr_src = await ifr.get_attribute("src")
-        except TimeoutError:
-            log.warning(f"URL {url_num}) No iframe found.")
-            return event_name, None
-
-        await page.goto(
-            ifr_src,
-            wait_until="domcontentloaded",
-            timeout=2_250,
-        )
-
-        try:
-            btn = page.locator(".vjs-big-play-button").first
-
-            await btn.dblclick(force=True, timeout=3_000)
-
-        except TimeoutError:
-            log.warning(f"URL {url_num}) Failed to play source")
-            return event_name, None
-
-        wait_task = asyncio.create_task(got_one.wait())
-
-        try:
-            await asyncio.wait_for(wait_task, timeout=5)
-        except TimeoutError:
-            log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-            return event_name, None
-
-        finally:
-            if not wait_task.done():
-                wait_task.cancel()
-
-                try:
-                    await wait_task
-                except asyncio.CancelledError:
-                    pass
-
-        if captured:
-            if "indianservers" in captured[0].lower():
-                log.warning(f"URL {url_num}) Unsuitable M3U8 link captured.")
-                return event_name, None
-
-            log.info(f"URL {url_num}) Captured M3U8")
-
-            return event_name, captured[0]
+        resp = requests.get(api_url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        api_data = resp.json()
     except Exception as e:
-        log.warning(f"URL {url_num}) {e}")
-        return event_name, None
+        print(f"⚠️ Maç listesi alınamadı: {e}")
+        return []
 
-    finally:
-        page.remove_listener("request", handler)
+    now = datetime.now(timezone.utc)
+    # Orijinal koddaki gibi 30 dk öncesi ve 30 dk sonrası arası maçlar
+    start_dt = now - timedelta(minutes=30)
+    end_dt = now + timedelta(minutes=30)
 
+    events = []
+    for event in api_data:
+        name = event.get("title")
+        sport = event.get("league")
+        start_ts = event.get("date")
+        stream_id = event.get("id")
+        ppv_id = event.get("ppvId")
 
-async def get_events(cached_links: set[str]) -> list[Event]:
-    now = Time.rn()
+        if not all([name, sport, start_ts, stream_id, ppv_id]):
+            continue
 
-    tasks = [network.request(url, log=log) for url in SPORT_URLS.values()]
+        if str(stream_id).lower().startswith(("dl-", "247")) or str(sport).startswith("24/7"):
+            continue
 
-    results = await asyncio.gather(*tasks)
+        sport_clean = (
+            " ".join(i.capitalize().strip() for i in sport.split("-"))
+            if sport.islower()
+            else sport
+        )
 
-    events: list[Event] = []
+        # Milisaniye cinsinden gelen timestamp'i saniyeye çevir
+        try:
+            event_ts = int(str(start_ts)[:-3])
+            event_dt = datetime.fromtimestamp(event_ts, tz=timezone.utc)
+        except ValueError:
+            continue
 
-    if not (
-        soups := [(HTMLParser(html.content), html.url) for html in results if html]
-    ):
-        return events
+        if not (start_dt <= event_dt <= end_dt):
+            continue
 
-    start_dt = now.delta(hours=-3)
-    end_dt = now.delta(minutes=5)
+        poster = event.get("poster", "")
+        if poster and not poster.startswith("http"):
+            poster = urljoin(BASE_URL, poster)
 
-    date_ptrn = re.compile(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}Z", re.I)
-
-    for soup, url in soups:
-        sport = next((k for k, v in SPORT_URLS.items() if v == url), "Live Event")
-
-        for event in soup.css("a.matches"):
-            if not (href := event.attributes.get("href")):
-                continue
-
-            elif (link := urljoin(BASE_URL, href)) in cached_links:
-                continue
-
-            if (scr_elem := event.css_first("script")) and (
-                match := date_ptrn.search(scr_elem.text(strip=True))
-            ):
-                event_dt = Time.fromisoformat(match[0]).to_tz("EST")
-
-            elif event.css_first("span.status-badge.badge.bg-success"):
-                event_dt = now
-
-            else:
-                continue
-
-            if not start_dt <= event_dt <= end_dt:
-                continue
-
-            events.append(
-                Event(
-                    sport=sport,
-                    link=link,
-                    timestamp=event_dt.timestamp(),
-                )
-            )
+        events.append({
+            "sport": sport_clean,
+            "name": name,
+            "logo": poster,
+            "stream_id": stream_id,
+            "ppv_id": ppv_id,
+            "refer": urljoin(BASE_URL, f"embed/?id={stream_id}")
+        })
 
     return events
 
 
-async def scrape(browser: Browser) -> None:
-    cached_sources = CACHE_FILE.load()
+def extract_m3u8(event: dict) -> str | None:
+    """Her maç için extract-url API'sine sorarak m3u8 linkini alır."""
+    extract_url = urljoin(BASE_URL, f"papi/extract-url/{event['ppv_id']}")
+    req_headers = HEADERS.copy()
+    req_headers["Referer"] = event["refer"]
 
-    cached_links = {entry["link"] for entry in cached_sources.values()}
+    try:
+        resp = requests.get(extract_url, headers=req_headers, timeout=10)
+        if not resp.ok:
+            return None
+        data = resp.json() or {}
+        m3u8 = data.get("sdUrl") or data.get("hlsUrl")
+        if m3u8:
+            print(f"✅ Bulundu: [{event['sport']}] {event['name']}")
+            return m3u8
+        else:
+            print(f"❌ Kaynak boş döndü: {event['name']}")
+            return None
+    except Exception as e:
+        print(f"⚠️ Hata ({event['name']}): {e}")
+        return None
 
-    valid_sources = {k: v for k, v in cached_sources.items() if v["source"]}
 
-    valid_count = cached_count = len(valid_sources)
+def save_outputs(streams: list[dict], m3u_filename: str = "dami.m3u", strm_folder: str = "dami_strm"):
+    """Bulunan yayınları dami.m3u ve STRM dosyaları olarak kaydeder."""
+    with open(m3u_filename, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        f.write(f"#EXT-X-USER-AGENT:{USER_AGENT}\n")
+        f.write(f"#EXT-X-REFERER:{BASE_URL}/\n")
+        f.write(f"#EXT-X-ORIGIN:{BASE_URL}\n\n")
 
-    urls.update(valid_sources)
+        for s in streams:
+            title = f"[{s['sport']}] {s['name']}"
+            f.write(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{s["logo"]}" group-title="{s["sport"]}",{title}\n')
+            f.write(f'#EXTVLCOPT:http-referrer={s["refer"]}\n')
+            f.write(f"{s['url']}\n")
 
-    log.info(f"Loaded {cached_count} event(s) from cache")
+    # STRM klasörü oluşturma
+    base_dir = Path(strm_folder)
+    base_dir.mkdir(parents=True, exist_ok=True)
+    for old_file in base_dir.glob("*.strm"):
+        old_file.unlink()
 
-    log.info(f'Scraping from "{BASE_URL}"')
+    for s in streams:
+        safe_title = re.sub(r'[\\/*?:"<>|]', "", f"[{s['sport']}] {s['name']}").strip()
+        file_path = base_dir / f"{safe_title}.strm"
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(f"{s['url']}|Referer={s['refer']}&User-Agent={USER_AGENT}")
 
-    if events := await get_events(cached_links):
-        log.info(f"Processing {len(events)} URL(s)")
+    print(f"\n🎉 İşlem tamamlandı! {len(streams)} yayın '{m3u_filename}' dosyasına ve '{strm_folder}' klasörüne kaydedildi.")
 
-        async with network.event_context(browser) as context:
-            for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    handler = partial(
-                        process_event,
-                        url=ev.link,
-                        url_num=i,
-                        page=page,
-                    )
 
-                    name, source = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        timeout_return=(None, None),
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
+def main():
+    events = get_events()
+    if not events:
+        print("📭 Şu anki saat aralığında (±30 dk) aktif maç bulunamadı.")
+        sys.exit(0)
 
-                    tvg_id, logo = leagues.get_tvg_info(ev.sport, name)
+    print(f"\n🔍 Toplam {len(events)} maç için yayın linki çekiliyor...\n")
+    valid_streams = []
 
-                    key = f"[{ev.sport}] {name} ({TAG})"
+    for ev in events:
+        m3u8_url = extract_m3u8(ev)
+        if m3u8_url:
+            ev["url"] = m3u8_url
+            valid_streams.append(ev)
 
-                    entry = {
-                        "source": source,
-                        "logo": logo,
-                        "refer": BASE_URL,
-                        "timestamp": ev.timestamp,
-                        "tvg-id": tvg_id or "Live.Event.us",
-                        "link": ev.link,
-                    }
-
-                    cached_sources[key] = entry
-
-                if source:
-                    valid_count += 1
-
-                    urls[key] = entry
-
-        log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
-
+    if valid_streams:
+        save_outputs(valid_streams, m3u_filename="dami.m3u")
     else:
-        log.info("No new events found")
+        print("😔 Çalışan yayın linki bulunamadı.")
 
-    CACHE_FILE.write(cached_sources)
+
+if __name__ == "__main__":
+    main()
