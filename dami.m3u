@@ -1,101 +1,105 @@
 #EXTM3U
-#EXT-X-USER-AGENT:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-#EXT-X-REFERER:https://damitv.st/
+#EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+#EXT-X-REFERER:https://damitv.st
 #EXT-X-ORIGIN:https://damitv.st
 
 #EXTINF:-1 tvg-name="[UEFA Nations League] Kosovo vs Israel" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/r73ile1786994463.jpg" group-title="UEFA Nations League",[UEFA Nations League] Kosovo vs Israel
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-557adfb262
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/kos-isr/playlist.m3u8?tk=cQSinSQoAuK2B9YSzz5jmw&e=1794712300
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/kos-isr/playlist.m3u8?tk=i34-vEy68FOAYrOyM8AcEQ&e=1794712772
 #EXTINF:-1 tvg-name="[NCAA - Football] Miami Hurricanes vs Duke Blue Devils" tvg-logo="https://damitv.st/img/cards/college-football/401858296.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Miami Hurricanes vs Duke Blue Devils
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858296
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/duke-mia/playlist.m3u8?tk=cQSinSQoAuK2B9YSzz5jmw&e=1794712300
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/duke-mia/playlist.m3u8?tk=i34-vEy68FOAYrOyM8AcEQ&e=1794712772
 #EXTINF:-1 tvg-name="[NCAA - Football] SMU Mustangs vs Wake Forest Demon Deacons" tvg-logo="https://damitv.st/img/cards/college-football/401858301.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] SMU Mustangs vs Wake Forest Demon Deacons
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858301
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/wake-smu/playlist.m3u8?tk=cQSinSQoAuK2B9YSzz5jmw&e=1794712300
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/wake-smu/playlist.m3u8?tk=i34-vEy68FOAYrOyM8AcEQ&e=1794712772
 #EXTINF:-1 tvg-name="[NCAA - Football] Ohio State Buckeyes vs Northwestern Wildcats" tvg-logo="https://damitv.st/img/cards/college-football/401858522.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Ohio State Buckeyes vs Northwestern Wildcats
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858522
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/nu-osu/playlist.m3u8?tk=cQSinSQoAuK2B9YSzz5jmw&e=1794712300
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/nu-osu/playlist.m3u8?tk=i34-vEy68FOAYrOyM8AcEQ&e=1794712772
 #EXTINF:-1 tvg-name="[UEFA Nations League] Norway vs Wales" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/gewg9o1786994465.jpg" group-title="UEFA Nations League",[UEFA Nations League] Norway vs Wales
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-d2bad6cfee
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/nor-wal/playlist.m3u8?tk=cQSinSQoAuK2B9YSzz5jmw&e=1794712300
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/nor-wal/playlist.m3u8?tk=cJ6xvP52bk3Y4G7U5JYIrg&e=1794712773
 #EXTINF:-1 tvg-name="[UEFA Nations League] Georgia vs Hungary" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/p14cf51786994466.jpg" group-title="UEFA Nations League",[UEFA Nations League] Georgia vs Hungary
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-4256e37ae4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/geo-hun/playlist.m3u8?tk=lbWKNhP7ebaS2bDql8gqIA&e=1794712301
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/geo-hun/playlist.m3u8?tk=cJ6xvP52bk3Y4G7U5JYIrg&e=1794712773
 #EXTINF:-1 tvg-name="[NCAA - Football] Clemson Tigers vs Georgia Tech Yellow Jackets" tvg-logo="https://damitv.st/img/cards/college-football/401858297.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Clemson Tigers vs Georgia Tech Yellow Jackets
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858297
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/miz-uga/playlist.m3u8?tk=lbWKNhP7ebaS2bDql8gqIA&e=1794712301
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/miz-uga/playlist.m3u8?tk=cJ6xvP52bk3Y4G7U5JYIrg&e=1794712773
 #EXTINF:-1 tvg-name="[NCAA - Football] Vanderbilt Commodores vs Alabama Crimson Tide" tvg-logo="https://damitv.st/img/cards/college-football/401856889.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Vanderbilt Commodores vs Alabama Crimson Tide
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401856889
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/ala-van/playlist.m3u8?tk=lbWKNhP7ebaS2bDql8gqIA&e=1794712301
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/ala-van/playlist.m3u8?tk=cJ6xvP52bk3Y4G7U5JYIrg&e=1794712773
 #EXTINF:-1 tvg-name="[NCAA - Football] Coastal Carolina Chanticleers vs Arkansas State Red Wolves" tvg-logo="https://damitv.st/img/cards/college-football/401869937.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Coastal Carolina Chanticleers vs Arkansas State Red Wolves
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401869937
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/sc-ark/playlist.m3u8?tk=lbWKNhP7ebaS2bDql8gqIA&e=1794712301
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/sc-ark/playlist.m3u8?tk=cJ6xvP52bk3Y4G7U5JYIrg&e=1794712773
 #EXTINF:-1 tvg-name="[National Hockey League] Carolina Hurricanes vs Seattle Kraken" tvg-logo="https://damitv.st/img/cards/nhl/401891809.jpg?v=spl2nf" group-title="National Hockey League",[National Hockey League] Carolina Hurricanes vs Seattle Kraken
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401891809
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/nhl/2026-11-14/sea-car/playlist.m3u8?tk=lbWKNhP7ebaS2bDql8gqIA&e=1794712301
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/nhl/2026-11-14/sea-car/playlist.m3u8?tk=fAZP13hc8JR-bIzAjZ8BcQ&e=1794712774
 #EXTINF:-1 tvg-name="[NCAA Men's Basketball] Texas Tech Red Raiders vs Stonehill Skyhawks" tvg-logo="https://damitv.st/img/cards/mens-college-basketball/401919847.jpg?v=3nf" group-title="NCAA Men's Basketball",[NCAA Men's Basketball] Texas Tech Red Raiders vs Stonehill Skyhawks
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401919847
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cbb/2026-11-14/sto-ttu/playlist.m3u8?tk=3j8s5rIeTlYtt633x-fDeg&e=1794712303
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cbb/2026-11-14/sto-ttu/playlist.m3u8?tk=fAZP13hc8JR-bIzAjZ8BcQ&e=1794712774
 #EXTINF:-1 tvg-name="[UEFA Nations League] Portugal vs Denmark" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/arln421786994468.jpg" group-title="UEFA Nations League",[UEFA Nations League] Portugal vs Denmark
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-33c2d141a8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/por-den/playlist.m3u8?tk=3j8s5rIeTlYtt633x-fDeg&e=1794712303
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/por-den/playlist.m3u8?tk=fAZP13hc8JR-bIzAjZ8BcQ&e=1794712774
 #EXTINF:-1 tvg-name="[UEFA Nations League] Austria vs Republic of Ireland" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/sa792n1786994471.jpg" group-title="UEFA Nations League",[UEFA Nations League] Austria vs Republic of Ireland
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-60766e6041
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/aut-irl/playlist.m3u8?tk=3j8s5rIeTlYtt633x-fDeg&e=1794712303
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/aut-irl/playlist.m3u8?tk=fAZP13hc8JR-bIzAjZ8BcQ&e=1794712774
 #EXTINF:-1 tvg-name="[UEFA Nations League] Northern Ireland vs Ukraine" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/wc42sk1786994469.jpg" group-title="UEFA Nations League",[UEFA Nations League] Northern Ireland vs Ukraine
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-6ec55443be
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/nir-ukr/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/nir-ukr/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[UEFA Nations League] Romania vs Poland" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/1fxwpv1786994473.jpg" group-title="UEFA Nations League",[UEFA Nations League] Romania vs Poland
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-e6b7508214
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/rou-pol/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/rou-pol/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[UEFA Nations League] Sweden vs Bosnia-Herzegovina" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/vhwewh1786994474.jpg" group-title="UEFA Nations League",[UEFA Nations League] Sweden vs Bosnia-Herzegovina
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=mm-own-8e8b85dcc9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/swe-bih/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-11-14/swe-bih/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[NCAA - Football] Texas A&M Aggies vs Tennessee Volunteers" tvg-logo="https://damitv.st/img/cards/college-football/401856888.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Texas A&M Aggies vs Tennessee Volunteers
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401856888
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/tenn-tam/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/tenn-tam/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[NCAA - Football] Missouri State Bears vs New Mexico State Aggies" tvg-logo="https://damitv.st/img/cards/college-football/401870796.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Missouri State Bears vs New Mexico State Aggies
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401870796
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/orst-bois/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/orst-bois/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[NCAA Men's Basketball] Gonzaga Bulldogs vs LSU Tigers" tvg-logo="https://damitv.st/img/cards/mens-college-basketball/401921689.jpg?v=3nf" group-title="NCAA Men's Basketball",[NCAA Men's Basketball] Gonzaga Bulldogs vs LSU Tigers
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401921689
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cbb/2026-11-14/lsu-gonz/playlist.m3u8?tk=RNk0dAOiC8Kt68NGExjeNw&e=1794712304
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cbb/2026-11-14/lsu-gonz/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[NCAA - Football] Georgia Bulldogs vs Missouri Tigers" tvg-logo="https://damitv.st/img/cards/college-football/401856883.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Georgia Bulldogs vs Missouri Tigers
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401856883
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/miz-uga/playlist.m3u8?tk=j8nndi5rhNdallua63n9bA&e=1794712305
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/miz-uga/playlist.m3u8?tk=zrOI5UqkLlVqberJhtPldg&e=1794712775
 #EXTINF:-1 tvg-name="[NCAA - Football] Indiana Hoosiers vs USC Trojans" tvg-logo="https://damitv.st/img/cards/college-football/401858518.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Indiana Hoosiers vs USC Trojans
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858518
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/usc-iu/playlist.m3u8?tk=j8nndi5rhNdallua63n9bA&e=1794712305
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/usc-iu/playlist.m3u8?tk=aUis0dSPUsVf_DXC5ll4kQ&e=1794712776
 #EXTINF:-1 tvg-name="[NCAA - Football] Oregon Ducks vs Michigan Wolverines" tvg-logo="https://damitv.st/img/cards/college-football/401858523.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Oregon Ducks vs Michigan Wolverines
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401858523
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/mich-ore/playlist.m3u8?tk=j8nndi5rhNdallua63n9bA&e=1794712305
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/mich-ore/playlist.m3u8?tk=aUis0dSPUsVf_DXC5ll4kQ&e=1794712776
 #EXTINF:-1 tvg-name="[National Hockey League] Chicago Blackhawks vs Winnipeg Jets" tvg-logo="https://damitv.st/img/cards/nhl/401892708.jpg?v=spl2nf" group-title="National Hockey League",[National Hockey League] Chicago Blackhawks vs Winnipeg Jets
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401892708
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/nhl/2026-11-14/wpg-chi/playlist.m3u8?tk=j8nndi5rhNdallua63n9bA&e=1794712305
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/nhl/2026-11-14/wpg-chi/playlist.m3u8?tk=aUis0dSPUsVf_DXC5ll4kQ&e=1794712776
 #EXTINF:-1 tvg-name="[NCAA - Football] Texas State Bobcats vs Fresno State Bulldogs" tvg-logo="https://damitv.st/img/cards/college-football/401860916.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Texas State Bobcats vs Fresno State Bulldogs
-#EXTVLCOPT:http-referrer=https://damitv.st/embed/?id=espn-401860916
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36
-https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/orst-bois/playlist.m3u8?tk=SvLqElvgrRQwSZYN5aaljw&e=1794712306
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/orst-bois/playlist.m3u8?tk=aUis0dSPUsVf_DXC5ll4kQ&e=1794712776
+#EXTINF:-1 tvg-name="[NCAA - Football] Mississippi State Bulldogs vs Auburn Tigers" tvg-logo="https://damitv.st/img/cards/college-football/401856886.jpg?v=nf2nf" group-title="NCAA - Football",[NCAA - Football] Mississippi State Bulldogs vs Auburn Tigers
+#EXTVLCOPT:http-referrer=https://damitv.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://messi.damitv.st/live-hls/channel/cfb/2026-11-14/miz-uga/playlist.m3u8?tk=QmwbVXEPADpQukWjifz0bg&e=1794712777
