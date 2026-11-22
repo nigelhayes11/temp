@@ -17,7 +17,7 @@ TAG = "DAMITV"
 
 TARGET_CATEGORY = "football"
 MAX_HOURS_AHEAD = 6
-CONCURRENCY = 4
+CONCURRENCY = 5
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -45,9 +45,18 @@ class MatchSource:
     league: str
     logo: str
     embed_url: str
+    cache_key: str
     m3u8_url: str = ""
     referer: str = ""
     origin: str = ""
+
+
+def build_cache_key(embed_url: str) -> str:
+    parsed = urlparse(embed_url)
+    url_list = parse_qs(parsed.query).get("url", [])
+    if url_list and isinstance(url_list[0], str):
+        return unquote(url_list[0]).strip()
+    return embed_url.strip()
 
 
 async def get_football_list(client: httpx.AsyncClient) -> list[MatchSource]:
@@ -104,37 +113,21 @@ async def get_football_list(client: httpx.AsyncClient) -> list[MatchSource]:
                         league=league,
                         logo=poster,
                         embed_url=embed_url,
+                        cache_key=build_cache_key(embed_url),
                     )
                 )
 
     return items
 
 
-async def capture_signed_m3u8(
+async def resolve_unique_embed(
     context,
     semaphore: asyncio.Semaphore,
-    item: MatchSource,
+    cache_key: str,
+    embed_url: str,
     cache: dict[str, tuple[str, str, str]],
-) -> MatchSource | None:
-    parsed_embed = urlparse(item.embed_url)
-    raw_target = parse_qs(parsed_embed.query).get("url", [item.embed_url])
-    cache_key = unquote(raw_target)
-
-    if cache_key in cache:
-        m3u8, ref, org = cache[cache_key]
-        if m3u8:
-            item.m3u8_url, item.referer, item.origin = m3u8, ref, org
-            return item
-        return None
-
+) -> None:
     async with semaphore:
-        if cache_key in cache:
-            m3u8, ref, org = cache[cache_key]
-            if m3u8:
-                item.m3u8_url, item.referer, item.origin = m3u8, ref, org
-                return item
-            return None
-
         page = await context.new_page()
         captured_url = ""
         found_event = asyncio.Event()
@@ -150,7 +143,7 @@ async def capture_signed_m3u8(
 
         try:
             await page.goto(
-                item.embed_url,
+                embed_url,
                 referer=f"{BASE_URL}/",
                 wait_until="domcontentloaded",
                 timeout=15000,
@@ -162,17 +155,13 @@ async def capture_signed_m3u8(
             await page.close()
 
         if captured_url:
+            parsed_embed = urlparse(embed_url)
             embed_org = f"{parsed_embed.scheme}://{parsed_embed.netloc}"
             cache[cache_key] = (captured_url, embed_org + "/", embed_org)
-            item.m3u8_url = captured_url
-            item.referer = embed_org + "/"
-            item.origin = embed_org
-            log.info(f"İmzalı M3U8 yakalandı: {item.title}")
-            return item
-
-        cache[cache_key] = ("", "", "")
-        log.warning(f"Token alınamadı: {item.title}")
-        return None
+            log.info(f"Token yakalandı: {cache_key}")
+        else:
+            cache[cache_key] = ("", "", "")
+            log.warning(f"Token alınamadı: {cache_key}")
 
 
 def write_m3u(streams: list[MatchSource]) -> None:
@@ -204,7 +193,13 @@ async def main() -> None:
         write_m3u([])
         return
 
-    log.info(f"{len(items)} kaynak için imzalı token çözülüyor...")
+    # Benzersiz kanal linklerini çıkar (aynı kanal 10 maçta varsa sadece 1 kez tarayıcı açılır)
+    unique_embeds: dict[str, str] = {}
+    for item in items:
+        if item.cache_key not in unique_embeds:
+            unique_embeds[item.cache_key] = item.embed_url
+
+    log.info(f"{len(items)} maç kaynağı için {len(unique_embeds)} benzersiz kanal çözülüyor...")
     semaphore = asyncio.Semaphore(CONCURRENCY)
     cache: dict[str, tuple[str, str, str]] = {}
 
@@ -224,13 +219,21 @@ async def main() -> None:
         )
 
         tasks = [
-            capture_signed_m3u8(context, semaphore, item, cache)
-            for item in items
+            resolve_unique_embed(context, semaphore, key, url, cache)
+            for key, url in unique_embeds.items()
         ]
-        results = await asyncio.gather(*tasks)
+        await asyncio.gather(*tasks)
         await browser.close()
 
-    valid_streams = [r for r in results if r is not None]
+    valid_streams: list[MatchSource] = []
+    for item in items:
+        m3u8, ref, org = cache.get(item.cache_key, ("", "", ""))
+        if m3u8:
+            item.m3u8_url = m3u8
+            item.referer = ref
+            item.origin = org
+            valid_streams.append(item)
+
     write_m3u(valid_streams)
 
 
