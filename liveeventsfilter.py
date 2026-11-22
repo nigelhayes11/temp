@@ -1,4 +1,48 @@
+import requests
+import sys
+from pathlib import Path
 
+TIMEOUT = 10
+VALID_CONTENT_TYPES = [
+    "application/vnd.apple.mpegurl",
+    "application/x-mpegURL",
+    "video/mp4",
+    "audio/mpeg",
+    "video/ts",
+    "video/x-flv",
+]
+
+def is_stream_playable(url: str, headers=None) -> bool:
+    headers = headers or {}
+    try:
+        response = requests.head(url, headers=headers, timeout=TIMEOUT, allow_redirects=True)
+        if response.status_code < 400:
+            content_type = response.headers.get("Content-Type", "").split(";")[0]
+            if content_type in VALID_CONTENT_TYPES:
+                return True
+    except requests.RequestException:
+        pass
+
+    try:
+        response = requests.get(url, headers=headers, timeout=TIMEOUT, stream=True)
+        if response.status_code < 400:
+            content_type = response.headers.get("Content-Type", "").split(";")[0]
+            return content_type in VALID_CONTENT_TYPES
+    except requests.RequestException:
+        return False
+
+    return False
+
+def filter_m3u_playlist(input_path: str, output_path: str):
+    with open(input_path, "r", encoding="utf-8") as f:
+        lines = [line.rstrip() for line in f]
+
+    output_lines = ["#EXTM3U"]
+    buffer_tags = []
+    buffer_vlcopt = []
+
+    for line in lines:
+        if line.startswith("#EXTINF"):
             buffer_tags.append(line)
         elif line.startswith("#EXTVLCOPT"):
             buffer_vlcopt.append(line)
