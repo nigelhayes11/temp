@@ -2,12 +2,11 @@ name: Update Live M3U Playlist
 
 on:
   schedule:
-    # Her 30 dakikada bir otomatik çalışır (İstersen '0 * * * *' yaparak saat başı yapabilirsin)
     - cron: '*/30 * * * *'
-  workflow_dispatch: # GitHub Actions sekmesinden manuel tetikleme butonu ekler
+  workflow_dispatch:
 
 permissions:
-  contents: write # Repo içine nba.m3u dosyasını yazabilmek için gerekli
+  contents: write
 
 jobs:
   build:
@@ -29,8 +28,15 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
-      - name: Betiği Çalıştır
-        run: python main.py # Betik dosyanın adı farklıysa burayı güncelle
+      - name: Betiği Otomatik Bul ve Çalıştır
+        run: |
+          SCRIPT=$(find . -maxdepth 2 -name "*.py" | head -n 1)
+          if [ -z "$SCRIPT" ]; then
+            echo "❌ Repoda hiç .py dosyası bulunamadı!"
+            exit 1
+          fi
+          echo "▶️ Çalıştırılan dosya: $SCRIPT"
+          python "$SCRIPT"
 
       - name: Güncellenen nba.m3u Dosyasını Repoya Kaydet
         run: |
