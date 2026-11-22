@@ -170,7 +170,6 @@ async def main():
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(user_agent=USER_AGENT)
 
-        # Gereksiz medya/stil dosyalarını engelleyerek hızlandır
         await context.route(
             "**/*.{png,jpg,jpeg,gif,svg,css,woff,woff2}",
             lambda route: route.abort(),
@@ -180,7 +179,7 @@ async def main():
         events = await get_event_links(page)
         await page.close()
 
-               if not events:
+        if not events:
             print("📭 Şu an canlı veya yayını yüklenmiş maç bulunamadı.")
             save_outputs([])
             await browser.close()
@@ -195,3 +194,7 @@ async def main():
         save_outputs(valid_streams)
 
         await browser.close()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
