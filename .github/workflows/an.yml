@@ -1,56 +1,45 @@
-name: Taraftarium24 M3U8
-
-permissions:
-  contents: write   # <<--- En önemli satır (push izni)
+name: Update Live M3U Playlist
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Her saat başı çalışır
-  workflow_dispatch:
+    # Her 30 dakikada bir otomatik çalışır (İstersen '0 * * * *' yaparak saat başı yapabilirsin)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # GitHub Actions sekmesinden manuel tetikleme butonu ekler
+
+permissions:
+  contents: write # Repo içine nba.m3u dosyasını yazabilmek için gerekli
 
 jobs:
-  update-files:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Depoyu (Repository) Çek
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install Playwright
+      - name: Bağımlılıkları ve Playwright Tarayıcısını Kur
         run: |
           python -m pip install --upgrade pip
-          python -m pip install playwright
-          python -m playwright install
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Betiği Çalıştır
+        run: python main.py # Betik dosyanın adı farklıysa burayı güncelle
 
-      - name: Run an.py
-        run: python an.py
-      - name: Run dami.py
-        run: python dami.py
-        
-      - name: Run sportspass.py
-        run: python sportspass.py
-      - name: Commit changes
+      - name: Güncellenen nba.m3u Dosyasını Repoya Kaydet
         run: |
-          git add .
-          git commit -m "Auto-update m3u8 files" || echo "No changes to commit"
-
-      - name: Pull remote changes safely
-        run: |
-          git fetch origin main
-          git rebase origin/main || git rebase --abort
-
-      - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add nba.m3u
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update nba.m3u playlist"
+            git push
+          else
+            echo "Değişiklik yok, commit atılmadı."
+          fi
