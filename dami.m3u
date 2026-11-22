@@ -1,376 +1,56 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Süper Lig] [13:30] Erzurum BB vs Goztepe [beIN SPORTS 1 Turkey] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/tur.1/401888243.jpg?v=3nf" group-title="Süper Lig",[Süper Lig] [13:30] Erzurum BB vs Goztepe [beIN SPORTS 1 Turkey] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F77badd3359.m3u8&name=beIN%20SPORTS%201%20Turkey
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Liga F] [14:00] Granada vs Real Madrid [DAZN1 Spain] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/168uj51783192093.jpg" group-title="Liga F",[Liga F] [14:00] Granada vs Real Madrid [DAZN1 Spain] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F57497055c3.m3u8&name=DAZN1%20Spain
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [14:15] FC Twente vs Willem II [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875545.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [14:15] FC Twente vs Willem II [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F0f6a5ba1b0.m3u8&name=ESPN%202%20NL
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [14:15] FC Twente vs Willem II [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875545.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [14:15] FC Twente vs Willem II [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/twe-wil_540p/playlist.m3u8?tk=O_aJfzcA0xK0wWdqKi0S8g&e=1795382800
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [14:15] FC Twente vs Willem II [ESPN 2 NL] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875545.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [14:15] FC Twente vs Willem II [ESPN 2 NL] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F0f6a5ba1b0.m3u8&name=ESPN%202%20NL
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [14:15] FC Twente vs Willem II [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875545.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [14:15] FC Twente vs Willem II [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F406b0994d4.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [14:30] Juventus vs Venezia [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875008.jpg?v=light1nf" group-title="Serie A",[Serie A] [14:30] Juventus vs Venezia [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F8afdcdd622.m3u8&name=TNT%20Sports%201%20UK
+https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/twe-wil_540p/playlist.m3u8?tk=HSjOdW5MbEE9HSFIR9VKPw&e=1795383193
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [14:30] Juventus vs Venezia [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875008.jpg?v=light1nf" group-title="Serie A",[Serie A] [14:30] Juventus vs Venezia [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/juv-ven_540p/playlist.m3u8?tk=sI0KkX38GfW8CqynPPBJDg&e=1795382801
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [14:30] Juventus vs Venezia [TNT Sports 1 UK] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875008.jpg?v=light1nf" group-title="Serie A",[Serie A] [14:30] Juventus vs Venezia [TNT Sports 1 UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F8afdcdd622.m3u8&name=TNT%20Sports%201%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [14:30] Juventus vs Venezia [DAZN ZONA 1 IT] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875008.jpg?v=light1nf" group-title="Serie A",[Serie A] [14:30] Juventus vs Venezia [DAZN ZONA 1 IT] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F702329d6bf.m3u8&name=DAZN%20ZONA%201%20IT
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Championship] [15:00] Burnley vs Blackburn Rovers [ITV 1 UK] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.2/401880159.jpg?v=3nf" group-title="Championship",[Championship] [15:00] Burnley vs Blackburn Rovers [ITV 1 UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F41246432c9.m3u8&name=ITV%201%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Championship] [15:00] Burnley vs Blackburn Rovers [V Sport Premium] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.2/401880159.jpg?v=3nf" group-title="Championship",[Championship] [15:00] Burnley vs Blackburn Rovers [V Sport Premium] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F2b5a227a54.m3u8&name=V%20Sport%20Premium
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Championship] [15:00] Burnley vs Blackburn Rovers [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.2/401880159.jpg?v=3nf" group-title="Championship",[Championship] [15:00] Burnley vs Blackburn Rovers [Server 1 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F06847bc268.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [15:00] Birmingham City vs Manchester United [Sky Sport 6 NZ] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/own/mm-own-f4aec167f3.jpg?v=2" group-title="WSL",[WSL] [15:00] Birmingham City vs Manchester United [Sky Sport 6 NZ] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fddf48bc5e1.m3u8&name=Sky%20Sport%206%20NZ
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [15:00] Manchester City vs Tottenham Hotspur [Sky Sports Mix UK] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/j4c6bb1757101630.jpg" group-title="WSL",[WSL] [15:00] Manchester City vs Tottenham Hotspur [Sky Sports Mix UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F170f7e4dcf.m3u8&name=Sky%20Sports%20Mix%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [15:00] Manchester City vs Tottenham Hotspur [Sky Sports Main Event UK] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/j4c6bb1757101630.jpg" group-title="WSL",[WSL] [15:00] Manchester City vs Tottenham Hotspur [Sky Sports Main Event UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F4a2c801ab2.m3u8&name=Sky%20Sports%20Main%20Event%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[2. Bundesliga] [15:30] Kaiserslautern vs Dynamo Dresden [Sky Sport Bundesliga 3] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.2/401885052.jpg?v=3nf" group-title="2. Bundesliga",[2. Bundesliga] [15:30] Kaiserslautern vs Dynamo Dresden [Sky Sport Bundesliga 3] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fb10a885d31.m3u8&name=Sky%20Sport%20Bundesliga%203
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[2. Bundesliga] [15:30] Karlsruher SC vs VfL Osnabruck [Sky Sport Bundesliga 4] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.2/401885050.jpg?v=3nf" group-title="2. Bundesliga",[2. Bundesliga] [15:30] Karlsruher SC vs VfL Osnabruck [Sky Sport Bundesliga 4] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F353b0c5d0f.m3u8&name=Sky%20Sport%20Bundesliga%204
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Belgian Pro League] [15:30] Waasland-Beveren vs KAA Gent [DAZN Belgium] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/bel.1/401878942.jpg?v=3nf" group-title="Belgian Pro League",[Belgian Pro League] [15:30] Waasland-Beveren vs KAA Gent [DAZN Belgium] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F065e43a440.m3u8&name=DAZN%20Belgium
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [16:00] Barcelona vs Villarreal [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882804.jpg?v=3nf" group-title="LaLiga",[LaLiga] [16:00] Barcelona vs Villarreal [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F1bf0493f3b.m3u8&name=ESPN%2B%20USA
+https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/juv-ven_540p/playlist.m3u8?tk=TqREHRpnxbkrz_Vbect-IA&e=1795383203
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [16:00] Barcelona vs Villarreal [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882804.jpg?v=3nf" group-title="LaLiga",[LaLiga] [16:00] Barcelona vs Villarreal [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/laliga/2026-11-22/bar-vil_540p/playlist.m3u8?tk=PaS7KwQyjYsv_xlSlP0aZw&e=1795382804
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [16:00] Barcelona vs Villarreal [ESPN+ USA] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882804.jpg?v=3nf" group-title="LaLiga",[LaLiga] [16:00] Barcelona vs Villarreal [ESPN+ USA] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F1bf0493f3b.m3u8&name=ESPN%2B%20USA
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [16:00] Barcelona vs Villarreal [DAZN LaLiga] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882804.jpg?v=3nf" group-title="LaLiga",[LaLiga] [16:00] Barcelona vs Villarreal [DAZN LaLiga] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fb35f77e910.m3u8&name=DAZN%20LaLiga
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Süper Lig] [16:00] Kasimpasa vs Alanyaspor [beIN Sports 2 Turkey] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/tur.1/401888248.jpg?v=3nf" group-title="Süper Lig",[Süper Lig] [16:00] Kasimpasa vs Alanyaspor [beIN Sports 2 Turkey] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fd29d844992.m3u8&name=beIN%20Sports%202%20Turkey
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Süper Lig] [16:00] Konyaspor vs Besiktas [beIN Sports 1 Turkey] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/tur.1/401888246.jpg?v=3nf" group-title="Süper Lig",[Süper Lig] [16:00] Konyaspor vs Besiktas [beIN Sports 1 Turkey] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F77badd3359.m3u8&name=beIN%20SPORTS%201%20Turkey
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Danish Superliga] [16:00] AC Horsens vs Silkeborg IF [TV2 Sport Denmark] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/den.1/401874575.jpg?v=3nf" group-title="Danish Superliga",[Danish Superliga] [16:00] AC Horsens vs Silkeborg IF [TV2 Sport Denmark] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fdb9b9b3c8e.m3u8&name=TV2%20Sport%20Denmark
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Danish Superliga] [16:00] Viborg FF vs Randers FC [TV3 Sport Denmark] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/den.1/401874558.jpg?v=3nf" group-title="Danish Superliga",[Danish Superliga] [16:00] Viborg FF vs Randers FC [TV3 Sport Denmark] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F41764c3e37.m3u8&name=TV3%20Sport%20Denmark
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Allsvenskan] [16:00] BK Häcken vs IF Elfsborg [TV4 Sport Live 2] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/swe.1/401842887.jpg?v=3nf" group-title="Allsvenskan",[Allsvenskan] [16:00] BK Häcken vs IF Elfsborg [TV4 Sport Live 2] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Ff034a7184b.m3u8&name=TV4%20Sport%20Live%202
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Allsvenskan] [16:00] IK Sirius vs Djurgården [TV4 Fotball] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/swe.1/401842885.jpg?v=3nf" group-title="Allsvenskan",[Allsvenskan] [16:00] IK Sirius vs Djurgården [TV4 Fotball] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F637f8fceed.m3u8&name=TV4%20Fotball
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875547.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F04b48b739a.m3u8&name=ESPN%203%20NL
+https://messi.damitv.st/live-hls/channel/laliga/2026-11-22/bar-vil_540p/playlist.m3u8?tk=jrRpqc-4ed-wUOptPH4sjg&e=1795383225
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875547.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/aja-ado_540p/playlist.m3u8?tk=Ndb9gjWDZUHS6qpIDmo7RQ&e=1795382805
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [ESPN 3 NL] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875547.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [ESPN 3 NL] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F04b48b739a.m3u8&name=ESPN%203%20NL
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875547.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Ajax Amsterdam vs ADO Den Haag [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F6ac862c780.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875540.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F176d6d52c2.m3u8&name=ESPN%201%20NL
+https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/aja-ado_540p/playlist.m3u8?tk=QMrtYXhGY0UyfFMn1PcHvQ&e=1795383242
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875540.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/spa-az_540p/playlist.m3u8?tk=4nW018ueroH0f1H94EMvZQ&e=1795382806
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [ESPN 1 NL] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ned.1/401875540.jpg?v=3nf" group-title="Eredivisie",[Eredivisie] [16:30] Sparta Rotterdam vs AZ Alkmaar [ESPN 1 NL] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F176d6d52c2.m3u8&name=ESPN%201%20NL
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Austrian Bundesliga] [16:30] SC Rheindorf Altach vs SK Sturm Graz [Sky Sport Austria] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/aut.1/401881745.jpg?v=3nf" group-title="Austrian Bundesliga",[Austrian Bundesliga] [16:30] SC Rheindorf Altach vs SK Sturm Graz [Sky Sport Austria] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F409ba10b0f.m3u8&name=Sky%20Sport%20Austria
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Austrian Bundesliga] [16:30] Wolfsberger vs SV Josko Ried [Sky Sport Austria] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/aut.1/401881748.jpg?v=3nf" group-title="Austrian Bundesliga",[Austrian Bundesliga] [16:30] Wolfsberger vs SV Josko Ried [Sky Sport Austria] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fb1ec718583.m3u8&name=Sky%20Sport%20Austria
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[EPL] [17:00] Hull City vs Brighton & Hove Albion [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.1/401879234.jpg?v=grn2nf" group-title="EPL",[EPL] [17:00] Hull City vs Brighton & Hove Albion [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F0ff8b6a8e2.m3u8&name=USA%20Network
+https://messi.damitv.st/live-hls/channel/eredivisie/2026-11-22/spa-az_540p/playlist.m3u8?tk=lR2__ZgZrFtcLDUZRvmuTg&e=1795383252
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[EPL] [17:00] Hull City vs Brighton & Hove Albion [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.1/401879234.jpg?v=grn2nf" group-title="EPL",[EPL] [17:00] Hull City vs Brighton & Hove Albion [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/pl/2026-11-22/hul-bha_540p/playlist.m3u8?tk=Pkq4Co1tB_Ck0PW53KR25Q&e=1795382807
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[EPL] [17:00] Hull City vs Brighton & Hove Albion [USA Network] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.1/401879234.jpg?v=grn2nf" group-title="EPL",[EPL] [17:00] Hull City vs Brighton & Hove Albion [USA Network] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F0ff8b6a8e2.m3u8&name=USA%20Network
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[EPL] [17:00] Hull City vs Brighton & Hove Albion [Sky Sports Main Event UK] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/eng.1/401879234.jpg?v=grn2nf" group-title="EPL",[EPL] [17:00] Hull City vs Brighton & Hove Albion [Sky Sports Main Event UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F4a2c801ab2.m3u8&name=Sky%20Sports%20Main%20Event%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Bologna vs Udinese [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875047.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Bologna vs Udinese [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fbaeebc67f1.m3u8&name=CBS%20Sports%20Network
+https://messi.damitv.st/live-hls/channel/pl/2026-11-22/hul-bha_540p/playlist.m3u8?tk=C0HUc2OZoldsbpK9NJpOkw&e=1795383257
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Bologna vs Udinese [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875047.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Bologna vs Udinese [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/bol-udi_540p/playlist.m3u8?tk=WCFgYfwYfWp5UuQaDvHJ7Q&e=1795382808
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Bologna vs Udinese [CBS Sports Network] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875047.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Bologna vs Udinese [CBS Sports Network] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fbaeebc67f1.m3u8&name=CBS%20Sports%20Network
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Bologna vs Udinese [DAZN ZONA 1 IT] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875047.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Bologna vs Udinese [DAZN ZONA 1 IT] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F702329d6bf.m3u8&name=DAZN%20ZONA%201%20IT
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Bologna vs Udinese [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401875047.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Bologna vs Udinese [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Ff9cef2ecc6.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Sassuolo vs Genoa [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401874960.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Sassuolo vs Genoa [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F5f7cfad2c8.m3u8&name=DAZN%20ZONA%202%20IT
+https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/bol-udi_540p/playlist.m3u8?tk=oxhpsM2pqTWnZ1SmkkPm4w&e=1795383264
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Sassuolo vs Genoa [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401874960.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Sassuolo vs Genoa [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/sas-gen_540p/playlist.m3u8?tk=obQ4SO2pntq2o5DdUckOxQ&e=1795382811
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Sassuolo vs Genoa [DAZN ZONA 2 IT] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401874960.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Sassuolo vs Genoa [DAZN ZONA 2 IT] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F5f7cfad2c8.m3u8&name=DAZN%20ZONA%202%20IT
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie A] [17:00] Sassuolo vs Genoa [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.1/401874960.jpg?v=light1nf" group-title="Serie A",[Serie A] [17:00] Sassuolo vs Genoa [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F0e35b930ca.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Ligue 1] [17:00] Paris FC vs Angers [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/fra.1/401876397.jpg?v=blu1nf" group-title="Ligue 1",[Ligue 1] [17:00] Paris FC vs Angers [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fd43268eb45.m3u8&name=beIN%20SPORTS%20USA
+https://messi.damitv.st/live-hls/channel/seriea/2026-11-22/sas-gen_540p/playlist.m3u8?tk=PF8PetMr2kL6XRH5Apyn6A&e=1795383270
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Ligue 1] [17:00] Paris FC vs Angers [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/fra.1/401876397.jpg?v=blu1nf" group-title="Ligue 1",[Ligue 1] [17:00] Paris FC vs Angers [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/ligue1/2026-11-22/par-ang_540p/playlist.m3u8?tk=obQ4SO2pntq2o5DdUckOxQ&e=1795382811
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Ligue 1] [17:00] Paris FC vs Angers [beIN SPORTS USA] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/fra.1/401876397.jpg?v=blu1nf" group-title="Ligue 1",[Ligue 1] [17:00] Paris FC vs Angers [beIN SPORTS USA] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fd43268eb45.m3u8&name=beIN%20SPORTS%20USA
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Ligue 1] [17:00] Paris FC vs Angers [Ligue1+ France] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/fra.1/401876397.jpg?v=blu1nf" group-title="Ligue 1",[Ligue 1] [17:00] Paris FC vs Angers [Ligue1+ France] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fc31105efdf.m3u8&name=Ligue1%2B%20France
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Ligue 1] [17:00] Paris FC vs Angers [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/fra.1/401876397.jpg?v=blu1nf" group-title="Ligue 1",[Ligue 1] [17:00] Paris FC vs Angers [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F3340c1aecf.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [17:00] Charlton Athletic vs Aston Villa [Sky Sport 9 NZ] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/own/mm-own-ebb7f125f8.jpg?v=2" group-title="WSL",[WSL] [17:00] Charlton Athletic vs Aston Villa [Sky Sport 9 NZ] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F9bd45fa4d9.m3u8&name=Sky%20Sport%209%20NZ
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [17:00] Everton vs Brighton & Hove Albion [Sky Sport Select NZ] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/own/mm-own-3b046215a1.jpg?v=2" group-title="WSL",[WSL] [17:00] Everton vs Brighton & Hove Albion [Sky Sport Select NZ] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Ffaa38bc331.m3u8&name=Sky%20Sport%20Select%20NZ
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Serie B] [17:00] US Avellino vs Mantova [DAZN Italia] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ita.2/401899547.jpg?v=3nf" group-title="Serie B",[Serie B] [17:00] US Avellino vs Mantova [DAZN Italia] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F08de142983.m3u8&name=DAZN%20Italia
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Greek Super League] [17:00] Levadiakos vs Atromitos [Nova Sports 1 League Greece] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/p78t1y1758957205.jpg" group-title="Greek Super League",[Greek Super League] [17:00] Levadiakos vs Atromitos [Nova Sports 1 League Greece] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F578f7e9951.m3u8&name=Nova%20Sports%201%20League%20Greece
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.1/401884733.jpg?v=3nf" group-title="Bundesliga",[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fc7ab4aa63e.m3u8&name=DAZN%20CA
+https://messi.damitv.st/live-hls/channel/ligue1/2026-11-22/par-ang_540p/playlist.m3u8?tk=mo3gncmy85HozKFbAY80qw&e=1795383275
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.1/401884733.jpg?v=3nf" group-title="Bundesliga",[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/bundesliga/2026-11-22/fca-m05_540p/playlist.m3u8?tk=wtl0lwn_5W-8czJJgouzTA&e=1795382813
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Bundesliga] [17:30] FC Augsburg vs Mainz [DAZN CA] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.1/401884733.jpg?v=3nf" group-title="Bundesliga",[Bundesliga] [17:30] FC Augsburg vs Mainz [DAZN CA] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fc7ab4aa63e.m3u8&name=DAZN%20CA
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Bundesliga] [17:30] FC Augsburg vs Mainz [DAZN1 DE] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.1/401884733.jpg?v=3nf" group-title="Bundesliga",[Bundesliga] [17:30] FC Augsburg vs Mainz [DAZN1 DE] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fa510fa9360.m3u8&name=DAZN1%20DE
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 2 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/ger.1/401884733.jpg?v=3nf" group-title="Bundesliga",[Bundesliga] [17:30] FC Augsburg vs Mainz [Server 2 SD] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fa15ee7449a.m3u8&name=Server%201
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [17:30] Arsenal vs West Ham United [BBC Two UK] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/73bdjh1757101623.jpg" group-title="WSL",[WSL] [17:30] Arsenal vs West Ham United [BBC Two UK] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fdaa3b12552.m3u8&name=BBC%20Two%20UK
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[WSL] [17:30] Arsenal vs West Ham United [Sportsnet One] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/73bdjh1757101623.jpg" group-title="WSL",[WSL] [17:30] Arsenal vs West Ham United [Sportsnet One] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fb0362efc67.m3u8&name=Sportsnet%20One
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Belgian Pro League] [18:00] KV Kortrijk vs Union St.-Gilloise [DAZN Belgium] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/bel.1/401878936.jpg?v=3nf" group-title="Belgian Pro League",[Belgian Pro League] [18:00] KV Kortrijk vs Union St.-Gilloise [DAZN Belgium] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F065e43a440.m3u8&name=DAZN%20Belgium
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Greek Super League] [18:00] Panetolikos vs Volos NFC [MagentaSport 2 League Greece] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/1m1oe21758956716.jpg" group-title="Greek Super League",[Greek Super League] [18:00] Panetolikos vs Volos NFC [MagentaSport 2 League Greece] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2Fb3c96e3b63.m3u8&name=MagentaSport%202%20League%20Greece
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Greek Super League] [18:00] Panetolikos vs Volos NFC [Cytavision Sports 5 Cyprus] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/1m1oe21758956716.jpg" group-title="Greek Super League",[Greek Super League] [18:00] Panetolikos vs Volos NFC [Cytavision Sports 5 Cyprus] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F031b61f3a9.m3u8&name=Cytavision%20Sports%205%20Cyprus
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[Chilean Primera] [18:00] Huachipato vs Deportes Concepcion [TNT SPORTS Premium HD Chile] (DAMITV)" tvg-logo="https://r2.thesportsdb.com/images/media/event/thumb/dmynvk1778481266.jpg" group-title="Chilean Primera",[Chilean Primera] [18:00] Huachipato vs Deportes Concepcion [TNT SPORTS Premium HD Chile] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F1abee0a442.m3u8&name=TNT%20SPORTS%20Premium%20HD%20Chile
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [18:15] Racing Santander vs Real Sociedad [Server 1] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882800.jpg?v=3nf" group-title="LaLiga",[LaLiga] [18:15] Racing Santander vs Real Sociedad [Server 1] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F98916a4ffd.m3u8&name=ESPN%2B%20USA
+https://messi.damitv.st/live-hls/channel/bundesliga/2026-11-22/fca-m05_540p/playlist.m3u8?tk=Nz-is9wfWFElA6f-Wrcf1w&e=1795383293
 #EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [18:15] Racing Santander vs Real Sociedad [Server 1 SD] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882800.jpg?v=3nf" group-title="LaLiga",[LaLiga] [18:15] Racing Santander vs Real Sociedad [Server 1 SD] (DAMITV)
 #EXTVLCOPT:http-referrer=https://damitv.st/
 #EXTVLCOPT:http-origin=https://damitv.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://messi.damitv.st/live-hls/channel/laliga/2026-11-22/rac-rso_540p/playlist.m3u8?tk=nc27UdFx-osvalx7YqrSZA&e=1795382814
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [18:15] Racing Santander vs Real Sociedad [ESPN+ USA] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882800.jpg?v=3nf" group-title="LaLiga",[LaLiga] [18:15] Racing Santander vs Real Sociedad [ESPN+ USA] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F98916a4ffd.m3u8&name=ESPN%2B%20USA
-#EXTINF:-1 tvg-id="Football.Live" tvg-name="[LaLiga] [18:15] Racing Santander vs Real Sociedad [M+ LALIGA TV] (DAMITV)" tvg-logo="https://ondemand.st/img/cards/esp.1/401882800.jpg?v=3nf" group-title="LaLiga",[LaLiga] [18:15] Racing Santander vs Real Sociedad [M+ LALIGA TV] (DAMITV)
-#EXTVLCOPT:http-referrer=https://damitv.st/
-#EXTVLCOPT:http-origin=https://damitv.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://damitv.st/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F5a0eb3944e.m3u8&name=M%2B%20LALIGA%20TV
+https://messi.damitv.st/live-hls/channel/laliga/2026-11-22/rac-rso_540p/playlist.m3u8?tk=lLx3DOevVsJJvOy9vuBtsw&e=1795383312
