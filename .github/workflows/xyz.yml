@@ -1,38 +1,36 @@
-name: XYZ M3U Guncelle
+name: DamiTV Test ve Guncelle
 
 on:
-  schedule:
-    - cron: '*/40 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-xyz:
+  run-dami:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 5
     steps:
       - name: Depoyu Cek
         uses: actions/checkout@v4
 
-      - name: Python Kurulumu
+      - name: Python 3.12 Kur
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
-      - name: Gerekli Kutuphaneleri Yukle
-        run: |
-          pip install requests pycryptodome
+      - name: Httpx Kur
+        run: pip install httpx
 
-      - name: xyz.py Calistir
-        run: |
-          python xyz.py
+      - name: Dami Betigini Calistir
+        run: python dami.py
 
-      - name: Degisiklikleri Repoya Kaydet
+      - name: Ciktiyi Repoya Kaydet
         run: |
           git config --local user.email "github-actions[bot]@://github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git commit -m "Otomatik XYZ M3U guncellemesi" || echo "Degisiklik yok"
-          git push
+          git add dami.m3u
+          if ! git diff --staged --quiet; then
+            git commit -m "DamiTV M3U guncellemesi"
+            git push origin main
+          fi
