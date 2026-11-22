@@ -1,4 +1,4 @@
-name: DamiTV Test ve Guncelle
+name: DamiTV Imzali Test
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
 jobs:
   run-dami:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Depoyu Cek
         uses: actions/checkout@v4
@@ -19,8 +19,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Httpx Kur
-        run: pip install httpx
+      - name: Kutuphaneleri ve Tarayiciyi Kur
+        run: |
+          pip install httpx playwright
+          playwright install chromium
 
       - name: Dami Betigini Calistir
         run: python dami.py
@@ -31,6 +33,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add dami.m3u
           if ! git diff --staged --quiet; then
-            git commit -m "DamiTV M3U guncellemesi"
+            git commit -m "DamiTV imzali M3U guncellemesi"
             git push origin main
           fi
