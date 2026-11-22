@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import asyncio
+import html
 import logging
 import re
 from dataclasses import dataclass
@@ -17,7 +18,7 @@ TAG = "DAMITV"
 
 TARGET_CATEGORY = "football"
 MAX_HOURS_AHEAD = 6
-CONCURRENCY = 4
+CONCURRENCY = 5
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -135,26 +136,29 @@ async def resolve_unique_embed(
         def handle_request(request):
             nonlocal captured_url
             url = request.url
-            lower_url = url.lower()
-            # 'player/hls' sayfa adresini atla, sadece gerçek imzalı .m3u8 akışını yakala
-            if (
-                ".m3u8" in lower_url
-                and "player/hls" not in lower_url
-                and ("ct=" in lower_url or "tk=" in lower_url)
-                and not captured_url
-            ):
-                captured_url = url
-                found_event.set()
+            low = url.lower()
+            if ".m3u8" in low and "player/hls" not in low:
+                if ("ct=" in low or "tk=" in low) or not captured_url:
+                    captured_url = url
+                    if "ct=" in low or "tk=" in low:
+                        found_event.set()
 
         page.on("request", handle_request)
 
         try:
-            await page.goto(
-                embed_url,
-                referer=f"{BASE_URL}/",
-                wait_until="domcontentloaded",
-                timeout=15000,
+            # Sandbox Error'u asmak icin ondemand.st baglaminda gercek iframe icinde ac
+            safe_src = html.escape(embed_url, quote=True)
+            wrapper_html = f"""
+            <!DOCTYPE html>
+            <html><body>
+              <iframe src="{safe_src}" width="800" height="450" allowfullscreen></iframe>
+            </body></html>
+            """
+            await page.route(
+                f"{BASE_URL}/wrapper-frame",
+                lambda route: route.fulfill(status=200, content_type="text/html", body=wrapper_html),
             )
+            await page.goto(f"{BASE_URL}/wrapper-frame", wait_until="domcontentloaded", timeout=12000)
             await asyncio.wait_for(found_event.wait(), timeout=10.0)
         except Exception:
             pass
@@ -165,7 +169,7 @@ async def resolve_unique_embed(
             parsed_embed = urlparse(embed_url)
             embed_org = f"{parsed_embed.scheme}://{parsed_embed.netloc}"
             cache[cache_key] = (captured_url, embed_org + "/", embed_org)
-            log.info(f"Gerçek imzalı M3U8 yakalandı: {cache_key}")
+            log.info(f"İmzalı M3U8 yakalandı: {captured_url[:80]}...")
         else:
             cache[cache_key] = ("", "", "")
             log.warning(f"Token üretilmedi: {cache_key}")
