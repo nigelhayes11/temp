@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import asyncio
 import logging
-import re
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urljoin, urlparse
 
@@ -17,8 +17,8 @@ API_URL = f"{BASE_URL}/papi/api/streams"
 OUTPUT_FILE = "dami.m3u"
 TAG = "DAMITV"
 
-# Sadece çekmek istediğiniz kategori (küçük harfle)
 TARGET_CATEGORY = "football"
+MAX_HOURS_AHEAD = 24  # Önümüzdeki 24 saatteki maçlar (Hepsi için None yapın)
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -42,10 +42,6 @@ logging.basicConfig(
 log = logging.getLogger(TAG)
 
 
-# ------------------------------------------------------------
-# VERİ MODELİ
-# ------------------------------------------------------------
-
 @dataclass(slots=True)
 class FootballStream:
     title: str
@@ -53,62 +49,33 @@ class FootballStream:
     logo: str
     m3u8_url: str
     referer: str
+    origin: str
 
 
-# ------------------------------------------------------------
-# EMBED -> M3U8 ÇÖZÜMLEYİCİ
-# ------------------------------------------------------------
-
-def extract_m3u8_from_embed(embed_url: str) -> tuple[str, str]:
-    """
-    API dokümantasyonundaki örnek:
-    https://damitv.st...
-    İçindeki 'url' parametresini çözüp tam m3u8 adresine çevirir.
-    """
+def extract_m3u8_from_embed(embed_url: str) -> tuple[str, str, str]:
     if not embed_url:
-        return "", ""
+        return "", "", ""
 
     parsed = urlparse(embed_url)
-    base_domain = f"{parsed.scheme}://{parsed.netloc}" if parsed.netloc else BASE_URL
+    embed_origin = f"{parsed.scheme}://{parsed.netloc}" if parsed.netloc else "https://damitv.st"
 
-    # 1. Doğrudan .m3u8 ise
     if ".m3u8" in parsed.path.lower():
-        return embed_url, base_domain + "/"
+        return embed_url, embed_origin + "/", embed_origin
 
-    # 2. Query içindeki 'url=' parametresini çöz
     query_params = parse_qs(parsed.query)
-    raw_stream = query_params.get("url", [""])[0]
-    if raw_stream:
-        decoded = unquote(raw_stream)
-        full_m3u8 = urljoin(base_domain, decoded)
-        return full_m3u8, embed_url
+    raw_list = query_params.get("url", [])
+    if raw_list:
+        decoded = unquote(raw_list[0]).strip()
+        if ".m3u8" in decoded.lower():
+            full_m3u8 = decoded if decoded.startswith("http") else urljoin(embed_origin, decoded)
+            return full_m3u8, embed_url, embed_origin
 
-    return "", ""
+    return "", "", ""
 
-
-async def fallback_scrape_embed(client: httpx.AsyncClient, embed_url: str) -> str:
-    """Eğer embed linkinde url= parametresi yoksa sayfayı açıp içinden .m3u8 arar."""
-    try:
-        resp = await client.get(embed_url, headers={"Referer": f"{BASE_URL}/"})
-        if resp.status_code == 200:
-            matches = re.findall(
-                r"""https?://[^\s"'<>]+\.m3u8(?:\?[^\s"'<>]*)?""",
-                resp.text,
-                re.IGNORECASE,
-            )
-            if matches:
-                return matches[0].rstrip("\\);,")
-    except Exception:
-        pass
-    return ""
-
-
-# ------------------------------------------------------------
-# FOOTBALL CANLI YAYINLARI ÇEKME
-# ------------------------------------------------------------
 
 async def fetch_football_streams() -> list[FootballStream]:
     results: list[FootballStream] = []
+    now_ts = int(datetime.now(timezone.utc).timestamp())
 
     async with httpx.AsyncClient(
         headers=HEADERS,
@@ -126,60 +93,55 @@ async def fetch_football_streams() -> list[FootballStream]:
             log.error(f"API bağlantı hatası: {exc}")
             return results
 
-        categories = data.get("streams", [])
-        for cat in categories:
-            cat_name = str(cat.get("category", "")).strip().lower()
-
-            # Sadece 'football' kategorisini al
-            if cat_name != TARGET_CATEGORY:
+        for cat in data.get("streams", []):
+            if str(cat.get("category", "")).strip().lower() != TARGET_CATEGORY:
                 continue
 
             for stream in cat.get("streams", []):
-                # 7/24 kanalları atla (isterseniz bu bloğu silebilirsiniz)
                 if stream.get("always_live") == 1 or str(stream.get("id", "")).startswith("247"):
                     continue
 
-                # Sadece şu an CANLI (live) olan maçları al
-                status = str(stream.get("status", "")).strip().lower()
-                if status != "live":
-                    continue
+                starts_at = stream.get("starts_at")
+                if MAX_HOURS_AHEAD and starts_at:
+                    if int(starts_at) > now_ts + (MAX_HOURS_AHEAD * 3600):
+                        continue
 
                 match_name = str(stream.get("name", "")).strip()
                 league = str(stream.get("league", "Football")).strip() or "Football"
+                status = str(stream.get("status", "")).strip().lower()
                 poster = str(stream.get("poster", "")).strip()
                 if poster and not poster.startswith("http"):
                     poster = urljoin(BASE_URL, poster)
 
-                sources = stream.get("sources") or []
-                for idx, src in enumerate(sources, start=1):
+                time_tag = ""
+                if starts_at:
+                    tr_time = datetime.fromtimestamp(int(starts_at) + 10800, tz=timezone.utc)
+                    time_tag = tr_time.strftime("%H:%M")
+
+                prefix = "CANLI" if status == "live" else time_tag
+
+                for idx, src in enumerate(stream.get("sources") or [], start=1):
                     src_name = str(src.get("name") or f"Kaynak {idx}").strip()
                     embed_url = str(src.get("embed") or "").strip()
 
-                    m3u8_url, referer = extract_m3u8_from_embed(embed_url)
+                    m3u8_url, referer, origin = extract_m3u8_from_embed(embed_url)
+                    if not m3u8_url:
+                        continue
 
-                    # Eğer parametreden çıkmadıysa embed sayfasının içine bak
-                    if not m3u8_url and embed_url:
-                        m3u8_url = await fallback_scrape_embed(client, embed_url)
-                        referer = embed_url
-
-                    if m3u8_url:
-                        results.append(
-                            FootballStream(
-                                title=f"{match_name} [{src_name}]",
-                                league=league,
-                                logo=poster,
-                                m3u8_url=m3u8_url,
-                                referer=referer,
-                            )
+                    title = f"[{prefix}] {match_name} [{src_name}]" if prefix else f"{match_name} [{src_name}]"
+                    results.append(
+                        FootballStream(
+                            title=title,
+                            league=league,
+                            logo=poster,
+                            m3u8_url=m3u8_url,
+                            referer=referer,
+                            origin=origin,
                         )
-                        log.info(f"Yakalandı: {match_name} [{src_name}]")
+                    )
 
     return results
 
-
-# ------------------------------------------------------------
-# M3U DOSYASI YAZMA (TELEVIZO UYUMLU)
-# ------------------------------------------------------------
 
 def write_m3u(streams: list[FootballStream]) -> None:
     lines = ["#EXTM3U"]
@@ -192,11 +154,13 @@ def write_m3u(streams: list[FootballStream]) -> None:
         )
         if item.referer:
             lines.append(f"#EXTVLCOPT:http-referrer={item.referer}")
+        if item.origin:
+            lines.append(f"#EXTVLCOPT:http-origin={item.origin}")
         lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         lines.append(item.m3u8_url)
 
     Path(OUTPUT_FILE).write_text("\n".join(lines) + "\n", encoding="utf-8")
-    log.info(f"Toplam {len(streams)} canlı futbol yayını '{OUTPUT_FILE}' dosyasına kaydedildi.")
+    log.info(f"Toplam {len(streams)} futbol yayını '{OUTPUT_FILE}' dosyasına kaydedildi.")
 
 
 async def main() -> None:
