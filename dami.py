@@ -17,7 +17,7 @@ TAG = "DAMITV"
 
 TARGET_CATEGORY = "football"
 MAX_HOURS_AHEAD = 6
-CONCURRENCY = 5
+CONCURRENCY = 4
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -54,8 +54,8 @@ class MatchSource:
 def build_cache_key(embed_url: str) -> str:
     parsed = urlparse(embed_url)
     url_list = parse_qs(parsed.query).get("url", [])
-    if url_list and isinstance(url_list[0], str):
-        return unquote(url_list[0]).strip()
+    if url_list and isinstance(url_list, str):
+        return unquote(url_list).strip()
     return embed_url.strip()
 
 
@@ -135,7 +135,14 @@ async def resolve_unique_embed(
         def handle_request(request):
             nonlocal captured_url
             url = request.url
-            if ".m3u8" in url.lower() and not captured_url:
+            lower_url = url.lower()
+            # 'player/hls' sayfa adresini atla, sadece gerçek imzalı .m3u8 akışını yakala
+            if (
+                ".m3u8" in lower_url
+                and "player/hls" not in lower_url
+                and ("ct=" in lower_url or "tk=" in lower_url)
+                and not captured_url
+            ):
                 captured_url = url
                 found_event.set()
 
@@ -148,7 +155,7 @@ async def resolve_unique_embed(
                 wait_until="domcontentloaded",
                 timeout=15000,
             )
-            await asyncio.wait_for(found_event.wait(), timeout=8.0)
+            await asyncio.wait_for(found_event.wait(), timeout=10.0)
         except Exception:
             pass
         finally:
@@ -158,10 +165,10 @@ async def resolve_unique_embed(
             parsed_embed = urlparse(embed_url)
             embed_org = f"{parsed_embed.scheme}://{parsed_embed.netloc}"
             cache[cache_key] = (captured_url, embed_org + "/", embed_org)
-            log.info(f"Token yakalandı: {cache_key}")
+            log.info(f"Gerçek imzalı M3U8 yakalandı: {cache_key}")
         else:
             cache[cache_key] = ("", "", "")
-            log.warning(f"Token alınamadı: {cache_key}")
+            log.warning(f"Token üretilmedi: {cache_key}")
 
 
 def write_m3u(streams: list[MatchSource]) -> None:
@@ -193,7 +200,6 @@ async def main() -> None:
         write_m3u([])
         return
 
-    # Benzersiz kanal linklerini çıkar (aynı kanal 10 maçta varsa sadece 1 kez tarayıcı açılır)
     unique_embeds: dict[str, str] = {}
     for item in items:
         if item.cache_key not in unique_embeds:
@@ -206,7 +212,11 @@ async def main() -> None:
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"],
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-blink-features=AutomationControlled",
+            ],
         )
         context = await browser.new_context(
             user_agent=USER_AGENT,
