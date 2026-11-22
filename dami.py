@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import asyncio
-import html
 import logging
 import re
 from dataclasses import dataclass
@@ -17,8 +16,8 @@ OUTPUT_FILE = "dami.m3u"
 TAG = "DAMITV"
 
 TARGET_CATEGORY = "football"
-MAX_HOURS_AHEAD = 6
-CONCURRENCY = 5
+TARGET_LEAGUE = "süper lig"  # Sadece Süper Lig maçları
+CONCURRENCY = 3
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -60,9 +59,8 @@ def build_cache_key(embed_url: str) -> str:
     return embed_url.strip()
 
 
-async def get_football_list(client: httpx.AsyncClient) -> list[MatchSource]:
+async def get_superlig_list(client: httpx.AsyncClient) -> list[MatchSource]:
     items: list[MatchSource] = []
-    now_ts = int(datetime.now(timezone.utc).timestamp())
 
     try:
         resp = await client.get(API_URL)
@@ -79,17 +77,15 @@ async def get_football_list(client: httpx.AsyncClient) -> list[MatchSource]:
             continue
 
         for stream in cat.get("streams", []):
-            if stream.get("always_live") == 1 or str(stream.get("id", "")).startswith("247"):
+            league = str(stream.get("league", "")).strip()
+
+            # Sadece Süper Lig maçlarını al
+            if league.lower() != TARGET_LEAGUE:
                 continue
 
-            starts_at = stream.get("starts_at")
-            if MAX_HOURS_AHEAD and starts_at:
-                if int(starts_at) > now_ts + (MAX_HOURS_AHEAD * 3600):
-                    continue
-
             match_name = str(stream.get("name", "")).strip()
-            league = str(stream.get("league", "Football")).strip() or "Football"
             status = str(stream.get("status", "")).strip().lower()
+            starts_at = stream.get("starts_at")
             poster = str(stream.get("poster", "")).strip()
             if poster and not poster.startswith("http"):
                 poster = urljoin(BASE_URL, poster)
@@ -121,7 +117,7 @@ async def get_football_list(client: httpx.AsyncClient) -> list[MatchSource]:
     return items
 
 
-async def resolve_unique_embed(
+async def resolve_via_iframe(
     context,
     semaphore: asyncio.Semaphore,
     cache_key: str,
@@ -136,29 +132,37 @@ async def resolve_unique_embed(
         def handle_request(request):
             nonlocal captured_url
             url = request.url
-            low = url.lower()
-            if ".m3u8" in low and "player/hls" not in low:
-                if ("ct=" in low or "tk=" in low) or not captured_url:
-                    captured_url = url
-                    if "ct=" in low or "tk=" in low:
-                        found_event.set()
+            lower_url = url.lower()
+            if (
+                ".m3u8" in lower_url
+                and "player/hls" not in lower_url
+                and ("ct=" in lower_url or "tk=" in lower_url)
+                and not captured_url
+            ):
+                captured_url = url
+                found_event.set()
 
         page.on("request", handle_request)
 
         try:
-            # Sandbox Error'u asmak icin ondemand.st baglaminda gercek iframe icinde ac
-            safe_src = html.escape(embed_url, quote=True)
-            wrapper_html = f"""
-            <!DOCTYPE html>
-            <html><body>
-              <iframe src="{safe_src}" width="800" height="450" allowfullscreen></iframe>
-            </body></html>
-            """
-            await page.route(
-                f"{BASE_URL}/wrapper-frame",
-                lambda route: route.fulfill(status=200, content_type="text/html", body=wrapper_html),
+            await page.goto(
+                f"{BASE_URL}/sport/{TARGET_CATEGORY}",
+                wait_until="commit",
+                timeout=12000,
             )
-            await page.goto(f"{BASE_URL}/wrapper-frame", wait_until="domcontentloaded", timeout=12000)
+
+            await page.evaluate(
+                """(src) => {
+                    document.body.innerHTML = '';
+                    const f = document.createElement('iframe');
+                    f.src = src;
+                    f.style.width = '100%';
+                    f.style.height = '500px';
+                    document.body.appendChild(f);
+                }""",
+                embed_url,
+            )
+
             await asyncio.wait_for(found_event.wait(), timeout=10.0)
         except Exception:
             pass
@@ -169,10 +173,10 @@ async def resolve_unique_embed(
             parsed_embed = urlparse(embed_url)
             embed_org = f"{parsed_embed.scheme}://{parsed_embed.netloc}"
             cache[cache_key] = (captured_url, embed_org + "/", embed_org)
-            log.info(f"İmzalı M3U8 yakalandı: {captured_url[:80]}...")
+            log.info(f"İmzalı M3U8 yakalandı: {cache_key}")
         else:
             cache[cache_key] = ("", "", "")
-            log.warning(f"Token üretilmedi: {cache_key}")
+            log.warning(f"Token alınamadı: {cache_key}")
 
 
 def write_m3u(streams: list[MatchSource]) -> None:
@@ -192,15 +196,15 @@ def write_m3u(streams: list[MatchSource]) -> None:
         lines.append(item.m3u8_url)
 
     Path(OUTPUT_FILE).write_text("\n".join(lines) + "\n", encoding="utf-8")
-    log.info(f"Toplam {len(streams)} imzalı yayın '{OUTPUT_FILE}' dosyasına kaydedildi.")
+    log.info(f"Toplam {len(streams)} Süper Lig yayını '{OUTPUT_FILE}' dosyasına kaydedildi.")
 
 
 async def main() -> None:
     async with httpx.AsyncClient(headers=HEADERS, follow_redirects=True, timeout=20.0) as client:
-        items = await get_football_list(client)
+        items = await get_superlig_list(client)
 
     if not items:
-        log.info("Uygun futbol maçı bulunamadı.")
+        log.info("Süper Lig maçı bulunamadı.")
         write_m3u([])
         return
 
@@ -209,7 +213,7 @@ async def main() -> None:
         if item.cache_key not in unique_embeds:
             unique_embeds[item.cache_key] = item.embed_url
 
-    log.info(f"{len(items)} maç kaynağı için {len(unique_embeds)} benzersiz kanal çözülüyor...")
+    log.info(f"{len(items)} Süper Lig maçı için {len(unique_embeds)} benzersiz kanal çözülüyor...")
     semaphore = asyncio.Semaphore(CONCURRENCY)
     cache: dict[str, tuple[str, str, str]] = {}
 
@@ -222,10 +226,7 @@ async def main() -> None:
                 "--disable-blink-features=AutomationControlled",
             ],
         )
-        context = await browser.new_context(
-            user_agent=USER_AGENT,
-            extra_http_headers={"Referer": f"{BASE_URL}/"},
-        )
+        context = await browser.new_context(user_agent=USER_AGENT)
 
         await context.route(
             re.compile(r"\.(png|jpg|jpeg|gif|webp|svg|css|woff2?)$", re.I),
@@ -233,7 +234,7 @@ async def main() -> None:
         )
 
         tasks = [
-            resolve_unique_embed(context, semaphore, key, url, cache)
+            resolve_via_iframe(context, semaphore, key, url, cache)
             for key, url in unique_embeds.items()
         ]
         await asyncio.gather(*tasks)
