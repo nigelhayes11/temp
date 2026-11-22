@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 import asyncio
 import logging
+import re
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
 
 import httpx
 
@@ -13,9 +12,13 @@ import httpx
 # AYARLAR
 # ------------------------------------------------------------
 
-BASE_URL = "https://damitv.st"
+BASE_URL = "https://ondemand.st"
+API_URL = f"{BASE_URL}/papi/api/streams"
 OUTPUT_FILE = "dami.m3u"
 TAG = "DAMITV"
+
+# Sadece çekmek istediğiniz kategori (küçük harfle)
+TARGET_CATEGORY = "football"
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -25,11 +28,11 @@ USER_AGENT = (
 
 HEADERS = {
     "User-Agent": USER_AGENT,
-    "Accept": "*/*",
-    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "application/json, text/plain, */*",
+    "Referer": f"{BASE_URL}/sport/{TARGET_CATEGORY}",
+    "Origin": BASE_URL,
 }
 
-CONCURRENCY = 8
 TIMEOUT = 25.0
 
 logging.basicConfig(
@@ -44,185 +47,161 @@ log = logging.getLogger(TAG)
 # ------------------------------------------------------------
 
 @dataclass(slots=True)
-class DAMIEvent:
-    sport: str
-    name: str
-    stream_id: str
-    ppv_id: str
-    timestamp: int
-    logo: str = ""
-    source: str = ""
-    refer: str = ""
+class FootballStream:
+    title: str
+    league: str
+    logo: str
+    m3u8_url: str
+    referer: str
 
 
 # ------------------------------------------------------------
-# YAYIN ÇÖZÜMLEME
+# EMBED -> M3U8 ÇÖZÜMLEYİCİ
 # ------------------------------------------------------------
 
-async def process_event(
-    client: httpx.AsyncClient,
-    semaphore: asyncio.Semaphore,
-    event: DAMIEvent,
-    url_num: int,
-) -> DAMIEvent | None:
-    async with semaphore:
-        refer = urljoin(BASE_URL, f"embed/?id={event.stream_id}")
-        extract_url = urljoin(BASE_URL, f"papi/extract-url/{event.ppv_id}")
+def extract_m3u8_from_embed(embed_url: str) -> tuple[str, str]:
+    """
+    API dokümantasyonundaki örnek:
+    https://damitv.st...
+    İçindeki 'url' parametresini çözüp tam m3u8 adresine çevirir.
+    """
+    if not embed_url:
+        return "", ""
 
-        try:
-            resp = await client.get(
-                extract_url,
-                headers={"Referer": refer},
-            )
-            if resp.status_code != 200:
-                log.warning(f"URL {url_num}) HTTP {resp.status_code} - {event.name}")
-                return None
+    parsed = urlparse(embed_url)
+    base_domain = f"{parsed.scheme}://{parsed.netloc}" if parsed.netloc else BASE_URL
 
-            api_data = resp.json() or {}
-            m3u8 = api_data.get("sdUrl") or api_data.get("hlsUrl")
+    # 1. Doğrudan .m3u8 ise
+    if ".m3u8" in parsed.path.lower():
+        return embed_url, base_domain + "/"
 
-            if not m3u8:
-                log.warning(f"URL {url_num}) Kaynak bulunamadı: {event.name}")
-                return None
+    # 2. Query içindeki 'url=' parametresini çöz
+    query_params = parse_qs(parsed.query)
+    raw_stream = query_params.get("url", [""])[0]
+    if raw_stream:
+        decoded = unquote(raw_stream)
+        full_m3u8 = urljoin(base_domain, decoded)
+        return full_m3u8, embed_url
 
-            log.info(f"URL {url_num}) M3U8 yakalandı: {event.name}")
-            event.source = m3u8
-            event.refer = refer
-            return event
-
-        except Exception as exc:
-            log.warning(f"URL {url_num}) Hata ({event.name}): {exc}")
-            return None
+    return "", ""
 
 
-# ------------------------------------------------------------
-# ETKİNLİK LİSTESİ ÇEKME
-# ------------------------------------------------------------
-
-async def get_events(client: httpx.AsyncClient) -> list[DAMIEvent]:
-    now = datetime.now(timezone.utc)
-    start_dt = now - timedelta(minutes=30)
-    end_dt = now + timedelta(minutes=30)
-
-    events: list[DAMIEvent] = []
-
+async def fallback_scrape_embed(client: httpx.AsyncClient, embed_url: str) -> str:
+    """Eğer embed linkinde url= parametresi yoksa sayfayı açıp içinden .m3u8 arar."""
     try:
-        r = await client.get(urljoin(BASE_URL, "papi/matches/all-today"))
-        if r.status_code != 200:
-            log.error(f"API HTTP {r.status_code}")
-            return events
-        api_data: list[dict[str, Any]] = r.json() or []
-    except Exception as exc:
-        log.error(f"API okuma hatası: {exc}")
-        return events
-
-    for event in api_data:
-        if not isinstance(event, dict):
-            continue
-
-        values = [event.get(x) for x in ("title", "league", "date", "id", "ppvId")]
-        if not all(values):
-            continue
-
-        name, sport, start_ts, stream_id, ppv_id = values
-        stream_id = str(stream_id).strip()
-        ppv_id = str(ppv_id).strip()
-        name = str(name).strip()
-        sport = str(sport).strip()
-
-        # 7/24 kanalları atla (istenirse bu 4 satır silinebilir)
-        if stream_id.lower().startswith(("dl-", "247")):
-            continue
-        if sport.startswith("24/7"):
-            continue
-
-        sport = (
-            " ".join(i.capitalize().strip() for i in sport.split("-"))
-            if sport.islower()
-            else sport
-        )
-
-        # Milisaniye timestamp -> saniye dönüşümü
-        try:
-            event_ts = int(str(start_ts)[:-3])
-            event_dt = datetime.fromtimestamp(event_ts, tz=timezone.utc)
-        except ValueError:
-            continue
-
-        # Sadece başlama saatine +-30 dk olan canlı maçları al
-        if not (start_dt <= event_dt <= end_dt):
-            continue
-
-        poster = event.get("poster") or ""
-        if poster and not poster.startswith("http"):
-            poster = urljoin(BASE_URL, poster)
-
-        events.append(
-            DAMIEvent(
-                sport=sport,
-                name=name,
-                logo=poster,
-                stream_id=stream_id,
-                ppv_id=ppv_id,
-                timestamp=event_ts,
+        resp = await client.get(embed_url, headers={"Referer": f"{BASE_URL}/"})
+        if resp.status_code == 200:
+            matches = re.findall(
+                r"""https?://[^\s"'<>]+\.m3u8(?:\?[^\s"'<>]*)?""",
+                resp.text,
+                re.IGNORECASE,
             )
-        )
-
-    return events
-
-
-# ------------------------------------------------------------
-# M3U DOSYASI OLUŞTURMA (TELEVIZO UYUMLU)
-# ------------------------------------------------------------
-
-def write_m3u(events: list[DAMIEvent]) -> None:
-    lines = ["#EXTM3U"]
-
-    for ev in events:
-        title = f"[{ev.sport}] {ev.name} ({TAG})"
-        lines.append(
-            f'#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="{title}" '
-            f'tvg-logo="{ev.logo}" group-title="{ev.sport}",{title}'
-        )
-        if ev.refer:
-            lines.append(f"#EXTVLCOPT:http-referrer={ev.refer}")
-        lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
-        lines.append(ev.source)
-
-    Path(OUTPUT_FILE).write_text("\n".join(lines) + "\n", encoding="utf-8")
-    log.info(f"{len(events)} canlı yayın '{OUTPUT_FILE}' dosyasına kaydedildi.")
+            if matches:
+                return matches[0].rstrip("\\);,")
+    except Exception:
+        pass
+    return ""
 
 
 # ------------------------------------------------------------
-# ANA ÇALIŞTIRICI
+# FOOTBALL CANLI YAYINLARI ÇEKME
 # ------------------------------------------------------------
 
-async def main() -> None:
-    log.info(f'"{BASE_URL}" taranıyor...')
+async def fetch_football_streams() -> list[FootballStream]:
+    results: list[FootballStream] = []
 
     async with httpx.AsyncClient(
         headers=HEADERS,
         follow_redirects=True,
         timeout=httpx.Timeout(TIMEOUT),
     ) as client:
-        events = await get_events(client)
+        log.info(f"API sorgulanıyor: {API_URL}")
+        try:
+            resp = await client.get(API_URL)
+            if resp.status_code != 200:
+                log.error(f"API HTTP {resp.status_code} hatası!")
+                return results
+            data = resp.json()
+        except Exception as exc:
+            log.error(f"API bağlantı hatası: {exc}")
+            return results
 
-        if not events:
-            log.info("Şu an uygun canlı etkinlik bulunamadı.")
-            write_m3u([])
-            return
+        categories = data.get("streams", [])
+        for cat in categories:
+            cat_name = str(cat.get("category", "")).strip().lower()
 
-        log.info(f"{len(events)} yeni etkinlik işleniyor...")
-        semaphore = asyncio.Semaphore(CONCURRENCY)
+            # Sadece 'football' kategorisini al
+            if cat_name != TARGET_CATEGORY:
+                continue
 
-        tasks = [
-            process_event(client, semaphore, ev, i)
-            for i, ev in enumerate(events, start=1)
-        ]
-        results = await asyncio.gather(*tasks)
+            for stream in cat.get("streams", []):
+                # 7/24 kanalları atla (isterseniz bu bloğu silebilirsiniz)
+                if stream.get("always_live") == 1 or str(stream.get("id", "")).startswith("247"):
+                    continue
 
-        valid_events = [ev for ev in results if ev is not None]
-        write_m3u(valid_events)
+                # Sadece şu an CANLI (live) olan maçları al
+                status = str(stream.get("status", "")).strip().lower()
+                if status != "live":
+                    continue
+
+                match_name = str(stream.get("name", "")).strip()
+                league = str(stream.get("league", "Football")).strip() or "Football"
+                poster = str(stream.get("poster", "")).strip()
+                if poster and not poster.startswith("http"):
+                    poster = urljoin(BASE_URL, poster)
+
+                sources = stream.get("sources") or []
+                for idx, src in enumerate(sources, start=1):
+                    src_name = str(src.get("name") or f"Kaynak {idx}").strip()
+                    embed_url = str(src.get("embed") or "").strip()
+
+                    m3u8_url, referer = extract_m3u8_from_embed(embed_url)
+
+                    # Eğer parametreden çıkmadıysa embed sayfasının içine bak
+                    if not m3u8_url and embed_url:
+                        m3u8_url = await fallback_scrape_embed(client, embed_url)
+                        referer = embed_url
+
+                    if m3u8_url:
+                        results.append(
+                            FootballStream(
+                                title=f"{match_name} [{src_name}]",
+                                league=league,
+                                logo=poster,
+                                m3u8_url=m3u8_url,
+                                referer=referer,
+                            )
+                        )
+                        log.info(f"Yakalandı: {match_name} [{src_name}]")
+
+    return results
+
+
+# ------------------------------------------------------------
+# M3U DOSYASI YAZMA (TELEVIZO UYUMLU)
+# ------------------------------------------------------------
+
+def write_m3u(streams: list[FootballStream]) -> None:
+    lines = ["#EXTM3U"]
+
+    for item in streams:
+        full_title = f"[{item.league}] {item.title} ({TAG})"
+        lines.append(
+            f'#EXTINF:-1 tvg-id="Football.Live" tvg-name="{full_title}" '
+            f'tvg-logo="{item.logo}" group-title="{item.league}",{full_title}'
+        )
+        if item.referer:
+            lines.append(f"#EXTVLCOPT:http-referrer={item.referer}")
+        lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+        lines.append(item.m3u8_url)
+
+    Path(OUTPUT_FILE).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    log.info(f"Toplam {len(streams)} canlı futbol yayını '{OUTPUT_FILE}' dosyasına kaydedildi.")
+
+
+async def main() -> None:
+    streams = await fetch_football_streams()
+    write_m3u(streams)
 
 
 if __name__ == "__main__":
