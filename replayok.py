@@ -40,7 +40,6 @@ HEADERS = {
 
 
 def resolve_video_mp4(embed_url: str) -> str | None:
-    """ok.ru, dailymotion, vk vb. desteklenen embedlerden tek parça MP4/HTTP akışı çeker."""
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
@@ -106,7 +105,6 @@ async def get_posts_from_url(
 async def extract_embeds_from_redirect(
     client: httpx.AsyncClient, href: str, referer: str
 ) -> list[str]:
-    """Butonun yönlendirdiği ara sayfadan desteklenen (ok.ru, dailymotion, vk) iframe'leri alır."""
     if any(s in href for s in SKIP_HOSTS):
         return []
 
@@ -261,3 +259,7 @@ async def main() -> None:
 
         for p in range(1, NBA_PAGES + 1):
             url = f"{BASE_URL}/" if p == 1 else f"{BASE_URL}/?page{p}"
+            tasks.append(get_posts_from_url(client, url, NBA_GROUP, is_euroleague=False))
+
+        for p in range(1, EUROLEAGUE_PAGES + 1):
+            url = f"{BASE_URL}/euroleague" if p == 1 else f"{BASE_URL}/euroleague?page{p}"
