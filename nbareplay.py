@@ -16,7 +16,8 @@ log = logging.getLogger("NBAREPLAY")
 
 BASE_URL = "https://basketball-video.com"
 OUTPUT_FILE = "nbareplay.m3u"
-MAX_GAMES = 15
+PAGES_TO_SCRAPE = 4  # 4 sayfa ≈ Son 1 haftalık tüm NBA maçları (~45-55 maç)
+MAX_CONCURRENT = 8   # Aynı anda 8 maçı paralel çözer
 
 HEADERS = {
     "User-Agent": (
@@ -37,14 +38,16 @@ REDIRECT_DOMAINS = (
     "nhlgamestoday",
 )
 
+# Desteklenmeyen / AES-256 şifreli oynatıcıları baştan atlayarak süreyi kısaltır
+SKIP_HOSTS = ("bysesukior", "czzbgnw", "facebook.com", "twitter.com", "google.com")
 M3U8_REGEX = re.compile(r"""["'](https?://[^"'\s<>]+\.m3u8[^"'\s<>]*)["']""", re.IGNORECASE)
 
 
 def resolve_video_url(embed_url: str, referer: str) -> str | None:
-    """Önce yt-dlp ile (ok.ru, filemoon, dailymotion vb.), olmazsa HTML regex ile m3u8/mp4 çeker."""
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
+        "socket_timeout": 10,
         "format": "best[protocol*=m3u8]/best",
         "http_headers": {**HEADERS, "Referer": referer},
     }
@@ -59,9 +62,8 @@ def resolve_video_url(embed_url: str, referer: str) -> str | None:
 
 
 async def fallback_jw_scan(client: httpx.AsyncClient, embed_url: str, referer: str) -> str | None:
-    """yt-dlp'nin tanımadığı özel JW Player sayfalarından doğrudan m3u8 ayıklar."""
     try:
-        res = await client.get(embed_url, headers={**HEADERS, "Referer": referer}, timeout=12.0)
+        res = await client.get(embed_url, headers={**HEADERS, "Referer": referer}, timeout=8.0)
         text = res.text.replace("\\/", "/")
         match = M3U8_REGEX.search(text)
         if match:
@@ -71,10 +73,11 @@ async def fallback_jw_scan(client: httpx.AsyncClient, embed_url: str, referer: s
     return None
 
 
-async def get_nba_games(client: httpx.AsyncClient) -> list[dict[str, str]]:
+async def get_games_from_page(client: httpx.AsyncClient, page: int) -> list[dict[str, str]]:
+    url = f"{BASE_URL}/" if page == 1 else f"{BASE_URL}/?page{page}"
     games: list[dict[str, str]] = []
     try:
-        res = await client.get(f"{BASE_URL}/", headers=HEADERS, timeout=15.0)
+        res = await client.get(url, headers=HEADERS, timeout=15.0)
         res.raise_for_status()
         soup = BeautifulSoup(res.text, "html.parser")
 
@@ -88,94 +91,96 @@ async def get_nba_games(client: httpx.AsyncClient) -> list[dict[str, str]]:
             if "NBA" not in raw_title or "WNBA" in raw_title:
                 continue
 
-            title = raw_title.replace("Full Game Replay ", "").replace(" - Full Game Replay", "").strip(" -")
+            title = (
+                raw_title.replace("Full Game Replay ", "")
+                .replace(" - Full Game Replay", "")
+                .replace(" - NBA - ", " - ")
+                .strip(" -")
+            )
             href = urljoin(BASE_URL, main_a["href"])
             img = item.select_one("img")
             logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
 
-            if not any(g["url"] == href for g in games):
-                games.append({"title": title, "url": href, "logo": logo})
-
-            if len(games) >= MAX_GAMES:
-                break
+            games.append({"title": title, "url": href, "logo": logo})
     except Exception as e:
-        log.error(f"Ana sayfa çekilemedi: {e}")
+        log.warning(f"Sayfa {page} çekilemedi: {e}")
 
     return games
 
 
-async def scrape_game(client: httpx.AsyncClient, game: dict[str, str]) -> list[dict[str, str]]:
-    streams: list[dict[str, str]] = []
-    try:
-        res = await client.get(game["url"], headers=HEADERS, timeout=15.0)
-        soup = BeautifulSoup(res.text, "html.parser")
+async def scrape_game(
+    client: httpx.AsyncClient,
+    semaphore: asyncio.Semaphore,
+    game: dict[str, str],
+) -> list[dict[str, str]]:
+    async with semaphore:
+        streams: list[dict[str, str]] = []
+        try:
+            res = await client.get(game["url"], headers=HEADERS, timeout=15.0)
+            soup = BeautifulSoup(res.text, "html.parser")
 
-        # Maç yazısı içindeki tüm izleme linklerini ve iframe'leri bul
-        story = soup.select_one("div.full_story, div.entry-content, div.text") or soup
-        candidate_urls: list[str] = []
+            story = soup.select_one("div.full_story, div.entry-content, div.text") or soup
+            candidate_urls: list[str] = []
 
-        for iframe in story.select("iframe"):
-            src = iframe.get("src") or iframe.get("data-src")
-            if src:
-                candidate_urls.append(src)
+            for iframe in story.select("iframe"):
+                src = iframe.get("src") or iframe.get("data-src")
+                if src:
+                    candidate_urls.append(src)
 
-        for a in story.select("a[href]"):
-            href = a.get("href", "")
-            text = a.get_text(strip=True).lower()
-            if "watch" in text or "su-button" in a.get("class", []) or any(d in href for d in REDIRECT_DOMAINS):
-                if href and not href.startswith("#"):
-                    candidate_urls.append(href)
+            for a in story.select("a[href]"):
+                href = a.get("href", "")
+                text = a.get_text(strip=True).lower()
+                if "watch" in text or "part" in text or "su-button" in a.get("class", []) or any(d in href for d in REDIRECT_DOMAINS):
+                    if href and not href.startswith("#"):
+                        candidate_urls.append(href)
 
-        embed_urls: list[str] = []
-        for raw in candidate_urls:
-            link = f"https:{raw}" if raw.startswith("//") else urljoin(game["url"], raw)
+            embed_urls: list[str] = []
+            for raw in candidate_urls:
+                link = f"https:{raw}" if raw.startswith("//") else urljoin(game["url"], raw)
 
-            # Ara yönlendirme sayfasıysa (nbaontv, gamesontvtoday vb.) içine girip tüm iframe'leri al
-            if any(dom in link for dom in REDIRECT_DOMAINS) and link != game["url"]:
-                try:
-                    r2 = await client.get(link, headers={**HEADERS, "Referer": game["url"]}, timeout=12.0)
-                    sub_soup = BeautifulSoup(r2.text, "html.parser")
-                    for sub_iframe in sub_soup.select("iframe"):
-                        sub_src = sub_iframe.get("src") or sub_iframe.get("data-src")
-                        if sub_src:
-                            if sub_src.startswith("//"):
-                                sub_src = "https:" + sub_src
-                            if sub_src not in embed_urls:
-                                embed_urls.append(sub_src)
-                except Exception:
-                    continue
-            elif link not in embed_urls and link != game["url"]:
-                embed_urls.append(link)
+                if any(dom in link for dom in REDIRECT_DOMAINS) and link != game["url"]:
+                    try:
+                        r2 = await client.get(link, headers={**HEADERS, "Referer": game["url"]}, timeout=10.0)
+                        sub_soup = BeautifulSoup(r2.text, "html.parser")
+                        for sub_iframe in sub_soup.select("iframe"):
+                            sub_src = sub_iframe.get("src") or sub_iframe.get("data-src")
+                            if sub_src:
+                                if sub_src.startswith("//"):
+                                    sub_src = "https:" + sub_src
+                                if sub_src not in embed_urls and not any(s in sub_src for s in SKIP_HOSTS):
+                                    embed_urls.append(sub_src)
+                    except Exception:
+                        continue
+                elif link not in embed_urls and link != game["url"] and not any(s in link for s in SKIP_HOSTS):
+                    embed_urls.append(link)
 
-        for idx, embed in enumerate(embed_urls, start=1):
-            embed_clean = embed.replace("luluvid.com", "luluvdo.com")
-            host = urlparse(embed_clean).netloc
+            for idx, embed in enumerate(embed_urls, start=1):
+                embed_clean = embed.replace("luluvid.com", "luluvdo.com")
+                host = urlparse(embed_clean).netloc
 
-            # Önce yt-dlp ile dene, olmazsa JW Player M3U8 taraması yap
-            direct_url = await asyncio.to_thread(resolve_video_url, embed_clean, game["url"])
-            if not direct_url:
-                direct_url = await fallback_jw_scan(client, embed_clean, game["url"])
+                direct_url = await asyncio.to_thread(resolve_video_url, embed_clean, game["url"])
+                if not direct_url:
+                    direct_url = await fallback_jw_scan(client, embed_clean, game["url"])
 
-            if direct_url:
-                streams.append(
-                    {
-                        "title": f"{game['title']} [Part {idx} - {host}]",
-                        "group": "NBA Replays",
-                        "logo": game["logo"],
-                        "referer": embed_clean,
-                        "url": direct_url,
-                    }
-                )
+                if direct_url:
+                    part_tag = f"Part {idx}" if len(embed_urls) > 1 else "Full"
+                    streams.append(
+                        {
+                            "title": f"{game['title']} [{part_tag}]",
+                            "group": "NBA Replays",
+                            "logo": game["logo"],
+                            "referer": embed_clean,
+                            "url": direct_url,
+                        }
+                    )
 
-        if streams:
-            log.info(f"✓ {game['title']} ({len(streams)} kaynak eklendi)")
-        else:
-            log.warning(f"✗ Çözülemedi ({len(embed_urls)} embed bulundu): {game['title']}")
+            if streams:
+                log.info(f"✓ {game['title']} ({len(streams)} part)")
 
-    except Exception as e:
-        log.warning(f"Hata ({game['title']}): {e}")
+        except Exception as e:
+            log.debug(f"Hata ({game['title']}): {e}")
 
-    return streams
+        return streams
 
 
 def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
@@ -186,6 +191,7 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
         )
         lines.append(f"#EXTVLCOPT:http-referrer={s['referer']}")
         lines.append(f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}")
+        lines.append("#EXTVLCOPT:http-no-tls-verify")
         lines.append(s["url"])
 
     with open(filename, "w", encoding="utf-8") as f:
@@ -195,19 +201,28 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
 
 
 async def main() -> None:
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
-        games = await get_nba_games(client)
-        log.info(f"{len(games)} NBA maçı bulundu, linkler çözülüyor...")
+        all_games: list[dict[str, str]] = []
+        seen_urls: set[str] = set()
 
-        if not games:
+        for page in range(1, PAGES_TO_SCRAPE + 1):
+            page_games = await get_games_from_page(client, page)
+            for g in page_games:
+                if g["url"] not in seen_urls:
+                    seen_urls.add(g["url"])
+                    all_games.append(g)
+
+        log.info(f"Son 1 haftadan {len(all_games)} NBA maçı bulundu, paralel çözülüyor...")
+        if not all_games:
             write_m3u([], OUTPUT_FILE)
             return
 
-        all_streams: list[dict[str, str]] = []
-        for game in games:
-            all_streams.extend(await scrape_game(client, game))
+        tasks = [scrape_game(client, semaphore, game) for game in all_games]
+        results = await asyncio.gather(*tasks)
 
-        write_m3u(all_streams, OUTPUT_FILE)
+        flat_streams = [item for sublist in results for item in sublist]
+        write_m3u(flat_streams, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
