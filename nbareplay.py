@@ -1,6 +1,5 @@
 import asyncio
 import logging
-import re
 from urllib.parse import urljoin
 
 import httpx
@@ -14,9 +13,9 @@ logging.basicConfig(
 )
 log = logging.getLogger("NBAREPLAY")
 
-BASE_URL = "https://nbareplay.net"
+BASE_URL = "https://basketball-video.com"
 OUTPUT_FILE = "nbareplay.m3u"
-MAX_GAMES = 12  # Son 12 maçı tarar
+MAX_GAMES = 12  # Son 12 NBA maçını çeker
 
 HEADERS = {
     "User-Agent": (
@@ -26,9 +25,19 @@ HEADERS = {
     "Referer": f"{BASE_URL}/",
 }
 
+REDIRECT_DOMAINS = (
+    "nfl-replays",
+    "nfl-video",
+    "basketball-video",
+    "nbaontv",
+    "gamesontvtoday",
+    "nbatraderumors",
+    "nhlgamestoday",
+)
 
-def extract_with_ytdlp(embed_url: str) -> str | None:
-    """yt-dlp kullanarak Dailymotion, OK.ru, VK veya gömülü oynatıcıdan doğrudan yayın linki alır."""
+
+def extract_direct_stream(embed_url: str) -> str | None:
+    """yt-dlp ile ok.ru, dailymotion, vk vb. oynatıcılardan doğrudan m3u8/mp4 çeker."""
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
@@ -45,23 +54,28 @@ def extract_with_ytdlp(embed_url: str) -> str | None:
     return None
 
 
-async def get_recent_games(client: httpx.AsyncClient) -> list[dict[str, str]]:
-    """nbareplay.net ana sayfasından son NBA maçlarını toplar."""
+async def get_nba_games(client: httpx.AsyncClient) -> list[dict[str, str]]:
+    """basketball-video.com ana sayfasından sadece NBA maç tekrarlarını alır."""
     games: list[dict[str, str]] = []
     try:
-        res = await client.get(BASE_URL, headers=HEADERS, timeout=15.0)
+        res = await client.get(f"{BASE_URL}/", headers=HEADERS, timeout=15.0)
         res.raise_for_status()
         soup = BeautifulSoup(res.text, "html.parser")
 
-        for article in soup.select("article"):
-            a = article.select_one("h2 a, h3 a, a[rel='bookmark']")
-            if not a or not a.get("href"):
+        for item in soup.select("div.short_item.block_elem"):
+            h3_a = item.select_one("h3 a")
+            main_a = item.select_one("a[href]")
+            if not h3_a or not main_a:
                 continue
 
-            title = a.get_text(strip=True).replace("Full Game Replay", "").strip(" -–")
-            href = urljoin(BASE_URL, a["href"])
-            img = article.select_one("img")
-            logo = img.get("data-src") or img.get("src") or "" if img else ""
+            raw_title = h3_a.get_text(strip=True)
+            if "NBA" not in raw_title or "WNBA" in raw_title:
+                continue
+
+            title = raw_title.replace("Full Game Replay ", "").replace(" - Full Game Replay", "").strip(" -")
+            href = urljoin(BASE_URL, main_a["href"])
+            img = item.select_one("img")
+            logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
 
             if not any(g["url"] == href for g in games):
                 games.append({"title": title, "url": href, "logo": logo})
@@ -74,24 +88,51 @@ async def get_recent_games(client: httpx.AsyncClient) -> list[dict[str, str]]:
     return games
 
 
-async def process_game(client: httpx.AsyncClient, game: dict[str, str]) -> list[dict[str, str]]:
-    """Maç sayfasındaki iframe veya video linklerini bulup yt-dlp ile çözer."""
+async def scrape_game(client: httpx.AsyncClient, game: dict[str, str]) -> list[dict[str, str]]:
+    """Maç sayfasındaki Watch butonlarını ve iframe'leri takip edip yt-dlp ile çözer."""
     streams: list[dict[str, str]] = []
     try:
         res = await client.get(game["url"], headers=HEADERS, timeout=15.0)
         soup = BeautifulSoup(res.text, "html.parser")
 
-        embed_urls: list[str] = []
-        for iframe in soup.select("iframe"):
+        # Sadece içerik alanındaki izleme butonlarını ve iframe'leri topla
+        content_area = soup.select_one("div.full_story, div.entry-content, article") or soup
+        raw_links: list[str] = []
+
+        for iframe in content_area.select("iframe"):
             src = iframe.get("src") or iframe.get("data-src")
             if src:
-                if src.startswith("//"):
-                    src = "https:" + src
-                if src not in embed_urls and not any(x in src for x in ("facebook", "twitter", "ads")):
-                    embed_urls.append(src)
+                raw_links.append(src)
+
+        for btn in content_area.select("a.su-button[href]"):
+            href = btn.get("href")
+            if href:
+                raw_links.append(href)
+
+        embed_urls: list[str] = []
+        for raw in raw_links:
+            link = f"https:{raw}" if raw.startswith("//") else urljoin(game["url"], raw)
+
+            # Ara yönlendirme sayfasıysa (nbaontv, nhlgamestoday vb.) içine girip iframe al
+            if any(dom in link for dom in REDIRECT_DOMAINS) and link != game["url"]:
+                try:
+                    r2 = await client.get(link, headers={**HEADERS, "Referer": game["url"]}, timeout=12.0)
+                    sub_soup = BeautifulSoup(r2.text, "html.parser")
+                    sub_iframe = sub_soup.select_one("iframe")
+                    if sub_iframe and (sub_iframe.get("src") or sub_iframe.get("data-src")):
+                        link = sub_iframe.get("src") or sub_iframe.get("data-src")
+                        if link.startswith("//"):
+                            link = f"https:{link}"
+                    else:
+                        continue
+                except Exception:
+                    continue
+
+            if link and link not in embed_urls and "bysesukior" not in link:
+                embed_urls.append(link)
 
         for idx, embed in enumerate(embed_urls, start=1):
-            direct_url = await asyncio.to_thread(extract_with_ytdlp, embed)
+            direct_url = await asyncio.to_thread(extract_direct_stream, embed)
             if direct_url:
                 label = f"Part {idx}" if len(embed_urls) > 1 else "Full"
                 streams.append(
@@ -105,9 +146,9 @@ async def process_game(client: httpx.AsyncClient, game: dict[str, str]) -> list[
                 )
 
         if streams:
-            log.info(f"✓ {game['title']} ({len(streams)} part eklendi)")
+            log.info(f"✓ {game['title']} ({len(streams)} kaynak eklendi)")
         else:
-            log.warning(f"✗ Oynatıcı çözülemedi: {game['title']}")
+            log.warning(f"✗ Uygun kaynak çözülemedi: {game['title']}")
 
     except Exception as e:
         log.warning(f"Hata ({game['title']}): {e}")
@@ -133,8 +174,8 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
 
 async def main() -> None:
     async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
-        games = await get_recent_games(client)
-        log.info(f"{len(games)} NBA maçı bulundu, linkler çözülüyor...")
+        games = await get_nba_games(client)
+        log.info(f"{len(games)} NBA maçı bulundu, yt-dlp ile yayın akışları çekiliyor...")
 
         if not games:
             write_m3u([], OUTPUT_FILE)
@@ -142,8 +183,7 @@ async def main() -> None:
 
         all_streams: list[dict[str, str]] = []
         for game in games:
-            game_streams = await process_game(client, game)
-            all_streams.extend(game_streams)
+            all_streams.extend(await scrape_game(client, game))
 
         write_m3u(all_streams, OUTPUT_FILE)
 
