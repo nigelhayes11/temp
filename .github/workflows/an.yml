@@ -1,45 +1,43 @@
-name: Update Live M3U Playlist
+name: Update STRMFREE M3U
 
 on:
   schedule:
-    # Her 30 dakikada bir otomatik çalışır
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # GitHub Actions sekmesinden manuel başlatma butonu ekler
+    # Her 2 saatte bir çalışır (Dakika Saat Gün Ay HaftanınGünü)
+    - cron: "0 */2 * * *"
+  workflow_dispatch: # GitHub Actions sekmesinden manuel tetikleme imkanı sağlar
 
 permissions:
-  contents: write
+  contents: write # Oluşan .m3u dosyasını repoya kaydedebilmesi için gerekli izin
 
 jobs:
-  build:
+  build-m3u:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Depoyu (Repository) Çek
+      - name: Repoyu İndir (Checkout)
         uses: actions/checkout@v4
 
       - name: Python Kurulumu
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.12"
 
-      - name: Bağımlılıkları ve Playwright Tarayıcısını Kur
+      - name: Gerekli Kütüphaneleri Yükle
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
-          playwright install chromium
-          playwright install-deps chromium
+          pip install httpx
 
       - name: Betiği Çalıştır
-        run: python an.py
+        run: python strmfree.py
 
-      - name: Güncellenen nba.m3u Dosyasını Repoya Kaydet
+      - name: Değişiklikleri Repoya Kaydet (Commit & Push)
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "github-actions[bot]@://github.com"
           git config --local user.name "github-actions[bot]"
-          git add nba.m3u
+          git add strmfree.m3u
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update nba.m3u playlist"
+            git commit -m "chore: update strmfree.m3u [skip ci]"
             git push
           else
-            echo "Değişiklik yok, commit atılmadı."
+            echo "strmfree.m3u dosyasında değişiklik yok."
           fi
