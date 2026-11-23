@@ -1,6 +1,5 @@
 import asyncio
 import logging
-import re
 from urllib.parse import urljoin
 
 import httpx
@@ -16,8 +15,17 @@ log = logging.getLogger("REPLAYOK")
 
 BASE_URL = "https://basketball-video.com"
 OUTPUT_FILE = "replayok.m3u"
-PAGES_TO_SCRAPE = 4  # Son 1 haftalık tüm NBA maçları (~45 maç)
-MAX_CONCURRENT = 12  # Aynı anda 12 video linkini paralel çözer
+NBA_PAGES = 4
+EUROLEAGUE_PAGES = 2
+MAX_CONCURRENT = 12
+
+NBA_GROUP = "🏀 NBA Replays 🏀"
+EUROLEAGUE_GROUP = "🏆 EuroLeague Replays 🏆"
+
+FALLBACK_LOGOS = {
+    NBA_GROUP: "https://espncdn.com",
+    EUROLEAGUE_GROUP: "https://wikimedia.org",
+}
 
 HEADERS = {
     "User-Agent": (
@@ -30,7 +38,6 @@ HEADERS = {
 
 
 def resolve_okru_mp4(embed_url: str) -> str | None:
-    """Sadece ok.ru linklerinden IP kilitsiz tek parça MP4 akışını hızlıca çeker."""
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
@@ -48,8 +55,9 @@ def resolve_okru_mp4(embed_url: str) -> str | None:
     return None
 
 
-async def get_games_from_page(client: httpx.AsyncClient, page: int) -> list[dict[str, str]]:
-    url = f"{BASE_URL}/" if page == 1 else f"{BASE_URL}/?page{page}"
+async def get_games_from_url(
+    client: httpx.AsyncClient, url: str, group_name: str, filter_nba: bool = False
+) -> list[dict[str, str]]:
     games: list[dict[str, str]] = []
     try:
         res = await client.get(url, headers=HEADERS, timeout=12.0)
@@ -63,22 +71,23 @@ async def get_games_from_page(client: httpx.AsyncClient, page: int) -> list[dict
                 continue
 
             raw_title = h3_a.get_text(strip=True)
-            if "NBA" not in raw_title or "WNBA" in raw_title:
+            if filter_nba and ("NBA" not in raw_title or "WNBA" in raw_title):
                 continue
 
             title = (
                 raw_title.replace("Full Game Replay ", "")
                 .replace(" - Full Game Replay", "")
                 .replace(" - NBA - ", " - ")
+                .replace(" - Euroleague - ", " - ")
                 .strip(" -")
             )
             href = urljoin(BASE_URL, main_a["href"])
             img = item.select_one("img")
-            logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
+            logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else FALLBACK_LOGOS[group_name]
 
-            games.append({"title": title, "url": href, "logo": logo})
+            games.append({"title": title, "url": href, "logo": logo, "group": group_name})
     except Exception as e:
-        log.warning(f"Sayfa {page} çekilemedi: {e}")
+        log.warning(f"Sayfa çekilemedi ({url}): {e}")
 
     return games
 
@@ -87,8 +96,7 @@ async def collect_okru_embeds(
     client: httpx.AsyncClient,
     semaphore: asyncio.Semaphore,
     game: dict[str, str],
-) -> list[dict[str, str]]:
-    """Maç sayfasından sadece ok.ru embed linklerini toplar, diğer sunucuları atlar."""
+) -> list[dict]:
     async with semaphore:
         ok_embeds: list[str] = []
         try:
@@ -96,7 +104,6 @@ async def collect_okru_embeds(
             soup = BeautifulSoup(res.text, "html.parser")
             story = soup.select_one("div.full_story, div.entry-content, div.text") or soup
 
-            # 1. Doğrudan sayfadaki ok.ru iframe'leri
             for iframe in story.select("iframe"):
                 src = iframe.get("src") or iframe.get("data-src") or ""
                 if "ok.ru" in src:
@@ -104,13 +111,11 @@ async def collect_okru_embeds(
                     if full_src not in ok_embeds:
                         ok_embeds.append(full_src)
 
-            # 2. Yönlendirme butonlarının (Server #1 OK) arkasındaki ok.ru iframe'leri
             if not ok_embeds:
                 for a in story.select("a.su-button[href], p a[href]"):
                     href = a.get("href", "")
                     if not href or href.startswith("#") or href == game["url"]:
                         continue
-                    # Sadece Server #1 veya ilk yönlendirme linklerine bak
                     if any(x in href for x in ("nbaontv", "gamesontvtoday", "nhlgamestoday", "basketball-video")):
                         full_href = urljoin(game["url"], href)
                         try:
@@ -135,9 +140,7 @@ async def collect_okru_embeds(
         ]
 
 
-async def resolve_task(
-    semaphore: asyncio.Semaphore, item: dict
-) -> dict[str, str] | None:
+async def resolve_task(semaphore: asyncio.Semaphore, item: dict) -> dict[str, str] | None:
     async with semaphore:
         direct_url = await asyncio.to_thread(resolve_okru_mp4, item["embed"])
         if not direct_url:
@@ -145,10 +148,10 @@ async def resolve_task(
 
         game = item["game"]
         part_tag = f"Part {item['part']}" if item["total"] > 1 else "Full"
-        log.info(f"✓ {game['title']} [{part_tag}]")
+        log.info(f"✓ [{game['group']}] {game['title']} [{part_tag}]")
         return {
             "title": f"{game['title']} [{part_tag}]",
-            "group": "NBA Replays",
+            "group": game["group"],
             "logo": game["logo"],
             "referer": "https://ok.ru",
             "url": direct_url,
@@ -159,7 +162,7 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
     lines = ["#EXTM3U"]
     for s in streams:
         lines.append(
-            f'#EXTINF:-1 tvg-id="NBA.Replay" tvg-logo="{s["logo"]}" group-title="{s["group"]}",{s["title"]}'
+            f'#EXTINF:-1 tvg-id="Basketball.Replay" tvg-logo="{s["logo"]}" group-title="{s["group"]}",{s["title"]}'
         )
         lines.append(f"#EXTVLCOPT:http-referrer={s['referer']}")
         lines.append(f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}")
@@ -175,27 +178,34 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
 async def main() -> None:
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
+        tasks = []
+
+        for p in range(1, NBA_PAGES + 1):
+            url = f"{BASE_URL}/" if p == 1 else f"{BASE_URL}/?page{p}"
+            tasks.append(get_games_from_url(client, url, NBA_GROUP, filter_nba=True))
+
+        for p in range(1, EUROLEAGUE_PAGES + 1):
+            url = f"{BASE_URL}/euroleague" if p == 1 else f"{BASE_URL}/euroleague?page{p}"
+            tasks.append(get_games_from_url(client, url, EUROLEAGUE_GROUP, filter_nba=False))
+
+        page_results = await asyncio.gather(*tasks)
+
         all_games: list[dict[str, str]] = []
         seen_urls: set[str] = set()
-
-        # 4 sayfayı aynı anda çek
-        page_results = await asyncio.gather(
-            *[get_games_from_page(client, p) for p in range(1, PAGES_TO_SCRAPE + 1)]
-        )
         for p_games in page_results:
             for g in p_games:
                 if g["url"] not in seen_urls:
                     seen_urls.add(g["url"])
                     all_games.append(g)
 
-        log.info(f"Son 1 haftadan {len(all_games)} NBA maçı bulundu, ok.ru linkleri toplanıyor...")
+        log.info(f"Toplam {len(all_games)} maç (NBA + EuroLeague) bulundu, ok.ru linkleri toplanıyor...")
 
         embed_lists = await asyncio.gather(
             *[collect_okru_embeds(client, semaphore, g) for g in all_games]
         )
         flat_embeds = [item for sublist in embed_lists for item in sublist]
 
-        log.info(f"{len(flat_embeds)} ok.ru videosu paralel çözülüyor...")
+        log.info(f"{len(flat_embeds)} video paralel çözülüyor...")
         resolved = await asyncio.gather(
             *[resolve_task(semaphore, item) for item in flat_embeds]
         )
