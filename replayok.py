@@ -264,4 +264,19 @@ async def main() -> None:
 
         log.info(f"Toplam {len(all_games)} gönderi bulundu, ok.ru linkleri toplanıyor...")
 
-        embed_lists = await asyncio.gather(
+              embed_lists = await asyncio.gather(
+            *[collect_okru_embeds(client, semaphore, g) for g in all_games]
+        )
+        flat_embeds = [item for sublist in embed_lists for item in sublist]
+
+        log.info(f"{len(flat_embeds)} ok.ru videosu paralel çözülüyor...")
+        resolved = await asyncio.gather(
+            *[resolve_task(semaphore, item) for item in flat_embeds]
+        )
+
+        valid_streams = [r for r in resolved if r is not None]
+        write_m3u(valid_streams, OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
