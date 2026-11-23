@@ -1,0 +1,43 @@
+name: Update NBA Replay M3U
+
+on:
+  schedule:
+    # Her 6 saatte bir çalışır (Maç tekrarları günde bir kez eklendiği için idealdir)
+    - cron: "0 */6 * * *"
+  workflow_dispatch: # Actions sekmesinden tek tıkla manuel test etmeni sağlar
+
+permissions:
+  contents: write
+
+jobs:
+  build-nbareplay-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repoyu İndir (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerekli Kütüphaneleri Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx beautifulsoup4
+
+      - name: NBA Replay Betiğini Çalıştır
+        run: python nbareplay.py
+
+      - name: Değişiklikleri Repoya Kaydet (Commit & Push)
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add nbareplay.m3u
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update nbareplay.m3u [skip ci]"
+            git push
+          else
+            echo "nbareplay.m3u dosyasında değişiklik yok."
+          fi
