@@ -28,16 +28,16 @@ jobs:
           pip install httpx
 
       - name: Betiği Çalıştır
-        run: python an.py
+        run: python strmfree.py
 
       - name: Değişiklikleri Repoya Kaydet (Commit & Push)
         run: |
           git config --local user.email "github-actions[bot]@://github.com"
           git config --local user.name "github-actions[bot]"
-          git add an.m3u
+          git add strmfree.m3u
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update an.m3u [skip ci]"
+            git commit -m "chore: update strmfree.m3u [skip ci]"
             git push
           else
-            echo "an.m3u dosyasında değişiklik yok."
+            echo "strmfree.m3u dosyasında değişiklik yok."
           fi
