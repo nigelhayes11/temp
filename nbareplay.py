@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import re
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 import httpx
 from bs4 import BeautifulSoup
@@ -16,8 +16,8 @@ log = logging.getLogger("NBAREPLAY")
 
 BASE_URL = "https://basketball-video.com"
 OUTPUT_FILE = "nbareplay.m3u"
-PAGES_TO_SCRAPE = 4  # 4 sayfa ≈ Son 1 haftalık tüm NBA maçları (~45-55 maç)
-MAX_CONCURRENT = 8   # Aynı anda 8 maçı paralel çözer
+PAGES_TO_SCRAPE = 4  # İlk 4 sayfa ≈ Son 1 haftalık tüm NBA maçları
+MAX_CONCURRENT = 6   # Aynı anda 6 maçı paralel çözer
 
 HEADERS = {
     "User-Agent": (
@@ -38,17 +38,17 @@ REDIRECT_DOMAINS = (
     "nhlgamestoday",
 )
 
-# Desteklenmeyen / AES-256 şifreli oynatıcıları baştan atlayarak süreyi kısaltır
 SKIP_HOSTS = ("bysesukior", "czzbgnw", "facebook.com", "twitter.com", "google.com")
 M3U8_REGEX = re.compile(r"""["'](https?://[^"'\s<>]+\.m3u8[^"'\s<>]*)["']""", re.IGNORECASE)
 
 
 def resolve_video_url(embed_url: str, referer: str) -> str | None:
+    """Parçalı m3u8 (okcdn) yerine doğrudan oynayan tek parça MP4/HTTP akışını seçer."""
     ydl_opts = {
         "quiet": True,
         "no_warnings": True,
         "socket_timeout": 10,
-        "format": "best[protocol*=m3u8]/best",
+        "format": "best[ext=mp4]/best[protocol^=http]/best",
         "http_headers": {**HEADERS, "Referer": referer},
     }
     try:
@@ -156,7 +156,6 @@ async def scrape_game(
 
             for idx, embed in enumerate(embed_urls, start=1):
                 embed_clean = embed.replace("luluvid.com", "luluvdo.com")
-                host = urlparse(embed_clean).netloc
 
                 direct_url = await asyncio.to_thread(resolve_video_url, embed_clean, game["url"])
                 if not direct_url:
@@ -169,7 +168,7 @@ async def scrape_game(
                             "title": f"{game['title']} [{part_tag}]",
                             "group": "NBA Replays",
                             "logo": game["logo"],
-                            "referer": embed_clean,
+                            "referer": "https://ok.ru" if "ok.ru" in embed_clean else embed_clean,
                             "url": direct_url,
                         }
                     )
