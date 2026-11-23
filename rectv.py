@@ -10,7 +10,7 @@ logging.basicConfig(
 log = logging.getLogger("RECTV")
 
 API_URLS = [
-    "https://cloudflareaccess.com",
+    "https://rectv13cloudflareaccess.com",
     "https://cloudflareaccess.com",
     "https://cloudflareaccess.com",
     "https://cloudflareaccess.com",
