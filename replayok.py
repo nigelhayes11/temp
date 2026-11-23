@@ -261,5 +261,35 @@ async def main() -> None:
             url = f"{BASE_URL}/" if p == 1 else f"{BASE_URL}/?page{p}"
             tasks.append(get_posts_from_url(client, url, NBA_GROUP, is_euroleague=False))
 
-        for p in range(1, EUROLEAGUE_PAGES + 1):
+             for p in range(1, EUROLEAGUE_PAGES + 1):
             url = f"{BASE_URL}/euroleague" if p == 1 else f"{BASE_URL}/euroleague?page{p}"
+            tasks.append(get_posts_from_url(client, url, EUROLEAGUE_GROUP, is_euroleague=True))
+
+        page_results = await asyncio.gather(*tasks)
+
+        all_posts: list[dict] = []
+        seen_urls: set[str] = set()
+        for p_list in page_results:
+            for item in p_list:
+                if item["url"] not in seen_urls:
+                    seen_urls.add(item["url"])
+                    all_posts.append(item)
+
+        log.info(f"{len(all_posts)} gönderi bulundu, maç başlıkları ve linkler ayrıştırılıyor...")
+
+        embed_lists = await asyncio.gather(
+            *[collect_embeds(client, semaphore, p) for p in all_posts]
+        )
+        flat_embeds = [item for sublist in embed_lists for item in sublist]
+
+        log.info(f"{len(flat_embeds)} maç videosu paralel çözülüyor...")
+        resolved = await asyncio.gather(
+            *[resolve_task(semaphore, item) for item in flat_embeds]
+        )
+
+        valid_streams = [r for r in resolved if r is not None]
+        write_m3u(valid_streams, OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
