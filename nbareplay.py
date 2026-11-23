@@ -14,7 +14,6 @@ logging.basicConfig(
 log = logging.getLogger("NBAVIDEO")
 
 BASE_URL = "https://basketball-video.com"
-LIST_URL = f"{BASE_URL}/2026-27-nba-replays"
 OUTPUT_FILE = "nbareplay.m3u"
 PAGES_TO_SCRAPE = 2
 MAX_CONCURRENT = 6
@@ -111,7 +110,7 @@ async def resolve_generic_embed(
 async def get_games_from_page(
     client: httpx.AsyncClient, page: int
 ) -> list[dict[str, str]]:
-    url = LIST_URL if page == 1 else f"{LIST_URL}?page{page}"
+    url = f"{BASE_URL}/" if page == 1 else f"{BASE_URL}/?page{page}"
     games: list[dict[str, str]] = []
     try:
         res = await client.get(url, headers=HEADERS, timeout=15.0)
@@ -124,7 +123,12 @@ async def get_games_from_page(
             if not h3_a or not main_a:
                 continue
 
-            title = h3_a.get_text(strip=True).replace("Full Game Replay ", "").replace(" - Full Game Replay", "")
+            raw_title = h3_a.get_text(strip=True)
+            # Sadece NBA maçlarını al (WNBA ve NCAA içeriklerini ele)
+            if "NBA" not in raw_title or "WNBA" in raw_title:
+                continue
+
+            title = raw_title.replace("Full Game Replay ", "").replace(" - Full Game Replay", "")
             href = urljoin(BASE_URL, main_a["href"])
             img = game.select_one("img")
             logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
@@ -150,16 +154,14 @@ async def scrape_game_streams(
 
             candidate_links: list[str] = []
 
-            # 1. Sayfadaki doğrudan iframe'leri al
             for iframe in soup.select("iframe"):
                 src = iframe.get("src") or iframe.get("data-src")
                 if src:
                     candidate_links.append(src)
 
-            # 2. Butonların (su-button) içindeki yönlendirme linklerini al
-            for btn in soup.select("a.su-button[href]"):
+            for btn in soup.select("a.su-button[href], p a[href]"):
                 href = btn.get("href")
-                if href:
+                if href and not href.startswith("#"):
                     candidate_links.append(href)
 
             seen_embeds: set[str] = set()
@@ -168,7 +170,6 @@ async def scrape_game_streams(
             for raw_link in candidate_links:
                 link = f"https:{raw_link}" if raw_link.startswith("//") else urljoin(game["url"], raw_link)
 
-                # Ara yönlendirme sitesiyse içine girip gerçek iframe'i bul
                 if any(dom in link for dom in REDIRECT_DOMAINS) and link != game["url"]:
                     try:
                         r2 = await client.get(
