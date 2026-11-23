@@ -1,0 +1,42 @@
+name: Fast NBA Replay OK M3U
+
+on:
+  schedule:
+    # Her gün Türkiye saatiyle 11:00 ve 17:00'de çalışır (UTC 08:00 ve 14:00)
+    - cron: "0 8,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-replayok-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repoyu İndir (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerekli Kütüphaneleri Yükle
+        run: pip install httpx beautifulsoup4 yt-dlp
+
+      - name: Hızlı NBA Replay Betiğini Çalıştır
+        run: python replayok.py
+
+      - name: Değişiklikleri Repoya Kaydet
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add replayok.m3u
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update replayok.m3u [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "replayok.m3u dosyasında değişiklik yok."
+          fi
