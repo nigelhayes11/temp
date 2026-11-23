@@ -10,13 +10,11 @@ logging.basicConfig(
 log = logging.getLogger("RECTV")
 
 API_URLS = [
-    "https://cloudflareccess.com",
-    "https://prectv58.lol",
-    "https://prectv57.lol",
-    "https://prectv56.lol",
-    "https://prectv55.lol",
-    "https://prectv58.lol",
-    "https://prectv57.lol",
+    "https://cloudflareaccess.com",
+    "https://cloudflareaccess.com",
+    "https://cloudflareaccess.com",
+    "https://cloudflareaccess.com",
+    "https://cloudflareaccess.com",
 ]
 
 API_KEY = "4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452"
@@ -62,7 +60,7 @@ async def fetch_all_channels(client: httpx.AsyncClient, base_url: str) -> list[d
                 title = (item.get("title") or "").strip()
                 logo = (item.get("image") or "").strip()
                 categories = item.get("categories") or []
-                group = categories[0].get("title", "RecTV Canlı") if categories else "RecTV Canlı"
+                group = categories.get("title", "RecTV Canlı") if categories else "RecTV Canlı"
 
                 sources = item.get("sources") or []
                 for src in sources:
