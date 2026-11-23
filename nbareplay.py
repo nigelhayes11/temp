@@ -1,17 +1,10 @@
 import asyncio
-import html
-import json
 import logging
 import re
 from urllib.parse import urljoin, urlparse
 
 import httpx
 from bs4 import BeautifulSoup
-
-try:
-    import yt_dlp
-except ImportError:
-    yt_dlp = None
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,47 +29,46 @@ HEADERS = {
 
 
 async def resolve_okru(client: httpx.AsyncClient, embed_url: str) -> str | None:
-    """ok.ru/videoembed/ sayfasındaki data-options JSON içinden doğrudan m3u8/mp4 linkini çıkarır."""
+    """m.ok.ru videoPlayerMetadata API üzerinden doğrudan m3u8 veya mp4 linkini çeker."""
+    match = re.search(r"videoembed/(\d+)", embed_url)
+    if not match:
+        return None
+
+    video_id = match.group(1)
+    api_url = f"https://ok.ru{video_id}"
+    mobile_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Linux; Android 13; SM-G991B) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+        ),
+        "Referer": f"https://ok.ru{video_id}",
+        "X-Requested-With": "XMLHttpRequest",
+    }
+
     try:
-        res = await client.get(
-            embed_url,
-            headers={**HEADERS, "Referer": f"{BASE_URL}/"},
-            timeout=15.0,
-        )
-        if res.status_code >= 400:
+        res = await client.post(api_url, headers=mobile_headers, timeout=15.0)
+        if res.status_code != 200:
             return None
 
-        soup = BeautifulSoup(res.text, "html.parser")
-        player_div = soup.select_one("div[data-options]")
-        if player_div and player_div.get("data-options"):
-            raw_json = html.unescape(player_div["data-options"])
-            data = json.loads(raw_json)
-            flashvars = data.get("flashvars", {})
-            metadata_str = flashvars.get("metadata")
-            if metadata_str:
-                metadata = json.loads(metadata_str)
-                # 1. Öncelik: HLS (.m3u8) akışı
-                hls_url = metadata.get("hlsManifestUrl") or metadata.get("hlsMasterPlaylistUrl")
-                if hls_url:
-                    return hls_url
+        data = res.json()
 
-                # 2. Öncelik: En yüksek kaliteli MP4 akışı
-                videos = metadata.get("videos", [])
-                if videos:
-                    return videos[-1].get("url")
+        # 1. Öncelik: HLS (.m3u8) akışı
+        if hls_url := (data.get("hlsManifestUrl") or data.get("hlsMasterPlaylistUrl")):
+            return hls_url
+
+        # 2. Yedek: En yüksek kaliteli MP4 akışı
+        videos = data.get("videos", [])
+        quality_order = {"ultra": 5, "quad": 4, "full": 3, "hd": 2, "sd": 1, "low": 0}
+        videos_sorted = sorted(
+            [v for v in videos if v.get("url")],
+            key=lambda x: quality_order.get(x.get("name", ""), -1),
+            reverse=True,
+        )
+        if videos_sorted:
+            return videos_sorted["url"]
+
     except Exception as e:
-        log.debug(f"ok.ru ayrıştırma hatası ({embed_url}): {e}")
-
-    # Yedek: yt-dlp yüklüyse onunla dene
-    if yt_dlp is not None:
-        try:
-            ydl_opts = {"quiet": True, "no_warnings": True, "format": "best"}
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = await asyncio.to_thread(ydl.extract_info, embed_url, download=False)
-                if info and info.get("url"):
-                    return info["url"]
-        except Exception:
-            pass
+        log.debug(f"m.ok.ru API hatası ({video_id}): {e}")
 
     return None
 
@@ -142,7 +134,7 @@ async def scrape_game_streams(
                                 "title": f"{game['title']} [Part {part_num}]",
                                 "group": "NBA Replays",
                                 "logo": game["logo"],
-                                "referer": "https://ok.ru/",
+                                "referer": "https://m.ok.ru/",
                                 "url": stream_url,
                             }
                         )
@@ -166,7 +158,9 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
             f'#EXTINF:-1 tvg-id="NBA.Replay" tvg-logo="{s["logo"]}" group-title="{s["group"]}",{s["title"]}'
         )
         lines.append(f"#EXTVLCOPT:http-referrer={s['referer']}")
-        lines.append(f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}")
+        lines.append(
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+        )
         lines.append(s["url"])
 
     with open(filename, "w", encoding="utf-8") as f:
@@ -182,7 +176,7 @@ async def main() -> None:
         for page in range(1, PAGES_TO_SCRAPE + 1):
             all_games.extend(await get_games_from_page(client, page))
 
-        log.info(f"Toplam {len(all_games)} maç bulundu, ok.ru yayınları çıkarılıyor...")
+        log.info(f"Toplam {len(all_games)} maç bulundu, m.ok.ru API üzerinden yayınlar çekiliyor...")
         if not all_games:
             write_m3u([], OUTPUT_FILE)
             return
