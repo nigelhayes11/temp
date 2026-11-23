@@ -1,0 +1,34 @@
+name: BeyazElma M3U Guncelle
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Cek
+        uses: actions/checkout@v4
+
+      - name: Python Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Kutuphaneleri Yukle
+        run: pip install requests beautifulsoup4
+
+      - name: Betigi Calistir
+        run: python beyazelma.py
+
+      - name: M3U Dosyasini Kaydet ve Gonder
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add beyazelma.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Otomatik M3U guncellemesi" && git push)
