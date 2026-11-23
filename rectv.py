@@ -10,10 +10,9 @@ logging.basicConfig(
 log = logging.getLogger("RECTV")
 
 API_URLS = [
+    "https://cloudflareccess.com",
     "https://prectv55.lol",
     "https://prectv54.lol",
-    "https://prectv53.lol",
-    "https://prectv50.sbs",
 ]
 
 API_KEY = "4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452"
@@ -22,6 +21,7 @@ OUTPUT_FILE = "rec.m3u"
 HEADERS = {
     "User-Agent": "okhttp/4.12.0",
     "Accept": "application/json",
+    "Referer": "https://twitter.com",
 }
 
 
@@ -33,8 +33,8 @@ async def find_working_api(client: httpx.AsyncClient) -> str | None:
             if res.status_code == 200 and res.text.strip().startswith("["):
                 log.info(f"✓ Aktif RecTV API bulundu: {base_url}")
                 return base_url
-        except Exception:
-            continue
+        except Exception as e:
+            log.debug(f"Bağlantı denemesi ({base_url}): {e}")
     return None
 
 
@@ -57,7 +57,7 @@ async def fetch_all_channels(client: httpx.AsyncClient, base_url: str) -> list[d
                 title = (item.get("title") or "").strip()
                 logo = (item.get("image") or "").strip()
                 categories = item.get("categories") or []
-                group = categories.get("title", "RecTV Canlı") if categories else "RecTV Canlı"
+                group = categories[0].get("title", "RecTV Canlı") if categories else "RecTV Canlı"
 
                 sources = item.get("sources") or []
                 for src in sources:
@@ -80,15 +80,13 @@ async def fetch_all_channels(client: httpx.AsyncClient, base_url: str) -> list[d
     return channels
 
 
-def write_m3u(channels: list[dict], base_url: str, filename: str) -> None:
+def write_m3u(channels: list[dict], filename: str) -> None:
     lines = ["#EXTM3U"]
-    referer = f"{base_url}/"
-
     for ch in channels:
         lines.append(
             f'#EXTINF:-1 tvg-id="{ch["title"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["title"]}'
         )
-        lines.append(f"#EXTVLCOPT:http-referrer={referer}")
+        lines.append("#EXTVLCOPT:http-referrer=https://twitter.com")
         lines.append("#EXTVLCOPT:http-user-agent=okhttp/4.12.0")
         lines.append("#EXTVLCOPT:http-no-tls-verify")
         lines.append(ch["url"])
@@ -103,12 +101,12 @@ async def main() -> None:
     async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
         base_url = await find_working_api(client)
         if not base_url:
-            log.error("Aktif RecTV API adresi bulunamadı! API_URLS listesini güncelleyin.")
-            write_m3u([], "https://twitter.com", OUTPUT_FILE)
+            log.error("Aktif RecTV API adresi bulunamadı! Yeni domaini API_URLS listesine ekleyin.")
+            write_m3u([], OUTPUT_FILE)
             return
 
         channels = await fetch_all_channels(client, base_url)
-        write_m3u(channels, base_url, OUTPUT_FILE)
+        write_m3u(channels, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
