@@ -11,9 +11,10 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%H:%M:%S",
 )
-log = logging.getLogger("NBAREPLAY")
+log = logging.getLogger("NBAVIDEO")
 
-BASE_URL = "https://basketballreplays.net"
+BASE_URL = "https://basketball-video.com"
+LIST_URL = f"{BASE_URL}/2026-27-nba-replays"
 OUTPUT_FILE = "nbareplay.m3u"
 PAGES_TO_SCRAPE = 2
 MAX_CONCURRENT = 6
@@ -27,9 +28,24 @@ HEADERS = {
     "Referer": f"{BASE_URL}/",
 }
 
+REDIRECT_DOMAINS = (
+    "nfl-replays",
+    "nfl-video",
+    "basketball-video",
+    "nbaontv",
+    "gamesontvtoday",
+    "nbatraderumors",
+    "nhlgamestoday",
+)
+
+M3U8_OR_MP4_PATTERN = re.compile(
+    r"""["'](https?://[^"'\s<>]+?\.(?:m3u8|mp4)[^"'\s<>]*)["']""",
+    re.IGNORECASE,
+)
+
 
 async def resolve_okru(client: httpx.AsyncClient, embed_url: str) -> str | None:
-    """m.ok.ru videoPlayerMetadata API üzerinden doğrudan m3u8 veya mp4 linkini çeker."""
+    """m.ok.ru mobil API üzerinden doğrudan m3u8/mp4 linkini çeker."""
     match = re.search(r"videoembed/(\d+)", embed_url)
     if not match:
         return None
@@ -49,14 +65,11 @@ async def resolve_okru(client: httpx.AsyncClient, embed_url: str) -> str | None:
         res = await client.post(api_url, headers=mobile_headers, timeout=15.0)
         if res.status_code != 200:
             return None
-
         data = res.json()
 
-        # 1. Öncelik: HLS (.m3u8) akışı
         if hls_url := (data.get("hlsManifestUrl") or data.get("hlsMasterPlaylistUrl")):
             return hls_url
 
-        # 2. Yedek: En yüksek kaliteli MP4 akışı
         videos = data.get("videos", [])
         quality_order = {"ultra": 5, "quad": 4, "full": 3, "hd": 2, "sd": 1, "low": 0}
         videos_sorted = sorted(
@@ -66,9 +79,31 @@ async def resolve_okru(client: httpx.AsyncClient, embed_url: str) -> str | None:
         )
         if videos_sorted:
             return videos_sorted["url"]
-
     except Exception as e:
-        log.debug(f"m.ok.ru API hatası ({video_id}): {e}")
+        log.debug(f"ok.ru API hatası ({video_id}): {e}")
+
+    return None
+
+
+async def resolve_generic_embed(
+    client: httpx.AsyncClient, embed_url: str, referer: str
+) -> str | None:
+    """luluvdo ve diğer standart embed sayfalarından doğrudan m3u8/mp4 çıkarır."""
+    embed_url = embed_url.replace("luluvid.com", "luluvdo.com")
+    try:
+        res = await client.get(
+            embed_url,
+            headers={**HEADERS, "Referer": referer},
+            timeout=15.0,
+        )
+        if res.status_code >= 400:
+            return None
+
+        match = M3U8_OR_MP4_PATTERN.search(res.text)
+        if match:
+            return match.group(1).replace("\\/", "/")
+    except Exception as e:
+        log.debug(f"Embed çözümleme hatası ({embed_url}): {e}")
 
     return None
 
@@ -76,25 +111,26 @@ async def resolve_okru(client: httpx.AsyncClient, embed_url: str) -> str | None:
 async def get_games_from_page(
     client: httpx.AsyncClient, page: int
 ) -> list[dict[str, str]]:
-    url = f"{BASE_URL}/?page={page}"
+    url = LIST_URL if page == 1 else f"{LIST_URL}?page{page}"
     games: list[dict[str, str]] = []
     try:
         res = await client.get(url, headers=HEADERS, timeout=15.0)
         res.raise_for_status()
         soup = BeautifulSoup(res.text, "html.parser")
 
-        for item in soup.select("div.h_post"):
-            a = item.select_one("div.h_post_title > a")
-            if not a or not a.get("href"):
+        for game in soup.select("div.short_item.block_elem"):
+            h3_a = game.select_one("h3 a")
+            main_a = game.select_one("a[href]")
+            if not h3_a or not main_a:
                 continue
 
-            title = a.get_text(strip=True).replace(" - Full Game Replay", "")
-            href = urljoin(BASE_URL, a["href"])
-            img = item.select_one("img")
-            icon = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
+            title = h3_a.get_text(strip=True).replace("Full Game Replay ", "").replace(" - Full Game Replay", "")
+            href = urljoin(BASE_URL, main_a["href"])
+            img = game.select_one("img")
+            logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
 
             if not any(g["url"] == href for g in games):
-                games.append({"title": title, "url": href, "logo": icon})
+                games.append({"title": title, "url": href, "logo": logo})
     except Exception as e:
         log.error(f"Sayfa {page} çekilemedi: {e}")
 
@@ -112,38 +148,75 @@ async def scrape_game_streams(
             res = await client.get(game["url"], headers=HEADERS, timeout=15.0)
             soup = BeautifulSoup(res.text, "html.parser")
 
-            seen_iframes: set[str] = set()
-            part_num = 1
+            candidate_links: list[str] = []
 
+            # 1. Sayfadaki doğrudan iframe'leri al
             for iframe in soup.select("iframe"):
                 src = iframe.get("src") or iframe.get("data-src")
-                if not src:
-                    continue
-                if src.startswith("//"):
-                    src = "https:" + src
-                if src in seen_iframes:
-                    continue
-                seen_iframes.add(src)
+                if src:
+                    candidate_links.append(src)
 
-                host = urlparse(src).netloc
-                if "ok.ru" in host:
-                    stream_url = await resolve_okru(client, src)
-                    if stream_url:
-                        streams.append(
-                            {
-                                "title": f"{game['title']} [Part {part_num}]",
-                                "group": "NBA Replays",
-                                "logo": game["logo"],
-                                "referer": "https://m.ok.ru/",
-                                "url": stream_url,
-                            }
+            # 2. Butonların (su-button) içindeki yönlendirme linklerini al
+            for btn in soup.select("a.su-button[href]"):
+                href = btn.get("href")
+                if href:
+                    candidate_links.append(href)
+
+            seen_embeds: set[str] = set()
+            part_num = 1
+
+            for raw_link in candidate_links:
+                link = f"https:{raw_link}" if raw_link.startswith("//") else urljoin(game["url"], raw_link)
+
+                # Ara yönlendirme sitesiyse içine girip gerçek iframe'i bul
+                if any(dom in link for dom in REDIRECT_DOMAINS) and link != game["url"]:
+                    try:
+                        r2 = await client.get(
+                            link,
+                            headers={**HEADERS, "Referer": game["url"]},
+                            timeout=12.0,
                         )
-                        part_num += 1
+                        sub_soup = BeautifulSoup(r2.text, "html.parser")
+                        sub_iframe = sub_soup.select_one("iframe")
+                        if sub_iframe and (sub_iframe.get("src") or sub_iframe.get("data-src")):
+                            link = sub_iframe.get("src") or sub_iframe.get("data-src")
+                            if link.startswith("//"):
+                                link = f"https:{link}"
+                        else:
+                            continue
+                    except Exception:
+                        continue
+
+                if not link or link in seen_embeds:
+                    continue
+                seen_embeds.add(link)
+
+                host = urlparse(link).netloc
+                stream_url = None
+                referer = link
+
+                if "ok.ru" in host:
+                    stream_url = await resolve_okru(client, link)
+                    referer = "https://ok.ru"
+                else:
+                    stream_url = await resolve_generic_embed(client, link, game["url"])
+
+                if stream_url:
+                    streams.append(
+                        {
+                            "title": f"{game['title']} [Part {part_num} - {host}]",
+                            "group": "NBA Replays",
+                            "logo": game["logo"],
+                            "referer": referer,
+                            "url": stream_url,
+                        }
+                    )
+                    part_num += 1
 
             if streams:
-                log.info(f"✓ Yakalandı ({len(streams)} part): {game['title']}")
+                log.info(f"✓ {game['title']} ({len(streams)} akış bulundu)")
             else:
-                log.warning(f"✗ ok.ru akışı bulunamadı: {game['title']}")
+                log.warning(f"✗ Uygun akış bulunamadı: {game['title']}")
 
         except Exception as e:
             log.warning(f"Maç işleme hatası ({game['title']}): {e}")
@@ -176,7 +249,7 @@ async def main() -> None:
         for page in range(1, PAGES_TO_SCRAPE + 1):
             all_games.extend(await get_games_from_page(client, page))
 
-        log.info(f"Toplam {len(all_games)} maç bulundu, m.ok.ru API üzerinden yayınlar çekiliyor...")
+        log.info(f"{len(all_games)} NBA maçı bulundu, linkler ayıklanıyor...")
         if not all_games:
             write_m3u([], OUTPUT_FILE)
             return
