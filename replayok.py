@@ -1,6 +1,5 @@
 import asyncio
 import logging
-import re
 from urllib.parse import urljoin
 
 import httpx
@@ -143,7 +142,6 @@ async def collect_embeds(
             soup = BeautifulSoup(res.text, "html.parser")
             story = soup.select_one("div.full_story, div.entry-content, div.text") or soup
 
-            # EUROLEAGUE: Sayfadaki her "Watch" butonunu ve hemen üstündeki maç başlığını eşleştir
             if post["is_euroleague"]:
                 date_suffix = post["title"]
                 watch_links = [
@@ -156,7 +154,6 @@ async def collect_embeds(
                     if not href or href.startswith("#"):
                         continue
 
-                    # Butonun üstündeki metin bloğundan takım isimlerini al
                     match_name = ""
                     prev_p = btn.find_parent("p")
                     if prev_p:
@@ -188,7 +185,6 @@ async def collect_embeds(
                 log.info(f"EuroLeague ({date_suffix}): {len(tasks_to_resolve)} maç bağlantısı ayrıştırıldı")
                 return tasks_to_resolve
 
-            # NBA: Tek maç sayfasındaki ok.ru iframe veya Server #1 butonunu al
             ok_embeds: list[str] = []
             for iframe in story.select("iframe"):
                 src = iframe.get("src") or iframe.get("data-src") or ""
@@ -260,3 +256,8 @@ def write_m3u(streams: list[dict[str, str]], filename: str) -> None:
 
 async def main() -> None:
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
+    async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
+        tasks = []
+
+        for p in range(1, NBA_PAGES + 1):
+            url = f"{BASE_URL}/" if p == 1 else f"{BASE_URL}/?page{p}"
