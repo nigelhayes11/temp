@@ -264,7 +264,7 @@ async def main() -> None:
 
         log.info(f"Toplam {len(all_games)} gönderi bulundu, ok.ru linkleri toplanıyor...")
 
-                embed_lists = await asyncio.gather(
+        embed_lists = await asyncio.gather(
             *[collect_okru_embeds(client, semaphore, g) for g in all_games]
         )
         flat_embeds = [item for sublist in embed_lists for item in sublist]
@@ -280,4 +280,3 @@ async def main() -> None:
 
 if __name__ == "__main__":
     asyncio.run(main())
-
