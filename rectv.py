@@ -11,8 +11,12 @@ log = logging.getLogger("RECTV")
 
 API_URLS = [
     "https://cloudflareccess.com",
+    "https://prectv58.lol",
+    "https://prectv57.lol",
+    "https://prectv56.lol",
     "https://prectv55.lol",
-    "https://prectv54.lol",
+    "https://prectv58.lol",
+    "https://prectv57.lol",
 ]
 
 API_KEY = "4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452"
@@ -30,11 +34,12 @@ async def find_working_api(client: httpx.AsyncClient) -> str | None:
         test_url = f"{base_url}/api/channel/by/filtres/0/0/0/{API_KEY}/"
         try:
             res = await client.get(test_url, headers=HEADERS, timeout=10.0)
+            log.info(f"[{base_url}] HTTP {res.status_code}")
             if res.status_code == 200 and res.text.strip().startswith("["):
                 log.info(f"✓ Aktif RecTV API bulundu: {base_url}")
                 return base_url
         except Exception as e:
-            log.debug(f"Bağlantı denemesi ({base_url}): {e}")
+            log.info(f"[{base_url}] Bağlantı hatası: {type(e).__name__}")
     return None
 
 
@@ -101,7 +106,7 @@ async def main() -> None:
     async with httpx.AsyncClient(follow_redirects=True, verify=False) as client:
         base_url = await find_working_api(client)
         if not base_url:
-            log.error("Aktif RecTV API adresi bulunamadı! Yeni domaini API_URLS listesine ekleyin.")
+            log.error("Aktif RecTV API adresi bulunamadı!")
             write_m3u([], OUTPUT_FILE)
             return
 
