@@ -1,75 +1,70 @@
-import re
-import urllib.parse
-import requests
-from bs4 import BeautifulSoup
+import asyncio
+from playwright.async_api import async_playwright
 
-START_URL = "https://beyazelma78.com"
+BASE_URL = "https://beyazelma78.com/"
 OUTPUT_M3U = "beyazelma.m3u"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-}
-
-def get_active_domain(session, url):
-    try:
-        res = session.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
-        parsed = urllib.parse.urlparse(res.url)
-        return f"{parsed.scheme}://{parsed.netloc}/", res.text
-    except Exception as e:
-        print(f"Başlangıç adresine erişilemedi: {e}")
-        return None, None
-
-def extract_m3u8(session, page_url, referer):
-    try:
-        res = session.get(page_url, headers={**HEADERS, "Referer": referer}, timeout=10)
-        m3u8 = re.findall(r'https?://[^\s"\'<>\\]+?\.m3u8[^\s"\'<>\\]*', res.text)
-        if m3u8:
-            return m3u8[0]
-
-        soup = BeautifulSoup(res.text, "html.parser")
-        for iframe in soup.find_all("iframe", src=True):
-            iframe_url = urllib.parse.urljoin(page_url, iframe["src"])
-            res2 = session.get(iframe_url, headers={**HEADERS, "Referer": page_url}, timeout=10)
-            m3u8_2 = re.findall(r'https?://[^\s"\'<>\\]+?\.m3u8[^\s"\'<>\\]*', res2.text)
-            if m3u8_2:
-                return m3u8_2[0]
-    except Exception:
-        pass
-    return None
-
-def main():
-    session = requests.Session()
-    base_url, html = get_active_domain(session, START_URL)
-    if not base_url or not html:
-        return
-
-    soup = BeautifulSoup(html, "html.parser")
+async def scrape_streams():
     channels = []
-    seen_urls = set()
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+        )
+        page = await context.new_page()
 
-    for a in soup.find_all("a", href=True):
-        title = re.sub(r'\s+', ' ', a.get_text(strip=True))
-        href = a["href"].strip()
-        if not title or len(title) < 2 or href.startswith(("#", "javascript:", "mailto:", "tg:")):
-            continue
+        # Canlı Kanallar sekmesine veya ana sayfaya git
+        await page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
+        await page.wait_for_timeout(3000)
 
-        full_url = urllib.parse.urljoin(base_url, href)
-        if base_url not in full_url or full_url in seen_urls or full_url == base_url:
-            continue
+        # Sayfadaki "İzle" veya kanal bağlantılarını topla
+        links = await page.eval_on_selector_all(
+            "a[href]",
+            """els => els.map(e => ({text: e.innerText.trim(), href: e.href}))"""
+        )
 
-        seen_urls.add(full_url)
-        stream_url = extract_m3u8(session, full_url, base_url)
-        if stream_url:
-            channels.append((title, stream_url))
+        target_links = []
+        seen = set()
+        for item in links:
+            href = item["href"]
+            text = " ".join(item["text"].split())
+            if BASE_URL in href and href not in seen and href != BASE_URL:
+                if any(k in href.lower() for k in ["izle", "kanal", "mac", "tv", "stream", "watch"]) or len(text) > 2:
+                    seen.add(href)
+                    target_links.append((text or href.split("/")[-1], href))
+
+        print(f"Bulunan alt sayfa sayısı: {len(target_links)}")
+
+        # Her kanal/maç sayfasında ağ trafiğindeki .m3u8 isteğini dinle
+        for title, url in target_links[:25]:
+            found_m3u8 = []
+
+            def handle_request(req):
+                if ".m3u8" in req.url and req.url not in found_m3u8:
+                    found_m3u8.append(req.url)
+
+            page.on("request", handle_request)
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=15000)
+                await page.wait_for_timeout(4000)
+            except Exception:
+                pass
+            page.remove_listener("request", handle_request)
+
+            if found_m3u8:
+                print(f"[+] Yakalandı: {title} -> {found_m3u8}")
+                channels.append((title, found_m3u8))
+
+        await browser.close()
 
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for name, link in channels:
+        for name, stream_url in channels:
             f.write(f'#EXTINF:-1 group-title="BeyazElma",{name}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={base_url}\n')
-            f.write(f"{link}\n")
+            f.write(f"#EXTVLCOPT:http-referrer={BASE_URL}\n")
+            f.write(f"{stream_url}\n")
 
-    print(f"Güncel Domain: {base_url} | Kaydedilen Kanal: {len(channels)}")
+    print(f"Toplam kaydedilen kanal: {len(channels)}")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(scrape_streams())
