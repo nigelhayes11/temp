@@ -21,7 +21,11 @@ jobs:
           python-version: '3.11'
 
       - name: Kutuphaneleri Yukle
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
 
       - name: Betigi Calistir
         run: python beyazelma.py
