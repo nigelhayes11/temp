@@ -1,0 +1,41 @@
+name: Update WioSpor RecTV BeyazElma M3U
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-wiospor-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: pip install httpx
+
+      - name: Run WioSpor Scraper
+        run: python -u wiospor_m3u.py
+
+      - name: Commit and Push M3U
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add wiospor.m3u
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update wiospor.m3u [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "wiospor.m3u dosyasında değişiklik yok."
+          fi
