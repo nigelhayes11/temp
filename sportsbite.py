@@ -1,19 +1,26 @@
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
+import asyncio
 import json
 import logging
 
 # =====================================================
-# SPORTSBITE - STANDALONE M3U
-# No utils / Cache / leagues / JSON cache
+# SPORTSBITE - STANDALONE M3U SCRAPER
+# Original doms9 logic
+# No utils / Cache / Time / network / leagues
 # =====================================================
 
 TAG = "SPRTSBITE"
+
 BASE_URL = "https://sportsbite.org"
 API_URL = urljoin(BASE_URL, "api/forestgump/matches")
+
 OUTPUT_FILE = "sportsbite.m3u"
 
 HEADERS = {
@@ -36,7 +43,7 @@ log = logging.getLogger("SPORTSBITE")
 
 
 # =====================================================
-# NETWORK
+# NETWORK - replaces utils.network
 # =====================================================
 
 def get_api_data():
@@ -48,8 +55,9 @@ def get_api_data():
         )
 
         with urlopen(request, timeout=30) as response:
+
             if response.status != 200:
-                log.error("HTTP status: %s", response.status)
+                log.error("HTTP error: %s", response.status)
                 return None
 
             data = json.loads(
@@ -57,42 +65,44 @@ def get_api_data():
             )
 
         if not isinstance(data, dict):
-            log.error("Unexpected API response format")
+            log.error("Unexpected API response")
             return None
 
         return data
 
     except Exception as e:
-        log.error("API request error: %s", e)
+        log.error("API request failed: %s", e)
         return None
 
 
 # =====================================================
-# STREAM PROCESSING
-# ORIGINAL SPORTSBITE LOGIC
+# ORIGINAL PROCESS_EVENT
 # =====================================================
 
-def process_event(url, url_num):
+def process_event(url: str, url_num: int) -> str:
 
-    stream_url = url.replace(
-        "/embed/",
-        "/cdn/"
-    )
+    s = url.replace("/embed/", "/cdn/")
 
-    log.info("URL %s) M3U8 captured", url_num)
+    log.info("URL %s) Captured M3U8", url_num)
 
-    return f"{stream_url}.m3u8?cdn=1"
+    return f"{s}.m3u8?cdn=1"
 
 
 # =====================================================
-# EVENT SCRAPER
+# ORIGINAL GET_EVENTS
+# Cache / Time / leagues removed
 # =====================================================
 
-def get_events():
+async def get_events():
+
+    now = datetime.now(timezone.utc)
 
     events = []
 
-    now = datetime.now(timezone.utc)
+    api_data = await asyncio.to_thread(get_api_data)
+
+    if not api_data:
+        return None
 
     start_ts = (
         now - timedelta(minutes=30)
@@ -102,21 +112,11 @@ def get_events():
         now + timedelta(minutes=30)
     ).timestamp()
 
-    api_data = get_api_data()
-
-    if not api_data:
-        return events
-
     counter = defaultdict(int)
+
     i = 1
 
-    days = api_data.get("days", [])
-
-    if not isinstance(days, list):
-        log.error("API days field is not a list")
-        return events
-
-    for game_event in days:
+    for game_event in api_data.get("days", []):
 
         if not isinstance(game_event, dict):
             continue
@@ -126,23 +126,24 @@ def get_events():
             if not isinstance(game_info, dict):
                 continue
 
-            values = [
-                game_info.get(x)
-                for x in (
-                    "title",
-                    "category",
-                    "kickoffMs",
-                    "streams",
-                )
-            ]
-
-            if not all(values):
+            if not all(
+                values := [
+                    game_info.get(x)
+                    for x in (
+                        "title",
+                        "category",
+                        "kickoffMs",
+                        "streams",
+                    )
+                ]
+            ):
                 continue
 
             name, sport, event_ts, event_streams = values
 
             try:
-                event_ts = int(event_ts) // 1000
+                # Original timestamp conversion
+                event_ts = int(f"{event_ts}"[:-3])
             except (ValueError, TypeError):
                 continue
 
@@ -163,9 +164,9 @@ def get_events():
                 if stream_info.get("source") != "selfhost":
                     continue
 
-                url = stream_info.get("manifest_url")
-
-                if not url:
+                elif not (
+                    url := stream_info.get("manifest_url")
+                ):
                     continue
 
                 key = (
@@ -173,11 +174,9 @@ def get_events():
                     f"{counter[name]} ({TAG})"
                 )
 
-                stream_url = process_event(url, i)
-
                 events.append({
                     "name": key,
-                    "source": stream_url,
+                    "source": process_event(url, i),
                     "logo": logo,
                     "refer": BASE_URL,
                     "timestamp": event_ts,
@@ -212,41 +211,47 @@ def write_m3u(events):
 
         lines.append(source)
 
-    try:
-        with open(
-            OUTPUT_FILE,
-            "w",
-            encoding="utf-8"
-        ) as file:
-            file.write("\n".join(lines) + "\n")
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8",
+    ) as file:
 
-        log.info(
-            "Wrote %s event(s) to %s",
-            len(events),
-            OUTPUT_FILE
-        )
+        file.write("\n".join(lines) + "\n")
 
-    except Exception as e:
-        log.error("M3U write error: %s", e)
+    log.info(
+        "Wrote %s event(s) to %s",
+        len(events),
+        OUTPUT_FILE,
+    )
 
 
 # =====================================================
-# MAIN
+# ORIGINAL SCRAPE - WITHOUT CACHE
 # =====================================================
 
-def scrape():
+async def scrape():
 
     log.info('Scraping from "%s"', BASE_URL)
 
-    events = get_events()
+    events = await get_events()
+
+    # API failed: don't overwrite existing playlist
+    if events is None:
+        log.error("Scraping failed. Existing M3U preserved.")
+        return
 
     log.info(
         "Collected %s event(s)",
-        len(events)
+        len(events),
     )
 
     write_m3u(events)
 
 
+# =====================================================
+# RUN
+# =====================================================
+
 if __name__ == "__main__":
-    scrape()
+    asyncio.run(scrape())
