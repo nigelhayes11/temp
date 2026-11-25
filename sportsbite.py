@@ -268,3 +268,5 @@ async def scrape():
         log.info("No new events found")
 
     CACHE_FILE_OBJ.write(urls)
+if __name__ == "__main__":
+    asyncio.run(scrape())
