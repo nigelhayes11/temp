@@ -1,0 +1,28 @@
+name: SportsBite M3U
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run SportsBite
+        run: python sportsbite.py
+
+      - name: Save M3U
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sportsbite.m3u sportsbite_cache.json
+          git commit -m "Update SportsBite M3U" || true
+          git push
