@@ -28,7 +28,7 @@ jobs:
 
 
       - name: Betigi Calistir
-        run: python beyazelma.py
+        run: python sportsbite.py
 
       - name: M3U Dosyasini Kaydet ve Gonder
         run: |
