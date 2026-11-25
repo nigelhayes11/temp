@@ -1,37 +1,20 @@
 
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
-from pathlib import Path
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
-import asyncio
 import json
 import logging
-import time
 
 # =====================================================
-# SPORTSBITE - STANDALONE SCRAPER
-# Original scraper logic preserved
-# utils.py dependency removed
+# SPORTSBITE - STANDALONE M3U
+# No utils / Cache / leagues / JSON cache
 # =====================================================
-
-log = logging.getLogger(__name__)
-
-if not log.handlers:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        datefmt="%H:%M:%S",
-    )
-
-urls = {}
 
 TAG = "SPRTSBITE"
 BASE_URL = "https://sportsbite.org"
 API_URL = urljoin(BASE_URL, "api/forestgump/matches")
-
-CACHE_FILE = Path("sportsbite_cache.json")
-CACHE_EXPIRY = 10800
+OUTPUT_FILE = "sportsbite.m3u"
 
 HEADERS = {
     "User-Agent": (
@@ -43,183 +26,163 @@ HEADERS = {
     "Referer": BASE_URL + "/",
 }
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+)
 
-# =====================================================
-# CACHE - replaces utils.Cache
-# =====================================================
-
-class LocalCache:
-
-    def load(self):
-        try:
-            if not CACHE_FILE.exists():
-                return {}
-
-            data = json.loads(
-                CACHE_FILE.read_text(encoding="utf-8")
-            )
-
-            if time.time() - data.get("saved_at", 0) > CACHE_EXPIRY:
-                return {}
-
-            return data.get("events", {})
-
-        except Exception as e:
-            log.warning("Cache load error: %s", e)
-            return {}
-
-    def write(self, data):
-        try:
-            payload = {
-                "saved_at": time.time(),
-                "events": data,
-            }
-
-            CACHE_FILE.write_text(
-                json.dumps(payload, ensure_ascii=False),
-                encoding="utf-8",
-            )
-
-        except Exception as e:
-            log.error("Cache write error: %s", e)
-
-
-CACHE_FILE_OBJ = LocalCache()
+log = logging.getLogger("SPORTSBITE")
 
 
 # =====================================================
-# NETWORK - replaces utils.network
+# NETWORK
 # =====================================================
 
-def request_api():
-
-    request = Request(
-        API_URL,
-        headers=HEADERS,
-        method="GET",
-    )
-
-    with urlopen(request, timeout=30) as response:
-        if response.status != 200:
-            raise RuntimeError(
-                f"HTTP status: {response.status}"
-            )
-
-        return json.loads(
-            response.read().decode("utf-8")
-        )
-
-
-async def network_request():
+def get_api_data():
 
     try:
-        return await asyncio.to_thread(request_api)
+        request = Request(
+            API_URL,
+            headers=HEADERS,
+        )
+
+        with urlopen(request, timeout=30) as response:
+            if response.status != 200:
+                log.error("HTTP status: %s", response.status)
+                return None
+
+            data = json.loads(
+                response.read().decode("utf-8")
+            )
+
+        if not isinstance(data, dict):
+            log.error("Unexpected API response format")
+            return None
+
+        return data
 
     except Exception as e:
-        log.error("SportsBite request failed: %s", e)
+        log.error("API request error: %s", e)
         return None
 
 
 # =====================================================
-# TIME - replaces utils.Time
+# STREAM PROCESSING
+# ORIGINAL SPORTSBITE LOGIC
 # =====================================================
 
-def current_time():
-    return datetime.now(timezone.utc)
+def process_event(url, url_num):
 
+    stream_url = url.replace(
+        "/embed/",
+        "/cdn/"
+    )
 
-# =====================================================
-# STREAM PROCESSING - ORIGINAL LOGIC
-# =====================================================
+    log.info("URL %s) M3U8 captured", url_num)
 
-def process_event(url: str, url_num: int) -> str:
-
-    s = url.replace("/embed/", "/cdn/")
-
-    log.info(f"URL {url_num}) Captured M3U8")
-
-    return f"{s}.m3u8?cdn=1"
+    return f"{stream_url}.m3u8?cdn=1"
 
 
 # =====================================================
-# EVENT SCRAPER - ORIGINAL FILTERS
+# EVENT SCRAPER
 # =====================================================
 
-async def get_events(cached_keys):
+def get_events():
 
-    now = current_time()
+    events = []
 
-    events = {}
+    now = datetime.now(timezone.utc)
 
-    api_data = await network_request()
+    start_ts = (
+        now - timedelta(minutes=30)
+    ).timestamp()
+
+    end_ts = (
+        now + timedelta(minutes=30)
+    ).timestamp()
+
+    api_data = get_api_data()
 
     if not api_data:
         return events
 
-    start_ts = (now - timedelta(minutes=30)).timestamp()
-    end_ts = (now + timedelta(minutes=30)).timestamp()
-
     counter = defaultdict(int)
-
     i = 1
 
-    for game_event in api_data.get("days", [{}]):
+    days = api_data.get("days", [])
 
-        for game_info in game_event.get("events", [{}]):
+    if not isinstance(days, list):
+        log.error("API days field is not a list")
+        return events
 
-            if not all(
-                values := [
-                    game_info.get(x)
-                    for x in (
-                        "title",
-                        "category",
-                        "kickoffMs",
-                        "streams",
-                    )
-                ]
-            ):
+    for game_event in days:
+
+        if not isinstance(game_event, dict):
+            continue
+
+        for game_info in game_event.get("events", []):
+
+            if not isinstance(game_info, dict):
+                continue
+
+            values = [
+                game_info.get(x)
+                for x in (
+                    "title",
+                    "category",
+                    "kickoffMs",
+                    "streams",
+                )
+            ]
+
+            if not all(values):
                 continue
 
             name, sport, event_ts, event_streams = values
 
-            event_ts = int(f"{event_ts}"[:-3])
+            try:
+                event_ts = int(event_ts) // 1000
+            except (ValueError, TypeError):
+                continue
 
             if not start_ts <= event_ts <= end_ts:
                 continue
 
-            # leagues.get_tvg_info removed.
-            # Default values preserve stream collection.
-
+            # leagues.get_tvg_info removed
             tvg_id = "Live.Event.us"
             logo = ""
 
             for stream_info in event_streams:
+
+                if not isinstance(stream_info, dict):
+                    continue
 
                 counter[name] += 1
 
                 if stream_info.get("source") != "selfhost":
                     continue
 
-                elif not (
-                    url := stream_info.get("manifest_url")
-                ):
+                url = stream_info.get("manifest_url")
+
+                if not url:
                     continue
 
-                elif (
-                    key := (
-                        f"[{sport}] {name} "
-                        f"{counter[name]} ({TAG})"
-                    )
-                ) in cached_keys:
-                    continue
+                key = (
+                    f"[{sport}] {name} "
+                    f"{counter[name]} ({TAG})"
+                )
 
-                events[key] = {
-                    "source": process_event(url, i),
+                stream_url = process_event(url, i)
+
+                events.append({
+                    "name": key,
+                    "source": stream_url,
                     "logo": logo,
                     "refer": BASE_URL,
                     "timestamp": event_ts,
                     "tvg-id": tvg_id,
-                }
+                })
 
                 i += 1
 
@@ -227,46 +190,63 @@ async def get_events(cached_keys):
 
 
 # =====================================================
-# SCRAPE - ORIGINAL MAIN INTERFACE
+# M3U WRITER
 # =====================================================
 
-async def scrape():
+def write_m3u(events):
 
-    cached_sources = CACHE_FILE_OBJ.load()
+    lines = ["#EXTM3U"]
 
-    valid_sources = {
-        k: v
-        for k, v in cached_sources.items()
-        if v.get("source")
-    }
+    for event in events:
 
-    valid_count = len(valid_sources)
+        name = event["name"]
+        source = event["source"]
+        logo = event["logo"]
+        tvg_id = event["tvg-id"]
 
-    urls.update(valid_sources)
-
-    log.info(
-        f"Loaded {valid_count} event(s) from cache"
-    )
-
-    log.info(
-        f'Scraping from "{BASE_URL}"'
-    )
-
-    new_events = await get_events(
-        cached_sources.keys()
-    )
-
-    urls.update(new_events)
-
-    new_count = len(urls) - valid_count
-
-    if new_count:
-        log.info(
-            f"Collected and cached {new_count} new event(s)"
+        lines.append(
+            f'#EXTINF:-1 tvg-id="{tvg_id}" '
+            f'tvg-logo="{logo}" '
+            f'group-title="SportsBite",{name}'
         )
-    else:
-        log.info("No new events found")
 
-    CACHE_FILE_OBJ.write(urls)
+        lines.append(source)
+
+    try:
+        with open(
+            OUTPUT_FILE,
+            "w",
+            encoding="utf-8"
+        ) as file:
+            file.write("\n".join(lines) + "\n")
+
+        log.info(
+            "Wrote %s event(s) to %s",
+            len(events),
+            OUTPUT_FILE
+        )
+
+    except Exception as e:
+        log.error("M3U write error: %s", e)
+
+
+# =====================================================
+# MAIN
+# =====================================================
+
+def scrape():
+
+    log.info('Scraping from "%s"', BASE_URL)
+
+    events = get_events()
+
+    log.info(
+        "Collected %s event(s)",
+        len(events)
+    )
+
+    write_m3u(events)
+
+
 if __name__ == "__main__":
-    asyncio.run(scrape())
+    scrape()
