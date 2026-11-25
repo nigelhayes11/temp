@@ -93,20 +93,21 @@ def save_cache(events):
 # =====================================================
 
 def get_api_data():
-
     try:
-        request = Request(
-            API_URL,
-            headers=HEADERS,
-        )
+        request = Request(API_URL, headers=HEADERS)
 
         with urlopen(request, timeout=25) as response:
             raw = response.read()
 
+            print("HTTP STATUS:", response.status)
+            print("RESPONSE:", raw[:3000].decode(
+                "utf-8", errors="replace"
+            ))
+
         return json.loads(raw.decode("utf-8"))
 
     except Exception as e:
-        log.error("SportsBite API error: %s", e)
+        log.error("API ERROR: %s", e)
         return None
 
 
