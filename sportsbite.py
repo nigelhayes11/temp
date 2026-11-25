@@ -2,25 +2,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from collections import defaultdict
+import json
+import logging
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
-import asyncio
-import json
-import logging
+from collections import defaultdict
 
 # =====================================================
-# SPORTSBITE - STANDALONE M3U SCRAPER
-# Original doms9 logic
-# No utils / Cache / Time / network / leagues
+# SPORTSBITE - STANDALONE M3U
+# Original doms9 scraper logic
 # =====================================================
 
 TAG = "SPRTSBITE"
-
 BASE_URL = "https://sportsbite.org"
 API_URL = urljoin(BASE_URL, "api/forestgump/matches")
-
 OUTPUT_FILE = "sportsbite.m3u"
 
 HEADERS = {
@@ -43,66 +39,91 @@ log = logging.getLogger("SPORTSBITE")
 
 
 # =====================================================
-# NETWORK - replaces utils.network
+# API REQUEST
 # =====================================================
 
 def get_api_data():
 
     try:
-        request = Request(
-            API_URL,
-            headers=HEADERS,
-        )
+        request = Request(API_URL, headers=HEADERS)
 
         with urlopen(request, timeout=30) as response:
 
-            if response.status != 200:
-                log.error("HTTP error: %s", response.status)
-                return None
+            log.info("HTTP STATUS: %s", response.status)
 
-            data = json.loads(
-                response.read().decode("utf-8")
-            )
+            raw = response.read()
 
-        if not isinstance(data, dict):
-            log.error("Unexpected API response")
-            return None
+        data = json.loads(raw.decode("utf-8"))
+
+        log.info("API RESPONSE TYPE: %s", type(data).__name__)
+
+        if isinstance(data, dict):
+            log.info("API KEYS: %s", list(data.keys()))
 
         return data
 
     except Exception as e:
-        log.error("API request failed: %s", e)
+        log.error("API REQUEST ERROR: %s", e)
         return None
 
 
 # =====================================================
-# ORIGINAL PROCESS_EVENT
+# ORIGINAL STREAM CONVERSION
 # =====================================================
 
-def process_event(url: str, url_num: int) -> str:
+def process_event(url, url_num):
 
-    s = url.replace("/embed/", "/cdn/")
+    stream = url.replace("/embed/", "/cdn/")
 
-    log.info("URL %s) Captured M3U8", url_num)
+    log.info("URL %s) M3U8 captured", url_num)
 
-    return f"{s}.m3u8?cdn=1"
+    return f"{stream}.m3u8?cdn=1"
 
 
 # =====================================================
-# ORIGINAL GET_EVENTS
-# Cache / Time / leagues removed
+# TIMESTAMP CONVERSION
 # =====================================================
 
-async def get_events():
+def convert_timestamp(value):
 
-    now = datetime.now(timezone.utc)
+    try:
+        timestamp = int(value)
+
+        # Milliseconds -> seconds
+        if timestamp > 10_000_000_000:
+            timestamp //= 1000
+
+        return timestamp
+
+    except (ValueError, TypeError):
+        return None
+
+
+# =====================================================
+# GET EVENTS
+# =====================================================
+
+def get_events():
 
     events = []
 
-    api_data = await asyncio.to_thread(get_api_data)
+    api_data = get_api_data()
 
     if not api_data:
+        log.error("API returned no data")
         return None
+
+    if not isinstance(api_data, dict):
+        log.error("API root is not a dictionary")
+        return None
+
+    days = api_data.get("days", [])
+
+    if not isinstance(days, list):
+        log.error("Invalid days structure")
+        return None
+
+    now = datetime.now(timezone.utc)
 
     start_ts = (
         now - timedelta(minutes=30)
@@ -112,47 +133,59 @@ async def get_events():
         now + timedelta(minutes=30)
     ).timestamp()
 
+    log.info("API DAYS: %s", len(days))
+
+    log.info(
+        "TIME WINDOW: %s - %s",
+        datetime.fromtimestamp(start_ts, timezone.utc),
+        datetime.fromtimestamp(end_ts, timezone.utc),
+    )
+
     counter = defaultdict(int)
+
+    total_matches = 0
+    time_matches = 0
+    selfhost_matches = 0
 
     i = 1
 
-    for game_event in api_data.get("days", []):
+    for game_event in days:
 
         if not isinstance(game_event, dict):
             continue
 
-        for game_info in game_event.get("events", []):
+        day_events = game_event.get("events", [])
+
+        if not isinstance(day_events, list):
+            continue
+
+        total_matches += len(day_events)
+
+        for game_info in day_events:
 
             if not isinstance(game_info, dict):
                 continue
 
-            if not all(
-                values := [
-                    game_info.get(x)
-                    for x in (
-                        "title",
-                        "category",
-                        "kickoffMs",
-                        "streams",
-                    )
-                ]
-            ):
+            name = game_info.get("title")
+            sport = game_info.get("category")
+            event_ts = game_info.get("kickoffMs")
+            event_streams = game_info.get("streams")
+
+            if not name or not sport or event_ts is None:
                 continue
 
-            name, sport, event_ts, event_streams = values
+            if not isinstance(event_streams, list):
+                continue
 
-            try:
-                # Original timestamp conversion
-                event_ts = int(f"{event_ts}"[:-3])
-            except (ValueError, TypeError):
+            event_ts = convert_timestamp(event_ts)
+
+            if event_ts is None:
                 continue
 
             if not start_ts <= event_ts <= end_ts:
                 continue
 
-            # leagues.get_tvg_info removed
-            tvg_id = "Live.Event.us"
-            logo = ""
+            time_matches += 1
 
             for stream_info in event_streams:
 
@@ -164,10 +197,12 @@ async def get_events():
                 if stream_info.get("source") != "selfhost":
                     continue
 
-                elif not (
-                    url := stream_info.get("manifest_url")
-                ):
+                url = stream_info.get("manifest_url")
+
+                if not url:
                     continue
+
+                selfhost_matches += 1
 
                 key = (
                     f"[{sport}] {name} "
@@ -177,19 +212,21 @@ async def get_events():
                 events.append({
                     "name": key,
                     "source": process_event(url, i),
-                    "logo": logo,
-                    "refer": BASE_URL,
-                    "timestamp": event_ts,
-                    "tvg-id": tvg_id,
+                    "logo": "",
+                    "tvg-id": "Live.Event.us",
                 })
 
                 i += 1
+
+    log.info("TOTAL MATCHES: %s", total_matches)
+    log.info("MATCHES IN TIME WINDOW: %s", time_matches)
+    log.info("SELFHOST STREAMS: %s", selfhost_matches)
 
     return events
 
 
 # =====================================================
-# M3U WRITER
+# WRITE M3U
 # =====================================================
 
 def write_m3u(events):
@@ -198,60 +235,54 @@ def write_m3u(events):
 
     for event in events:
 
-        name = event["name"]
-        source = event["source"]
-        logo = event["logo"]
-        tvg_id = event["tvg-id"]
-
         lines.append(
-            f'#EXTINF:-1 tvg-id="{tvg_id}" '
-            f'tvg-logo="{logo}" '
-            f'group-title="SportsBite",{name}'
+            '#EXTINF:-1 tvg-id="{}" tvg-logo="" '
+            'group-title="SportsBite",{}'.format(
+                event["tvg-id"],
+                event["name"],
+            )
         )
 
-        lines.append(source)
+        lines.append(event["source"])
 
-    with open(
-        OUTPUT_FILE,
-        "w",
-        encoding="utf-8",
-    ) as file:
+    try:
 
-        file.write("\n".join(lines) + "\n")
+        with open(
+            OUTPUT_FILE,
+            "w",
+            encoding="utf-8",
+        ) as file:
 
-    log.info(
-        "Wrote %s event(s) to %s",
-        len(events),
-        OUTPUT_FILE,
-    )
+            file.write("\n".join(lines) + "\n")
+
+        log.info(
+            "WROTE %s EVENT(S) TO %s",
+            len(events),
+            OUTPUT_FILE,
+        )
+
+    except Exception as e:
+        log.error("M3U WRITE ERROR: %s", e)
 
 
 # =====================================================
-# ORIGINAL SCRAPE - WITHOUT CACHE
+# MAIN
 # =====================================================
 
-async def scrape():
+def scrape():
 
     log.info('Scraping from "%s"', BASE_URL)
 
-    events = await get_events()
+    events = get_events()
 
-    # API failed: don't overwrite existing playlist
     if events is None:
         log.error("Scraping failed. Existing M3U preserved.")
         return
 
-    log.info(
-        "Collected %s event(s)",
-        len(events),
-    )
+    log.info("COLLECTED: %s", len(events))
 
     write_m3u(events)
 
 
-# =====================================================
-# RUN
-# =====================================================
-
 if __name__ == "__main__":
-    asyncio.run(scrape())
+    scrape()
