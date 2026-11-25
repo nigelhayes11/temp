@@ -1,38 +1,28 @@
-name: BeyazElma M3U Guncelle
+name: SportsBite M3U
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
+  schedule:
+    - cron: "*/10 * * * *"
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Depoyu Cek
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Python Kur
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Kutuphaneleri Yukle
-        run: |
-          pip install playwright
-          playwright install chromium
-          playwright install-deps chromium
-
-
-      - name: Betigi Calistir
+      - name: Run SportsBite
         run: python sportsbite.py
 
-      - name: M3U Dosyasini Kaydet ve Gonder
+      - name: Save M3U
         run: |
-          git config --local user.email "github-actions[bot]@://github.com"
-          git config --local user.name "github-actions[bot]"
-          git add beyazelma.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Otomatik M3U guncellemesi" && git push)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sportsbite.m3u sportsbite_cache.json
+          git commit -m "Update SportsBite M3U" || true
+          git push
