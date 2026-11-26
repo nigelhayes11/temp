@@ -3,16 +3,18 @@ from urllib.request import Request, urlopen
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://sportsbite.org",
+    "Referer": "https://sportsbite.org/",
 }
 
-url = "https://sportsbite.org"
-html = urlopen(Request(url, headers=headers), timeout=15).read().decode("utf-8", errors="ignore")
+# 1. Embed sayfasının kendi HTML/JS kodunu çek
+embed_url = "https://sportsbite.org"
+html = urlopen(Request(embed_url, headers=headers), timeout=15).read().decode("utf-8", errors="ignore")
+print("--- EMBED SAYFASI ---")
+print(html[:3500])
 
-scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.DOTALL)
-print(f"Toplam {len(scripts)} adet script bloğu bulundu.\n")
+# 2. Ana sitedeki hls-loader JS dosyasını çek
+js_url = "https://sportsbite.org"
+js = urlopen(Request(js_url, headers=headers), timeout=15).read().decode("utf-8", errors="ignore")
+print("\n--- HLS LOADER JS ---")
+print(js[:3500])
 
-for idx, s in enumerate(scripts, 1):
-    if s.strip():
-        print(f"--- SCRIPT {idx} ---")
-        print(s.strip()[:2000])
