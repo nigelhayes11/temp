@@ -1,313 +1,107 @@
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-import requests
-import logging
 from collections import defaultdict
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
-
-# =====================================================
-# SPORTSBITE - STANDALONE M3U
-# No utils / Cache / Time / leagues
-# Uses requests
-# =====================================================
+import requests
 
 TAG = "SPRTSBITE"
-
 BASE_URL = "https://sportsbite.org"
-API_URL = urljoin(BASE_URL, "api/forestgump/matches")
-
-OUTPUT_FILE = "sportsbite.m3u"
-
-TIMEOUT = 30
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/140.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json, text/plain, */*",
-    "Referer": BASE_URL + "/",
-    "Origin": BASE_URL,
-}
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%H:%M:%S",
-)
-
-log = logging.getLogger("SPORTSBITE")
+OUTPUT_FILE = "bite.m3u"
 
 
-# =====================================================
-# API REQUEST
-# =====================================================
-
-def get_api_data():
-
-    try:
-        session = requests.Session()
-
-        response = session.get(
-            API_URL,
-            headers=HEADERS,
-            timeout=TIMEOUT,
-        )
-
-        log.info("HTTP STATUS: %s", response.status_code)
-
-        response.raise_for_status()
-
-        data = response.json()
-
-        if not isinstance(data, dict):
-            log.error(
-                "Unexpected API root: %s",
-                type(data).__name__,
-            )
-            return None
-
-        log.info(
-            "API KEYS: %s",
-            list(data.keys()),
-        )
-
-        return data
-
-    except requests.RequestException as e:
-        log.error("REQUEST ERROR: %s", e)
-        return None
-
-    except ValueError as e:
-        log.error("JSON ERROR: %s", e)
-        return None
+def process_event(url: str, url_num: int) -> str:
+    s = url.replace("/embed/", "/cdn/")
+    print(f"URL {url_num}) Yakalandı: {s}.m3u8?cdn=1")
+    return f"{s}.m3u8?cdn=1"
 
 
-# =====================================================
-# ORIGINAL URL PROCESSING
-# =====================================================
-
-def process_event(url, url_num):
-
-    stream = url.replace(
-        "/embed/",
-        "/cdn/",
-    )
-
-    log.info(
-        "URL %s) Captured M3U8",
-        url_num,
-    )
-
-    return f"{stream}.m3u8?cdn=1"
-
-
-# =====================================================
-# TIMESTAMP
-# =====================================================
-
-def convert_timestamp(value):
-
-    try:
-        timestamp = int(value)
-
-        if timestamp > 10_000_000_000:
-            timestamp //= 1000
-
-        return timestamp
-
-    except (ValueError, TypeError):
-        return None
-
-
-# =====================================================
-# GET EVENTS
-# =====================================================
-
-def get_events():
-
-    events = []
-
-    api_data = get_api_data()
-
-    if api_data is None:
-        return None
-
-    days = api_data.get("days", [])
-
-    if not isinstance(days, list):
-        log.error("API days is not a list")
-        return None
-
+def get_events() -> dict[str, dict[str, str | int]]:
+    # Şu anki zaman (UTC) ve +/- 30 dakikalık zaman aralığı
     now = datetime.now(timezone.utc)
+    start_ts = (now - timedelta(minutes=30)).timestamp()
+    end_ts = (now + timedelta(minutes=30)).timestamp()
 
-    start_ts = (
-        now - timedelta(minutes=30)
-    ).timestamp()
+    events = {}
+    api_url = urljoin(BASE_URL, "api/forestgump/matches")
 
-    end_ts = (
-        now + timedelta(minutes=30)
-    ).timestamp()
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Referer": BASE_URL,
+    }
 
-    counter = defaultdict(int)
+    try:
+        response = requests.get(api_url, headers=headers, timeout=15)
+        response.raise_for_status()
+        api_data = response.json()
+    except Exception as e:
+        print(f"API isteği başarısız oldu: {e}")
+        return events
 
-    total_matches = 0
-    time_matches = 0
-    stream_count = 0
-
+    counter: dict[str, int] = defaultdict(int)
     i = 1
 
-    log.info("API DAYS: %s", len(days))
+    # API yanıtı liste veya sözlük (dict) dönebilir, her ikisine de uyumlu hale getirildi
+    days = api_data.get("days", []) if isinstance(api_data, dict) else api_data
 
     for game_event in days:
+        for game_info in game_event.get("events", []):
+            title = game_info.get("title")
+            sport = game_info.get("category")
+            kickoff_ms = game_info.get("kickoffMs")
+            event_streams = game_info.get("streams")
 
-        if not isinstance(game_event, dict):
-            continue
-
-        game_list = game_event.get("events", [])
-
-        if not isinstance(game_list, list):
-            continue
-
-        total_matches += len(game_list)
-
-        for game_info in game_list:
-
-            if not isinstance(game_info, dict):
+            if not all([title, sport, kickoff_ms, event_streams]):
                 continue
 
-            values = [
-                game_info.get(x)
-                for x in (
-                    "title",
-                    "category",
-                    "kickoffMs",
-                    "streams",
-                )
-            ]
+            # Milisaniyeyi saniyeye çevir
+            event_ts = int(int(kickoff_ms) / 1000)
 
-            if not all(
-                value is not None and value != ""
-                for value in values
-            ):
+            # Sadece şu anki saatin 30 dk öncesi ve 30 dk sonrası arasındaki maçları al
+            if not (start_ts <= event_ts <= end_ts):
                 continue
-
-            name, sport, event_ts, event_streams = values
-
-            if not isinstance(event_streams, list):
-                continue
-
-            event_ts = convert_timestamp(event_ts)
-
-            if event_ts is None:
-                continue
-
-            # Original doms9 time window
-            if not start_ts <= event_ts <= end_ts:
-                continue
-
-            time_matches += 1
 
             for stream_info in event_streams:
-
-                if not isinstance(stream_info, dict):
-                    continue
-
-                counter[name] += 1
+                counter[title] += 1
 
                 if stream_info.get("source") != "selfhost":
                     continue
 
                 url = stream_info.get("manifest_url")
-
                 if not url:
                     continue
 
-                key = (
-                    f"[{sport}] {name} "
-                    f"{counter[name]} ({TAG})"
-                )
+                key = f"[{sport}] {title} {counter[title]} ({TAG})"
 
-                events.append({
-                    "name": key,
+                events[key] = {
                     "source": process_event(url, i),
                     "logo": "",
                     "refer": BASE_URL,
                     "timestamp": event_ts,
                     "tvg-id": "Live.Event.us",
-                })
-
-                stream_count += 1
+                    "group": sport,
+                }
                 i += 1
-
-    log.info("TOTAL MATCHES: %s", total_matches)
-    log.info("MATCHES IN TIME WINDOW: %s", time_matches)
-    log.info("SELFHOST STREAMS: %s", stream_count)
 
     return events
 
 
-# =====================================================
-# WRITE M3U
-# =====================================================
-
-def write_m3u(events):
-
-    lines = ["#EXTM3U"]
-
-    for event in events:
-
-        lines.append(
-            '#EXTINF:-1 tvg-id="{}" tvg-logo="" '
-            'group-title="SportsBite",{}'.format(
-                event["tvg-id"],
-                event["name"],
+def save_to_m3u(events: dict) -> None:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for name, info in events.items():
+            f.write(
+                f'#EXTINF:-1 tvg-id="{info["tvg-id"]}" tvg-logo="{info["logo"]}" group-title="{info["group"]}",{name}\n'
             )
-        )
+            # VLC ve IPTV oynatıcılar için Referer ve User-Agent başlıkları
+            f.write(f'#EXTVLCOPT:http-referrer={info["refer"]}\n')
+            f.write(
+                "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n"
+            )
+            f.write(f'{info["source"]}\n')
 
-        lines.append(event["source"])
-
-    try:
-        with open(
-            OUTPUT_FILE,
-            "w",
-            encoding="utf-8",
-        ) as f:
-
-            f.write("\n".join(lines) + "\n")
-
-        log.info(
-            "Wrote %s event(s) to %s",
-            len(events),
-            OUTPUT_FILE,
-        )
-
-    except OSError as e:
-        log.error("M3U WRITE ERROR: %s", e)
-
-
-# =====================================================
-# MAIN
-# =====================================================
-
-def scrape():
-
-    log.info('Scraping from "%s"', BASE_URL)
-
-    events = get_events()
-
-    if events is None:
-        log.error("API failed. Existing M3U preserved.")
-        return
-
-    log.info("Collected %s event(s)", len(events))
-
-    write_m3u(events)
+    print(f"\nToplam {len(events)} yayın '{OUTPUT_FILE}' dosyasına kaydedildi.")
 
 
 if __name__ == "__main__":
-    scrape()
+    print(f'"{BASE_URL}" üzerinden yayınlar çekiliyor...')
+    collected_events = get_events()
+    save_to_m3u(collected_events)
