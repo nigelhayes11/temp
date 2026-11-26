@@ -1,19 +1,19 @@
-import json
+import re
 from urllib.request import Request, urlopen
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://sportsbite.org/channels",
+    "Referer": "https://sportsbite.org",
 }
 
-for endpoint in ["api/forestgump/channels", "api/channels", "api/forestgump/live"]:
-    url = f"https://sportsbite.org/{endpoint}"
-    try:
-        req = Request(url, headers=headers)
-        with urlopen(req, timeout=10) as res:
-            data = json.loads(res.read().decode("utf-8"))
-            print(f"BAŞARILI ({endpoint}):")
-            print(json.dumps(data, indent=2)[:1000])  # İlk 1000 karakteri basar
-            break
-    except Exception as e:
-        print(f"Denenen {endpoint} başarısız: {e}")
+embed_url = "https://sportsbite.org"
+req = Request(embed_url, headers=headers)
+
+with urlopen(req, timeout=15) as res:
+    html = res.read().decode("utf-8", errors="ignore")
+    print("Sayfa boyutu:", len(html))
+    # HTML içindeki tüm m3u8 veya cdn linklerini bul
+    links = re.findall(r'https?://[^\s"\'<>]+(?:m3u8|cdn|hls|stream)[^\s"\'<>]*', html)
+    print("Bulunan yayın linkleri:", links)
+    if not links:
+        print("HTML içeriği önizleme:\n", html[:1500])
