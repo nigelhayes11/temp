@@ -8,40 +8,41 @@ TAG = "SPRTSBITE"
 BASE_URL = "https://sportsbite.org"
 OUTPUT_FILE = "bite.m3u"
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": BASE_URL,
+}
 
-def process_event(url: str, url_num: int) -> str:
+
+def fetch_json(endpoint: str) -> dict | list | None:
+    url = urljoin(BASE_URL, endpoint)
+    try:
+        req = Request(url, headers=HEADERS)
+        with urlopen(req, timeout=20) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception as e:
+        print(f"[{endpoint}] API isteği başarısız oldu: {e}")
+        return None
+
+
+def process_url(url: str) -> str:
     s = url.replace("/embed/", "/cdn/")
-    print(f"URL {url_num}) Yakalandı: {s}.m3u8?cdn=1")
-    return f"{s}.m3u8?cdn=1"
+    if not s.endswith(".m3u8") and ".m3u8" not in s:
+        return f"{s}.m3u8?cdn=1"
+    return s
 
 
-def get_events() -> dict[str, dict[str, str | int]]:
+def get_matches() -> dict[str, dict[str, str]]:
     now = datetime.now(timezone.utc)
-    start_ts = (now - timedelta(minutes=30)).timestamp()
-    end_ts = (now + timedelta(minutes=30)).timestamp()
+    start_ts = (now - timedelta(hours=12)).timestamp()
+    end_ts = (now + timedelta(hours=12)).timestamp()
 
     events = {}
-    api_url = urljoin(BASE_URL, "api/forestgump/matches")
-
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        ),
-        "Referer": BASE_URL,
-    }
-
-    try:
-        req = Request(api_url, headers=headers)
-        with urlopen(req, timeout=15) as response:
-            raw_data = response.read().decode("utf-8")
-            api_data = json.loads(raw_data)
-    except Exception as e:
-        print(f"API isteği başarısız oldu: {e}")
+    api_data = fetch_json("api/forestgump/matches")
+    if not api_data:
         return events
 
     counter: dict[str, int] = defaultdict(int)
-    i = 1
-
     days = api_data.get("days", []) if isinstance(api_data, dict) else api_data
 
     for game_event in days:
@@ -55,7 +56,6 @@ def get_events() -> dict[str, dict[str, str | int]]:
                 continue
 
             event_ts = int(int(kickoff_ms) / 1000)
-
             if not (start_ts <= event_ts <= end_ts):
                 continue
 
@@ -70,39 +70,74 @@ def get_events() -> dict[str, dict[str, str | int]]:
                     continue
 
                 key = f"[{sport}] {title} {counter[title]} ({TAG})"
-
                 events[key] = {
-                    "source": process_event(url, i),
+                    "source": process_url(url),
                     "logo": "",
                     "refer": BASE_URL,
-                    "timestamp": event_ts,
                     "tvg-id": "Live.Event.us",
-                    "group": sport,
+                    "group": f"Live - {sport}",
                 }
-                i += 1
 
+    print(f"Maçlar bölümünden {len(events)} canlı yayın çekildi.")
     return events
 
 
-def save_to_m3u(events: dict) -> None:
+def get_channels() -> dict[str, dict[str, str]]:
+    channels_dict = {}
+    api_data = fetch_json("api/forestgump/channels")
+    if not api_data or not isinstance(api_data, dict):
+        return channels_dict
+
+    channel_list = api_data.get("channels", [])
+    for ch in channel_list:
+        if ch.get("status") != "online":
+            continue
+
+        name = ch.get("name")
+        url = ch.get("manifest_url")
+        if not name or not url:
+            continue
+
+        country = ch.get("country", "")
+        category = ch.get("category", "Channels")
+        logo = ch.get("logo_url") or ch.get("image") or ""
+        ch_id = ch.get("id") or "Live.Channel.us"
+
+        group_name = f"{category} ({country})" if country else category
+        key = f"{name} ({TAG})"
+
+        channels_dict[key] = {
+            "source": process_url(url),
+            "logo": logo,
+            "refer": urljoin(BASE_URL, "channels"),
+            "tvg-id": ch_id,
+            "group": group_name,
+        }
+
+    print(f"Kanallar bölümünden {len(channels_dict)} 7/24 kanal çekildi.")
+    return channels_dict
+
+
+def save_to_m3u(all_items: dict) -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for name, info in events.items():
+        for name, info in all_items.items():
             f.write(
-                f'#EXTINF:-1 tvg-id="{info["tvg-id"]}" tvg-logo="{info["logo"]}"'
-                f' group-title="{info["group"]}",{name}\n'
+                f'#EXTINF:-1 tvg-id="{info["tvg-id"]}" tvg-logo="{info["logo"]}" '
+                f'group-title="{info["group"]}",{name}\n'
             )
             f.write(f'#EXTVLCOPT:http-referrer={info["refer"]}\n')
             f.write(
-                "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64;"
-                " x64)\n"
+                "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n"
             )
             f.write(f'{info["source"]}\n')
 
-    print(f"\nToplam {len(events)} yayın '{OUTPUT_FILE}' dosyasına kaydedildi.")
+    print(f"\nTOPLAM {len(all_items)} içerik '{OUTPUT_FILE}' dosyasına kaydedildi.")
 
 
 if __name__ == "__main__":
-    print(f'"{BASE_URL}" üzerinden yayınlar çekiliyor...')
-    collected_events = get_events()
-    save_to_m3u(collected_events)
+    print(f'"{BASE_URL}" üzerinden maçlar ve kanallar çekiliyor...\n')
+    items = {}
+    items.update(get_matches())
+    items.update(get_channels())
+    save_to_m3u(items)
