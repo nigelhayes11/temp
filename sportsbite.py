@@ -1,7 +1,8 @@
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
+import json
 from urllib.parse import urljoin
-import requests
+from urllib.request import Request, urlopen
 
 TAG = "SPRTSBITE"
 BASE_URL = "https://sportsbite.org"
@@ -15,7 +16,6 @@ def process_event(url: str, url_num: int) -> str:
 
 
 def get_events() -> dict[str, dict[str, str | int]]:
-    # Şu anki zaman (UTC) ve +/- 30 dakikalık zaman aralığı
     now = datetime.now(timezone.utc)
     start_ts = (now - timedelta(minutes=30)).timestamp()
     end_ts = (now + timedelta(minutes=30)).timestamp()
@@ -24,14 +24,17 @@ def get_events() -> dict[str, dict[str, str | int]]:
     api_url = urljoin(BASE_URL, "api/forestgump/matches")
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        ),
         "Referer": BASE_URL,
     }
 
     try:
-        response = requests.get(api_url, headers=headers, timeout=15)
-        response.raise_for_status()
-        api_data = response.json()
+        req = Request(api_url, headers=headers)
+        with urlopen(req, timeout=15) as response:
+            raw_data = response.read().decode("utf-8")
+            api_data = json.loads(raw_data)
     except Exception as e:
         print(f"API isteği başarısız oldu: {e}")
         return events
@@ -39,7 +42,6 @@ def get_events() -> dict[str, dict[str, str | int]]:
     counter: dict[str, int] = defaultdict(int)
     i = 1
 
-    # API yanıtı liste veya sözlük (dict) dönebilir, her ikisine de uyumlu hale getirildi
     days = api_data.get("days", []) if isinstance(api_data, dict) else api_data
 
     for game_event in days:
@@ -52,10 +54,8 @@ def get_events() -> dict[str, dict[str, str | int]]:
             if not all([title, sport, kickoff_ms, event_streams]):
                 continue
 
-            # Milisaniyeyi saniyeye çevir
             event_ts = int(int(kickoff_ms) / 1000)
 
-            # Sadece şu anki saatin 30 dk öncesi ve 30 dk sonrası arasındaki maçları al
             if not (start_ts <= event_ts <= end_ts):
                 continue
 
@@ -89,12 +89,13 @@ def save_to_m3u(events: dict) -> None:
         f.write("#EXTM3U\n")
         for name, info in events.items():
             f.write(
-                f'#EXTINF:-1 tvg-id="{info["tvg-id"]}" tvg-logo="{info["logo"]}" group-title="{info["group"]}",{name}\n'
+                f'#EXTINF:-1 tvg-id="{info["tvg-id"]}" tvg-logo="{info["logo"]}"'
+                f' group-title="{info["group"]}",{name}\n'
             )
-            # VLC ve IPTV oynatıcılar için Referer ve User-Agent başlıkları
             f.write(f'#EXTVLCOPT:http-referrer={info["refer"]}\n')
             f.write(
-                "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n"
+                "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64;"
+                " x64)\n"
             )
             f.write(f'{info["source"]}\n')
 
