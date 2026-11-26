@@ -1,41 +1,32 @@
-name: Fast Basketball Replay M3U
+name: Update SportsBite M3U
 
 on:
   schedule:
-    - cron: "0 8,14 * * *"
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build-replayok-m3u:
+  update-m3u:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Depoyu çek
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Python kurulumu
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.11'
 
-      - name: Install Dependencies
-        run: pip install httpx beautifulsoup4 yt-dlp
+      - name: Scripti çalıştır
+        run: python sportsbite.py
 
-      - name: Run Replay Scraper
-        run: python -u test.py
-
-      - name: Commit and Push M3U
+      - name: M3U dosyasını kaydet ve gönder
         run: |
-          git config --local user.email "github-actions[bot]@://github.com"
-          git config --local user.name "github-actions[bot]"
-          git add replayok.m3u
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: update replayok.m3u [skip ci]"
-            git pull --rebase origin main
-            git push
-          else
-            echo "test.m3u dosyasında değişiklik yok."
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@://github.com"
+          git add bite.m3u
+          git diff --staged --quiet || (git commit -m "Update bite.m3u" && git push)
