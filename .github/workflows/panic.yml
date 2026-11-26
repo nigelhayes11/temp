@@ -25,7 +25,7 @@ jobs:
         run: pip install httpx beautifulsoup4 yt-dlp
 
       - name: Run Replay Scraper
-        run: python -u replayok.py
+        run: python -u test.py
 
       - name: Commit and Push M3U
         run: |
@@ -37,5 +37,5 @@ jobs:
             git pull --rebase origin main
             git push
           else
-            echo "replayok.m3u dosyasında değişiklik yok."
+            echo "test.m3u dosyasında değişiklik yok."
           fi
