@@ -1,33 +1,4 @@
-import asyncio
-import json
-import logging
-import re
-from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
-from typing import Any
-from urllib.parse import quote, urlencode, urljoin
 
-import httpx
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%H:%M:%S",
-)
-log = logging.getLogger("STRMFREE")
-
-BASE_URL = "https://streamfree.top"
-OUTPUT_FILE = "strmfree.m3u"
-TAG = "STRMFREE"
-
-
-@dataclass(slots=True)
-class STFEvent:
-    sport: str
-    name: str
-    category: str
-    stream_key: str
-    logo: str | None = None
 
 
 async def fetch_json(
