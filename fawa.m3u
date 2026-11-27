@@ -1,0 +1,65 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="AFL Aussie Rules",[AFL Aussie Rules] North Melbourne W vs Melbourne Demons W (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/FRFRFRVA.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Australia A-League",[Australia A-League] Macarthur FC vs Melbourne City (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/FRFRFR.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Cricket",[Cricket] Australia vs England (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viii.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="MotoGP",[MotoGP] MotoGP Grand Prix of Valencia (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/FRFRFRV.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Mexico Liga MX",[Mexico Liga MX] Club Leon vs Cruz Azul (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAaQQqQ.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Basketball World Cup",[Basketball World Cup] Panama vs Puerto Rico (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAaQQ.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="NCAA American Football",[NCAA American Football] Texas Tech vs TCU (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAa.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Mexico Liga MX",[Mexico Liga MX] Pachuca vs Guadalajara Chivas (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAaQQqQ.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Basketball World Cup",[Basketball World Cup] Argentina vs Bahamas (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAaQ.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Uruguay Cup",[Uruguay Cup] Montevideo City vs Nacional (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAaQQq.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Golf PGA",[Golf PGA] Golf BMW Australian PGA Championship (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DEDEDEDEAA.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Brazil Serie A",[Brazil Serie A] Sao Paulo vs Remo 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiA.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Brazil Serie A",[Brazil Serie A] Sao Paulo vs Remo 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/ee63721c-c889-4019-aff1-311c280746ee.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="NCAA Basketball",[NCAA Basketball] TCU vs Creighton (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/viiiAa.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Paraguay Copa",[Paraguay Copa] Cerro Porteno vs Libertad Asuncion (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/FAFAFAJ.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" group-title="Basketball World Cup",[Basketball World Cup] Uruguay vs Canada (FAWA)
+#EXTVLCOPT:http-referrer=http://fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://193.47.62.41/hls/FAFAFAJA.m3u8
