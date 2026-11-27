@@ -1,124 +1,171 @@
-import json
+import asyncio
+import logging
 import re
-import time
-import requests
-from bs4 import BeautifulSoup
+from urllib.parse import quote, urljoin
 
-BASE_URL = "http://www.fawanews.sc/"
+import httpx
+from selectolax.lexbor import LexborHTMLParser as HTMLParser
+
+# Loglama ayarları
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+)
+log = logging.getLogger("FAWA")
+
+TAG = "FAWA"
+BASE_URL = "http://fawanews.sc"
+OUTPUT_M3U = "fawa.m3u"
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    )
 }
 
-def get_all_matches():
+
+async def process_event(
+    client: httpx.AsyncClient,
+    semaphore: asyncio.Semaphore,
+    event: dict[str, str],
+    url_num: int,
+) -> dict[str, str] | None:
+    async with semaphore:
+        try:
+            response = await client.get(
+                event["link"],
+                headers={**HEADERS, "Referer": BASE_URL},
+                timeout=15.0,
+            )
+            response.raise_for_status()
+        except Exception as e:
+            log.warning(f"URL {url_num}) Request failed: {e}")
+            return None
+
+        if f"{response.url}" in (BASE_URL, BASE_URL.rstrip("/")):
+            log.info(f"URL {url_num}) No event found.")
+            return None
+
+        valid_m3u8 = re.compile(r"var\s*\w*\s*=\s+\[(.*)];", re.I)
+
+        if not (match := valid_m3u8.search(response.text)):
+            log.warning(f"URL {url_num}) Unable to parse event source")
+            return None
+
+        try:
+            source = "".join(
+                re.search(rf'var\s*{var}\s*=\s*"(.*)";', response.text, re.I)[1]
+                for var in (i.strip() for i in match[1].split("+"))
+            ).strip()
+        except (TypeError, IndexError):
+            source = ""
+
+        if source:
+            log.info(f"URL {url_num}) Captured M3U8 -> {event['name']}")
+            return {
+                "sport": event["sport"],
+                "name": event["name"],
+                "source": source,
+                "refer": BASE_URL,
+                "tvg-id": "Live.Event.us",
+            }
+
+        log.warning(f"URL {url_num}) No M3U8 found")
+        return None
+
+
+async def get_events(client: httpx.AsyncClient) -> list[dict[str, str]]:
+    events: list[dict[str, str]] = []
+
     try:
-        res = requests.get(BASE_URL, headers=HEADERS, timeout=10)
-        if res.status_code != 200:
-            return []
-        soup = BeautifulSoup(res.text, 'html.parser')
-        matches = []
-        for a_tag in soup.find_all('a', href=True):
-            href = a_tag['href']
-            if href.endswith('.html') and href not in ['index.html', 'contact.html', 'privacy.html']:
-                safe_href = href.replace(' ', '%20')
-                full_url = safe_href if safe_href.startswith('http') else BASE_URL + safe_href
-                if full_url not in matches:
-                    matches.append(full_url)
-        return matches
-    except Exception:
-        return []
+        response = await client.get(BASE_URL, headers=HEADERS, timeout=15.0)
+        response.raise_for_status()
+    except Exception as e:
+        log.error(f"Failed to fetch main page: {e}")
+        return events
 
-def extract_stream(match_url):
-    page_headers = {
-        "User-Agent": HEADERS["User-Agent"],
-        "Referer": match_url,
-        "Origin": "http://www.fawanews.sc"
-    }
-    try:
-        res = requests.get(match_url, headers=page_headers, timeout=10)
-        html = res.text
-        d1 = re.search(r'var d1 = "(.*?)";', html)
-        d2 = re.search(r'var d2 = "(.*?)";', html)
-        d3 = re.search(r'var d3 = "(.*?)";', html)
-        if d1 and d2 and d3:
-            return d1.group(1) + d2.group(1) + d3.group(1)
-    except Exception:
-        pass
-    return None
+    soup = HTMLParser(response.content)
 
-def main():
-    match_links = get_all_matches()
-    print(f"[+] Ditemukan {len(match_links)} jadwal siaran.\n")
+    valid_event = re.compile(r"\d{1,2}:\d{1,2}")
+    clean_event = re.compile(r"\s+-+\s+\w{1,4}")
 
-    m3u_content = "#EXTM3U\n"
-    json_matches = []
-    success_count = 0
+    for item in soup.css(".user-item"):
+        text_elem = item.css_first(".user-item__name")
+        subtext_elem = item.css_first(".user-item__playing")
+        link_elem = item.css_first("a[href]")
 
-    for idx, url in enumerate(match_links, 1):
-        raw_title = url.split('/')[-1].replace('.html', '').replace('%20', ' ')
-        print(f"[{idx}/{len(match_links)}] Memproses: {raw_title}")
+        if not (text_elem and subtext_elem and link_elem):
+            continue
 
-        team_a = raw_title
-        team_b = ""
-        if " vs " in raw_title.lower():
-            parts = re.split(r'\s+vs\s+', raw_title, flags=re.IGNORECASE)
-            if len(parts) >= 2:
-                team_a = parts[0].strip()
-                team_b = parts[1].strip()
+        if not (href := link_elem.attributes.get("href")):
+            continue
 
-        raw_m3u8 = extract_stream(url)
-        if raw_m3u8:
-            print(f"    └─ [OK] {raw_m3u8}")
-            
-            m3u_content += f"#EXTINF:-1, FawaNews - {raw_title}\n"
-            m3u_content += f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n"
-            m3u_content += f"#EXTVLCOPT:http-referrer={url}\n"
-            m3u_content += f"{raw_m3u8}\n"
+        link = urljoin(f"{response.url}", quote(href))
+        event_name = text_elem.text(strip=True)
+        details = subtext_elem.text(strip=True)
 
-            json_matches.append({
-                "status": "LIVE",
-                "Category": "Football",
-                "event_name": raw_title,
-                "timestamp": int(time.time()),
-                "eventInfo": {
-                    "teamA": team_a,
-                    "teamB": team_b,
-                    "teamAFlag": "",
-                    "teamBFlag": "",
-                    "eventName": "FawaNews Live",
-                    "event_logo": "",
-                    "startTime": time.strftime("%d/%m/%Y %I:%M:%S %p")
-                },
-                "streams": [
-                    {
-                        "channel_name": "FawaNews",
-                        "stream_url": raw_m3u8,
-                        "referer": url,
-                        "user_agent": HEADERS['User-Agent']
-                    }
-                ]
-            })
+        if not valid_event.search(details):
+            continue
 
-            success_count += 1
-        else:
-            print("    └─ [SKIP]")
+        sport = valid_event.split(details)[0].strip()
 
-    with open("bangke_list.m3u", "w", encoding="utf-8") as f:
-        f.write(m3u_content)
+        events.append(
+            {
+                "sport": sport,
+                "name": clean_event.sub("", event_name),
+                "link": link,
+            }
+        )
 
-    json_output = {
-        "name": "FawaNews Live and Upcoming Sports Data",
-        "owner": "Piyan BangkeTV",
-        "telegram_channel": "https://t.me/bangketv",
-        "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
-        "total_matches": len(match_links),
-        "live_match": success_count,
-        "matches": json_matches
-    }
-    
-    with open("fawanews.json", "w", encoding="utf-8") as f:
-        json.dump(json_output, f, ensure_ascii=False, indent=4)
+    return events
 
-    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
+
+def write_m3u(entries: list[dict[str, str]], filename: str = OUTPUT_M3U) -> None:
+    lines = ["#EXTM3U"]
+
+    for item in entries:
+        title = f"[{item['sport']}] {item['name']} ({TAG})"
+        lines.append(
+            f'#EXTINF:-1 tvg-id="{item["tvg-id"]}" group-title="{item["sport"]}",{title}'
+        )
+        lines.append(f'#EXTVLCOPT:http-referrer={item["refer"]}')
+        lines.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
+        lines.append(item["source"])
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+    log.info(f"Saved {len(entries)} stream(s) to '{filename}'")
+
+
+async def scrape() -> None:
+    log.info(f'Scraping from "{BASE_URL}"')
+
+    semaphore = asyncio.Semaphore(10)
+
+    async with httpx.AsyncClient(follow_redirects=True) as client:
+        events = await get_events(client)
+
+        if not events:
+            log.info("No events found")
+            write_m3u([])
+            return
+
+        log.info(f"Processing {len(events)} URL(s)...")
+
+        tasks = [
+            process_event(client, semaphore, ev, i)
+            for i, ev in enumerate(events, start=1)
+        ]
+
+        results = await asyncio.gather(*tasks)
+        valid_entries = [res for res in results if res is not None]
+
+    write_m3u(valid_entries)
+
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(scrape())
