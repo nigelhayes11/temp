@@ -1,36 +1,38 @@
-name: Auto Update Sports Playlists
+name: Update FAWA M3U
 
 on:
   schedule:
-    - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam sekali
-  workflow_dispatch: # Bisa dijalankan manual kapan saja
+    # Her 2 saatte bir otomatik çalışır (İsteğe göre düzenleyebilirsin)
+    - cron: "0 */2 * * *"
+  workflow_dispatch: # GitHub arayüzünden manuel tetikleme butonu ekler
+
+permissions:
+  contents: write # fawa.m3u dosyasını repoya pushlayabilmek için gerekli izin
 
 jobs:
-  update-sports:
+  scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - name: Checkout repository
+      - name: Depoyu çek (Checkout)
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Python 3.12 kur
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Gerekli kütüphaneleri yükle
         run: |
-          pip install requests beautifulsoup4
+          python -m pip install --upgrade pip
+          pip install httpx selectolax
 
-      - name: Run FawaNews Scraper
+      - name: Scraper scriptini çalıştır
         run: python fw.py
 
-     
-
-      - name: Commit & Push Sports Changes
+      - name: Güncellenen fawa.m3u dosyasını kaydet (Commit & Push)
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add bangke_list.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update sports playlists [skip ci]" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add fawa.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update fawa.m3u" && git push)
