@@ -25,6 +25,25 @@ HEADERS = {
 }
 
 
+async def try_extract(
+    client: httpx.AsyncClient,
+    target_id: str,
+    refer: str,
+) -> str | None:
+    try:
+        response = await client.get(
+            urljoin(BASE_URL, f"papi/extract-url/{target_id}"),
+            headers={**HEADERS, "Referer": refer},
+            timeout=20.0,
+        )
+        if response.status_code != 200:
+            return None
+        data = response.json() or {}
+        return data.get("sdUrl") or data.get("hlsUrl")
+    except Exception:
+        return None
+
+
 async def process_event(
     client: httpx.AsyncClient,
     semaphore: asyncio.Semaphore,
@@ -34,20 +53,13 @@ async def process_event(
     refer = urljoin(BASE_URL, f"embed/?id={event['stream_id']}")
 
     async with semaphore:
-        try:
-            response = await client.get(
-                urljoin(BASE_URL, f"papi/extract-url/{event['ppv_id']}"),
-                headers={**HEADERS, "Referer": refer},
-                timeout=25.0,
-            )
-            response.raise_for_status()
-            api_data = response.json() or {}
-        except Exception as e:
-            log.warning(f"URL {url_num}) Request failed ({event['name']}): {e}")
-            return None
+        m3u8 = None
+        for candidate_id in event["candidate_ids"]:
+            if m3u8 := await try_extract(client, candidate_id, refer):
+                break
 
-        if not (m3u8 := api_data.get("sdUrl") or api_data.get("hlsUrl")):
-            log.warning(f"URL {url_num}) No source found for {event['name']}")
+        if not m3u8:
+            log.warning(f"URL {url_num}) No M3U8 found -> {event['name']}")
             return None
 
         log.info(f"URL {url_num}) Captured M3U8 -> {event['name']}")
@@ -85,26 +97,38 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
         if not (name and sport and stream_id):
             continue
 
-        # Sadece canlı (live) veya yaklaşan (upcoming) yayınları al
-        if status not in ("live", "upcoming"):
+        # 24/7 kanalları atla
+        if str(stream_id).lower().startswith("247") or str(sport).startswith("24/7"):
             continue
 
-        # 24/7 kanalları atla (İstersen bu iki if bloğunu silebilirsin)
-        if str(stream_id).lower().startswith(("dl-", "247")):
-            continue
-        if str(sport).startswith("24/7") or str(event.get("category", "")).startswith("24/7"):
+        # Denenecek tüm olası yayın ID'lerini topla (ppvId, substreams, sources, tvChannels)
+        candidate_ids: list[str] = []
+
+        if ppv_id := event.get("ppvId"):
+            candidate_ids.append(str(ppv_id))
+
+        for sub in event.get("substreams") or []:
+            if isinstance(sub, dict) and sub.get("id"):
+                candidate_ids.append(str(sub["id"]))
+
+        for src in event.get("sources") or []:
+            if isinstance(src, dict) and src.get("id") and src["id"] != "s1":
+                candidate_ids.append(str(src["id"]))
+
+        for ch in event.get("tvChannels") or []:
+            if isinstance(ch, dict) and ch.get("id"):
+                candidate_ids.append(str(ch["id"]))
+
+        candidate_ids.append(str(stream_id))
+
+        # Tekrarlanan ID'leri sırayı bozmadan temizle
+        unique_ids = list(dict.fromkeys(candidate_ids))
+
+        # Sadece şu an canlı (live) olanları VEYA ppvId'si tanımlı yaklaşan maçları al
+        if status != "live" and not event.get("ppvId"):
             continue
 
-        # ppvId boşsa, substreams içindeki ilk id'yi veya ana stream_id'yi kullan
-        ppv_id = event.get("ppvId")
-        if not ppv_id:
-            substreams = event.get("substreams") or []
-            if substreams and isinstance(substreams[0], dict) and substreams[0].get("id"):
-                ppv_id = substreams[0]["id"]
-            else:
-                ppv_id = stream_id
-
-        sport = (
+        sport_clean = (
             " ".join(i.capitalize().strip() for i in sport.split("-"))
             if sport.islower()
             else sport
@@ -116,11 +140,11 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
 
         events.append(
             {
-                "sport": sport,
+                "sport": sport_clean,
                 "name": name,
                 "logo": poster,
                 "stream_id": stream_id,
-                "ppv_id": ppv_id,
+                "candidate_ids": unique_ids,
             }
         )
 
@@ -155,7 +179,7 @@ async def scrape() -> None:
         events = await get_events(client)
 
         if not events:
-            log.info("No events found")
+            log.info("No matching events found")
             write_m3u([])
             return
 
