@@ -2,7 +2,7 @@ import asyncio
 import logging
 import re
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 import httpx
 
@@ -51,7 +51,6 @@ async def extract_channel(
     stream_id: str,
     refer: str,
 ) -> str | None:
-    # 1. Olası kanal/yayın API uç noktalarını dene
     endpoints = [
         f"papi/channel/{channel_id}",
         f"papi/stream/{channel_id}",
@@ -85,7 +84,6 @@ async def extract_channel(
         except Exception:
             continue
 
-    # 2. Doğrudan embed sayfasının içindeki imzalı m3u8 linkini tara
     for embed_path in (f"embed/?id={stream_id}", f"embed/?c={channel_id}", f"c/{channel_id}"):
         try:
             r = await client.get(
@@ -114,11 +112,9 @@ async def process_event(
     async with semaphore:
         m3u8 = None
 
-        # Önce PPV ID varsa onu dene
         if event.get("ppv_id"):
             m3u8 = await extract_ppv(client, event["ppv_id"], refer)
 
-        # Yoksa tvChannels (d4a4fa01bf gibi) üzerinden dene
         if not m3u8 and event.get("channel_ids"):
             for ch_id in event["channel_ids"]:
                 if m3u8 := await extract_channel(client, ch_id, stream_id, refer):
@@ -134,7 +130,7 @@ async def process_event(
             "name": event["name"],
             "logo": event.get("logo") or "",
             "source": m3u8.strip(),
-            "refer": refer,
+            "refer": f"{BASE_URL}/",
             "tvg-id": "Live.Event.us",
         }
 
@@ -163,11 +159,9 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
         if not (name and sport and stream_id):
             continue
 
-        # 24/7 kanalları atla
         if str(stream_id).lower().startswith("247") or str(sport).startswith("24/7"):
             continue
 
-        # Sadece şu an canlı (live) olanları veya PPV tanımlı maçları al
         ppv_id = str(event.get("ppvId") or "").strip()
         channel_ids = [
             str(ch["id"])
@@ -204,16 +198,19 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
 
 def write_m3u(entries: list[dict[str, str]], filename: str = OUTPUT_M3U) -> None:
     lines = ["#EXTM3U"]
+    ua_encoded = quote(HEADERS["User-Agent"], safe="")
 
     for item in entries:
         title = f"[{item['sport']}] {item['name']} ({TAG})"
         logo_attr = f' tvg-logo="{item["logo"]}"' if item["logo"] else ""
+        ref_encoded = quote(item["refer"], safe="")
+
         lines.append(
             f'#EXTINF:-1 tvg-id="{item["tvg-id"]}"{logo_attr} group-title="{item["sport"]}",{title}'
         )
         lines.append(f'#EXTVLCOPT:http-referrer={item["refer"]}')
         lines.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
-        lines.append(item["source"])
+        lines.append(f'{item["source"]}|Referer={ref_encoded}&User-Agent={ua_encoded}')
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
