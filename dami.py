@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import re
 from typing import Any
 from urllib.parse import urljoin
 
@@ -25,23 +26,80 @@ HEADERS = {
 }
 
 
-async def try_extract(
+async def extract_ppv(
     client: httpx.AsyncClient,
-    target_id: str,
+    ppv_id: str,
     refer: str,
 ) -> str | None:
     try:
-        response = await client.get(
-            urljoin(BASE_URL, f"papi/extract-url/{target_id}"),
+        r = await client.get(
+            urljoin(BASE_URL, f"papi/extract-url/{ppv_id}"),
             headers={**HEADERS, "Referer": refer},
             timeout=20.0,
         )
-        if response.status_code != 200:
-            return None
-        data = response.json() or {}
-        return data.get("sdUrl") or data.get("hlsUrl")
+        if r.status_code == 200:
+            data = r.json() or {}
+            return data.get("sdUrl") or data.get("hlsUrl")
     except Exception:
-        return None
+        pass
+    return None
+
+
+async def extract_channel(
+    client: httpx.AsyncClient,
+    channel_id: str,
+    stream_id: str,
+    refer: str,
+) -> str | None:
+    # 1. Olası kanal/yayın API uç noktalarını dene
+    endpoints = [
+        f"papi/channel/{channel_id}",
+        f"papi/stream/{channel_id}",
+        f"papi/c/{channel_id}",
+        f"papi/tv/{channel_id}",
+        f"papi/extract-url/{channel_id}",
+        f"papi/source/{stream_id}",
+    ]
+
+    for ep in endpoints:
+        try:
+            r = await client.get(
+                urljoin(BASE_URL, ep),
+                headers={**HEADERS, "Referer": refer},
+                timeout=15.0,
+            )
+            if r.status_code == 200:
+                text = r.text
+                if ".m3u8" in text:
+                    if m := re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', text):
+                        return m.group(0)
+                try:
+                    data = r.json()
+                    if isinstance(data, dict):
+                        for key in ("url", "hlsUrl", "sdUrl", "stream", "src", "file"):
+                            if val := data.get(key):
+                                if ".m3u8" in str(val):
+                                    return str(val)
+                except Exception:
+                    pass
+        except Exception:
+            continue
+
+    # 2. Doğrudan embed sayfasının içindeki imzalı m3u8 linkini tara
+    for embed_path in (f"embed/?id={stream_id}", f"embed/?c={channel_id}", f"c/{channel_id}"):
+        try:
+            r = await client.get(
+                urljoin(BASE_URL, embed_path),
+                headers={**HEADERS, "Referer": BASE_URL},
+                timeout=15.0,
+            )
+            if r.status_code == 200:
+                if m := re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', r.text):
+                    return m.group(0)
+        except Exception:
+            continue
+
+    return None
 
 
 async def process_event(
@@ -50,13 +108,21 @@ async def process_event(
     event: dict[str, Any],
     url_num: int,
 ) -> dict[str, str] | None:
-    refer = urljoin(BASE_URL, f"embed/?id={event['stream_id']}")
+    stream_id = event["stream_id"]
+    refer = urljoin(BASE_URL, f"embed/?id={stream_id}")
 
     async with semaphore:
         m3u8 = None
-        for candidate_id in event["candidate_ids"]:
-            if m3u8 := await try_extract(client, candidate_id, refer):
-                break
+
+        # Önce PPV ID varsa onu dene
+        if event.get("ppv_id"):
+            m3u8 = await extract_ppv(client, event["ppv_id"], refer)
+
+        # Yoksa tvChannels (d4a4fa01bf gibi) üzerinden dene
+        if not m3u8 and event.get("channel_ids"):
+            for ch_id in event["channel_ids"]:
+                if m3u8 := await extract_channel(client, ch_id, stream_id, refer):
+                    break
 
         if not m3u8:
             log.warning(f"URL {url_num}) No M3U8 found -> {event['name']}")
@@ -101,31 +167,15 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
         if str(stream_id).lower().startswith("247") or str(sport).startswith("24/7"):
             continue
 
-        # Denenecek tüm olası yayın ID'lerini topla (ppvId, substreams, sources, tvChannels)
-        candidate_ids: list[str] = []
+        # Sadece şu an canlı (live) olanları veya PPV tanımlı maçları al
+        ppv_id = str(event.get("ppvId") or "").strip()
+        channel_ids = [
+            str(ch["id"])
+            for ch in (event.get("tvChannels") or [])
+            if isinstance(ch, dict) and ch.get("id")
+        ]
 
-        if ppv_id := event.get("ppvId"):
-            candidate_ids.append(str(ppv_id))
-
-        for sub in event.get("substreams") or []:
-            if isinstance(sub, dict) and sub.get("id"):
-                candidate_ids.append(str(sub["id"]))
-
-        for src in event.get("sources") or []:
-            if isinstance(src, dict) and src.get("id") and src["id"] != "s1":
-                candidate_ids.append(str(src["id"]))
-
-        for ch in event.get("tvChannels") or []:
-            if isinstance(ch, dict) and ch.get("id"):
-                candidate_ids.append(str(ch["id"]))
-
-        candidate_ids.append(str(stream_id))
-
-        # Tekrarlanan ID'leri sırayı bozmadan temizle
-        unique_ids = list(dict.fromkeys(candidate_ids))
-
-        # Sadece şu an canlı (live) olanları VEYA ppvId'si tanımlı yaklaşan maçları al
-        if status != "live" and not event.get("ppvId"):
+        if status != "live" and not ppv_id:
             continue
 
         sport_clean = (
@@ -143,8 +193,9 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
                 "sport": sport_clean,
                 "name": name,
                 "logo": poster,
-                "stream_id": stream_id,
-                "candidate_ids": unique_ids,
+                "stream_id": str(stream_id),
+                "ppv_id": ppv_id,
+                "channel_ids": channel_ids,
             }
         )
 
