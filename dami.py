@@ -1,48 +1,4 @@
-import asyncio
-import logging
-from typing import Any
-from urllib.parse import urljoin
 
-import httpx
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%H:%M:%S",
-)
-log = logging.getLogger("DAMITV")
-
-TAG = "DAMITV"
-BASE_URL = "https://damitv.st"
-OUTPUT_M3U = "dami.m3u"
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    )
-}
-
-
-async def process_event(
-    client: httpx.AsyncClient,
-    semaphore: asyncio.Semaphore,
-    event: dict[str, Any],
-    url_num: int,
-) -> dict[str, str] | None:
-    refer = urljoin(BASE_URL, f"embed/?id={event['stream_id']}")
-
-    async with semaphore:
-        try:
-            response = await client.get(
-                urljoin(BASE_URL, f"papi/extract-url/{event['ppv_id']}"),
-                headers={**HEADERS, "Referer": refer},
-                timeout=25.0,
-            )
-            response.raise_for_status()
-            api_data = response.json() or {}
-        except Exception as e:
             log.warning(f"URL {url_num}) Request failed ({event['name']}): {e}")
             return None
 
