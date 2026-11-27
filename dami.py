@@ -1,6 +1,5 @@
 import asyncio
 import logging
-from datetime import datetime, timedelta, timezone
 from typing import Any
 from urllib.parse import urljoin
 
@@ -32,78 +31,78 @@ async def process_event(
     event: dict[str, Any],
     url_num: int,
 ) -> dict[str, str] | None:
-    refer_url = urljoin(BASE_URL, f"embed/?id={event['stream_id']}")
-    api_url = urljoin(BASE_URL, f"papi/extract-url/{event['ppv_id']}")
+    refer = urljoin(BASE_URL, f"embed/?id={event['stream_id']}")
 
     async with semaphore:
         try:
             response = await client.get(
-                api_url,
-                headers={**HEADERS, "Referer": refer_url},
+                urljoin(BASE_URL, f"papi/extract-url/{event['ppv_id']}"),
+                headers={**HEADERS, "Referer": refer},
                 timeout=25.0,
             )
             response.raise_for_status()
             api_data = response.json() or {}
         except Exception as e:
-            log.warning(f"URL {url_num}) Request failed: {e}")
+            log.warning(f"URL {url_num}) Request failed ({event['name']}): {e}")
             return None
 
         if not (m3u8 := api_data.get("sdUrl") or api_data.get("hlsUrl")):
-            log.warning(f"URL {url_num}) No source found -> {event['name']}")
+            log.warning(f"URL {url_num}) No source found for {event['name']}")
             return None
 
         log.info(f"URL {url_num}) Captured M3U8 -> {event['name']}")
-
         return {
             "sport": event["sport"],
             "name": event["name"],
             "logo": event.get("logo") or "",
             "source": m3u8.strip(),
-            "refer": refer_url,
+            "refer": refer,
             "tvg-id": "Live.Event.us",
         }
 
 
 async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
-    now = datetime.now(timezone.utc)
-    start_dt = now - timedelta(minutes=30)
-    end_dt = now + timedelta(minutes=30)
-
     events: list[dict[str, Any]] = []
 
     try:
         response = await client.get(
             urljoin(BASE_URL, "papi/matches/all-today"),
             headers=HEADERS,
-            timeout=20.0,
+            timeout=15.0,
         )
         response.raise_for_status()
         api_data: list[dict[str, Any]] = response.json() or []
     except Exception as e:
-        log.error(f"Failed to fetch matches API: {e}")
+        log.error(f"Failed to fetch API data: {e}")
         return events
 
     for event in api_data:
-        if not isinstance(event, dict):
+        name = event.get("title")
+        sport = event.get("league") or event.get("category")
+        stream_id = event.get("id")
+        status = str(event.get("status", "")).lower()
+
+        if not (name and sport and stream_id):
             continue
 
-        if not all(
-            values := [
-                event.get(x)
-                for x in ("title", "league", "date", "id", "ppvId")
-            ]
-        ):
+        # Sadece canlı (live) veya yaklaşan (upcoming) yayınları al
+        if status not in ("live", "upcoming"):
             continue
 
-        name, sport, start_ts, stream_id, ppv_id = values
-        stream_id = str(stream_id)
-        sport = str(sport)
-
-        if stream_id.lower().startswith(("dl-", "247")):
+        # 24/7 kanalları atla (İstersen bu iki if bloğunu silebilirsin)
+        if str(stream_id).lower().startswith(("dl-", "247")):
+            continue
+        if str(sport).startswith("24/7") or str(event.get("category", "")).startswith("24/7"):
             continue
 
-        if sport.startswith("24/7"):
-            continue
+        # ppvId boşsa, substreams içindeki ilk id'yi veya ana stream_id'yi kullan
+        ppv_id = event.get("ppvId")
+        if not ppv_id:
+            substreams = event.get("substreams") or []
+            if substreams and isinstance(substreams[0], dict) and substreams[0].get("id"):
+                ppv_id = substreams[0]["id"]
+            else:
+                ppv_id = stream_id
 
         sport = (
             " ".join(i.capitalize().strip() for i in sport.split("-"))
@@ -111,26 +110,17 @@ async def get_events(client: httpx.AsyncClient) -> list[dict[str, Any]]:
             else sport
         )
 
-        try:
-            event_ts = int(str(start_ts)[:-3])
-            event_dt = datetime.fromtimestamp(event_ts, tz=timezone.utc)
-        except (ValueError, TypeError):
-            continue
-
-        # Sadece başlamasına 30 dk kalan veya başlayalı 30 dk olan canlı maçları al
-        if not (start_dt <= event_dt <= end_dt):
-            continue
-
-        if poster := event.get("poster"):
-            poster = poster if poster.startswith("http") else urljoin(BASE_URL, poster)
+        poster = event.get("poster") or ""
+        if poster and not poster.startswith("http"):
+            poster = urljoin(BASE_URL, poster)
 
         events.append(
             {
                 "sport": sport,
-                "name": str(name),
-                "logo": poster or "",
+                "name": name,
+                "logo": poster,
                 "stream_id": stream_id,
-                "ppv_id": str(ppv_id),
+                "ppv_id": ppv_id,
             }
         )
 
@@ -165,11 +155,11 @@ async def scrape() -> None:
         events = await get_events(client)
 
         if not events:
-            log.info("No active events found in the +/- 30 min window")
+            log.info("No events found")
             write_m3u([])
             return
 
-        log.info(f"Processing {len(events)} URL(s)...")
+        log.info(f"Processing {len(events)} event(s)...")
 
         tasks = [
             process_event(client, semaphore, ev, i)
